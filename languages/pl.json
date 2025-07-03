@@ -1,0 +1,20 @@
+{
+    "menu": {
+        "items": [
+            {"name": "Oferta", "link": "#oferta"},
+            {"name": "Portfolio", "link": "/portfolio"},
+            {"name": "Blog", "link": "/blog"},
+            {"name": "Kontakt", "link": "/#kontakt"}
+        ],
+        "pricing": "Zapytaj o wycenę"
+    },
+    
+    "mainSite": {
+        "header": {
+            "title": "Tworzymy profesjonalne strony internetowe dla firm",
+            "content": "Tworzymy od podstaw profesjonalne i wpadające w oko strony i sklepy internetowe oraz aplikacje mobilne. Korzystamy z najnowszych technologii, aby dostarczyć jak najlepszy produkt.",
+            "imageAlt": "Zdjęcie tła firmy tworzącej profesjonalne strony internetowe dla firm",
+            "button": ["Wycenimy twój projekt w 24h - przeprowadzimy Cię przez cały proces", "Kliknij aby odebrać darmową wycenę"]
+        }
+    }
+}

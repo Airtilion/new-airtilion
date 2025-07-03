@@ -1,0 +1,23 @@
+{
+  "menu": {
+    "items": [
+      { "name": "Offer", "link": "#oferta" },
+      { "name": "Portfolio", "link": "/portfolio" },
+      { "name": "Blog", "link": "/blog" },
+      { "name": "Contact", "link": "/#kontakt" }
+    ],
+    "pricing": "Ask for a quote"
+  },
+
+  "mainsite": {
+    "header": {
+      "title": "We create professional websites for businesses",
+      "content": "We build professional and eye-catching websites, online stores, and mobile apps from scratch. We use the latest technologies to deliver the best possible product.",
+      "imageAlt": "Background image of a company creating professional websites for businesses",
+      "button": [
+        "We’ll estimate your project within 24h – and guide you through the whole process",
+        "Click to get your free quote"
+      ]
+    }
+  }
+}

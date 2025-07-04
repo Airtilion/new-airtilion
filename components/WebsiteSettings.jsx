@@ -3,12 +3,12 @@ import { useThemeContext } from '@context/ThemeContext';
 import { useLanguage } from '@context/LanguageContext';
 import { Icon } from '@iconify/react';
 
-export default function WebsiteSettings() {
+export default function WebsiteSettings({index}) {
   const { theme, toggleTheme } = useThemeContext();
   const { lang, toggleLanguage } = useLanguage();
 
   return (
-    <div className="bg-gradient-to-l from-[#000000] to-[#E28350] rounded-full flex gap-2 h-[50px] px-[12px] py-[8px]">
+    <div className="bg-gradient-to-l from-[#000000] to-[#E28350] rounded-full flex gap-2 h-[50px] px-[12px] py-[8px] opacity-0 translate-y-animation" style={{animationDelay: (index+1) * 100 + 'ms'}}>
       <button onClick={toggleTheme} className="bg-[#00000040] rounded-full flex items-center gap-[8px] px-[8px] relative">
         <Icon icon="solar:moon-bold" width="20" height="20" className="text-white dark:text-[#E28350] z-[1]" />
         <Icon icon="tabler:sun-filled" width="20" height="20" className="text-[#E28350] dark:text-white z-[1]" />

@@ -1,5 +1,6 @@
 import { Montserrat } from 'next/font/google';
 import '@styles/globals.css';
+import '@styles/animations.css';
 import Navbar from '@components/Navbar';
 import { ThemeProvider } from '@context/ThemeContext';
 import { LanguageProvider } from '@context/LanguageContext';
@@ -12,7 +13,7 @@ export default function RootLayout({ children }) {
 
   return (
     <html className="dark">
-      <body className={`${montserrat.className} antialiased dark:bg-[#000] dark:text-white`}>
+      <body className={`${montserrat.className} antialiased dark:bg-[#000] dark:text-white max-2xl:dark:bg-red-600`}>
         <ThemeProvider>
           <LanguageProvider initialLang={initialLang}>
             <Navbar />

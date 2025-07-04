@@ -1,0 +1,80 @@
+/*Animacje navbar*/
+
+.translate-y-animation{animation: a-translate-y 2000ms ease-in-out forwards;}
+
+@keyframes a-translate-y{
+    from {transform: translateY(-30px); opacity: 0;}
+    to{transform: translateX(0); opacity: 1;}
+}
+
+/*Animacje header*/
+
+.opacity-animation{animation: a-opacity 2000ms ease-in-out}
+
+@keyframes a-opacity{
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+.translate-x-animation{animation: a-translate-x 2000ms ease-in-out forwards;}
+
+@keyframes a-translate-x{
+    from {transform: translateX(-50px); opacity: 0;}
+    to{transform: translateX(0); opacity: 1;}
+}
+
+.translate-x-animation{animation: a-translate-x 2000ms ease-in-out forwards;}
+
+@keyframes a-translate-x{
+    from {transform: translateX(-50px); opacity: 0;}
+    to{transform: translateX(0); opacity: 1;}
+}
+
+.expand {
+  max-width: 90%;
+  overflow: hidden;
+  animation: expandWidth 2s ease-in-out forwards;
+}
+
+@keyframes expandWidth {
+  from {
+    max-width: 90%;
+    opacity: 0;
+  }
+  to {
+    max-width: 100%;
+    opacity: 1;
+  }
+}
+
+/* Animacja dla ładowania od boku */
+
+.element-visible-right {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.element-hidden-right {
+  opacity: 0;
+  transform: translateX(50px);
+}
+
+.element-visible-left {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.element-hidden-left {
+  opacity: 0;
+  transform: translateX(-50px);
+}
+
+.element-visible-bottom {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.element-hidden-bottom {
+  opacity: 0;
+  transform: translateY(50px);
+}

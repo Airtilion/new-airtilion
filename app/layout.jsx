@@ -13,7 +13,7 @@ export default function RootLayout({ children }) {
 
   return (
     <html className="dark">
-      <body className={`${montserrat.className} antialiased dark:bg-[#000] dark:text-white max-2xl:dark:bg-red-600`}>
+      <body className={`${montserrat.className} antialiased dark:bg-[#000] dark:text-white`}>
         <ThemeProvider>
           <LanguageProvider initialLang={initialLang}>
             <Navbar />

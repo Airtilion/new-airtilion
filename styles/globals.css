@@ -10,3 +10,43 @@ body {
 button {
     cursor: pointer;
 }
+
+/* ---------- menu - hamburger ---------- */
+
+.hamburger-menu.active>span:first-child {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(45deg);
+  position: absolute;
+}
+
+.hamburger-menu.active>span:nth-child(2) {
+  display: none;
+}
+
+.hamburger-menu.active>span:last-child {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(-45deg);
+  position: absolute;
+}
+
+.menu-mobile li,
+.menu-mobile button,
+.menu-mobile div {
+  animation: showMenu 1s ease-in-out forwards;
+  transform: translateX(-50px);
+  opacity: 0;
+}
+
+@keyframes showMenu {
+  0% {
+    opacity: 0;
+    transform: translateX(-50px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}

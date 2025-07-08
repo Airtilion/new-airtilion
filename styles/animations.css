@@ -16,10 +16,10 @@
     to {opacity: 1;}
 }
 
-.translate-x-animation{animation: a-translate-x 2000ms ease-in-out forwards;}
+.translate-x-animation-r{animation: a-translate-x 2000ms ease-in-out forwards;}
 
-@keyframes a-translate-x{
-    from {transform: translateX(-50px); opacity: 0;}
+@keyframes a-translate-x-r{
+    from {transform: translateX(50px); opacity: 0;}
     to{transform: translateX(0); opacity: 1;}
 }
 
@@ -77,4 +77,32 @@
 .element-hidden-bottom {
   opacity: 0;
   transform: translateY(50px);
+}
+
+.element-visible-top {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.element-hidden-top {
+  opacity: 0;
+  transform: translateY(-50px);
+}
+
+.element-visible-opacity {
+  opacity: 1;
+}
+
+.element-hidden-opacity {
+  opacity: 0;
+}
+
+/*sekcja z firmami*/
+
+@keyframes scroll {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+.animate-scroll {
+  animation: scroll 40s linear infinite alternate;
 }

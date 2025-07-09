@@ -3,12 +3,17 @@
 @custom-variant dark (&:where(.dark, .dark *));
 
 body {
-    line-height: 1.3;
-    transition-duration: 500ms;
+  line-height: 1.3;
+  transition-duration: 500ms;
+}
+
+p {
+  font-weight: 300;
+  color: #DBDBDB;
 }
 
 button {
-    cursor: pointer;
+  cursor: pointer;
 }
 
 /* ---------- menu - hamburger ---------- */
@@ -49,4 +54,22 @@ button {
     opacity: 1;
     transform: translateX(0);
   }
+}
+
+/*gradienty*/
+
+.heading-gradient-gray {
+  background: linear-gradient(90deg, #ffffff, #999999);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.radial-gradient {
+  background: radial-gradient(circle, rgba(0, 0, 0, 0) 61%, rgba(226, 131, 80, 0.8) 80%, rgba(226, 131, 80, 0) 100%);
+  box-shadow: 0px 4px 3000px #e28350b1;
+  filter: blur(1.5px);
+}
+
+.radial-line{
+  background: radial-gradient(circle, #E28350 0%, #E2835000 100%);
 }

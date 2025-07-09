@@ -15,6 +15,23 @@
             "content": "Tworzymy od podstaw profesjonalne i wpadające w oko strony i sklepy internetowe oraz aplikacje mobilne. Korzystamy z najnowszych technologii, aby dostarczyć jak najlepszy produkt.",
             "imageAlt": "Zdjęcie tła firmy tworzącej profesjonalne strony internetowe dla firm",
             "button": ["Wycenimy twój projekt w 24h - przeprowadzimy Cię przez cały proces", "Kliknij aby odebrać darmową wycenę"]
+        },
+
+        "introduction": {
+            "alts": ["Laptop ucięty w połowie jako pierwsza część zdjęcia przedstajajcego artytstyczne ułożenie urządzenia do tworzenia profesjonalnych stron internetowych dla firm",  "Laptop ucięty w połowie jako druga część zdjęcia przedstajajcego artytstyczne ułożenie urządzenia do tworzenia profesjonalnych stron internetowych dla firm"],
+            "title": "Każda strona internetowa to nowoczesne dzieło sztuki",
+            "content": "Tworzymy kompleksowe rozwiązania cyfrowe: nowoczesne i eleganckie strony internetowe, w pełni funkcjonalne sklepy online oraz intuicyjne aplikacje webowe, precyzyjnie dopasowane do indywidualnych potrzeb każdego klienta. Łączymy estetykę i przejrzystość interfejsu z zaawansowaną technologią, dzięki czemu nasze produkty nie tylko przyciągają uwagę, ale przede wszystkim wspierają rozwój biznesu, zwiększając konwersję i angażując użytkowników. Każdy projekt to dla nas opowieść o sukcesie – od fazy koncepcji, przez design, aż po wdrożenie i opiekę powdrożeniową. Wykorzystujemy najnowsze narzędzia i frameworki, a nasze rozwiązania są skalowalne, bezpieczne i zoptymalizowane pod kątem SEO."
+        },
+
+        "portfolio": {
+            "title": "Efekt powstały z wizji - nasze ostatnie projekty",
+            "content": [
+                "W Airtilion wierzymy, że dobrze zaprojektowany interfejs to nie tylko kwestia estetyki — to narzędzie, które realnie wspiera cele biznesowe naszych klientów. Każdy projekt w naszym portfolio to efekt ścisłej współpracy, głębokiego zrozumienia potrzeb i dbałości o każdy szczegół — od koncepcji, przez design, aż po kod i wdrożenie.", 
+                "Zrealizowaliśmy dziesiątki projektów, które łączy jedno: jakość i funkcjonalność. Tworzymy nowoczesne strony internetowe, e‑commerce’y, aplikacje webowe, a także kompleksowe systemy dostosowane do specyficznych branżowych wymagań. Nasze realizacje powstają z myślą o użytkowniku końcowym — są szybkie, intuicyjne, responsywne i zoptymalizowane pod SEO."
+            ],
+            "button": "Przejdź do pełnego portfolio",
+            "afterContent": "Każdy projekt to szyte na miarę rozwiązanie – niezależnie od tego, czy budujemy landing page, duży portal, czy rozbudowaną platformę dla startupu lub organizacji.",
+            "alt": "Rozmazane zdjęcie przedstawiające profesjonalną stronę internetową firmy wyświetloną na laptopie"
         }
     }
 }

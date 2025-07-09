@@ -106,3 +106,22 @@
 .animate-scroll {
   animation: scroll 40s linear infinite alternate;
 }
+
+/*sekcja introduction*/
+
+.introduction-hidden .img-1{opacity: 0; transform: translateY(-50px);}
+.introduction-visible .img-1{opacity: 1; transform: translateY(0);}
+
+.introduction-hidden .img-2{opacity: 0; transform: translateY(50px);}
+.introduction-visible .img-2{opacity: 1; transform: translateY(0);}
+
+.introduction-hidden h2{opacity: 0; transform: translateX(-50px);}
+.introduction-visible h2{opacity: 1; transform: translateX(0);}
+
+.introduction-hidden .content{opacity: 0; transform: translateX(50px);}
+.introduction-visible .content{opacity: 1; transform: translateX(0);}
+
+/*sekcja portfolio*/
+
+.portfolio-hidden .animation-left{opacity: 0; transform: translateX(-50px);}
+.portfolio-visible .animation-left{opacity: 1; transform: translateX(0px);}

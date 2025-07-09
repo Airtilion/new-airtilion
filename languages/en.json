@@ -1,14 +1,25 @@
 {
   "menu": {
     "items": [
-      { "name": "Offer", "link": "#oferta" },
-      { "name": "Portfolio", "link": "/portfolio" },
-      { "name": "Blog", "link": "/blog" },
-      { "name": "Contact", "link": "/#kontakt" }
+      {
+        "name": "Offer",
+        "link": "#oferta"
+      },
+      {
+        "name": "Portfolio",
+        "link": "/portfolio"
+      },
+      {
+        "name": "Blog",
+        "link": "/blog"
+      },
+      {
+        "name": "Contact",
+        "link": "/#kontakt"
+      }
     ],
     "pricing": "Ask for a quote"
   },
-
   "mainsite": {
     "header": {
       "title": "We create professional websites for businesses",
@@ -18,6 +29,26 @@
         "We’ll estimate your project within 24h – and guide you through the whole process",
         "Click to get your free quote"
       ]
+    },
+    
+    "introduction": {
+      "alts": [
+        "Half-cut laptop as the first part of an image showcasing an artistic arrangement of a device used to create professional business websites",
+        "Half-cut laptop as the second part of an image showcasing an artistic arrangement of a device used to create professional business websites"
+      ],
+      "title": "Every website is a modern work of art",
+      "content": "We create comprehensive digital solutions: modern and elegant websites, fully functional online stores, and intuitive web applications — all precisely tailored to the individual needs of each client. We combine visual aesthetics and clean interfaces with advanced technology, ensuring that our products not only attract attention but, above all, support business growth by increasing conversions and engaging users. Every project is a story of success — from concept and design to implementation and post-launch support. We leverage the latest tools and frameworks, delivering scalable, secure, and SEO-optimized solutions."
+    },
+
+    "portfolio": {
+      "title": "Vision Realized – Our Latest Projects",
+      "content": [
+        "At Airtilion, we believe that a well‑designed interface is more than just aesthetics — it’s a tool that genuinely supports our clients’ business goals. Every project in our portfolio is the result of close collaboration, a deep understanding of needs, and meticulous attention to detail — from concept and design through to code and deployment.",
+        "We’ve delivered dozens of projects united by one principle: quality and functionality. We build modern websites, e‑commerce platforms, web applications, and comprehensive systems tailored to specific industry requirements. Our solutions are created with the end user in mind — they’re fast, intuitive, responsive, and SEO‑optimized."
+      ],
+      "button": "View Full Portfolio",
+      "afterContent": "Each project is a custom‑made solution — whether we’re crafting a landing page, a large portal, or a sophisticated platform for a startup or organization.",
+      "alt": "A blurred photo showing a professional company website displayed on a laptop"
     }
   }
 }

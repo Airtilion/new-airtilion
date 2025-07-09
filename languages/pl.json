@@ -45,6 +45,13 @@
                 "Laptop z profesjonalną stroną internetową dla firmy",
                 "Telefony z profesjonalnymi stronami internetowymi i aplikacjami mobilnymi dla firm"
             ]
+        },
+
+        "cta": {
+            "title": "Skorzystaj z darmowej wyceny",
+            "content": "Zawsze jesteśmy gotowi, żeby stworzyć dla Ciebie idealny produkt. Zamów darmową wycenę swojego projektu, a my odezwiemy się w ciągu 24h lub w najbliższym dniu roboczym. Marzysz o swojej własnej stronie, ale jeszcze nie wiesz czego dokładnie potrzebujesz? Nie przejmuj się, doradzimy i przeprowadzimy Cię przez wszystkie etapy.",
+            "button": "Zamów darmową wycenę",
+            "alt": "Zdjęcie przedstawiające lwa promującego profesjonalne strony internetowe dla firm"
         }
     }
 }

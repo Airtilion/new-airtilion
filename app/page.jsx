@@ -7,6 +7,7 @@ import Introduction from '@components/home/Introduction';
 import Portoflio from '@components/home/Portfolio/Portoflio';
 import Information from '@components/home/Information';
 import CallToAction from '@components/home/CallToAction';
+import CustomCooperate from '@components/CustomCooperate';
 // import StarsCanvas from '@components/StartsBg';
 
 export default function Home() {
@@ -17,6 +18,7 @@ export default function Home() {
   const introductionDict = dict.introduction;
   const portfolioDict = dict.portfolio;
   const informationDict = dict.information;
+  const ctaDict = dict.cta
 
   return (
     <>
@@ -27,7 +29,7 @@ export default function Home() {
         <Introduction dict={introductionDict}/>
         <Portoflio dict={portfolioDict}/>
         <Information dict={informationDict}/>
-        <CallToAction/>
+        <CallToAction dict={ctaDict}/>
       </main>
     </>
   );

@@ -59,6 +59,12 @@
         "Laptop displaying a professional company website",
         "Phones showing professional company websites and mobile apps"
       ]
+    },
+    "cta": {
+      "title": "Get a Free Quote",
+      "content": "We're always ready to create the perfect product for you. Request a free quote for your project, and we'll get back to you within 24 hours or on the next business day. Dreaming of your own website but not sure where to start? Don’t worry — we’ll guide you through every step and help you make the right decisions.",
+      "button": "Request a Free Quote",
+      "alt": "Image of a lion promoting professional websites for businesses"
     }
   }
 }

@@ -58,6 +58,11 @@ button {
 
 /*gradienty*/
 
+.primary-gradient{
+  background: linear-gradient(90deg, #000000 0%, #E28350 100%);
+}
+
+
 .heading-gradient-gray {
   background: linear-gradient(90deg, #ffffff, #999999);
   -webkit-background-clip: text;
@@ -72,4 +77,40 @@ button {
 
 .radial-line{
   background: radial-gradient(circle, #E28350 0%, #E2835000 100%);
+}
+
+
+/* Panel kontaktowy (startuje poza ekranem) */
+.contact-panel {
+  position: fixed;
+  inset: 0;
+  z-index: 50;
+  overflow-y: auto;
+}
+
+.slide-up{animation: slideUp 0.6s ease-in-out forwards;}
+.slide-down{animation: slideDown 0.6s ease-in-out forwards;}
+
+/* Animacja wysuwania */
+@keyframes slideUp {
+  from {
+    transform: translateY(100%);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
+
+@keyframes slideDown {
+  from {
+    transform: translateY(0%);
+  }
+  to {
+    transform: translateY(100%);
+  }
+}
+
+.footer-hidden, .nav-hidden{
+  opacity: 0;
+  pointer-events: none;
 }

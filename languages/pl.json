@@ -32,6 +32,19 @@
             "button": "Przejdź do pełnego portfolio",
             "afterContent": "Każdy projekt to szyte na miarę rozwiązanie – niezależnie od tego, czy budujemy landing page, duży portal, czy rozbudowaną platformę dla startupu lub organizacji.",
             "alt": "Rozmazane zdjęcie przedstawiające profesjonalną stronę internetową firmy wyświetloną na laptopie"
+        },
+
+        "information": {
+            "tag": "O produktach",
+            "title": "Tworzymy przyszłość internetu",
+            "content": [
+                "Każdy projekt powstaje od podstaw, bez użycia gotowych szablonów – tworzymy unikalne strony w oparciu o indywidualne potrzeby klienta, wykorzystując wydajne technologie takie jak React.js, Next.js, headless WordPress czy WooCommerce, a w razie potrzeby również aplikacje mobilne w React Native.",
+                "Stawiamy na jakość ponad ilość – każda realizacja jest dopracowana pod kątem użyteczności, wydajności i optymalizacji SEO, dzięki czemu Twoja strona lub sklep działa bez zarzutu od pierwszego dnia. Po wdrożeniu nie zostawiamy Cię samemu sobie – oferujemy stałą opiekę serwisową w formie miesięcznego abonamentu, w ramach którego na bieżąco rozwijamy funkcje, aktualizujemy treści i zapewniamy wsparcie techniczne w czasie rzeczywistym."
+            ],
+            "alts": [
+                "Laptop z profesjonalną stroną internetową dla firmy",
+                "Telefony z profesjonalnymi stronami internetowymi i aplikacjami mobilnymi dla firm"
+            ]
         }
     }
 }

@@ -6,6 +6,7 @@ import CompaniesSlider from '@components/home/CompaniesSlider';
 import Introduction from '@components/home/Introduction';
 import Portoflio from '@components/home/Portfolio/Portoflio';
 import Information from '@components/home/Information';
+import CallToAction from '@components/home/CallToAction';
 // import StarsCanvas from '@components/StartsBg';
 
 export default function Home() {
@@ -15,16 +16,18 @@ export default function Home() {
   const headerDict = dict.header;
   const introductionDict = dict.introduction;
   const portfolioDict = dict.portfolio;
+  const informationDict = dict.information;
 
   return (
     <>
       {/* <StarsCanvas /> */}
       <Header bg={bg} title={headerDict.title} content={headerDict.content} imageAlt={headerDict.imageAlt} buttonText={headerDict.button}/>
-      <main className='flex flex-col gap-[192px]'>
+      <main className='flex flex-col gap-[192px] overflow-hidden'>
         <CompaniesSlider/>
         <Introduction dict={introductionDict}/>
         <Portoflio dict={portfolioDict}/>
-        <Information/>
+        <Information dict={informationDict}/>
+        <CallToAction/>
       </main>
     </>
   );

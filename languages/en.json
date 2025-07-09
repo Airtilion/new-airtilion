@@ -30,7 +30,6 @@
         "Click to get your free quote"
       ]
     },
-    
     "introduction": {
       "alts": [
         "Half-cut laptop as the first part of an image showcasing an artistic arrangement of a device used to create professional business websites",
@@ -39,7 +38,6 @@
       "title": "Every website is a modern work of art",
       "content": "We create comprehensive digital solutions: modern and elegant websites, fully functional online stores, and intuitive web applications — all precisely tailored to the individual needs of each client. We combine visual aesthetics and clean interfaces with advanced technology, ensuring that our products not only attract attention but, above all, support business growth by increasing conversions and engaging users. Every project is a story of success — from concept and design to implementation and post-launch support. We leverage the latest tools and frameworks, delivering scalable, secure, and SEO-optimized solutions."
     },
-
     "portfolio": {
       "title": "Vision Realized – Our Latest Projects",
       "content": [
@@ -49,6 +47,18 @@
       "button": "View Full Portfolio",
       "afterContent": "Each project is a custom‑made solution — whether we’re crafting a landing page, a large portal, or a sophisticated platform for a startup or organization.",
       "alt": "A blurred photo showing a professional company website displayed on a laptop"
+    },
+    "information": {
+      "tag": "About Our Products",
+      "title": "We Build the Future of the Internet",
+      "content": [
+        "Every project is built from the ground up, without using pre-made templates — we create unique websites tailored to the individual needs of our clients, using high-performance technologies like React.js, Next.js, headless WordPress, or WooCommerce, and mobile apps in React Native when needed.",
+        "We prioritize quality over quantity — each solution is refined in terms of usability, performance, and SEO optimization, ensuring your website or store runs flawlessly from day one. And after launch, you’re not on your own — we offer ongoing maintenance through a monthly subscription that includes continuous feature development, content updates, and real-time technical support."
+      ],
+      "alts": [
+        "Laptop displaying a professional company website",
+        "Phones showing professional company websites and mobile apps"
+      ]
     }
   }
 }

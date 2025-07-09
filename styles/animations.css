@@ -125,3 +125,11 @@
 
 .portfolio-hidden .animation-left{opacity: 0; transform: translateX(-50px);}
 .portfolio-visible .animation-left{opacity: 1; transform: translateX(0px);}
+
+/*sekcja informacje o ofercie*/
+
+.information-hidden .animation-left{opacity: 0; transform: translateX(-50px);}
+.information-visible .animation-left{opacity: 1; transform: translateX(0px);}
+
+.information-hidden .animation-right{opacity: 0; transform: translateX(50px);}
+.information-visible .animation-right{opacity: 1; transform: translateX(0px);}

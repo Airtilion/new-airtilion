@@ -1,39 +1,53 @@
 {
     "menu": {
         "items": [
-            {"name": "Oferta", "link": "#oferta"},
-            {"name": "Portfolio", "link": "/portfolio"},
-            {"name": "Blog", "link": "/blog"},
-            {"name": "Kontakt", "link": "/#kontakt"}
+            {
+                "name": "Oferta",
+                "link": "#oferta"
+            },
+            {
+                "name": "Portfolio",
+                "link": "/portfolio"
+            },
+            {
+                "name": "Blog",
+                "link": "/blog"
+            },
+            {
+                "name": "Kontakt",
+                "link": "/#kontakt"
+            }
         ],
         "pricing": "Zapytaj o wycenę"
     },
-    
     "mainSite": {
         "header": {
             "title": "Tworzymy profesjonalne strony internetowe dla firm",
             "content": "Tworzymy od podstaw profesjonalne i wpadające w oko strony i sklepy internetowe oraz aplikacje mobilne. Korzystamy z najnowszych technologii, aby dostarczyć jak najlepszy produkt.",
             "imageAlt": "Zdjęcie tła firmy tworzącej profesjonalne strony internetowe dla firm",
-            "button": ["Wycenimy twój projekt w 24h - przeprowadzimy Cię przez cały proces", "Kliknij aby odebrać darmową wycenę"]
+            "button": [
+                "Wycenimy twój projekt w 24h - przeprowadzimy Cię przez cały proces",
+                "Kliknij aby odebrać darmową wycenę"
+            ]
         },
-
         "introduction": {
-            "alts": ["Laptop ucięty w połowie jako pierwsza część zdjęcia przedstajajcego artytstyczne ułożenie urządzenia do tworzenia profesjonalnych stron internetowych dla firm",  "Laptop ucięty w połowie jako druga część zdjęcia przedstajajcego artytstyczne ułożenie urządzenia do tworzenia profesjonalnych stron internetowych dla firm"],
+            "alts": [
+                "Laptop ucięty w połowie jako pierwsza część zdjęcia przedstajajcego artytstyczne ułożenie urządzenia do tworzenia profesjonalnych stron internetowych dla firm",
+                "Laptop ucięty w połowie jako druga część zdjęcia przedstajajcego artytstyczne ułożenie urządzenia do tworzenia profesjonalnych stron internetowych dla firm"
+            ],
             "title": "Każda strona internetowa to nowoczesne dzieło sztuki",
             "content": "Tworzymy kompleksowe rozwiązania cyfrowe: nowoczesne i eleganckie strony internetowe, w pełni funkcjonalne sklepy online oraz intuicyjne aplikacje webowe, precyzyjnie dopasowane do indywidualnych potrzeb każdego klienta. Łączymy estetykę i przejrzystość interfejsu z zaawansowaną technologią, dzięki czemu nasze produkty nie tylko przyciągają uwagę, ale przede wszystkim wspierają rozwój biznesu, zwiększając konwersję i angażując użytkowników. Każdy projekt to dla nas opowieść o sukcesie – od fazy koncepcji, przez design, aż po wdrożenie i opiekę powdrożeniową. Wykorzystujemy najnowsze narzędzia i frameworki, a nasze rozwiązania są skalowalne, bezpieczne i zoptymalizowane pod kątem SEO."
         },
-
         "portfolio": {
             "title": "Efekt powstały z wizji - nasze ostatnie projekty",
             "content": [
-                "W Airtilion wierzymy, że dobrze zaprojektowany interfejs to nie tylko kwestia estetyki — to narzędzie, które realnie wspiera cele biznesowe naszych klientów. Każdy projekt w naszym portfolio to efekt ścisłej współpracy, głębokiego zrozumienia potrzeb i dbałości o każdy szczegół — od koncepcji, przez design, aż po kod i wdrożenie.", 
+                "W Airtilion wierzymy, że dobrze zaprojektowany interfejs to nie tylko kwestia estetyki — to narzędzie, które realnie wspiera cele biznesowe naszych klientów. Każdy projekt w naszym portfolio to efekt ścisłej współpracy, głębokiego zrozumienia potrzeb i dbałości o każdy szczegół — od koncepcji, przez design, aż po kod i wdrożenie.",
                 "Zrealizowaliśmy dziesiątki projektów, które łączy jedno: jakość i funkcjonalność. Tworzymy nowoczesne strony internetowe, e‑commerce’y, aplikacje webowe, a także kompleksowe systemy dostosowane do specyficznych branżowych wymagań. Nasze realizacje powstają z myślą o użytkowniku końcowym — są szybkie, intuicyjne, responsywne i zoptymalizowane pod SEO."
             ],
             "button": "Przejdź do pełnego portfolio",
             "afterContent": "Każdy projekt to szyte na miarę rozwiązanie – niezależnie od tego, czy budujemy landing page, duży portal, czy rozbudowaną platformę dla startupu lub organizacji.",
             "alt": "Rozmazane zdjęcie przedstawiające profesjonalną stronę internetową firmy wyświetloną na laptopie"
         },
-
         "information": {
             "tag": "O produktach",
             "title": "Tworzymy przyszłość internetu",
@@ -46,12 +60,50 @@
                 "Telefony z profesjonalnymi stronami internetowymi i aplikacjami mobilnymi dla firm"
             ]
         },
-
         "cta": {
             "title": "Skorzystaj z darmowej wyceny",
             "content": "Zawsze jesteśmy gotowi, żeby stworzyć dla Ciebie idealny produkt. Zamów darmową wycenę swojego projektu, a my odezwiemy się w ciągu 24h lub w najbliższym dniu roboczym. Marzysz o swojej własnej stronie, ale jeszcze nie wiesz czego dokładnie potrzebujesz? Nie przejmuj się, doradzimy i przeprowadzimy Cię przez wszystkie etapy.",
             "button": "Zamów darmową wycenę",
             "alt": "Zdjęcie przedstawiające lwa promującego profesjonalne strony internetowe dla firm"
+        },
+        "offer": {
+            "tag": "Oferta",
+            "title": "Szeroki wachlarz usług",
+            "mContent": "Nasza oferta jest elastyczna – realizujemy zarówno proste strony wizytówkowe, jak i bardziej rozbudowane serwisy. Tworzymy strony oraz sklepy internetowe, rozbudowane aplikacje internetowe, czy też nawet aplikacje mobilne zintegrowane ze stronami. Prowadzimy także działalność w zakresie opieki i obsługi stron oraz usług na stronach wykonywanych w ramach subskrypcji przez określoną ilość godzin miesięcznie.",
+            "elements": [
+                {
+                    "name": "Strony internetowe",
+                    "content": [
+                        "Tworzymy nowoczesne, szyte na miarę strony internetowe, które nie tylko świetnie wyglądają, ale przede wszystkim skutecznie realizują cele biznesowe. Nie korzystamy z gotowych szablonów ani uniwersalnych rozwiązań – każda realizacja jest projektowana indywidualnie, z uwzględnieniem potrzeb Twojej marki, użytkowników i oczekiwań rynkowych.",
+                        "Stawiamy na estetykę, przejrzystość i intuicyjną nawigację. Nasze strony są lekkie, szybkie i zoptymalizowane pod kątem SEO. Dzięki zastosowaniu nowoczesnych technologii takich jak React.js, Next.js czy headless WordPress, masz pewność, że Twoja witryna będzie działać błyskawicznie – zarówno na komputerach, jak i urządzeniach mobilnych.",
+                        "Każdy projekt to efekt bliskiej współpracy – od warsztatów koncepcyjnych, przez projektowanie UI/UX, aż po końcowe wdrożenie i testy. Niezależnie od tego, czy potrzebujesz prostej wizytówki, czy rozbudowanego serwisu z wieloma podstronami, otrzymasz rozwiązanie skrojone idealnie pod Twój biznes."
+                    ]
+                },
+                {
+                    "name": "Sklepy E-commerce",
+                    "content": [
+                        "Projektujemy sklepy internetowe, które są szybkie, intuicyjne i gotowe do skalowania. Każdy sklep budujemy od podstaw, z uwzględnieniem Twoich celów sprzedażowych oraz potrzeb użytkowników.",
+                        "Zapewniamy integracje z systemami płatności, narzędziami marketingowymi i systemami zarządzania magazynem. Twój sklep będzie działać sprawnie na wszystkich urządzeniach.",
+                        "Otrzymujesz nie tylko estetyczny interfejs, ale też narzędzie wspierające sprzedaż i rozwój Twojego biznesu. Sklepy są zoptymalizowane pod SEO i przygotowane do dalszej rozbudowy."
+                    ]
+                },
+                {
+                    "name": "Aplikacje mobilne",
+                    "content": [
+                        "Tworzymy mobilne aplikacje biznesowe i konsumenckie, które wyróżniają się nowoczesnym designem i wysoką wydajnością. Obsługujemy zarówno platformy iOS, jak i Android.",
+                        "Aplikacje są często zintegrowane z Twoją stroną lub panelem CMS, co pozwala tworzyć spójny ekosystem. Budujemy je w oparciu o technologie takie jak React Native czy Flutter.",
+                        "Przejmujemy pełny proces – od analizy potrzeb, przez prototypowanie, aż po wdrożenie i publikację w App Store i Google Play. Po wdrożeniu oferujemy też wsparcie techniczne."
+                    ]
+                },
+                {
+                    "name": "Opieka nad stroną",
+                    "content": [
+                        "Zapewniamy kompleksową opiekę techniczną nad Twoją stroną lub sklepem – od drobnych aktualizacji po większe zmiany. Pracujemy w elastycznym modelu godzinowym lub abonamentowym.",
+                        "Czuwamy nad bezpieczeństwem, wydajnością i bieżącą funkcjonalnością witryny. Reagujemy szybko na zgłoszenia i dbamy o to, by wszystko działało bez zarzutu.",
+                        "Możesz też liczyć na doradztwo techniczne oraz pomoc przy rozwoju nowych funkcji, treści lub integracji z zewnętrznymi narzędziami."
+                    ]
+                }
+            ]
         }
     }
 }

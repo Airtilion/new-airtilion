@@ -65,6 +65,45 @@
       "content": "We're always ready to create the perfect product for you. Request a free quote for your project, and we'll get back to you within 24 hours or on the next business day. Dreaming of your own website but not sure where to start? Don’t worry — we’ll guide you through every step and help you make the right decisions.",
       "button": "Request a Free Quote",
       "alt": "Image of a lion promoting professional websites for businesses"
+    },
+    "offer": {
+      "tag": "Offer",
+      "title": "A Wide Range of Services",
+      "mContent": "Our offer is flexible – we work on everything from simple business card websites to complex platforms. We build websites, e-commerce stores, advanced web applications, and even mobile apps integrated with websites. We also offer ongoing maintenance and support, delivered through a monthly subscription for a set number of hours.",
+      "elements": [
+        {
+          "name": "Websites",
+          "content": [
+            "We create modern, tailor-made websites that not only look great but most importantly serve your business goals. We don't use templates or generic solutions – every project is custom-designed to fit your brand, your users, and your market needs.",
+            "We focus on aesthetics, clarity, and intuitive navigation. Our websites are lightweight, fast, and SEO-optimized. Thanks to modern technologies like React.js, Next.js, and headless WordPress, your site will run smoothly on both desktop and mobile devices.",
+            "Each project is the result of close collaboration – from concept workshops and UI/UX design to final implementation and testing. Whether you need a simple one-pager or a complex multi-page platform, you'll get a solution tailored to your business."
+          ]
+        },
+        {
+          "name": "E-commerce Stores",
+          "content": [
+            "We design fast, intuitive, and scalable online stores. Every store is built from scratch, tailored to your sales goals and user needs.",
+            "We integrate payment systems, marketing tools, and inventory management solutions. Your store will run smoothly across all devices.",
+            "You’ll receive not just a beautiful interface, but a sales-ready tool optimized for SEO and designed for long-term growth."
+          ]
+        },
+        {
+          "name": "Mobile Apps",
+          "content": [
+            "We develop high-performance mobile apps with modern design for both iOS and Android platforms, suited for business or consumer use.",
+            "Many of our apps are integrated with websites or content management systems to form a seamless digital ecosystem. We use technologies like React Native or Flutter.",
+            "We handle the full process – from needs analysis and prototyping to development and publishing in the App Store and Google Play, with post-launch support included."
+          ]
+        },
+        {
+          "name": "Website Maintenance",
+          "content": [
+            "We offer full technical support for your website or store – from minor updates to major improvements. Services are delivered through flexible hourly packages or subscriptions.",
+            "We monitor performance, ensure security, and provide quick responses to your requests so your site stays stable and reliable.",
+            "You can also count on expert advice and help with adding new features, managing content, or integrating third-party tools."
+          ]
+        }
+      ]
     }
   }
 }

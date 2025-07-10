@@ -133,3 +133,11 @@
 
 .information-hidden .animation-right{opacity: 0; transform: translateX(50px);}
 .information-visible .animation-right{opacity: 1; transform: translateX(0px);}
+
+/*seckaj oferta*/
+
+.offer-hidden .animation-top{opacity: 0; transform: translateY(-50px);}
+.offer-visible .animation-top{opacity: 1; transform: translateY(0px);}
+
+.offer-hidden .animation-bottom{opacity: 0; transform: translateY(50px);}
+.offer-visible .animation-bottom{opacity: 1; transform: translateY(0px);}

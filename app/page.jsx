@@ -8,6 +8,8 @@ import Portoflio from '@components/home/Portfolio/Portoflio';
 import Information from '@components/home/Information';
 import CallToAction from '@components/home/CallToAction';
 import CustomCooperate from '@components/CustomCooperate';
+import Offer from '@components/home/Offer';
+import Opinions from '@components/home/Opinions';
 // import StarsCanvas from '@components/StartsBg';
 
 export default function Home() {
@@ -19,6 +21,7 @@ export default function Home() {
   const portfolioDict = dict.portfolio;
   const informationDict = dict.information;
   const ctaDict = dict.cta
+  const offerDict = dict.offer
 
   return (
     <>
@@ -30,6 +33,8 @@ export default function Home() {
         <Portoflio dict={portfolioDict}/>
         <Information dict={informationDict}/>
         <CallToAction dict={ctaDict}/>
+        <Offer dict={offerDict}/>
+        <Opinions/>
       </main>
     </>
   );

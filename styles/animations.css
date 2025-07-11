@@ -141,3 +141,8 @@
 
 .offer-hidden .animation-bottom{opacity: 0; transform: translateY(50px);}
 .offer-visible .animation-bottom{opacity: 1; transform: translateY(0px);}
+
+/*sekcja właścicieli*/
+
+.owners-hidden .animation-left{opacity: 0; transform: translateX(-50px);}
+.owners-visible .animation-left{opacity: 1; transform: translateX(0px);}

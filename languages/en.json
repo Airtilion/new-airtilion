@@ -108,6 +108,33 @@
     "opinions": {
       "title": "What do our clients think of us?",
       "alt": "A phone placed on an orange table displaying a mobile app for a company"
+    },
+    "people": {
+      "tag": "Team",
+      "title": "Who will bring your dream website to life?",
+      "content": "Every brand deserves an engine that drives its growth. That’s why at Airtilion, we combine the latest technologies with refined UX/UI to ensure every aspect of your digital presence functions like a precision mechanism. We start by deeply understanding your goals, design intuitive solutions, and then implement them with engineering-level precision — so that your website or app not only captures attention but, above all, delivers real business results. As a result, your brand gains not just a sleek online showcase, but more importantly, a lasting competitive edge.",
+      "owners": [
+        {
+          "name": "Jakub Wadycki",
+          "role": "Co-Founder",
+          "email": "jakubwadycki@gmail.com",
+          "phone": "720 177 174",
+          "linked": "#",
+          "facebook": "#",
+          "desc": "I've been programming for many years, exploring various technologies throughout my career. Ultimately, I found my true passion in building websites and web applications. I'm a full-stack developer — capable of creating a complete site from start to finish. Outside of work, I’m into 3D design and printing, and I enjoy creating simple electronic devices. I'm constantly learning new things.",
+          "alt": "Photos of Jakub Wadycki, co-owner of a company that creates professional websites for businesses."
+        },
+        {
+          "name": "Artur Plebańczyk",
+          "role": "Co-Founder",
+          "email": "plebanczyk.artur@gmail.com",
+          "phone": "511 019 652",
+          "linked": "#",
+          "facebook": "#",
+          "desc": "It was my passion for technology and computer science that led me to the world of programming. For the past four years, I've been growing as a full-stack developer. I especially value the combination of technology and creativity, which enables me to deliver modern and functional solutions. My mission is to push the web and e-commerce industry forward by implementing advanced technologies that not only meet clients' needs but also set new standards.",
+          "alt": "Photos of Artur Plebańczyk, co-owner of a company that creates professional websites for businesses."
+        }
+      ]
     }
   }
 }

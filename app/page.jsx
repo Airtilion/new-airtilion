@@ -10,6 +10,7 @@ import CallToAction from '@components/home/CallToAction';
 import CustomCooperate from '@components/CustomCooperate';
 import Offer from '@components/home/Offer';
 import Opinions from '@components/home/Opinions/Opinions';
+import Owners from '@components/home/People/Owners';
 // import StarsCanvas from '@components/StartsBg';
 
 export default function Home() {
@@ -23,6 +24,7 @@ export default function Home() {
   const ctaDict = dict.cta
   const offerDict = dict.offer
   const opinionsDict = dict.opinions
+  const ownersDict = dict.people
 
   return (
     <>
@@ -36,6 +38,7 @@ export default function Home() {
         <CallToAction dict={ctaDict}/>
         <Offer dict={offerDict}/>
         <Opinions dict={opinionsDict}/>
+        <Owners dict={ownersDict}/>
         <div>xD</div>
       </main>
     </>

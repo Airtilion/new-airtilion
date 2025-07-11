@@ -108,6 +108,33 @@
         "opinions":{
             "title": "Co myślą o nas nasi klienci?",
             "alt": "Telefon położony na pomarańoczowym stole przedstawiający apliakcję mobilną dla firmy"
+        },
+        "people":{
+            "tag": "Zespół",
+            "title": "Kto zajmie się Twoją wymarzoną stroną?",
+            "content": "Każda marka zasługuje na silnik napędzający jej rozwój, dlatego w Airtilion łączymy najnowsze technologie z dopracowanym UX/UI, aby każdy element Twojej cyfrowej obecności działał jak precyzyjny mechanizm. Zaczynamy od głębokiego zrozumienia Twoich celów, projektujemy intuicyjne rozwiązania, a następnie wdrażamy je z inżynierską skrupulatnością — tak, by Twoja witryna czy aplikacja nie tylko przyciągały uwagę, lecz przede wszystkim przynosiły realne zyski. W efekcie Twój biznes zyskuje nie tylko efektowną wizytówkę w sieci, ale przede wszystkim trwałą przewagę konkurencyjną.",
+            "owners": [
+                {
+                    "name": "Jakub Wadycki",
+                    "role": "Co-Founder",
+                    "email": "jakubwadycki@gmail.com",
+                    "phone": "720 177 174",
+                    "linked": "#",
+                    "facebook": "#",
+                    "desc": "Od wielu lat zajmuję się programowaniem, w swojej karierze próbowałem wielu technologii, ale ostatecznie odnalazłem to czego szukałem w tworzeniu stron/aplikacji internetowych. Jestem 'full-stackiem' - potrafię zrobić stronę od A do Z. Poza godzinami pracy zajmuję się m. in. projektowaniem i drukowaniem 3D, doskonałym zajęciem okazuje się być tworzenie prostych urządzeń elektronicznych, ciągle uczę się nowych rzeczy.",
+                    "alt": "Zdjęcia przedstawiające Jakuba Wadyckiego, współwłaściciela firmy tworzącej profesjaonalne strony internetowe dla firm"
+                },
+                {
+                    "name": "Artur Plebańczyk",
+                    "role": "Co-Founder",
+                    "email": "plebanczyk.artur@gmail.com",
+                    "phone": "511 019 652",
+                    "linked": "#",
+                    "facebook": "#",
+                    "desc": "To właśnie pasja do technologii i informatyki skierowała mnie na ścieżkę programowania. Od czterech lat rozwijam swoje umiejętności jako full stack developer. W mojej pracy szczególnie cenię sobie połączenie technologii z kreatywnymi pomysłami, co pozwala mi dostarczać nowoczesne i funkcjonalne rozwiązania. Moją misją jest rozwijanie branży stron i sklepów internetowych poprzez wdrażanie zaawansowanych technologii, które nie tylko odpowiadają na potrzeby klientów, ale także wprowadzają nowe standardy.",
+                    "alt": "Zdjęcia przedstawiające Artura Plebańczyka, współwłaściciela firmy tworzącej profesjaonalne strony internetowe dla firm"
+                }
+            ]
         }
     }
 }

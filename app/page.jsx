@@ -9,7 +9,7 @@ import Information from '@components/home/Information';
 import CallToAction from '@components/home/CallToAction';
 import CustomCooperate from '@components/CustomCooperate';
 import Offer from '@components/home/Offer';
-import Opinions from '@components/home/Opinions';
+import Opinions from '@components/home/Opinions/Opinions';
 // import StarsCanvas from '@components/StartsBg';
 
 export default function Home() {
@@ -22,6 +22,7 @@ export default function Home() {
   const informationDict = dict.information;
   const ctaDict = dict.cta
   const offerDict = dict.offer
+  const opinionsDict = dict.opinions
 
   return (
     <>
@@ -34,7 +35,8 @@ export default function Home() {
         <Information dict={informationDict}/>
         <CallToAction dict={ctaDict}/>
         <Offer dict={offerDict}/>
-        <Opinions/>
+        <Opinions dict={opinionsDict}/>
+        <div>xD</div>
       </main>
     </>
   );

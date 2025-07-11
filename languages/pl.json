@@ -104,6 +104,10 @@
                     ]
                 }
             ]
+        },
+        "opinions":{
+            "title": "Co myślą o nas nasi klienci?",
+            "alt": "Telefon położony na pomarańoczowym stole przedstawiający apliakcję mobilną dla firmy"
         }
     }
 }

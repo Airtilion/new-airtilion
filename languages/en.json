@@ -104,6 +104,10 @@
           ]
         }
       ]
+    },
+    "opinions": {
+      "title": "What do our clients think of us?",
+      "alt": "A phone placed on an orange table displaying a mobile app for a company"
     }
   }
 }

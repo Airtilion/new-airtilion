@@ -11,6 +11,7 @@ import CustomCooperate from '@components/CustomCooperate';
 import Offer from '@components/home/Offer';
 import Opinions from '@components/home/Opinions/Opinions';
 import Owners from '@components/home/People/Owners';
+import Contact from '@components/home/Contact/Contact';
 // import StarsCanvas from '@components/StartsBg';
 
 export default function Home() {
@@ -25,6 +26,7 @@ export default function Home() {
   const offerDict = dict.offer
   const opinionsDict = dict.opinions
   const ownersDict = dict.people
+  const contactDict = dict.contact
 
   return (
     <>
@@ -39,6 +41,7 @@ export default function Home() {
         <Offer dict={offerDict}/>
         <Opinions dict={opinionsDict}/>
         <Owners dict={ownersDict}/>
+        <Contact dict={contactDict}/>
         <div>xD</div>
       </main>
     </>

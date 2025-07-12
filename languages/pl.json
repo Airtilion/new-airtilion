@@ -105,11 +105,11 @@
                 }
             ]
         },
-        "opinions":{
+        "opinions": {
             "title": "Co myślą o nas nasi klienci?",
             "alt": "Telefon położony na pomarańoczowym stole przedstawiający apliakcję mobilną dla firmy"
         },
-        "people":{
+        "people": {
             "tag": "Zespół",
             "title": "Kto zajmie się Twoją wymarzoną stroną?",
             "content": "Każda marka zasługuje na silnik napędzający jej rozwój, dlatego w Airtilion łączymy najnowsze technologie z dopracowanym UX/UI, aby każdy element Twojej cyfrowej obecności działał jak precyzyjny mechanizm. Zaczynamy od głębokiego zrozumienia Twoich celów, projektujemy intuicyjne rozwiązania, a następnie wdrażamy je z inżynierską skrupulatnością — tak, by Twoja witryna czy aplikacja nie tylko przyciągały uwagę, lecz przede wszystkim przynosiły realne zyski. W efekcie Twój biznes zyskuje nie tylko efektowną wizytówkę w sieci, ale przede wszystkim trwałą przewagę konkurencyjną.",
@@ -135,6 +135,46 @@
                     "alt": "Zdjęcia przedstawiające Artura Plebańczyka, współwłaściciela firmy tworzącej profesjaonalne strony internetowe dla firm"
                 }
             ]
+        },
+        "contact": {
+            "tag": "Kontakt",
+            "title": "Jesteśmy zawsze do Twojej dyspozycji",
+            "data": [
+                "Numer telefonu",
+                "Adres email",
+                "Godziny otwarcia"
+            ],
+            "alts": [
+                "Zdjęcie przedstawiające artystycznie ułożony telefon obok strony internetowej",
+                "Zdjęcie otwartego laptopa z profesjonalną stroną internetową na ekranie"
+            ],
+            "form": {
+                "fields": [
+                    "Imię i nazwisko",
+                    "Email",
+                    "Numer telefonu",
+                    "Wiadomość"
+                ],
+                "condition": [
+                    "Akceptuję <a href='#'>politykę prywatności</a> i wyrażam zgodę na <a href='#'>przetwarzanie danych osobowych</a>",
+                    "Wyrażam zgodę na <a href='#'>przetwarzanie moich danych</a> w celu otrzymania informacji handlowej"
+                ],
+                "button": "Wyślij wiadomość",
+                "errors": [
+                    "",
+                    "Imię i nazwisko jest wymagane",
+                    "Nieprawidłowy adres email",
+                    "Adres email jest wymagany",
+                    "Numer telefonu jest wymagany",
+                    "Nieprawidłowy numer telefonu",
+                    "Wiadomość jest wymagana",
+                    "Musisz zaakceptować politykę prywatności",
+                    "Musisz wyrazić zgodę na otrzymywanie informacji handlowej",
+                    "Wykryto bota"
+                ],
+                "success": "Twoja wiadomość została wysłana pomyślnie!"
+            },
+            "media": "Znajdziesz nas również tutaj"
         }
     }
 }

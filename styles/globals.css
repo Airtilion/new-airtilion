@@ -16,6 +16,10 @@ button {
   cursor: pointer;
 }
 
+.custom-link a{
+  color: #E28350
+}
+
 /* ---------- menu - hamburger ---------- */
 
 .hamburger-menu.active>span:first-child {

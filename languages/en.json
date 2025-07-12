@@ -135,6 +135,46 @@
           "alt": "Photos of Artur Plebańczyk, co-owner of a company that creates professional websites for businesses."
         }
       ]
+    },
+    "contact": {
+      "tag": "Contact",
+      "title": "We’re Always at Your Service",
+      "data": [
+        "Phone number",
+        "Email address",
+        "Opening hours"
+      ],
+      "alts": [
+        "Artistic photo of a telephone arranged next to a company’s website on screen",
+        "Photo of an open laptop displaying a professional website"
+      ],
+      "form": {
+        "fields": [
+          "Full name",
+          "Email",
+          "Phone number",
+          "Message"
+        ],
+        "condition": [
+          "I accept the <a href='#'>privacy policy</a> and consent to <a href='#'>processing my personal data</a>",
+          "I consent to <a href='#'>processing my data</a> for marketing purposes"
+        ],
+        "button": "Send Message",
+        "errors": [
+          "",
+          "Name is required",
+          "Invalid email address",
+          "Email is required",
+          "Phone number is required",
+          "Invalid phone number",
+          "Message is required",
+          "You must accept the privacy policy",
+          "You must consent to marketing communications",
+          "Bot detected"
+        ],
+        "success": "Your message has been sent successfully!"
+      },
+      "media": "You can also find us here"
     }
   }
 }

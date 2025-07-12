@@ -146,3 +146,17 @@
 
 .owners-hidden .animation-left{opacity: 0; transform: translateX(-50px);}
 .owners-visible .animation-left{opacity: 1; transform: translateX(0px);}
+
+/*sekcja kontakt*/
+
+.contact-hidden .animation-left{opacity: 0; transform: translateX(-50px);}
+.contact-visible .animation-left{opacity: 1; transform: translateX(0px);}
+
+.contact-hidden .animation-right{opacity: 0; transform: translateX(50px);}
+.contact-visible .animation-right{opacity: 1; transform: translateX(0px);}
+
+.contact-hidden .animation-top{opacity: 0; transform: translateY(-50px);}
+.contact-visible .animation-top{opacity: 1; transform: translateY(0px);}
+
+.contact-hidden .animation-bottom{opacity: 0; transform: translateY(50px);}
+.contact-visible .animation-bottom{opacity: 1; transform: translateY(0px);}

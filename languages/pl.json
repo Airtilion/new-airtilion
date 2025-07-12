@@ -175,6 +175,36 @@
                 "success": "Twoja wiadomość została wysłana pomyślnie!"
             },
             "media": "Znajdziesz nas również tutaj"
+        },
+        "faq": {
+            "title": "Odpowiedzi na najczęściej zadawane pytania",
+            "content": "W tej sekcji znajdziesz odpowiedzi na najczęściej zadawane pytania dotyczące współpracy z Airtilion – od etapu briefu, przez wybór technologii i narzędzi, aż po harmonogram realizacji i orientacyjne koszty projektu, a także zakres wsparcia po uruchomieniu strony czy aplikacji. Jeśli nie znalazłeś tu informacji, której szukasz, skontaktuj się z nami, a odpowiemy w ciągu 24 godzin.",
+            "questions": [
+                {
+                    "q": "Jakich technologii używają Państwo do tworzenia stron internetowych?",
+                    "a": ["Korzystamy z bazowych technologii, takich jak HTML, CSS i WordPress, które stanowią solidną podstawę dla każdego projektu. Jednak naszym głównym celem jest oferowanie nowoczesnych i zaawansowanych rozwiązań. Dlatego stawiamy na technologie takie jak React, Next.js czy Tailwind CSS, które pozwalają nam tworzyć dynamiczne, responsywne i wydajne aplikacje oraz strony internetowe.", "Te technologie umożliwiają nam szybkie działanie, lepsze optymalizacje pod kątem SEO, a także maksymalne dopasowanie do potrzeb użytkowników. Dzięki temu dostarczamy rozwiązania, które nie tylko przyciągają uwagę estetyką, ale również gwarantują intuicyjną obsługę i najwyższą wydajność w codziennym użytkowaniu."]
+                },
+                {
+                    "q": "Jak długo trwa realizacja projektu?",
+                    "a": ["Korzystamy z bazowych technologii, takich jak HTML, CSS i WordPress, które stanowią solidną podstawę dla każdego projektu. Jednak naszym głównym celem jest oferowanie nowoczesnych i zaawansowanych rozwiązań. Dlatego stawiamy na technologie takie jak React, Next.js czy Tailwind CSS, które pozwalają nam tworzyć dynamiczne, responsywne i wydajne aplikacje oraz strony internetowe.", "Te technologie umożliwiają nam szybkie działanie, lepsze optymalizacje pod kątem SEO, a także maksymalne dopasowanie do potrzeb użytkowników. Dzięki temu dostarczamy rozwiązania, które nie tylko przyciągają uwagę estetyką, ale również gwarantują intuicyjną obsługę i najwyższą wydajność w codziennym użytkowaniu."]
+                },
+                {
+                    "q": "Ile kosztuje strona internetowa?",
+                    "a": ["Korzystamy z bazowych technologii, takich jak HTML, CSS i WordPress, które stanowią solidną podstawę dla każdego projektu. Jednak naszym głównym celem jest oferowanie nowoczesnych i zaawansowanych rozwiązań. Dlatego stawiamy na technologie takie jak React, Next.js czy Tailwind CSS, które pozwalają nam tworzyć dynamiczne, responsywne i wydajne aplikacje oraz strony internetowe.", "Te technologie umożliwiają nam szybkie działanie, lepsze optymalizacje pod kątem SEO, a także maksymalne dopasowanie do potrzeb użytkowników. Dzięki temu dostarczamy rozwiązania, które nie tylko przyciągają uwagę estetyką, ale również gwarantują intuicyjną obsługę i najwyższą wydajność w codziennym użytkowaniu."]
+                },
+                {
+                    "q": "Czy klient może liczyć na gwarancję na produkt?",
+                    "a": ["Korzystamy z bazowych technologii, takich jak HTML, CSS i WordPress, które stanowią solidną podstawę dla każdego projektu. Jednak naszym głównym celem jest oferowanie nowoczesnych i zaawansowanych rozwiązań. Dlatego stawiamy na technologie takie jak React, Next.js czy Tailwind CSS, które pozwalają nam tworzyć dynamiczne, responsywne i wydajne aplikacje oraz strony internetowe.", "Te technologie umożliwiają nam szybkie działanie, lepsze optymalizacje pod kątem SEO, a także maksymalne dopasowanie do potrzeb użytkowników. Dzięki temu dostarczamy rozwiązania, które nie tylko przyciągają uwagę estetyką, ale również gwarantują intuicyjną obsługę i najwyższą wydajność w codziennym użytkowaniu."]
+                },
+                {
+                    "q": "Jakie są dodatkowe koszty związane ze stroną internetową?",
+                    "a": ["Korzystamy z bazowych technologii, takich jak HTML, CSS i WordPress, które stanowią solidną podstawę dla każdego projektu. Jednak naszym głównym celem jest oferowanie nowoczesnych i zaawansowanych rozwiązań. Dlatego stawiamy na technologie takie jak React, Next.js czy Tailwind CSS, które pozwalają nam tworzyć dynamiczne, responsywne i wydajne aplikacje oraz strony internetowe.", "Te technologie umożliwiają nam szybkie działanie, lepsze optymalizacje pod kątem SEO, a także maksymalne dopasowanie do potrzeb użytkowników. Dzięki temu dostarczamy rozwiązania, które nie tylko przyciągają uwagę estetyką, ale również gwarantują intuicyjną obsługę i najwyższą wydajność w codziennym użytkowaniu."]
+                },
+                {
+                    "q": "W jakim rejonie prowadzą Państwo działalność?",
+                    "a": ["Korzystamy z bazowych technologii, takich jak HTML, CSS i WordPress, które stanowią solidną podstawę dla każdego projektu. Jednak naszym głównym celem jest oferowanie nowoczesnych i zaawansowanych rozwiązań. Dlatego stawiamy na technologie takie jak React, Next.js czy Tailwind CSS, które pozwalają nam tworzyć dynamiczne, responsywne i wydajne aplikacje oraz strony internetowe.", "Te technologie umożliwiają nam szybkie działanie, lepsze optymalizacje pod kątem SEO, a także maksymalne dopasowanie do potrzeb użytkowników. Dzięki temu dostarczamy rozwiązania, które nie tylko przyciągają uwagę estetyką, ale również gwarantują intuicyjną obsługę i najwyższą wydajność w codziennym użytkowaniu."]
+                }
+            ]
         }
     }
 }

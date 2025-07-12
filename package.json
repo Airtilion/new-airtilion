@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@iconify/react": "^6.0.0",
+    "@material-tailwind/react": "^2.1.10",
     "js-cookie": "^3.0.5",
     "next": "15.3.4",
     "react": "^19.0.0",

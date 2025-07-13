@@ -77,6 +77,12 @@ button {
   -webkit-text-fill-color: transparent;
 }
 
+.heading-gradient-white {
+  background: linear-gradient(#ffffff66, #999999);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 .radial-gradient {
   background: radial-gradient(circle, rgba(0, 0, 0, 0) 61%, rgba(226, 131, 80, 0.8) 80%, rgba(226, 131, 80, 0) 100%);
   box-shadow: 0px 4px 3000px #e28350b1;

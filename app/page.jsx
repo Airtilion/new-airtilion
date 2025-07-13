@@ -13,11 +13,13 @@ import Opinions from '@components/home/Opinions/Opinions';
 import Owners from '@components/home/People/Owners';
 import Contact from '@components/home/Contact/Contact';
 import Faq from '@components/home/Faq/Faq';
+import Footer from '@components/Footer';
 // import StarsCanvas from '@components/StartsBg';
 
 export default function Home() {
   const lang = getLangFromCookie();
   const dict = (dictionaries[lang].mainSite) || (dictionaries[lang].mainsite); // niektóre klucze różnią się w JSON
+  const footerDict = (dictionaries[lang].footer) || (dictionaries[lang].footer);
 
   const headerDict = dict.header;
   const introductionDict = dict.introduction;
@@ -45,8 +47,8 @@ export default function Home() {
         <Owners dict={ownersDict}/>
         <Contact dict={contactDict}/>
         <Faq dict={faqDict}/>
-        <div>xD</div>
       </main>
+      <Footer dict={footerDict}/>
     </>
   );
 }

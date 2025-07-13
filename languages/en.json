@@ -175,6 +175,54 @@
         "success": "Your message has been sent successfully!"
       },
       "media": "You can also find us here"
+    },
+    "faq": {
+      "title": "Answers to the Most Frequently Asked Questions",
+      "content": "In this section, you’ll find answers to the most frequently asked questions about working with Airtilion – from the briefing stage, through the choice of technologies and tools, to the project timeline, estimated costs, and the scope of post-launch support for your website or application. If you can’t find the information you’re looking for, feel free to contact us – we’ll get back to you within 24 hours.",
+      "questions": [
+        {
+          "q": "What technologies do you use to build websites?",
+          "a": [
+            "We use basic technologies like HTML, CSS, and WordPress, which provide a solid foundation for every project. However, our main goal is to offer modern and advanced solutions. That’s why we focus on technologies such as React, Next.js, and Tailwind CSS, which allow us to create dynamic, responsive, and high-performance applications and websites.",
+            "These technologies enable fast performance, better SEO optimization, and maximum adaptation to user needs. As a result, we deliver solutions that not only stand out visually but also ensure intuitive use and top-level performance in everyday operations."
+          ]
+        },
+        {
+          "q": "How long does it take to complete a project?",
+          "a": [
+            "We use basic technologies like HTML, CSS, and WordPress, which provide a solid foundation for every project. However, our main goal is to offer modern and advanced solutions. That’s why we focus on technologies such as React, Next.js, and Tailwind CSS, which allow us to create dynamic, responsive, and high-performance applications and websites.",
+            "These technologies enable fast performance, better SEO optimization, and maximum adaptation to user needs. As a result, we deliver solutions that not only stand out visually but also ensure intuitive use and top-level performance in everyday operations."
+          ]
+        },
+        {
+          "q": "How much does a website cost?",
+          "a": [
+            "We use basic technologies like HTML, CSS, and WordPress, which provide a solid foundation for every project. However, our main goal is to offer modern and advanced solutions. That’s why we focus on technologies such as React, Next.js, and Tailwind CSS, which allow us to create dynamic, responsive, and high-performance applications and websites.",
+            "These technologies enable fast performance, better SEO optimization, and maximum adaptation to user needs. As a result, we deliver solutions that not only stand out visually but also ensure intuitive use and top-level performance in everyday operations."
+          ]
+        },
+        {
+          "q": "Does the client receive a product warranty?",
+          "a": [
+            "We use basic technologies like HTML, CSS, and WordPress, which provide a solid foundation for every project. However, our main goal is to offer modern and advanced solutions. That’s why we focus on technologies such as React, Next.js, and Tailwind CSS, which allow us to create dynamic, responsive, and high-performance applications and websites.",
+            "These technologies enable fast performance, better SEO optimization, and maximum adaptation to user needs. As a result, we deliver solutions that not only stand out visually but also ensure intuitive use and top-level performance in everyday operations."
+          ]
+        },
+        {
+          "q": "What additional costs are associated with a website?",
+          "a": [
+            "We use basic technologies like HTML, CSS, and WordPress, which provide a solid foundation for every project. However, our main goal is to offer modern and advanced solutions. That’s why we focus on technologies such as React, Next.js, and Tailwind CSS, which allow us to create dynamic, responsive, and high-performance applications and websites.",
+            "These technologies enable fast performance, better SEO optimization, and maximum adaptation to user needs. As a result, we deliver solutions that not only stand out visually but also ensure intuitive use and top-level performance in everyday operations."
+          ]
+        },
+        {
+          "q": "Which regions do you operate in?",
+          "a": [
+            "We use basic technologies like HTML, CSS, and WordPress, which provide a solid foundation for every project. However, our main goal is to offer modern and advanced solutions. That’s why we focus on technologies such as React, Next.js, and Tailwind CSS, which allow us to create dynamic, responsive, and high-performance applications and websites.",
+            "These technologies enable fast performance, better SEO optimization, and maximum adaptation to user needs. As a result, we deliver solutions that not only stand out visually but also ensure intuitive use and top-level performance in everyday operations."
+          ]
+        }
+      ]
     }
   }
 }

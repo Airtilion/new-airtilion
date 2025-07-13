@@ -206,5 +206,18 @@
                 }
             ]
         }
+    },
+    "footer":{
+        "alt": "Logo spółki airtilion",
+        "area": {
+            "title": "Obszar działania",
+            "ending": "... i wiele więcej"
+        },
+        "docs": [
+            "Polityka prywatności",
+            "Polityka ochrony danych osobowych",
+            "regulamin świadczenia usług drogą elektroniczną"
+        ],
+        "companyInfo": "Airtilion Sp. z o.o. ul. Słoneczna 32/9, 33-100 Tarnów, wpisana do rejestru przedsiębiorców Krajowego rejestru Sądowego przez Sąd Rejonowy dla Krakowa-Śródmieścia w Krakowie, XII Wydział Gospodarczy Krajowego Rejestru Sądowego pod nr KRS 0001143482, kapitał zakładowy w kwocie 5 000,00 zł w całości opłacony, NIP: 8733299720"
     }
 }

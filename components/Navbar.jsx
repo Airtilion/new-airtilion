@@ -2,17 +2,21 @@
 import { Icon } from '@iconify/react';
 import Link from 'next/link';
 import WebsiteSettings from './WebsiteSettings';
-import { useLanguage } from '@context/LanguageContext';
 import { useEffect, useRef, useState } from 'react';
 
-export default function Navbar() {
-  const { t } = useLanguage();
-  const menu = t('menu.items');
-  const pricing = t('menu.pricing');
+import pl from '@languages/pl/main.json';
+import en from '@languages/en/main.json';
+import { useSearchParams } from 'next/navigation';
 
+export default function Navbar() {
   const mobileMenuRef = useRef(null);
   const menuRef = useRef(null);
   const [isScrolled, setIsScrolled] = useState(false);
+
+
+  const searchParams = useSearchParams();
+  const lang = searchParams.get('lang') === 'en' ? 'en' : 'pl';
+  const dict = lang === 'en' ? en.menu : pl.menu;
 
 
   const menuVisibilityHandle = () => {
@@ -74,19 +78,19 @@ export default function Navbar() {
 
         <div className="flex gap-4 items-center max-xl:gap-3 max-lg:hidden">
           <nav className="flex gap-[32px] text-[16px] mr-[16px] max-2xl:text-[15px] max-xl:text-[14px]">
-            {menu.map((item, index) => (
+            {dict.items.map((item, index) => (
               <Link key={index} href={item.link} className='opacity-0 translate-y-animation' style={{ animationDelay: 100 * index + 'ms' }}>
                 {item.name}
               </Link>
             ))}
           </nav>
 
-          <button className="flex justify-between items-center gap-4 h-[50px] bg-gradient-to-r from-[#000000] to-[#E28350] text-[17px] rounded-full px-8 py-3 text-white opacity-0 translate-y-animation max-2xl:h-[40px] max-2xl:text-[15px] max-2xl:gap-3" style={{ animationDelay: menu?.length * 100 + 'ms' }}>
+          <button className="flex justify-between items-center gap-4 h-[50px] bg-gradient-to-r from-[#000000] to-[#E28350] text-[17px] rounded-full px-8 py-3 text-white opacity-0 translate-y-animation max-2xl:h-[40px] max-2xl:text-[15px] max-2xl:gap-3" style={{ animationDelay: dict.items?.length * 100 + 'ms' }}>
             <Icon icon="solar:letter-bold" width="24" height="24" className='max-2xl:w-[22px]' />
-            {pricing}
+            {dict.pricing}
           </button>
 
-          <WebsiteSettings index={menu?.length} />
+          <WebsiteSettings index={dict.items?.length} />
         </div>
 
 
@@ -94,19 +98,19 @@ export default function Navbar() {
 
         <div ref={mobileMenuRef} className='fixed inset-0 h-dvh bg-[#000000c1] z-70 hidden backdrop-blur-[10px] justify-center items-center flex-col gap-[32px]'>
           <nav className="flex flex-col gap-[32px] text-[18px] mr-[16px]">
-            {menu.map((item, index) => (
+            {dict.items.map((item, index) => (
               <Link key={index} href={item.link} className='opacity-0 translate-y-animation text-center' style={{ animationDelay: 100 * index + 'ms' }}>
                 {item.name}
               </Link>
             ))}
           </nav>
 
-          <button className="flex justify-between items-center gap-4 h-[50px] bg-gradient-to-r from-[#542f1b] to-[#E28350] text-[17px] rounded-full px-8 py-3 text-white opacity-0 translate-y-animation max-2xl:h-[40px] max-2xl:text-[15px] max-2xl:gap-3" style={{ animationDelay: menu?.length * 100 + 'ms' }}>
+          <button className="flex justify-between items-center gap-4 h-[50px] bg-gradient-to-r from-[#542f1b] to-[#E28350] text-[17px] rounded-full px-8 py-3 text-white opacity-0 translate-y-animation max-2xl:h-[40px] max-2xl:text-[15px] max-2xl:gap-3" style={{ animationDelay: dict.items.length * 100 + 'ms' }}>
             <Icon icon="solar:letter-bold" width="24" height="24" className='max-2xl:w-[22px]' />
-            {pricing}
+            {dict.pricing}
           </button>
 
-          <WebsiteSettings index={menu?.length} />
+          <WebsiteSettings index={dict.items?.length} />
         </div>
       </div>
     </>

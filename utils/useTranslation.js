@@ -1,5 +1,5 @@
 'use client';
-import { useLanguageContext } from '@context/LanguageContext';
+import { useLanguageContext } from '@context/LanguageProvider';
 import pl from '@languages/pl';
 import en from '@languages/en';
 

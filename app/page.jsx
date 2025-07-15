@@ -1,54 +1,48 @@
+import { getDictionary } from '@utils/getDictionary';
+import { LanguageProvider } from '@context/LanguageProvider';
 import Header from '@components/Header';
-import bg from '@assets/images/main-header-image.webp';
-import { getLangFromCookie } from '@utils/get-language-from-cookie';
-import { dictionaries } from '@utils/dictionaries';
+import Footer from '@components/Footer';
 import CompaniesSlider from '@components/home/CompaniesSlider';
 import Introduction from '@components/home/Introduction';
 import Portoflio from '@components/home/Portfolio/Portoflio';
 import Information from '@components/home/Information';
 import CallToAction from '@components/home/CallToAction';
-import CustomCooperate from '@components/CustomCooperate';
 import Offer from '@components/home/Offer';
 import Opinions from '@components/home/Opinions/Opinions';
 import Owners from '@components/home/People/Owners';
 import Contact from '@components/home/Contact/Contact';
 import Faq from '@components/home/Faq/Faq';
-import Footer from '@components/Footer';
-// import StarsCanvas from '@components/StartsBg';
+import mainBg from '@assets/images/main-header-image.webp';
 
-export default function Home() {
-  const lang = getLangFromCookie();
-  const dict = (dictionaries[lang].mainSite) || (dictionaries[lang].mainsite); // niektóre klucze różnią się w JSON
-  const footerDict = (dictionaries[lang].footer) || (dictionaries[lang].footer);
+export default async function Home({ searchParams }) {
 
-  const headerDict = dict.header;
-  const introductionDict = dict.introduction;
-  const portfolioDict = dict.portfolio;
-  const informationDict = dict.information;
-  const ctaDict = dict.cta
-  const offerDict = dict.offer
-  const opinionsDict = dict.opinions
-  const ownersDict = dict.people
-  const contactDict = dict.contact
-  const faqDict = dict.faq
+  const params = searchParams instanceof Promise ? await searchParams : searchParams;
+  const lang = params?.lang || 'pl';
+  const file = await getDictionary(lang, 'main');
+  const dictionary = file.mainSite || {};
+  const dictionaryFooter = file.footer || {};
 
   return (
-    <>
-      {/* <StarsCanvas /> */}
-      <Header bg={bg} title={headerDict.title} content={headerDict.content} imageAlt={headerDict.imageAlt} buttonText={headerDict.button}/>
-      <main className='flex flex-col gap-[192px] overflow-hidden'>
-        <CompaniesSlider/>
-        <Introduction dict={introductionDict}/>
-        <Portoflio dict={portfolioDict}/>
-        <Information dict={informationDict}/>
-        <CallToAction dict={ctaDict}/>
-        <Offer dict={offerDict}/>
-        <Opinions dict={opinionsDict}/>
-        <Owners dict={ownersDict}/>
-        <Contact dict={contactDict}/>
-        <Faq dict={faqDict}/>
+    <LanguageProvider lang={lang}>
+      <Header
+        title={dictionary.header?.title || 'Default Title'}
+        content={dictionary.header?.content || 'Default Content'}
+        bg={mainBg}
+        buttonText={dictionary.header?.button || 'Default Button'}
+      />
+      <main className="flex flex-col gap-[192px] overflow-hidden">
+        <CompaniesSlider />
+        <Introduction dict={dictionary.introduction || {}} />
+        <Portoflio dict={dictionary.portfolio || {}} />
+        <Information dict={dictionary.information || {}} />
+        <CallToAction dict={dictionary.cta || {}} />
+        <Offer dict={dictionary.offer || {}} />
+        <Opinions dict={dictionary.opinions || {}} />
+        <Owners dict={dictionary.people || {}} />
+        <Contact dict={dictionary.contact || {}} />
+        <Faq dict={dictionary.faq || {}} />
       </main>
-      <Footer dict={footerDict}/>
-    </>
+      <Footer dict={dictionaryFooter} />
+    </LanguageProvider>
   );
 }

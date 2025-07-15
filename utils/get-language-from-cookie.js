@@ -1,6 +1,7 @@
 import { cookies } from 'next/headers';
 
-export function getLangFromCookie() {
-  const cookie = cookies().get('lang')?.value;
-  return cookie === 'en' ? 'en' : 'pl';
+export async function getLangFromCookie() {
+  const cookieStore = cookies();
+  const lang = cookieStore.get('lang')?.value;
+  return lang === 'en' ? 'en' : 'pl';
 }

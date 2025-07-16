@@ -5,6 +5,7 @@ import React from 'react'
 
 import offerBg from '@assets/images/headers/offer-websites-bg.webp'
 import OfferIntroduction from '@components/offer/Introduction/OfferIntroduction';
+import CoopSteps from '@components/offer/CoopSteps/CoopSteps';
 
 const page = async ({searchParams}) => {
     const params = searchParams instanceof Promise ? await searchParams : searchParams;
@@ -20,6 +21,7 @@ const page = async ({searchParams}) => {
 
             <main className='flex flex-col gap-[192px] mt-[192px] overflow-hidden max-sm:mt-[128px]'>
                 <OfferIntroduction dict={dictionary}/>
+                <CoopSteps dict={dictionary.cooperation}/>
 
             </main>
             <Footer dict={dictionaryFooter}/>

@@ -14,6 +14,20 @@
         "content": "W zależności od potrzeb i budżetu wybieramy najefektywniejsze rozwiązanie technologiczne. Do rozbudowanych aplikacji webowych i serwisów z dynamiczną zawartością rekomendujemy Next.js wraz z React.js, co pozwala na szybkie renderowanie po stronie serwera oraz statyczne generowanie stron dla maksymalnej wydajności. Jeśli zależy Ci na elastycznym zarządzaniu treścią, proponujemy headless WordPress z dowolnym front-endem, wykorzystując API-first podejście i umożliwiając łatwe integracje z zewnętrznymi systemami. Dla klasycznych witryn firmowych i blogów oferujemy WordPress z customowym szablonem PHP, co daje pełną kontrolę nad kodem i prostą rozbudowę w przyszłości.",
         "alt": "Zdjęcie przedstawiające laptopa"
     },
+    "cooperation":{
+        "title": "Jak wygląda współpraca z nami?",
+        "content": "Tworzenie strony internetowej to złożony proces, ale dzięki sprawdzonemu podejściu prowadzimy Cię przez niego krok po kroku – jasno, konkretnie i bez zbędnych komplikacji. Od pierwszego kontaktu aż po wsparcie po wdrożeniu masz pełną kontrolę nad przebiegiem prac i wiesz dokładnie, co się dzieje. Poniżej przedstawiamy, jak wygląda nasza współpraca w praktyce:",
+        "steps": [
+            {"title": "Brief", "desc": "Zaczynamy od rozmowy, podczas której poznajemy Twoje cele, oczekiwania i wymagania. Na tej podstawie proponujemy najlepsze rozwiązania i precyzujemy zakres projektu."},
+            {"title": "Umowa", "desc": "Po uzgodnieniu szczegółów przesyłamy umowę do podpisu – możliwa forma online lub tradycyjna. Po podpisaniu przy wyższych kwotach zamówienia prosimy o zaliczkę w wysokości 30% wartości projektu."},
+            {"title": "Projektowanie", "desc": "Tworzymy indywidualny design w wersji desktopowej i mobilnej. Przesyłamy do wglądu, nanosimy poprawki i finalizujemy układ oraz wygląd witryny."},
+            {"title": "Programowanie", "desc": "Przechodzimy do programowania – tworzymy front-end, integrujemy CMS, optymalizujemy pod SEO i testujemy na różnych urządzeniach oraz przeglądarkach."},
+            {"title": "Odbiór i rozliczenie", "desc": "Po zakończeniu prac prezentujemy gotową stronę, wystawiamy fakturę końcową (pomniejszoną o zaliczkę) i przekazujemy dane dostępowe oraz poradnik użytkownika."},
+            {"title": "Wsparcie i gwarancja", "desc": "Przez 12 miesięcy zapewniamy pomoc techniczną, drobne aktualizacje (do 3h/miesiąc) oraz kopie zapasowe. Jesteśmy do dyspozycji w razie potrzeby."}
+        ],
+        "alts": ["alt1", "alt2"],
+        "ending": "Choć mamy określony proces, współpraca z nami to coś więcej niż realizacja punktów z listy. Pozostajemy w stałym kontakcie, doradzamy i podpowiadamy najlepsze rozwiązania – tak, abyś na żadnym etapie nie czuł się pozostawiony sam sobie."
+    },
     "footer":{
         "alt": "Logo spółki airtilion",
         "area": {

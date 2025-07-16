@@ -186,3 +186,14 @@
 
 .websites-hidden .animation-opacity{opacity: 0;}
 .websites-visible .animation-opacity{opacity: 1;}
+
+/*oferta coop*/
+
+.coop-hidden .animation-left{opacity: 0; transform: translateX(-50px);}
+.coop-visible .animation-left{opacity: 1; transform: translateX(0px);}
+
+.coop-hidden .animation-right{opacity: 0; transform: translateX(50px);}
+.coop-visible .animation-right{opacity: 1; transform: translateX(0px);}
+
+.coop-hidden .animation-bottom{opacity: 0; transform: translateY(50px);}
+.coop-visible .animation-bottom{opacity: 1; transform: translateX(0px);}

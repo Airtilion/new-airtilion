@@ -89,6 +89,13 @@ button {
   filter: blur(1.5px);
 }
 
+.radial-gradient-404 {
+      /* background: radial-gradient(circle, rgb(0 0 0 / 20%) 60%, rgba(226, 131, 80, 1) 100%); */
+  background: radial-gradient(#000000da 58%, #e28350 72%);
+  box-shadow: 0px 4px 3000px #e28350b1;
+  filter: blur(2px);
+}
+
 .radial-line{
   background: radial-gradient(circle, #E28350 0%, #E2835000 100%);
 }

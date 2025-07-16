@@ -77,6 +77,12 @@ button {
   -webkit-text-fill-color: transparent;
 }
 
+.heading-gradient-gray-rev {
+  background: linear-gradient(270deg, #ffffff, #999999);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 .heading-gradient-white {
   background: linear-gradient(#ffffff66, #999999);
   -webkit-background-clip: text;

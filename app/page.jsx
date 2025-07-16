@@ -1,5 +1,4 @@
 import { getDictionary } from '@utils/getDictionary';
-import { LanguageProvider } from '@context/LanguageProvider';
 import Header from '@components/Header';
 import Footer from '@components/Footer';
 import CompaniesSlider from '@components/home/CompaniesSlider';
@@ -23,26 +22,21 @@ export default async function Home({ searchParams }) {
   const dictionaryFooter = file.footer || {};
 
   return (
-    <LanguageProvider lang={lang}>
-      <Header
-        title={dictionary.header?.title || 'Default Title'}
-        content={dictionary.header?.content || 'Default Content'}
-        bg={mainBg}
-        buttonText={dictionary.header?.button || 'Default Button'}
-      />
-      <main className="flex flex-col gap-[192px] overflow-hidden">
-        <CompaniesSlider />
-        <Introduction dict={dictionary.introduction || {}} />
-        <Portoflio dict={dictionary.portfolio || {}} />
-        <Information dict={dictionary.information || {}} />
-        <CallToAction dict={dictionary.cta || {}} />
-        <Offer dict={dictionary.offer || {}} />
-        <Opinions dict={dictionary.opinions || {}} />
-        <Owners dict={dictionary.people || {}} />
-        <Contact dict={dictionary.contact || {}} />
-        <Faq dict={dictionary.faq || {}} />
-      </main>
-      <Footer dict={dictionaryFooter} />
-    </LanguageProvider>
+    <>
+        <Header title={dictionary.header?.title || 'Default Title'} content={dictionary.header?.content || 'Default Content'} bg={mainBg} buttonText={dictionary.header?.button || 'Default Button'}/>
+        <main className="flex flex-col gap-[192px] overflow-hidden">
+          <CompaniesSlider />
+          <Introduction dict={dictionary.introduction || {}} />
+          <Portoflio dict={dictionary.portfolio || {}} />
+          <Information dict={dictionary.information || {}} />
+          <CallToAction dict={dictionary.cta || {}} />
+          <Offer dict={dictionary.offer || {}} />
+          <Opinions dict={dictionary.opinions || {}} />
+          <Owners dict={dictionary.people || {}} />
+          <Contact dict={dictionary.contact || {}} />
+          <Faq dict={dictionary.faq || {}} />
+        </main>
+        <Footer dict={dictionaryFooter} />
+    </>
   );
 }

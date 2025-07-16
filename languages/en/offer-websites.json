@@ -1,0 +1,30 @@
+{
+    "header":{
+        "title": "Oferta - strony internetowe",
+        "description": "Tworzymy od podstaw profesjonalne i wpadające w oko strony i sklepy internetowe oraz aplikacje mobilne. Korzystamy z najnowszych technologii, aby dostarczyć jak najlepszy produkt.",
+        "alt": "Zdjęcie przedstawiające laptopa"
+    },
+    "introduction":{
+        "title": "Dedykowana strona internetowa to najlepsza inwestycja dla Twojego biznesu",
+        "content": ["Nasze strony internetowe tworzymy od podstaw, łącząc unikalny design z solidnym kodem i optymalizacją wydajności. Każdy projekt jest szyty na miarę Twojej branży i grupy docelowej, dzięki czemu wyróżniasz się na tle konkurencji i budujesz silną tożsamość marki. ", "Strony ładowane są błyskawicznie dzięki wykorzystaniu najnowszych technik optymalizacji, a techniczne SEO – poprawna struktura nagłówków, atrybuty alt czy mapa witryny – zapewnia widoczność w wynikach wyszukiwania. Dbamy również o dostępność zgodną z WCAG, tak aby każdy użytkownik mógł korzystać ze wszystkich funkcji serwisu. Proces „projekt → kod → testy → wdrożenie → wsparcie” sprawia, że możesz być spokojny o terminowość i jakość wykonania."],
+        "alt": "Zdjęcie Ziemii"
+    },
+    "fasterWebs": {
+        "title": "Szybsze strony",
+        "content": "W zależności od potrzeb i budżetu wybieramy najefektywniejsze rozwiązanie technologiczne. Do rozbudowanych aplikacji webowych i serwisów z dynamiczną zawartością rekomendujemy Next.js wraz z React.js, co pozwala na szybkie renderowanie po stronie serwera oraz statyczne generowanie stron dla maksymalnej wydajności. Jeśli zależy Ci na elastycznym zarządzaniu treścią, proponujemy headless WordPress z dowolnym front-endem, wykorzystując API-first podejście i umożliwiając łatwe integracje z zewnętrznymi systemami. Dla klasycznych witryn firmowych i blogów oferujemy WordPress z customowym szablonem PHP, co daje pełną kontrolę nad kodem i prostą rozbudowę w przyszłości.",
+        "alt": "Zdjęcie przedstawiające laptopa"
+    },
+    "footer":{
+        "alt": "Logo spółki airtilion",
+        "area": {
+            "title": "Obszar działania",
+            "ending": "... i wiele więcej"
+        },
+        "docs": [
+            "Polityka prywatności",
+            "Polityka ochrony danych osobowych",
+            "regulamin świadczenia usług drogą elektroniczną"
+        ],
+        "companyInfo": "Airtilion Sp. z o.o. ul. Słoneczna 32/9, 33-100 Tarnów, wpisana do rejestru przedsiębiorców Krajowego rejestru Sądowego przez Sąd Rejonowy dla Krakowa-Śródmieścia w Krakowie, XII Wydział Gospodarczy Krajowego Rejestru Sądowego pod nr KRS 0001143482, kapitał zakładowy w kwocie 5 000,00 zł w całości opłacony, NIP: 8733299720"
+    }
+}

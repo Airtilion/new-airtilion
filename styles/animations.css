@@ -166,3 +166,23 @@
 .faq-hidden .animation-left{opacity: 0; transform: translateX(-50px);}
 .faq-visible .animation-left{opacity: 1; transform: translateX(0px);}
 
+/*sekcja oferta wprowadzenie*/
+.offer-introduction-hidden .animation-right{opacity: 0; transform: translateX(50px);}
+.offer-introduction-visible .animation-right{opacity: 1; transform: translateX(0px);}
+
+.offer-introduction-hidden .animation-opacity{opacity: 0;}
+.offer-introduction-visible .animation-opacity{opacity: 1;}
+
+/*sekcja 10x szybsze strony*/
+
+.websites-hidden .animation-left{opacity: 0; transform: translateX(-50px);}
+.websites-visible .animation-left{opacity: 1; transform: translateX(0px);}
+
+.websites-hidden .animation-right{opacity: 0; transform: translateX(50px);}
+.websites-visible .animation-right{opacity: 1; transform: translateX(0px);}
+
+.websites-hidden .animation-bottom{opacity: 0; transform: translateY(50px);}
+.websites-visible .animation-bottom{opacity: 1; transform: translateX(0px);}
+
+.websites-hidden .animation-opacity{opacity: 0;}
+.websites-visible .animation-opacity{opacity: 1;}

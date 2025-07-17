@@ -213,3 +213,8 @@
 
 .pricing-hidden .animation-bottom{opacity: 0; transform: translateY(50px);}
 .pricing-visible .animation-bottom{opacity: 1; transform: translateX(0px);}
+
+/* oferta portfolio */
+
+.o-portfolio-hidden .animation-opacity{opacity: 0;}
+.o-portfolio-visible .animation-opacity{opacity: 1;}

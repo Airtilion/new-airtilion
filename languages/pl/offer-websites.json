@@ -40,6 +40,28 @@
             "alt": "Zdjęcie laptopa"    
         }
     },
+    "portfolio":{
+        "title": "Wcześniej zrealizowane projekty",
+        "alt": "Zdjęcie telefonów"
+    },
+    "faq": {
+        "title": "Odpowiedzi na najczęściej zadawane pytania odnośnie oferty tworzenia stron internetowych",
+        "content": "W tej sekcji znajdziesz odpowiedzi na najczęściej zadawane pytania dotyczące współpracy z Airtilion – od etapu briefu, przez wybór technologii i narzędzi, aż po harmonogram realizacji i orientacyjne koszty projektu, a także zakres wsparcia po uruchomieniu strony czy aplikacji. Jeśli nie znalazłeś tu informacji, której szukasz, skontaktuj się z nami, a odpowiemy w ciągu 24 godzin.",
+        "qna": [
+            {
+                "q": "Jakich technologii używają Państwo do tworzenia stron internetowych?",
+                "a": ["W tej sekcji znajdziesz odpowiedzi na najczęściej zadawane pytania dotyczące współpracy z Airtilion – od etapu briefu, przez wybór technologii i narzędzi, aż po harmonogram realizacji i orientacyjne koszty projektu, a także zakres wsparcia po uruchomieniu strony czy aplikacji. Jeśli nie znalazłeś tu informacji, której szukasz, skontaktuj się z nami, a odpowiemy w ciągu 24 godzin.", "W tej sekcji znajdziesz odpowiedzi na najczęściej zadawane pytania dotyczące współpracy z Airtilion – od etapu briefu, przez wybór technologii i narzędzi, aż po harmonogram realizacji i orientacyjne koszty projektu, a także zakres wsparcia po uruchomieniu strony czy aplikacji. Jeśli nie znalazłeś tu informacji, której szukasz, skontaktuj się z nami, a odpowiemy w ciągu 24 godzin."]
+            },
+            {
+                "q": "Jak długo trwa realizacja projektu?",
+                "a": ["W tej sekcji znajdziesz odpowiedzi na najczęściej zadawane pytania dotyczące współpracy z Airtilion – od etapu briefu, przez wybór technologii i narzędzi, aż po harmonogram realizacji i orientacyjne koszty projektu, a także zakres wsparcia po uruchomieniu strony czy aplikacji. Jeśli nie znalazłeś tu informacji, której szukasz, skontaktuj się z nami, a odpowiemy w ciągu 24 godzin.", "W tej sekcji znajdziesz odpowiedzi na najczęściej zadawane pytania dotyczące współpracy z Airtilion – od etapu briefu, przez wybór technologii i narzędzi, aż po harmonogram realizacji i orientacyjne koszty projektu, a także zakres wsparcia po uruchomieniu strony czy aplikacji. Jeśli nie znalazłeś tu informacji, której szukasz, skontaktuj się z nami, a odpowiemy w ciągu 24 godzin."]
+            },
+            {
+                "q": "Jakie są dodatkowe koszty związane ze stroną internetową?",
+                "a": ["W tej sekcji znajdziesz odpowiedzi na najczęściej zadawane pytania dotyczące współpracy z Airtilion – od etapu briefu, przez wybór technologii i narzędzi, aż po harmonogram realizacji i orientacyjne koszty projektu, a także zakres wsparcia po uruchomieniu strony czy aplikacji. Jeśli nie znalazłeś tu informacji, której szukasz, skontaktuj się z nami, a odpowiemy w ciągu 24 godzin.", "W tej sekcji znajdziesz odpowiedzi na najczęściej zadawane pytania dotyczące współpracy z Airtilion – od etapu briefu, przez wybór technologii i narzędzi, aż po harmonogram realizacji i orientacyjne koszty projektu, a także zakres wsparcia po uruchomieniu strony czy aplikacji. Jeśli nie znalazłeś tu informacji, której szukasz, skontaktuj się z nami, a odpowiemy w ciągu 24 godzin."]
+            }
+        ]
+    },
     "footer":{
         "alt": "Logo spółki airtilion",
         "area": {

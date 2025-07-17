@@ -107,6 +107,14 @@
   animation: scroll 40s linear infinite alternate;
 }
 
+@keyframes scroll-r {
+  0% { transform: translateX(-50%); }
+  100% { transform: translateX(0); }
+}
+.animate-scroll-r {
+  animation: scroll-r 40s linear infinite alternate;
+}
+
 /*sekcja introduction*/
 
 .introduction-hidden .img-1{opacity: 0; transform: translateY(-50px);}
@@ -197,3 +205,11 @@
 
 .coop-hidden .animation-bottom{opacity: 0; transform: translateY(50px);}
 .coop-visible .animation-bottom{opacity: 1; transform: translateX(0px);}
+
+/* wycena */
+
+.pricing-hidden .animation-opacity{opacity: 0;}
+.pricing-visible .animation-opacity{opacity: 1;}
+
+.pricing-hidden .animation-bottom{opacity: 0; transform: translateY(50px);}
+.pricing-visible .animation-bottom{opacity: 1; transform: translateX(0px);}

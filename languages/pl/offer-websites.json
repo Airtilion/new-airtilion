@@ -28,6 +28,18 @@
         "alts": ["alt1", "alt2"],
         "ending": "Choć mamy określony proces, współpraca z nami to coś więcej niż realizacja punktów z listy. Pozostajemy w stałym kontakcie, doradzamy i podpowiadamy najlepsze rozwiązania – tak, abyś na żadnym etapie nie czuł się pozostawiony sam sobie."
     },
+    "pricing": {
+        "pricingIntro":{
+            "title": "Zamów darmową wycenę i poznaj cenę twojego projektu",
+            "content": "Orientacyjny koszt realizacji strony wizytówkowej, obejmującej do pięciu podstron, zaczyna się od 8 000 zł netto i zwykle zamyka się w przedziale 8 000–12 000 zł, przy czym czas realizacji wynosi około czterech do sześciu tygodni. Serwis średniej wielkości, składający się z piętnastu podstron wraz z prostymi integracjami, lokuje się zazwyczaj w przedziale 15 000–25 000 zł netto i wymaga sześciu do dziesięciu tygodni pracy. Natomiast bardziej rozbudowane aplikacje webowe lub platformy e-commerce to inwestycja w przedziale 30 000–50 000 zł netto, przy czasie realizacji od dziesięciu do szesnastu tygodni. Każdy projekt wyceniamy indywidualnie – na podstawie zakresu funkcji, integracji i wymaganej oprawy graficznej. Skontaktuj się z nami, opisz swój pomysł, a w ciągu 24 godzin otrzymasz wstępną kalkulację i propozycję zakresu prac."
+        },
+        "cta": {
+            "title": "Skorzystaj z darmowej wyceny",
+            "content": "Zawsze jesteśmy gotowi, żeby stworzyć dla Ciebie idealny produkt. Zamów darmową wycenę swojego projektu, a my odezwiemy się w ciągu 24h lub w najbliższym dniu roboczym. Marzysz o swojej własnej stronie, ale jeszcze nie wiesz czego dokładnie potrzebujesz? Nie przejmuj się, doradzimy i przeprowadzimy Cię przez wszystkie etapy.",
+            "button": "Kliknij aby przejść do formularza wyceny",
+            "alt": "Zdjęcie laptopa"    
+        }
+    },
     "footer":{
         "alt": "Logo spółki airtilion",
         "area": {

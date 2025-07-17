@@ -141,3 +141,7 @@ button {
   opacity: 0;
   pointer-events: none;
 }
+
+.gradient-transparency {
+  -webkit-mask-image: radial-gradient(rgba(0, 0, 0, 0.12) 5%, rgba(0, 0, 0, 0) 100%);
+}

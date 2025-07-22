@@ -3,7 +3,7 @@ import React from 'react'
 
 const Header = ({full = true, title, content, bg, buttonText}) => {
   return (
-    <header className={`mx-24 px-16 py-8 mt-[120px] flex flex-col justify-end gap-32 ${full ? 'h-[calc(100vh-176px)] max-lg:h-[calc(100vh-146px)] max-sm:h-[calc(100vh-102px)]' : 'h-[470px]'} relative z-[1] max-2xl:gap-24 max-2xl:mx-16 max-xl:px-12 max-lg:mx-8 max-lg:px-8 max-lg:mt-[90px] max-sm:mx-0 max-sm:px-0 max-sm:pl-6 max-sm:gap-32 max-sm:ml-3`}>
+    <header className={`mx-24 px-16 py-8 mt-[120px] flex flex-col justify-end gap-32 ${full ? 'h-[calc(100vh-176px)] max-lg:h-[calc(100vh-146px)] max-sm:h-[calc(100vh-102px)]' : 'h-[570px]'} relative z-[1] max-2xl:gap-24 max-2xl:mx-16 max-xl:px-12 max-lg:mx-8 max-lg:px-8 max-lg:mt-[90px] max-sm:mx-0 max-sm:px-0 max-sm:pl-6 max-sm:gap-32 max-sm:ml-3`}>
         <div className='flex flex-col gap-4'>
             <h1 className='text-[55px] font-light w-[800px] text-white opacity-0 translate-x-animation max-2xl:text-[45px] max-2xl:w-[60%] max-xl:text-[35px] max-xl:w-[65%] max-lg:w-[500px] max-md:text-[30px] max-md:w-[450px] max-sm:w-[90%] max-sm:text-[27px]'>{title}</h1>
             <p className='text-[20px] font-light w-[50%] text-white opacity-0 translate-x-animation max-2xl:text-[18px] max-2xl:w-[55%] max-xl:w-[65%] max-xl:text-[16px] max-md:text-[15px] max-sm:w-[90%]' style={{animationDelay: '200ms'}}>{content}</p>

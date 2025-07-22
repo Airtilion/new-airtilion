@@ -1,0 +1,24 @@
+{
+    "header":{
+        "title": "Portfolio",
+        "description": "Tworzymy od podstaw profesjonalne i wpadające w oko strony i sklepy internetowe oraz aplikacje mobilne. Korzystamy z najnowszych technologii, aby dostarczyć jak najlepszy produkt.",
+        "alt": "Zdjęcie przedstawiające telefon"
+    },
+    "main": {
+        "title": "Każdy projekt to osobna historia",
+        "content": "Nie wierzymy w gotowe schematy. Każdy projekt, który trafia do naszego zespołu, traktujemy jako unikalny organizm – z własnym rytmem, potrzebami i wyzwaniami. Dlatego nie zaczynamy od kodu, tylko od zrozumienia. Dopiero potem projektujemy, budujemy i testujemy. Dzięki temu nasze realizacje nie są tylko zbiorem funkcjonalności, lecz pełnoprawnymi, dopracowanymi systemami, które realnie wspierają rozwój biznesu. Nasze portfolio to nie katalog produktów – to mapa historii, które pomogliśmy napisać przy pomocy technologii."
+    },
+    "footer":{
+        "alt": "Logo spółki airtilion",
+        "area": {
+            "title": "Obszar działania",
+            "ending": "... i wiele więcej"
+        },
+        "docs": [
+            "Polityka prywatności",
+            "Polityka ochrony danych osobowych",
+            "regulamin świadczenia usług drogą elektroniczną"
+        ],
+        "companyInfo": "Airtilion Sp. z o.o. ul. Słoneczna 32/9, 33-100 Tarnów, wpisana do rejestru przedsiębiorców Krajowego rejestru Sądowego przez Sąd Rejonowy dla Krakowa-Śródmieścia w Krakowie, XII Wydział Gospodarczy Krajowego Rejestru Sądowego pod nr KRS 0001143482, kapitał zakładowy w kwocie 5 000,00 zł w całości opłacony, NIP: 8733299720"
+    }
+}

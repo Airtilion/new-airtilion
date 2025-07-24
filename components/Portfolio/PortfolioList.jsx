@@ -4,7 +4,7 @@ import React, { useEffect, useState, useCallback } from 'react'
 import useScrollObserver from '@/hooks/useScrollObserver'
 import PortfolioElement from './PortfolioItem'
 
-const PortfolioList = ({ dict }) => {
+const PortfolioList = ({ dict, lang }) => {
   const [projects, setProjects] = useState([])
   const [offset, setOffset]     = useState(0)
   const [hasMore, setHasMore]   = useState(true)
@@ -59,9 +59,7 @@ const PortfolioList = ({ dict }) => {
 
       <article className='flex flex-wrap gap-8 justify-center mt-16'>
         {projects.map((proj, idx) => (
-            <>
-                <PortfolioElement item={proj} key={idx}/>        
-            </>
+            <PortfolioElement item={proj} key={idx} lang={lang}/>        
         ))}
       </article>
 

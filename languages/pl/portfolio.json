@@ -8,6 +8,19 @@
         "title": "Każdy projekt to osobna historia",
         "content": "Nie wierzymy w gotowe schematy. Każdy projekt, który trafia do naszego zespołu, traktujemy jako unikalny organizm – z własnym rytmem, potrzebami i wyzwaniami. Dlatego nie zaczynamy od kodu, tylko od zrozumienia. Dopiero potem projektujemy, budujemy i testujemy. Dzięki temu nasze realizacje nie są tylko zbiorem funkcjonalności, lecz pełnoprawnymi, dopracowanymi systemami, które realnie wspierają rozwój biznesu. Nasze portfolio to nie katalog produktów – to mapa historii, które pomogliśmy napisać przy pomocy technologii."
     },
+    "project": {
+        "introduction": {
+            "title": "Opis projektu",
+            "alts": [
+                "Logo projektu",
+                "Zdjęcie przedstawiające telefon z obrazem jednej z sekcji",
+                "Zdjęcie przedstawiające telefon z obrazem jednej z sekcji",
+                "Zdjęcie przedstawiające laptop z obrazem jednej z sekcji",
+                "Zdjęcie przedstawiające laptop z obrazem jednej z sekcji"
+            ],
+            "button": ["Wyświetl pełną wizualizację", "Kliknij aby zobaczyć pełną wizuwalizację strony internetowej"]
+        }
+    },
     "footer":{
         "alt": "Logo spółki airtilion",
         "area": {

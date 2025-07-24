@@ -1,0 +1,40 @@
+{
+  "header": {
+    "title": "Portfolio",
+    "description": "We design and develop eye-catching, professional websites, online stores, and mobile applications from scratch. We use the latest technologies to deliver the best possible product.",
+    "alt": "Photo showing a phone"
+  },
+  "main": {
+    "title": "Every project tells a different story",
+    "content": "We don’t believe in ready-made templates. Every project that comes to our team is treated as a unique organism – with its own rhythm, needs, and challenges. That’s why we don’t start with code – we start with understanding. Only then do we design, build, and test. As a result, our work isn’t just a collection of features, but fully developed systems that truly support business growth. Our portfolio isn’t a product catalog – it’s a map of stories we’ve helped write through technology."
+  },
+  "project": {
+    "introduction": {
+      "title": "Project Description",
+      "alts": [
+        "Project logo",
+        "Image showing a phone with one of the section designs",
+        "Image showing a phone with one of the section designs",
+        "Image showing a laptop with one of the section designs",
+        "Image showing a laptop with one of the section designs"
+      ],
+      "button": [
+        "View full visualization",
+        "Click to see the full website visualization"
+      ]
+    }
+  },
+  "footer": {
+    "alt": "Airtilion company logo",
+    "area": {
+      "title": "Operating area",
+      "ending": "... and much more"
+    },
+    "docs": [
+      "Privacy Policy",
+      "Personal Data Protection Policy",
+      "Terms of Electronic Service Provision"
+    ],
+    "companyInfo": "Airtilion Sp. z o.o. Słoneczna 32/9, 33-100 Tarnów, registered in the Register of Entrepreneurs of the National Court Register by the District Court for Kraków-Śródmieście in Kraków, 12th Commercial Division of the National Court Register under KRS number 0001143482, share capital of PLN 5,000.00 fully paid, NIP: 8733299720"
+  }
+}

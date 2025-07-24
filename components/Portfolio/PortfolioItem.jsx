@@ -2,7 +2,7 @@ import Link from '@node_modules/next/link';
 import Image from 'next/image';
 import React, { useEffect, useState } from 'react';
 
-const PortfolioElement = ({ item }) => {
+const PortfolioElement = ({ item, lang }) => {
     const [isLogoHorizontal, setIsLogoHorizontal] = useState(true);
 
     const getLink = (element) => {
@@ -24,8 +24,8 @@ const PortfolioElement = ({ item }) => {
                 <div className='flex gap-8 relative z-[3] items-center max-sm:flex-col'>
                     <Image src={getLink(item.Logo.file)} width={300} height={300} alt="Logo projektu" className={isLogoHorizontal ? 'w-[120px]' : 'w-[80px]'}/>
                     <div>
-                        <h3 className='text-[25px] !font-light mb-4 max-2xl:text-[22px] max-sm:text-[18px] max-sm:mb-2'>{item.Name}</h3>
-                        <p className='line-clamp-3 max-2xl:text-[15px] max-sm:text-[14px]'>{item.Description}</p>
+                        <h3 className='text-[25px] !font-light mb-4 max-2xl:text-[22px] max-sm:text-[18px] max-sm:mb-2'>{item.Name[lang]}</h3>
+                        <p className='line-clamp-3 max-2xl:text-[15px] max-sm:text-[14px]'>{item.Description[lang]}</p>
                     </div>
                 </div>
                 <div className='absolute bottom-0 left-0 z-[2] w-full h-[70%] max-sm:h-full bg-gradient-to-b from-[#00000033] to-[#000000] to-[100%] backdrop-blur-[10px] [-webkit-mask:linear-gradient(transparent,black_50%)]' />

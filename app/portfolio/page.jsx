@@ -16,7 +16,7 @@ const page = async ({ searchParams }) => {
         <>
             <Header full={false} title={dictionary.header?.title} content={dictionary.header?.description || 'Default Content'} bg={portfolioBg}/>
             <main className='flex flex-col gap-[192px] mt-[192px] pb-32 overflow-hidden max-sm:mt-[128px] relative'>
-                <PortfolioList dict={dictionary.main}/>
+                <PortfolioList dict={dictionary.main} lang={lang}/>
 
             </main>
             <Footer dict={dictionaryFooter}/>

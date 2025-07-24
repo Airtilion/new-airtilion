@@ -218,3 +218,11 @@
 
 .o-portfolio-hidden .animation-opacity{opacity: 0;}
 .o-portfolio-visible .animation-opacity{opacity: 1;}
+
+/*----- single portfolio - introduction  ----*/
+
+.portfolio-introduction-hidden .animation-opacity{opacity: 0;}
+.portfolio-introduction-visible .animation-opacity{opacity: 1;}
+
+.portfolio-introduction-hidden .animation-bottom{opacity: 0; transform: translateY(50px);}
+.portfolio-introduction-visible .animation-bottom{opacity: 1; transform: translateY(0px);}

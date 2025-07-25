@@ -26,6 +26,9 @@
                 "Zdjęcie laptopa ze stroną",
                 "Zdjęcie telefonu ze stroną"
             ]
+        },
+        "technologies": {
+            "title": "Wykorzystane technologie"
         }
     },
     "footer":{

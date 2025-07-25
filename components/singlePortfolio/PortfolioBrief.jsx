@@ -14,7 +14,7 @@ const PortfolioBrief = ({dict, brief, screens, convertLink}) => {
         <article className='w-[550px] max-xl:w-[400px] max-lg:w-[550px] max-sm:w-full'>
             <h2 className='text-[30px] max-2xl:text-[25px] max-sm:text-[20px] max-w-[330px] heading-gradient-gray mb-6 animation-left transition-all duration-1000 ease-in-out delay-100'>{dict.title}</h2>
             {brief.map((b, idx) => (
-                <div className='flex items-center gap-3 mt-2 animation-left transition-all duration-1000 ease-in-out' style={{transitionDelay: (idx+2)*100 + 'ms'}}>
+                <div key={idx} className='flex items-center gap-3 mt-2 animation-left transition-all duration-1000 ease-in-out' style={{transitionDelay: (idx+2)*100 + 'ms'}}>
                     <span className='!font-bold text-[32px] heading-gradient-gray w-[20px] max-2xl:text-[28px]'>{idx+1}</span>
                     <p key={idx} className='text-[16px] max-2xl:text-[15px] max-sm:text-[14px]'> {b}</p>
                 </div>

@@ -237,3 +237,8 @@
 
 .portfolio-brief-hidden .animation-opacity{opacity: 0;}
 .portfolio-brief-visible .animation-opacity{opacity: 1;}
+
+/* portfolio technologies */
+
+.portfolio-tech-hidden .animation-opacity{opacity: 0;}
+.portfolio-tech-visible .animation-opacity{opacity: 1;}

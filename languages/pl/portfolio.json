@@ -33,6 +33,10 @@
         "steps":{
             "title": "Przebieg prac nad stroną",
             "alt": "Ozdobne zblurowane zdjęcie laptopa z profesjonalną stroną internetową"
+        },
+        "achivements": {
+            "title": "Co udało się osiągnąć?",
+            "alt": "Obraz przedstawiający telefon"
         }
     },
     "footer":{

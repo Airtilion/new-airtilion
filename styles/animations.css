@@ -250,3 +250,11 @@
 
 .portfolio-steps-hidden .animation-opacity{opacity: 0;}
 .portfolio-steps-visible .animation-opacity{opacity: 1;}
+
+/* portfolio osiągnięcia  */
+
+.portfolio-achivements-hidden .animation-left{opacity: 0; transform: translateX(-50px)}
+.portfolio-achivements-visible .animation-left{opacity: 1; transform: translateX(0px)}
+
+.portfolio-achivements-hidden .animation-opacity{opacity: 0;}
+.portfolio-achivements-visible .animation-opacity{opacity: 1;}

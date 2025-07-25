@@ -6,6 +6,7 @@ import Footer from '@components/Footer'
 import PortfolioBrief from '@components/singlePortfolio/PortfolioBrief'
 import PortfolioTechs from '@components/singlePortfolio/PortfolioTechs'
 import PortfolioSteps from '@components/singlePortfolio/PortfolioSteps/PortfolioSteps'
+import PortfolioAchivements from '@components/singlePortfolio/PortfolioAchivements/PortfolioAchivements'
 
 export async function generateStaticParams() {
   const base = process.env.NEXT_PUBLIC_SITE_URL || 'http://localhost:3000'
@@ -49,6 +50,7 @@ export default async function Page({params, searchParams}) {
         <PortfolioBrief dict={dictionary.project.brief} brief={project.Brief[lang]} screens={project.Screens} convertLink={getLink}/>
         <PortfolioTechs dict={dictionary.project.technologies} techs={project.Technologies}/>
         <PortfolioSteps dict={dictionary.project.steps} steps={project.Work[lang]}/>
+        <PortfolioAchivements dict={dictionary.project.achivements} image={getLink(project.Screens[6].file)} achivements={project.Achievements[lang]} />
       </main>
 
       <div className='gradient-transparency-v absolute w-[800px] h-[calc(100%-550px)] bg-linear-to-r from-[#00000000] via-[#e283504D] to-[#00000000] z-[-3] top-0 left-[50%] translate-x-[-50%] max-lg:w-[500px] max-sm:w-[80%]'></div>

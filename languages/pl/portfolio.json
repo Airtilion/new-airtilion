@@ -29,6 +29,10 @@
         },
         "technologies": {
             "title": "Wykorzystane technologie"
+        },
+        "steps":{
+            "title": "Przebieg prac nad stroną",
+            "alt": "Ozdobne zblurowane zdjęcie laptopa z profesjonalną stroną internetową"
         }
     },
     "footer":{

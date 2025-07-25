@@ -242,3 +242,11 @@
 
 .portfolio-tech-hidden .animation-opacity{opacity: 0;}
 .portfolio-tech-visible .animation-opacity{opacity: 1;}
+
+/* portfolio proces  */
+
+.portfolio-steps-hidden .animation-left{opacity: 0; transform: translateX(-50px)}
+.portfolio-steps-visible .animation-left{opacity: 1; transform: translateX(0px)}
+
+.portfolio-steps-hidden .animation-opacity{opacity: 0;}
+.portfolio-steps-visible .animation-opacity{opacity: 1;}

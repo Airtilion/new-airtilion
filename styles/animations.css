@@ -226,3 +226,14 @@
 
 .portfolio-introduction-hidden .animation-bottom{opacity: 0; transform: translateY(50px);}
 .portfolio-introduction-visible .animation-bottom{opacity: 1; transform: translateY(0px);}
+
+/* portfolio brief */
+
+.portfolio-brief-hidden .animation-right{opacity: 0; transform: translateX(50px)}
+.portfolio-brief-visible .animation-right{opacity: 1; transform: translateX(0px)}
+
+.portfolio-brief-hidden .animation-left{opacity: 0; transform: translateX(-50px)}
+.portfolio-brief-visible .animation-left{opacity: 1; transform: translateX(0px)}
+
+.portfolio-brief-hidden .animation-opacity{opacity: 0;}
+.portfolio-brief-visible .animation-opacity{opacity: 1;}

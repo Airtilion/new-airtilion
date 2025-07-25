@@ -19,6 +19,13 @@
                 "Zdjęcie przedstawiające laptop z obrazem jednej z sekcji"
             ],
             "button": ["Wyświetl pełną wizualizację", "Kliknij aby zobaczyć pełną wizuwalizację strony internetowej"]
+        },
+        "brief":{
+            "title": "Zakres ustalonych prac podczas briefu",
+            "alts": [
+                "Zdjęcie laptopa ze stroną",
+                "Zdjęcie telefonu ze stroną"
+            ]
         }
     },
     "footer":{

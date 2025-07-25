@@ -3,6 +3,7 @@ import { getDictionary } from '@utils/getDictionary'
 import Header from '@components/Header'
 import PortfolioIntroduction from '@components/singlePortfolio/PortfolioIntroduction/PortfolioIntroduction'
 import Footer from '@components/Footer'
+import PortfolioBrief from '@components/singlePortfolio/PortfolioBrief'
 
 export async function generateStaticParams() {
   const base = process.env.NEXT_PUBLIC_SITE_URL || 'http://localhost:3000'
@@ -32,6 +33,7 @@ export default async function Page({params, searchParams}) {
   )
   if (!res.ok) return <p>Projekt nie znaleziony.</p>
   const project = await res.json()
+  console.log(project)
 
   const getLink = (file) =>
     `${process.env.NEXT_PUBLIC_API_URL}/uploads/projects/${project.Client}/${file.replace(/\\/g, '/')}`
@@ -47,7 +49,10 @@ export default async function Page({params, searchParams}) {
       />
       <main className="flex flex-col gap-[192px] mt-[192px] pb-32 overflow-hidden max-sm:mt-[128px] relative">
         <PortfolioIntroduction dict={dictionary.project.introduction} desc={project.Description[lang]} logo={project.Logo.file} screens={project.Screens} convertLink={getLink}/>
+        <PortfolioBrief dict={dictionary.project.brief} brief={project.Brief[lang]} screens={project.Screens} convertLink={getLink}/>
       </main>
+      <div className='gradient-transparency-v absolute w-[800px] h-[calc(100%-550px)] bg-linear-to-r from-[#00000000] via-[#e283504D] to-[#00000000] z-[-3] top-0 left-[50%] translate-x-[-50%] max-lg:w-[500px] max-sm:w-[80%]'></div>
+
       <Footer dict={dictionary.footer}/>
     </>
   )

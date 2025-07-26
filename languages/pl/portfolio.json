@@ -37,6 +37,9 @@
         "achivements": {
             "title": "Co udało się osiągnąć?",
             "alt": "Obraz przedstawiający telefon"
+        },
+        "client": {
+            "alts": ["alt1", "alt2"]
         }
     },
     "footer":{

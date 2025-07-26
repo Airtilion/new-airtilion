@@ -258,3 +258,11 @@
 
 .portfolio-achivements-hidden .animation-opacity{opacity: 0;}
 .portfolio-achivements-visible .animation-opacity{opacity: 1;}
+
+/*portfolio klient*/
+
+.portfolio-client-hidden .animation-left{opacity: 0; transform: translateX(-50px)}
+.portfolio-client-visible .animation-left{opacity: 1; transform: translateX(0px)}
+
+.portfolio-client-hidden .animation-opacity{opacity: 0;}
+.portfolio-client-visible .animation-opacity{opacity: 1;}

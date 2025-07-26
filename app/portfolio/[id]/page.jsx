@@ -7,6 +7,7 @@ import PortfolioBrief from '@components/singlePortfolio/PortfolioBrief'
 import PortfolioTechs from '@components/singlePortfolio/PortfolioTechs'
 import PortfolioSteps from '@components/singlePortfolio/PortfolioSteps/PortfolioSteps'
 import PortfolioAchivements from '@components/singlePortfolio/PortfolioAchivements/PortfolioAchivements'
+import PortfolioClient from '@components/singlePortfolio/PortfolioClient'
 
 export async function generateStaticParams() {
   const base = process.env.NEXT_PUBLIC_SITE_URL || 'http://localhost:3000'
@@ -38,8 +39,8 @@ export default async function Page({params, searchParams}) {
   const project = await res.json()
   console.log(project)
 
-  const getLink = (file) =>
-    `${process.env.NEXT_PUBLIC_API_URL}/uploads/projects/${project.Client}/${file.replace(/\\/g, '/')}`
+  const getLink = (file) => `${process.env.NEXT_PUBLIC_API_URL}/uploads/projects/${project.Client}/${file.replace(/\\/g, '/')}`
+  const getClientLink = (file) => `${process.env.NEXT_PUBLIC_API_URL}/uploads/clients/${project.Client}/${file.replace(/\\/g, '/')}`
 
   return (
     <>
@@ -51,6 +52,7 @@ export default async function Page({params, searchParams}) {
         <PortfolioTechs dict={dictionary.project.technologies} techs={project.Technologies}/>
         <PortfolioSteps dict={dictionary.project.steps} steps={project.Work[lang]}/>
         <PortfolioAchivements dict={dictionary.project.achivements} image={getLink(project.Screens[6].file)} achivements={project.Achievements[lang]} />
+        <PortfolioClient dict={dictionary.project.client} client={project.ClientData} convertLink={getClientLink}/>
       </main>
 
       <div className='gradient-transparency-v absolute w-[800px] h-[calc(100%-550px)] bg-linear-to-r from-[#00000000] via-[#e283504D] to-[#00000000] z-[-3] top-0 left-[50%] translate-x-[-50%] max-lg:w-[500px] max-sm:w-[80%]'></div>

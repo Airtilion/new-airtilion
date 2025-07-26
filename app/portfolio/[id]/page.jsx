@@ -8,6 +8,8 @@ import PortfolioTechs from '@components/singlePortfolio/PortfolioTechs'
 import PortfolioSteps from '@components/singlePortfolio/PortfolioSteps/PortfolioSteps'
 import PortfolioAchivements from '@components/singlePortfolio/PortfolioAchivements/PortfolioAchivements'
 import PortfolioClient from '@components/singlePortfolio/PortfolioClient'
+import PortfolioReview from '@components/singlePortfolio/PortfolioReview'
+import PortfolioCallToAction from '@components/singlePortfolio/PortfolioCallToAction'
 
 export async function generateStaticParams() {
   const base = process.env.NEXT_PUBLIC_SITE_URL || 'http://localhost:3000'
@@ -53,6 +55,8 @@ export default async function Page({params, searchParams}) {
         <PortfolioSteps dict={dictionary.project.steps} steps={project.Work[lang]}/>
         <PortfolioAchivements dict={dictionary.project.achivements} image={getLink(project.Screens[6].file)} achivements={project.Achievements[lang]} />
         <PortfolioClient dict={dictionary.project.client} client={project.ClientData} convertLink={getClientLink}/>
+        <PortfolioReview dict={dictionary.project.review} revs={project.Review.text[lang]} author={project.Review.author} authorRole={project.Review.authorRole[lang]}/>
+        <PortfolioCallToAction dict={dictionary.project.cta}/>
       </main>
 
       <div className='gradient-transparency-v absolute w-[800px] h-[calc(100%-550px)] bg-linear-to-r from-[#00000000] via-[#e283504D] to-[#00000000] z-[-3] top-0 left-[50%] translate-x-[-50%] max-lg:w-[500px] max-sm:w-[80%]'></div>

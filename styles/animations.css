@@ -266,3 +266,8 @@
 
 .portfolio-client-hidden .animation-opacity{opacity: 0;}
 .portfolio-client-visible .animation-opacity{opacity: 1;}
+
+/*portfolio opinia*/
+
+.portfolio-rev-hidden .animation-bottom{opacity: 0; transform: translateY(50px);}
+.portfolio-rev-visible .animation-bottom{opacity: 1; transform: translateY(0px);}

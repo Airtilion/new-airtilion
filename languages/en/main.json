@@ -170,7 +170,8 @@
           "Message is required",
           "You must accept the privacy policy",
           "You must consent to marketing communications",
-          "Bot detected"
+          "Bot detected",
+          "Form not sent"
         ],
         "success": "Your message has been sent successfully!"
       },

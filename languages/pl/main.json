@@ -170,7 +170,8 @@
                     "Wiadomość jest wymagana",
                     "Musisz zaakceptować politykę prywatności",
                     "Musisz wyrazić zgodę na otrzymywanie informacji handlowej",
-                    "Wykryto bota"
+                    "Wykryto bota",
+                    "Nie udało się wysłać formularza"
                 ],
                 "success": "Twoja wiadomość została wysłana pomyślnie!"
             },

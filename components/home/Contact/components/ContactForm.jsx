@@ -29,18 +29,30 @@ const ContactForm = ({ text }) => {
     if (!chRef.current.checked) return setCurrentError(7)
     if (!ch2Ref.current.checked) return setCurrentError(8)
 
-    setCurrentError(0)
-    setSuccess(true)
+  
 
     //wysyłanie
     console.log({ name, email, phone, message, privacyConsent: chRef.current.checked, marketingConsent: ch2Ref.current.checked })
 
-    //reset
-    chRef.current.checked = false;
-    ch2Ref.current.checked = false
-    setData({ name: "", email: "", phone: "", message: "", additional: "" })
+    try{
+      const res = fetch('/api/contact/set', {
+        method: "POST",
+        body: JSON.stringify({ name, email, phone, message, privacyConsent: chRef.current.checked, marketingConsent: ch2Ref.current.checked })
+      })
 
-    setTimeout(() => setSuccess(false), 5000)
+        setCurrentError(0)
+        setSuccess(true)
+
+        setTimeout(() => setSuccess(false), 5000)
+
+        chRef.current.checked = false;
+        ch2Ref.current.checked = false
+        setData({ name: "", email: "", phone: "", message: "", additional: "" })
+    }
+    catch(err){
+      console.error(err)
+      setCurrentError(10)
+    }
   }
 
 

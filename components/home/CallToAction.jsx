@@ -7,7 +7,7 @@ import lionImg from '@assets/images/lion-cta.webp'
 import SlideUpContact from '@components/SlideUpContact'
 import IntersectionListener from '@components/IntersectionListener'
 
-const CallToAction = ({ dict }) => {
+const CallToAction = ({ dict, lang }) => {
   const [isContactOpen, setIsContactOpen] = useState(false);
   const [isVisible, setIsVisible] = useState(false);
 
@@ -42,7 +42,7 @@ const CallToAction = ({ dict }) => {
         <Image src={lionImg} width={1920} height={350} alt={dict.alt} quality={100} className='object-cover brightness-50 object-[0px_-280px] absolute z-[-1] h-full max-2xl:object-[0px_-200px] max-xl:object-[0px_-100px] max-md:object-center max-md:h-full' />
       </section>
 
-      <SlideUpContact isContactOpen={isContactOpen} isVisible={isVisible} setIsContactOpen={setIsContactOpen}/>
+      <SlideUpContact isContactOpen={isContactOpen} isVisible={isVisible} setIsContactOpen={setIsContactOpen} dict={dict.form} lang={lang}/>
     </>
   )
 }

@@ -29,7 +29,7 @@ export default async function Home({ searchParams }) {
           <Introduction dict={dictionary.introduction || {}} />
           <Portoflio dict={dictionary.portfolio || {}} />
           <Information dict={dictionary.information || {}} />
-          <CallToAction dict={dictionary.cta || {}} />
+          <CallToAction lang={lang} dict={dictionary.cta || {}} />
           <Offer dict={dictionary.offer || {}} />
           <Opinions dict={dictionary.opinions || {}} />
           <Owners dict={dictionary.people || {}} />

@@ -1,118 +1,113 @@
 'use client'
 
-import React, { useState } from 'react'
-import Link from 'next/link';
+import React, { useRef, useState } from 'react'
+import CustomCheckbox from './home/Contact/components/CustomCheckbox';
+import CustomSelect from './home/CustomSelect';
 
-const CustomContactForm = ({ isContactOpen }) => {
-    const [name, setName] = useState('');
-    const [email, setEmail] = useState('');
-    const [number, setNumber] = useState('');
-    const [text, setText] = useState('');
-    const [error, setError] = useState('');
-    const [checkboxValue, setCheckboxValue] = useState({
-        privacy_policy: false,
-        personal_data_processing: false
-    })
-    const [isSubmitting, setIsSubmitting] = useState(false);
+const CustomContactForm = ({ isContactOpen, setIsContactOpen, dict, lang }) => {
+    const chRef = useRef();
+    const ch2Ref = useRef();
+    const [currentError, setCurrentError] = useState(0)
+    const [success, setSuccess] = useState(false)
+    const [data, setData] = useState({ name: "", email: "", phone: "", contact_from: "10:00", contact_to: "16:00", type: "landing", message: "", additional: "" })
 
-    const handleCheckboxChange = (e) => {
-        const { id, checked } = e.target;
-        setCheckboxValue((prev) => ({
-            ...prev,
-            [id]: checked,
-        }));
-    };
+    const changeData = (e, type) => {
+        const value = type === 'type' ? e : e.target.value
+        setData({ ...data, [type]: value })
+    }
 
     const handleSubmit = async (e) => {
-        e.preventDefault();
+        e.preventDefault()
+        setSuccess(false)
+        const { name, email, phone, message, contact_from, contact_to, type } = data
 
-        if (!name || !email || !number || !text) {
-            setError('Wypełnij wszystkie pola!');
-            return;
-        }
-
-        const emailRegex = /^\S+@\S+\.\S+$/;
-        if (!emailRegex.test(email)) {
-            setError('Podaj poprawny adres email!');
-            setIsSubmitting(false);
-            return;
-        }
-
-        if (!checkboxValue.privacy_policy || !checkboxValue.personal_data_processing) {
-            setError('Musisz zaakceptować politykę prywatności i zgodę na przetwarzanie danych.');
-            setIsSubmitting(false);
-            return;
-        }
-
-        setIsSubmitting(true);
+        if (data.additional.trim()) return setCurrentError(9)
+        if (!name.trim()) return setCurrentError(1)
+        if (!email.trim()) return setCurrentError(3)
+        if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) return setCurrentError(2)
+        if (!phone.trim()) return setCurrentError(4)
+        if (!/^(?:\+48\s?)?(?:\d{3}\s?\d{3}\s?\d{3})$/.test(phone)) return setCurrentError(5)
+        if (!message.trim()) return setCurrentError(6)
+        if (!chRef.current.checked) return setCurrentError(7)
+        if (!ch2Ref.current.checked) return setCurrentError(8)
 
         try {
-            const date = new Date().toISOString();
-
-            const response = await fetch('/api/contact/', {
+            const res = await fetch('/api/contact/setPricing', {
                 method: 'POST',
-                body: JSON.stringify({
-                    Name: name,
-                    Email: email,
-                    Number: number,
-                    Text: text,
-                    Date: date,
-                }),
-                headers: {
-                    'Content-Type': 'application/json'
-                }
-            });
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ name, email, phone, contactHours: `${contact_from}-${contact_to}`, type, message, privacyConsent: chRef.current.checked, marketingConsent: ch2Ref.current.checked })
+            })
 
-            if (response.ok) {
-                setName('');
-                setEmail('');
-                setNumber('');
-                setText('');
-                setCheckboxValue({
-                    privacy_policy: false,
-                    personal_data_processing: false
-                });
-                setError('');
-            }
-        } catch (error) {
-            setError('Wystąpił nieoczekiwany błąd.');
-            console.log(error);
-        } finally {
-            setIsSubmitting(false);
+            const result = await res.json()
+            if (!res.ok) throw new Error(result.error || 'Server error')
+            
+            setCurrentError(0)
+            setData({ name: "", email: "", phone: "", contact_from: "10:00", contact_to: "16:00", type: "landing", message: "", additional: "" })
+            setSuccess(true)
+            setTimeout(() => {setSuccess(false); setIsContactOpen(false)}, 3000)
+        } catch (err) {
+            console.error(err)
+            setCurrentError(10)
         }
     }
 
+
     return (
-        <div className={`w-[600px] mx-auto flex flex-col ${isContactOpen ? 'form-enter' : ''} sm:w-[100%]`}>
-            {error && <span className='text-red-500 font-light'>{error}</span>}
-            <form onSubmit={handleSubmit} className='mt-[16px] flex flex-col gap-[20px] lg:gap-[15px] contactForm'>
-                <input name="Name" value={name} onChange={(e) => setName(e.target.value)} type="text" className='animate-field xxl:text-[20px] bg-transparent outline-none border-b-[1px] border-b-[#FFF] py-[10px] duration-500 focus:border-b-[#E2B350] sm:text-[15px]' placeholder='Imię i Nazwisko' />
-                <input name="Email" value={email} onChange={(e) => setEmail(e.target.value)} type="email" className='animate-field xxl:text-[20px] bg-transparent outline-none border-b-[1px] border-b-[#FFF] py-[10px] duration-500 focus:border-b-[#E2B350] sm:text-[15px]' placeholder='Adres e-mail' />
-                <input name="Number" value={number} onChange={(e) => setNumber(e.target.value)} type="text" className='animate-field xxl:text-[20px] bg-transparent outline-none border-b-[1px] border-b-[#FFF] py-[10px] duration-500 focus:border-b-[#E2B350] sm:text-[15px]' placeholder='Numer telefonu' />
-                <textarea name="Text" value={text} onChange={(e) => setText(e.target.value)} className='animate-field xxl:text-[20px] bg-transparent outline-none border-b-[1px] border-b-[#FFF] py-[10px] resize-none h-[150px] duration-500 focus:border-b-[#E2B350] sm:text-[15px]' placeholder='Wiadomość' />
+        <form className='flex flex-col gap-6 mt-3 relative max-sm:mt-6 translate-y-animation' onSubmit={handleSubmit} noValidate>
 
-                <div className='animate-field w-full flex gap-[5px] mt-[15px] sm:items-center sm:flex-col sm:text-[15px]'>
-                    <input type="checkbox" id="privacy_policy" checked={checkboxValue.privacy_policy} onChange={handleCheckboxChange} className='hidden peer' />
-                    <label htmlFor="privacy_policy" className='flex items-center cursor-pointer'>
-                        <span className='quadBefore flex items-center font-light'>Akceptuję</span>
-                    </label>
-                    <Link href="/assets/files/polityka_prywatnosci_Airtilion.pdf" aria-label="Przejdź do Polityki prywatności" target="_blank" rel="noopener noreferrer" className="text-[#E2B350] text-center">politykę prywatności</Link>
-                </div>
+            {currentError !== 0 && (
+                <p className='absolute right-0 top-[-20px] !text-red-400 text-[12px] max-sm:top-[-30px]'>
+                    {dict.errors[currentError]}
+                </p>
+            )}
+            {success && (
+                <p className='absolute right-0 top-[-20px] !text-green-400 text-[12px]'>
+                    {dict.success}
+                </p>
+            )}
 
-                <div className='animate-field w-full flex gap-[5px] sm:items-center sm:flex-col sm:text-[15px]'>
-                    <input type="checkbox" id="personal_data_processing" checked={checkboxValue.personal_data_processing} onChange={handleCheckboxChange} className='hidden peer' />
-                    <label htmlFor="personal_data_processing" className='flex items-center cursor-pointer'>
-                        <span className='quadBefore flex items-center font-light'>Wyrażam zgodę na</span>
-                    </label>
-                    <Link href="/" aria-label="Przejdź do ochrony danych osobowych" target="_blank" rel="noopener noreferrer" className="text-[#E2B350] sm:text-center">przetwarzanie danych osobowych</Link>
-                </div>
+            <div className="relative w-full">
+                <input type="text" id="name" name="name" className="w-full h-[50px] bg-transparent border-[0.5px] border-[#585959] rounded-[5px] outline-none px-4 max-sm:text-[14px]" value={data.name} onChange={e => changeData(e, 'name')} required />
+                <label htmlFor="name" className={`absolute left-4 transition-all duration-300 pointer-events-none max-sm:text-[14px] ${data.name ? 'top-[-18px] text-[12px] px-2 text-[#444]' : 'top-[15px] text-[16px] text-[#696969]'}`}>{dict.fields[0]}</label>
+            </div>
 
-                <div className='mt-[12px] animate-field flex justify-end sm:justify-center'>
-                    <button type="submit" disabled={isSubmitting} className='text-[16px] text-black tracking-[1px] font-medium z-10 bg-[#E2B350] shadow-[3px_3px_10px_0px_rgba(245,203,134,0.25)] px-[50px] py-[12.5px] rounded-[10px] duration-500 hover:bg-[#EFD8A7] sm:text-[15px]'>{isSubmitting ? 'Przesyłanie...' : `Wyślij`}</button>
+            <div className="relative w-full">
+                <input type="email" id="email" name="email" className="w-full h-[50px] bg-transparent border-[0.5px] border-[#585959] rounded-[5px] outline-none px-4 max-sm:text-[14px]" value={data.email} onChange={e => changeData(e, 'email')} required />
+                <label htmlFor="email" className={`absolute left-4 transition-all duration-300 pointer-events-none max-sm:text-[14px] ${data.email ? 'top-[-18px] text-[12px] px-2 text-[#444]' : 'top-[15px] text-[16px] text-[#696969]'}`}>{dict.fields[1]}</label>
+            </div>
+
+            <div className="relative w-full">
+                <input type="text" id="phone" name="phone" className="w-full h-[50px] bg-transparent border-[0.5px] border-[#585959] rounded-[5px] outline-none px-4 max-sm:text-[14px]" value={data.phone} onChange={e => changeData(e, 'phone')} required />
+                <label htmlFor="phone" className={`absolute left-4 transition-all duration-300 pointer-events-none max-sm:text-[14px] ${data.phone ? 'top-[-18px] text-[12px] px-2 text-[#444]' : 'top-[15px] text-[16px] text-[#696969]'}`}>{dict.fields[2]}</label>
+            </div>
+
+            <div className="w-full flex gap-4 items-center max-sm:flex-col max-sm:items-start">
+                <p className='flex-1 !text-[#8f8f8f] text-[14px]'>{dict.fields[3]}</p>
+                <div className="relative w-[160px] max-sm:w-full">
+                    <input type="time" id="contact_from" name="contact_from" value={data.contact_from} onClick={e => e.target.showPicker()} onChange={e => changeData(e, 'contact_from')} required className="peer w-full h-[50px] bg-transparent border-[0.5px] border-[#585959] rounded-[5px] outline-none px-4 pl-16" />
+                    <label htmlFor="contact_from" className="absolute left-4 top-[15px] text-[16px] text-[#696969] pointer-events-none max-sm:text-[14px]">Od</label>
                 </div>
-            </form>
-        </div>
+                <div className="relative w-[160px] max-sm:w-full">
+                    <input type="time" id="contact_to" name="contact_to" value={data.contact_to} onClick={e => e.target.showPicker()} onChange={e => changeData(e, 'contact_to')} required className="peer w-full h-[50px] bg-transparent border-[0.5px] border-[#585959] rounded-[5px] outline-none px-4 pl-16" />
+                    <label htmlFor="contact_to" className="absolute left-4 top-[15px] text-[16px] text-[#696969] pointer-events-none max-sm:text-[14px]">Do</label>
+                </div>
+            </div>
+
+            <CustomSelect updateData={changeData} data={data.type} lang={lang} name={dict.fields[4]} />
+
+            <div className="relative w-full">
+                <textarea id="message" name="message" className="w-full h-[190px] bg-transparent border-[0.5px] border-[#585959] rounded-[5px] resize-none px-4 py-4 outline-none max-sm:text-[14px]" value={data.message} onChange={e => changeData(e, 'message')} required />
+                <label htmlFor="message" className={`absolute left-4 transition-all duration-300 pointer-events-none max-sm:text-[14px] ${data.message ? 'top-[-18px] text-[12px] px-2 text-[#444]' : 'top-[17px] text-[16px] text-[#696969]'}`}>{dict.fields[5]}</label>
+            </div>
+
+            <input type="text" name="additional" className="hidden" value={data.additional} onChange={e => changeData(e, 'additional')} />
+
+            <CustomCheckbox checkboxRef={chRef} id="rulebook1" text={dict.condition[0]} />
+            <CustomCheckbox checkboxRef={ch2Ref} id="rulebook2" text={dict.condition[1]} />
+
+            <button type="submit" className="primary-gradient h-[50px] rounded-[5px] mt-3">{dict.button}</button>
+        </form>
     )
 }
 
-export default CustomContactForm
+export default CustomContactForm;

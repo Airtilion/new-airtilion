@@ -4,13 +4,14 @@ import IntersectionListener from '@components/IntersectionListener'
 import Image from 'next/image'
 import React, { useEffect, useState } from 'react'
 import ProjectViewer from './ProjectViewer'
+import Link from '@node_modules/next/link'
 
-const PortfolioIntroduction = ({ dict, desc, logo, screens, clientID, visualization, projectName }) => {
+const PortfolioIntroduction = ({ dict, desc, logo, screens, clientID, visualization, projectName, link }) => {
     const [isContactOpen, setIsContactOpen] = useState(false);
     const [isVisible, setIsVisible] = useState(false);
 
     const convertLink = (file) => `${process.env.NEXT_PUBLIC_API_URL}/uploads/projects/${clientID}/${file.replace(/\\/g, '/')}`
-
+    console.log(dict)
     useEffect(() => {
         document.body.style.overflow = isContactOpen ? 'hidden' : ''
         const nav = document.querySelector('nav')
@@ -55,6 +56,7 @@ const PortfolioIntroduction = ({ dict, desc, logo, screens, clientID, visualizat
                         <div className='absolute w-[800px] h-[800px] top-[-370px] left-[-370px] bg-[#000000] z-[1] rounded-full blur-[80px]'></div>
                     </div>
                 </article>
+                {link?.show === true && <p className='text-[18px] text-center mt-16 max-xl:text-[17px] max-sm:text-[16px]'>{dict.link} <Link href={link.value} className='!text-[#e28350]'>{link.value}</Link></p>}
             </section>
 
             <ProjectViewer isVisible={isVisible} setIsContactOpen={setIsContactOpen} isContactOpen={isContactOpen} vis={visualization} projectName={projectName} convertLink={convertLink}/>

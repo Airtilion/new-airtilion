@@ -18,7 +18,8 @@
                 "Zdjęcie przedstawiające laptop z obrazem jednej z sekcji",
                 "Zdjęcie przedstawiające laptop z obrazem jednej z sekcji"
             ],
-            "button": ["Wyświetl pełną wizualizację", "Kliknij aby zobaczyć pełną wizuwalizację strony internetowej"]
+            "button": ["Wyświetl pełną wizualizację", "Kliknij aby zobaczyć pełną wizuwalizację strony internetowej"],
+            "link": "Przejdź bezpośrednio do strony za pomocą linku:"
         },
         "brief":{
             "title": "Zakres ustalonych prac podczas briefu",

@@ -3,7 +3,7 @@ import { Schema, model, models } from 'mongoose';
 const PortfolioItemSchema = new Schema({
   Name: {type: String, required: true },
   Description: { pl: { type: String, required: true }, en: { type: String, required: true } },
-  Link: { type: String, required: true },
+  Link: { value: {type: String, required: true}, show: Boolean },
   Type: { type: String, required: true },
   Date: { type: Date, required: true },
   Client: { type: String, required: true },

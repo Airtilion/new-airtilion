@@ -20,6 +20,19 @@ button {
   color: #E28350
 }
 
+/*----------- scrollbar -----------*/
+
+*::-webkit-scrollbar {
+  background-color: #04040441;
+  width: 6px;
+  padding-inline: 1px;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #e2845082;
+  border-radius: 10px;
+}
+
 /* ---------- menu - hamburger ---------- */
 
 .hamburger-menu.active>span:first-child {

@@ -49,7 +49,7 @@ export default async function Page({params, searchParams}) {
       <Header title={project.Name} content={dictionary.header?.description ?? 'Default Content'} bg={getLink(project.Background.file)} base={Boolean(project.Background.base64)} base64={project.Background.base64}/>
 
       <main className="flex flex-col gap-[192px] mt-[192px] pb-32 overflow-hidden max-sm:mt-[128px] relative">
-        <PortfolioIntroduction dict={dictionary.project.introduction} desc={project.Description[lang]} logo={project.Logo.file} screens={project.Screens} convertLink={getLink}/>
+        <PortfolioIntroduction dict={dictionary.project.introduction} desc={project.Description[lang]} logo={project.Logo.file} screens={project.Screens} clientID={project.Client} visualization={project.Visualization} projectName={project.Name}/>
         <PortfolioBrief dict={dictionary.project.brief} brief={project.Brief[lang]} screens={project.Screens} convertLink={getLink}/>
         <PortfolioTechs dict={dictionary.project.technologies} techs={project.Technologies}/>
         <PortfolioSteps dict={dictionary.project.steps} steps={project.Work[lang]}/>

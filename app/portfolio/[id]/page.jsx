@@ -10,6 +10,7 @@ import PortfolioAchivements from '@components/singlePortfolio/PortfolioAchivemen
 import PortfolioClient from '@components/singlePortfolio/PortfolioClient'
 import PortfolioReview from '@components/singlePortfolio/PortfolioReview'
 import PortfolioCallToAction from '@components/singlePortfolio/PortfolioCallToAction'
+import PortfolioSum from '@components/singlePortfolio/PortfolioSum'
 
 export async function generateStaticParams() {
   const base = process.env.NEXT_PUBLIC_SITE_URL || 'http://localhost:3000'
@@ -46,7 +47,7 @@ export default async function Page({params, searchParams}) {
 
   return (
     <>
-      <Header title={project.Name} content={dictionary.header?.description ?? 'Default Content'} bg={getLink(project.Background.file)} base={Boolean(project.Background.base64)} base64={project.Background.base64}/>
+      <Header title={project.Name} content={dictionary.header?.description ?? 'Default Content'} bg={getLink(project.Background.file)} base={Boolean(project.Background.base64)} base64={project.Background.base64} dark={true}/>
 
       <main className="flex flex-col gap-[192px] mt-[192px] pb-32 overflow-hidden max-sm:mt-[128px] relative">
         <PortfolioIntroduction dict={dictionary.project.introduction} desc={project.Description[lang]} logo={project.Logo.file} screens={project.Screens} clientID={project.Client} visualization={project.Visualization} projectName={project.Name} link={project.Link}/>
@@ -54,8 +55,15 @@ export default async function Page({params, searchParams}) {
         <PortfolioTechs dict={dictionary.project.technologies} techs={project.Technologies}/>
         <PortfolioSteps dict={dictionary.project.steps} steps={project.Work[lang]}/>
         <PortfolioAchivements dict={dictionary.project.achivements} image={getLink(project.Screens[6].file)} achivements={project.Achievements[lang]} />
-        <PortfolioClient dict={dictionary.project.client} client={project.ClientData} convertLink={getClientLink}/>
+        <PortfolioClient dict={dictionary.project.client} client={project.ClientData} convertLink={getClientLink} lang={lang}/>
+        
+        {project.Review.author != "Brak" ?
         <PortfolioReview dict={dictionary.project.review} revs={project.Review.text[lang]} author={project.Review.author} authorRole={project.Review.authorRole[lang]}/>
+        :
+        <PortfolioSum dict={dictionary.project.sum} text={project.Summation.text[lang]}/>
+      }
+
+        
         <PortfolioCallToAction dict={dictionary.project.cta}/>
       </main>
 

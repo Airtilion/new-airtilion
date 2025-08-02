@@ -18,7 +18,7 @@ export async function POST(req) {
 
     const items = await PortfolioItem
       .find({})
-      .sort({ createdAt: -1 })
+      .sort({ _id: -1 })
       .skip(offset)
       .limit(limit)
       .select('Name Description Logo SmallBackground Client')

@@ -22,13 +22,16 @@ const PortfolioItemSchema = new Schema({
     en: [String]
   },
   Achievements: {
-    pl: [{ title: String, description: String }],
-    en: [{ title: String, description: String }]
+    pl: [{ title: String, value: String }],
+    en: [{ title: String, value: String }]
   },
   Review: {
     text: { pl: [String], en: [String] },
     author: String,
     authorRole: { pl: String, en: String }
+  },
+  Summation: {
+    text: { pl: [String], en: [String]}
   }
 }, { collection: 'new-portfolio' });
 

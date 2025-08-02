@@ -271,3 +271,8 @@
 
 .portfolio-rev-hidden .animation-bottom{opacity: 0; transform: translateY(50px);}
 .portfolio-rev-visible .animation-bottom{opacity: 1; transform: translateY(0px);}
+
+/*portfolio podsumowanie*/
+
+.sum-hidden .animation-bottom{opacity: 0; transform: translateY(50px);}
+.sum-visible .animation-bottom{opacity: 1; transform: translateY(0px);}

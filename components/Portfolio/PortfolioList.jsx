@@ -3,6 +3,7 @@
 import React, { useEffect, useState, useCallback } from 'react'
 import useScrollObserver from '@/hooks/useScrollObserver'
 import PortfolioElement from './PortfolioItem'
+import PortfolioLoader from './PortfolioLoader'
 
 const PortfolioList = ({ dict, lang }) => {
   const [projects, setProjects] = useState([])
@@ -11,7 +12,7 @@ const PortfolioList = ({ dict, lang }) => {
   const [loading, setLoading]   = useState(false)
 
   const [loadMoreRef, isVisible] = useScrollObserver({
-    rootMargin: '200px',
+    rootMargin: '100px',
     threshold: 0.1
   })
 
@@ -58,22 +59,12 @@ const PortfolioList = ({ dict, lang }) => {
       <p className='text-[16px] max-2xl:text-[15px] max-sm:text-[14px] mt-4'>{dict.content}</p>
 
       <article className='flex flex-wrap gap-8 justify-center mt-16'>
-        {projects.map((proj, idx) => (
-            <PortfolioElement item={proj} key={idx} lang={lang}/>        
+        {projects.map((proj) => (
+            <PortfolioElement item={proj} key={proj.id} lang={lang}/>        
         ))}
       </article>
-
-      {/* {loading && (
-        <div className='text-center py-4'>
-          <span>Ładowanie...</span>
-        </div>
-      )} */}
-
-      {/* {!hasMore && (
-        <div className='text-center py-4 text-gray-500'>
-          <span>To już wszystkie projekty.</span>
-        </div>
-      )} */}
+      { loading && <PortfolioLoader/>}
+      <div ref={loadMoreRef} className='w-full h-[50px]'/>
     </section>
   )
 }

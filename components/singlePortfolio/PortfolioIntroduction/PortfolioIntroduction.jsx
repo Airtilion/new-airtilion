@@ -10,8 +10,12 @@ const PortfolioIntroduction = ({ dict, desc, logo, screens, clientID, visualizat
     const [isContactOpen, setIsContactOpen] = useState(false);
     const [isVisible, setIsVisible] = useState(false);
 
+    const isVertical = logo.height > logo.width
+    const logoWidth = isVertical ? 90 : 250
+    const logoHeight = isVertical ? (logo.height / logo.width) * 90 : 250
+
     const convertLink = (file) => `${process.env.NEXT_PUBLIC_API_URL}/uploads/projects/${clientID}/${file.replace(/\\/g, '/')}`
-    console.log(dict)
+    
     useEffect(() => {
         document.body.style.overflow = isContactOpen ? 'hidden' : ''
         const nav = document.querySelector('nav')
@@ -42,7 +46,7 @@ const PortfolioIntroduction = ({ dict, desc, logo, screens, clientID, visualizat
 
                 <article className='w-full flex flex-wrap gap-4 max-xl:justify-center'>
                     <div className='relative w-[400px] aspect-square h-auto overflow-hidden bg-[#000000] flex justify-center items-center max-2xl:w-[382px] max-lg:w-[350px] max-md:w-[300px] max-sm:w-[90%] max-sm:max-w-[400px] transition-all duration-1000 ease-in-out animation-bottom delay-100'>
-                        <Image src={convertLink(logo)} width={150} height={150} className='relative z-[2] w-[120px] h-auto' alt={dict.alts[0]} />
+                        <Image src={convertLink(logo)} width={logoWidth} height={logoHeight} unoptimized className='relative z-[2] h-auto' alt={dict.alts[0]} />
                         <div className='absolute w-[500px] h-[500px] top-[-250px] left-[-250px] bg-[#e28350a0] z-[1] rounded-full blur-[80px]'></div>
                     </div>
 

@@ -45,6 +45,9 @@
         "review":{
             "title": "Referencja udzielona przez klienta"
         },
+        "sum":{
+            "title": "Podsumowanie projektu"
+        },
         "cta": {
             "title": "Skorzystaj z darmowej wyceny",
             "content": "Zawsze jesteśmy gotowi, żeby stworzyć dla Ciebie idealny produkt. Zamów darmową wycenę swojego projektu, a my odezwiemy się w ciągu 24h lub w najbliższym dniu roboczym. Marzysz o swojej własnej stronie, ale jeszcze nie wiesz czego dokładnie potrzebujesz? Nie przejmuj się, doradzimy i przeprowadzimy Cię przez wszystkie etapy.",

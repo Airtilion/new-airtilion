@@ -4,6 +4,7 @@ import React, { useEffect, useState } from 'react'
 import SingleSlide from './components/SingleSlide'
 import bg from '@assets/images/offer/offer-portfolio.webp'
 import Image from 'next/image';
+import IntersectionListener from '@components/IntersectionListener';
 
 const CityTech = ({ dict }) => {
     const [techs, setTechs] = useState([
@@ -51,14 +52,16 @@ const CityTech = ({ dict }) => {
     }, [isAnimating]);
 
     return (
-        <section className='w-full relative'>
-            <article className='w-[1240px] relative mx-auto flex justify-between items-center my-[64px] max-2xl:w-[960px] max-2xl:flex-col max-2xl:gap-[64px] max-lg:w-[90%] max-sm:mt-0'>
-                <div className={`w-[480px] max-2xl:w-full`}>
+        <section id="city-techs-section" className='w-full relative city-techs-hidden'>
+            <IntersectionListener selector="#city-techs-section" visibleClass="city-techs-visible" hiddenClass="city-techs-hidden" threshold="0.1" rootMargin='0px 0px -50px 0px'/>
+            
+            <article className='w-[1240px] relative mx-auto flex justify-between items-center my-[64px] max-2xl:w-[960px] max-2xl:flex-col max-2xl:gap-[64px] max-lg:w-[90%] max-sm:mt-0 '>
+                <div className={`w-[480px] max-2xl:w-full animation-left transition-all duration-1000 ease-in-out`}>
                     <h2 className='text-[30px] heading-gradient-gray max-2xl:text-[25px] max-sm:text-[20px] max-w-[400px] max-2xl:max-w-none' dangerouslySetInnerHTML={{ __html: dict.title }} />
                     <p className='mt-[16px] font-extralight text-[16px] max-2xl:text-[15px] max-sm:text-[14px]'>{dict.content[0]}</p>
                     <p className='mt-[8px] font-extralight text-[16px] max-2xl:text-[15px] max-sm:text-[14px]'>{dict.content[1]}</p>
                 </div>
-                <div className={`w-[600px] relative max-lg:w-[460px] max-sm:w-[290px]`}>
+                <div className={`w-[600px] relative max-lg:w-[460px] max-sm:w-[290px] animation-right transition-all duration-1000 ease-in-out`}>
                     <div className={`perspective-container flex gap-[8px] items-center w-full h-full relative ${isAnimating ? 'animating' : ''}`}>
                         {techs?.map((tech, index) => (
                             <SingleSlide

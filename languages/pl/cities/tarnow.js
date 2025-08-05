@@ -101,32 +101,29 @@ export const tarnow = {
         alt: "Dwa telefony z mobilną wersją strony stworzonej w Tarnowie"
     },
 
-    processCity: {
-        title: "Proces projektowania i&nbsp;tworzenia stron www dla firm w Tarnowie",
-        paragraph1: "Proces tworzenia witryny dla firm w regionie to dla nas nie tylko kodowanie, lecz także budowanie silnej obecności online. Każdy etap realizacji jest dokładnie przemyślany, aby dostarczyć rozwiązanie spełniające oczekiwania Twoich klientów i użytkowników.",
-        cta: "Chcesz zlecić budowę profesjonalnej strony www?",
-        elements: [
+    production: {
+        title: "Proces projektowania i tworzenia stron www dla firm w Tarnowie",
+        content: "Proces tworzenia witryny dla firm w regionie to dla nas nie tylko kodowanie, lecz także budowanie silnej obecności online. Każdy etap realizacji jest dokładnie przemyślany, aby dostarczyć rozwiązanie spełniające oczekiwania Twoich klientów i użytkowników.",
+        button:[ "Chcesz zlecić budowę profesjonalnej strony www?", "Przejdź do darmowej wyceny"],
+        steps: [
             {
-                icon: "mdi:clipboard-text",
                 title: "Analiza potrzeb Twojej firmy",
                 desc: "Na początku poznajemy specyfikę Twojej działalności oraz cele biznesowe, aby stworzyć stronę internetową w Tarnowie dopasowaną do Twoich oczekiwań."
             },
             {
-                icon: "solar:pallete-2-bold",
                 title: "Projekt graficzny",
                 desc: "Projektujemy nowoczesne, responsywne i przyciągające uwagę layouty, które wyróżnią Twoją markę. Każda witryna powstaje z myślą o przejrzystości i wygodzie użytkownika."
             },
             {
-                icon: "fa6-solid:laptop-code",
                 title: "Programowanie",
                 desc: "Wdrażamy stronę z użyciem najnowszych technologii. Dbamy o szybkość działania i bezpieczeństwo strony, zapewniając pełną funkcjonalność."
             },
             {
-                icon: "material-symbols:rocket",
                 title: "Wdrożenie i aktualizacje",
                 desc: "Publikujemy gotową stronę i oferujemy wsparcie techniczne po jej uruchomieniu, aby wszystko działało sprawnie od samego początku."
             },
-        ]
+        ],
+        alt: "Ciemne tło pomieszczenia - aplikacje internetowe Tarnów"
     },
 
     offerCity: {

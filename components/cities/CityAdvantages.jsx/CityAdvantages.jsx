@@ -5,8 +5,8 @@ import SingleAdvantage from './components/SingleAdvantage'
 
 const CityAdvantages = ({image, dict}) => {
   return (
-    <section id='portfolio-advantages-section' className='w-[1240px] max-2xl:w-[1180px] max-xl:w-[960px] max-lg:w-[90%] mx-auto relative flex gap-4 portfolio-advantages-hidden max-lg:flex-col-reverse'>
-        <IntersectionListener selector="#portfolio-advantages-section" visibleClass="portfolio-advantages-visible" hiddenClass="portfolio-advantages-hidden" threshold="0.1" rootMargin='0px 0px -50px 0px'/>
+    <section id='city-advantages-section' className='w-[1240px] max-2xl:w-[1180px] max-xl:w-[960px] max-lg:w-[90%] mx-auto relative flex gap-4 city-advantages-hidden max-lg:flex-col-reverse'>
+        <IntersectionListener selector="#city-advantages-section" visibleClass="city-advantages-visible" hiddenClass="city-advantages-hidden" threshold="0.1" rootMargin='0px 0px -50px 0px'/>
         
         <article className='absolute w-[65%] right-8 top-32 flex flex-col gap-2 max-xl:top-30 max-lg:w-full max-lg:relative max-lg:right-auto max-lg:top-auto'>
             {dict.elements.map((a, idx) => (

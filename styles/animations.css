@@ -284,3 +284,30 @@
 
 .city-introduction-hidden .animation-opacity{opacity: 0;}
 .city-introduction-visible .animation-opacity{opacity: 1;}
+
+/*area zalety*/
+
+.city-advantages-hidden .animation-left{opacity: 0; transform: translateX(-50px)}
+.city-advantages-visible .animation-left{opacity: 1; transform: translateX(0px)}
+
+.city-advantages-hidden .animation-opacity{opacity: 0;}
+.city-advantages-visible .animation-opacity{opacity: 1;}
+
+/*area technologie*/
+
+.city-techs-hidden .animation-left{opacity: 0; transform: translateX(-50px)}
+.city-techs-visible .animation-left{opacity: 1; transform: translateX(0px)}
+
+.city-techs-hidden .animation-right{opacity: 0; transform: translateX(50px)}
+.city-techs-visible .animation-right{opacity: 1; transform: translateX(0px)}
+
+/*area proces tworzenia stron*/
+
+.city-production-hidden .animation-left{opacity: 0; transform: translateX(-50px)}
+.city-production-visible .animation-left{opacity: 1; transform: translateX(0px)}
+
+.city-production-hidden .animation-bottom{opacity: 0; transform: translateY(-50px)}
+.city-production-visible .animation-bottom{opacity: 1; transform: translateX(0px)}
+
+.city-production-hidden .animation-opacity{opacity: 0;}
+.city-production-visible .animation-opacity{opacity: 1;}

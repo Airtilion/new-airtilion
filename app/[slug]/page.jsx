@@ -11,9 +11,9 @@ import CityIntroduction from '@components/cities/CityIntroduction'
 
 import sectionImg from '@assets/images/cities/general/cityAdvantage.webp'
 import CityAdvantages from '@components/cities/CityAdvantages.jsx/CityAdvantages'
-import CallToAction from '@components/home/CallToAction'
 import PortfolioCallToAction from '@components/singlePortfolio/PortfolioCallToAction'
 import CityTech from '@components/cities/CityTechs/CityTechs'
+import CityProduction from '@components/cities/CityProduction/CityProduction'
 
 
 export async function generateStaticParams() {
@@ -86,6 +86,7 @@ const page = async ({ params, searchParams }) => {
                 <CityAdvantages dict={data.advantages} image={sectionImg}/>
                 <PortfolioCallToAction dict={data.cta}/>
                 <CityTech dict={data.technology}/>
+                <CityProduction dict={data.production}/>
                 <p>XD</p>
             </main>
 

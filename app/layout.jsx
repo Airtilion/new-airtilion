@@ -1,6 +1,7 @@
 import { Montserrat } from 'next/font/google';
 import '@styles/globals.css';
 import '@styles/animations.css';
+import '@styles/slider.css';
 import Navbar from '@components/Navbar';
 import { ThemeProvider } from '@context/ThemeContext';
 import { Suspense } from 'react';

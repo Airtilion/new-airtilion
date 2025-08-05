@@ -1,0 +1,145 @@
+.perspective-container {
+    perspective: 330px;
+    position: relative;
+    height: 330px;
+    width: 600px;
+    overflow: hidden;
+}
+
+.perspective-container > div {
+    transition: all 0.5s ease;
+    transform-style: preserve-3d;
+    opacity: 1; /* Domyślnie widoczne */
+}
+
+.perspective-container > div > div {
+    box-shadow: inset 0px 4px 10px #00000080;
+}
+
+/* Pozycje początkowe */
+.perspective-container > div:nth-child(1) {
+    transform: translateX(-50%) rotateX(0deg) rotateY(-35deg);
+    height: 230px;
+    left: calc(50% - 272px);
+}
+
+.perspective-container > :is(div:nth-child(1), div:nth-child(5)) > div {
+    width: 90px;
+    height: 90px;
+}
+
+.perspective-container > div:nth-child(1) > div > svg,
+.perspective-container > div:nth-child(5) > div > svg {
+    width: 50px;
+    height: 50px;
+}
+
+.perspective-container > div:nth-child(2) {
+    transform: translateX(-50%) rotateX(0deg) rotateY(-22deg);
+    height: 300px;
+    left: calc(50% - 170px);
+}
+
+.perspective-container > div:nth-child(2) > div,
+.perspective-container > div:nth-child(4) > div {
+    width: 100px;
+    height: 100px;
+}
+
+.perspective-container > div:nth-child(2) > div > svg,
+.perspective-container > div:nth-child(4) > div > svg {
+    width: 70px;
+    height: 70px;
+}
+
+.perspective-container > div:nth-child(3) {
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.perspective-container > div:nth-child(4) {
+    transform: translateX(-50%) rotateX(0deg) rotateY(22deg);
+    height: 300px;
+    left: calc(50% + 170px);
+}
+
+.perspective-container > div:nth-child(5) {
+    transform: translateX(-50%) rotateX(0deg) rotateY(35deg);
+    height: 230px;
+    left: calc(50% + 272px);
+}
+
+/* Animacja przesunięcia w lewo */
+.perspective-container.animating > div:nth-child(1) {
+    transform: translateX(-50%) rotateX(0deg) rotateY(-35deg);
+    left: calc(50% - 374px); /* Przesunięcie w lewo o 102px */
+    transition: left 0.5s ease; /* Tylko przesunięcie, obrót stały */
+}
+
+.perspective-container.animating > div:nth-child(2) {
+    transform: translateX(-50%) rotateX(0deg) rotateY(-35deg);
+    height: 230px;
+    left: calc(50% - 272px);
+}
+
+.perspective-container.animating > div:nth-child(2) > div {
+    width: 90px;
+    height: 90px;
+}
+
+.perspective-container.animating > div:nth-child(2) > div > svg {
+    width: 50px;
+    height: 50px;
+}
+
+.perspective-container.animating > div:nth-child(3) {
+    transform: translateX(-50%) rotateX(0deg) rotateY(-22deg);
+    height: 300px;
+    left: calc(50% - 170px);
+}
+
+.perspective-container.animating > div:nth-child(4) {
+    transform: translateX(-50%);
+    height: 330px;
+    left: 50%;
+}
+
+.perspective-container.animating > div:nth-child(5) {
+    transform: translateX(-50%) rotateX(0deg) rotateY(22deg);
+    height: 300px;
+    left: calc(50% + 170px);
+}
+
+/* Keyframes dla pojawienia się z prawej strony */
+@keyframes fadeInFromRight {
+    from {
+        opacity: 0;
+        left: calc(50% + 374px); /* Startuje poza ekranem z prawej */
+    }
+    to {
+        opacity: 1;
+        left: calc(50% + 272px); /* Kończy na pozycji piątej */
+    }
+}
+
+/* Wejście pierwszego elementu (przesuwanego na koniec) */
+.perspective-container.animating > div.fade-in {
+    animation: fadeInFromRight 0.5s ease forwards;
+    transform: translateX(-50%) rotateX(0deg) rotateY(35deg);
+    height: 230px;
+}
+
+/* Wyłącz animację dla pierwszego elementu po przesunięciu */
+.perspective-container:not(.animating) > div:nth-child(1) {
+    transition: all 0.5s ease; /* Włącz animację z powrotem */
+}
+
+
+@media only screen and (max-width: 1023px){
+    .perspective-container{width: 460px;}
+}
+
+@media only screen and (max-width: 639px){
+    .perspective-container{width: 290px;}
+    .perspective-container > div:is(div:nth-child(4), div:nth-child(2), div:nth-child(1), div:nth-child(5)) > :is(p, div){opacity:0; transition-duration: 500ms;}
+}

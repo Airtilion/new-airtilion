@@ -276,3 +276,11 @@
 
 .sum-hidden .animation-bottom{opacity: 0; transform: translateY(50px);}
 .sum-visible .animation-bottom{opacity: 1; transform: translateY(0px);}
+
+/*area wprowadzenie*/
+
+.city-introduction-hidden .animation-left{opacity: 0; transform: translateX(-50px)}
+.city-introduction-visible .animation-left{opacity: 1; transform: translateX(0px)}
+
+.city-introduction-hidden .animation-opacity{opacity: 0;}
+.city-introduction-visible .animation-opacity{opacity: 1;}

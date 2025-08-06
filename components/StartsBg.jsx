@@ -2,7 +2,7 @@
 
 import { useRef, useEffect } from 'react';
 
-export default function StarsCanvas() {
+export default function StarsCanvas({ bg }) {
   const canvasRef = useRef(null);
 
   useEffect(() => {
@@ -16,10 +16,23 @@ export default function StarsCanvas() {
     const stars = [];
     const maxStars = 150;
 
-    const resize = () => {
-      canvas.width = window.innerWidth;
-      canvas.height = window.innerHeight;
-    };
+    function resize() {
+      const dpr = window.devicePixelRatio || 1;
+      // chcemy 150% szerokości okna, więc:
+      const cssWidth = window.innerWidth;
+      const cssHeight = window.innerHeight;
+
+      // ustawiamy CSS-owe wymiary (użytkownik widzi 150vw × 100vh)
+      canvas.style.width = cssWidth + 'px';
+      canvas.style.height = cssHeight + 'px';
+
+      // atrybuty back-buffera mnożymy przez devicePixelRatio
+      canvas.width = cssWidth * dpr;
+      canvas.height = cssHeight * dpr;
+
+      // skalujemy kontekst, by rysować “w normalnych” współrzędnych
+      ctx.scale(dpr, dpr);
+    }
 
     resize();
     window.addEventListener('resize', resize);
@@ -40,9 +53,7 @@ export default function StarsCanvas() {
     }
 
     function draw() {
-      ctx.fillStyle = 'black';
-      ctx.fillRect(0, 0, canvas.width, canvas.height);
-
+      ctx.clearRect(0, 0, canvas.width, canvas.height);
       stars.forEach((star, i) => {
         if (star.growing) {
           star.opacity += star.fadeSpeed;
@@ -75,13 +86,12 @@ export default function StarsCanvas() {
     <canvas
       ref={canvasRef}
       style={{
-        position: 'fixed',
+        position: 'absolute',
         top: 0,
         left: 0,
         zIndex: -1,
-        width: '100vw',
-        height: '100vh',
-        backgroundColor: 'black',
+        width: '100%',
+        height: '100%',
       }}
     />
   );

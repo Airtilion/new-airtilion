@@ -14,6 +14,10 @@ import CityAdvantages from '@components/cities/CityAdvantages.jsx/CityAdvantages
 import PortfolioCallToAction from '@components/singlePortfolio/PortfolioCallToAction'
 import CityTech from '@components/cities/CityTechs/CityTechs'
 import CityProduction from '@components/cities/CityProduction/CityProduction'
+import CityFaq from '@components/cities/CityFaq/CityFaq'
+import CityPortfolio from '@components/cities/CityPortfolio'
+import CityOffer from '@components/cities/CityOffer'
+import Footer from '@components/Footer'
 
 
 export async function generateStaticParams() {
@@ -87,8 +91,12 @@ const page = async ({ params, searchParams }) => {
                 <PortfolioCallToAction dict={data.cta}/>
                 <CityTech dict={data.technology}/>
                 <CityProduction dict={data.production}/>
-                <p>XD</p>
+                <CityOffer dict={data.offer}/>
+                <CityPortfolio dict={data.portfolio}/>
+                <CityFaq dict={data.faq}/>
             </main>
+
+            <Footer dict={data.footer}/>
 
         </>
     )

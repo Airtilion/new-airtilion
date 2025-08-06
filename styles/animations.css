@@ -311,3 +311,25 @@
 
 .city-production-hidden .animation-opacity{opacity: 0;}
 .city-production-visible .animation-opacity{opacity: 1;}
+
+/*area portfolio*/
+
+.city-portfolio-hidden .animation-left{opacity: 0; transform: translateX(-50px)}
+.city-portfolio-visible .animation-left{opacity: 1; transform: translateX(0px)}
+
+.city-portfolio-hidden .animation-right{opacity: 0; transform: translateX(50px)}
+.city-portfolio-visible .animation-right{opacity: 1; transform: translateX(0px)}
+
+.city-portfolio-hidden .animation-bottom{opacity: 0; transform: translateY(-50px)}
+.city-portfolio-visible .animation-bottom{opacity: 1; transform: translateX(0px)}
+
+/*area oferta*/
+
+.city-offer-hidden .animation-left{opacity: 0; transform: translateX(-50px)}
+.city-offer-visible .animation-left{opacity: 1; transform: translateX(0px)}
+
+.city-offer-hidden .animation-right{opacity: 0; transform: translateX(50px)}
+.city-offer-visible .animation-right{opacity: 1; transform: translateX(0px)}
+
+.city-offer-hidden .animation-bottom{opacity: 0; transform: translateY(-50px)}
+.city-offer-visible .animation-bottom{opacity: 1; transform: translateX(0px)}

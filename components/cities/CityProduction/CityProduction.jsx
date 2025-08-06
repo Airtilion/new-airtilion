@@ -16,10 +16,10 @@ const CityProduction = ({ dict }) => {
                     <h2 className='text-[30px] max-2xl:text-[25px] max-sm:text-[20px] heading-gradient-gray'>{dict.title}</h2>
                     <p className='text-[16px] max-2xl:text-[15px] max-sm:text-[14px]'>{dict.content}</p>
 
-                    <div className='mt-8 max-sm:flex max-sm:flex-col max-sm:items-center'>
+                    {/* <div className='mt-8 max-sm:flex max-sm:flex-col max-sm:items-center'>
                         <p className='text-[14px] max-sm:text-[13px] w-[200px] max-lg:w-full max-sm:text-center'>{dict.button[0]}</p>
                         <button className='primary-gradient rounded-full h-[45px] px-8 max-sm:text-[14px] mt-4 max-lg:text-[15px]'>{dict.button[1]}</button>
-                    </div>
+                    </div> */}
                 </div>
 
                 <div className='flex flex-wrap gap-8 w-[650px] max-xl:w-[532px] max-lg:w-full max-sm:flex-col max-sm:items-center'>

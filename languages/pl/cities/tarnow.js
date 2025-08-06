@@ -104,7 +104,7 @@ export const tarnow = {
     production: {
         title: "Proces projektowania i tworzenia stron www dla firm w Tarnowie",
         content: "Proces tworzenia witryny dla firm w regionie to dla nas nie tylko kodowanie, lecz także budowanie silnej obecności online. Każdy etap realizacji jest dokładnie przemyślany, aby dostarczyć rozwiązanie spełniające oczekiwania Twoich klientów i użytkowników.",
-        button:[ "Chcesz zlecić budowę profesjonalnej strony www?", "Przejdź do darmowej wyceny"],
+        button: ["Chcesz zlecić budowę profesjonalnej strony www?", "Przejdź do darmowej wyceny"],
         steps: [
             {
                 title: "Analiza potrzeb Twojej firmy",
@@ -126,46 +126,85 @@ export const tarnow = {
         alt: "Ciemne tło pomieszczenia - aplikacje internetowe Tarnów"
     },
 
-    offerCity: {
+    offer: {
         title: "Nasza oferta strony www dla firm z Tarnowa",
-        paragraph1: "Tworzymy nowoczesne, szybkie i przyjazne SEO strony internetowe, które przyciągną klientów z Tarnowa i okolic. Specjalizujemy się w:",
+        content: "Tworzymy nowoczesne, szybkie i przyjazne SEO strony internetowe, które przyciągną klientów z Tarnowa i okolic. Specjalizujemy się w:",
+        tiles: [
+            {
+                title: "Strony wizytówki",
+                content: "Idealne dla małych przedsiębiorstw i freelancerów, którzy chcą zaprezentować się online."
+            },
+            {
+                title: "Strony firmowe",
+                content: "Kompleksowe rozwiązania dla przedsiębiorstw, wspierające wizerunek i sprzedaż w regionie."
+            },
+            {
+                title: "Sklepy internetowe",
+                content: "Bezpieczne i funkcjonalne sklepy dostosowane do potrzeb lokalnego rynku."
+            },
+            {
+                title: "Dla wymagających",
+                content: "Na zlecenie klienta wysyłamy fotografa, który na miejscu wykonuje zdjęcia produktów, siedziby lub zespołu - materiały te wykorzystujemy do stworzenia strony internetowej."
+            },
+            {
+                title: "Darmowa wycena w 48h!",
+                content: "Masz pytania? Chcesz poznać koszt strony dostosowanej do Twoich potrzeb? Wypełnij formularz, a przygotujemy dla Ciebie spersonalizowaną ofertę w ciągu 48 godzin!"
+            }
+        ],
+        alts: ["Tło projektu strony internetowej w Tarnowe", "Ikona strony wizytówki", "Ikona Strony firmowej", "Ikopna sklepu internetowego"],
+        button: "Przejdź do darmowej wyceny",
     },
 
     portfolio: {
-        title: "Chcesz poznać nasze realizacje?",
-        paragraph1: "Zobacz wybrane realizacje i przekonaj się, jak możemy pomóc rozwinąć Twoją działalność online.",
-        paragraph2: "Masz pomysł na stronę internetową w Tarnowie?"
+        title: "Chcesz zapoznać się z naszymi realizacjami?",
+        content: ["Zobacz wybrane realizacje i przekonaj się, jak możemy pomóc rozwinąć Twoją działalność online.", "Masz pomysł na stronę internetową w Tarnowie?"],
+        button: "Przejdź do portfolio",
+        alts: ['Wizualizacja pierwszej przykładowej strony internetowej Tarnów', 'Wizualizacja drugiej przykładowej strony internetowej Tarnów']
     },
 
     faq: {
         title: "Tworzenie stron internetowych w Tarnowie - odpowiemy na wszystkie Twoje pytania",
-        paragraph: "Obok znajdziesz odpowiedzi, a jeśli nawet tam ich nie ma to skontaktuj się z nami!",
+        content: "W tej sekcji znajdziesz odpowiedzi na najczęściej zadawane pytania dotyczące współpracy z Airtilion – od etapu briefu, przez wybór technologii i narzędzi, aż po harmonogram realizacji i orientacyjne koszty projektu, a także zakres wsparcia po uruchomieniu strony czy aplikacji. Jeśli nie znalazłeś tu informacji, której szukasz, skontaktuj się z nami, a odpowiemy w ciągu 24 godzin.",
         elements: [
             {
                 id: 1,
-                question: "Jak długo trwa stworzenie witryny?",
-                answer: "Czas realizacji zależy od skomplikowania projektu oraz Twoich indywidualnych wymagań. Standardowo proces ten trwa od kilku tygodni do kilku miesięcy. Po wstępnej analizie potrzeb możemy przedstawić dokładniejszy harmonogram."
+                q: "Jak długo trwa stworzenie witryny?",
+                a: "Czas realizacji zależy od skomplikowania projektu oraz Twoich indywidualnych wymagań. Standardowo proces ten trwa od kilku tygodni do kilku miesięcy. Po wstępnej analizie potrzeb możemy przedstawić dokładniejszy harmonogram."
             },
             {
                 id: 2,
-                question: "Ile kosztuje strona w Tarnowie?",
-                answer: "Koszt zależy od wielu czynników, takich jak zakres funkcjonalności, stopień skomplikowania projektu oraz dodatkowe usługi. Po zapoznaniu się z Twoimi wymaganiami przygotujemy indywidualną wycenę."
+                q: "Ile kosztuje strona w Tarnowie?",
+                a: "Koszt zależy od wielu czynników, takich jak zakres funkcjonalności, stopień skomplikowania projektu oraz dodatkowe usługi. Po zapoznaniu się z Twoimi wymaganiami przygotujemy indywidualną wycenę."
             },
             {
                 id: 3,
-                question: "Czy będę mógł samodzielnie zarządzać treścią na mojej stronie?",
-                answer: "Tak, nasze strony są wyposażone w intuicyjne systemy zarządzania treścią (CMS), które pozwalają na łatwe dodawanie i edytowanie treści bez potrzeby posiadania wiedzy programistycznej."
+                q: "Czy będę mógł samodzielnie zarządzać treścią na mojej stronie?",
+                a: "Tak, nasze strony są wyposażone w intuicyjne systemy zarządzania treścią (CMS), które pozwalają na łatwe dodawanie i edytowanie treści bez potrzeby posiadania wiedzy programistycznej."
             },
             {
                 id: 4,
-                question: "Jakie informacje są potrzebne do rozpoczęcia współpracy?",
-                answer: "Na początek potrzebujemy poznać Twoje oczekiwania i cele związane ze stroną, informacje o Twojej firmie, preferencje dotyczące designu oraz funkcjonalności, a także ewentualne materiały, takie jak logo czy treści."
+                q: "Jakie informacje są potrzebne do rozpoczęcia współpracy?",
+                a: "Na początek potrzebujemy poznać Twoje oczekiwania i cele związane ze stroną, informacje o Twojej firmie, preferencje dotyczące designu oraz funkcjonalności, a także ewentualne materiały, takie jak logo czy treści."
             },
             {
                 id: 5,
-                question: "Co mogę zyskać z dobrze wykonanej strony?",
-                answer: "Dobrze wykonana strona internetowa Twojej firmy pozwala wyróżnić się na tle konkurencji. Dzięki stronie internetowej zyskasz unikalny design, a odpowiednie SEO strony www zapewni lepszą widoczność w wyszukiwarce i przyciągnie więcej potencjalnych klientów."
+                q: "Co mogę zyskać z dobrze wykonanej strony?",
+                a: "Dobrze wykonana strona internetowa Twojej firmy pozwala wyróżnić się na tle konkurencji. Dzięki stronie internetowej zyskasz unikalny design, a odpowiednie SEO strony www zapewni lepszą widoczność w wyszukiwarce i przyciągnie więcej potencjalnych klientów."
             },
         ]
+    },
+
+    footer: {
+        alt: "Logo spółki airtilion",
+        area: {
+            title: "Obszar działania",
+            ending: "... i wiele więcej"
+        },
+        docs: [
+            "Polityka prywatności",
+            "Polityka ochrony danych osobowych",
+            "Regulamin świadczenia usług drogą elektroniczną"
+        ],
+        companyInfo: "Airtilion Sp. z o.o. ul. Słoneczna 32/9, 33-100 Tarnów, wpisana do rejestru przedsiębiorców Krajowego rejestru Sądowego przez Sąd Rejonowy dla Krakowa-Śródmieścia w Krakowie, XII Wydział Gospodarczy Krajowego Rejestru Sądowego pod nr KRS 0001143482, kapitał zakładowy w kwocie 5 000,00 zł w całości opłacony, NIP: 8733299720"
     }
 }

@@ -10,8 +10,9 @@ import TableContents from '@components/blog-singlePost/TableContents';
 import Content from '@components/blog-singlePost/Content';
 import Author from '@components/blog-singlePost/Author';
 import OtherPosts from '@components/blog-singlePost/OtherPosts';
-// import CustomCooperate from '@components/blog-singlePost/CustomCooperate';
 import Footer from '@components/Footer';
+import { getDictionary } from '@utils/getDictionary';
+import PortfolioCallToAction from '@components/singlePortfolio/PortfolioCallToAction';
 
 
 export const revalidate = 60;
@@ -46,8 +47,13 @@ export async function generateMetadata({ params }) {
   }
 }
 
-const page = async ({ params }) => {
+const page = async ({ params, searchParams }) => {
   const { slug } = params
+
+  const sParams = searchParams instanceof Promise ? await searchParams : searchParams;
+  const { lang } = await sParams
+  const file = await getDictionary(lang, 'blog');
+  const dictionary = file || {};
 
   const res = await fetch(`${BLOG_URL}/wp-json/wp/v2/posts?slug=${slug}&_embed`);
 
@@ -84,15 +90,12 @@ const page = async ({ params }) => {
           <Author authorName={post.acf.author} />
           <OtherPosts category={category.name} />
 
-          <div className='mt-[96px] mb-[64px] w-[1240px] mx-auto xl:w-[1000px] lg:w-[90%] lg:mt-[64px]'>
-            {/* <CustomCooperate /> */}
-          </div>
+          <PortfolioCallToAction dict={dictionary.cta}/>
 
         </article>
 
-        <div className='absolute top-0 left-0 w-full h-full backdrop-blur-[7px] z-[0] mt-[-150px]' />
       </main>
-      <Footer bg={false} />
+      <Footer dict={dictionary.footer} />
     </>
   )
 }

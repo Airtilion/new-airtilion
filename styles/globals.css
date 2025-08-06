@@ -2,6 +2,10 @@
 
 @custom-variant dark (&:where(.dark, .dark *));
 
+@theme {
+  --breakpoint-fold: 350px;
+}
+
 body {
   line-height: 1.3;
   transition-duration: 500ms;

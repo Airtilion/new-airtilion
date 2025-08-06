@@ -74,23 +74,23 @@ const TableContents = ({ content }) => {
     };
 
     return (
-        <section className='mt-[96px] w-[800px] mx-auto rounded-[5px] border-[0.5px] border-[#ABABAB80] px-[28px] py-[12px] lg:w-[90%] lg:mt-[64px]'>
+        <section className='mt-[96px] w-[800px] mx-auto rounded-[5px] border-[0.5px] border-[#ABABAB80] px-[28px] py-[12px] max-lg:w-[90%] max-lg:mt-[64px]'>
             <div className='flex items-center justify-between cursor-pointer' onClick={() => setIsOpen(!isOpen)}>
-                <p className='font-extralight text-[20px] text-[#E2B350]'>Spis treści</p>
-                <Icon icon="icon-park-outline:down" width="24" height="24" className={`text-[#E2B350] duration-700 ${isOpen ? '' : 'rotate-180'}`} />
+                <p className='font-extralight text-[20px] text-[#E28350]'>Spis treści</p>
+                <Icon icon="icon-park-outline:down" width="24" height="24" className={`text-[#E28350] duration-700 ${isOpen ? '' : 'rotate-180'}`} />
             </div>
-            <ol ref={contentRef} className={`list-decimal pl-[35px] space-y-[4px] text-[16px] font-extralight overflow-hidden duration-700 sm:pl-[24px] ${isOpen ? 'mt-[12px]' : 'mt-0'}`} style={{ maxHeight: `${height}px` }}>
+            <ol ref={contentRef} className={`list-decimal pl-[35px] space-y-[4px] text-[16px] font-extralight overflow-hidden duration-700 max-sm:pl-[24px] ${isOpen ? 'mt-[12px]' : 'mt-0'}`} style={{ maxHeight: `${height}px` }}>
                 {headings.map((heading, index) => (
                     <li key={index}>
-                        <button onClick={() => scrollToSectionBlog(heading.id)} className='text-start align-top duration-500 hover:text-[#E2B350]' dangerouslySetInnerHTML={{ __html: heading.title }} />
+                        <button onClick={() => scrollToSectionBlog(heading.id)} className='text-start align-top duration-500 hover:text-[#E28350]' dangerouslySetInnerHTML={{ __html: heading.title }} />
 
                         {heading.subheadings &&
-                            <ul className='list-disc pl-[25px] mt-[4px] space-y-[4px] marker:text-[#E2B350]'>
+                            <ul className='list-disc pl-[25px] mt-[4px] space-y-[4px] marker:text-[#E28350]'>
                                 {heading.subheadings.map((element, index) => {
                                     const plain = element.title.replace(/^\d+\.\s*/, '');
                                     return (
                                         <li key={index}>
-                                            <button onClick={() => scrollToSectionBlog(element.id)} className="text-start align-top duration-500 hover:text-[#E2B350]" dangerouslySetInnerHTML={{ __html: plain }} />
+                                            <button onClick={() => scrollToSectionBlog(element.id)} className="text-start align-top duration-500 hover:text-[#E28350]" dangerouslySetInnerHTML={{ __html: plain }} />
                                         </li>
                                     )
                                 })}

@@ -62,15 +62,15 @@ const AsideSection = ({ phrase, setPhrase }) => {
     useEffect(() => { getData(); getCategories(); }, [])
 
     return (
-        <aside className='flex-1 flex flex-col gap-[32px] sticky top-[150px] lg:max-w-[600px] lg:mx-auto'>
+        <aside className='flex-1 flex flex-col gap-[32px] sticky top-[150px] max-lg:max-w-[600px] max-lg:mx-auto animation-right transition-all duration-1000 ease-in-out'>
             <div className='w-full relative'>
-                <input ref={phraseInput} type="text" onChange={(e) => e.target.value === '' ? setPhrase(e.target.value) : setNewPhrase(e.target.value)} onKeyDown={(e) => e.key === 'Enter' && searchByName()} placeholder='Wyszukaj' className='bg-[#04040466] border-[0.5px] border-[#ABABAB40] rounded-[5px] w-full h-[60px] px-[24px] pr-[48px] font-light focus:outline-[#e2b350] focus:outline-[1px]' />
+                <input ref={phraseInput} type="text" onChange={(e) => e.target.value === '' ? setPhrase(e.target.value) : setNewPhrase(e.target.value)} onKeyDown={(e) => e.key === 'Enter' && searchByName()} placeholder='Wyszukaj' className='bg-[#04040466] border-[0.5px] border-[#ABABAB40] rounded-[5px] w-full h-[60px] px-[24px] pr-[48px] font-light focus:outline-[#e28350] focus:outline-[1px]' />
                 <Icon icon="lucide:search" width={24} height={24} className='absolute top-[50%] translate-y-[-50%] right-[16px] cursor-pointer hover:!fill-[#e2b350] duration-500' onClick={() => searchByName()} />
             </div>
             <div className='border-[0.5px] border-[#ABABAB40] rounded-[5px] px-[32px] py-[24px] flex flex-col gap-[48px] bg-[#04040466]'>
 
                 <div className='flex flex-col gap-[16px]'>
-                    <p className='text-[#e2b350] text-[16px] font-light'>Popularne posty</p>
+                    <p className='text-[#e28350] text-[16px] font-light'>Popularne posty</p>
                     {
                         !loader ?
                             popularPosts?.map((post, index) => (
@@ -91,7 +91,7 @@ const AsideSection = ({ phrase, setPhrase }) => {
                 </div>
 
                 <div className='flex flex-col gap-[16px]'>
-                    <p className='text-[#e2b350] text-[16px] font-light'>Najczęściej odwiedzane kategorie</p>
+                    <p className='text-[#e28350] text-[16px] font-light'>Najczęściej odwiedzane kategorie</p>
 
                     <div className='flex flex-wrap gap-[8px]'>
                         {categories.map((cat, index) => (
@@ -104,18 +104,18 @@ const AsideSection = ({ phrase, setPhrase }) => {
 
                 <div>
                     <p className='text-[16px] font-light text-center mb-[16px]'>Znajdziesz nas tutaj</p>
-                    <div className='flex gap-[16px] items-center justify-center sm:flex-col'>
+                    <div className='flex gap-[16px] items-center justify-center max-sm:flex-col'>
                         <div className='flex gap-[8px] items-center'>
                             <Image src={logo} width={47} height={47} alt='logo mediów społecznościowych Airtilion' quality={100} className='w-[47px] h-[47px] rounded-full' />
                             <p className='text-[16px] font-light'>Airtilion</p>
                         </div>
 
-                        <div className='h-[40px] w-[0.5px] bg-[#ABABAB40] sm:w-[40px] sm:h-[0.5px]'></div>
+                        <div className='h-[40px] w-[0.5px] bg-[#ABABAB40] max-sm:w-[40px] max-sm:h-[0.5px]'></div>
 
                         <div className='flex flex-wrap gap-[8px] w-[150px]'>
                             {socials.map((icon, index) => (
                                 <Link key={index} href={icon.link} target='_blank'>
-                                    <Icon icon={icon.icon} height={30} className='!text-[#e2b350] !fill-[#e2b350] hover:scale-110 duration-500' />
+                                    <Icon icon={icon.icon} height={30} className='!text-[#e28350] !fill-[#e28350] hover:scale-110 duration-500' />
                                 </Link>
                             ))}
                         </div>

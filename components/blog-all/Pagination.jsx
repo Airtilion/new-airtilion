@@ -35,7 +35,7 @@ const Pagination = ({ currentPage, totalPages, onPageChange }) => {
         <button
           key={index}
           onClick={() => onPageChange(page)}
-          className={`px-2 py-1 ${page === currentPage ? 'bg-[#EFD8A7] text-black rounded-[5px]' : 'hover:bg-[#EFD8A720] rounded-[5px] duration-500'}`}
+          className={`px-2 py-1 ${page === currentPage ? 'bg-[#e28350] text-black rounded-[5px]' : 'hover:bg-[#EFD8A720] rounded-[5px] duration-500'}`}
         >
           {page}
         </button>
@@ -48,7 +48,7 @@ const Pagination = ({ currentPage, totalPages, onPageChange }) => {
   }
 
   return (
-    <div className="flex gap-2 items-center border-[0.5px] border-[#ABABAB40] rounded-[5px] w-fit px-[48px] py-[16px] mx-auto sm:flex-col">
+    <div className="flex gap-2 items-center border-[0.5px] border-[#ABABAB40] rounded-[5px] w-fit px-[48px] py-[16px] mx-auto max-sm:flex-col">
       <button
         onClick={() => onPageChange(currentPage - 1)}
         disabled={currentPage <= 1}

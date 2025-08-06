@@ -23,8 +23,8 @@ const Category = ({name}) => {
   }
 
   return (
-    <div className='bg-[#EFD8A7] relative z-10 w-fit px-[16px] py-[2px] rounded-[5px] category-span cursor-pointer hover:brightness-75 duration-500' onClick={(e) => changeCategory(e)}>
-        <p className='text-[#242424] text-[14px] 2xl:text-[12px]'>{name}</p>
+    <div className='primary-gradient relative z-10 w-fit px-[16px] py-[2px] rounded-[5px] category-span cursor-pointer hover:brightness-75 duration-500' onClick={(e) => changeCategory(e)}>
+        <p className='text-[#242424] !font-normal text-[14px] max-2xl:text-[12px]'>{name}</p>
     </div>
   )
 }

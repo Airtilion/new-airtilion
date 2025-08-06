@@ -333,3 +333,16 @@
 
 .city-offer-hidden .animation-bottom{opacity: 0; transform: translateY(-50px)}
 .city-offer-visible .animation-bottom{opacity: 1; transform: translateX(0px)}
+
+/*blog rekomendacje*/
+
+.blog-recomendations-hidden .animation-bottom{opacity: 0; transform: translateY(-50px)}
+.blog-recomendations-visible .animation-bottom{opacity: 1; transform: translateX(0px)}
+
+/*blog ostatnie*/
+
+.blog-latest-hidden .animation-left{opacity: 0; transform: translateX(-50px)}
+.blog-latest-visible .animation-left{opacity: 1; transform: translateX(0px)}
+
+.blog-latest-hidden .animation-right{opacity: 0; transform: translateX(50px)}
+.blog-latest-visible .animation-right{opacity: 1; transform: translateX(0px)}

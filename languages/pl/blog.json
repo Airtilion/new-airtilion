@@ -1,0 +1,73 @@
+{
+    "header": {
+        "title": "Blog pełen wiedzy i inspiracji",
+        "content": "Zagłęb się w artykuły, porady i historie, pobudzające Twoją kreatywność i poszerzające horyzonty",
+        "alt": "Zdjęcie tła przedstawiające laptopa ze stroną internetową"
+    },
+    "recomendations": {
+        "title": "Polecane artykuły z bloga",
+        "subtitle": "Artykuły wybrane z myślą o Tobie"
+    },
+    "latest": {
+        "title": "Najnowsze artykuły",
+        "subtitle": "Artykuły wybrane z myślą o Tobie"
+    },
+    "cta": {
+        "title": "Skorzystaj z darmowej wyceny",
+        "content": "Zawsze jesteśmy gotowi, żeby stworzyć dla Ciebie idealny produkt. Zamów darmową wycenę swojego projektu, a my odezwiemy się w ciągu 24h lub w najbliższym dniu roboczym. Marzysz o swojej własnej stronie, ale jeszcze nie wiesz czego dokładnie potrzebujesz? Nie przejmuj się, doradzimy i przeprowadzimy Cię przez wszystkie etapy.",
+        "button": "Zamów darmową wycenę",
+        "alt": "Zdjęcie przedstawiające lwa promującego profesjonalne strony internetowe dla firm",
+        "form": {
+            "tag": "Twój projekt. Nasza pasja. Wspólny skuces.",
+            "title": "Chcesz dowiedzieć się ile będzie kosztował Twój wymarzony projekt? Wypełnij formularz!",
+            "content": "Odezwiemy się do Ciebie w ciągu 24 godzin lub w kolejny dzień roboczy. Omówimy Twoje potrzeby, doradzimy i zaproponujemy cenę za projekt.",
+            "contactData": [
+                "Numery telefonu",
+                "Adres email",
+                "Godziny otwarcia"
+            ],
+            "close": "Zamknij",
+            "fields": [
+                "Imię i nazwisko",
+                "Email",
+                "Numer telefonu",
+                "Preferowane godziny kontaktu telefonicznego",
+                "Typ projektu",
+                "Krótki opis strony internetowej"
+            ],
+            "condition": [
+                "Akceptuję <a href='#'>politykę prywatności</a> i wyrażam zgodę na <a href='#'>przetwarzanie danych osobowych</a>",
+                "Wyrażam zgodę na <a href='#'>przetwarzanie moich danych</a> w celu otrzymania informacji handlowej"
+            ],
+            "button": "Wyślij zapytanie",
+            "errors": [
+                "",
+                "Imię i nazwisko jest wymagane",
+                "Nieprawidłowy adres email",
+                "Adres email jest wymagany",
+                "Numer telefonu jest wymagany",
+                "Nieprawidłowy numer telefonu",
+                "Krótki opis strony jest wymagany",
+                "Musisz zaakceptować politykę prywatności",
+                "Musisz wyrazić zgodę na otrzymywanie informacji handlowej",
+                "Wykryto bota",
+                "Nie udało się wysłać zapytania"
+            ],
+            "success": "Twoje zapytanie zostało wysłane pomyślnie!"
+        },
+        "close": "Zamknij okno"
+    },
+    "footer": {
+        "alt": "Logo spółki airtilion",
+        "area": {
+            "title": "Obszar działania",
+            "ending": "... i wiele więcej"
+        },
+        "docs": [
+            "Polityka prywatności",
+            "Polityka ochrony danych osobowych",
+            "regulamin świadczenia usług drogą elektroniczną"
+        ],
+        "companyInfo": "Airtilion Sp. z o.o. ul. Słoneczna 32/9, 33-100 Tarnów, wpisana do rejestru przedsiębiorców Krajowego rejestru Sądowego przez Sąd Rejonowy dla Krakowa-Śródmieścia w Krakowie, XII Wydział Gospodarczy Krajowego Rejestru Sądowego pod nr KRS 0001143482, kapitał zakładowy w kwocie 5 000,00 zł w całości opłacony, NIP: 8733299720"
+    }
+}

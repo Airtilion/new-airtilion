@@ -27,7 +27,7 @@ export default async function Home({ searchParams }) {
         <main className="flex flex-col gap-[192px] overflow-hidden">
           <CompaniesSlider />
           <Introduction dict={dictionary.introduction || {}} />
-          <Portoflio dict={dictionary.portfolio || {}} />
+          <Portoflio dict={dictionary.portfolio || {}} lang={lang} />
           <Information dict={dictionary.information || {}} />
           <CallToAction lang={lang} dict={dictionary.cta || {}} />
           <Offer dict={dictionary.offer || {}} />

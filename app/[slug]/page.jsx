@@ -82,7 +82,7 @@ const page = async ({ params, searchParams }) => {
         <>
             <Script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
 
-            <Header title={data.header.h1} content={data.header.content[0]} bg={data.img} dark={false} buttonText={data.header.button}/>
+            <Header title={data.header.h1} content={data.header.content[0]} bg={data.img} dark={false} buttonText={data.header.button} dark={true}/>
             
             <main className='flex flex-col gap-[192px] overflow-hidden' >
                 <CompaniesSlider />

@@ -1,125 +1,236 @@
 import tarnowImg from '@assets/images/cities/tarnow.webp'
 
 export const tarnow = {
-    city: "Tarnów-en",
+    city: "Tarnów",
     img: tarnowImg,
-    metaTitle: "Websites Tarnów – design, development, online stores, optimization",
-    metaDescription: "We design and develop professional websites in Tarnów, as well as online stores with CMS and comprehensive SEO optimization. Check out our offer!",
+    metaTitle: "Websites Tarnów - design, development, online stores, optimization",
+    metaDescription: "We design and develop professional websites in Tarnów as well as online stores with CMS and comprehensive SEO optimization. Check our offer!",
 
     header: {
         h1: "Websites Tarnów",
-        paragraph1: "We create modern and elegant websites tailored to the needs of local clients, combining functionality with aesthetics. We offer website design and development from scratch, using intuitive CMS systems or custom-built solutions.",
-        paragraph2: "Every website in Tarnów is fully responsive, fast, and secure. We work with clients from the region and all over Poland – there are no geographic limits. Contact us to discuss the collaboration, learn about the creation process, and receive a free quote!"
+        content: [
+            "We create modern and elegant websites tailored to the needs of clients in the region, combining functionality with aesthetics. We offer website design and development from scratch, using an intuitive CMS or dedicated solutions.",
+            "Each Tarnów website is fully responsive, fast, and secure. We serve clients from the region and all over Poland – no geographic limitations. Contact us to discuss the details, learn about the development process, and get a free quote!"
+        ],
+        button: [
+            "We’ll estimate your project within 24h – we’ll guide you through the entire process",
+            "Click to receive a free quote"
+        ]
     },
 
-    whyCity: {
-        mainTitle: "Professional websites and online stores in Tarnów",
-        decoration: "With us, you gain more than just an online presence",
-        subTitle: "Website design Tarnów – modern solutions and top quality in one place",
-        paragraph: "Your company needs a professional website that attracts potential clients and ranks high in search engines. We design modern websites aligned with current trends – fast, responsive, and SEO-optimized. Choose quality and future-ready technology!",
-        titleWhyInvest: "Why invest in a website for your business in Tarnów?",
+    introduction: {
+        tag: "With us, you gain more than just an online presence",
+        title: "Professional websites and online stores Tarnów",
+        content: "Your company needs a professional website that attracts potential clients and ranks higher in search engines. We design modern sites in line with current trends – fast, responsive, and SEO-optimized. Choose quality and future-ready technology!",
+        ending: "Website design Tarnów – modernity and quality in one place",
+        alts: [
+            "First part of a laptop displaying a website in Tarnów",
+            "Second part of a laptop displaying a website in Tarnów"
+        ]
+    },
+
+    advantages: {
+        title: "Why invest in a website for your company in Tarnów?",
         elements: [
             {
-                icon: "material-symbols:trophy",
-                iconText: "COMPETITIVE ADVANTAGE",
-                title: "Stand out from the competition thanks to SEO optimization",
-                desc: "A professional website with proper linking and SEO optimization will help your brand rank higher in search results. This way, you’ll stand out from the competition and customers will find your offer faster."
+                title: "Stand out from the competition with SEO optimization",
+                desc: "A professional website with proper linking and SEO optimization will boost your brand’s visibility in search results. This will help you stand out and reach customers more effectively."
             },
             {
-                icon: "fa6-solid:handshake-simple",
-                iconText: "BRAND CREDIBILITY",
-                title: "Build trust and credibility for your company in Tarnów",
-                desc: "Having your own website is an essential business card today. Aesthetic design, clear content layout, and a section with testimonials and reviews build user trust and position your company as an expert in the industry."
+                title: "Build trust and credibility for your Tarnów-based business",
+                desc: "A website today is an essential business card. An aesthetic look, clear layout, and sections with testimonials and reviews build trust among users and position your company as an industry expert."
             },
             {
-                icon: "icomoon-free:stats-dots",
-                iconText: "MORE CLIENTS",
-                title: "Increase sales and inquiries through professional websites and online stores",
-                desc: "An effective and fast website means more inquiries and increased sales."
+                title: "Boost sales and inquiries with professional websites and online stores",
+                desc: "An effective and fast website results in more inquiries and increased sales."
             },
             {
-                icon: "gis:location-poi",
-                iconText: "LOCAL REACH",
                 title: "Gain clients in Tarnów and surrounding areas",
                 desc: "Expand your business reach and attract new customers from Tarnów."
             }
-        ]
+        ],
+        alt: "Phone displaying an online store from Tarnów"
+    },
+
+    cta: {
+        title: "Take advantage of a free quote",
+        content: "We’re always ready to create the perfect product for you. Request a free quote for your project, and we’ll contact you within 24 hours or the next business day. Dreaming of your own website but don’t know where to start? Don’t worry – we’ll advise you and guide you through all the stages.",
+        button: "Request a free quote",
+        alt: "Image of a lion promoting professional websites for businesses",
+        form: {
+            tag: "Your project. Our passion. Shared success.",
+            title: "Want to know how much your dream project will cost? Fill out the form!",
+            content: "We will contact you within 24 hours or the next business day. We’ll discuss your needs, offer guidance, and provide a project estimate.",
+            contactData: [
+                "Phone numbers",
+                "Email address",
+                "Business hours"
+            ],
+            close: "Close",
+            fields: [
+                "Full name",
+                "Email",
+                "Phone number",
+                "Preferred time for phone contact",
+                "Project type",
+                "Short description of the website"
+            ],
+            condition: [
+                "I accept the <a href='#'>privacy policy</a> and agree to the <a href='#'>processing of personal data</a>",
+                "I agree to the <a href='#'>processing of my data</a> to receive commercial information"
+            ],
+            button: "Send inquiry",
+            errors: [
+                "",
+                "Full name is required",
+                "Invalid email address",
+                "Email is required",
+                "Phone number is required",
+                "Invalid phone number",
+                "Website description is required",
+                "You must accept the privacy policy",
+                "You must consent to receiving commercial information",
+                "Bot detected",
+                "Failed to send the inquiry"
+            ],
+            success: "Your inquiry has been successfully sent!"
+        }
     },
 
     technology: {
         title: "Secure systems and technologies for websites in Tarnów",
-        paragraph1: "We create functional, aesthetic, and fully responsive websites based on modern technologies that ensure reliability, speed, and seamless operation in any conditions. Our designs are tailored to the individual needs of each client – your website will not only be visually appealing but also intuitive to use.",
-        paragraph2: "We implement solutions that accelerate loading (code minification, image compression), focus on SEO optimization, and if needed, integrate a CMS that lets you independently manage and edit your website content. This ensures smooth performance across desktops and mobile devices, with regular updates and backups protecting user data."
-    },
-
-    processCity: {
-        title: "The process of designing and developing websites for businesses in Tarnów",
-        paragraph1: "For us, creating a website for local businesses isn’t just about coding – it's about building a strong online presence. Each development phase is carefully planned to deliver a solution that meets the needs of your customers and users.",
-        cta: "Want to commission a professional website?",
+        content: [
+            "We create functional, aesthetic, and fully responsive websites based on modern technologies that ensure reliability, speed, and smooth operation in all conditions. Our website designs are tailored to the client’s individual needs – your site will be not only visually attractive but also intuitive to use.",
+            "We use solutions that speed up loading (code minification, image compression), take care of SEO optimization, and implement a CMS if needed – allowing you to edit your site yourself. Everything works smoothly on desktops and mobile devices, and regular updates and backups protect users’ personal data."
+        ],
         elements: [
-            {
-                icon: "mdi:clipboard-text",
-                title: "Business needs analysis",
-                desc: "First, we learn about the specifics of your business and goals to create a website in Tarnów that meets your expectations."
-            },
-            {
-                icon: "solar:pallete-2-bold",
-                title: "Graphic design",
-                desc: "We design modern, responsive, and eye-catching layouts that will make your brand stand out. Every site is created with clarity and user experience in mind."
-            },
-            {
-                icon: "fa6-solid:laptop-code",
-                title: "Development",
-                desc: "We implement your site using the latest technologies. We ensure speed, security, and full functionality."
-            },
-            {
-                icon: "material-symbols:rocket",
-                title: "Deployment and updates",
-                desc: "We launch the finished website and provide technical support after deployment to ensure everything runs smoothly from day one."
-            },
-        ]
+            ["SECURITY", "CLARITY"],
+            ["FLEXIBILITY", "SCALABILITY"],
+            ["SPEED", "EFFICIENCY"],
+            ["POPULARITY", "SIMPLICITY"],
+            ["MINIMALISM", "FREEDOM"]
+        ],
+        alt: "Two phones showing the mobile version of a website made in Tarnów"
     },
 
-    offerCity: {
-        title: "Our website offer for companies in Tarnów",
-        paragraph1: "We create modern, fast, and SEO-friendly websites that attract customers from Tarnów and nearby areas. We specialize in:"
+    production: {
+        title: "Design and development process of websites for companies in Tarnów",
+        content: "The process of creating a website for companies in the region is not just coding – it's about building a strong online presence. Each stage is carefully planned to deliver a solution that meets your clients’ and users’ expectations.",
+        button: [
+            "Want to commission a professional website?",
+            "Go to free quote"
+        ],
+        steps: [
+            {
+                title: "Analyzing your company's needs",
+                desc: "We begin by learning about your business and goals to create a website in Tarnów tailored to your expectations."
+            },
+            {
+                title: "Graphic design",
+                desc: "We design modern, responsive, and eye-catching layouts that make your brand stand out. Each site is designed with clarity and user convenience in mind."
+            },
+            {
+                title: "Programming",
+                desc: "We implement the website using the latest technologies. We ensure performance and security, delivering full functionality."
+            },
+            {
+                title: "Deployment and updates",
+                desc: "We publish the finished website and provide technical support after launch to ensure everything runs smoothly from day one."
+            }
+        ],
+        alt: "Dark room background – web applications Tarnów"
+    },
+
+    offer: {
+        title: "Our website offer for companies from Tarnów",
+        content: "We create modern, fast, and SEO-friendly websites that attract customers from Tarnów and nearby areas. We specialize in:",
+        tiles: [
+            {
+                title: "Business card websites",
+                content: "Perfect for small businesses and freelancers who want to present themselves online."
+            },
+            {
+                title: "Corporate websites",
+                content: "Comprehensive solutions for businesses supporting brand image and regional sales."
+            },
+            {
+                title: "Online stores",
+                content: "Secure and functional stores tailored to the local market needs."
+            },
+            {
+                title: "For demanding clients",
+                content: "On request, we send a photographer to take on-site pictures of your products, headquarters, or team – we use this material for the website."
+            },
+            {
+                title: "Free quote in 48h!",
+                content: "Have questions? Want to know the cost of a custom site? Fill out the form, and we’ll prepare a personalized offer within 48 hours!"
+            }
+        ],
+        alts: [
+            "Background of a website design project in Tarnów",
+            "Business card site icon",
+            "Corporate website icon",
+            "Online store icon"
+        ],
+        button: "Go to free quote"
     },
 
     portfolio: {
         title: "Want to see our work?",
-        paragraph1: "Take a look at selected projects and see how we can help grow your online presence.",
-        paragraph2: "Have an idea for a website in Tarnów?"
+        content: [
+            "Check out selected projects and see how we can help grow your online business.",
+            "Do you have an idea for a website in Tarnów?"
+        ],
+        button: "Go to portfolio",
+        alts: [
+            "Visualization of the first sample website Tarnów",
+            "Visualization of the second sample website Tarnów"
+        ]
     },
 
     faq: {
         title: "Website development in Tarnów – we’ll answer all your questions",
-        paragraph: "Find answers next to you, and if you still have questions – don’t hesitate to contact us!",
+        content: "In this section, you’ll find answers to the most frequently asked questions about working with Airtilion – from the briefing stage, through technology and tool selection, to project timelines, cost estimates, and post-launch support. Didn’t find what you’re looking for? Contact us and we’ll respond within 24 hours.",
         elements: [
             {
                 id: 1,
-                question: "How long does it take to create a website?",
-                answer: "The timeline depends on the complexity of the project and your individual requirements. Typically, it takes anywhere from a few weeks to a few months. After an initial analysis, we can provide a more detailed schedule."
+                q: "How long does it take to create a website?",
+                a: "The timeline depends on the project's complexity and your individual requirements. Typically, it takes from a few weeks to a few months. After an initial needs analysis, we can provide a more accurate schedule."
             },
             {
                 id: 2,
-                question: "How much does a website in Tarnów cost?",
-                answer: "The cost depends on various factors such as the scope of functionality, project complexity, and any additional services. Once we understand your requirements, we will provide a tailored quote."
+                q: "How much does a website in Tarnów cost?",
+                a: "The cost depends on many factors, such as features, complexity, and additional services. After learning about your requirements, we’ll prepare an individual quote."
             },
             {
                 id: 3,
-                question: "Will I be able to manage the content on my website myself?",
-                answer: "Yes, our websites come with intuitive content management systems (CMS) that allow you to easily add and edit content without needing programming knowledge."
+                q: "Will I be able to manage the website content myself?",
+                a: "Yes, our websites include intuitive content management systems (CMS), allowing you to easily add and edit content without technical knowledge."
             },
             {
                 id: 4,
-                question: "What information is needed to start the collaboration?",
-                answer: "We need to understand your goals and expectations for the website, information about your company, design and functionality preferences, and any materials you may have such as a logo or content."
+                q: "What information do you need to start the project?",
+                a: "We need to understand your expectations, goals, company details, design and functionality preferences, and possibly materials like a logo or content."
             },
             {
                 id: 5,
-                question: "What are the benefits of a well-designed website?",
-                answer: "A professionally built website helps you stand out from the competition. With a unique design and proper SEO, your site will gain visibility in search engines and attract more potential clients."
-            },
+                q: "What can I gain from a well-made website?",
+                a: "A well-designed website helps your company stand out. A unique design and proper SEO will improve visibility and attract more potential clients."
+            }
         ]
+    },
+
+    footer: {
+        alt: "Airtilion company logo",
+        area: {
+            title: "Service area",
+            ending: "... and much more"
+        },
+        docs: [
+            "Privacy Policy",
+            "Personal Data Protection Policy",
+            "Terms of Service for Electronic Communication"
+        ],
+        companyInfo: "Airtilion Sp. z o.o. ul. Słoneczna 32/9, 33-100 Tarnów, registered in the National Court Register by the District Court for Kraków-Śródmieście in Kraków, 12th Commercial Division, under KRS no. 0001143482, share capital: 5,000.00 PLN fully paid, NIP: 8733299720"
     }
 }

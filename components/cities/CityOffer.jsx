@@ -77,7 +77,7 @@ const CityOffer = ({ dict }) => {
                 </div>
             </article>
             <div className='absolute inset-0 h-full bg-linear-to-b from-[#000000] via-[#00000000] to-[#000000] z-[-9]' />
-            <Image src={bg} width={1920} height={1000} className='absolute top-0 left-0 brightness-10 z-[-10]' />
+            <Image src={bg} width={1920} height={1000} alt={dict.alts[0]} className='absolute top-0 left-0 brightness-10 z-[-10]' />
         </section>
     )
 }

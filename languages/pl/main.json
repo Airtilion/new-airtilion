@@ -22,9 +22,9 @@
     },
     "mainSite": {
         "header": {
-            "title": "Tworzymy profesjonalne strony internetowe dla firm",
-            "content": "Tworzymy od podstaw profesjonalne i wpadające w oko strony i sklepy internetowe oraz aplikacje mobilne. Korzystamy z najnowszych technologii, aby dostarczyć jak najlepszy produkt.",
-            "imageAlt": "Zdjęcie tła firmy tworzącej profesjonalne strony internetowe dla firm",
+            "title": "Tworzymy strony internetowe dla firm i osób prywatnych",
+            "content": "W naszej ofercie znajdziesz zarówno proste strony internetowe jak i bardziej rozbudowane serwisy www, sklepy internetowe czy nawet aplikacje mobilne. Wszystko tworzymy od podstaw - nie znajdziesz u nas szablonów stron internetowych. Doradzimy i odpowiemy na każde pytanie.",
+            "imageAlt": "Tworzenie stron internetowych - baner strony z lwem o zachodzie słońca",
             "button": [
                 "Wycenimy twój projekt w 24h - przeprowadzimy Cię przez cały proces",
                 "Kliknij aby odebrać darmową wycenę"
@@ -32,21 +32,21 @@
         },
         "introduction": {
             "alts": [
-                "Laptop ucięty w połowie jako pierwsza część zdjęcia przedstajajcego artytstyczne ułożenie urządzenia do tworzenia profesjonalnych stron internetowych dla firm",
-                "Laptop ucięty w połowie jako druga część zdjęcia przedstajajcego artytstyczne ułożenie urządzenia do tworzenia profesjonalnych stron internetowych dla firm"
+                "Laptop ucięty w połowie jako pierwsza część zdjęcia przedstajajcego artytstyczne ułożenie urządzenia do tworzenia stron internetowych dla firm",
+                "Laptop ucięty w połowie jako druga część zdjęcia przedstajajcego artytstyczne ułożenie urządzenia do tworzenia stron internetowych dla firm"
             ],
-            "title": "Każda strona internetowa to nowoczesne dzieło sztuki",
-            "content": "Tworzymy kompleksowe rozwiązania cyfrowe: nowoczesne i eleganckie strony internetowe, w pełni funkcjonalne sklepy online oraz intuicyjne aplikacje webowe, precyzyjnie dopasowane do indywidualnych potrzeb każdego klienta. Łączymy estetykę i przejrzystość interfejsu z zaawansowaną technologią, dzięki czemu nasze produkty nie tylko przyciągają uwagę, ale przede wszystkim wspierają rozwój biznesu, zwiększając konwersję i angażując użytkowników. Każdy projekt to dla nas opowieść o sukcesie – od fazy koncepcji, przez design, aż po wdrożenie i opiekę powdrożeniową. Wykorzystujemy najnowsze narzędzia i frameworki, a nasze rozwiązania są skalowalne, bezpieczne i zoptymalizowane pod kątem SEO."
+            "title": "Tworzenie stron www - nowoczesne narzędzia sprzedaży i promocji",
+            "content": "Obecnie budowa strony internetowej to nie ''klikanie'' gotowych szablonów stron internetowych, czy korzystanie z kreatorów stron www. To proces, podczas którego analizujemy Twoją branżę, dobieramy odpowiednie rozwiązania i technologie do Twoich potrzeb, doradzamy w każdej kwestii, projektujemy unikalny design spójny z Twoją marką oraz wprowadzamy całość w życie umieszczając i konfigurując stronę na hostingu. Otrzymujesz przez to profesjonalną stronę internetową gotową do sprzedaży Twoich usług czy produktów lub przedstawiającą dane zagadnienie. O nic nie musisz się martwić, przeprowadzimy Cię przez cały proces i wybierzemy to co dla Ciebie najlepsze. Po wdrożeniu strony www możesz liczyć na nasze wsparcie techniczne - nie zostajesz sam!"
         },
         "portfolio": {
-            "title": "Efekt powstały z wizji - nasze ostatnie projekty",
+            "title": "Tworzenie stron internetowych - efekt powstały z doświadczenia",
             "content": [
-                "W Airtilion wierzymy, że dobrze zaprojektowany interfejs to nie tylko kwestia estetyki — to narzędzie, które realnie wspiera cele biznesowe naszych klientów. Każdy projekt w naszym portfolio to efekt ścisłej współpracy, głębokiego zrozumienia potrzeb i dbałości o każdy szczegół — od koncepcji, przez design, aż po kod i wdrożenie.",
-                "Zrealizowaliśmy dziesiątki projektów, które łączy jedno: jakość i funkcjonalność. Tworzymy nowoczesne strony internetowe, e‑commerce’y, aplikacje webowe, a także kompleksowe systemy dostosowane do specyficznych branżowych wymagań. Nasze realizacje powstają z myślą o użytkowniku końcowym — są szybkie, intuicyjne, responsywne i zoptymalizowane pod SEO."
+                "Cały proces tworzenie strony internetowej oparty jest na wieloletnim doświadczeniu całego zespołu i nieustannym poszerzaniu horyzontów. Wierzymy, że każdy tworzony przez nas projekt strony internetowej przyczynia się do polepszenia życia wielu przeglądających Internet. Wszystko po to, żeby w końcu i Twoja własna strona www, sklep internetowy czy aplikacja mobilna umożliwiła Ci osiągnięcie wymarzonych celów.",
+                "Zrealizowaliśmy wiele zleceń, dzięki którym nasi klienci otrzymali produkt spełniający ich oczekiwania. Nasze portfolio online prezentuje i w szczegółowy sposób opisuje projekty dla naszych klientów. Idąc dalej znajdziesz informacje o kosztach, czasie realizacji oraz technologiach, których używamy. Na końcu znajdziesz również odpowiedzi na najczęściej zadawane pytania."
             ],
             "button": "Przejdź do pełnego portfolio",
-            "afterContent": "Każdy projekt to szyte na miarę rozwiązanie – niezależnie od tego, czy budujemy landing page, duży portal, czy rozbudowaną platformę dla startupu lub organizacji.",
-            "alt": "Rozmazane zdjęcie przedstawiające profesjonalną stronę internetową firmy wyświetloną na laptopie"
+            "afterContent": "Każdy projekt strony internetowej to szyte na miarę rozwiązanie - niezależnie od tego, czy budujemy landing page, duży portal, czy rozbudowaną platformę dla startupu lub organizacji.",
+            "alt": "Rozmazane zdjęcie przedstawiające tworzoną stronę internetową firmy wyświetloną na laptopie jako placeholder"
         },
         "information": {
             "tag": "O produktach",

@@ -46,29 +46,31 @@
             ],
             "button": "Przejdź do pełnego portfolio",
             "afterContent": "Każdy projekt strony internetowej to szyte na miarę rozwiązanie - niezależnie od tego, czy budujemy landing page, duży portal, czy rozbudowaną platformę dla startupu lub organizacji.",
-            "alt": "Rozmazane zdjęcie przedstawiające tworzoną stronę internetową firmy wyświetloną na laptopie jako placeholder"
+            "alt": "Rozmazane zdjęcie przedstawiające tworzoną stronę internetową firmy wyświetloną na laptopie jako placeholder",
+            "cta": "Zamów darmową wycenę"
         },
         "information": {
             "tag": "O produktach",
-            "title": "Tworzymy przyszłość internetu",
+            "title": "Technologie, których używamy",
             "content": [
-                "Każdy projekt powstaje od podstaw, bez użycia gotowych szablonów – tworzymy unikalne strony w oparciu o indywidualne potrzeby klienta, wykorzystując wydajne technologie takie jak React.js, Next.js, headless WordPress czy WooCommerce, a w razie potrzeby również aplikacje mobilne w React Native.",
-                "Stawiamy na jakość ponad ilość – każda realizacja jest dopracowana pod kątem użyteczności, wydajności i optymalizacji SEO, dzięki czemu Twoja strona lub sklep działa bez zarzutu od pierwszego dnia. Po wdrożeniu nie zostawiamy Cię samemu sobie – oferujemy stałą opiekę serwisową w formie miesięcznego abonamentu, w ramach którego na bieżąco rozwijamy funkcje, aktualizujemy treści i zapewniamy wsparcie techniczne w czasie rzeczywistym."
+                "Każda stworzona przez nas strona www oparta jest na technologiach dobranych specjalnie pod potrzeby naszych klientów. W dużej mierze sercem projektów jest NextJS - framework pozwalający tworzyć zoptymalizowane strony internetowe oraz ułatwiający optymalizację SEO. Przy prostszych projektach stron internetowych nie wymagających dużej ilości podstron używamy ReactJS Vite, czyli lżejszą bibliotekę sprawdzającą się idealnie przy tego typu stronach www.",
+                "W przypadku gdy witryna ma posiadać panel administracyjny jako zaplecza używamy WordPress'a łącząc go z jedną z powyżej opisanych technologii jako headless (więcej o tym podejściu można przeczytać na naszym blogu). Taka hybryda umożliwia tworzenie stron internetowych, które są łatwe w zarządzaniu dla klienta (blogi, strony wymagające regularnego dodawania treści, itd.), a dodatkowo zachowują wszystkie benefity nowoczesnych technologii z pierwszego akapitu.",
+                "Więcej na temat technologii, których używamy do tworzenia profesjonalnych stron internetowych wraz z ich podziałem na strony, sklepy e-commerce czy aplikacje mobilne znajdziesz w sekcji poniżej."
             ],
             "alts": [
-                "Laptop z profesjonalną stroną internetową dla firmy",
-                "Telefony z profesjonalnymi stronami internetowymi i aplikacjami mobilnymi dla firm"
+                "Tworzenie stron internetowych - laptop z tworzoną stroną internetową dla firmy",
+                "Tworzenie stron internetowych - telefony z profesjonalnymi stronami internetowymi i aplikacjami mobilnymi dla firm"
             ]
         },
         "cta": {
             "title": "Skorzystaj z darmowej wyceny",
-            "content": "Zawsze jesteśmy gotowi, żeby stworzyć dla Ciebie idealny produkt. Zamów darmową wycenę swojego projektu, a my odezwiemy się w ciągu 24h lub w najbliższym dniu roboczym. Marzysz o swojej własnej stronie, ale jeszcze nie wiesz czego dokładnie potrzebujesz? Nie przejmuj się, doradzimy i przeprowadzimy Cię przez wszystkie etapy.",
+            "content": "Jesteśmy gotowi, żeby stworzyć dla Ciebie Twoją własną stronę internetową. Wypełnij prosty formularz i zamów darmową wycenę swojego projektu. Odezwiemy się do Ciebie w ciągu 24h lub w najbliższym dniu roboczym. Jeśli jeszcze nie wiesz czego dokładnie potrzebujesz nie przejmuj się. Doradzimy i przeprowadzimy Cię przez cały proces. Odpowiemy na każde twoje pytanie.",
             "button": "Zamów darmową wycenę",
             "alt": "Zdjęcie przedstawiające lwa promującego profesjonalne strony internetowe dla firm",
             "form": {
                 "tag": "Twój projekt. Nasza pasja. Wspólny skuces.",
-                "title": "Chcesz dowiedzieć się ile będzie kosztował Twój wymarzony projekt? Wypełnij formularz!",
-                "content": "Odezwiemy się do Ciebie w ciągu 24 godzin lub w kolejny dzień roboczy. Omówimy Twoje potrzeby, doradzimy i zaproponujemy cenę za projekt.",
+                "title": "Chcesz dowiedzieć się ile będzie kosztował Twój projekt? Wypełnij formularz!",
+                "content": "Odezwiemy się do Ciebie w ciągu 24 godzin lub w kolejny dzień roboczy. Omówimy Twoje potrzeby, doradzimy i zaproponujemy cenę za projekt. Jeśli jednak nie chcesz wypełniać formularza, możesz skontaktować się z nami telefonicznie.",
                 "contactData": [
                     "Numery telefonu",
                     "Adres email",
@@ -106,50 +108,86 @@
         },
         "offer": {
             "tag": "Oferta",
-            "title": "Szeroki wachlarz usług",
-            "mContent": "Nasza oferta jest elastyczna – realizujemy zarówno proste strony wizytówkowe, jak i bardziej rozbudowane serwisy. Tworzymy strony oraz sklepy internetowe, rozbudowane aplikacje internetowe, czy też nawet aplikacje mobilne zintegrowane ze stronami. Prowadzimy także działalność w zakresie opieki i obsługi stron oraz usług na stronach wykonywanych w ramach subskrypcji przez określoną ilość godzin miesięcznie.",
+            "title": "Budowa stron internetowych - Oferta",
+            "mContent": "Nasza oferta jest elastyczna - realizujemy zarówno proste strony www służące jako wizytówka, jak i bardziej rozbudowane serwisy. Tworzymy strony oraz sklepy internetowe, rozbudowane aplikacje internetowe, czy nawet aplikacje mobilne, które mogą być autonomiczne lub zintegrowane z Twoją stroną. Prowadzimy także działalność w zakresie opieki i bierzącej obsługi stron.",
             "elements": [
                 {
                     "name": "Strony internetowe",
                     "content": [
-                        "Tworzymy nowoczesne, szyte na miarę strony internetowe, które nie tylko świetnie wyglądają, ale przede wszystkim skutecznie realizują cele biznesowe. Nie korzystamy z gotowych szablonów ani uniwersalnych rozwiązań – każda realizacja jest projektowana indywidualnie, z uwzględnieniem potrzeb Twojej marki, użytkowników i oczekiwań rynkowych.",
-                        "Stawiamy na estetykę, przejrzystość i intuicyjną nawigację. Nasze strony są lekkie, szybkie i zoptymalizowane pod kątem SEO. Dzięki zastosowaniu nowoczesnych technologii takich jak React.js, Next.js czy headless WordPress, masz pewność, że Twoja witryna będzie działać błyskawicznie – zarówno na komputerach, jak i urządzeniach mobilnych.",
-                        "Każdy projekt to efekt bliskiej współpracy – od warsztatów koncepcyjnych, przez projektowanie UI/UX, aż po końcowe wdrożenie i testy. Niezależnie od tego, czy potrzebujesz prostej wizytówki, czy rozbudowanego serwisu z wieloma podstronami, otrzymasz rozwiązanie skrojone idealnie pod Twój biznes."
+                        {
+                            "title": "Ile kosztuje strona internetowa?",
+                            "content": "Koszt wykonania strony internetowej zawsze zależny jest od jej złożoności i wielkości. Ceny wahają się od kilku tysięcy za proste strony internetowe, do kilkunastu lub kilkudziesięciu tysięcy za duże i skomplikowane serwisy. Aby dowiedzieć się ile będzie kosztował Twój projekt wypełnij prosty formularz wyceny strony internetowej, który znajdziesz w menu lub w poprzedniej sekcji."
+                        },
+                        {
+                            "title": "Ile muszę czekać na gotowy produkt?",
+                            "content": "Podobnie jak przy koszcie wykonania strony czas jaki potrzebujemy na wykonanie zlecenia zależy od wielkości i poziomu skomplikowania projektu. Mniejsze witryny jesteśmy w stanie ukończyć w ciągu kilku dni roboczych. Z kolei większe i bardzo skomplikowane serwisy tworzymy w ciągu kilku tygodni lub miesięcy."
+                        },
+                        {
+                            "title": "Etapy realizacji strony",
+                            "content": "Gdy zdecydujesz się na kontakt z nami za pomocą formularza, maila lub telefonicznie, ustalimy jakie są Twoje potrzeby, przeanalizujemy Twoją branżę i wymagania przyszłych użytkowników. Stworzymy dla Ciebie na tej podstawie unikalny projekt graficzny, a później całą stronę, zastosujemy odpowiednie zabezpieczenia strony oraz skonfigurujemy domenę i hosting."
+                        }
                     ]
                 },
                 {
                     "name": "Sklepy E-commerce",
                     "content": [
-                        "Projektujemy sklepy internetowe, które są szybkie, intuicyjne i gotowe do skalowania. Każdy sklep budujemy od podstaw, z uwzględnieniem Twoich celów sprzedażowych oraz potrzeb użytkowników.",
-                        "Zapewniamy integracje z systemami płatności, narzędziami marketingowymi i systemami zarządzania magazynem. Twój sklep będzie działać sprawnie na wszystkich urządzeniach.",
-                        "Otrzymujesz nie tylko estetyczny interfejs, ale też narzędzie wspierające sprzedaż i rozwój Twojego biznesu. Sklepy są zoptymalizowane pod SEO i przygotowane do dalszej rozbudowy."
+                        {
+                            "title": "Ile kosztuje sklep internetowy?",
+                            "content": "Koszt zależy od zakresu funkcjonalności. Prosty sklep (kilkadziesiąt produktów, standardowe płatności) zaczyna się od kilku tysięcy złotych. Sklep ze średnim katalogiem i integracjami (płatności, kurier, podstawowy magazyn/ERP) zazwyczaj wymaga kilku-kilkunastu tysięcy zł. Zaawansowane platformy B2B, marketplace’y lub rozwiązania niestandardowe mogą kosztować kilkadziesiąt tysięcy złotych. Aby otrzymać dokładną wycenę, wypełnij formularz — przygotujemy ofertę w 24h."
+                        },
+                        {
+                            "title": "Ile muszę czekać na gotowy produkt?",
+                            "content": "Czas realizacji zależy od złożoności projektu. Prosty sklep: zwykle 1-3 tygodnie. Sklep ze średnimi wymaganiami i integracjami: 4-8 tygodni. Duże, rozbudowane projekty (synchronizacje z ERP, niestandardowe procesy sprzedaży, marketplace) mogą trwać 2-4+ miesięcy. Na etapie wyceny podajemy szczegółowy harmonogram dopasowany do Twoich potrzeb."
+                        },
+                        {
+                            "title": "Etapy realizacji sklepu",
+                            "content": "Realizację projektu rozpoczynamy od analizy potrzeb i strategii sprzedaży. Na tej podstawie przygotowujemy design skoncentrowany na konwersji. Następnie tworzymy frontend, backend oraz panel administracyjny dostosowany do Twojego biznesu. W kolejnym kroku integrujemy systemy płatności i wszystkie funkcje sklepu. Po finalnej optymalizacji i testach wdrażamy sklep, konfigurujemy hosting oraz przeprowadzamy szkolenie z obsługi panelu."
+                        }
                     ]
                 },
                 {
                     "name": "Aplikacje mobilne",
                     "content": [
-                        "Tworzymy mobilne aplikacje biznesowe i konsumenckie, które wyróżniają się nowoczesnym designem i wysoką wydajnością. Obsługujemy zarówno platformy iOS, jak i Android.",
-                        "Aplikacje są często zintegrowane z Twoją stroną lub panelem CMS, co pozwala tworzyć spójny ekosystem. Budujemy je w oparciu o technologie takie jak React Native czy Flutter.",
-                        "Przejmujemy pełny proces – od analizy potrzeb, przez prototypowanie, aż po wdrożenie i publikację w App Store i Google Play. Po wdrożeniu oferujemy też wsparcie techniczne."
+                        {
+                            "title": "Ile kosztuje aplikacja mobilna?",
+                            "content": "Koszt zależy od zakresu funkcji i technologii. Proste aplikacje zaczynają się od kilku tysięcy złotych, z kolei aplikacje średniej złożoności z integracjami, logowaniem, itd. zwykle wymagają kilku-kilkunastu tysięcy zł. Rozbudowane aplikacje, z synchronizacją offline z zaawansowanymi integracjami backendowymi mogą kosztować kilkadziesiąt tysięcy złotych. Tworzymy głównie w React Native co pozwala szybko dostarczać w pełni funkcjonalne aplikacje na Android i iOS."
+                        },
+                        {
+                            "title": "Ile muszę czekać na gotowy produkt?",
+                            "content": "Czas realizacji zależy od złożoności i zakresu funkcji. Proste aplikacje/PWA zazwyczaj zajmują 2-4 tygodnie. Aplikacje średniej złożoności: 6-10 tygodni. Duże projekty natywne lub rozwiązania wymagające integracji z systemami zewnętrznymi mogą trwać 3-6+ miesięcy. W wycenie podajemy szczegółowy harmonogram dopasowany do Twoich wymagań."
+                        },
+                        {
+                            "title": "Etapy realizacji aplikacji",
+                            "content": "Rozpoczynamy od analizy potrzeb i wymagań, określamy cele użytkowników oraz proponujemy optymalną technologię — najczęściej React Native dla szybkiego, natywnego efektu na Android i iOS. Przygotowujemy prototypy i projekt UX/UI zoptymalizowany pod urządzenia mobilne, a następnie przechodzimy do programowania, testów i wdrażania. Testujemy aplikację na rzeczywistych urządzeniach pod kątem funkcjonalności, bezpieczeństwa i wydajności, pomagamy w publikacji w App Store i Google Play."
+                        }
                     ]
                 },
                 {
                     "name": "Opieka nad stroną",
                     "content": [
-                        "Zapewniamy kompleksową opiekę techniczną nad Twoją stroną lub sklepem – od drobnych aktualizacji po większe zmiany. Pracujemy w elastycznym modelu godzinowym lub abonamentowym.",
-                        "Czuwamy nad bezpieczeństwem, wydajnością i bieżącą funkcjonalnością witryny. Reagujemy szybko na zgłoszenia i dbamy o to, by wszystko działało bez zarzutu.",
-                        "Możesz też liczyć na doradztwo techniczne oraz pomoc przy rozwoju nowych funkcji, treści lub integracji z zewnętrznymi narzędziami."
+                        {
+                            "title": "Ile kosztuje opieka nad stroną?",
+                            "content": "Cena ustalana jest indywidualnie na podstawie zakresu usług, technologii strony ilości roboczogodzin w miesiącu. Oferujemy elastyczne podejście — opiekę w modelu subskrypcyjnym płatnym miesięcznie lub rozliczenie stawką godzinową bez ograniczenia godzinowego. Przygotujemy spersonalizowaną wycenę po krótkiej analizie — odpowiedź i propozycja w ciągu 24 godzin od przesłania zapytania."
+                        },
+                        {
+                            "title": "Ile muszę czekać na reakcję?",
+                            "content": "Czas reakcji ustalamy indywidualnie w umowie, aby dopasować priorytet do Twoich potrzeb biznesowych. Standardowy proces uruchomienia opieki (onboarding, konfiguracja monitoringu i backupów) zajmuje zwykle 1-3 dni robocze. W zależności od ustaleń możemy zapewnić szybką interwencję przy awariach, reakcję w ciągu 24 godzin lub dłuższe czasy reagowania przy obsłudze bieżącej — wszystko zapisujemy w warunkach współpracy."
+                        },
+                        {
+                            "title": "Zakres i przebieg opieki nad stroną",
+                            "content": "Opieka rozpoczyna się od audytu i wdrożenia monitoringu czy kopii zapasowych. Następnie regularnie przeprowadzamy aktualizacje systemów, monitorujemy dostępność i wydajność, usuwamy awarie oraz realizujemy drobne zmiany i poprawki zgodnie z przyjętym modelem rozliczeń. Na życzenie wykonujemy dowolne prace mieszczęce się w zakresie godzinowym. Wszystkie działania dokumentujemy i dostarczamy raporty w określonych interwałach czasowych."
+                        }
                     ]
                 }
             ]
         },
         "opinions": {
             "title": "Co myślą o nas nasi klienci?",
-            "alt": "Telefon położony na pomarańoczowym stole przedstawiający apliakcję mobilną dla firmy"
+            "alt": "Telefon położony na pomarańoczowym stole przedstawiający apliakcję mobilną"
         },
         "people": {
             "tag": "Zespół",
-            "title": "Kto zajmie się Twoją wymarzoną stroną?",
+            "title": "Realizacja strony internetowej - kto się nią zajmie?",
             "content": "Każda marka zasługuje na silnik napędzający jej rozwój, dlatego w Airtilion łączymy najnowsze technologie z dopracowanym UX/UI, aby każdy element Twojej cyfrowej obecności działał jak precyzyjny mechanizm. Zaczynamy od głębokiego zrozumienia Twoich celów, projektujemy intuicyjne rozwiązania, a następnie wdrażamy je z inżynierską skrupulatnością — tak, by Twoja witryna czy aplikacja nie tylko przyciągały uwagę, lecz przede wszystkim przynosiły realne zyski. W efekcie Twój biznes zyskuje nie tylko efektowną wizytówkę w sieci, ale przede wszystkim trwałą przewagę konkurencyjną.",
             "owners": [
                 {
@@ -216,49 +254,53 @@
             "media": "Znajdziesz nas również tutaj"
         },
         "faq": {
-            "title": "Odpowiedzi na najczęściej zadawane pytania",
-            "content": "W tej sekcji znajdziesz odpowiedzi na najczęściej zadawane pytania dotyczące współpracy z Airtilion – od etapu briefu, przez wybór technologii i narzędzi, aż po harmonogram realizacji i orientacyjne koszty projektu, a także zakres wsparcia po uruchomieniu strony czy aplikacji. Jeśli nie znalazłeś tu informacji, której szukasz, skontaktuj się z nami, a odpowiemy w ciągu 24 godzin.",
+            "title": "Częste pytania dotyczące tworzenia stron internetowych",
+            "content": "Znajdziesz tu odpowiedzi na najczęściej zadawane pytania dotyczące współpracy przy tworzeniu własnej strony internetowej. Odpowiedzi dotyczą czasu, kosztów, sposobu realizacji, technologii czy dodatkowych kwestii, które, o które często pytają nasi klienci. Jeśli nie znalazłeś tu informacji, której szukasz, skontaktuj się z nami, a odpowiemy w ciągu 24h.",
             "questions": [
                 {
-                    "q": "Jakich technologii używają Państwo do tworzenia stron internetowych?",
+                    "q": "Nie mam hostingu ani domeny, co mam zrobić?",
                     "a": [
-                        "Korzystamy z bazowych technologii, takich jak HTML, CSS i WordPress, które stanowią solidną podstawę dla każdego projektu. Jednak naszym głównym celem jest oferowanie nowoczesnych i zaawansowanych rozwiązań. Dlatego stawiamy na technologie takie jak React, Next.js czy Tailwind CSS, które pozwalają nam tworzyć dynamiczne, responsywne i wydajne aplikacje oraz strony internetowe.",
-                        "Te technologie umożliwiają nam szybkie działanie, lepsze optymalizacje pod kątem SEO, a także maksymalne dopasowanie do potrzeb użytkowników. Dzięki temu dostarczamy rozwiązania, które nie tylko przyciągają uwagę estetyką, ale również gwarantują intuicyjną obsługę i najwyższą wydajność w codziennym użytkowaniu."
+                        "Jeśli nie masz jeszcze hostingu ani domeny z chęcią pomożemy w doborze odpowiedniego dostawcy. Mamy doświadczenie z usługami różnych firm dostępnych na rynku, dzięki temu jesteśmy w stanie lepiej doradzić Ci co będzie najlepsze dla Twojej własnej strony internetowej. Na naszym blogu znajdziesz również artykuł odnośnie najbardziej opłacalnych hostingów. <a href='https://airtilion.com/blog'>Kliknij aby przejść do artykułu.</a>"
                     ]
                 },
                 {
-                    "q": "Jak długo trwa realizacja projektu?",
+                    "q": "Co wchodzi w skład ceny za tworzenie stron internetowych?",
                     "a": [
-                        "Korzystamy z bazowych technologii, takich jak HTML, CSS i WordPress, które stanowią solidną podstawę dla każdego projektu. Jednak naszym głównym celem jest oferowanie nowoczesnych i zaawansowanych rozwiązań. Dlatego stawiamy na technologie takie jak React, Next.js czy Tailwind CSS, które pozwalają nam tworzyć dynamiczne, responsywne i wydajne aplikacje oraz strony internetowe.",
-                        "Te technologie umożliwiają nam szybkie działanie, lepsze optymalizacje pod kątem SEO, a także maksymalne dopasowanie do potrzeb użytkowników. Dzięki temu dostarczamy rozwiązania, które nie tylko przyciągają uwagę estetyką, ale również gwarantują intuicyjną obsługę i najwyższą wydajność w codziennym użytkowaniu."
+                        "Poza standardowymi etapami usługi jak rozmowa odnośnie wymagań, analiza branży, tworzenie strategii oraz na jej podstawie designu i kodu tworzonej strony internetowej czy późniejsze wsparcie techniczne dodatkowo koszt strony internetowej zawiera pomniejsze etapy jak: konfiguracja Google Analytics oraz Google Search Console, utworzenie strony zgodnie z zasadami dostępności dla wszystkich (WCAG), pomoc w zakupie domeny i hostingu oraz ich konfiguracja. Dodatkowo na życzenie klienta uruchamiamy i konfigurujemy wizytówkę profilu firmy w google."
                     ]
                 },
                 {
-                    "q": "Ile kosztuje strona internetowa?",
+                    "q": "Jak wygląda u Państwa wsparcie techniczne?",
                     "a": [
-                        "Korzystamy z bazowych technologii, takich jak HTML, CSS i WordPress, które stanowią solidną podstawę dla każdego projektu. Jednak naszym głównym celem jest oferowanie nowoczesnych i zaawansowanych rozwiązań. Dlatego stawiamy na technologie takie jak React, Next.js czy Tailwind CSS, które pozwalają nam tworzyć dynamiczne, responsywne i wydajne aplikacje oraz strony internetowe.",
-                        "Te technologie umożliwiają nam szybkie działanie, lepsze optymalizacje pod kątem SEO, a także maksymalne dopasowanie do potrzeb użytkowników. Dzięki temu dostarczamy rozwiązania, które nie tylko przyciągają uwagę estetyką, ale również gwarantują intuicyjną obsługę i najwyższą wydajność w codziennym użytkowaniu."
+                        "Generalnie istnieją u nas dwa rodzaje wsparcia technicznego. Jedno, które klient dostaje w ramach gwarancji do stworzonej strony internetowej, pozwalające klientowi na zlecenie nam w ciągu roku trwania gwarancji do 2 godzin miesięcznie prostych zmian na stronie, typu zmiana tekstu czy dodanie opcji do oferty. Odbywa się to bez dodatkowych opłat.",
+                        "Drugim rodzajem wsparcia technicznego jest płatna subskrypcja, której parametry ustalane się indywidualnie z klientem. Na początku współpracy ustalamy ilość godzin w miesiącu oraz miesięczny koszt takiej usługi. Możliwe jest również rozliczenie godzinowe, które nie nakłada miesięcznego limitu godzin."
                     ]
                 },
                 {
-                    "q": "Czy klient może liczyć na gwarancję na produkt?",
+                    "q": "Dlaczego nie korzystają Państwo z darmowych szablonów stron internetowych i kreatorów stron www?",
                     "a": [
-                        "Korzystamy z bazowych technologii, takich jak HTML, CSS i WordPress, które stanowią solidną podstawę dla każdego projektu. Jednak naszym głównym celem jest oferowanie nowoczesnych i zaawansowanych rozwiązań. Dlatego stawiamy na technologie takie jak React, Next.js czy Tailwind CSS, które pozwalają nam tworzyć dynamiczne, responsywne i wydajne aplikacje oraz strony internetowe.",
-                        "Te technologie umożliwiają nam szybkie działanie, lepsze optymalizacje pod kątem SEO, a także maksymalne dopasowanie do potrzeb użytkowników. Dzięki temu dostarczamy rozwiązania, które nie tylko przyciągają uwagę estetyką, ale również gwarantują intuicyjną obsługę i najwyższą wydajność w codziennym użytkowaniu."
+                        "Edytor typu „przeciągnij i upuść” , kreatory AI czy gotowe szablony stron internetowych bardzo negatywnie wpływają na prawie każdy aspekt witryny co mocno utrudnia tworzenie skutecznych stron internetowych. Takie rozwiązania mocno spowalniają strony www i czynią je mniej atrakcyjnymi dla Twoich potencjalnych klientów. Często zabezpieczenia takich produktów są znacznie mniejsze co przekłada się na bezpieczeństwo Twoje i Twoich klientów. Dodatkowo korzystanie z szablonów nie łączy się z ideą unikalności - wiele stron internetowych będzie podobnych do siebie.",
+                        "Dlatego przy doborze oprogramowania strony internetowej oraz technologii staramy się łączyć wszystkie benefity dedykowanych technologii frontendowych jak ReactJS czy NextJS z prostym panelem zarządzania treścią Wordpress w wersji headless. Podejście takie pozwala na uzyskanie większej wydajności, optymalizacji i bezpieczeństwa oraz pozytywnie wpływa na SEO Twojej strony internetowej."
                     ]
                 },
                 {
-                    "q": "Jakie są dodatkowe koszty związane ze stroną internetową?",
+                    "q": "Jakie dodatkowe funkcje indywidualne mogę zamówić na swoją stronę internetową?",
                     "a": [
-                        "Korzystamy z bazowych technologii, takich jak HTML, CSS i WordPress, które stanowią solidną podstawę dla każdego projektu. Jednak naszym głównym celem jest oferowanie nowoczesnych i zaawansowanych rozwiązań. Dlatego stawiamy na technologie takie jak React, Next.js czy Tailwind CSS, które pozwalają nam tworzyć dynamiczne, responsywne i wydajne aplikacje oraz strony internetowe.",
-                        "Te technologie umożliwiają nam szybkie działanie, lepsze optymalizacje pod kątem SEO, a także maksymalne dopasowanie do potrzeb użytkowników. Dzięki temu dostarczamy rozwiązania, które nie tylko przyciągają uwagę estetyką, ale również gwarantują intuicyjną obsługę i najwyższą wydajność w codziennym użytkowaniu."
+                        "Jesteśmy w stanie wykonać dowolną funkcjonalność przy tworzeniu stron internetowych. Od systemów rezerwacji, przez blogi, portfolio online, zaawansowane formularze i konfiguratory, aż po dedykowane panele administracyjne z systemem CRM dla Twojej witryny.",
+                        "Dlatego jeśli masz pomysł na swoją stronę www oraz zaawansowane funkcje na niej wypełnij formularz wyceny dostępny w menu lub skontaktuj się z nami mailowo lub telefonicznie. Wyceniany Twój projekt strony internetowej, doradzimy i odpowiemy na każde pytanie."
+                    ]
+                },
+                {
+                    "q": "Własna strona internetowa - jak przygotować się do zakupu?",
+                    "a": [
+                        "Przed zamówieniem strony warto zastanowić się, do czego będzie Ci ona potrzebna — czy ma sprzedawać produkty, prezentować ofertę, czy pełnić rolę prostej wizytówki. Pomyśl też o najważniejszych funkcjach, jakie powinna mieć (np. sklep internetowy, formularz kontaktowy, system rezerwacji czy panel do samodzielnej edycji treści) oraz przygotuj materiały, które już posiadasz, takie jak logo, teksty czy zdjęcia.",
+                        "Pomocne będzie również określenie orientacyjnego budżetu, terminu realizacji i informacja, czy masz już domenę oraz hosting, czy potrzebujesz naszej pomocy w ich wyborze. Na tej podstawie szybko przygotujemy dla Ciebie dopasowaną wycenę i zaplanujemy cały proces tworzenia strony internetowej. Jeśli natomiast nie masz tego wszystkiego nie przejmuj się, pomożemy i doradzimy w każdej kwestii oraz odpowiemy na każde pytanie. Wystarczy do nas napisać i umówić się na konsultację."
                     ]
                 },
                 {
                     "q": "W jakim rejonie prowadzą Państwo działalność?",
                     "a": [
-                        "Korzystamy z bazowych technologii, takich jak HTML, CSS i WordPress, które stanowią solidną podstawę dla każdego projektu. Jednak naszym głównym celem jest oferowanie nowoczesnych i zaawansowanych rozwiązań. Dlatego stawiamy na technologie takie jak React, Next.js czy Tailwind CSS, które pozwalają nam tworzyć dynamiczne, responsywne i wydajne aplikacje oraz strony internetowe.",
-                        "Te technologie umożliwiają nam szybkie działanie, lepsze optymalizacje pod kątem SEO, a także maksymalne dopasowanie do potrzeb użytkowników. Dzięki temu dostarczamy rozwiązania, które nie tylko przyciągają uwagę estetyką, ale również gwarantują intuicyjną obsługę i najwyższą wydajność w codziennym użytkowaniu."
+                        "Airtilion Sp. z o.o. to firma, która działa w 100% online, dlatego mamy możliwość tworzenia stron internetowych niezależnie czy będą one z Warszawy, Gdańska czy Zakopanego. Dla bardziej wymagających klientów mamy ofertę, które uwzględnia dojazd naszego fotografa do siedziby i sfotografowanie siedziby czy zespołu oraz utworzenie zdjęć do użytku na stronie."
                     ]
                 }
             ]

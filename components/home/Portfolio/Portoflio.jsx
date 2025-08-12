@@ -63,6 +63,7 @@ const Portoflio = ({ dict, lang }) => {
         <div className='w-[700px] flex flex-col gap-[16px] justify-center items-center mx-auto max-lg:w-[450px] max-sm:w-[90%] animation-left transition-all duration-1000 ease-in-out'>
           <p className='text-center text-[16px] max-2xl:text-[15px] max-lg:text-[14px] '>{dict.afterContent}</p>
           <div className='h-[2px] w-[490px] radial-line max-lg:w-[300px] max-sm:w-[80%]'></div>
+          <button className='h-[50px] px-16 primary-gradient rounded-full max-2xl:mt-4 max-lg:text-[14px] max-lg:h-[45px] max-lg:px-12'>{dict.cta}</button>
         </div>
 
       </article>

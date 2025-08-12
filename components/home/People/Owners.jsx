@@ -9,7 +9,7 @@ const owners = [jw, ap]
 
 const Owners = ({ dict }) => {
   return (
-    <section id='owners-section' className='w-[1240px] max-xl:w-[960px] max-lg:w-[90%] mx-auto  relative owners-hidden'>
+    <section id='owners-section' className='w-[1240px] max-xl:w-[960px] max-lg:w-[90%] mx-auto relative owners-hidden'>
 
       <IntersectionListener selector="#owners-section" visibleClass="owners-visible" hiddenClass="owners-hidden" threshold="0.2" rootMargin='0px 0px -100px 0px' />
 

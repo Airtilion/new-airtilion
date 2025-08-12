@@ -13,7 +13,7 @@ const Information = ({dict}) => {
 
       <Image src={information1} width={630} height={700} alt={dict.alts[0]} className='rounded-r-[40px] transition-all duration-1000 ease-in-out animation-left max-2xl:h-[600px] max-xl:h-[500px] max-xl:w-[350px] max-xl:rounded-r-[20px] object-left object-cover max-lg:h-[400px] max-lg:rounded-[20px] max-lg:w-[70%] self-left max-sm:w-[90%]'/>
 
-      <article className='flex flex-col gap-24 max-2xl:gap-18 max-xl:gap-12'>
+      <article className='flex flex-col gap-16 max-2xl:gap-12 max-xl:gap-10'>
 
         <div className='flex flex-col gap-4 pl-8 max-w-[800px] transition-all duration-1000 ease-in-out animation-right max-2xl:max-w-[600px] max-lg:max-w-[80%] max-lg:mx-auto max-sm:max-w-[90%] max-sm:pl-0'>
           <PreTitle title="O produktach"/>

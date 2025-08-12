@@ -31,7 +31,7 @@ export default async function Home({ searchParams }) {
           <Information dict={dictionary.information || {}} />
           <CallToAction lang={lang} dict={dictionary.cta || {}} />
           <Offer dict={dictionary.offer || {}} />
-          <Opinions dict={dictionary.opinions || {}} />
+          <Opinions dict={dictionary.opinions || {}} lang={lang} />
           <Owners dict={dictionary.people || {}} />
           <Contact dict={dictionary.contact || {}} />
           <Faq dict={dictionary.faq || {}} />

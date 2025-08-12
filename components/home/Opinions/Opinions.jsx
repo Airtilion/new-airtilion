@@ -6,7 +6,7 @@ import { Icon } from '@iconify/react/dist/iconify'
 import Slider from './components/Slider'
 import IntersectionListener from '@components/IntersectionListener'
 
-const Opinions = ({ dict }) => {
+const Opinions = ({ dict, lang }) => {
   return (
     <section id="opinion-section" className="w-full relative h-[500px] overflow-hidden max-lg:h-auto element-hidden-opacity transition-all duration-1000 ease-in-out">
       <IntersectionListener selector="#opinion-section" visibleClass="element-visible-opacity" hiddenClass="element-hidden-opacity" threshold="0.2" rootMargin='0px 0px -100px 0px'/>
@@ -19,7 +19,7 @@ const Opinions = ({ dict }) => {
           <div className="h-[4px] w-[100px] bg-[#E3E3E3]" />
         </div>
 
-        <Slider />
+        <Slider lang={lang}/>
       </article>
 
       <div className="absolute inset-0 bg-linear-to-b from-[#000000] via-[#00000099] to-[#000000] z-[-1]" />

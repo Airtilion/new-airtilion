@@ -3,48 +3,13 @@
 import React, { useEffect, useRef, useState } from 'react';
 import SliderCard from './SliderCard';
 
-const slide = [
-    {
-        author: 'Radosław Jaźwiec',
-        stars: 5,
-        desc: 'Z pełnym przekonaniem rekomendujemy firmę Airtilion Sp. z o.o. jako solidnego, rzetelnego i profesjonalnego partnera w realizacji projektów internetowych. Efekt ich pracy w pełni odpowiada naszym założeniom.',
-    },
-    {
-        author: 'Edyta Kożuch',
-        stars: 5,
-        desc: 'Z przyjemnością rekomendujemy firmę Airtilion. Za realizację usługi odpowiedzialni byli panowie Jakub Wadycki oraz Artur Plebańczyk, którzy wykazali sięwysokimi kompetencjami, zaangażowaniem oraz terminowością.',
-    },
-    {
-        author: 'Lorem ipsum',
-        stars: 5,
-        desc: 'Lorem ipsum lorem ipsum Lorem ipsum lorem ipsumLorem ipsum lorem ipsumLorem ipsum lorem ipsumLorem ipsum lorem ipsumLorem ipsum lorem ipsum'
-    },
-    {
-        author: 'Józek Nowak',
-        stars: 5,
-        desc: 'Lorem ipsum lorem ipsum Lorem ipsum lorem ipsumLorem ipsum lorem ipsumLorem ipsum lorem ipsumLorem ipsum lorem ipsumLorem ipsum lorem ipsum'
-    },
-    {
-        author: 'Józek Nowak',
-        stars: 5,
-        desc: 'Lorem ipsum lorem ipsum Lorem ipsum lorem ipsumLorem ipsum lorem ipsumLorem ipsum lorem ipsumLorem ipsum lorem ipsumLorem ipsum lorem ipsum'
-    },
-    {
-        author: 'Józek Nowak',
-        stars: 5,
-        desc: 'Lorem ipsum lorem ipsum Lorem ipsum lorem ipsumLorem ipsum lorem ipsumLorem ipsum lorem ipsumLorem ipsum lorem ipsumLorem ipsum lorem ipsum'
-    },
-]
-
-const Slider = ({lang}) => {
+const Slider = ({lang, data}) => {
     const sliderAll = useRef(null);
     const cardRef = useRef(null);
     const containerRef = useRef(null);
     const position = useRef(0);
     const [cardWidth, setCardWidth] = useState(0);
     const [containerWidth, setContainerWidth] = useState(0);
-
-    const [reviews, setReviews] = useState([])
 
     useEffect(() => {
         if (cardRef.current) {
@@ -64,7 +29,7 @@ const Slider = ({lang}) => {
         if (!cardWidth) return;
         if (!containerWidth) return;
 
-        const revsCount = reviews.length;
+        const revsCount = data.length;
         const visibleRevs = Math.floor(containerWidth / cardWidth);
         let tCount = visibleRevs;
 
@@ -90,32 +55,10 @@ const Slider = ({lang}) => {
         return () => clearInterval(interval);
     }, [cardWidth, containerWidth])
 
-    useEffect(() => {
-        const getRevs = async () => {
-            try{
-                const response = await fetch('/api/opinions/get', {
-                    method: 'POST'
-                })
-
-                if(!response.ok){
-                    console.error("Nie udało się pobrać opinii")
-                }
-
-                const data = await response.json();
-                console.log(data)
-                setReviews(data)
-            }
-            catch(err){
-                console.error(err)
-            }
-        }
-        getRevs()
-    }, [])
-
     return (
         <div ref={containerRef} className="flex-1 max-w-full overflow-hidden max-lg:w-full max-lg:flex-auto">
             <div ref={sliderAll} className='flex gap-4 px-4 transition-all duration-1000 ease-in-out'>
-                {reviews.map((el, idx) => <SliderCard lang={lang} key={idx} author={el.author} authorId={el.authorId} desc={el.content} stars={el.stars} icon={el.icon.file} ref={idx === 0 ? cardRef : null} />)}
+                {data.map((el, idx) => <SliderCard lang={lang} key={idx} author={el.author} authorId={el.authorId} desc={el.content} stars={el.stars} icon={el.icon.file} ref={idx === 0 ? cardRef : null} />)}
             </div>
         </div>
     );

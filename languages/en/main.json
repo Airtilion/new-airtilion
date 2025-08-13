@@ -2,8 +2,8 @@
   "menu": {
     "items": [
       {
-        "name": "Offer",
-        "link": "#oferta"
+        "name": "Services",
+        "link": "/oferta"
       },
       {
         "name": "Portfolio",
@@ -18,57 +18,81 @@
         "link": "/#kontakt"
       }
     ],
-    "pricing": "Ask for a quote"
+    "subItems": [
+      {
+        "name": "Websites",
+        "link": "/oferta-strony-internetowe",
+        "desc": "From simple sites to more complex websites. Any functionality."
+      },
+      {
+        "name": "E-commerce Stores",
+        "link": "/oferta-sklepy-internetowe",
+        "desc": "Online stores tailored to your customers' needs."
+      },
+      {
+        "name": "Mobile Apps",
+        "link": "/oferta-aplikacje-mobilne",
+        "desc": "Simple and more advanced mobile apps integrated with your website."
+      },
+      {
+        "name": "Additional Services",
+        "link": "/oferta-uslugi-dodatkowe",
+        "desc": "Site care and work within a monthly subscription."
+      }
+    ],
+    "pricing": "Request a quote"
   },
   "mainSite": {
     "header": {
-      "title": "We create professional websites for businesses",
-      "content": "We build professional and eye-catching websites, online stores, and mobile apps from scratch. We use the latest technologies to deliver the best possible product.",
-      "imageAlt": "Background image of a company creating professional websites for businesses",
+      "title": "We create websites for businesses and private clients",
+      "content": "Our offer includes both simple websites and more advanced web services, online stores, and even mobile applications. Everything is built from scratch — you won't find templates here. We'll advise you and answer any question.",
+      "imageAlt": "Website development - banner with a lion at sunset",
       "button": [
-        "We’ll estimate your project within 24h – and guide you through the whole process",
-        "Click to get your free quote"
+        "We'll price your project within 24h — we'll guide you through the whole process",
+        "Click to get a free quote"
       ]
     },
     "introduction": {
       "alts": [
-        "Half-cut laptop as the first part of an image showcasing an artistic arrangement of a device used to create professional business websites",
-        "Half-cut laptop as the second part of an image showcasing an artistic arrangement of a device used to create professional business websites"
+        "Laptop cut in half as the first part of a photo showing an artistic arrangement of a device used to create websites for companies",
+        "Laptop cut in half as the second part of a photo showing an artistic arrangement of a device used to create websites for companies"
       ],
-      "title": "Every website is a modern work of art",
-      "content": "We create comprehensive digital solutions: modern and elegant websites, fully functional online stores, and intuitive web applications — all precisely tailored to the individual needs of each client. We combine visual aesthetics and clean interfaces with advanced technology, ensuring that our products not only attract attention but, above all, support business growth by increasing conversions and engaging users. Every project is a story of success — from concept and design to implementation and post-launch support. We leverage the latest tools and frameworks, delivering scalable, secure, and SEO-optimized solutions."
+      "title": "Website development — modern tools for sales and promotion",
+      "content": "Today, building a website is not about 'clicking' ready-made templates or using website builders. It's a process in which we analyze your industry, choose the right solutions and technologies for your needs, advise on every matter, design a unique look consistent with your brand, and deploy everything to hosting. You receive a professional website ready to sell your services or products or to present a topic. You don't have to worry about anything — we'll guide you through the entire process and choose what's best for you. After deployment, you can count on our technical support — you won't be left alone!"
     },
     "portfolio": {
-      "title": "Vision Realized – Our Latest Projects",
+      "title": "Website development — results born from experience",
       "content": [
-        "At Airtilion, we believe that a well‑designed interface is more than just aesthetics — it’s a tool that genuinely supports our clients’ business goals. Every project in our portfolio is the result of close collaboration, a deep understanding of needs, and meticulous attention to detail — from concept and design through to code and deployment.",
-        "We’ve delivered dozens of projects united by one principle: quality and functionality. We build modern websites, e‑commerce platforms, web applications, and comprehensive systems tailored to specific industry requirements. Our solutions are created with the end user in mind — they’re fast, intuitive, responsive, and SEO‑optimized."
+        "The entire website creation process is based on the team's many years of experience and continuous expansion of our horizons. We believe every project we create helps improve the experience of many internet users. All this so that your website, online store or mobile app ultimately helps you achieve your desired goals.",
+        "We have completed many projects that delivered products meeting our clients' expectations. Our online portfolio presents and describes projects in detail. Further down you'll find information about costs, delivery times and the technologies we use. At the end you'll also find answers to frequently asked questions."
       ],
-      "button": "View Full Portfolio",
-      "afterContent": "Each project is a custom‑made solution — whether we’re crafting a landing page, a large portal, or a sophisticated platform for a startup or organization.",
-      "alt": "A blurred photo showing a professional company website displayed on a laptop"
+      "button": "Go to full portfolio",
+      "afterContent": "Every website project is a tailor-made solution — whether we build a landing page, a large portal, or a complex platform for a startup or organization.",
+      "alt": "Blurred photo showing a company's website being created on a laptop as a placeholder",
+      "cta": "Request a free quote"
     },
     "information": {
-      "tag": "About Our Products",
-      "title": "We Build the Future of the Internet",
+      "tag": "About our products",
+      "title": "Technologies we use",
       "content": [
-        "Every project is built from the ground up, without using pre-made templates — we create unique websites tailored to the individual needs of our clients, using high-performance technologies like React.js, Next.js, headless WordPress, or WooCommerce, and mobile apps in React Native when needed.",
-        "We prioritize quality over quantity — each solution is refined in terms of usability, performance, and SEO optimization, ensuring your website or store runs flawlessly from day one. And after launch, you’re not on your own — we offer ongoing maintenance through a monthly subscription that includes continuous feature development, content updates, and real-time technical support."
+        "Every website we build is based on technologies chosen specifically for our clients' needs. To a large extent, the heart of our projects is Next.js — a framework that enables optimized websites and helps with SEO optimization. For simpler website projects that don't require many subpages we use React (Vite), a lighter library that works perfectly for such sites.",
+        "If a site requires an administrative panel, we use WordPress combined with one of the above technologies in a headless setup (you can read more about this approach on our blog). This hybrid allows for sites that are easy for the client to manage (blogs, sites requiring regular content updates, etc.) while retaining the benefits of modern frontend technologies mentioned earlier.",
+        "You can find more about the technologies we use to build professional websites, grouped by websites, e-commerce stores and mobile apps, in the section below."
       ],
       "alts": [
-        "Laptop displaying a professional company website",
-        "Phones showing professional company websites and mobile apps"
+        "Website development - laptop with a website being created for a company",
+        "Website development - phones with professional websites and mobile apps for companies"
       ]
     },
     "cta": {
-      "title": "Get a Free Quote",
-      "content": "We're always ready to create the perfect product for you. Request a free quote for your project, and we'll get back to you within 24 hours or on the next business day. Dreaming of your own website but not sure where to start? Don’t worry — we’ll guide you through every step and help you make the right decisions.",
-      "button": "Request a Free Quote",
-      "alt": "Image of a lion promoting professional websites for businesses",
+      "title": "Get a free quote",
+      "content": "We're ready to create your website. Fill out a simple form and request a free project quote. We'll get back to you within 24 hours or on the next business day. If you're not sure what you need yet — don't worry. We'll advise you and guide you through the whole process. We'll answer every question.",
+      "button": "Request a free quote",
+      "alt": "Photo showing a lion promoting professional websites for companies",
       "form": {
         "tag": "Your project. Our passion. Shared success.",
-        "title": "Want to know how much your dream project will cost? Fill out the form!",
-        "content": "We’ll get back to you within 24 hours or on the next business day. We’ll discuss your needs, offer advice, and provide a project quote.",
+        "title": "Want to know how much your project will cost? Fill out the form!",
+        "content": "We will contact you within 24 hours or on the next business day. We'll discuss your needs, advise you and propose a price for the project. If you don't want to fill out the form, you can contact us by phone.",
         "contactData": [
           "Phone numbers",
           "Email address",
@@ -79,98 +103,148 @@
           "Full name",
           "Email",
           "Phone number",
-          "Preferred time for phone contact",
-          "Type of website",
-          "Brief description of the website"
+          "Preferred phone contact hours",
+          "Project type",
+          "Short description of the website"
         ],
         "condition": [
-          "I accept the <a href='#'>privacy policy</a> and consent to the <a href='#'>processing of personal data</a>",
-          "I consent to the <a href='#'>processing of my data</a> for the purpose of receiving commercial information"
+          "I accept the <a href='/privacy-policy.pdf' target='_blank'>privacy policy</a> and consent to the <a href='/privacy-policy.pdf' target='_blank'>processing of personal data</a>",
+          "I consent to the <a href='/contest-for-the-purpose-of-sending-requested-commercial-information.pdf' target='_blank'>processing of my data</a> for the purpose of receiving commercial information"
         ],
-        "button": "Send inquiry"
+        "button": "Send inquiry",
+        "errors": [
+          "",
+          "Full name is required",
+          "Invalid email address",
+          "Email address is required",
+          "Phone number is required",
+          "Invalid phone number",
+          "Short description of the website is required",
+          "You must accept the privacy policy",
+          "You must consent to receive commercial information",
+          "Bot detected",
+          "Failed to send inquiry"
+        ],
+        "success": "Your inquiry has been sent successfully!"
       }
     },
     "offer": {
       "tag": "Offer",
-      "title": "A Wide Range of Services",
-      "mContent": "Our offer is flexible – we work on everything from simple business card websites to complex platforms. We build websites, e-commerce stores, advanced web applications, and even mobile apps integrated with websites. We also offer ongoing maintenance and support, delivered through a monthly subscription for a set number of hours.",
+      "title": "Website development — Services",
+      "mContent": "Our offer is flexible — we deliver both simple websites serving as a business card and more advanced web services. We build websites and online stores, advanced web applications, and even mobile apps that can be standalone or integrated with your site. We also provide site maintenance and ongoing support.",
       "elements": [
         {
           "name": "Websites",
           "content": [
-            "We create modern, tailor-made websites that not only look great but most importantly serve your business goals. We don't use templates or generic solutions – every project is custom-designed to fit your brand, your users, and your market needs.",
-            "We focus on aesthetics, clarity, and intuitive navigation. Our websites are lightweight, fast, and SEO-optimized. Thanks to modern technologies like React.js, Next.js, and headless WordPress, your site will run smoothly on both desktop and mobile devices.",
-            "Each project is the result of close collaboration – from concept workshops and UI/UX design to final implementation and testing. Whether you need a simple one-pager or a complex multi-page platform, you'll get a solution tailored to your business."
+            {
+              "title": "How much does a website cost?",
+              "content": "The cost of a website always depends on its complexity and size. Prices range from a few thousand PLN for simple websites to tens of thousands for large and complex services. To find out how much your project will cost, fill out the simple pricing form available in the menu or in the previous section."
+            },
+            {
+              "title": "How long do I have to wait for the finished product?",
+              "content": "As with cost, the time required to complete a project depends on its size and complexity. Smaller sites can be completed within a few business days. Larger and very complex services are built within several weeks or months."
+            },
+            {
+              "title": "Stages of website delivery",
+              "content": "When you contact us via the form, email or phone, we will determine your needs, analyze your industry and future users' requirements. Based on that we create a unique design and then build the entire site, apply appropriate security measures and configure the domain and hosting."
+            }
           ]
         },
         {
           "name": "E-commerce Stores",
           "content": [
-            "We design fast, intuitive, and scalable online stores. Every store is built from scratch, tailored to your sales goals and user needs.",
-            "We integrate payment systems, marketing tools, and inventory management solutions. Your store will run smoothly across all devices.",
-            "You’ll receive not just a beautiful interface, but a sales-ready tool optimized for SEO and designed for long-term growth."
+            {
+              "title": "How much does an online store cost?",
+              "content": "The cost depends on the scope of functionality. A simple store (a few dozen products, standard payments) starts from a few thousand PLN. A store with a medium catalog and integrations (payments, courier, basic inventory/ERP) typically requires several to a dozen thousand PLN. Advanced B2B platforms, marketplaces or custom solutions may cost tens of thousands of PLN. To get an accurate quote, fill out the form — we will prepare an offer within 24 hours."
+            },
+            {
+              "title": "How long do I have to wait for the finished product?",
+              "content": "Delivery time depends on project complexity. Simple store: usually 1–3 weeks. Store with medium requirements and integrations: 4–8 weeks. Large, complex projects (ERP synchronizations, non-standard sales processes, marketplace) can take 2–4+ months. We provide a detailed schedule at the quoting stage tailored to your needs."
+            },
+            {
+              "title": "Stages of store delivery",
+              "content": "We start the project by analyzing needs and sales strategy. Based on that we prepare a conversion-focused design. Next we build frontend, backend and an admin panel tailored to your business. Then we integrate payment systems and all store functions. After final optimization and testing we deploy the store, configure hosting and provide training on the admin panel."
+            }
           ]
         },
         {
           "name": "Mobile Apps",
           "content": [
-            "We develop high-performance mobile apps with modern design for both iOS and Android platforms, suited for business or consumer use.",
-            "Many of our apps are integrated with websites or content management systems to form a seamless digital ecosystem. We use technologies like React Native or Flutter.",
-            "We handle the full process – from needs analysis and prototyping to development and publishing in the App Store and Google Play, with post-launch support included."
+            {
+              "title": "How much does a mobile app cost?",
+              "content": "The cost depends on the scope of features and technology. Simple apps start from a few thousand PLN, while medium-complexity apps with integrations, login, etc. usually require several to a dozen thousand PLN. Advanced apps with offline synchronization and complex backend integrations can cost tens of thousands of PLN. We mainly build with React Native, which allows fast delivery of fully functional apps for Android and iOS."
+            },
+            {
+              "title": "How long do I have to wait for the finished product?",
+              "content": "Delivery time depends on complexity and scope. Simple apps/PWA typically take 2–4 weeks. Medium complexity apps: 6–10 weeks. Large native projects or solutions requiring integrations with external systems can take 3–6+ months. We provide a detailed schedule in the quote tailored to your requirements."
+            },
+            {
+              "title": "Stages of app delivery",
+              "content": "We start by analyzing needs and requirements, define user goals and propose the optimal technology — most often React Native for fast native-like results on Android and iOS. We prepare prototypes and a UX/UI design optimized for mobile devices, then proceed to development, testing and deployment. We test the app on real devices for functionality, security and performance, and assist with publishing in the App Store and Google Play."
+            }
           ]
         },
         {
-          "name": "Website Maintenance",
+          "name": "Site Maintenance",
           "content": [
-            "We offer full technical support for your website or store – from minor updates to major improvements. Services are delivered through flexible hourly packages or subscriptions.",
-            "We monitor performance, ensure security, and provide quick responses to your requests so your site stays stable and reliable.",
-            "You can also count on expert advice and help with adding new features, managing content, or integrating third-party tools."
+            {
+              "title": "How much does site maintenance cost?",
+              "content": "The price is set individually based on the scope of services, site technology and the number of work hours per month. We offer a flexible approach — subscription-based monthly maintenance or hourly billing without a monthly limit. We will prepare a personalized quote after a short analysis — response and proposal within 24 hours of submitting the inquiry."
+            },
+            {
+              "title": "How long do I have to wait for a response?",
+              "content": "Response times are set individually in the agreement to match the priority your business needs. Standard onboarding (setting up monitoring and backups) usually takes 1–3 business days. Depending on arrangements, we can provide fast incident response within 24 hours or longer response times for routine support — all terms are recorded in the cooperation conditions."
+            },
+            {
+              "title": "Scope and process of site maintenance",
+              "content": "Maintenance begins with an audit and implementation of monitoring and backups. Then we regularly perform system updates, monitor availability and performance, fix incidents and implement small changes and fixes according to the agreed billing model. On request we perform any tasks within the agreed hourly scope. All actions are documented and we provide reports at specified intervals."
+            }
           ]
         }
       ]
     },
     "opinions": {
-      "title": "What do our clients think of us?",
-      "alt": "A phone placed on an orange table displaying a mobile app for a company"
+      "title": "What our clients think of us",
+      "alt": "Phone placed on an orange table showing a mobile application"
     },
     "people": {
       "tag": "Team",
-      "title": "Who will bring your dream website to life?",
-      "content": "Every brand deserves an engine that drives its growth. That’s why at Airtilion, we combine the latest technologies with refined UX/UI to ensure every aspect of your digital presence functions like a precision mechanism. We start by deeply understanding your goals, design intuitive solutions, and then implement them with engineering-level precision — so that your website or app not only captures attention but, above all, delivers real business results. As a result, your brand gains not just a sleek online showcase, but more importantly, a lasting competitive edge.",
+      "title": "Website delivery — who will handle it?",
+      "content": "We combine technical knowledge with a creative approach to design to create solutions that work like a precise mechanism. We analyze business needs and the industry, based on that we design intuitive interfaces and implement them with attention to every detail. The result? Efficient and optimized websites, stores and apps built with you and your customers in mind.",
       "owners": [
         {
           "name": "Jakub Wadycki",
           "role": "Co-Founder",
           "email": "jakubwadycki@gmail.com",
           "phone": "720 177 174",
-          "linked": "#",
-          "facebook": "#",
-          "desc": "I've been programming for many years, exploring various technologies throughout my career. Ultimately, I found my true passion in building websites and web applications. I'm a full-stack developer — capable of creating a complete site from start to finish. Outside of work, I’m into 3D design and printing, and I enjoy creating simple electronic devices. I'm constantly learning new things.",
-          "alt": "Photos of Jakub Wadycki, co-owner of a company that creates professional websites for businesses."
+          "linked": "https://www.linkedin.com/in/jakub-wadycki-906149275",
+          "facebook": "https://www.facebook.com/jakub.wadycki",
+          "desc": "I have been programming for many years — I started with simple desktop applications. Later, web development became my main focus and has remained so ever since. I decided to found the company because I believe that through hard work and offering clients modern technologies combined with strategic analysis we can make the web better.",
+          "alt": "Photos showing Jakub Wadycki, co-owner of a company that builds websites for businesses"
         },
         {
           "name": "Artur Plebańczyk",
           "role": "Co-Founder",
           "email": "plebanczyk.artur@gmail.com",
           "phone": "511 019 652",
-          "linked": "#",
-          "facebook": "#",
-          "desc": "It was my passion for technology and computer science that led me to the world of programming. For the past four years, I've been growing as a full-stack developer. I especially value the combination of technology and creativity, which enables me to deliver modern and functional solutions. My mission is to push the web and e-commerce industry forward by implementing advanced technologies that not only meet clients' needs but also set new standards.",
-          "alt": "Photos of Artur Plebańczyk, co-owner of a company that creates professional websites for businesses."
+          "linked": "https://www.linkedin.com/in/artur-plebańczyk-10105728b",
+          "facebook": "https://www.facebook.com/artur.plebanczyk.88",
+          "desc": "My passion for technology and computer science led me to programming. For many years I have been developing my skills as a full-stack developer. In my work I particularly value combining technology with creative ideas, which allows me to deliver modern and functional solutions. My mission is to grow the web and e-commerce sector by implementing advanced technologies that meet clients' needs and are the future of the Internet.",
+          "alt": "Photos showing Artur Plebańczyk, co-owner of a company that builds websites for businesses"
         }
       ]
     },
     "contact": {
       "tag": "Contact",
-      "title": "We’re Always at Your Service",
+      "title": "We are always at your disposal",
       "data": [
         "Phone number",
         "Email address",
         "Opening hours"
       ],
       "alts": [
-        "Artistic photo of a telephone arranged next to a company’s website on screen",
-        "Photo of an open laptop displaying a professional website"
+        "Photo showing an artistically arranged phone next to a website",
+        "Photo of an open laptop with a professional website on the screen"
       ],
       "form": {
         "fields": [
@@ -180,87 +254,100 @@
           "Message"
         ],
         "condition": [
-          "I accept the <a href='#'>privacy policy</a> and consent to <a href='#'>processing my personal data</a>",
-          "I consent to <a href='#'>processing my data</a> for marketing purposes"
+          "I accept the <a href='/privacy-policy.pdf' target='_blank'>privacy policy</a> and consent to the <a href='/privacy-policy.pdf' target='_blank'>processing of personal data</a>",
+          "I consent to the <a href='/contest-for-the-purpose-of-sending-requested-commercial-information.pdf' target='_blank'>processing of my data</a> for the purpose of receiving commercial information"
         ],
-        "button": "Send Message",
+        "button": "Send message",
         "errors": [
           "",
-          "Name is required",
+          "Full name is required",
           "Invalid email address",
-          "Email is required",
+          "Email address is required",
           "Phone number is required",
           "Invalid phone number",
           "Message is required",
           "You must accept the privacy policy",
-          "You must consent to marketing communications",
+          "You must consent to receive commercial information",
           "Bot detected",
-          "Form not sent"
+          "Failed to send the form"
         ],
         "success": "Your message has been sent successfully!"
       },
       "media": "You can also find us here"
     },
     "faq": {
-      "title": "Answers to the Most Frequently Asked Questions",
-      "content": "In this section, you’ll find answers to the most frequently asked questions about working with Airtilion – from the briefing stage, through the choice of technologies and tools, to the project timeline, estimated costs, and the scope of post-launch support for your website or application. If you can’t find the information you’re looking for, feel free to contact us – we’ll get back to you within 24 hours.",
+      "title": "Frequently asked questions about website development",
+      "content": "Here you'll find answers to the most frequently asked questions about cooperating on building your own website. The answers cover timeframes, costs, delivery process, technologies and other issues our clients often ask about. If you didn't find the information you were looking for, contact us and we'll reply within 24 hours.",
       "questions": [
         {
-          "q": "What technologies do you use to build websites?",
+          "q": "I don't have hosting or a domain, what should I do?",
           "a": [
-            "We use basic technologies like HTML, CSS, and WordPress, which provide a solid foundation for every project. However, our main goal is to offer modern and advanced solutions. That’s why we focus on technologies such as React, Next.js, and Tailwind CSS, which allow us to create dynamic, responsive, and high-performance applications and websites.",
-            "These technologies enable fast performance, better SEO optimization, and maximum adaptation to user needs. As a result, we deliver solutions that not only stand out visually but also ensure intuitive use and top-level performance in everyday operations."
+            "If you don't yet have hosting or a domain, we'd be happy to help you choose the right provider. We have experience with services from various companies on the market, which allows us to better advise you what will be best for your website. On our blog you will also find an article about the most cost-effective hosting options. <a href='https://airtilion.com/blog' style='color: #e28350'>Click to go to the article.</a>"
           ]
         },
         {
-          "q": "How long does it take to complete a project?",
+          "q": "What is included in the price for building a website?",
           "a": [
-            "We use basic technologies like HTML, CSS, and WordPress, which provide a solid foundation for every project. However, our main goal is to offer modern and advanced solutions. That’s why we focus on technologies such as React, Next.js, and Tailwind CSS, which allow us to create dynamic, responsive, and high-performance applications and websites.",
-            "These technologies enable fast performance, better SEO optimization, and maximum adaptation to user needs. As a result, we deliver solutions that not only stand out visually but also ensure intuitive use and top-level performance in everyday operations."
+            "Besides standard service stages such as discussions about requirements, industry analysis, strategy creation and the resulting design and code of the website, as well as subsequent technical support, the website cost also includes smaller stages like configuring Google Analytics and Google Search Console, creating the site according to accessibility standards (WCAG), and assistance with purchasing and configuring a domain and hosting. Additionally, at the client's request we set up and configure the company's Google Business Profile."
           ]
         },
         {
-          "q": "How much does a website cost?",
+          "q": "How does your technical support work?",
           "a": [
-            "We use basic technologies like HTML, CSS, and WordPress, which provide a solid foundation for every project. However, our main goal is to offer modern and advanced solutions. That’s why we focus on technologies such as React, Next.js, and Tailwind CSS, which allow us to create dynamic, responsive, and high-performance applications and websites.",
-            "These technologies enable fast performance, better SEO optimization, and maximum adaptation to user needs. As a result, we deliver solutions that not only stand out visually but also ensure intuitive use and top-level performance in everyday operations."
+            "Generally we offer two types of technical support. One is included in the warranty for the created website, allowing the client to request up to 2 hours per month of simple changes during the one-year warranty (e.g. text updates or adding options to the offer) at no extra charge.",
+            "The second type is a paid subscription, whose parameters are set individually with the client. At the start of cooperation we agree on the number of hours per month and the monthly cost of the service. Hourly billing without a monthly limit is also possible."
           ]
         },
         {
-          "q": "Does the client receive a product warranty?",
+          "q": "Why don't you use free website templates and website builders?",
           "a": [
-            "We use basic technologies like HTML, CSS, and WordPress, which provide a solid foundation for every project. However, our main goal is to offer modern and advanced solutions. That’s why we focus on technologies such as React, Next.js, and Tailwind CSS, which allow us to create dynamic, responsive, and high-performance applications and websites.",
-            "These technologies enable fast performance, better SEO optimization, and maximum adaptation to user needs. As a result, we deliver solutions that not only stand out visually but also ensure intuitive use and top-level performance in everyday operations."
+            "Drag-and-drop editors, AI builders or ready-made website templates negatively impact almost every aspect of a site and make creating effective websites much harder. Such solutions often slow down websites and make them less attractive to your potential customers. Security of these products is often much lower, which affects the safety of you and your clients. Additionally, using templates goes against uniqueness — many websites will look similar.",
+            "Therefore, when choosing site software and technologies we try to combine the benefits of dedicated frontend technologies like React and Next.js with a simple WordPress content management panel in a headless setup. This approach enables greater performance, optimization and security and positively affects your site's SEO."
           ]
         },
         {
-          "q": "What additional costs are associated with a website?",
+          "q": "What additional custom features can I order for my website?",
           "a": [
-            "We use basic technologies like HTML, CSS, and WordPress, which provide a solid foundation for every project. However, our main goal is to offer modern and advanced solutions. That’s why we focus on technologies such as React, Next.js, and Tailwind CSS, which allow us to create dynamic, responsive, and high-performance applications and websites.",
-            "These technologies enable fast performance, better SEO optimization, and maximum adaptation to user needs. As a result, we deliver solutions that not only stand out visually but also ensure intuitive use and top-level performance in everyday operations."
+            "We can implement any functionality for websites — from booking systems, blogs, online portfolios, advanced forms and configurators to dedicated admin panels with CRM for your site.",
+            "So if you have an idea for your website and advanced features, fill out the pricing form available in the menu or contact us by email or phone. We'll price your project, advise you and answer any question."
           ]
         },
         {
-          "q": "Which regions do you operate in?",
+          "q": "How should I prepare to purchase my own website?",
           "a": [
-            "We use basic technologies like HTML, CSS, and WordPress, which provide a solid foundation for every project. However, our main goal is to offer modern and advanced solutions. That’s why we focus on technologies such as React, Next.js, and Tailwind CSS, which allow us to create dynamic, responsive, and high-performance applications and websites.",
-            "These technologies enable fast performance, better SEO optimization, and maximum adaptation to user needs. As a result, we deliver solutions that not only stand out visually but also ensure intuitive use and top-level performance in everyday operations."
+            "Before ordering a website, consider what you need it for — should it sell products, present an offer, or serve as a simple business card. Think about the most important features it should have (e.g. online store, contact form, booking system or content editing panel) and prepare materials you already have, such as a logo, texts or photos.",
+            "It is also helpful to determine an approximate budget, desired delivery time and whether you already have a domain and hosting or need our help choosing them. Based on that we will quickly prepare a tailored quote and plan the entire website creation process. If you don't have all of this yet, don't worry — we'll help and advise on every matter. Just write to us and schedule a consultation."
+          ]
+        },
+        {
+          "q": "In which area do you operate?",
+          "a": [
+            "Airtilion Sp. z o.o. is a 100% online company, so we can create websites regardless of whether you are in Warsaw, Gdańsk or Zakopane. For more demanding clients we offer on-site photographer visits to the company's premises to photograph the office or team and create images for use on the site."
           ]
         }
       ]
     }
   },
   "footer": {
-    "alt": "Logo spółki airtilion",
+    "alt": "Airtilion company logo",
     "area": {
-      "title": "Obszar działania",
-      "ending": "... i wiele więcej"
+      "title": "Operating area",
+      "ending": "... and many more"
     },
     "docs": [
-      "Polityka prywatności",
-      "Polityka ochrony danych osobowych",
-      "regulamin świadczenia usług drogą elektroniczną"
+      {
+        "name": "Privacy policy",
+        "link": "/privacy-policy.pdf"
+      },
+      {
+        "name": "Terms of electronic services",
+        "link": "/terms-and-conditions-for-the-provision-of-electronic-services.pdf"
+      },
+      {
+        "name": "Consent to receive commercial information",
+        "link": "/contest-for-the-purpose-of-sending-requested-commercial-information.pdf"
+      }
     ],
-    "companyInfo": "Airtilion Sp. z o.o. ul. Słoneczna 32/9, 33-100 Tarnów, wpisana do rejestru przedsiębiorców Krajowego rejestru Sądowego przez Sąd Rejonowy dla Krakowa-Śródmieścia w Krakowie, XII Wydział Gospodarczy Krajowego Rejestru Sądowego pod nr KRS 0001143482, kapitał zakładowy w kwocie 5 000,00 zł w całości opłacony, NIP: 8733299720"
+    "companyInfo": "Airtilion Sp. z o.o., ul. Słoneczna 32/9, 33-100 Tarnów, registered in the Register of Entrepreneurs of the National Court Register by the District Court for Kraków-Śródmieście in Kraków, 12th Commercial Division of the National Court Register under KRS no. 0001143482, share capital of PLN 5,000.00 fully paid, TAX ID (NIP): 8733299720"
   }
 }

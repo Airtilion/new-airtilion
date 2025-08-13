@@ -108,8 +108,8 @@
                     "Krótki opis strony internetowej"
                 ],
                 "condition": [
-                    "Akceptuję <a href='#'>politykę prywatności</a> i wyrażam zgodę na <a href='#'>przetwarzanie danych osobowych</a>",
-                    "Wyrażam zgodę na <a href='#'>przetwarzanie moich danych</a> w celu otrzymania informacji handlowej"
+                    "Akceptuję <a href='/polityka-prywatnosci.pdf' target='_blank'>politykę prywatności</a> i wyrażam zgodę na <a href='/polityka-prywatnosci.pdf' target='_blank'>przetwarzanie danych osobowych</a>",
+                    "Wyrażam zgodę na <a href='/zgoda-informacja-handlowa.pdf' target='_blank'>przetwarzanie moich danych</a> w celu otrzymania informacji handlowej"
                 ],
                 "button": "Wyślij zapytanie",
                 "errors": [
@@ -155,7 +155,7 @@
                     "content": [
                         {
                             "title": "Ile kosztuje sklep internetowy?",
-                            "content": "Koszt zależy od zakresu funkcjonalności. Prosty sklep (kilkadziesiąt produktów, standardowe płatności) zaczyna się od kilku tysięcy złotych. Sklep ze średnim katalogiem i integracjami (płatności, kurier, podstawowy magazyn/ERP) zazwyczaj wymaga kilku-kilkunastu tysięcy zł. Zaawansowane platformy B2B, marketplace’y lub rozwiązania niestandardowe mogą kosztować kilkadziesiąt tysięcy złotych. Aby otrzymać dokładną wycenę, wypełnij formularz — przygotujemy ofertę w 24h."
+                            "content": "Koszt zależy od zakresu funkcjonalności. Prosty sklep (kilkadziesiąt produktów, standardowe płatności) zaczyna się od kilku tysięcy złotych. Sklep ze średnim katalogiem i integracjami (płatności, kurier, podstawowy magazyn/ERP) zazwyczaj wymaga kilku-kilkunastu tysięcy zł. Zaawansowane platformy B2B, marketplace’y lub rozwiązania niestandardowe mogą kosztować kilkadziesiąt tysięcy złotych. Aby otrzymać dokładną wycenę, wypełnij formularz - przygotujemy ofertę w 24h."
                         },
                         {
                             "title": "Ile muszę czekać na gotowy produkt?",
@@ -180,7 +180,7 @@
                         },
                         {
                             "title": "Etapy realizacji aplikacji",
-                            "content": "Rozpoczynamy od analizy potrzeb i wymagań, określamy cele użytkowników oraz proponujemy optymalną technologię — najczęściej React Native dla szybkiego, natywnego efektu na Android i iOS. Przygotowujemy prototypy i projekt UX/UI zoptymalizowany pod urządzenia mobilne, a następnie przechodzimy do programowania, testów i wdrażania. Testujemy aplikację na rzeczywistych urządzeniach pod kątem funkcjonalności, bezpieczeństwa i wydajności, pomagamy w publikacji w App Store i Google Play."
+                            "content": "Rozpoczynamy od analizy potrzeb i wymagań, określamy cele użytkowników oraz proponujemy optymalną technologię - najczęściej React Native dla szybkiego, natywnego efektu na Android i iOS. Przygotowujemy prototypy i projekt UX/UI zoptymalizowany pod urządzenia mobilne, a następnie przechodzimy do programowania, testów i wdrażania. Testujemy aplikację na rzeczywistych urządzeniach pod kątem funkcjonalności, bezpieczeństwa i wydajności, pomagamy w publikacji w App Store i Google Play."
                         }
                     ]
                 },
@@ -189,11 +189,11 @@
                     "content": [
                         {
                             "title": "Ile kosztuje opieka nad stroną?",
-                            "content": "Cena ustalana jest indywidualnie na podstawie zakresu usług, technologii strony ilości roboczogodzin w miesiącu. Oferujemy elastyczne podejście — opiekę w modelu subskrypcyjnym płatnym miesięcznie lub rozliczenie stawką godzinową bez ograniczenia godzinowego. Przygotujemy spersonalizowaną wycenę po krótkiej analizie — odpowiedź i propozycja w ciągu 24 godzin od przesłania zapytania."
+                            "content": "Cena ustalana jest indywidualnie na podstawie zakresu usług, technologii strony ilości roboczogodzin w miesiącu. Oferujemy elastyczne podejście - opiekę w modelu subskrypcyjnym płatnym miesięcznie lub rozliczenie stawką godzinową bez ograniczenia godzinowego. Przygotujemy spersonalizowaną wycenę po krótkiej analizie - odpowiedź i propozycja w ciągu 24 godzin od przesłania zapytania."
                         },
                         {
                             "title": "Ile muszę czekać na reakcję?",
-                            "content": "Czas reakcji ustalamy indywidualnie w umowie, aby dopasować priorytet do Twoich potrzeb biznesowych. Standardowy proces uruchomienia opieki (onboarding, konfiguracja monitoringu i backupów) zajmuje zwykle 1-3 dni robocze. W zależności od ustaleń możemy zapewnić szybką interwencję przy awariach, reakcję w ciągu 24 godzin lub dłuższe czasy reagowania przy obsłudze bieżącej — wszystko zapisujemy w warunkach współpracy."
+                            "content": "Czas reakcji ustalamy indywidualnie w umowie, aby dopasować priorytet do Twoich potrzeb biznesowych. Standardowy proces uruchomienia opieki (onboarding, konfiguracja monitoringu i backupów) zajmuje zwykle 1-3 dni robocze. W zależności od ustaleń możemy zapewnić szybką interwencję przy awariach, reakcję w ciągu 24 godzin lub dłuższe czasy reagowania przy obsłudze bieżącej - wszystko zapisujemy w warunkach współpracy."
                         },
                         {
                             "title": "Zakres i przebieg opieki nad stroną",
@@ -210,27 +210,27 @@
         "people": {
             "tag": "Zespół",
             "title": "Realizacja strony internetowej - kto się nią zajmie?",
-            "content": "Każda marka zasługuje na silnik napędzający jej rozwój, dlatego w Airtilion łączymy najnowsze technologie z dopracowanym UX/UI, aby każdy element Twojej cyfrowej obecności działał jak precyzyjny mechanizm. Zaczynamy od głębokiego zrozumienia Twoich celów, projektujemy intuicyjne rozwiązania, a następnie wdrażamy je z inżynierską skrupulatnością — tak, by Twoja witryna czy aplikacja nie tylko przyciągały uwagę, lecz przede wszystkim przynosiły realne zyski. W efekcie Twój biznes zyskuje nie tylko efektowną wizytówkę w sieci, ale przede wszystkim trwałą przewagę konkurencyjną.",
+            "content": "Łączymy wiedzę techniczną z kreatywnym podejściem do projektowania, aby tworzyć rozwiązania, które działają jak precyzyjny mechanizm. Analizujemy potrzeby biznesowe i branżę, na tej podstawie projektujemy intuicyjne interfejsy i wdrażamy je z dbałością o każdy detal. Efekt? Wydajne i zoptyamlizowane strony, sklepy i aplikacje tworzone z myślą o Tobie i Twoich klientach.",
             "owners": [
                 {
                     "name": "Jakub Wadycki",
                     "role": "Co-Founder",
                     "email": "jakubwadycki@gmail.com",
                     "phone": "720 177 174",
-                    "linked": "#",
-                    "facebook": "#",
-                    "desc": "Od wielu lat zajmuję się programowaniem, w swojej karierze próbowałem wielu technologii, ale ostatecznie odnalazłem to czego szukałem w tworzeniu stron/aplikacji internetowych. Jestem 'full-stackiem' - potrafię zrobić stronę od A do Z. Poza godzinami pracy zajmuję się m. in. projektowaniem i drukowaniem 3D, doskonałym zajęciem okazuje się być tworzenie prostych urządzeń elektronicznych, ciągle uczę się nowych rzeczy.",
-                    "alt": "Zdjęcia przedstawiające Jakuba Wadyckiego, współwłaściciela firmy tworzącej profesjaonalne strony internetowe dla firm"
+                    "linked": "https://www.linkedin.com/in/jakub-wadycki-906149275",
+                    "facebook": "https://www.facebook.com/jakub.wadycki",
+                    "desc": "Od wielu lat zajmuję się programowaniem, naukę zaczynałem od prostych aplikacji desktopowych. W późniejszym czasie tworzenie stron internetowych pochłonęło mnie na dobre i tak zostało do dziś. Postanowiłem założyć spółkę ponieważ wierzę, że dzięki ciężkiej pracy i proponowaniu klientom nowoczesnych technologii w połączeniu z analizą strategiczną firm uda się zmienić Internet na lepsze.",
+                    "alt": "Zdjęcia przedstawiające Jakuba Wadyckiego, współwłaściciela firmy tworzącej strony internetowe dla firm"
                 },
                 {
                     "name": "Artur Plebańczyk",
                     "role": "Co-Founder",
                     "email": "plebanczyk.artur@gmail.com",
                     "phone": "511 019 652",
-                    "linked": "#",
-                    "facebook": "#",
-                    "desc": "To właśnie pasja do technologii i informatyki skierowała mnie na ścieżkę programowania. Od czterech lat rozwijam swoje umiejętności jako full stack developer. W mojej pracy szczególnie cenię sobie połączenie technologii z kreatywnymi pomysłami, co pozwala mi dostarczać nowoczesne i funkcjonalne rozwiązania. Moją misją jest rozwijanie branży stron i sklepów internetowych poprzez wdrażanie zaawansowanych technologii, które nie tylko odpowiadają na potrzeby klientów, ale także wprowadzają nowe standardy.",
-                    "alt": "Zdjęcia przedstawiające Artura Plebańczyka, współwłaściciela firmy tworzącej profesjaonalne strony internetowe dla firm"
+                    "linked": "https://www.linkedin.com/in/artur-plebańczyk-10105728b",
+                    "facebook": "https://www.facebook.com/artur.plebanczyk.88",
+                    "desc": "To właśnie pasja do technologii i informatyki skierowała mnie na ścieżkę programowania. Od wielu lat rozwijam swoje umiejętności jako full stack developer. W mojej pracy szczególnie cenię sobie połączenie technologii z kreatywnymi pomysłami, co pozwala mi dostarczać nowoczesne i funkcjonalne rozwiązania. Moją misją jest rozwijanie branży stron i sklepów internetowych poprzez wdrażanie zaawansowanych technologii, które odpowiadają na potrzeby klientów i są przyszłością Internetu.",
+                    "alt": "Zdjęcia przedstawiające Artura Plebańczyka, współwłaściciela firmy tworzącej strony internetowe dla firm"
                 }
             ]
         },
@@ -254,8 +254,8 @@
                     "Wiadomość"
                 ],
                 "condition": [
-                    "Akceptuję <a href='#'>politykę prywatności</a> i wyrażam zgodę na <a href='#'>przetwarzanie danych osobowych</a>",
-                    "Wyrażam zgodę na <a href='#'>przetwarzanie moich danych</a> w celu otrzymania informacji handlowej"
+                    "Akceptuję <a href='/polityka-prywatnosci.pdf' target='_blank'>politykę prywatności</a> i wyrażam zgodę na <a href='/polityka-prywatnosci.pdf' target='_blank'>przetwarzanie danych osobowych</a>",
+                    "Wyrażam zgodę na <a href='/zgoda-informacja-handlowa.pdf' target='_blank'>przetwarzanie moich danych</a> w celu otrzymania informacji handlowej"
                 ],
                 "button": "Wyślij wiadomość",
                 "errors": [
@@ -282,7 +282,7 @@
                 {
                     "q": "Nie mam hostingu ani domeny, co mam zrobić?",
                     "a": [
-                        "Jeśli nie masz jeszcze hostingu ani domeny z chęcią pomożemy w doborze odpowiedniego dostawcy. Mamy doświadczenie z usługami różnych firm dostępnych na rynku, dzięki temu jesteśmy w stanie lepiej doradzić Ci co będzie najlepsze dla Twojej własnej strony internetowej. Na naszym blogu znajdziesz również artykuł odnośnie najbardziej opłacalnych hostingów. <a href='https://airtilion.com/blog'>Kliknij aby przejść do artykułu.</a>"
+                        "Jeśli nie masz jeszcze hostingu ani domeny z chęcią pomożemy w doborze odpowiedniego dostawcy. Mamy doświadczenie z usługami różnych firm dostępnych na rynku, dzięki temu jesteśmy w stanie lepiej doradzić Ci co będzie najlepsze dla Twojej własnej strony internetowej. Na naszym blogu znajdziesz również artykuł odnośnie najbardziej opłacalnych hostingów. <a href='https://airtilion.com/blog' style='color: #e28350'>Kliknij aby przejść do artykułu.</a>"
                     ]
                 },
                 {
@@ -315,7 +315,7 @@
                 {
                     "q": "Własna strona internetowa - jak przygotować się do zakupu?",
                     "a": [
-                        "Przed zamówieniem strony warto zastanowić się, do czego będzie Ci ona potrzebna — czy ma sprzedawać produkty, prezentować ofertę, czy pełnić rolę prostej wizytówki. Pomyśl też o najważniejszych funkcjach, jakie powinna mieć (np. sklep internetowy, formularz kontaktowy, system rezerwacji czy panel do samodzielnej edycji treści) oraz przygotuj materiały, które już posiadasz, takie jak logo, teksty czy zdjęcia.",
+                        "Przed zamówieniem strony warto zastanowić się, do czego będzie Ci ona potrzebna - czy ma sprzedawać produkty, prezentować ofertę, czy pełnić rolę prostej wizytówki. Pomyśl też o najważniejszych funkcjach, jakie powinna mieć (np. sklep internetowy, formularz kontaktowy, system rezerwacji czy panel do samodzielnej edycji treści) oraz przygotuj materiały, które już posiadasz, takie jak logo, teksty czy zdjęcia.",
                         "Pomocne będzie również określenie orientacyjnego budżetu, terminu realizacji i informacja, czy masz już domenę oraz hosting, czy potrzebujesz naszej pomocy w ich wyborze. Na tej podstawie szybko przygotujemy dla Ciebie dopasowaną wycenę i zaplanujemy cały proces tworzenia strony internetowej. Jeśli natomiast nie masz tego wszystkiego nie przejmuj się, pomożemy i doradzimy w każdej kwestii oraz odpowiemy na każde pytanie. Wystarczy do nas napisać i umówić się na konsultację."
                     ]
                 },

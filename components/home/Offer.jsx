@@ -54,7 +54,7 @@ const Offer = ({ dict }) => {
       <article className='relative h-[380px] p-12 flex flex-col gap-16 max-lg:h-auto max-sm:p-8 transition-all duration-1000 ease-in-out animation-bottom'>
         <div className='flex justify-between gap-12 max-lg:flex-col max-lg:gap-6'>
           {dict.elements[activeIndex].content.map((text, idx) => (
-            <div className='flex-1'>
+            <div className='flex-1' key={idx}>
               <h3 className='text-[18px] mb-4 max-lg:mb-2'>{text.title}</h3>
               <p key={idx} className='text-[16px] max-2xl:text-[15px] max-sm:text-[14px] translate-y-animation duration-1000' style={{animationDelay: idx*100 + 'ms'}}>{text.content}</p>
             </div>

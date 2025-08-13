@@ -6,6 +6,7 @@ import PortfolioTile from './components/PortfolioTile'
 import Image from 'next/image'
 import blurredImg from '@assets/images/home-portfolio/portfolio.webp'
 import IntersectionListener from '@components/IntersectionListener'
+import CustomContactToggle from '@components/CustomContactToggle'
 
 const tempPortfolio = [
   { title: "Trailbox", desc: "Strona internetowa spółki Trailbox powstała w celu promocji marki oraz jej produktów na rynku lokalnym jak i zagranicznym. Projekt opisuje firmę oraz przedmiot jej działalności - produkcję płyt warstwowych oraz gotowych zabudów kontenerowych. Spółka Trailbox świadczy również usługi związane z CNC. Na stronie dostępny jest konfigurator umożliwiający zobrazowanie konkretnego typu płyty warstwowej przed złożeniem zapytania. Projekt powstał w trzech wersjach językowych (polski, niemiecki i angielski)." },
@@ -63,7 +64,7 @@ const Portoflio = ({ dict, lang }) => {
         <div className='w-[700px] flex flex-col gap-[16px] justify-center items-center mx-auto max-lg:w-[450px] max-sm:w-[90%] animation-left transition-all duration-1000 ease-in-out'>
           <p className='text-center text-[16px] max-2xl:text-[15px] max-lg:text-[14px] '>{dict.afterContent}</p>
           <div className='h-[2px] w-[490px] radial-line max-lg:w-[300px] max-sm:w-[80%]'></div>
-          <button className='h-[50px] px-16 primary-gradient rounded-full max-2xl:mt-4 max-lg:text-[14px] max-lg:h-[45px] max-lg:px-12'>{dict.cta}</button>
+          <CustomContactToggle classes='h-[50px] px-16 primary-gradient rounded-full max-2xl:mt-4 max-lg:text-[14px] max-lg:h-[45px] max-lg:px-12' text={dict.cta}/>
         </div>
 
       </article>

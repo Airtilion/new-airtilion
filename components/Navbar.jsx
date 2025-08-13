@@ -6,12 +6,17 @@ import { useEffect, useRef, useState } from 'react';
 
 import pl from '@languages/pl/main.json';
 import en from '@languages/en/main.json';
-import { useSearchParams } from 'next/navigation';
+import { usePathname, useSearchParams } from 'next/navigation';
 
 export default function Navbar() {
   const mobileMenuRef = useRef(null);
   const menuRef = useRef(null);
+
   const [isScrolled, setIsScrolled] = useState(false);
+  const [sMenuVsible, setSMenuVisible] = useState(false)
+  const [mobileSubOpen, setMobileSubOpen] = useState(false)
+  const closeTimeoutRef = useRef(null)
+  const pathname = usePathname();
 
 
   const searchParams = useSearchParams();
@@ -61,8 +66,61 @@ export default function Navbar() {
     return () => {
       window.removeEventListener('scroll', handleScroll);
       window.removeEventListener('resize', handleResize);
+      if (closeTimeoutRef.current) {
+        clearTimeout(closeTimeoutRef.current);
+      }
     };
   }, []);
+
+  const scrollToSection = (hash, isFromOutside) => {
+    const element = document.getElementById(hash);
+    if (element) {
+      const offset = 128;
+      const visibilityTax = element.classList.contains('about-hidden') || isFromOutside ? 100 : 0;
+      const y = element.getBoundingClientRect().y + window.pageYOffset - offset - visibilityTax;
+      window.scrollTo({ top: y, behavior: 'smooth' });
+    }
+  };
+
+  const handleLinkClick = (e, link) => {
+    const isHomePage = pathname === '/';
+    if (link.startsWith('/#')) {
+      e.preventDefault();
+      const hash = link.split('#')[1];
+      if (isHomePage) {
+        scrollToSection(hash);
+        window.history.pushState(null, '', `#${hash}`);
+      } else {
+        router.push(`/#${hash}`);
+      }
+    }
+    else if (link === '/oferta') {
+      e.preventDefault();
+    }
+    else {
+      window.scrollTo({ top: 0, behavior: 'auto' })
+    }
+  };
+
+  const subMenuVisibilityHandle = () => {
+    setSMenuVisible(true)
+  }
+
+  // helperi do timera (otwieranie/zamykanie)
+  const openSubMenu = () => {
+    if (closeTimeoutRef.current) {
+      clearTimeout(closeTimeoutRef.current);
+      closeTimeoutRef.current = null;
+    }
+    setSMenuVisible(true);
+  };
+  const scheduleCloseSubMenu = () => {
+    if (closeTimeoutRef.current) clearTimeout(closeTimeoutRef.current);
+    closeTimeoutRef.current = setTimeout(() => {
+      setSMenuVisible(false);
+      closeTimeoutRef.current = null;
+    }, 300);
+  };
 
   return (
     <>
@@ -79,16 +137,41 @@ export default function Navbar() {
         </Link>
 
         <div className="flex gap-4 items-center max-xl:gap-3 max-lg:hidden">
-          <nav className="flex gap-[32px] text-[16px] mr-[16px] max-2xl:text-[15px] max-xl:text-[14px]">
-            {dict.items.map((item, index) => (
-              <Link key={index} href={item.link} className='opacity-0 translate-y-animation' style={{ animationDelay: 100 * index + 'ms' }}>
-                {item.name}
-              </Link>
-            ))}
+          <nav className="relative flex gap-[32px] text-[16px] mr-[16px] max-2xl:text-[15px] max-xl:text-[14px]">
+            {dict.items.map((item, index) => {
+              if (index === 0) {
+                return (
+                  <div key={index} className='relative opacity-0 translate-y-animation' style={{ animationDelay: 100 * index + 'ms' }} onMouseEnter={openSubMenu} onMouseLeave={scheduleCloseSubMenu} onFocus={openSubMenu} onBlur={scheduleCloseSubMenu}>
+                    <Link href={item.link} onClick={(e) => handleLinkClick(e, item.link)} className='hover:text-[#e28350] duration-500'>
+                      {item.name}
+                    </Link>
+
+                    <div className='absolute bottom-[-350px] w-[400px] flex flex-col justify-center bg-[#00000048]' style={{ display: sMenuVsible ? 'flex' : 'none' }} onMouseEnter={openSubMenu} onMouseLeave={scheduleCloseSubMenu} onFocus={openSubMenu} onBlur={scheduleCloseSubMenu}>
+                      {dict.subItems.map((item, index) => (
+                        <Link key={index} href={item.link} onClick={(e) => handleLinkClick(e, item.link)} className='opacity-0 translate-y-animation duration-500 flex justify-between items-center gap-6 group px-6 py-3 hover:bg-linear-to-r hover:form-[#000000] hover:to-[#e28350]' style={{ animationDelay: 100 * index + 'ms' }}>
+                          <div className='flex-1'>
+                            <p className='!text-[#ffffff]'>{item.name}</p>
+                            <p className='text-[12px]'>{item.desc}</p>
+                          </div>
+                          <Icon icon="mdi-light:arrow-up-circle" width="30" height="30" className='rotate-45 group-hover:rotate-90 duration-500' />
+                        </Link>
+                      ))}
+                    </div>
+                  </div>
+                );
+              }
+              return (
+                <Link key={index} href={item.link} onClick={(e) => handleLinkClick(e, item.link)} className='opacity-0 translate-y-animation hover:text-[#e28350] duration-500' style={{ animationDelay: 100 * index + 'ms' }}>
+                  {item.name}
+                </Link>
+              );
+            })}
+
           </nav>
 
-          <button className="flex justify-between items-center gap-4 h-[50px] bg-gradient-to-r from-[#000000] to-[#E28350] text-[17px] rounded-full px-8 py-3 text-white opacity-0 translate-y-animation max-2xl:h-[40px] max-2xl:text-[15px] max-2xl:gap-3" style={{ animationDelay: dict.items?.length * 100 + 'ms' }}>
-            <Icon icon="solar:letter-bold" width="24" height="24" className='max-2xl:w-[22px]' />
+          <button onClick={() => window.dispatchEvent(new CustomEvent('openContact'))} className="group flex justify-between items-center gap-4 h-[50px] bg-gradient-to-r from-[#000000] to-[#E28350] hover:text-[16px] duration-500 text-[17px] rounded-full px-8 py-3 text-white opacity-0 translate-y-animation max-2xl:h-[40px] max-2xl:text-[15px] max-2xl:gap-3" style={{ animationDelay: dict.items?.length * 100 + 'ms' }}>
+            <Icon icon="solar:letter-bold" width="24" height="24" className='max-2xl:w-[22px] group-hover:hidden' />
+            <Icon icon="solar:letter-opened-bold" width="24" height="24" className='max-2xl:w-[22px] hidden group-hover:block' />
             {dict.pricing}
           </button>
 
@@ -100,14 +183,31 @@ export default function Navbar() {
 
         <div ref={mobileMenuRef} className='fixed inset-0 h-dvh bg-[#000000c1] z-70 hidden backdrop-blur-[10px] justify-center items-center flex-col gap-[32px]'>
           <nav className="flex flex-col gap-[32px] text-[18px] mr-[16px]">
-            {dict.items.map((item, index) => (
-              <Link key={index} href={item.link} className='opacity-0 translate-y-animation text-center' style={{ animationDelay: 100 * index + 'ms' }}>
-                {item.name}
-              </Link>
-            ))}
+            {dict.items.map((item, index) => {
+              if (item.link === '/oferta') {
+                return (
+                  <div key={index} className='w-fit text-center'>
+                    <div className='flex gap-4 w-fit mx-auto translate-y-animation'>
+                      <button onClick={() => setMobileSubOpen(prev => !prev)} className='w-fit text-center'>{item.name}</button>
+                      <Icon icon="ep:arrow-down" width="20" height="20" className={`${mobileSubOpen && 'rotate-[180deg]'} duration-500`}/>
+                    </div>
+                    <div className={`flex flex-col rounded-lg submenu-wrapper ${mobileSubOpen ? 'open mt-4' : ''}`}>
+                      {dict.subItems.map((sub, si) => (
+                        <Link key={si} href={sub.link} onClick={(e) => { handleLinkClick(e, sub.link); menuVisibilityHandle(); }} className='py-3 text-[14px]'>{sub.name}</Link>
+                      ))}
+                    </div>
+                  </div>
+                );
+              }
+              return (
+                <Link key={index} href={item.link} className='opacity-0 translate-y-animation text-center' style={{ animationDelay: 100 * index + 'ms' }}>
+                  {item.name}
+                </Link>
+              );
+            })}
           </nav>
 
-          <button className="flex justify-between items-center gap-4 h-[50px] bg-gradient-to-r from-[#542f1b] to-[#E28350] text-[17px] rounded-full px-8 py-3 text-white opacity-0 translate-y-animation max-2xl:h-[40px] max-2xl:text-[15px] max-2xl:gap-3" style={{ animationDelay: dict.items.length * 100 + 'ms' }}>
+          <button onClick={() => window.dispatchEvent(new CustomEvent('openContact'))} className="flex justify-between items-center gap-4 h-[50px] bg-gradient-to-r from-[#542f1b] to-[#E28350] text-[17px] rounded-full px-8 py-3 text-white opacity-0 translate-y-animation max-2xl:h-[40px] max-2xl:text-[15px] max-2xl:gap-3" style={{ animationDelay: dict.items.length * 100 + 'ms' }}>
             <Icon icon="solar:letter-bold" width="24" height="24" className='max-2xl:w-[22px]' />
             {dict.pricing}
           </button>

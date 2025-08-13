@@ -65,7 +65,12 @@ const Footer = ({dict}) => {
           </div>
       </article>
       <article>
-        <div></div>
+        <div className='flex justify-between mb-8 max-xl:flex-col-reverse max-xl:justify-center max-xl:gap-4'>
+          <p className='max-xl:text-center'>© 2025 Airtilion sp. z o.o.</p>
+          <div className='flex max-lg:flex-col max-lg:justify-center max-lg:gap-2'>
+            {dict.docs.map((d, idx) => <a href={d.link} target='_blank' key={idx} className='mx-2 hover:text-[#e28350] duration-500 max-2xl:text-[15px] max-sm:text-[14px] max-lg:text-center'>{d.name}</a>)}
+          </div>
+        </div>
         <p className='text-[12px] !text-[#818181] text-center'>{dict.companyInfo}</p>
       </article>
 

@@ -12,6 +12,7 @@ import Owners from '@components/home/People/Owners';
 import Contact from '@components/home/Contact/Contact';
 import Faq from '@components/home/Faq/Faq';
 import mainBg from '@assets/images/main-header-image.webp';
+import SlideUpContact from '@components/SlideUpContact';
 
 export default async function Home({ searchParams }) {
 
@@ -35,6 +36,7 @@ export default async function Home({ searchParams }) {
           <Owners dict={dictionary.people || {}} />
           <Contact dict={dictionary.contact || {}} />
           <Faq dict={dictionary.faq || {}} />
+          <SlideUpContact dict={dictionary.cta.form} lang={lang}/>
         </main>
         <Footer dict={dictionaryFooter} />
     </>

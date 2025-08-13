@@ -10,9 +10,9 @@ import Socials from './components/Socials'
 
 const Contact = ({ dict }) => {
   return (
-    <section id="contact-section" className='w-full flex flex-col gap-16 contact-hidden max-lg:w-[90%] max-lg:mx-auto'>
+    <section id="kontakt" className='w-full flex flex-col gap-16 contact-hidden max-lg:w-[90%] max-lg:mx-auto'>
 
-      <IntersectionListener selector="#contact-section" visibleClass="contact-visible" hiddenClass="contact-hidden" threshold="0.1" rootMargin='0px 0px -50px 0px' />
+      <IntersectionListener selector="#kontakt" visibleClass="contact-visible" hiddenClass="contact-hidden" threshold="0.1" rootMargin='0px 0px -50px 0px' />
 
       <article className='flex justify-between gap-8 max-lg:flex-col max-sm:gap-6'>
 

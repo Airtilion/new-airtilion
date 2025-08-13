@@ -192,3 +192,16 @@ button {
   }
 }
 
+.submenu-wrapper {
+  overflow: hidden;
+  max-height: 0;
+  opacity: 0;
+  pointer-events: none;
+  transition: max-height 1s ease, opacity 0.3s ease;
+}
+
+.submenu-wrapper.open {
+  max-height: 500px; /* większe niż potencjalna zawartość */
+  opacity: 1;
+  pointer-events: auto;
+}

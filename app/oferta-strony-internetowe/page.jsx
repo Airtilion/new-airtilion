@@ -9,6 +9,7 @@ import CoopSteps from '@components/offer/CoopSteps/CoopSteps';
 import OrderInfo from '@components/offer/OrderInfo/OrderInfo';
 import OfferPortfolio from '@components/offer/Portfolio/OfferPortfolio';
 import OfferFaq from '@components/offer/OfferFaq';
+import OfferElements from '@components/offer/OfferElements';
 
 const page = async ({searchParams}) => {
     const params = searchParams instanceof Promise ? await searchParams : searchParams;
@@ -24,6 +25,7 @@ const page = async ({searchParams}) => {
 
             <main className='flex flex-col gap-[192px] mt-[192px] overflow-hidden max-sm:mt-[128px]'>
                 <OfferIntroduction dict={dictionary}/>
+                <OfferElements dict={dictionary.websiteElements}/>
                 <CoopSteps dict={dictionary.cooperation}/>
                 <OrderInfo dict={dictionary.pricing}/>
                 <OfferPortfolio dict={dictionary.portfolio}/>

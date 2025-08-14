@@ -195,6 +195,11 @@
 .websites-hidden .animation-opacity{opacity: 0;}
 .websites-visible .animation-opacity{opacity: 1;}
 
+/*oferta elementy*/
+
+.offer-elements-hidden .animation-bottom{opacity: 0; transform: translateY(50px);}
+.offer-elements-visible .animation-bottom{opacity: 1; transform: translateY(0px);}
+
 /*oferta coop*/
 
 .coop-hidden .animation-left{opacity: 0; transform: translateX(-50px);}

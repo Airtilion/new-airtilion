@@ -146,7 +146,7 @@ export default function Navbar() {
                       {item.name}
                     </Link>
 
-                    <div className='absolute bottom-[-350px] w-[400px] flex flex-col justify-center bg-[#00000048]' style={{ display: sMenuVsible ? 'flex' : 'none' }} onMouseEnter={openSubMenu} onMouseLeave={scheduleCloseSubMenu} onFocus={openSubMenu} onBlur={scheduleCloseSubMenu}>
+                    <div className='absolute bottom-[-350px] w-[400px] flex flex-col justify-center bg-[#000000ca]' style={{ display: sMenuVsible ? 'flex' : 'none' }} onMouseEnter={openSubMenu} onMouseLeave={scheduleCloseSubMenu} onFocus={openSubMenu} onBlur={scheduleCloseSubMenu}>
                       {dict.subItems.map((item, index) => (
                         <Link key={index} href={item.link} onClick={(e) => handleLinkClick(e, item.link)} className='opacity-0 translate-y-animation duration-500 flex justify-between items-center gap-6 group px-6 py-3 hover:bg-linear-to-r hover:form-[#000000] hover:to-[#e28350]' style={{ animationDelay: 100 * index + 'ms' }}>
                           <div className='flex-1'>

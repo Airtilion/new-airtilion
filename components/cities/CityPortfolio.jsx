@@ -4,6 +4,7 @@ import React from 'react'
 import img1 from '@assets/images/cities/general/cityPortfolio-1.webp'
 import img2 from '@assets/images/cities/general/cityPortfolio-2.webp'
 import IntersectionListener from '@components/IntersectionListener'
+import Link from '@node_modules/next/link'
 
 const CityPortfolio = ({ dict }) => {
     return (
@@ -14,7 +15,9 @@ const CityPortfolio = ({ dict }) => {
             <article className='w-[800px] max-lg:w-[90%] mx-auto flex flex-col items-center justify-center gap-4 h-[600px] transition-all duration-1000 ease-in-out animation-bottom relative z-10 max-2xl:h-[500px] max-xl:h-[400px] max-sm:px-4'>
                 <h2 className='text-[30px] max-2xl:text-[25px] max-sm:text-[20px] heading-gradient-gray text-center'>{dict.title}</h2>
                 <p className='text-[16px] max-2xl:text-[15px] max-sm:text-[14px] text-center'>{dict.content}</p>
-                <button className='primary-gradient text-[16px] max-2xl:text-[15px] max-sm:text-[14px] h-[45px] px-16 mt-8 rounded-full'>{dict.button}</button>
+                <Link href="/portfolio">
+                    <button className='primary-gradient text-[16px] max-2xl:text-[15px] max-sm:text-[14px] h-[45px] px-16 mt-8 rounded-full hover:text-[14px] duration-500'>{dict.button}</button>
+                </Link>
             </article>
 
             <div className='absolute left-0 top-0 z-[1] transition-all duration-1000 ease-in-out animation-left max-lg:h-[400px] max-lg:w-[40%]'>

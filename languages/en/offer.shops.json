@@ -1,0 +1,230 @@
+{
+    "header": {
+        "title": "Offer - Online Store Development",
+        "description": "We design and build eye-catching, mobile-friendly online stores from scratch. We use the latest technologies to deliver the best possible product.",
+        "alt": "Online store development - image showing a computer with an online shop"
+    },
+    "introduction": {
+        "title": "A dedicated online store is the best investment for your business",
+        "content": [
+            "When designing and developing an online store, we combine unique design (UX/UI) with solid code and advanced SEO optimization, ensuring full responsiveness. Every store development process includes a custom graphic design tailored to your industry and target audience, resulting in a professional online shop that stands out from the competition and supports online sales.",
+            "We care about performance and visibility – our online stores load instantly thanks to modern optimization techniques, while technical SEO (proper header structure, alt attributes, sitemap) increases the chances of ranking high in search engines. Learn more about technical SEO."
+        ],
+        "alt": "Photo of Earth – headquarters of the online store development company"
+    },
+    "fasterwebs": {
+        "title": "Faster Websites",
+        "title2": "Modern Online Store – Technologies That Guarantee Speed and Stability",
+        "content": "When creating modern online stores, we carefully select technologies to ensure the service is fast, stable, easy to use, and fully tailored to you. For most projects, we use the NextJS framework, which ensures performance and excellent optimization. For smaller projects, we use the lighter ReactJS Vite. For the backend, we use WordPress with WooCommerce. All WordPress plugins are written in PHP.",
+        "alt": "Photo showing a laptop used for creating online stores"
+    },
+    "websiteElements": {
+        "title": "What does an online store created by us include?",
+        "content": "Regardless of whether the project is large or small, our online stores include:",
+        "elements": [
+            "Custom graphic design (no website templates)",
+            "Mobile responsiveness",
+            "SEO-ready setup",
+            "Performance optimization",
+            "Google Analytics and Google Search Console configuration",
+            "Cookie consent setup and cookie management system",
+            "Security measures",
+            "Hosting and domain configuration with built-in SSL certificate",
+            "User training",
+            "12-month warranty",
+            "No website builders",
+            "Technical support and updates up to 3 hours per month",
+            "Integration with WordPress and WooCommerce",
+            "Modern technologies",
+            "Strategy based on industry analysis and your requirements",
+            "Custom plugins",
+            "... and much more"
+        ]
+    },
+    "cooperation": {
+        "title": "Stages of Online Store Development",
+        "content": "Creating an online store is a complex process, but thanks to our proven approach, we guide you through it step by step – clearly, precisely, and without unnecessary complications. From the first contact to post-launch support, you have full control over the process and know exactly what is happening. Below we present what cooperation looks like in practice:",
+        "steps": [
+            {
+                "title": "Brief",
+                "desc": "We start with a conversation to understand your goals, expectations, and requirements. Based on this, we present the best solutions and define the project scope."
+            },
+            {
+                "title": "Agreement",
+                "desc": "After agreeing on details, we send a contract for signature – available in online or traditional form. For larger orders, we require a 30% upfront payment."
+            },
+            {
+                "title": "Store Design",
+                "desc": "We create a unique UX/UI design in both desktop and mobile versions. We send it for review, implement revisions, and finalize the store’s layout and appearance."
+            },
+            {
+                "title": "Development",
+                "desc": "We move on to coding and implementing the online store – creating the front-end and back-end, optimizing for SEO, and testing across devices and browsers."
+            },
+            {
+                "title": "Delivery and Settlement",
+                "desc": "After completing the work, we present the finished store, issue the final invoice (reduced by the advance payment), and provide access data along with a user guide."
+            },
+            {
+                "title": "Technical Support",
+                "desc": "For 12 months, we provide technical assistance, small updates (up to 3h/month), and backups. We are available whenever you need us."
+            }
+        ],
+        "alts": [
+            "Online store development – example store shown on a laptop",
+            "Online store development – example store shown on a smartphone"
+        ],
+        "ending": "Although we have a defined process, working with us means more than just following a checklist. We stay in regular contact, advise, and recommend the best solutions – so that you never feel left on your own at any stage."
+    },
+    "pricing": {
+        "pricingIntro": {
+            "title": "What is the timeline and cost of an online store?",
+            "content": "The estimated cost of an online store depends primarily on its complexity, functionality, and project requirements. Developing a simple online store usually costs a few thousand PLN, with an average delivery time of three to four weeks. For more advanced projects, the cost can range from tens to even hundreds of thousands PLN, with the timeline extending to several weeks depending on complexity. The price includes not only the online store itself but also SEO optimization, preparation for search engine ranking, and performance optimization. For more demanding clients, we also offer project support from an experienced photographer – they arrive on-site with guidelines, take necessary photos (team portraits, buildings, products), and deliver edited images ready for use in your online store."
+        },
+        "cta": {
+            "title": "Get a Free Online Store Quote",
+            "content": "We are always ready to create the perfect product for you. Request a free quote for your project, and we’ll get back to you within 24h or the next business day. Dreaming of your own online store but not sure what exactly you need? Don’t worry – we’ll advise you and guide you through every stage.",
+            "button": "Click to go to the quote form",
+            "alt": "Laptop with online store development offer"
+        }
+    },
+    "portfolio": {
+        "title": "Previously Completed Projects",
+        "alts": [
+            "Photo of phones with sample online stores",
+            "Portfolio item of online store design",
+            "E-commerce store project logo"
+        ],
+        "content": "Check out our completed projects and see what kind of websites we create.",
+        "button": "Go to full portfolio"
+    },
+    "cta": {
+        "title": "Get a Free Quote",
+        "content": "We are ready to create your own website for you. Fill out a simple form and request a free quote for your project. We’ll get back to you within 24h or the next business day. Not sure what exactly you need yet? Don’t worry – we’ll advise you, guide you through the entire process, and answer all your questions.",
+        "button": "Request a Free Quote",
+        "alt": "Image of a lion promoting professional websites for businesses",
+        "form": {
+            "tag": "Your project. Our passion. Shared success.",
+            "title": "Want to know how much your project will cost? Fill out the form!",
+            "content": "We will get back to you within 24 hours or the next business day. We’ll discuss your needs, advise you, and propose a project price. If you don’t want to fill out the form, you can contact us by phone instead.",
+            "contactData": [
+                "Phone numbers",
+                "Email address",
+                "Opening hours"
+            ],
+            "close": "Close",
+            "fields": [
+                "Full name",
+                "Email",
+                "Phone number",
+                "Preferred call time",
+                "Project type",
+                "Short website description"
+            ],
+            "condition": [
+                "I accept the <a href='/polityka-prywatnosci.pdf' target='_blank'>privacy policy</a> and consent to the <a href='/polityka-prywatnosci.pdf' target='_blank'>processing of personal data</a>",
+                "I agree to the <a href='/zgoda-informacja-handlowa.pdf' target='_blank'>processing of my data</a> for receiving commercial information"
+            ],
+            "button": "Send inquiry",
+            "errors": [
+                "",
+                "Full name is required",
+                "Invalid email address",
+                "Email address is required",
+                "Phone number is required",
+                "Invalid phone number",
+                "Short description is required",
+                "You must accept the privacy policy",
+                "You must consent to receive commercial information",
+                "Bot detected",
+                "Failed to send inquiry"
+            ],
+            "success": "Your inquiry has been successfully sent!"
+        }
+    },
+    "faq": {
+        "title": "Answers to the Most Frequently Asked Questions About Online Store Design and Development",
+        "content": "In this section, you’ll find answers to the most frequently asked questions about working with us – from the brief stage, through the choice of technologies and tools, to the project schedule, as well as post-launch support. If you don’t find the information you’re looking for, contact us and we’ll respond within 24 hours.",
+        "qna": [
+            {
+                "q": "Do you create online stores compliant with WCAG 2.1?",
+                "a": [
+                    "If required, we design and implement online stores in compliance with WCAG 2.1, and upon request, also WCAG 2.2 requirements. Keep in mind that from June 28, 2025, the European Accessibility Act (EAA) requires digital accessibility for e-commerce services in the EU (except for micro-enterprises: fewer than 10 employees and annual turnover or balance below €2 million)."
+                ]
+            },
+            {
+                "q": "What does SEO optimization include when developing an online store?",
+                "a": [
+                    "SEO optimization during store development primarily includes technical on-page activities that increase visibility in search engines. This covers a clean URL and navigation structure, semantic tags (H1-H6, image alt attributes), as well as correct use of meta tags and canonical links. We also create a sitemap, robots.txt file, and if needed, configure redirects and implement structured data. We ensure store speed and responsiveness – both key elements for proper SEO."
+                ]
+            },
+            {
+                "q": "Do you create custom WordPress plugins?",
+                "a": [
+                    "As part of online store development, we can create a custom WordPress plugin or WooCommerce extension if available solutions don’t meet your needs. Such plugins may include custom features, external system integrations, or admin panel enhancements. Keep in mind that developing a plugin from scratch is more time-consuming and costly."
+                ]
+            },
+            {
+                "q": "I don’t have any photos for my online store – what now?",
+                "a": [
+                    "Not having your own photos for your online store is not a problem – we can use professional stock photos (paid or free) to select materials that match your brand. For paid stock photos, licensing costs are added separately to the quote.",
+                    "We also work with an experienced photographer, so we can organize a custom photoshoot if you want fully unique material. The photographer arrives on-site with our guidelines and takes the necessary shots (team portraits, buildings, products). We receive edited, ready-to-use materials for your website, giving you a more personalized online store."
+                ]
+            },
+            {
+                "q": "What’s included in the price of an online store?",
+                "a": [
+                    "Besides the standard stages – requirements discussion, industry analysis, strategy development, design, coding, and technical support – the cost also covers smaller tasks: Google Analytics and Google Search Console setup, performance optimization, accessibility compliance (WCAG), assistance with domain/hosting purchase and setup. Additionally, at the client’s request, we configure a Google Business Profile."
+                ]
+            },
+            {
+                "q": "What additional custom features can I order for my online store?",
+                "a": [
+                    "We can implement any functionality for your online store – from booking systems, blogs, and online portfolios, to advanced forms and configurators, and even custom admin panels with CRM systems.",
+                    "If you have an idea for your online store and advanced features, fill out the quote form in the menu or contact us by email or phone. We’ll estimate your project, advise, and answer all your questions."
+                ]
+            },
+            {
+                "q": "How should I prepare before ordering my own online store?",
+                "a": [
+                    "Before ordering, think about the key features you want (e.g., contact form, booking system) and gather available materials such as a logo, texts, or photos.",
+                    "It’s also helpful to define your budget, timeline, and whether you already have a domain and hosting, or need our assistance with that. Based on this, we’ll quickly prepare a tailored quote and plan the entire development process. If you don’t have everything ready – don’t worry. We’ll help, advise, and answer every question. Just reach out and book a consultation."
+                ]
+            },
+            {
+                "q": "Do you provide SEO management after launching the online store?",
+                "a": [
+                    "Currently, we don’t provide ongoing SEO services, but we plan to introduce them in the coming months. The service will include continuous monitoring, content optimization, and link-building activities."
+                ]
+            },
+            {
+                "q": "Do you handle online store migration to another platform?",
+                "a": [
+                    "Yes, we can migrate an online store along with its database, products, and order history. We can switch to WordPress WooCommerce, Shopify, or another platform while ensuring speed and uninterrupted sales."
+                ]
+            }
+        ]
+    },
+    "footer": {
+        "alt": "Airtilion company logo",
+        "area": {
+            "title": "Operating area",
+            "ending": "... and many more"
+        },
+        "docs": [
+            {
+                "name": "Privacy policy",
+                "link": "/privacy-policy.pdf"
+            },
+            {
+                "name": "Terms of electronic services",
+                "link": "/terms-and-conditions-for-the-provision-of-electronic-services.pdf"
+            },
+            {
+                "name": "Consent to receive commercial information",
+                "link": "/contest-for-the-purpose-of-sending-requested-commercial-information.pdf"
+            }
+        ],
+        "companyInfo": "Airtilion Sp. z o.o., ul. Słoneczna 32/9, 33-100 Tarnów, registered in the Register of Entrepreneurs of the National Court Register by the District Court for Kraków-Śródmieście in Kraków, 12th Commercial Division of the National Court Register under KRS no. 0001143482, share capital of PLN 5,000.00 fully paid, TAX ID (NIP): 8733299720"
+    }
+}

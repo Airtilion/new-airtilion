@@ -12,7 +12,7 @@ const OfferPortfolio = ({ dict, data }) => {
     };
 
     function getLogoClass(logo) {
-        if (!logo?.width || !logo?.height) return "w-[100px]"; // fallback
+        if (!logo?.width || !logo?.height) return "w-[100px]";
 
         return logo.width >= logo.height ? "w-[120px]" : "w-[80px]";
     }

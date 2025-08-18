@@ -44,9 +44,9 @@ const CityTech = ({ dict }) => {
                         return prevArray;
                     });
                     setIsAnimating(false);
-                }, 500); // Czas animacji (0.5s)
+                }, 500);
             }
-        }, 3500); // Co 3.5 sekundy
+        }, 3500);
 
         return () => clearInterval(interval);
     }, [isAnimating]);

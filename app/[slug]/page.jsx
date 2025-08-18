@@ -18,6 +18,7 @@ import CityFaq from '@components/cities/CityFaq/CityFaq'
 import CityPortfolio from '@components/cities/CityPortfolio'
 import CityOffer from '@components/cities/CityOffer'
 import Footer from '@components/Footer'
+import SlideUpContact from '@components/SlideUpContact'
 
 
 export async function generateStaticParams() {
@@ -94,6 +95,8 @@ const page = async ({ params, searchParams }) => {
                 <CityOffer dict={data.offer}/>
                 <CityPortfolio dict={data.portfolio}/>
                 <CityFaq dict={data.faq}/>
+
+                <SlideUpContact dict={data.cta.form}/>
             </main>
 
             <Footer dict={data.footer}/>

@@ -5,6 +5,7 @@ import React from 'react'
 import bg from '@assets/images/cities/general/offer-bg.webp'
 import FallingStarsCanvas from '@components/FallingStarsBg'
 import IntersectionListener from '@components/IntersectionListener'
+import CustomContactToggle from '@components/CustomContactToggle'
 
 const CityOffer = ({ dict }) => {
     return (
@@ -70,7 +71,7 @@ const CityOffer = ({ dict }) => {
                         <p className='text-[16px] max-2xl:text-[15px] max-sm:text-[14px] mt-2 max-lg:text-center'>{dict.tiles[4].content}</p>
                     </div>
 
-                    <button className='text-[16px] max-2xl:text-[15px] max-sm:text-[14px] h-[45px] primary-gradient px-8 rounded-full'>{dict.button}</button>
+                    <CustomContactToggle classes='text-[16px] max-2xl:text-[15px] max-sm:text-[14px] h-[45px] primary-gradient px-8 rounded-full hover:text-[14px] duration-500' text={dict.button}/>
 
                     <StarsCanvas bg="rgba(0,0,0,0.5)" />
                     <div className='absolute w-[300px] h-[300px] bottom-[-150px] right-[-150px] rounded-full bg-[#e283509e] blur-[100px] z-[-2]' />

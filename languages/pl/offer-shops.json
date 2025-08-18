@@ -1,0 +1,226 @@
+{
+    "header": {
+        "title": "Oferta - tworzenie sklepów internetowych",
+        "description": "Projektujemy i tworzymy od podstaw wpadające w oko i dostosowane do urządzeń mobilnych sklepy internetowe. Korzystamy z najnowszych technologii, aby dostarczyć jak najlepszy produkt.",
+        "alt": "Tworzenie sklepów internetowych - zdjęcie przedstawiające komputer ze sklepem internetowym"
+    },
+    "introduction": {
+        "title": "Dedykowany sklep internetowa to najlepsza inwestycja dla Twojego biznesu",
+        "content": [
+            "W ramach projektowania i tworzenia sklepu internetowego łączymy unikalny design (UX/UI) z solidnym kodem oraz zaawansowaną optymalizacją SEO, dbając o pełną responsywność. Każdy proces tworzenia sklepu obejmuje indywidualny projekt graficzny, dostosowany do Twojej branży i grupy docelowej, dzięki czemu powstaje profesjonalny sklep internetowy, który wyróżnia się na tle konkurencji i wspiera sprzedaż internetową.",
+            "Dbamy o wydajność i widoczność, zaprojektowane przez Nas sklepy internetowe ładują się błyskawicznie, dzięki nowoczesnym technikom optymalizacji, a techniczne SEO - poprawna struktura nagłówków, atrybuty alt, mapa witryny - zwiększa szanse na wysokie pozycje w wyszukiwarkach. Dowiedź się więcej o technicznym SEO."
+        ],
+        "alt": "Zdjęcie Ziemii - siedziba firmy tworzącej sklepy internetowe"
+    },
+    "fasterwebs": {
+        "title": "Szybsze strony",
+        "title2": "Nowoczesny sklep internetowy - technologie gwarantujące szybkość i stabilność",
+        "content": "Przy tworzeniu nowoczesnych sklepów internetowych dobieramy odpowiednie technologie tak, by serwis był szybki, stabilny, prosty w obsłudze i całkowicie dopasowany do Ciebie. Przy większości projektów wykorzystujemy framework NextJS, który zapewnia wydajność i doskonałą optymalizację. Przy mniejszych projektach używamy lżejszego ReactJS Vite. Jako zaplecze wykorzystujemy Wordpress'a razem z WooCommerce. Wszelkie wtyczki do WordPress'a piszemy w języku PHP.",
+        "alt": "Zdjęcie przedstawiające laptopa użytkowanego do tworzenia sklepów internetowych"
+    },
+    "websiteElements": {
+        "title": "Co zawiera stworzony przez nas sklep internetowy?",
+        "content": "Niezależnie czy zlecenie jest duże czy małe, projektowane przez nas sklepy internetowe zawierają:",
+        "elements": [
+            "Indywidualny projekt graficzny (brak szablonów stron internetowych)",
+            "Dostosowanie do urządzeń mobilnych",
+            "Przygotowanie do SEO",
+            "Optymalizację wydajności",
+            "Konfiguracja Google Analytics oraz Google Search Console",
+            "Przygotowanie zgód na pliki cookies i systemu zarządzania nimi",
+            "Zabezpieczenia",
+            "Konfigurację hostingu oraz domeny z wbudowanym certyfikatem SSL",
+            "Szkolenie z obsługi",
+            "12-miesięczna gwarancję",
+            "Brak kreatorów stron www",
+            "Wsparcie techniczne i aktualizacje do 3 godzin miesięcznie",
+            "Integrację z WordPress'em oraz WooCommerce",
+            "Technologie na miarę obecnych czasów",
+            "Strategię przygotowaną na podstawie analizy branży oraz Twoich wymagań",
+            "Dedykowane wtyczki",
+            "... i wiele więcej"
+        ]
+    },
+    "cooperation": {
+        "title": "Etapy realizacji sklepu internetowego",
+        "content": "Stworzenie sklepu internetowego to złożony proces, ale dzięki sprawdzonemu podejściu, prowadzimy Cię przez niego krok po kroku - jasno, konkretnie i bez zbędnych komplikacji. Od pierwszego kontaktu, aż po wsparcie po wdrożeniu masz pełną kontrolę nad przebiegiem prac i wiesz dokładnie, co się dzieje. Poniżej przedstawiamy, jak wygląda współpraca w praktyce:",
+        "steps": [
+            {
+                "title": "Brief",
+                "desc": "Zaczynamy od rozmowy, podczas której poznajemy Twoje cele, oczekiwania i wymagania. Na tej podstawie przedstawiamy najlepsze rozwiązania i precyzujemy zakres projektu."
+            },
+            {
+                "title": "Umowa",
+                "desc": "Po uzgodnieniu szczegółów przesyłamy umowę do podpisu – możliwa forma online lub tradycyjna. Po podpisaniu przy wyższych kwotach zamówienia prosimy o zaliczkę w wysokości 30% wartości projektu."
+            },
+            {
+                "title": "Projekt sklepu",
+                "desc": "Tworzymy indywidualny design UX/UI w wersji desktopowej i mobilnej. Przesyłamy do wglądu, nanosimy poprawki i finalizujemy układ oraz wygląd sklepu."
+            },
+            {
+                "title": "Programowanie",
+                "desc": "Przechodzimy do programowania i wdrażania sklepu internetowego – tworzymy front-end oraz back-end, optymalizujemy pod SEO i testujemy na różnych urządzeniach oraz przeglądarkach."
+            },
+            {
+                "title": "Odbiór i rozliczenie",
+                "desc": "Po zakończeniu prac prezentujemy gotowy sklep, wystawiamy fakturę końcową (pomniejszoną o zaliczkę) i przekazujemy dane dostępowe oraz poradnik użytkownika."
+            },
+            {
+                "title": "Wsparcie techniczne",
+                "desc": "Przez 12 miesięcy zapewniamy pomoc techniczną, drobne aktualizacje (do 3h/miesiąc) oraz kopie zapasowe. Jesteśmy do dyspozycji w razie potrzeby."
+            }
+        ],
+        "alts": [
+            "Tworzenie sklepów internetowych, przykład sklepu przedstawiony na laptopie",
+            "Tworzenie sklepów internetowych, przykład sklepu przedstawiony na telefonie"
+        ],
+        "ending": "Choć mamy określony proces, współpraca z nami to coś więcej niż realizacja punktów z listy. Pozostajemy w stałym kontakcie, doradzamy i podpowiadamy najlepsze rozwiązania – tak, abyś na żadnym etapie nie czuł się pozostawiony sam sobie."
+    },
+    "pricing": {
+        "pricingIntro": {
+            "title": "Jaki jest czas realizacji i ile kosztuje sklep internetowy?",
+            "content": "Orientacyjny koszt realizacji sklepu internetowego zależy przede wszystkim od jego złożoności, funkcjonalności oraz indywidualnych wymagań projektu. Proces budowy sklepu internetowego zależy od funkcjonalności - budowa prostego sklepu internetowego to zwykle kilka tysięcy złotych, a czas realizacji wynosi średnio trzy do czterech tygodni. W przypadku bardziej rozbudowanych projektów, koszt stworzenia sklepu internetowego może wynosić od kilkunastu do nawet kilkudziesięciu tysięcy złotych, a czas wykonania strony wydłuża się do kilkunastu tygodni w zależności od złożoności projektu. W cenę wliczamy nie tylko wykonanie sklepu internetowego, ale także jego optymalizację seo, przygotowanie do pozycjonowania, czy optymalizację pod kątem wydajności. Dla bardziej wymagających klientów przygotowaliśmy specjalną ofertę, w której zapewniamy obsługę projektu poprzez doświadczonego fotografa - przyjeżdża on na miejsce z wytycznymi, robi potrzebne zdjęcia (portrety zespołu, budynki, produkty) i przekazuje je nam obrobione, gotowe do użycia w Twoim sklepie internetowym."
+        },
+        "cta": {
+            "title": "Skorzystaj z darmowej wyceny sklepu online",
+            "content": "Zawsze jesteśmy gotowi, żeby stworzyć dla Ciebie idealny produkt. Zamów darmową wycenę swojego projektu, a my odezwiemy się w ciągu 24h lub w najbliższym dniu roboczym. Marzysz o swoim własnym sklepie, ale jeszcze nie wiesz czego dokładnie potrzebujesz? Nie przejmuj się, doradzimy i przeprowadzimy Cię przez wszystkie etapy.",
+            "button": "Kliknij aby przejść do formularza wyceny",
+            "alt": "Zdjęcie laptopa z ofertą tworzenia sklepów internetowych"
+        }
+    },
+    "portfolio": {
+        "title": "Wcześniej zrealizowane projekty",
+        "alts": ["Zdjęcie telefonów z przykładowymi sklepów internetowymi", "Element z portfolio projektowania sklepów online", "Logo projektu sklepu e-commerce"],
+        "content": "Zobacz nasze dotychczasowe realizacje i przekonaj się, jak wyglądają strony internetowe, które tworzymy.",
+        "button": "Przejdź do pełnego portfolio"
+    },
+    "cta": {
+        "title": "Skorzystaj z darmowej wyceny",
+        "content": "Jesteśmy gotowi, żeby stworzyć dla Ciebie Twoją własną stronę internetową. Wypełnij prosty formularz i zamów darmową wycenę swojego projektu. Odezwiemy się do Ciebie w ciągu 24h lub w najbliższym dniu roboczym. Jeśli jeszcze nie wiesz czego dokładnie potrzebujesz nie przejmuj się. Doradzimy i przeprowadzimy Cię przez cały proces. Odpowiemy na każde twoje pytanie.",
+        "button": "Zamów darmową wycenę",
+        "alt": "Zdjęcie przedstawiające lwa promującego profesjonalne strony internetowe dla firm",
+        "form": {
+            "tag": "Twój projekt. Nasza pasja. Wspólny skuces.",
+            "title": "Chcesz dowiedzieć się ile będzie kosztował Twój projekt? Wypełnij formularz!",
+            "content": "Odezwiemy się do Ciebie w ciągu 24 godzin lub w kolejny dzień roboczy. Omówimy Twoje potrzeby, doradzimy i zaproponujemy cenę za projekt. Jeśli jednak nie chcesz wypełniać formularza, możesz skontaktować się z nami telefonicznie.",
+            "contactData": [
+                "Numery telefonu",
+                "Adres email",
+                "Godziny otwarcia"
+            ],
+            "close": "Zamknij",
+            "fields": [
+                "Imię i nazwisko",
+                "Email",
+                "Numer telefonu",
+                "Preferowane godziny kontaktu telefonicznego",
+                "Typ projektu",
+                "Krótki opis strony internetowej"
+            ],
+            "condition": [
+                "Akceptuję <a href='/polityka-prywatnosci.pdf' target='_blank'>politykę prywatności</a> i wyrażam zgodę na <a href='/polityka-prywatnosci.pdf' target='_blank'>przetwarzanie danych osobowych</a>",
+                "Wyrażam zgodę na <a href='/zgoda-informacja-handlowa.pdf' target='_blank'>przetwarzanie moich danych</a> w celu otrzymania informacji handlowej"
+            ],
+            "button": "Wyślij zapytanie",
+            "errors": [
+                "",
+                "Imię i nazwisko jest wymagane",
+                "Nieprawidłowy adres email",
+                "Adres email jest wymagany",
+                "Numer telefonu jest wymagany",
+                "Nieprawidłowy numer telefonu",
+                "Krótki opis strony jest wymagany",
+                "Musisz zaakceptować politykę prywatności",
+                "Musisz wyrazić zgodę na otrzymywanie informacji handlowej",
+                "Wykryto bota",
+                "Nie udało się wysłać zapytania"
+            ],
+            "success": "Twoje zapytanie zostało wysłane pomyślnie!"
+        }
+    },
+    "faq": {
+        "title": "Odpowiedzi na najczęściej zadawane pytania dotyczące projektowania i tworzenia sklepów internetowych",
+        "content": "W tej sekcji znajdziesz odpowiedzi na najczęściej zadawane pytania dotyczące współpracy z naszą firmą - od etapu briefu, przez wybór technologii i narzędzi, aż po harmonogram realizacji, a także proces wsparcia po uruchomieniu strony czy aplikacji. Jeśli nie znalazłeś tu informacji, której szukasz skontaktuj się z nami, a odpowiemy na Twoje pytania w ciągu 24 godzin.",
+        "qna": [
+            {
+                "q": "Czy tworzycie sklepy internetowe dostosowane do WCAG 2.1?",
+                "a": [
+                    "W razie potrzeby projektujemy i wdrażamy sklepy internetowe zgodne z WCAG 2.1, a na życzenie realizujemy też wymagania WCAG 2.2. Warto mieć na uwadze, że od 28 czerwca 2025 r. w UE obowiązuje European Accessibility Act, który wprowadza obowiązek zapewnienia dostępności cyfrowej m.in. dla serwisów e-commerce (z wyjątkiem mikroprzedsiębiorstw: mniej niż 10 pracowników oraz roczny obrót lub bilans poniżej 2 mln EUR)."
+                ]
+            },
+            {
+                "q": "Co obejmuje optymalizacja seo podczas tworzenia sklepu internetowego?",
+                "a": [
+                    "Optymalizacja SEO podczas procesu tworzenia sklepu to przede wszystkim działania techniczne on-page, które zwiększają widoczność sklepu internetowego w wyszukiwarkach. Obejmuje to uporządkowaną strukturę URL i nawigację, znaczniki semantyczne (H1-H6, alty dla obrazów), oraz poprawne użycie meta tagów i linków kanonicznych. Tworzymy mapę strony, plik robots.txt oraz w razie potrzeby konfigurujemy przekierowania i implementujemy dane strukturalne. Podczas tworzenia sklepu internetowego dbamy też o szybkość działania sklepu i responsywność - to ważne elementy zapewniające odpowiednie SEO."
+                ]
+            },
+            {
+                "q": "Czy tworzą Państwo dedykowane wtyczki do WordPressa?",
+                "a": [
+                    "W ramach budowy sklepu internetowego, jesteśmy w stanie przygotować dedykowaną wtyczkę do WordPressa lub rozszerzenie dla WooCommerce na życzenie klienta, jeśli gotowe rozwiązania na rynku nie spełniają jego potrzeb. Takie wtyczki mogą realizować niestandardowe funkcje, integracje z zewnętrznymi systemami czy usprawnienia panelu administracyjnego. Należy jednak mieć na uwadze, że stworzenie wtyczki od podstaw jest bardziej czasochłonne i kosztowniejsze."
+                ]
+            },
+            {
+                "q": "Nie posiadam żadnych zdjęć do sklepu internetowego - co teraz?",
+                "a": [
+                    "Brak własnych zdjęć do sklepu online nie jest problemem - możemy skorzystać z profesjonalnych banków zdjęć (płatnych lub darmowych), aby dobrać materiały pasujące do charakteru Twojej firmy. W przypadku korzystania z płatnych banków zdjęć koszt licencji jest doliczany dodatkowo do wycen.",
+                    "Współpracujemy również z doświadczonym fotografem, dzięki temu możemy zorganizować indywidualną sesję zdjęciową, jeśli chcesz uzyskać w pełni unikalny materiał. Fotograf dojeżdża na umówione miejsce, z wytycznymi od nas i robi zdjęcia potrzebne do projektu (portrety zespołu, zdjęcia budynków i okolicy, czy Twoich produktów). My dostajemy obrobione i gotowe do użycia na Twojej stronie materiały, a Ty możesz się cieszyć jeszcze bardziej spersonalizowaną witryną."
+                ]
+            },
+            {
+                "q": "Co wchodzi w skład ceny za zaprojektowanie sklepu internetowego?",
+                "a": [
+                    "Poza standardowymi etapami usługi jak rozmowa odnośnie wymagań, analiza branży, tworzenie strategii oraz na jej podstawie designu i kodu tworzonego sklepu internetowego, czy późniejsze wsparcie techniczne. Dodatkowo koszt sklepu zawiera pomniejsze etapy jak: konfiguracja Google Analytics oraz Google Search Console, optymalizację wydajności, utworzenie strony zgodnie z zasadami dostępności dla określonego WCAG, pomoc w zakupie domeny i hostingu oraz ich konfiguracja. Dodatkowo na życzenie klienta uruchamiamy i konfigurujemy wizytówkę profilu firmy w google."
+                ]
+            },
+            {
+                "q": "Jakie dodatkowe funkcje indywidualne mogę zamówić na swój sklep internetowy?",
+                "a": [
+                    "Jesteśmy w stanie wykonać dowolną funkcjonalność przy tworzeniu sklepu internetowego. Od systemów rezerwacji, przez blogi, portfolio online, zaawansowane formularze i konfiguratory, aż po dedykowane panele administracyjne z systemem CRM dla Twojej witryny.",
+                    "Dlatego jeśli masz pomysł na swój sklep internetowy oraz zaawansowane funkcje, wypełnij formularz wyceny dostępny w menu lub skontaktuj się z nami mailowo lub telefonicznie. Wyceniany Twój projekt sklepu internetowego, doradzimy i odpowiemy na każde pytanie."
+                ]
+            },
+            {
+                "q": "Własny sklep internetowy - jak przygotować się do zakupu?",
+                "a": [
+                    "Przed zamówieniem sklepu warto zastanowić się nad najważniejszymi funkcjami, jakie powinien zawierać (np. formularz kontaktowy, system rezerwacji itp.) oraz przygotuj materiały, które już posiadasz, takie jak logo, teksty czy zdjęcia.",
+                    "Pomocne będzie również określenie orientacyjnego budżetu, terminu realizacji i informacja, czy masz już domenę oraz hosting, czy potrzebujesz naszej pomocy w ich wyborze. Na tej podstawie szybko przygotujemy dla Ciebie dopasowaną wycenę i zaplanujemy cały proces tworzenia sklepu internetowego. Jeśli natomiast nie masz tego wszystkiego nie przejmuj się, pomożemy i doradzimy w każdej kwestii oraz odpowiemy na każde pytanie. Wystarczy do nas napisać i umówić się na konsultację."
+                ]
+            },
+            {
+                "q": "Czy zajmujecie się pozycjonowaniem i zarządzaniem SEO po wdrożeniu sklepu internetowego?",
+                "a": [
+                    "Obecnie, nie świadczymy usług pozycjonowania sklepów internetowych, ale planujemy wprowadzić taką usługę w kolejnych miesiącach. Będzie obejmować stały monitoring, optymalizację treści oraz działania link-buildingowe."
+                ]
+            },
+            {
+                "q": "Czy wykonujecie przeniesienie sklepu internetowego na inną platformę?",
+                "a": [
+                    "Tak, realizujemy przeniesienie sklepu internetowego wraz z całą bazą danych, produktami i historią zamówień. Możemy zmienić system sklepu internetowego na WordPress WooCommerce, Shopify lub inną platformę, dbając o szybkość działania sklepu i ciągłość sprzedaży."
+                ]
+            }
+        ]
+    },
+    "footer": {
+        "alt": "Logo spółki airtilion",
+        "area": {
+            "title": "Obszar działania",
+            "ending": "... i wiele więcej"
+        },
+        "docs": [
+            {
+                "name": "Polityka prywatności",
+                "link": "/polityka-prywatnosci.pdf"
+            },
+            {
+                "name": "Regulamin świadczenia usług drogą elektroniczną",
+                "link": "/regulamin-swiadczenia-uslug-droga-elektroniczna.pdf"
+            },
+            {
+                "name": "Zgoda na przesyłanie informacji handlowej",
+                "link": "/zgoda-informacja-handlowa.pdf"
+            }
+        ],
+        "companyInfo": "Airtilion Sp. z o.o. ul. Słoneczna 32/9, 33-100 Tarnów, wpisana do rejestru przedsiębiorców Krajowego rejestru Sądowego przez Sąd Rejonowy dla Krakowa-Śródmieścia w Krakowie, XII Wydział Gospodarczy Krajowego Rejestru Sądowego pod nr KRS 0001143482, kapitał zakładowy w kwocie 5 000,00 zł w całości opłacony, NIP: 8733299720"
+    }
+}

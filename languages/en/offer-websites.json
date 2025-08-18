@@ -1,30 +1,218 @@
 {
-    "header":{
-        "title": "Oferta - strony internetowe",
-        "description": "Tworzymy od podstaw profesjonalne i wpadające w oko strony i sklepy internetowe oraz aplikacje mobilne. Korzystamy z najnowszych technologii, aby dostarczyć jak najlepszy produkt.",
-        "alt": "Zdjęcie przedstawiające laptopa"
+    "header": {
+        "title": "Offer - Website Design",
+        "description": "We design and build eye-catching, mobile-friendly websites from scratch. We use the latest technologies to deliver the best possible product.",
+        "alt": "Website design - photo showing a computer with a website on screen"
     },
-    "introduction":{
-        "title": "Dedykowana strona internetowa to najlepsza inwestycja dla Twojego biznesu",
-        "content": ["Nasze strony internetowe tworzymy od podstaw, łącząc unikalny design z solidnym kodem i optymalizacją wydajności. Każdy projekt jest szyty na miarę Twojej branży i grupy docelowej, dzięki czemu wyróżniasz się na tle konkurencji i budujesz silną tożsamość marki. ", "Strony ładowane są błyskawicznie dzięki wykorzystaniu najnowszych technik optymalizacji, a techniczne SEO – poprawna struktura nagłówków, atrybuty alt czy mapa witryny – zapewnia widoczność w wynikach wyszukiwania. Dbamy również o dostępność zgodną z WCAG, tak aby każdy użytkownik mógł korzystać ze wszystkich funkcji serwisu. Proces „projekt → kod → testy → wdrożenie → wsparcie” sprawia, że możesz być spokojny o terminowość i jakość wykonania."],
-        "alt": "Zdjęcie Ziemii"
+    "introduction": {
+        "title": "A dedicated website is the best investment for your business",
+        "content": [
+            "As part of our website design services, we create websites from the ground up - combining unique design (UX/UI) with solid code and advanced optimization, ensuring full responsiveness. Each project is tailored to your industry and target audience, giving you a recognizable brand identity and an advantage over the competition.",
+            "We focus on performance and visibility - websites we design load instantly thanks to modern optimization techniques, while technical SEO - proper heading structure, alt attributes, sitemap - increases the chances of ranking high in search engines. Learn more about technical SEO."
+        ],
+        "alt": "Photo of the Earth - headquarters of the website design company"
     },
-    "fasterWebs": {
-        "title": "Szybsze strony",
-        "content": "W zależności od potrzeb i budżetu wybieramy najefektywniejsze rozwiązanie technologiczne. Do rozbudowanych aplikacji webowych i serwisów z dynamiczną zawartością rekomendujemy Next.js wraz z React.js, co pozwala na szybkie renderowanie po stronie serwera oraz statyczne generowanie stron dla maksymalnej wydajności. Jeśli zależy Ci na elastycznym zarządzaniu treścią, proponujemy headless WordPress z dowolnym front-endem, wykorzystując API-first podejście i umożliwiając łatwe integracje z zewnętrznymi systemami. Dla klasycznych witryn firmowych i blogów oferujemy WordPress z customowym szablonem PHP, co daje pełną kontrolę nad kodem i prostą rozbudowę w przyszłości.",
-        "alt": "Zdjęcie przedstawiające laptopa"
+    "fasterwebs": {
+        "title": "Faster Websites",
+        "title2": "Website Design - technologies that ensure speed and stability",
+        "content": "When designing websites, we carefully select the right technologies so that the site is fast, stable, easy to use, and fully tailored to you. For most projects, we use the NextJS framework, which ensures performance and excellent optimization. For smaller projects, we use the lighter ReactJS Vite. When a project requires an admin panel, we use WordPress as the backend, and build everything else with React or Next. All WordPress plugins are written in PHP. For databases, we often use MySQL connected with WordPress, and for websites that don’t require an admin panel, we use MongoDB.",
+        "alt": "Photo of a laptop used for website design"
     },
-    "footer":{
-        "alt": "Logo spółki airtilion",
+    "websiteElements": {
+        "title": "What does a website designed by us include?",
+        "content": "Whether the project is big or small, our websites always include:",
+        "elements": [
+            "Custom graphic design (no website templates)",
+            "Mobile responsiveness",
+            "SEO preparation",
+            "Performance optimization",
+            "Google Analytics and Google Search Console setup",
+            "Cookie consent and management system",
+            "Security measures",
+            "Hosting and domain configuration with built-in SSL certificate",
+            "Training on how to use the website",
+            "12-month warranty",
+            "No website builders",
+            "Technical support and updates up to 3 hours per month",
+            "WordPress integration if needed",
+            "Modern technologies",
+            "Strategy based on industry analysis and your requirements",
+            "Custom plugins",
+            "... and much more"
+        ]
+    },
+    "cooperation": {
+        "title": "Stages of website development",
+        "content": "Designing and building a website is a complex process, but with our proven approach, we guide you through it step by step - clearly, transparently, and without unnecessary complications. From the first contact to post-launch support, you have full control over the process and always know exactly what’s happening. Here’s how cooperation looks in practice:",
+        "steps": [
+            {
+                "title": "Brief",
+                "desc": "We start with a conversation to understand your goals, expectations, and requirements. Based on this, we present the best solutions and define the project scope."
+            },
+            {
+                "title": "Agreement",
+                "desc": "After agreeing on the details, we send you a contract to sign - available in digital or traditional form. For larger projects, we require a 30% upfront deposit."
+            },
+            {
+                "title": "Website Design",
+                "desc": "Based on industry analysis and requirements, we create a unique UX/UI design in both desktop and mobile versions. We send it for review, apply adjustments, and finalize the layout and look of the website."
+            },
+            {
+                "title": "Development",
+                "desc": "We move on to programming - building the front-end and back-end, integrating a CMS if necessary, optimizing for SEO, and testing across different devices and browsers."
+            },
+            {
+                "title": "Delivery & Settlement",
+                "desc": "Once the work is completed, we present the finished website on hosting, issue the final invoice (minus the deposit), and hand over access details along with a user manual."
+            },
+            {
+                "title": "Technical Support",
+                "desc": "For 12 months, we provide technical support, minor updates (up to 3h/month), and backups. We’re here whenever you need us."
+            }
+        ],
+        "alts": [
+            "Website design, example of a website shown on a laptop",
+            "Website design, example of a website shown on a phone"
+        ],
+        "ending": "Although we have a structured process, working with us is more than just checking items off a list. We stay in touch, advise, and suggest the best solutions - ensuring that at no point you feel left on your own."
+    },
+    "pricing": {
+        "pricingIntro": {
+            "title": "What is the timeline and cost of a website?",
+            "content": "The estimated cost of a website depends mainly on its complexity, features, and individual project requirements. A simple, fully responsive website costs around a few thousand PLN, with an average timeline of 5-10 business days. For more advanced projects, the cost can range from several to tens of thousands of PLN, and the timeline can extend to several weeks depending on complexity. The price includes not only building the website but also SEO optimization, performance tuning, and search engine readiness. For demanding clients, we also offer professional photography - our photographer visits your location, takes the required shots (team portraits, office, products), and delivers processed photos ready to use on your website."
+        },
+        "cta": {
+            "title": "Get a free website quote",
+            "content": "We’re always ready to create the perfect product for you. Request a free project quote and we’ll get back to you within 24h or the next business day. Dreaming of your own website but not sure what exactly you need? Don’t worry, we’ll guide you through every step.",
+            "button": "Click to go to the quote form",
+            "alt": "Laptop photo with website design offer"
+        }
+    },
+    "portfolio": {
+        "title": "Previously completed projects",
+        "alts": [
+            "Photo of phones with sample websites",
+            "Portfolio element of website design",
+            "Website project logo"
+        ],
+        "content": "Check out our past projects and see how our websites look in practice.",
+        "button": "View full portfolio"
+    },
+    "cta": {
+        "title": "Get a free quote",
+        "content": "We’re ready to create your own website. Fill out a simple form and request a free project quote. We’ll get back to you within 24h or the next business day. If you’re not sure what you need yet, don’t worry - we’ll advise you and guide you through the whole process. We’ll answer all your questions.",
+        "button": "Request a free quote",
+        "alt": "Image of a lion promoting professional business websites",
+        "form": {
+            "tag": "Your project. Our passion. Shared success.",
+            "title": "Want to know how much your project will cost? Fill out the form!",
+            "content": "We’ll get back to you within 24 hours or the next business day. We’ll discuss your needs, advise, and provide a project quote. If you prefer not to use the form, you can also reach us by phone.",
+            "contactData": [
+                "Phone numbers",
+                "Email address",
+                "Opening hours"
+            ],
+            "close": "Close",
+            "fields": [
+                "Full name",
+                "Email",
+                "Phone number",
+                "Preferred contact hours",
+                "Project type",
+                "Brief description of the website"
+            ],
+            "condition": [
+                "I accept the <a href='/polityka-prywatnosci.pdf' target='_blank'>privacy policy</a> and agree to the <a href='/polityka-prywatnosci.pdf' target='_blank'>processing of personal data</a>",
+                "I agree to the <a href='/zgoda-informacja-handlowa.pdf' target='_blank'>processing of my data</a> in order to receive commercial information"
+            ],
+            "button": "Send request",
+            "errors": [
+                "",
+                "Full name is required",
+                "Invalid email address",
+                "Email address is required",
+                "Phone number is required",
+                "Invalid phone number",
+                "Brief website description is required",
+                "You must accept the privacy policy",
+                "You must consent to receiving commercial information",
+                "Bot detected",
+                "Failed to send request"
+            ],
+            "success": "Your request has been successfully sent!"
+        }
+    },
+    "faq": {
+        "title": "Answers to the most frequently asked questions about website design and development",
+        "content": "In this section you’ll find answers to the most common questions about working with us - from the brief stage, through choosing technologies and tools, to project timelines and post-launch support. If you can’t find the information you’re looking for, contact us and we’ll respond within 24 hours.",
+        "qna": [
+            {
+                "q": "Do you design websites compliant with WCAG 2.1?",
+                "a": [
+                    "Yes, WCAG positively impacts the accessibility and perception of websites, which is why more and more companies are choosing to implement it. If needed, we design and implement websites compliant with WCAG 2.1, and upon request also WCAG 2.2. For CMS-based websites, we provide a practical guide on how to add content while maintaining compliance."
+                ]
+            },
+            {
+                "q": "What does SEO optimization include during website design?",
+                "a": [
+                    "SEO optimization during website design mainly covers technical on-page actions that improve indexability and performance. This includes structured URLs and navigation, semantic tags (H1-H6, image alts), proper use of meta tags and canonical links. We create a sitemap, robots.txt file, and if needed configure redirects and structured data. We ensure that the SSL certificate provided with your domain and hosting is correctly configured. Keep in mind SEO optimization is not just installing a plugin - it’s real actions that affect your future search rankings."
+                ]
+            },
+            {
+                "q": "Do you create custom WordPress plugins?",
+                "a": [
+                    "Yes, we can create a custom WordPress plugin if existing solutions on the market don’t meet your needs. Such plugins can provide custom functions, integrations with external systems, or improvements to the admin panel. Dedicated plugins allow for more effective websites, which impacts sales and user experience. Keep in mind, however, that building a plugin from scratch is more time-consuming and costly."
+                ]
+            },
+            {
+                "q": "I don’t have any photos for my website - what now?",
+                "a": [
+                    "No problem - we can use professional stock photos (free or paid) to match the character of your business. If paid stock is used, the license cost will be added to the quote.",
+                    "We also work with an experienced photographer, so we can arrange a custom photo session if you want fully unique materials. The photographer will come to your location with our guidelines and take the necessary shots (team portraits, office/building, products). We’ll receive processed and ready-to-use photos for your website, giving you an even more personalized result."
+                ]
+            },
+            {
+                "q": "What’s included in the price of website design?",
+                "a": [
+                    "Aside from the standard stages such as requirements gathering, industry analysis, strategy development, design and coding, and later technical support - the price also includes smaller elements such as: Google Analytics and Google Search Console setup, performance optimization, building the site in compliance with WCAG accessibility, and assistance with purchasing and configuring a domain and hosting. Additionally, upon request, we can set up and configure your Google Business Profile."
+                ]
+            },
+            {
+                "q": "What additional features can I order for my website?",
+                "a": [
+                    "We can implement any functionality for advanced websites - from booking systems, blogs, online portfolios, advanced forms and configurators, to custom admin panels with CRM systems for your business website.",
+                    "So if you have an idea for your site and advanced features, fill out the quote form available in the menu or contact us by email or phone. We’ll estimate your project, advise, and answer all your questions."
+                ]
+            },
+            {
+                "q": "How should I prepare for ordering a website?",
+                "a": [
+                    "Before ordering, think about the purpose of your website - will it sell products, present services, or act as a simple business card? Also consider the key features you’ll need (e.g. e-commerce, contact form, booking system, or a panel to edit content yourself) and prepare any materials you already have, such as a logo, text, or photos.",
+                    "It’s also helpful to define an approximate budget, the deadline for launch, and whether you already have a domain and hosting, or if you’ll need our help selecting them. Based on this, we’ll quickly prepare a tailored quote and plan the process. If you don’t have all of this figured out yet, don’t worry - we’ll guide and advise you on everything. Just write to us and schedule a consultation."
+                ]
+            }
+        ]
+    },
+    "footer": {
+        "alt": "Airtilion company logo",
         "area": {
-            "title": "Obszar działania",
-            "ending": "... i wiele więcej"
+            "title": "Operating area",
+            "ending": "... and many more"
         },
         "docs": [
-            "Polityka prywatności",
-            "Polityka ochrony danych osobowych",
-            "regulamin świadczenia usług drogą elektroniczną"
+            {
+                "name": "Privacy policy",
+                "link": "/privacy-policy.pdf"
+            },
+            {
+                "name": "Terms of electronic services",
+                "link": "/terms-and-conditions-for-the-provision-of-electronic-services.pdf"
+            },
+            {
+                "name": "Consent to receive commercial information",
+                "link": "/contest-for-the-purpose-of-sending-requested-commercial-information.pdf"
+            }
         ],
-        "companyInfo": "Airtilion Sp. z o.o. ul. Słoneczna 32/9, 33-100 Tarnów, wpisana do rejestru przedsiębiorców Krajowego rejestru Sądowego przez Sąd Rejonowy dla Krakowa-Śródmieścia w Krakowie, XII Wydział Gospodarczy Krajowego Rejestru Sądowego pod nr KRS 0001143482, kapitał zakładowy w kwocie 5 000,00 zł w całości opłacony, NIP: 8733299720"
+        "companyInfo": "Airtilion Sp. z o.o., ul. Słoneczna 32/9, 33-100 Tarnów, registered in the Register of Entrepreneurs of the National Court Register by the District Court for Kraków-Śródmieście in Kraków, 12th Commercial Division of the National Court Register under KRS no. 0001143482, share capital of PLN 5,000.00 fully paid, TAX ID (NIP): 8733299720"
     }
 }

@@ -218,13 +218,22 @@ export const szczecin = {
         alt: "Airtilion company logo",
         area: {
             title: "Operating area",
-            ending: "... and much more"
+            ending: "... and many more"
         },
         docs: [
-            "Privacy Policy",
-            "Personal Data Protection Policy",
-            "Terms of Electronic Service Provision"
+            {
+                name: "Privacy policy",
+                link: "/privacy-policy.pdf"
+            },
+            {
+                name: "Terms of electronic services",
+                link: "/terms-and-conditions-for-the-provision-of-electronic-services.pdf"
+            },
+            {
+                name: "Consent to receive commercial information",
+                link: "/contest-for-the-purpose-of-sending-requested-commercial-information.pdf"
+            }
         ],
-        companyInfo: "Airtilion Sp. z o.o. ul. Słoneczna 32/9, 33-100 Tarnów, registered in the business register of the National Court Register by the District Court for Kraków-Śródmieście in Kraków, 12th Commercial Division of the National Court Register under KRS 0001143482, share capital of PLN 5,000.00 fully paid, NIP: 8733299720"
+        companyInfo: "Airtilion Sp. z o.o., ul. Słoneczna 32/9, 33-100 Tarnów, registered in the Register of Entrepreneurs of the National Court Register by the District Court for Kraków-Śródmieście in Kraków, 12th Commercial Division of the National Court Register under KRS no. 0001143482, share capital of PLN 5,000.00 fully paid, TAX ID (NIP): 8733299720"
     }
 }

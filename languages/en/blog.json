@@ -1,0 +1,82 @@
+{
+    "header": {
+        "title": "A blog full of knowledge and inspiration",
+        "content": "Dive into articles, tips, and stories that spark your creativity and broaden your horizons",
+        "alt": "Background photo showing a laptop with a website"
+    },
+    "recomendations": {
+        "title": "Recommended blog articles",
+        "subtitle": "Articles selected just for you"
+    },
+    "latest": {
+        "title": "Latest articles",
+        "subtitle": "Articles selected just for you"
+    },
+    "cta": {
+        "title": "Get a free quote",
+        "content": "We’re always ready to create the perfect product for you. Request a free project quote and we’ll get back to you within 24h or the next business day. Dreaming of your own website but not sure what exactly you need? Don’t worry, we’ll guide you through every step.",
+        "button": "Request a free quote",
+        "alt": "Image of a lion promoting professional business websites",
+        "form": {
+            "tag": "Your project. Our passion. Shared success.",
+            "title": "Want to know how much your dream project will cost? Fill out the form!",
+            "content": "We’ll get back to you within 24 hours or the next business day. We’ll discuss your needs, advise you, and provide a project quote.",
+            "contactData": [
+                "Phone numbers",
+                "Email address",
+                "Opening hours"
+            ],
+            "close": "Close",
+            "fields": [
+                "Full name",
+                "Email",
+                "Phone number",
+                "Preferred contact hours",
+                "Project type",
+                "Brief description of the website"
+            ],
+            "condition": [
+                "I accept the <a href='#'>privacy policy</a> and agree to the <a href='#'>processing of personal data</a>",
+                "I agree to the <a href='#'>processing of my data</a> in order to receive commercial information"
+            ],
+            "button": "Send request",
+            "errors": [
+                "",
+                "Full name is required",
+                "Invalid email address",
+                "Email address is required",
+                "Phone number is required",
+                "Invalid phone number",
+                "Brief website description is required",
+                "You must accept the privacy policy",
+                "You must consent to receiving commercial information",
+                "Bot detected",
+                "Failed to send request"
+            ],
+            "success": "Your request has been successfully sent!"
+        },
+        "close": "Close window"
+    },
+    "footer": {
+        "alt": "Airtilion company logo",
+        "area": {
+            "title": "Service area",
+            "ending": "... and much more"
+        },
+        "docs": [
+            {
+                "name": "Privacy Policy",
+                "link": "/polityka-prywatnosci.pdf"
+            },
+            {
+                "name": "Terms of Electronic Services",
+                "link": "/regulamin-swiadczenia-uslug-droga-elektroniczna.pdf"
+            },
+            {
+                "name": "Consent to Receive Commercial Information",
+                "link": "/zgoda-informacja-handlowa.pdf"
+            }
+        ],
+        "companyInfo": "Airtilion Sp. z o.o. ul. Słoneczna 32/9, 33-100 Tarnów, registered in the National Court Register by the District Court for Kraków-Śródmieście in Kraków, XII Commercial Division of the National Court Register under KRS number 0001143482, share capital of 5,000.00 PLN fully paid, NIP: 8733299720"
+    }
+}

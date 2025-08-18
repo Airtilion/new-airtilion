@@ -201,9 +201,18 @@ export const olsztyn = {
             ending: "... i wiele więcej"
         },
         docs: [
-            "Polityka prywatności",
-            "Polityka ochrony danych osobowych",
-            "Regulamin świadczenia usług drogą elektroniczną"
+            {
+                name: "Polityka prywatności",
+                link: "/polityka-prywatnosci.pdf"
+            },
+            {
+                name: "Regulamin świadczenia usług drogą elektroniczną",
+                link: "/regulamin-swiadczenia-uslug-droga-elektroniczna.pdf"
+            },
+            {
+                name: "Zgoda na przesyłanie informacji handlowej",
+                link: "/zgoda-informacja-handlowa.pdf"
+            }
         ],
         companyInfo: "Airtilion Sp. z o.o. ul. Słoneczna 32/9, 33-100 Tarnów, wpisana do rejestru przedsiębiorców Krajowego rejestru Sądowego przez Sąd Rejonowy dla Krakowa-Śródmieścia w Krakowie, XII Wydział Gospodarczy Krajowego Rejestru Sądowego pod nr KRS 0001143482, kapitał zakładowy w kwocie 5 000,00 zł w całości opłacony, NIP: 8733299720"
     }

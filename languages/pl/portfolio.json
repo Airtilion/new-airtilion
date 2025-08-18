@@ -1,5 +1,5 @@
 {
-    "header":{
+    "header": {
         "title": "Portfolio",
         "description": "Tworzymy od podstaw profesjonalne i wpadające w oko strony i sklepy internetowe oraz aplikacje mobilne. Korzystamy z najnowszych technologii, aby dostarczyć jak najlepszy produkt.",
         "alt": "Zdjęcie przedstawiające telefon"
@@ -18,10 +18,13 @@
                 "Zdjęcie przedstawiające laptop z obrazem jednej z sekcji",
                 "Zdjęcie przedstawiające laptop z obrazem jednej z sekcji"
             ],
-            "button": ["Wyświetl pełną wizualizację", "Kliknij aby zobaczyć pełną wizuwalizację strony internetowej"],
+            "button": [
+                "Wyświetl pełną wizualizację",
+                "Kliknij aby zobaczyć pełną wizuwalizację strony internetowej"
+            ],
             "link": "Przejdź bezpośrednio do strony za pomocą linku:"
         },
-        "brief":{
+        "brief": {
             "title": "Zakres ustalonych prac podczas briefu",
             "alts": [
                 "Zdjęcie laptopa ze stroną",
@@ -31,7 +34,7 @@
         "technologies": {
             "title": "Wykorzystane technologie"
         },
-        "steps":{
+        "steps": {
             "title": "Przebieg prac nad stroną",
             "alt": "Ozdobne zblurowane zdjęcie laptopa z profesjonalną stroną internetową"
         },
@@ -40,12 +43,15 @@
             "alt": "Obraz przedstawiający telefon"
         },
         "client": {
-            "alts": ["alt1", "alt2"]
+            "alts": [
+                "alt1",
+                "alt2"
+            ]
         },
-        "review":{
+        "review": {
             "title": "Referencja udzielona przez klienta"
         },
-        "sum":{
+        "sum": {
             "title": "Podsumowanie projektu"
         },
         "cta": {
@@ -55,16 +61,69 @@
             "alt": "Zdjęcie przedstawiające lwa promującego profesjonalne strony internetowe dla firm"
         }
     },
-    "footer":{
+    "cta": {
+        "title": "Skorzystaj z darmowej wyceny",
+        "content": "Jesteśmy gotowi, żeby stworzyć dla Ciebie Twoją własną stronę internetową. Wypełnij prosty formularz i zamów darmową wycenę swojego projektu. Odezwiemy się do Ciebie w ciągu 24h lub w najbliższym dniu roboczym. Jeśli jeszcze nie wiesz czego dokładnie potrzebujesz nie przejmuj się. Doradzimy i przeprowadzimy Cię przez cały proces. Odpowiemy na każde twoje pytanie.",
+        "button": "Zamów darmową wycenę",
+        "alt": "Zdjęcie przedstawiające lwa promującego profesjonalne strony internetowe dla firm",
+        "form": {
+            "tag": "Twój projekt. Nasza pasja. Wspólny skuces.",
+            "title": "Chcesz dowiedzieć się ile będzie kosztował Twój projekt? Wypełnij formularz!",
+            "content": "Odezwiemy się do Ciebie w ciągu 24 godzin lub w kolejny dzień roboczy. Omówimy Twoje potrzeby, doradzimy i zaproponujemy cenę za projekt. Jeśli jednak nie chcesz wypełniać formularza, możesz skontaktować się z nami telefonicznie.",
+            "contactData": [
+                "Numery telefonu",
+                "Adres email",
+                "Godziny otwarcia"
+            ],
+            "close": "Zamknij",
+            "fields": [
+                "Imię i nazwisko",
+                "Email",
+                "Numer telefonu",
+                "Preferowane godziny kontaktu telefonicznego",
+                "Typ projektu",
+                "Krótki opis strony internetowej"
+            ],
+            "condition": [
+                "Akceptuję <a href='/polityka-prywatnosci.pdf' target='_blank'>politykę prywatności</a> i wyrażam zgodę na <a href='/polityka-prywatnosci.pdf' target='_blank'>przetwarzanie danych osobowych</a>",
+                "Wyrażam zgodę na <a href='/zgoda-informacja-handlowa.pdf' target='_blank'>przetwarzanie moich danych</a> w celu otrzymania informacji handlowej"
+            ],
+            "button": "Wyślij zapytanie",
+            "errors": [
+                "",
+                "Imię i nazwisko jest wymagane",
+                "Nieprawidłowy adres email",
+                "Adres email jest wymagany",
+                "Numer telefonu jest wymagany",
+                "Nieprawidłowy numer telefonu",
+                "Krótki opis strony jest wymagany",
+                "Musisz zaakceptować politykę prywatności",
+                "Musisz wyrazić zgodę na otrzymywanie informacji handlowej",
+                "Wykryto bota",
+                "Nie udało się wysłać zapytania"
+            ],
+            "success": "Twoje zapytanie zostało wysłane pomyślnie!"
+        }
+    },
+    "footer": {
         "alt": "Logo spółki airtilion",
         "area": {
             "title": "Obszar działania",
             "ending": "... i wiele więcej"
         },
         "docs": [
-            "Polityka prywatności",
-            "Polityka ochrony danych osobowych",
-            "regulamin świadczenia usług drogą elektroniczną"
+            {
+                "name": "Polityka prywatności",
+                "link": "/polityka-prywatnosci.pdf"
+            },
+            {
+                "name": "Regulamin świadczenia usług drogą elektroniczną",
+                "link": "/regulamin-swiadczenia-uslug-droga-elektroniczna.pdf"
+            },
+            {
+                "name": "Zgoda na przesyłanie informacji handlowej",
+                "link": "/zgoda-informacja-handlowa.pdf"
+            }
         ],
         "companyInfo": "Airtilion Sp. z o.o. ul. Słoneczna 32/9, 33-100 Tarnów, wpisana do rejestru przedsiębiorców Krajowego rejestru Sądowego przez Sąd Rejonowy dla Krakowa-Śródmieścia w Krakowie, XII Wydział Gospodarczy Krajowego Rejestru Sądowego pod nr KRS 0001143482, kapitał zakładowy w kwocie 5 000,00 zł w całości opłacony, NIP: 8733299720"
     }

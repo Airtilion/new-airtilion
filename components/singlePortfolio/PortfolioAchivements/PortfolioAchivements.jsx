@@ -14,7 +14,7 @@ const PortfolioAchivements = ({image, achivements, dict}) => {
             ))}
         </article>
 
-        <Image src={image} width={500} height={500} alt={dict.alt} quality={100} className='animation-opacity transition-all duration-1000 ease-in-out max-xl:w-[400px] max-lg:mx-auto max-lg:w-[500px] max-lg:h-[300px] object-cover max-lg:rounded-[5px]'/>
+        <Image src={image} width={500} height={500} alt={dict.alt} quality={100} className='animation-opacity transition-all duration-1000 ease-in-out max-xl:w-[400px] max-lg:mx-auto max-lg:w-[500px] max-lg:h-[300px] object-cover max-lg:rounded-[5px] z-[1] relative'/>
         <h2 className='text-[30px] max-2xl:text-[25px] max-sm:text-[20px] heading-gradient-gray w-fit mt-4 animation-opacity transition-all duration-1000 ease-in-out max-lg:mt-0 max-lg:mb-4 max-lg:mx-auto'>{dict.title}</h2>
 
 

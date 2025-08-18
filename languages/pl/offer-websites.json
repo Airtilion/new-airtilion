@@ -1,13 +1,15 @@
 {
-    "header":{
+    "header": {
         "title": "Oferta - Projektowanie stron internetowych",
         "description": "Projektujemy i tworzymy od podstaw wpadające w oko i dostosowane do urządzeń mobilnych strony www. Korzystamy z najnowszych technologii, aby dostarczyć jak najlepszy produkt.",
         "alt": "Projektowanie stron internetowych - zdjęcie przedstawiające komputer ze stroną internetową"
     },
-    "introduction":{
+    "introduction": {
         "title": "Dedykowana strona internetowa to najlepsza inwestycja dla Twojego biznesu",
-        "content": ["W ramach projektowania stron internetowych tworzymy witryny od podstaw - łączymy unikalny design (UX/UI) z solidnym kodem oraz zaawansowaną optymalizacją strony internetowej, dbając o responsywność. Każdy projekt jest szyty na miarę Twojej branży i grupy docelowej, dzięki czemu zyskujesz rozpoznawalną identyfikację marki i przewagę nad konkurencją.", 
-                    "Dbamy o wydajność i widoczność, zaprojektowane przez Nas strony internetowe ładują się błyskawicznie, dzięki nowoczesnym technikom optymalizacji, a techniczne SEO - poprawna struktura nagłówków, atrybuty alt, mapa witryny - zwiększa szanse na wysokie pozycje w wyszukiwarkach. Dowiedź się więcej o technicznym SEO."],
+        "content": [
+            "W ramach projektowania stron internetowych tworzymy witryny od podstaw - łączymy unikalny design (UX/UI) z solidnym kodem oraz zaawansowaną optymalizacją strony internetowej, dbając o responsywność. Każdy projekt jest szyty na miarę Twojej branży i grupy docelowej, dzięki czemu zyskujesz rozpoznawalną identyfikację marki i przewagę nad konkurencją.",
+            "Dbamy o wydajność i widoczność, zaprojektowane przez Nas strony internetowe ładują się błyskawicznie, dzięki nowoczesnym technikom optymalizacji, a techniczne SEO - poprawna struktura nagłówków, atrybuty alt, mapa witryny - zwiększa szanse na wysokie pozycje w wyszukiwarkach. Dowiedź się więcej o technicznym SEO."
+        ],
         "alt": "Zdjęcie Ziemii - siedziba firmy projektującej strony internetowe"
     },
     "fasterwebs": {
@@ -16,7 +18,7 @@
         "content": "Przy projektowaniu stron internetowych dobieramy odpowiednie technologie tak, by serwis był szybki, stabilny, prosty w obsłudze i całkowicie dopasowany do Ciebie. Przy większości projektów wykorzystujemy framework NextJS, który zapewnia stronom wydajność i doskonałą optymalizację. Przy mniejszych projektach używamy lżejszego ReactJS Vite. Gdy projekt wymaga, aby strona posiadała swój panel administracyjny, używamy Wordpress'a jako zaplecza, a całą resztę tworzymy we wcześniej wspomnianych technologiach (React lub Next). Wszelkie wtyczki do WordPress'a piszemy w języku PHP. Jako baz danych często wykorzystujemy połączone z Wordpress'em bazy MySQL, dodatkowo w połączeniu ze stronami, których projektowanie nie wymaga użycia panelu administracyjnego używamy mongoBD.",
         "alt": "Zdjęcie przedstawiające laptopa użytkowanego do projektowania stron internetowych"
     },
-    "websiteElements":{
+    "websiteElements": {
         "title": "Co zawiera zaprojaktowana przez nas strona internetowa?",
         "content": "Niezależnie czy zlecenie jest duże czy małe, projektowane przez nas strony internetowe zawierają:",
         "elements": [
@@ -39,22 +41,43 @@
             "... i wiele więcej"
         ]
     },
-    "cooperation":{
+    "cooperation": {
         "title": "Etapy realizacji strony internetowej",
         "content": "Tworzenie i projektowanie strony internetowej to złożony proces, ale dzięki sprawdzonemu podejściu, prowadzimy Cię przez niego krok po kroku - jasno, konkretnie i bez zbędnych komplikacji. Od pierwszego kontaktu, aż po wsparcie po wdrożeniu masz pełną kontrolę nad przebiegiem prac i wiesz dokładnie, co się dzieje. Poniżej przedstawiamy, jak wygląda współpraca w praktyce:",
         "steps": [
-            {"title": "Brief", "desc": "Zaczynamy od rozmowy, podczas której poznajemy Twoje cele, oczekiwania i wymagania. Na tej podstawie przedstawiamy najlepsze rozwiązania i precyzujemy zakres projektu."},
-            {"title": "Umowa", "desc": "Po uzgodnieniu szczegółów przesyłamy umowę do podpisu - możliwa forma online lub tradycyjna. Po podpisaniu, przy wyższych kwotach zamówienia prosimy o zaliczkę w wysokości 30% wartości projektu."},
-            {"title": "Projekt strony", "desc": "Na podstawie analizy branży i wymagań tworzymy indywidualny design UX/UI w wersji desktopowej i mobilnej. Przesyłamy do wglądu, nanosimy poprawki i finalizujemy układ oraz wygląd witryny."},
-            {"title": "Programowanie", "desc": "Przechodzimy do programowania - tworzymy front-end oraz back-end, w razie potrzeby integrujemy CMS, optymalizujemy pod usługi SEO i testujemy na różnych urządzeniach oraz przeglądarkach."},
-            {"title": "Odbiór i rozliczenie", "desc": "Po zakończeniu prac prezentujemy gotową stronę na hostingu, wystawiamy fakturę końcową (pomniejszoną o zaliczkę) i przekazujemy dane dostępowe oraz poradnik użytkownika."},
-            {"title": "Wsparcie techniczne", "desc": "Przez 12 miesięcy zapewniamy pomoc techniczną, drobne aktualizacje (do 3h/miesiąc) oraz kopie zapasowe. Jesteśmy do dyspozycji w razie potrzeby."}
+            {
+                "title": "Brief",
+                "desc": "Zaczynamy od rozmowy, podczas której poznajemy Twoje cele, oczekiwania i wymagania. Na tej podstawie przedstawiamy najlepsze rozwiązania i precyzujemy zakres projektu."
+            },
+            {
+                "title": "Umowa",
+                "desc": "Po uzgodnieniu szczegółów przesyłamy umowę do podpisu - możliwa forma online lub tradycyjna. Po podpisaniu, przy wyższych kwotach zamówienia prosimy o zaliczkę w wysokości 30% wartości projektu."
+            },
+            {
+                "title": "Projekt strony",
+                "desc": "Na podstawie analizy branży i wymagań tworzymy indywidualny design UX/UI w wersji desktopowej i mobilnej. Przesyłamy do wglądu, nanosimy poprawki i finalizujemy układ oraz wygląd witryny."
+            },
+            {
+                "title": "Programowanie",
+                "desc": "Przechodzimy do programowania - tworzymy front-end oraz back-end, w razie potrzeby integrujemy CMS, optymalizujemy pod usługi SEO i testujemy na różnych urządzeniach oraz przeglądarkach."
+            },
+            {
+                "title": "Odbiór i rozliczenie",
+                "desc": "Po zakończeniu prac prezentujemy gotową stronę na hostingu, wystawiamy fakturę końcową (pomniejszoną o zaliczkę) i przekazujemy dane dostępowe oraz poradnik użytkownika."
+            },
+            {
+                "title": "Wsparcie techniczne",
+                "desc": "Przez 12 miesięcy zapewniamy pomoc techniczną, drobne aktualizacje (do 3h/miesiąc) oraz kopie zapasowe. Jesteśmy do dyspozycji w razie potrzeby."
+            }
         ],
-        "alts": ["Projektowanie stron internetowych, przykład strony przedstawiony na laptopie", "Projektowanie stron internetowych, przykład strony przedstawiony na telefonie"],
+        "alts": [
+            "Projektowanie stron internetowych, przykład strony przedstawiony na laptopie",
+            "Projektowanie stron internetowych, przykład strony przedstawiony na telefonie"
+        ],
         "ending": "Choć mamy określony proces, współpraca z nami to coś więcej niż realizacja punktów z listy. Pozostajemy w stałym kontakcie, doradzamy i podpowiadamy najlepsze rozwiązania - tak, aby na żadnym etapie klient nie czuł się pozostawiony sam sobie."
     },
     "pricing": {
-        "pricingIntro":{
+        "pricingIntro": {
             "title": "Jaki jest czas realizacji i ile kosztuje strona internetowa?",
             "content": "Orientacyjny koszt realizacji strony internetowej zależy przede wszystkim od jej złożoności, funkcjonalności oraz indywidualnych wymagań projektu. Budowa prostej, w pełni responsywnej strony internetowej to wydatek około kilku tysięcy złotych, a czas realizacji wynosi średnio 5-10 dni roboczych. W przypadku bardziej rozbudowanych projektów, koszt stworzenia strony internetowej może wynosić od kilkunastu do nawet kilkudziesięciu tysięcy złotych, a czas wykonania strony wydłuża się do kilku bądź kilkunastu tygodni w zależności od złożoności projektu. W cenę wliczamy nie tylko wykonanie strony internetowej, ale także jej optymalizację seo, przygotowanie do pozycjonowania, czy optymalizację pod kątem wydajności. Dla bardziej wymagających klientów przygotowaliśmy specjalną ofertę, w której zapewniamy obsługę projektu poprzez doświadczonego fotografa - przyjeżdża on na miejsce z wytycznymi, robi potrzebne zdjęcia (portrety zespołu, budynki, produkty) i przekazuje je nam obrobione, gotowe do użycia na Twojej stronie internetowej."
         },
@@ -62,12 +85,58 @@
             "title": "Skorzystaj z darmowej wyceny strony internetowej",
             "content": "Zawsze jesteśmy gotowi, żeby stworzyć dla Ciebie idealny produkt. Zamów darmową wycenę swojego projektu, a my odezwiemy się w ciągu 24h lub w najbliższym dniu roboczym. Marzysz o swojej własnej stronie, ale jeszcze nie wiesz czego dokładnie potrzebujesz? Nie przejmuj się, doradzimy i przeprowadzimy Cię przez wszystkie etapy.",
             "button": "Kliknij aby przejść do formularza wyceny",
-            "alt": "Zdjęcie laptopa z ofertą dla projektowania stron internetowych"    
+            "alt": "Zdjęcie laptopa z ofertą dla projektowania stron internetowych"
         }
     },
-    "portfolio":{
+    "portfolio": {
         "title": "Wcześniej zrealizowane projekty",
-        "alt": "Zdjęcie telefonów"
+        "alts": ["Zdjęcie telefonów z przykładowymi stronami internetowymi", "Element z portfolio projektowania stron internetowych", "Logo projektu strony internetowej"],
+        "content": "Zobacz nasze dotychczasowe realizacje i przekonaj się, jak wyglądają strony internetowe, które tworzymy.",
+        "button": "Przejdź do pełnego portfolio"
+    },
+    "cta": {
+        "title": "Skorzystaj z darmowej wyceny",
+        "content": "Jesteśmy gotowi, żeby stworzyć dla Ciebie Twoją własną stronę internetową. Wypełnij prosty formularz i zamów darmową wycenę swojego projektu. Odezwiemy się do Ciebie w ciągu 24h lub w najbliższym dniu roboczym. Jeśli jeszcze nie wiesz czego dokładnie potrzebujesz nie przejmuj się. Doradzimy i przeprowadzimy Cię przez cały proces. Odpowiemy na każde twoje pytanie.",
+        "button": "Zamów darmową wycenę",
+        "alt": "Zdjęcie przedstawiające lwa promującego profesjonalne strony internetowe dla firm",
+        "form": {
+            "tag": "Twój projekt. Nasza pasja. Wspólny skuces.",
+            "title": "Chcesz dowiedzieć się ile będzie kosztował Twój projekt? Wypełnij formularz!",
+            "content": "Odezwiemy się do Ciebie w ciągu 24 godzin lub w kolejny dzień roboczy. Omówimy Twoje potrzeby, doradzimy i zaproponujemy cenę za projekt. Jeśli jednak nie chcesz wypełniać formularza, możesz skontaktować się z nami telefonicznie.",
+            "contactData": [
+                "Numery telefonu",
+                "Adres email",
+                "Godziny otwarcia"
+            ],
+            "close": "Zamknij",
+            "fields": [
+                "Imię i nazwisko",
+                "Email",
+                "Numer telefonu",
+                "Preferowane godziny kontaktu telefonicznego",
+                "Typ projektu",
+                "Krótki opis strony internetowej"
+            ],
+            "condition": [
+                "Akceptuję <a href='/polityka-prywatnosci.pdf' target='_blank'>politykę prywatności</a> i wyrażam zgodę na <a href='/polityka-prywatnosci.pdf' target='_blank'>przetwarzanie danych osobowych</a>",
+                "Wyrażam zgodę na <a href='/zgoda-informacja-handlowa.pdf' target='_blank'>przetwarzanie moich danych</a> w celu otrzymania informacji handlowej"
+            ],
+            "button": "Wyślij zapytanie",
+            "errors": [
+                "",
+                "Imię i nazwisko jest wymagane",
+                "Nieprawidłowy adres email",
+                "Adres email jest wymagany",
+                "Numer telefonu jest wymagany",
+                "Nieprawidłowy numer telefonu",
+                "Krótki opis strony jest wymagany",
+                "Musisz zaakceptować politykę prywatności",
+                "Musisz wyrazić zgodę na otrzymywanie informacji handlowej",
+                "Wykryto bota",
+                "Nie udało się wysłać zapytania"
+            ],
+            "success": "Twoje zapytanie zostało wysłane pomyślnie!"
+        }
     },
     "faq": {
         "title": "Odpowiedzi na najczęściej zadawane pytania dotyczące tworzenia i projektowania stron internetowych",
@@ -75,36 +144,52 @@
         "qna": [
             {
                 "q": "Czy projektujecie strony internetowe dostosowane do WCAG 2.1?",
-                "a": ["Tak, WCAG pozytywnie wpływa na odbiór strony internetowej w sieci, przez co coraz więcej firm decyduje się na jego wdrożenie. W razie potrzeby projektujemy i wdrażamy strony internetowe zgodne z WCAG 2.1, a na życzenie realizujemy też wymagania WCAG 2.2. W przypadku stron opartych o systemy CMS, przekazujemy praktyczną instrukcję, jak samodzielnie dodawać treści, zachowując zgodność z WCAG."]
+                "a": [
+                    "Tak, WCAG pozytywnie wpływa na odbiór strony internetowej w sieci, przez co coraz więcej firm decyduje się na jego wdrożenie. W razie potrzeby projektujemy i wdrażamy strony internetowe zgodne z WCAG 2.1, a na życzenie realizujemy też wymagania WCAG 2.2. W przypadku stron opartych o systemy CMS, przekazujemy praktyczną instrukcję, jak samodzielnie dodawać treści, zachowując zgodność z WCAG."
+                ]
             },
             {
                 "q": "Co obejmuje optymalizacja seo podczas projektowania strony internetowej?",
-                "a": ["Optymalizacja SEO podczas projektowania strony internetowej to przede wszystkim działania techniczne on-page, które poprawiają indeksowalność i wydajność strony. Obejmuje to uporządkowaną strukturę URL i nawigację, znaczniki semantyczne (H1-H6, alty dla obrazów), oraz poprawne użycie meta tagów i linków kanonicznych. Tworzymy mapę strony, plik robots.txt oraz w razie potrzeby konfigurujemy przekierowania i implementujemy dane strukturalne. Dbamy o to, aby dostarczony wraz z domeną i hostingiem certyfikat ssl był poprawnie skonfigurowany. Należy pamiętać, że optymalizacja seo to nie instalacja wtyczki SEO, ale realne działania wpływające na późniejszą pozycję w wynikach wyszukiwania. "]
+                "a": [
+                    "Optymalizacja SEO podczas projektowania strony internetowej to przede wszystkim działania techniczne on-page, które poprawiają indeksowalność i wydajność strony. Obejmuje to uporządkowaną strukturę URL i nawigację, znaczniki semantyczne (H1-H6, alty dla obrazów), oraz poprawne użycie meta tagów i linków kanonicznych. Tworzymy mapę strony, plik robots.txt oraz w razie potrzeby konfigurujemy przekierowania i implementujemy dane strukturalne. Dbamy o to, aby dostarczony wraz z domeną i hostingiem certyfikat ssl był poprawnie skonfigurowany. Należy pamiętać, że optymalizacja seo to nie instalacja wtyczki SEO, ale realne działania wpływające na późniejszą pozycję w wynikach wyszukiwania. "
+                ]
             },
             {
                 "q": "Czy tworzą Państwo dedykowane wtyczki do WordPressa?",
-                "a": ["Jesteśmy w stanie przygotować dedykowaną wtyczkę do WordPressa na życzenie klienta, jeśli gotowe rozwiązania na rynku nie spełniają jego potrzeb. Takie wtyczki mogą realizować niestandardowe funkcje, integracje z zewnętrznymi systemami czy usprawnienia panelu administracyjnego. Dedykowane wtyczki pozwalają na tworzenie jeszcze skuteczniejszych stron internetowych, co przekłada się na sprzedaż i odczucia Twoich klientów. Należy jednak mieć na uwadze, że stworzenie wtyczki od podstaw jest bardziej czasochłonne i kosztowniejsze."]
+                "a": [
+                    "Jesteśmy w stanie przygotować dedykowaną wtyczkę do WordPressa na życzenie klienta, jeśli gotowe rozwiązania na rynku nie spełniają jego potrzeb. Takie wtyczki mogą realizować niestandardowe funkcje, integracje z zewnętrznymi systemami czy usprawnienia panelu administracyjnego. Dedykowane wtyczki pozwalają na tworzenie jeszcze skuteczniejszych stron internetowych, co przekłada się na sprzedaż i odczucia Twoich klientów. Należy jednak mieć na uwadze, że stworzenie wtyczki od podstaw jest bardziej czasochłonne i kosztowniejsze."
+                ]
             },
             {
                 "q": "Nie posiadam żadnych zdjęć do strony internetowej - co teraz?",
-                "a": ["Brak własnych zdjęć nie jest problemem - możemy skorzystać z profesjonalnych banków zdjęć (płatnych lub darmowych), aby dobrać materiały pasujące do charakteru Twojej firmy. W przypadku korzystania z płatnych banków zdjęć koszt licencji jest doliczany dodatkowo do wycen.", "Współpracujemy również z doświadczonym fotografem, dzięki temu możemy zorganizować indywidualną sesję zdjęciową, jeśli chcesz uzyskać w pełni unikalny materiał. Fotograf dojeżdża na umówione miejsce, z wytycznymi od nas i robi zdjęcia potrzebne do projektu (portrety zespołu, zdjęcia budynków i okolicy, czy Twoich produktów). My dostajemy obrobione i gotowe do użycia na Twojej stronie materiały, a Ty możesz się cieszyć jeszcze bardziej spersonalizowaną witryną."]
+                "a": [
+                    "Brak własnych zdjęć nie jest problemem - możemy skorzystać z profesjonalnych banków zdjęć (płatnych lub darmowych), aby dobrać materiały pasujące do charakteru Twojej firmy. W przypadku korzystania z płatnych banków zdjęć koszt licencji jest doliczany dodatkowo do wycen.",
+                    "Współpracujemy również z doświadczonym fotografem, dzięki temu możemy zorganizować indywidualną sesję zdjęciową, jeśli chcesz uzyskać w pełni unikalny materiał. Fotograf dojeżdża na umówione miejsce, z wytycznymi od nas i robi zdjęcia potrzebne do projektu (portrety zespołu, zdjęcia budynków i okolicy, czy Twoich produktów). My dostajemy obrobione i gotowe do użycia na Twojej stronie materiały, a Ty możesz się cieszyć jeszcze bardziej spersonalizowaną witryną."
+                ]
             },
             {
                 "q": "Co wchodzi w skład ceny za zaprojektowanie strony internetowej?",
-                "a": ["Poza standardowymi etapami usługi jak rozmowa odnośnie wymagań, analiza branży, tworzenie strategii oraz na jej podstawie designu i kodu tworzonej strony internetowej czy późniejsze wsparcie techniczne. Dodatkowo koszt strony internetowej zawiera pomniejsze etapy jak: konfiguracja Google Analytics oraz Google Search Console, optymalizację wydajności, utworzenie strony zgodnie z zasadami dostępności dla określonego WCAG, pomoc w zakupie domeny i hostingu oraz ich konfiguracja. Dodatkowo na życzenie klienta uruchamiamy i konfigurujemy wizytówkę profilu firmy w google."]
+                "a": [
+                    "Poza standardowymi etapami usługi jak rozmowa odnośnie wymagań, analiza branży, tworzenie strategii oraz na jej podstawie designu i kodu tworzonej strony internetowej czy późniejsze wsparcie techniczne. Dodatkowo koszt strony internetowej zawiera pomniejsze etapy jak: konfiguracja Google Analytics oraz Google Search Console, optymalizację wydajności, utworzenie strony zgodnie z zasadami dostępności dla określonego WCAG, pomoc w zakupie domeny i hostingu oraz ich konfiguracja. Dodatkowo na życzenie klienta uruchamiamy i konfigurujemy wizytówkę profilu firmy w google."
+                ]
             },
             {
                 "q": "Jakie dodatkowe funkcje indywidualne mogę zamówić na swoją stronę internetową?",
-                "a": ["Jesteśmy w stanie wykonać dowolną funkcjonalność przy projektowaniu zaawansowanych stron internetowych. Od systemów rezerwacji, przez blogi, portfolio online, zaawansowane formularze i konfiguratory, aż po dedykowane panele administracyjne z systemem CRM dla Twojej strony firmowej.", "Dlatego jeśli masz pomysł na swoją witrynę www oraz zaawansowane funkcje na niej, wypełnij formularz wyceny dostępny w menu lub skontaktuj się z nami mailowo lub telefonicznie. Wyceniany Twój projekt strony internetowej, doradzimy i odpowiemy na każde pytanie."]
+                "a": [
+                    "Jesteśmy w stanie wykonać dowolną funkcjonalność przy projektowaniu zaawansowanych stron internetowych. Od systemów rezerwacji, przez blogi, portfolio online, zaawansowane formularze i konfiguratory, aż po dedykowane panele administracyjne z systemem CRM dla Twojej strony firmowej.",
+                    "Dlatego jeśli masz pomysł na swoją witrynę www oraz zaawansowane funkcje na niej, wypełnij formularz wyceny dostępny w menu lub skontaktuj się z nami mailowo lub telefonicznie. Wyceniany Twój projekt strony internetowej, doradzimy i odpowiemy na każde pytanie."
+                ]
             },
             {
                 "q": "Własna strona internetowa - jak przygotować się do zakupu?",
-                "a": ["Przed zamówieniem strony warto zastanowić się, do czego będzie Ci ona potrzebna — czy ma sprzedawać produkty, prezentować ofertę, czy pełnić rolę prostej wizytówki. Pomyśl też o najważniejszych funkcjach, jakie powinna mieć (np. sklep internetowy, formularz kontaktowy, system rezerwacji czy panel do samodzielnej edycji treści) oraz przygotuj materiały, które już posiadasz, takie jak logo, teksty czy zdjęcia.", "Pomocne będzie również określenie orientacyjnego budżetu, terminu do którego strona internetowa powinna być gotowa i informacji, czy masz już domenę oraz hosting, czy też potrzebujesz naszej pomocy w ich wyborze. Na tej podstawie szybko przygotujemy dla Ciebie dopasowaną wycenę i zaplanujemy cały proces tworzenia strony internetowej. Jeśli natomiast nie masz tego wszystkiego nie przejmuj się, pomożemy i doradzimy w każdej kwestii oraz odpowiemy na każde pytanie. Wystarczy do nas napisać i umówić się na konsultację."]
+                "a": [
+                    "Przed zamówieniem strony warto zastanowić się, do czego będzie Ci ona potrzebna — czy ma sprzedawać produkty, prezentować ofertę, czy pełnić rolę prostej wizytówki. Pomyśl też o najważniejszych funkcjach, jakie powinna mieć (np. sklep internetowy, formularz kontaktowy, system rezerwacji czy panel do samodzielnej edycji treści) oraz przygotuj materiały, które już posiadasz, takie jak logo, teksty czy zdjęcia.",
+                    "Pomocne będzie również określenie orientacyjnego budżetu, terminu do którego strona internetowa powinna być gotowa i informacji, czy masz już domenę oraz hosting, czy też potrzebujesz naszej pomocy w ich wyborze. Na tej podstawie szybko przygotujemy dla Ciebie dopasowaną wycenę i zaplanujemy cały proces tworzenia strony internetowej. Jeśli natomiast nie masz tego wszystkiego nie przejmuj się, pomożemy i doradzimy w każdej kwestii oraz odpowiemy na każde pytanie. Wystarczy do nas napisać i umówić się na konsultację."
+                ]
             }
-
         ]
     },
-   "footer": {
+    "footer": {
         "alt": "Logo spółki airtilion",
         "area": {
             "title": "Obszar działania",

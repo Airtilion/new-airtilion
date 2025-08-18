@@ -13,6 +13,48 @@ import PortfolioCallToAction from '@components/singlePortfolio/PortfolioCallToAc
 import PortfolioSum from '@components/singlePortfolio/PortfolioSum'
 
 import { getProjectById, getProjectIds } from '@lib/projects'
+import SlideUpContact from '@components/SlideUpContact'
+
+export async function generateMetadata({ params, searchParams }) {
+  const sParams = searchParams instanceof Promise ? await searchParams : searchParams
+  const lang = sParams?.lang || 'pl'
+  const id = params?.id
+
+  let project = null
+
+  try {
+    project = await getProjectById(id)
+  } catch (e) {
+    project = null
+  }
+
+  const projectName = project?.Name ?? null
+
+  const title = projectName ? `${projectName} — Airtilion Portfolio` : 'Airtilion — Portfolio — Zobacz nasze realizacje'
+  const description = 'Zobacz nasze realizacje: nowoczesne strony internetowe, sklepy i aplikacje. Airtilion — tworzymy produkty, które działają.'
+
+  const canonical = `${process.env.NEXT_PUBLIC_SITE_URL}/portfolio/${id}${lang && lang !== 'pl' ? `?lang=${encodeURIComponent(lang)}` : ''}`
+
+  return {
+    title,
+    description,
+    alternates: { canonical },
+    openGraph: {
+      title,
+      description,
+      url: canonical,
+      type: 'website',
+      images: project?.Background?.file
+        ? [{ url: `${process.env.NEXT_PUBLIC_API_URL}/uploads/projects/${project.Client}/${project.Screens[0].file.replace(/\\/g, '/')}`, alt: projectName ?? 'Projekt' }]
+        : undefined,
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title,
+      description,
+    },
+  }
+}
 
 export async function generateStaticParams() {
   try {
@@ -25,13 +67,17 @@ export async function generateStaticParams() {
 }
 
 export default async function Page({ params, searchParams }) {
-  const { id } = params
-  const lang = searchParams?.lang ?? 'pl'
+
+  const sParams = searchParams instanceof Promise ? await searchParams : searchParams;
+  const lang = sParams?.lang || 'pl';
+
+  const { id } = await params
   const dictionary = (await getDictionary(lang, 'portfolio')) ?? {}
 
   let project
   try {
     project = await getProjectById(id)
+    project = JSON.parse(JSON.stringify(project))
   } catch (err) {
     console.error('Błąd pobierania projektu:', err)
     return <p>Projekt nie znaleziony.</p>
@@ -86,6 +132,7 @@ export default async function Page({ params, searchParams }) {
         )}
 
         <PortfolioCallToAction dict={dictionary.project.cta} />
+        <SlideUpContact dict={dictionary.cta?.form ?? {}} lang={lang} />
       </main>
 
       <div className="gradient-transparency-v absolute w-[800px] h-[calc(100%-550px)] bg-linear-to-r from-[#00000000] via-[#e283504D] to-[#00000000] z-[-3] top-0 left-[50%] translate-x-[-50%] max-lg:w-[500px] max-sm:w-[80%]"></div>

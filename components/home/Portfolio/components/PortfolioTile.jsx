@@ -19,7 +19,7 @@ const PortfolioTile = ({ index, title, desc, bg, id, clientId }) => {
                 <p className='text-[20px] !text-white max-xl:text-[18px]'>{title}</p>
                 <p className='text-[16px] text-[#B4B4B4] line-clamp-4 max-2xl:text-[15px] max-xl:text-[14px]'>{desc}</p>
                 <div className='absolute bottom-0 left-0 z-[-1] w-full h-full max-sm:h-full bg-gradient-to-b from-[#0000033] to-[#000000] to-[80%] backdrop-blur-[10px] [-webkit-mask:linear-gradient(transparent,black_50%)]' />
-                <Image src={getLink(bg.file)} width={298} height={400} alt='xD' placeholder='blur' blurDataURL={bg.base64} className='absolute w-full inset-0 object-cover z-[-2] group-hover:scale-120 duration-[3000ms]' />
+                <Image src={getLink(bg.file)} width={298} height={400} alt={title} placeholder='blur' blurDataURL={bg.base64} className='absolute w-full inset-0 object-cover z-[-2] group-hover:scale-120 duration-[3000ms]' />
             </div>
         </Link>
     )

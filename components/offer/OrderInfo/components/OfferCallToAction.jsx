@@ -3,6 +3,7 @@ import React from 'react'
 
 import laptopPhoto from '@assets/images/offer/pricing.webp'
 import { Icon } from '@iconify/react/dist/iconify'
+import OfferFormButton from './OfferFormButton'
 
 const OfferCallToAction = ({dict}) => {
     return (
@@ -14,10 +15,7 @@ const OfferCallToAction = ({dict}) => {
             <div className='flex flex-col flex-1 gap-2 justify-center pr-8 max-lg:px-8 max-sm:px-4'>
                 <h2 className='text-[25px] max-sm:text-[20px] heading-gradient-gray w-fit'>{dict.title}</h2>
                 <p className='text-[14px] max-2xl:text-[13px] max-sm:text-[12px]'>{dict.content}</p>
-                <button className='flex items-center gap-4 self-end mt-8 max-sm:w-[270px] max-sm:gap-4'>
-                    <p className='!font-normal max-2xl:text-[15px] max-sm:text-[14px] max-sm:text-right'>{dict.button}</p>
-                    <Icon icon="material-symbols:arrow-back" width={25} height={25} className='rotate-[135deg] max-2xl:w-[22px] max-sm:w-[40px]'/>
-                </button>
+                <OfferFormButton text={dict.button}/>
             </div>
 
             <div className='w-[1000px] h-[1000px] bg-[#e28350e1] blur-[100px] absolute rounded-full right-[-500px] top-[-900px] max-lg:top-auto max-lg:bottom-[-900px] z-[-1] max-lg:opacity-50'/>

@@ -1,0 +1,208 @@
+{
+    "header": {
+        "title": "Offer – Website Maintenance",
+        "description": "Our offer includes not only website development, but also administration and maintenance services aimed at keeping your site secure, optimized, and fully operational.",
+        "alt": "Website maintenance – image showing a computer"
+    },
+    "introduction": {
+        "title": "Maintaining your website is the best investment for your business",
+        "content": [
+            "Professional website maintenance is not just about 'installing updates'. It is continuous care that minimizes the risk of failures, speeds up site performance, increases security, and improves search engine ranking. With reliable support, you save time and gain confidence that your website runs smoothly – all of which builds user trust and increases conversions.",
+            "We ensure performance, security, and availability. Our services include automated uptime monitoring, regular CMS updates (e.g., WordPress), backups, removing the effects of hacking attacks, updating website content, and quick incident response – ensuring your site is always available and secure. We also offer modernization services on an hourly basis (a set number of hours per month or open-ended with hourly billing)."
+        ],
+        "alt": "Image of Earth – headquarters of the company providing website maintenance services"
+    },
+    "fasterwebs": {
+        "title": "Faster websites",
+        "title2": "Website maintenance – a professional approach",
+        "content": "Thanks to performance optimization and proper server configuration, websites load faster, which improves user experience and boosts SEO. Additionally, we implement security measures – from SSL certificate installation, link monitoring, and indexing error checks, to virus removal and backup restoration. We use proven technical solutions and processes, increasing website security and enabling continuous monitoring. As part of modernization, we update both the technical aspects and design, and in some cases migrate to newer, more efficient solutions (e.g., ReactJS, NextJS).",
+        "alt": "Photo of a laptop used for website maintenance"
+    },
+    "websiteElements": {
+        "title": "What does website maintenance include?",
+        "content": "Whether the scope is small or extensive, website maintenance may include:",
+        "elements": [
+            "Ongoing administrator support",
+            "Website audit",
+            "Regular system and plugin updates",
+            "Backups and restoration",
+            "Monitoring – ensuring website availability",
+            "Website performance checks and update reports",
+            "Website security audits",
+            "Virus removal and hacking recovery",
+            "Website optimization",
+            "SSL certificate installation and security configuration",
+            "GDPR compliance setup",
+            "Adding new content",
+            "Updating existing content",
+            "Intuitive CMS + user training",
+            "Support with website migration",
+            "Feature expansion",
+            "Periodic reports, link monitoring",
+            "Quick incident response",
+            "...and much more – we tailor the package to your needs"
+        ]
+    },
+    "cooperation": {
+        "title": "Website maintenance process",
+        "content": "Whether it’s ongoing care or a one-time service, the process can be complex. Thanks to our proven approach, we guide you through every step – clearly, efficiently, and without unnecessary complications. From first contact to post-implementation support, you have full control and transparency. Here’s how our cooperation works in practice:",
+        "steps": [
+            {
+                "title": "Brief",
+                "desc": "We discuss your expectations: scope of maintenance, critical elements, priorities, and technology preferences."
+            },
+            {
+                "title": "Agreement",
+                "desc": "After discussions, we send a proposed scope of services and an agreement (online or in print). In a subscription model, we define a set number of hours per month or apply an hourly rate with no limits."
+            },
+            {
+                "title": "Audit & configuration",
+                "desc": "The first stage includes a website audit (security, performance, backups), creating an improvement plan, and setting up monitoring."
+            },
+            {
+                "title": "Execution & maintenance",
+                "desc": "We perform updates, implement security measures, optimize performance, and carry out regular checks. All actions are documented and reported. Upon request, we can rebuild the entire site."
+            },
+            {
+                "title": "Handover",
+                "desc": "At the initial implementation, we provide a summary of completed tasks, access credentials, instructions, and training. In subscription models, we proceed with ongoing maintenance."
+            },
+            {
+                "title": "Technical support",
+                "desc": "We provide technical support, backups, and restoration options. Extended maintenance packages are available for clients requiring priority service."
+            }
+        ],
+        "alts": [
+            "Website maintenance – example of an online store on a laptop",
+            "Website maintenance – example of an online store on a phone"
+        ],
+        "ending": "Although we follow a defined process, working with us means more than just ticking boxes. We stay in constant contact, advise, and suggest the best solutions – ensuring you never feel left on your own."
+    },
+    "pricing": {
+        "pricingIntro": {
+            "title": "What is the timeline and cost of website maintenance?",
+            "content": "The approximate cost and completion time depend on the scope of work and the chosen billing model. In a subscription model, we agree on a fixed monthly fee based on the number of hours included – the client pays upfront for the set number of hours. In an hourly model, we provide a per-hour rate and bill for actual hours worked, based on weekly reports with invoices. The approximate hourly rate range is 50–100 PLN net – the final rate depends on required skills, urgency, and SLA conditions. When preparing an offer, we always analyze your website and recommend the most cost-effective option (subscription with guaranteed hours or hourly billing). We consider the site’s technical state, integrations, migration/backup needs, and expected response time. If an existing site is heavily outdated or built with non-standard solutions, it’s often more cost-effective to build a new site from scratch instead of a costly overhaul. One-time services are also available."
+        },
+        "cta": {
+            "title": "Get a free website maintenance quote",
+            "content": "We’re always ready to prepare an offer tailored to your website. Request a free quote, and we’ll get back to you within 24 hours or the next business day. Not sure what exactly you need? Don’t worry – we’ll advise and suggest the best solution.",
+            "button": "Click to go to the quote form",
+            "alt": "Laptop with website maintenance offer"
+        }
+    },
+    "portfolio": {
+        "title": "Completed projects",
+        "alts": ["Mobile phones with examples of website maintenance projects", "Portfolio element for website maintenance", "Website maintenance project logo"],
+        "content": "Check out our past projects and see the websites we’ve built.",
+        "button": "Go to full portfolio"
+    },
+    "cta": {
+        "title": "Get a free quote",
+        "content": "We’re ready to create your own website. Fill out the simple form and request a free quote for your project. We’ll get back to you within 24 hours or the next business day. Not sure what exactly you need? Don’t worry – we’ll guide you through the whole process and answer all your questions.",
+        "button": "Request a free quote",
+        "alt": "Lion image promoting professional business websites",
+        "form": {
+            "tag": "Your project. Our passion. Shared success.",
+            "title": "Want to know how much your project will cost? Fill out the form!",
+            "content": "We’ll get back to you within 24 hours or the next business day. We’ll discuss your needs, advise you, and provide a project estimate. If you don’t want to fill out the form, you can also reach us by phone.",
+            "contactData": [
+                "Phone numbers",
+                "Email address",
+                "Business hours"
+            ],
+            "close": "Close",
+            "fields": [
+                "Full name",
+                "Email",
+                "Phone number",
+                "Preferred contact hours",
+                "Project type",
+                "Brief description of the project"
+            ],
+            "condition": [
+                "I accept the <a href='/privacy-policy.pdf' target='_blank'>privacy policy</a> and agree to the <a href='/privacy-policy.pdf' target='_blank'>processing of personal data</a>",
+                "I agree to the <a href='/contest-for-the-purpose-of-sending-requested-commercial-information.pdf' target='_blank'>processing of my data</a> in order to receive commercial information"
+            ],
+            "button": "Send request",
+            "errors": [
+                "",
+                "Full name is required",
+                "Invalid email address",
+                "Email is required",
+                "Phone number is required",
+                "Invalid phone number",
+                "Short description required",
+                "You must accept the privacy policy",
+                "You must consent to receiving commercial information",
+                "Bot detected",
+                "Failed to send request"
+            ],
+            "success": "Your request has been successfully sent!"
+        }
+    },
+    "faq": {
+        "title": "Frequently Asked Questions about Website Maintenance",
+        "content": "This section contains answers to the most common questions about working with us – from the briefing stage, through technology and tool selection, to project timelines and support processes. Didn’t find what you’re looking for? Contact us, and we’ll respond within 24 hours.",
+        "qna": [
+            {
+                "q": "What happens if the website suddenly stops working?",
+                "a": [
+                    "We first trigger an emergency procedure: confirm the problem, set up a temporary information page (if needed), and restore the latest backup. At the same time, we analyze the cause, fix it, and apply safeguards to prevent recurrence. We keep you informed about progress and the estimated full recovery time."
+                ]
+            },
+            {
+                "q": "How do you protect my clients’ data and form submissions?",
+                "a": [
+                    "We minimize stored data, use encrypted connections, and apply website security measures. Access is restricted only to authorized people. Forms are configured not to save unnecessary data; where needed, we suggest secure storage or encryption. We’ll also advise on GDPR-compliant consents to include in forms."
+                ]
+            },
+            {
+                "q": "What if an update ‘breaks’ something?",
+                "a": [
+                    "We always make a backup before updating and – whenever possible – test changes in a staging environment first. If something goes wrong, we restore from the backup and fix the issue. We inform you about risky elements and recommend an update sequence to minimize risk."
+                ]
+            },
+            {
+                "q": "How can I report an issue, and how quickly will you respond?",
+                "a": [
+                    "You can report issues via email / phone / form (as per the agreement). Include your site address, error description, and screenshot. We confirm receipt and give an estimated response time. For critical failures, we activate priority mode and keep you updated."
+                ]
+            },
+            {
+                "q": "When is it better to rebuild a website rather than fix it, and how does it work?",
+                "a": [
+                    "If ongoing fixes consume too much time and money, the site is slow, technically outdated, or prevents implementing new features – rebuilding is often more cost-effective than endless patching. A new project ensures cleaner code, better performance, easier maintenance, and reduced risk of failures, making the investment pay off quickly.",
+                    "How we do it: we start with a quick audit and briefing to define priorities and must-have elements. We rebuild in stages – developing and testing in a staging environment, migrating content, setting up SEO redirects, and only then switching to production. This staged process ensures critical functions are ready earlier, reduces risk, and spreads costs (milestone billing or full project pricing). Additional services, such as third-party integrations or photo sessions, are quoted separately and scheduled to avoid service downtime."
+                ]
+            },
+            {
+                "q": "How will I know everything is under control?",
+                "a": [
+                    "You receive clear reports: completed tasks, performed backups, and status of critical services (uptime, errors). In hourly models, we also send weekly timesheet reports. After an incident, you get a summary with causes and recommendations."
+                ]
+            }
+        ]
+    },
+    "footer": {
+        "alt": "Airtilion company logo",
+        "area": {
+            "title": "Operating area",
+            "ending": "... and many more"
+        },
+        "docs": [
+            {
+                "name": "Privacy policy",
+                "link": "/privacy-policy.pdf"
+            },
+            {
+                "name": "Terms of electronic services",
+                "link": "/terms-and-conditions-for-the-provision-of-electronic-services.pdf"
+            },
+            {
+                "name": "Consent to receive commercial information",
+                "link": "/contest-for-the-purpose-of-sending-requested-commercial-information.pdf"
+            }
+        ],
+        "companyInfo": "Airtilion Sp. z o.o., ul. Słoneczna 32/9, 33-100 Tarnów, registered in the Register of Entrepreneurs of the National Court Register by the District Court for Kraków-Śródmieście in Kraków, 12th Commercial Division of the National Court Register under KRS no. 0001143482, share capital of PLN 5,000.00 fully paid, TAX ID (NIP): 8733299720"
+    }
+}

@@ -205,3 +205,102 @@ button {
   opacity: 1;
   pointer-events: auto;
 }
+
+/* ------------ BLOG ----------- */
+.blog-content h2{
+  font-size: 30px;
+  font-weight: 400;
+}
+
+.blog-content h3{
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.blog-content p{
+  font-size: 17px;
+  font-weight: 200;
+  margin-top: 16px;
+}
+
+.blog-content ul{
+  margin-top: 16px;
+  padding-left: 25px;
+  list-style: disc;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  font-weight: 200;
+}
+
+.blog-content ol{
+  margin-top: 16px;
+  padding-left: 25px;
+  list-style: decimal;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  font-weight: 200;
+}
+
+.blog-content a, .blog-content a > strong, .blog-intro a, .blog-intro a > strong{
+  color:#E28350;
+  transition-duration: 500ms;
+}
+
+.blog-content a:hover, .blog-content a:hover > strong, .blog-intro a:hover, .blog-intro a:hover > strong{
+  color:#7d642e;
+}
+
+blockquote{
+  border-left: 3px solid #8a8a8a;
+  padding-left: 16px;
+  font-style: italic;
+}
+
+.aligncenter{
+  display: flex;
+  justify-content: center;
+}
+
+.blog-content pre{
+    padding: 16px;
+    background: #222222;
+    border-radius: 5px;
+    text-wrap: auto;
+}
+
+.blog-content img{border-radius: 5px;}
+
+.blog-content .single-description{color: #8a8a8a; font-size: 12px;}
+
+.blog-content .wp-block-columns{display: flex; gap: 32px;}
+
+.blog-content .wp-block-column{width: 50%;}
+
+.blog-content .wp-block-table{overflow-x: auto;}
+.blog-content table{width: 100%; table-layout: fixed;  border-collapse: collapse;}
+.blog-content .wp-block-table table td,
+.blog-content .wp-block-table table th {
+  box-sizing: border-box;
+  padding: 8px 10px;
+  border: 1px solid #ddd;
+  font-size: 14px; 
+}
+
+@media only screen and (max-width: 1023px){
+  .blog-content h2{font-size: 25px;}
+  .blog-content table{width: 800px;}
+}
+
+@media only screen and (max-width: 767px){
+  .blog-content .wp-block-columns{flex-direction: column; gap: 32px;}
+  .blog-content .wp-block-column{width: 100%}
+  .blog-content .wp-block-column figure{display: flex; justify-content: center;}
+  .blog-content h2{font-size: 20px; font-weight: 500;}
+
+}
+
+@media only screen and (max-width: 350px){
+  .blog-content h2{font-size: 22px;}
+}

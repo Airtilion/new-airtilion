@@ -3,7 +3,7 @@ import Header from '@components/Header';
 import { getDictionary } from '@utils/getDictionary';
 import React from 'react'
 
-import offerBg from '@assets/images/headers/offer-websites-bg.webp'
+import offerBg from '@assets/images/headers/offer-shop-bg.webp'
 import OfferIntroduction from '@components/offer/Introduction/OfferIntroduction';
 import CoopSteps from '@components/offer/CoopSteps/CoopSteps';
 import OrderInfo from '@components/offer/OrderInfo/OrderInfo';
@@ -12,6 +12,20 @@ import OfferFaq from '@components/offer/OfferFaq';
 import OfferElements from '@components/offer/OfferElements';
 import { getLatestProjects } from '@lib/mainProjects';
 import SlideUpContact from '@components/SlideUpContact';
+
+import laptopPhoto from '@assets/images/offer/shop-pricing.webp'
+import coop1 from '@assets/images/offer/shop-coop-1.webp'
+import coop2 from '@assets/images/offer/shop-coop-2.webp'
+
+export const revalidate = 3600*24
+
+export const metadata = {
+    title: "Innowacyjne rozwiązania dla sklepów internetowych | Airtilion",
+    description: "Sprawdź nasze usługi tworzenia sklepów internetowych i zwiększ swoją sprzedaż online! Tworzymy sklepy w oparciu o WooCommerce i nie tylko.",
+    alternates: {
+        canonical: 'https://airtilion.com/oferta-sklepy-internetowe',
+    },
+}
 
 const page = async ({ searchParams }) => {
     const params = searchParams instanceof Promise ? await searchParams : searchParams;
@@ -29,8 +43,8 @@ const page = async ({ searchParams }) => {
             <main className='flex flex-col gap-[192px] mt-[192px] overflow-hidden max-sm:mt-[128px]'>
                 <OfferIntroduction dict={dictionary} />
                 <OfferElements dict={dictionary.websiteElements} />
-                <CoopSteps dict={dictionary.cooperation} />
-                <OrderInfo dict={dictionary.pricing} />
+                <CoopSteps dict={dictionary.cooperation} img1={coop1} img2={coop2}/>
+                <OrderInfo dict={dictionary.pricing} bg={laptopPhoto}/>
                 <OfferPortfolio dict={dictionary.portfolio} data={projectsData}/>
                 <OfferFaq dict={dictionary.faq} />
                 <SlideUpContact dict={dictionary.cta.form} lang={lang} />

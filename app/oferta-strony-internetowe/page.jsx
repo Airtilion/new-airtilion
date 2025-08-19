@@ -13,6 +13,20 @@ import OfferElements from '@components/offer/OfferElements';
 import { getLatestProjects } from '@lib/mainProjects';
 import SlideUpContact from '@components/SlideUpContact';
 
+import laptopPhoto from '@assets/images/offer/pricing.webp'
+import coop1 from '@assets/images/offer/coop-1.webp'
+import coop2 from '@assets/images/offer/coop-2.webp'
+
+export const revalidate = 3600*24
+
+export const metadata = {
+    title: "Projektowanie stron internetowych - innowacja i profesjonalizm | Airtilion",
+    description: "Projektujemy strony internetowe. Skorzystaj z naszych usług i ciesz się innowacyjnymi rozwiązaniami w Twojej branży!",
+    alternates: {
+        canonical: 'https://airtilion.com/oferta-strony-internetowe',
+    },
+}
+
 const page = async ({ searchParams }) => {
     const params = searchParams instanceof Promise ? await searchParams : searchParams;
     const lang = params?.lang || 'pl';
@@ -29,8 +43,8 @@ const page = async ({ searchParams }) => {
             <main className='flex flex-col gap-[192px] mt-[192px] overflow-hidden max-sm:mt-[128px]'>
                 <OfferIntroduction dict={dictionary} />
                 <OfferElements dict={dictionary.websiteElements} />
-                <CoopSteps dict={dictionary.cooperation} />
-                <OrderInfo dict={dictionary.pricing} />
+                <CoopSteps dict={dictionary.cooperation} img1={coop1} img2={coop2}/>
+                <OrderInfo dict={dictionary.pricing} bg={laptopPhoto}/>
                 <OfferPortfolio dict={dictionary.portfolio} data={projectsData}/>
                 <OfferFaq dict={dictionary.faq} />
                 <SlideUpContact dict={dictionary.cta.form} lang={lang} />

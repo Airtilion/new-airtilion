@@ -3,7 +3,7 @@ import Header from '@components/Header';
 import { getDictionary } from '@utils/getDictionary';
 import React from 'react'
 
-import offerBg from '@assets/images/headers/offer-apps-bg.webp'
+import offerBg from '@assets/images/headers/offer-other-bg.webp'
 import OfferIntroduction from '@components/offer/Introduction/OfferIntroduction';
 import CoopSteps from '@components/offer/CoopSteps/CoopSteps';
 import OrderInfo from '@components/offer/OrderInfo/OrderInfo';
@@ -13,24 +13,24 @@ import OfferElements from '@components/offer/OfferElements';
 import { getLatestProjects } from '@lib/mainProjects';
 import SlideUpContact from '@components/SlideUpContact';
 
-import laptopPhoto from '@assets/images/offer/app-pricing.webp'
-import coop1 from '@assets/images/offer/app-coop-1.webp'
-import coop2 from '@assets/images/offer/app-coop-2.webp'
+import laptopPhoto from '@assets/images/offer/other-pricing.webp'
+import coop1 from '@assets/images/offer/other-coop-1.webp'
+import coop2 from '@assets/images/offer/other-coop-2.webp'
 
 export const revalidate = 3600*24
 
 export const metadata = {
-    title: "Tworzenie aplikacji mobilnych - innowacja i profesjonalizm | Airtilion",
-    description: "Potrzebujesz aplikacji mobilnej? Skorzystaj z naszych usług tworzenia aplikacji mobilnych i ciesz się innowacyjnymi rozwiązaniami w Twojej branży!",
+    title: "Administracja i obsługa strony internetowej | Airtilion",
+    description: "Zapewniamy obsługę strony internetowej oraz jej administrację, a także usługi modernizacji witryny. Zamów darmową wycenę i konsultację.",
     alternates: {
-        canonical: 'https://airtilion.com/oferta-aplikacje-mobilne',
+        canonical: 'https://airtilion.com/oferta-uslugi-dodatkowe',
     },
 }
 
 const page = async ({ searchParams }) => {
     const params = searchParams instanceof Promise ? await searchParams : searchParams;
     const lang = params?.lang || 'pl';
-    const file = await getDictionary(lang, 'offer-apps');
+    const file = await getDictionary(lang, 'offer-other');
     const dictionary = file || {};
     const dictionaryFooter = file.footer || {};
 

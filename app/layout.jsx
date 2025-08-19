@@ -11,20 +11,20 @@ import Script from 'next/script';
 const montserrat = Montserrat({ subsets: ['latin'] });
 
 export const metadata = {
-  title: "Airtilion - Strony internetowe na miarę przyszłości",
-  description: "Nowoczesne strony internetowe, sklepy online, projekty graficzne i aplikacje mobilne. Skontaktuj się z nami, aby poznać naszą ofertę i rozwiązania dla Ciebie!",
+  title: "Tworzenie stron internetowych | Airtilion",
+  description: "Tworzenie stron internetowych, sklepów online, projektów graficznych i aplikacji mobilnych. Skontaktuj się z nami, aby poznać naszą ofertę i rozwiązania dla Ciebie!",
   openGraph: {
-    title: "Airtilion - Strony internetowe na miarę przyszłości",
-    description: "Nowoczesne strony internetowe, sklepy online, projekty graficzne i aplikacje mobilne. Skontaktuj się z nami, aby poznać naszą ofertę i rozwiązania dla Ciebie!",
+    title: "Tworzenie stron internetowych | Airtilion",
+    description: "Tworzenie stron internetowych, sklepów online, projektów graficznych i aplikacji mobilnych. Skontaktuj się z nami, aby poznać naszą ofertę i rozwiązania dla Ciebie!",
     type: "website",
     url: "https://airtilion.com",
-    siteName: "Airtilion - Strony internetowe na miarę przyszłości",
+    siteName: "Tworzenie stron internetowych | Airtilion",
     images: [
       {
         url: "https://airtilion.com/opengraph-image.png",
         width: 1200,
         height: 630,
-        alt: "Airtilion - Strony internetowe na miarę przyszłości"
+        alt: "Tworzenie stron internetowych | Airtilion"
       }
     ]
   },
@@ -79,7 +79,7 @@ export default function RootLayout({ children }) {
     "url": "https://airtilion.com/",
     "inLanguage": "pl",
     "contentLanguage": "pl-PL",
-    "description": "Nowoczesne strony internetowe, sklepy online, projekty graficzne i aplikacje mobilne. Skontaktuj się z nami, aby poznać naszą ofertę i rozwiązania dla Ciebie!"
+    "description": "Tworzenie stron internetowych, sklepów online, projektów graficznych i aplikacji mobilnych. Skontaktuj się z nami, aby poznać naszą ofertę i rozwiązania dla Ciebie!"
   };
 
   return (

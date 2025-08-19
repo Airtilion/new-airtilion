@@ -1,11 +1,10 @@
 import Image from 'next/image'
 import React from 'react'
 import Step from './components/Step'
-import coop1 from '@assets/images/offer/coop-1.webp'
-import coop2 from '@assets/images/offer/coop-2.webp'
+
 import IntersectionListener from '@components/IntersectionListener'
 
-const CoopSteps = ({dict}) => {
+const CoopSteps = ({dict, img1, img2}) => {
   return (
     <section id="coop-section" className='w-full relative pb-8 coop-hidden'>
         <IntersectionListener selector="#coop-section" visibleClass="coop-visible" hiddenClass="coop-hidden" threshold="0.1" rootMargin='0px 0px -50px 0px' />
@@ -14,7 +13,7 @@ const CoopSteps = ({dict}) => {
             <h2 className='text-[30px] max-2xl:text-[25px] max-sm:text-[20px] heading-gradient-gray w-fit selt-start animation-bottom transition-all duration-1000 ease-in-out'>{dict.title}</h2>
             <p className='text-[16px] max-2xl:text-[15px] max-sm:text-[14px] animation-bottom transition-all duration-1000 ease-in-out mb-12'>{dict.content}</p>
             <div className='flex gap-8 animation-right transition-all duration-1000 ease-in-out  max-md:flex-col'>
-                <Image quality={100} src={coop1} width={600} height={400} alt={dict.alts[0]} className='max-xl:h-auto max-xl:object-cover object-right max-xl:w-[400px] max-lg:w-[300px] max-md:w-full max-md:h-[250px]'/>
+                <Image quality={100} src={img1} width={600} height={400} alt={dict.alts[0]} className='max-xl:h-auto max-xl:object-cover object-right max-xl:w-[400px] max-lg:w-[300px] max-md:w-full max-md:h-[250px]'/>
                 <div className='flex flex-col gap-8 flex-1'>
                     {dict.steps.slice(3).map((step, idx) => <Step key={idx} title={step.title} desc={step.desc} def={true} number={idx}/>)}
                 </div>
@@ -26,7 +25,7 @@ const CoopSteps = ({dict}) => {
                 <div className='flex flex-col gap-8 flex-1'>
                     {dict.steps.slice(3).map((step, idx) => <Step key={idx} title={step.title} desc={step.desc} def={false} number={idx + 3}/>)}
                 </div>
-                <Image quality={100} src={coop2} width={600} height={400} alt={dict.alts[1]} className='max-xl:h-auto max-xl:object-cover object-right max-xl:w-[400px] max-lg:w-[300px] max-md:w-full max-md:h-[250px]'/>
+                <Image quality={100} src={img2} width={600} height={400} alt={dict.alts[1]} className='max-xl:h-auto max-xl:object-cover object-right max-xl:w-[400px] max-lg:w-[300px] max-md:w-full max-md:h-[250px]'/>
             </div>
 
             <p className='text-center w-[80%] mx-auto animation-bottom transition-all duration-1000 ease-in-out max-2xl:text-[15px] max-sm:text-[14px] mt-12 max-sm:w-[90%]'>{dict.ending}</p>

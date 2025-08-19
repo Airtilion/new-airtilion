@@ -119,7 +119,7 @@
                 "Phone number",
                 "Preferred call time",
                 "Project type",
-                "Short website description"
+                "Short shop description"
             ],
             "condition": [
                 "I accept the <a href='/privacy-policy.pdf' target='_blank'>privacy policy</a> and consent to the <a href='/privacy-policy.pdf' target='_blank'>processing of personal data</a>",

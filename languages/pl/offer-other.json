@@ -1,0 +1,208 @@
+{
+    "header": {
+        "title": "Oferta - obsługa strony internetowej",
+        "description": "W naszej ofercie oprócz tworzenia stron znajdziesz również usługi ich administracji i obsługi, czyli działania mające na celu utrzymanie, zabezpieczenie i optymalizację Twojej witryny.",
+        "alt": "Obsługa strony internetowej - zdjęcie przedstawiające komputer"
+    },
+    "introduction": {
+        "title": "Obsługa Twojej witryny to najlepsza inwestycja dla Twojego biznesu",
+        "content": [
+            "Profesjonalna obsługa strony internetowej to nie tylko „wgrywanie aktualizacji”. To stała opieka, która minimalizuje ryzyko awarii, przyspiesza działanie witryny, zwiększa bezpieczeństwo i poprawia pozycję w wyszukiwarkach. Dzięki sprawnemu wsparciu zyskujesz czas i pewność, że strona działa prawidłowo - wszystko to wpływa na wzrost zaufania użytkowników i konwersji.",
+            "Dbamy o wydajność, bezpieczeństwo i dostępność. Nasze działania obejmują automatyczny monitoring dostępności, regularne aktualizacje systemu CMS (np. WordPress), kopie zapasowe, usuwanie skutków ataków hakerskich, aktualizację treści strony internetowej oraz szybkie reagowanie na incydenty - tak, aby Twoja strona była dostępna i bezpieczna przez cały czas. Prowadzimy także usługi modernizacji strony w modelu godzinowym (określona ilość godzin w miesiącu lub nieokreślona z płatnością za godzinę)."
+        ],
+        "alt": "Zdjęcie Ziemii - siedziba firmy oferującej obsługę strony internetowej"
+    },
+    "fasterwebs": {
+        "title": "Szybsze strony",
+        "title2": "Obsługa strony internetowej - profesjonalne podejście",
+        "content": "Dzięki optymalizacji wydajności i właściwej konfiguracji serwera strony ładują się szybciej, co poprawia doświadczenie użytkownika i wpływa na optymalizację SEO. Dodatkowo wdrażamy mechanizmy zabezpieczające - od instalacji certyfikatu SSL, przez monitoring linków i kontroli błędów indeksowania, po usuwanie wirusów i przywracanie kopii zapasowych. Przy obsłudze stron korzystamy ze sprawdzonych rozwiązań technicznych i procesów, co pozwala zwiększyć bezpieczeństwo strony internetowej oraz umożliwia jej stały monitoring strony. W ramach modernizacji uaktualniamy stronę pod względem technicznym jak i designu, a w skrajnych przypadkach przenosimy na nowsze, wydajniejsze rozwiązania (np. ReactJS, NextJS).",
+        "alt": "Zdjęcie przedstawiające laptopa użytkowanego do opieki nad stronami internetowymi"
+    },
+    "websiteElements": {
+        "title": "Co zawiera obsługa strony internetowej?",
+        "content": "Niezależnie czy zakres jest mały czy rozbudowany, usługa opieki nad stroną internetową może zawierać:",
+        "elements": [
+            "Stała opieka administratora",
+            "Audyt strony internetowej",
+            "Regularne aktualizacje systemu i wtyczek",
+            "Kopie bezpieczeństwa i przywracanie kopii zapasowej",
+            "Monitoring - dbanie o dostępność strony internetowej",
+            "Kontrola działania strony i raporty o aktualizacjach",
+            "Kontrola bezpieczeństwa strony internetowej",
+            "Usuwanie wirusów i usuwanie skutków ataku hakerskiego",
+            "Optymalizacja strony internetowej",
+            "Instalacja certyfikatu SSL i konfiguracja zabezpieczeń",
+            "Przygotowanie zgód RODO",
+            "Dodawanie nowych treści",
+            "Aktualizacja obecnych treści",
+            "Intuicyjny system zarządzania treścią + szkolenie z obsługi",
+            "Pomoc w migracji stron WWW",
+            "Rozbudowa funkcjonalności",
+            "Raporty okresowe, monitoring linków",
+            "Szybkie reagowanie na problemy",
+            "... i wiele więcej - dopasujemy pakiet do Twoich potrzeb"
+        ]
+    },
+    "cooperation": {
+        "title": "Proces obsługi strony internetowej",
+        "content": "Opieka nad stroną czy usługa jednorazowa często złożony proces, ale dzięki sprawdzonemu podejściu, prowadzimy Cię przez niego krok po kroku - jasno, konkretnie i bez zbędnych komplikacji. Od pierwszego kontaktu, aż po wsparcie po wdrożeniu masz pełną kontrolę nad przebiegiem prac i wiesz dokładnie, co się dzieje. Poniżej przedstawiamy, jak wygląda współpraca w praktyce:",
+        "steps": [
+            {
+                "title": "Brief",
+                "desc": "Rozmawiamy o Twoich oczekiwaniach: zakresie obsługi strony, krytycznych elementach, priorytetach i preferencjach technologicznych."
+            },
+            {
+                "title": "Umowa",
+                "desc": "Po ustaleniach przesyłamy propozycję zakresu usług i umowę (online lub tradycyjnie). W modelu abonamentowym ustalamy zakres godzin w miesiącu lub stawkę godzinową przy nieograniczonej liczbie godzin."
+            },
+            {
+                "title": "Audyt i konfiguracja",
+                "desc": "Pierwszy etap to audyt strony (bezpieczeństwo, wydajność, kopie zapasowe), przygotowanie planu naprawczych działań i konfiguracja monitoringu."
+            },
+            {
+                "title": "Realizacja i utrzymanie",
+                "desc": "Wykonujemy aktualizacje, wdrażamy zabezpieczenia, przeprowadzamy optymalizacje i regularne kontrole. Działania dokumentujemy i raportujemy. Na życzenie przebudowujemy cały serwis."
+            },
+            {
+                "title": "Odbiór i przekazanie",
+                "desc": "Przy pierwszym wdrożeniu przedstawiamy wykaz wykonanych prac, przekazujemy dostęp, instrukcje i szkolenie. W modelu abonamentowym przechodzimy do stałego utrzymania."
+            },
+            {
+                "title": "Wsparcie techniczne",
+                "desc": "Zapewniamy wsparcie techniczne oraz kopie zapasowe i opcje przywracania. Oferujemy też rozszerzone pakiety utrzymaniowe dla klientów oczekujących priorytetowej obsługi."
+            }
+        ],
+        "alts": [
+            "Obsługa stron internetowych, przykład sklepu przedstawiony na laptopie",
+            "Obsługa stron internetowych, przykład sklepu przedstawiony na telefonie"
+        ],
+        "ending": "Choć mamy określony proces, współpraca z nami to coś więcej niż realizacja punktów z listy. Pozostajemy w stałym kontakcie, doradzamy i podpowiadamy najlepsze rozwiązania – tak, abyś na żadnym etapie nie czuł się pozostawiony sam sobie."
+    },
+    "pricing": {
+        "pricingIntro": {
+            "title": "Jaki jest czas realizacji i ile kosztuje obsługa strony internetowej?",
+            "content": "Orientacyjny koszt i czas wykonania zależą od zakresu prac i wybranego modelu rozliczenia. W modelu abonamentowym ustalamy stałą miesięczną opłatę na podstawie liczby godzin w pakiecie - klient płaci z góry za określony limit godzin. W modelu godzinowym podajemy stawkę za godzinę pracy i rozliczamy faktycznie przepracowany czas na podstawie raportu wysyłanego raz w tygodniu razem z fakturą. Orientacyjny przedział stawki za godzinę to 50–100 zł netto - ostateczna stawka zależy od zakresu kompetencji potrzebnych do realizacji, pilności zlecenia i warunków SLA. Przy przygotowywaniu oferty zawsze analizujemy stronę i dopasowujemy model rozliczenia do Twoich potrzeb - po krótkim briefie doradzamy, co będzie bardziej opłacalne (abonament z gwarantowanymi godzinami czy rozliczenie godzinowe). Bierzemy pod uwagę stan techniczny strony, zakres integracji, konieczność migracji/backupów i oczekiwany czas reakcji. Gdy istniejąca strona jest mocno przestarzała lub mocno rozbudowana niestandardowymi rozwiązaniami, często bardziej opłacalne jest stworzenie nowej strony od podstaw zamiast kosztownej gruntownej przebudowy. Możliwe jest także zamówienie usługi jednorazowej."
+        },
+        "cta": {
+            "title": "Skorzystaj z darmowej wyceny obsługi strony internetowej",
+            "content": "Zawsze jesteśmy gotowi, żeby przygotować ofertę dopasowaną do Twojej witryny. Zamów darmową wycenę, a my odezwiemy się w ciągu 24h lub w najbliższym dniu roboczym. Nie wiesz jeszcze czego dokładnie potrzebujesz? Nie przejmuj się, doradzimy i zaproponujemy optymalne rozwiązanie.",
+            "button": "Kliknij aby przejść do formularza wyceny",
+            "alt": "Zdjęcie laptopa z ofertą obsługi strony internetowej"
+        }
+    },
+    "portfolio": {
+        "title": "Wcześniej zrealizowane projekty",
+        "alts": ["Zdjęcie telefonów z przykładowymi obsługi stron internetowych", "Element z portfolio obsługi stron internetowych", "Logo projektu obsługi stron internetowych"],
+        "content": "Zobacz nasze dotychczasowe realizacje i przekonaj się, jak wyglądają strony internetowe, które tworzymy.",
+        "button": "Przejdź do pełnego portfolio"
+    },
+    "cta": {
+        "title": "Skorzystaj z darmowej wyceny",
+        "content": "Jesteśmy gotowi, żeby stworzyć dla Ciebie Twoją własną stronę internetową. Wypełnij prosty formularz i zamów darmową wycenę swojego projektu. Odezwiemy się do Ciebie w ciągu 24h lub w najbliższym dniu roboczym. Jeśli jeszcze nie wiesz czego dokładnie potrzebujesz nie przejmuj się. Doradzimy i przeprowadzimy Cię przez cały proces. Odpowiemy na każde twoje pytanie.",
+        "button": "Zamów darmową wycenę",
+        "alt": "Zdjęcie przedstawiające lwa promującego profesjonalne strony internetowe dla firm",
+        "form": {
+            "tag": "Twój projekt. Nasza pasja. Wspólny skuces.",
+            "title": "Chcesz dowiedzieć się ile będzie kosztował Twój projekt? Wypełnij formularz!",
+            "content": "Odezwiemy się do Ciebie w ciągu 24 godzin lub w kolejny dzień roboczy. Omówimy Twoje potrzeby, doradzimy i zaproponujemy cenę za projekt. Jeśli jednak nie chcesz wypełniać formularza, możesz skontaktować się z nami telefonicznie.",
+            "contactData": [
+                "Numery telefonu",
+                "Adres email",
+                "Godziny otwarcia"
+            ],
+            "close": "Zamknij",
+            "fields": [
+                "Imię i nazwisko",
+                "Email",
+                "Numer telefonu",
+                "Preferowane godziny kontaktu telefonicznego",
+                "Typ projektu",
+                "Krótki opis zlecenia"
+            ],
+            "condition": [
+                "Akceptuję <a href='/polityka-prywatnosci.pdf' target='_blank'>politykę prywatności</a> i wyrażam zgodę na <a href='/polityka-prywatnosci.pdf' target='_blank'>przetwarzanie danych osobowych</a>",
+                "Wyrażam zgodę na <a href='/zgoda-informacja-handlowa.pdf' target='_blank'>przetwarzanie moich danych</a> w celu otrzymania informacji handlowej"
+            ],
+            "button": "Wyślij zapytanie",
+            "errors": [
+                "",
+                "Imię i nazwisko jest wymagane",
+                "Nieprawidłowy adres email",
+                "Adres email jest wymagany",
+                "Numer telefonu jest wymagany",
+                "Nieprawidłowy numer telefonu",
+                "Krótki opis wymagań",
+                "Musisz zaakceptować politykę prywatności",
+                "Musisz wyrazić zgodę na otrzymywanie informacji handlowej",
+                "Wykryto bota",
+                "Nie udało się wysłać zapytania"
+            ],
+            "success": "Twoje zapytanie zostało wysłane pomyślnie!"
+        }
+    },
+    "faq": {
+        "title": "Najczęściej zadawane pytania dotyczące obsługi strony internetowej",
+        "content": "W tej sekcji znajdziesz odpowiedzi na najczęściej zadawane pytania dotyczące współpracy z naszą firmą - od etapu briefu, przez wybór technologii i narzędzi, aż po harmonogram realizacji, a także proces wsparcia. Jeśli nie znalazłeś tu informacji, której szukasz skontaktuj się z nami, a odpowiemy na Twoje pytania w ciągu 24 godzin.",
+        "qna": [
+            {
+                "q": "Co się stanie, gdy strona nagle przestanie działać?",
+                "a": [
+                    "Najpierw uruchamiamy procedurę awaryjną: potwierdzamy problem, stawiamy tymczasową stronę informacyjną (jeśli potrzeba) i przywracamy ostatnią poprawną kopię zapasową. Równolegle analizujemy przyczynę, usuwamy ją i wprowadzamy zabezpieczenia, żeby się nie powtórzyła. Informujemy Cię o postępie prac i przewidywanym czasie pełnego przywrócenia."
+                ]
+            },
+            {
+                "q": "Jak chronicie dane moich klientów i zawartość formularzy?",
+                "a": [
+                    "Minimalizujemy zakres przechowywanych danych, używamy szyfrowanych połączeń, oraz odpowiednich zabezpieczeń strony www aby zwiększyć bezpieczeństwo. Ograniczamy dostęp tylko do osób, które go potrzebują. Formularze konfigurujemy tak, by nie zapisywały niepotrzebnych informacji; tam gdzie trzeba - proponujemy bezpieczne przechowywanie lub szyfrowanie. Otrzymasz wskazówki, jakie zgody i zapisy RODO warto mieć w formularzach."
+                ]
+            },
+            {
+                "q": "Co jeśli aktualizacja coś „zepsuje”?",
+                "a": [
+                    "Zawsze robimy backup przed aktualizacją i - gdy to możliwe - testujemy zmiany najpierw na środowisku testowym. Jeśli po aktualizacji coś nie działa, przywracamy wcześniejszą wersję z backupu i naprawiamy problem. Powiadamiamy, które elementy mogą stanowić ryzyko i proponujemy kolejność aktualizacji, by ryzyko zminimalizować."
+                ]
+            },
+            {
+                "q": "Jak zgłosić problem i ile czasu zajmie reakcja?",
+                "a": [
+                    "Zgłoszenie robisz przez e-mail / telefon / formularz (zgodnie z umową). W zgłoszeniu podaj adres strony, opis błędu i zrzut ekranu. Potwierdzamy przyjęcie zgłoszenia i podajemy przewidywany start prac. Dla krytycznych awarii uruchamiamy tryb priorytetowy i informujemy Cię na bieżąco o postępach."
+                ]
+            },
+            {
+                "q": "Kiedy warto przebudować stronę zamiast jej naprawiać i jak to wygląda?",
+                "a": [
+                    "Jeśli ciągłe poprawki pochłaniają coraz więcej czasu i pieniędzy, strona działa wolno, ma przestarzałą strukturę techniczną albo utrudnia wdrażanie nowych funkcji - przebudowa często jest bardziej opłacalna niż permanentne „łatanie”. Nowy projekt daje czystszy kod, lepszą wydajność, łatwiejsze utrzymanie i mniejsze ryzyko awarii w przyszłości, więc koszty jednorazowej inwestycji szybko się zwracają w postaci niższych wydatków na utrzymanie i krótszego czasu reakcji.",
+                    "Jak to robimy w praktyce: najpierw robimy szybki audyt i brief, żeby ustalić priorytety i które elementy muszą działać od razu. Realizujemy przebudowę etapami - budujemy i testujemy na środowisku staging, migrujemy treści i ustawiamy przekierowania SEO, a dopiero potem przełączamy produkcję. Dzięki etapowaniu najważniejsze funkcje działają wcześniej, ryzyko jest mniejsze, a koszty można rozłożyć (rozliczenie etapowe lub cena projektowa). Dodatkowe prace, jak integracje z systemami zewnętrznymi czy sesja zdjęciowa, wyceniamy osobno i dopasowujemy harmonogram tak, żeby nie przerywać działania sklepu lub serwisu."
+                ]
+            },
+            {
+                "q": "Jak będę widzieć, że wszystko jest pod kontrolą?",
+                "a": [
+                    "Dostajesz jasne raporty: co zrobiliśmy, jakie backupy były wykonane i status krytycznych usług (uptime, błędy). W modelu godzinowym dodatkowo przesyłamy cotygodniowy raport przepracowanych godzin z rozbiciem zadań. Po incydencie dostaniesz podsumowanie z przyczynami i rekomendacjami dalszych działań."
+                ]
+            }
+        ]
+    },
+    "footer": {
+        "alt": "Logo spółki airtilion",
+        "area": {
+            "title": "Obszar działania",
+            "ending": "... i wiele więcej"
+        },
+        "docs": [
+            {
+                "name": "Polityka prywatności",
+                "link": "/polityka-prywatnosci.pdf"
+            },
+            {
+                "name": "Regulamin świadczenia usług drogą elektroniczną",
+                "link": "/regulamin-swiadczenia-uslug-droga-elektroniczna.pdf"
+            },
+            {
+                "name": "Zgoda na przesyłanie informacji handlowej",
+                "link": "/zgoda-informacja-handlowa.pdf"
+            }
+        ],
+        "companyInfo": "Airtilion Sp. z o.o. ul. Słoneczna 32/9, 33-100 Tarnów, wpisana do rejestru przedsiębiorców Krajowego rejestru Sądowego przez Sąd Rejonowy dla Krakowa-Śródmieścia w Krakowie, XII Wydział Gospodarczy Krajowego Rejestru Sądowego pod nr KRS 0001143482, kapitał zakładowy w kwocie 5 000,00 zł w całości opłacony, NIP: 8733299720"
+    }
+}

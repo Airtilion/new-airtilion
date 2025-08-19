@@ -45,10 +45,10 @@
   "mainSite": {
     "header": {
       "title": "We create websites for businesses and private clients",
-      "content": "Our offer includes both simple websites and more advanced web services, online stores, and even mobile applications. Everything is built from scratch — you won't find templates here. We'll advise you and answer any question.",
+      "content": "Our offer includes both simple websites and more advanced web services, online stores, and even mobile applications. Everything is built from scratch - you won't find templates here. We'll advise you and answer any question.",
       "imageAlt": "Website development - banner with a lion at sunset",
       "button": [
-        "We'll price your project within 24h — we'll guide you through the whole process",
+        "We'll price your project within 24h - we'll guide you through the whole process",
         "Click to get a free quote"
       ]
     },
@@ -57,17 +57,17 @@
         "Laptop cut in half as the first part of a photo showing an artistic arrangement of a device used to create websites for companies",
         "Laptop cut in half as the second part of a photo showing an artistic arrangement of a device used to create websites for companies"
       ],
-      "title": "Website development — modern tools for sales and promotion",
-      "content": "Today, building a website is not about 'clicking' ready-made templates or using website builders. It's a process in which we analyze your industry, choose the right solutions and technologies for your needs, advise on every matter, design a unique look consistent with your brand, and deploy everything to hosting. You receive a professional website ready to sell your services or products or to present a topic. You don't have to worry about anything — we'll guide you through the entire process and choose what's best for you. After deployment, you can count on our technical support — you won't be left alone!"
+      "title": "Website development - modern tools for sales and promotion",
+      "content": "Today, building a website is not about 'clicking' ready-made templates or using website builders. It's a process in which we analyze your industry, choose the right solutions and technologies for your needs, advise on every matter, design a unique look consistent with your brand, and deploy everything to hosting. You receive a professional website ready to sell your services or products or to present a topic. You don't have to worry about anything - we'll guide you through the entire process and choose what's best for you. After deployment, you can count on our technical support - you won't be left alone!"
     },
     "portfolio": {
-      "title": "Website development — results born from experience",
+      "title": "Website development - results born from experience",
       "content": [
         "The entire website creation process is based on the team's many years of experience and continuous expansion of our horizons. We believe every project we create helps improve the experience of many internet users. All this so that your website, online store or mobile app ultimately helps you achieve your desired goals.",
         "We have completed many projects that delivered products meeting our clients' expectations. Our online portfolio presents and describes projects in detail. Further down you'll find information about costs, delivery times and the technologies we use. At the end you'll also find answers to frequently asked questions."
       ],
       "button": "Go to full portfolio",
-      "afterContent": "Every website project is a tailor-made solution — whether we build a landing page, a large portal, or a complex platform for a startup or organization.",
+      "afterContent": "Every website project is a tailor-made solution - whether we build a landing page, a large portal, or a complex platform for a startup or organization.",
       "alt": "Blurred photo showing a company's website being created on a laptop as a placeholder",
       "cta": "Request a free quote"
     },
@@ -75,7 +75,7 @@
       "tag": "About our products",
       "title": "Technologies we use",
       "content": [
-        "Every website we build is based on technologies chosen specifically for our clients' needs. To a large extent, the heart of our projects is Next.js — a framework that enables optimized websites and helps with SEO optimization. For simpler website projects that don't require many subpages we use React (Vite), a lighter library that works perfectly for such sites.",
+        "Every website we build is based on technologies chosen specifically for our clients' needs. To a large extent, the heart of our projects is Next.js - a framework that enables optimized websites and helps with SEO optimization. For simpler website projects that don't require many subpages we use React (Vite), a lighter library that works perfectly for such sites.",
         "If a site requires an administrative panel, we use WordPress combined with one of the above technologies in a headless setup (you can read more about this approach on our blog). This hybrid allows for sites that are easy for the client to manage (blogs, sites requiring regular content updates, etc.) while retaining the benefits of modern frontend technologies mentioned earlier.",
         "You can find more about the technologies we use to build professional websites, grouped by websites, e-commerce stores and mobile apps, in the section below."
       ],
@@ -86,7 +86,7 @@
     },
     "cta": {
       "title": "Get a free quote",
-      "content": "We're ready to create your website. Fill out a simple form and request a free project quote. We'll get back to you within 24 hours or on the next business day. If you're not sure what you need yet — don't worry. We'll advise you and guide you through the whole process. We'll answer every question.",
+      "content": "We're ready to create your website. Fill out a simple form and request a free project quote. We'll get back to you within 24 hours or on the next business day. If you're not sure what you need yet - don't worry. We'll advise you and guide you through the whole process. We'll answer every question.",
       "button": "Request a free quote",
       "alt": "Photo showing a lion promoting professional websites for companies",
       "form": {
@@ -130,8 +130,8 @@
     },
     "offer": {
       "tag": "Offer",
-      "title": "Website development — Services",
-      "mContent": "Our offer is flexible — we deliver both simple websites serving as a business card and more advanced web services. We build websites and online stores, advanced web applications, and even mobile apps that can be standalone or integrated with your site. We also provide site maintenance and ongoing support.",
+      "title": "Website development - Services",
+      "mContent": "Our offer is flexible - we deliver both simple websites serving as a business card and more advanced web services. We build websites and online stores, advanced web applications, and even mobile apps that can be standalone or integrated with your site. We also provide site maintenance and ongoing support.",
       "elements": [
         {
           "name": "Websites",
@@ -155,7 +155,7 @@
           "content": [
             {
               "title": "How much does an online store cost?",
-              "content": "The cost depends on the scope of functionality. A simple store (a few dozen products, standard payments) starts from a few thousand PLN. A store with a medium catalog and integrations (payments, courier, basic inventory/ERP) typically requires several to a dozen thousand PLN. Advanced B2B platforms, marketplaces or custom solutions may cost tens of thousands of PLN. To get an accurate quote, fill out the form — we will prepare an offer within 24 hours."
+              "content": "The cost depends on the scope of functionality. A simple store (a few dozen products, standard payments) starts from a few thousand PLN. A store with a medium catalog and integrations (payments, courier, basic inventory/ERP) typically requires several to a dozen thousand PLN. Advanced B2B platforms, marketplaces or custom solutions may cost tens of thousands of PLN. To get an accurate quote, fill out the form - we will prepare an offer within 24 hours."
             },
             {
               "title": "How long do I have to wait for the finished product?",
@@ -180,7 +180,7 @@
             },
             {
               "title": "Stages of app delivery",
-              "content": "We start by analyzing needs and requirements, define user goals and propose the optimal technology — most often React Native for fast native-like results on Android and iOS. We prepare prototypes and a UX/UI design optimized for mobile devices, then proceed to development, testing and deployment. We test the app on real devices for functionality, security and performance, and assist with publishing in the App Store and Google Play."
+              "content": "We start by analyzing needs and requirements, define user goals and propose the optimal technology - most often React Native for fast native-like results on Android and iOS. We prepare prototypes and a UX/UI design optimized for mobile devices, then proceed to development, testing and deployment. We test the app on real devices for functionality, security and performance, and assist with publishing in the App Store and Google Play."
             }
           ]
         },
@@ -189,11 +189,11 @@
           "content": [
             {
               "title": "How much does site maintenance cost?",
-              "content": "The price is set individually based on the scope of services, site technology and the number of work hours per month. We offer a flexible approach — subscription-based monthly maintenance or hourly billing without a monthly limit. We will prepare a personalized quote after a short analysis — response and proposal within 24 hours of submitting the inquiry."
+              "content": "The price is set individually based on the scope of services, site technology and the number of work hours per month. We offer a flexible approach - subscription-based monthly maintenance or hourly billing without a monthly limit. We will prepare a personalized quote after a short analysis - response and proposal within 24 hours of submitting the inquiry."
             },
             {
               "title": "How long do I have to wait for a response?",
-              "content": "Response times are set individually in the agreement to match the priority your business needs. Standard onboarding (setting up monitoring and backups) usually takes 1–3 business days. Depending on arrangements, we can provide fast incident response within 24 hours or longer response times for routine support — all terms are recorded in the cooperation conditions."
+              "content": "Response times are set individually in the agreement to match the priority your business needs. Standard onboarding (setting up monitoring and backups) usually takes 1–3 business days. Depending on arrangements, we can provide fast incident response within 24 hours or longer response times for routine support - all terms are recorded in the cooperation conditions."
             },
             {
               "title": "Scope and process of site maintenance",
@@ -209,7 +209,7 @@
     },
     "people": {
       "tag": "Team",
-      "title": "Website delivery — who will handle it?",
+      "title": "Website delivery - who will handle it?",
       "content": "We combine technical knowledge with a creative approach to design to create solutions that work like a precise mechanism. We analyze business needs and the industry, based on that we design intuitive interfaces and implement them with attention to every detail. The result? Efficient and optimized websites, stores and apps built with you and your customers in mind.",
       "owners": [
         {
@@ -219,7 +219,7 @@
           "phone": "720 177 174",
           "linked": "https://www.linkedin.com/in/jakub-wadycki-906149275",
           "facebook": "https://www.facebook.com/jakub.wadycki",
-          "desc": "I have been programming for many years — I started with simple desktop applications. Later, web development became my main focus and has remained so ever since. I decided to found the company because I believe that through hard work and offering clients modern technologies combined with strategic analysis we can make the web better.",
+          "desc": "I have been programming for many years - I started with simple desktop applications. Later, web development became my main focus and has remained so ever since. I decided to found the company because I believe that through hard work and offering clients modern technologies combined with strategic analysis we can make the web better.",
           "alt": "Photos showing Jakub Wadycki, co-owner of a company that builds websites for businesses"
         },
         {
@@ -301,22 +301,22 @@
         {
           "q": "Why don't you use free website templates and website builders?",
           "a": [
-            "Drag-and-drop editors, AI builders or ready-made website templates negatively impact almost every aspect of a site and make creating effective websites much harder. Such solutions often slow down websites and make them less attractive to your potential customers. Security of these products is often much lower, which affects the safety of you and your clients. Additionally, using templates goes against uniqueness — many websites will look similar.",
+            "Drag-and-drop editors, AI builders or ready-made website templates negatively impact almost every aspect of a site and make creating effective websites much harder. Such solutions often slow down websites and make them less attractive to your potential customers. Security of these products is often much lower, which affects the safety of you and your clients. Additionally, using templates goes against uniqueness - many websites will look similar.",
             "Therefore, when choosing site software and technologies we try to combine the benefits of dedicated frontend technologies like React and Next.js with a simple WordPress content management panel in a headless setup. This approach enables greater performance, optimization and security and positively affects your site's SEO."
           ]
         },
         {
           "q": "What additional custom features can I order for my website?",
           "a": [
-            "We can implement any functionality for websites — from booking systems, blogs, online portfolios, advanced forms and configurators to dedicated admin panels with CRM for your site.",
+            "We can implement any functionality for websites - from booking systems, blogs, online portfolios, advanced forms and configurators to dedicated admin panels with CRM for your site.",
             "So if you have an idea for your website and advanced features, fill out the pricing form available in the menu or contact us by email or phone. We'll price your project, advise you and answer any question."
           ]
         },
         {
           "q": "How should I prepare to purchase my own website?",
           "a": [
-            "Before ordering a website, consider what you need it for — should it sell products, present an offer, or serve as a simple business card. Think about the most important features it should have (e.g. online store, contact form, booking system or content editing panel) and prepare materials you already have, such as a logo, texts or photos.",
-            "It is also helpful to determine an approximate budget, desired delivery time and whether you already have a domain and hosting or need our help choosing them. Based on that we will quickly prepare a tailored quote and plan the entire website creation process. If you don't have all of this yet, don't worry — we'll help and advise on every matter. Just write to us and schedule a consultation."
+            "Before ordering a website, consider what you need it for - should it sell products, present an offer, or serve as a simple business card. Think about the most important features it should have (e.g. online store, contact form, booking system or content editing panel) and prepare materials you already have, such as a logo, texts or photos.",
+            "It is also helpful to determine an approximate budget, desired delivery time and whether you already have a domain and hosting or need our help choosing them. Based on that we will quickly prepare a tailored quote and plan the entire website creation process. If you don't have all of this yet, don't worry - we'll help and advise on every matter. Just write to us and schedule a consultation."
           ]
         },
         {

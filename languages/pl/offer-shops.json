@@ -115,7 +115,7 @@
                 "Numer telefonu",
                 "Preferowane godziny kontaktu telefonicznego",
                 "Typ projektu",
-                "Krótki opis strony internetowej"
+                "Krótki opis sklepu internetowego"
             ],
             "condition": [
                 "Akceptuję <a href='/polityka-prywatnosci.pdf' target='_blank'>politykę prywatności</a> i wyrażam zgodę na <a href='/polityka-prywatnosci.pdf' target='_blank'>przetwarzanie danych osobowych</a>",

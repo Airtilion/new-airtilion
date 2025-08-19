@@ -9,6 +9,7 @@ import { getDictionary } from '@utils/getDictionary'
 import Header from '@components/Header'
 
 import bg from "@assets/images/headers/baner-blog.webp"
+import SlideUpContact from '@components/SlideUpContact'
 
 const page = async ({ searchParams }) => {
 
@@ -26,7 +27,7 @@ const page = async ({ searchParams }) => {
         <Latest dict={dictionary.latest}/>
 
         <PortfolioCallToAction dict={dictionary.cta}/>
-
+        <SlideUpContact dict={dictionary.cta.form} lang={lang} />
       </main>
       <div className='gradient-transparency-v absolute w-[800px] h-[calc(100%-550px)] bg-linear-to-r from-[#00000000] via-[#e283504D] to-[#00000000] z-[-3] top-0 left-[50%] translate-x-[-50%] max-lg:w-[500px] max-sm:w-[80%]'></div>
 

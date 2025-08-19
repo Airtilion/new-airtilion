@@ -15,7 +15,8 @@ const SlideUpContact = ({ dict, lang }) => {
 
   useEffect(() => {
     document.body.style.overflow = isContactOpen ? 'hidden' : ''
-    const nav = document.querySelector('nav')
+    const nav = document.querySelector('.navbar')
+    
     if (isContactOpen) {
       nav?.classList.add('nav-hidden')
       setIsVisible(true)

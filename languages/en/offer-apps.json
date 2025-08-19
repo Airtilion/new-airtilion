@@ -1,0 +1,207 @@
+{
+    "header": {
+        "title": "Offer – Mobile App Development",
+        "description": "We design and build eye-catching, mobile-friendly applications from scratch. We use the latest technologies to deliver the best possible product.",
+        "alt": "Mobile app development – image showing a phone with an app"
+    },
+    "introduction": {
+        "title": "A dedicated mobile app is the best investment for your business",
+        "content": [
+            "When designing and developing mobile apps, we combine unique design with solid code, ensuring full responsiveness and performance. Every app includes a custom graphic design tailored to your industry and target audience, resulting in a professional mobile app that stands out from the competition and supports sales or promotion of your project.",
+            "We focus on performance and user convenience. Our mobile apps load instantly thanks to modern optimization techniques. This approach ensures your customers won’t complain about lagging or poor user experience while using your app."
+        ],
+        "alt": "Image of Earth – headquarters of a mobile app development company"
+    },
+    "fasterwebs": {
+        "title": "Faster Applications",
+        "title2": "Mobile App Development – Technologies",
+        "content": "When creating modern mobile apps, we select the right platforms so the product is fast, stable, easy to use, and perfectly tailored to you and your future users. In most projects we use React Native, which enables us to build efficient, optimized apps simultaneously for both Android and iOS. We often create more advanced systems that include both a mobile app and a website, sharing a common backend (e.g. WordPress). In other cases, we use MongoDB as the database. We constantly broaden our horizons, and in the very near future we plan to add several new mobile technologies to our offer (such as Flutter).",
+        "alt": "Image showing a laptop used for mobile app development"
+    },
+    "websiteElements": {
+        "title": "What does our mobile app include?",
+        "content": "No matter if the project is big or small, our products always include:",
+        "elements": [
+            "Custom graphic design",
+            "Adaptation to all screen sizes",
+            "Integration of mobile apps with the website",
+            "Performance optimization",
+            "Android and iOS versions",
+            "Preparation of GDPR and cookie consents",
+            "Assistance with publication",
+            "User training",
+            "12-month warranty",
+            "Technical support and updates up to 3 hours per month",
+            "Intuitive content management system",
+            "Strategy based on industry analysis and your requirements",
+            "Custom functionalities",
+            "Accessibility-compliant app",
+            "Push notifications",
+            "Analytics tools",
+            "... and much more"
+        ]
+    },
+    "cooperation": {
+        "title": "Mobile App Development Process",
+        "content": "Creating a mobile app is a complex process, but thanks to our proven approach we guide you through it step by step – clearly, transparently, and without unnecessary complications. From the very first contact to post-launch support, you have full control over the project and always know what’s happening. Here’s how our cooperation works in practice:",
+        "steps": [
+            {
+                "title": "Brief",
+                "desc": "We start with a conversation to learn about your goals, expectations, and requirements. Based on this, we present the best solutions and define the project scope."
+            },
+            {
+                "title": "Agreement",
+                "desc": "Once details are agreed, we send the contract for signature – either online or traditional form. After signing, for larger projects we ask for a 30% upfront payment."
+            },
+            {
+                "title": "Design",
+                "desc": "We create a unique UX/UI design adapted to all screen sizes. The design is sent for review, we apply revisions, and finalize the layout and look of your app."
+            },
+            {
+                "title": "Development",
+                "desc": "We move on to programming and implementing the app – building the front-end and back-end, and optimizing the project. At this stage, we also carry out app testing."
+            },
+            {
+                "title": "Delivery & Settlement",
+                "desc": "After finishing the work, we present the final product, issue the final invoice (minus the advance payment), and hand over access data and the user manual."
+            },
+            {
+                "title": "Technical Support",
+                "desc": "For 12 months we provide technical support, minor updates (up to 3h/month), and backups. We’re here whenever you need us."
+            }
+        ],
+        "alts": [
+            "Mobile app development – example page shown on a laptop",
+            "Mobile app development – example page shown on a phone"
+        ],
+        "ending": "Although we follow a defined process, working with us means more than just checking off tasks. We stay in touch, advise, and suggest the best solutions – ensuring you never feel left on your own at any stage."
+    },
+    "pricing": {
+        "pricingIntro": {
+            "title": "How long does it take and how much does a mobile app cost?",
+            "content": "The estimated cost of a mobile app depends mainly on its complexity, functionalities, and specific project requirements. The time needed depends on the scope – a simple mobile app usually costs a few thousand PLN and takes around 3–4 weeks to complete. For more advanced projects, costs may range from several to dozens of thousands of PLN, with development lasting several weeks depending on complexity. The price includes not only programming, but also performance optimization, help with publishing on Google Play and App Store, and integration with a dedicated website. For more demanding clients, we offer a special package that includes professional photography – a photographer comes to your location with guidelines, takes the necessary photos (team portraits, buildings, products), and delivers edited files ready to be used in your app."
+        },
+        "cta": {
+            "title": "Get a free mobile app quote",
+            "content": "We’re always ready to create the perfect product for you. Request a free project quote and we’ll get back to you within 24h or the next business day. Dreaming of your own app but not sure what exactly you need? Don’t worry – we’ll advise and guide you through every step.",
+            "button": "Click to go to the quote form",
+            "alt": "Laptop with mobile app development offer"
+        }
+    },
+    "portfolio": {
+        "title": "Previously Completed Projects",
+        "alts": ["Photo of phones with sample websites", "Element from web design portfolio", "Website project logo"],
+        "content": "Check out our previous work and see what our websites look like.",
+        "button": "Go to full portfolio"
+    },
+    "cta": {
+        "title": "Get a free quote",
+        "content": "We’re ready to create your own website. Fill out a simple form and request a free project quote. We’ll get back to you within 24h or the next business day. Not sure what exactly you need yet? No problem – we’ll advise and guide you through the whole process, answering every question you may have.",
+        "button": "Request a free quote",
+        "alt": "Image of a lion promoting mobile app development",
+        "form": {
+            "tag": "Your project. Our passion. Shared success.",
+            "title": "Want to know how much your project will cost? Fill in the form!",
+            "content": "We’ll get back to you within 24 hours or the next business day. We’ll discuss your needs, provide advice, and propose a project price. If you don’t want to fill in the form, you can always contact us by phone.",
+            "contactData": [
+                "Phone numbers",
+                "Email address",
+                "Opening hours"
+            ],
+            "close": "Close",
+            "fields": [
+                "Full name",
+                "Email",
+                "Phone number",
+                "Preferred contact hours",
+                "Project type",
+                "Short description of the app"
+            ],
+            "condition": [
+                "I accept the <a href='/privacy-policy.pdf' target='_blank'>privacy policy</a> and agree to the <a href='/privacy-policy.pdf' target='_blank'>processing of personal data</a>",
+                "I agree to the <a href='/contest-for-the-purpose-of-sending-requested-commercial-information.pdf' target='_blank'>processing of my data</a> in order to receive commercial information"
+            ],
+            "button": "Send inquiry",
+            "errors": [
+                "",
+                "Full name is required",
+                "Invalid email address",
+                "Email is required",
+                "Phone number is required",
+                "Invalid phone number",
+                "Short project description is required",
+                "You must accept the privacy policy",
+                "You must agree to receive commercial information",
+                "Bot detected",
+                "Failed to send inquiry"
+            ],
+            "success": "Your inquiry has been successfully sent!"
+        }
+    },
+    "faq": {
+        "title": "Answers to the most frequently asked questions about mobile app design and development",
+        "content": "In this section, you’ll find answers to the most common questions about working with us – from the brief stage, through technology choices, to project timelines, as well as post-launch support for your website or app. If you can’t find the information you’re looking for, contact us and we’ll reply within 24 hours.",
+        "qna": [
+            {
+                "q": "How much does a mobile app cost and how long does it take?",
+                "a": [
+                    "The cost and timeline depend directly on the functional scope (complexity) and integrations. A simple app with a catalog and form usually costs a few thousand PLN and can be delivered in 3–4 weeks. Medium-complexity apps (login, profiles, notifications, API integration) typically require several weeks and cost around a dozen thousand PLN. More advanced apps with complex integrations, payment systems, offline synchronization, or an admin panel may take several months and cost tens of thousands of PLN.",
+                    "For larger projects we use a phased model with an advance payment (standard 30%). We provide a detailed quote and timeline after a short brief – free of charge, usually within 24 hours."
+                ]
+            },
+            {
+                "q": "For which systems and in what technologies do you create apps? – App development platforms.",
+                "a": [
+                    "We choose tools to balance deployment speed, performance, and scalability. Most often we use React Native, which allows maintaining one codebase for Android and iOS without major performance loss. When specific hardware features or exceptional optimization are required, we combine cross-platform solutions with native modules. For backend we rely on proven approaches (REST/GraphQL, secure authorization mechanisms) and plan scalability according to expected traffic. When an app needs to be paired with a website, we often use WordPress as a shared backend for both platforms."
+                ]
+            },
+            {
+                "q": "What exactly do I receive after app publication?",
+                "a": [
+                    "After project completion, we deliver a fully ready product: final installation packages for app stores, access to the source code repository with setup instructions, technical and user documentation, graphic assets required for app stores, and basic integration setup (API, analytics, payments). You’ll also receive GDPR consent templates and privacy policy guidance, plus a support package – 12 months warranty with up to 3h/month of fixes. For clients requiring continuous maintenance and development, we offer extended support plans."
+                ]
+            },
+            {
+                "q": "I have an app idea – how does the cooperation work and what do you need from me at the start?",
+                "a": [
+                    "The process is divided into stages: short meeting/brief, contract and schedule, UX/UI design, iterative implementation, testing on real devices, and final delivery. To speed things up, it helps to prepare functional priorities (must-haves vs nice-to-haves), brand materials (logo, texts – if missing, we can help prepare them), and access to systems the app will integrate with.",
+                    "On request, we also organize professional photography: a photographer comes to your location, takes product and team photos according to agreed guidelines, and delivers edited files ready for use in the app (with rights/licenses transferred). This accelerates final design and raises visual quality. At each stage, you have full visibility and the chance to provide feedback – transparency and client control are our priorities."
+                ]
+            },
+            {
+                "q": "Do you help with publishing apps on App Store and Google Play?",
+                "a": [
+                    "Yes – we handle the entire preparation and publishing process: writing descriptions, creating required screenshots, icons, and assets, verifying compliance with store policies, and assisting in setting up developer accounts. If you prefer, we can publish the app on your behalf once you provide the necessary access. Since the stores have their own specific requirements (e.g. regarding permissions, privacy policies, payment testing), we provide a checklist of what needs to be done on your side to speed up approval."
+                ]
+            },
+            {
+                "q": "What are your security standards, GDPR compliance, and maintenance options after launch?",
+                "a": [
+                    "We design with security in mind from the start: safe data storage and transmission, authentication and authorization mechanisms, and practices that minimize vulnerabilities. We prepare consent screens and GDPR documentation, and assist with data processing agreements. After launch, we provide a standard 12-month warranty with basic support, plus optional maintenance packages including monitoring, priority fixes, and regular security updates – with SLA options tailored to your business needs."
+                ]
+            }
+        ]
+    },
+    "footer": {
+        "alt": "Airtilion company logo",
+        "area": {
+            "title": "Operating area",
+            "ending": "... and many more"
+        },
+        "docs": [
+            {
+                "name": "Privacy policy",
+                "link": "/privacy-policy.pdf"
+            },
+            {
+                "name": "Terms of electronic services",
+                "link": "/terms-and-conditions-for-the-provision-of-electronic-services.pdf"
+            },
+            {
+                "name": "Consent to receive commercial information",
+                "link": "/contest-for-the-purpose-of-sending-requested-commercial-information.pdf"
+            }
+        ],
+        "companyInfo": "Airtilion Sp. z o.o., ul. Słoneczna 32/9, 33-100 Tarnów, registered in the Register of Entrepreneurs of the National Court Register by the District Court for Kraków-Śródmieście in Kraków, 12th Commercial Division of the National Court Register under KRS no. 0001143482, share capital of PLN 5,000.00 fully paid, TAX ID (NIP): 8733299720"
+    }
+}

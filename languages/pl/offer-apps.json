@@ -1,0 +1,207 @@
+{
+    "header": {
+        "title": "Oferta - tworzenia aplikacji mobilnych",
+        "description": "Projektujemy i tworzymy od podstaw wpadające w oko i dostosowane do urządzeń mobilnych aplikacje. Korzystamy z najnowszych technologii, aby dostarczyć jak najlepszy produkt.",
+        "alt": "Tworzenie aplikacji mobilnych - zdjęcie przedstawiające telefon z aplikacją"
+    },
+    "introduction": {
+        "title": "Dedykowana aplikacja mobilna to najlepsza inwestycja dla Twojego biznesu",
+        "content": [
+            "W ramach projektowania i tworzenia aplikacji mobilnych łączymy unikalny design z solidnym kodem, dbając o pełną responsywność i wydajność. Przygotowanie każdej aplikacji obejmuje indywidualny projekt graficzny, dostosowany do Twojej branży i grupy docelowej, dzięki czemu powstaje profesjonalna aplikacja mobilna, który wyróżnia się na tle konkurencji i wspiera sprzedaż lub promocję Twojego projektu.",
+            "Dbamy o wydajność aplikacji i wygodę. Zaprojektowane przez Nas aplikacje mobilne ładują się błyskawicznie, dzięki nowoczesnym technikom optymalizacji. Takie podejście powoduje, że Twoi klienci nie będą narzekać na brak płynności czy niski poziom doświadczenia podczas używania Twojej aplikacji."
+        ],
+        "alt": "Zdjęcie Ziemii - siedziba firmy tworzącej aplikacje mobilne"
+    },
+    "fasterwebs": {
+        "title": "Szybsze aplikacje",
+        "title2": "Tworzenie aplikacji mobilnych - technologie",
+        "content": "Przy tworzeniu nowoczesnych aplikacji mobilnych dobieramy odpowiednie platformy mobilne tak, aby produkt był szybki, stabilny, prosty w obsłudze i całkowicie dopasowany do Ciebie i przyszłych użytkowników Twojej aplikacji. Przy większości projektów wykorzystujemy React Native, który umożliwia tworzenie aplikacji wydajnych, zoptymalizowanych i z zachowaniem możliwości jednoczesnego tworzenia zarówno na Androida jak i na IOS'a. Często tworzymy bardziej rozbudowane systemy składające się z aplikacji i strony internetowej, dzielących wspólny backend w postaci, np. Wordpress'a. W pozostałych przypadkach jako bazy danych używamy mongoDB. Stale poszerzamy swoje horyzonty, dlatego w bardzo niedalekiej przyszłości planujemy dodać do oferty kilka nowych technologii mobilnych (takich jak, na przykład Flutter).",
+        "alt": "Zdjęcie przedstawiające laptopa użytkowanego do tworzenia aplikacji mobilnych"
+    },
+    "websiteElements": {
+        "title": "Co zawiera stworzona przez nas aplikacja mobilna?",
+        "content": "Niezależnie czy zlecenie jest duże czy małe, projektowane przez nas  produkty zawierają:",
+        "elements": [
+            "Indywidualny projekt graficzny",
+            "Dostosowanie do wszystkich wielkości ekranów",
+            "Połączenie aplikacji mobilnych ze stroną internetową",
+            "Optymalizację wydajności",
+            "Wersję na Androida i IOS",
+            "Przygotowanie zgód odnośnie RODO i Cookies",
+            "Pomoc w publikacji",
+            "Szkolenie z obsługi",
+            "12-miesięczna gwarancję",
+            "Wsparcie techniczne i aktualizacje do 3 godzin miesięcznie",
+            "Intuicyjny system zarządzania treścią",
+            "Strategię przygotowaną na podstawie analizy branży oraz Twoich wymagań",
+            "Dedykowane funkcjonalności",
+            "Aplikację zgodną z zasadami dostępności",
+            "Powiadomienia push",
+            "Narzędzia analityczne",
+            "... i wiele więcej"
+        ]
+    },
+    "cooperation": {
+        "title": "Proces tworzenia aplikacji mobilnych",
+        "content": "Tworzenie aplikacji mobilnej to złożony proces, ale dzięki sprawdzonemu podejściu, prowadzimy Cię przez niego krok po kroku - jasno, konkretnie i bez zbędnych komplikacji. Od pierwszego kontaktu, aż po wsparcie po wdrożeniu masz pełną kontrolę nad przebiegiem prac i wiesz dokładnie, co się dzieje. Poniżej przedstawiamy, jak wygląda współpraca w praktyce:",
+        "steps": [
+            {
+                "title": "Brief",
+                "desc": "Zaczynamy od rozmowy, podczas której poznajemy Twoje cele, oczekiwania i wymagania. Na tej podstawie przedstawiamy najlepsze rozwiązania i precyzujemy zakres projektu."
+            },
+            {
+                "title": "Umowa",
+                "desc": "Po uzgodnieniu szczegółów przesyłamy umowę do podpisu – możliwa forma online lub tradycyjna. Po podpisaniu przy wyższych kwotach zamówienia prosimy o zaliczkę w wysokości 30% wartości projektu."
+            },
+            {
+                "title": "Projekt strony",
+                "desc": "Tworzymy indywidualny design UX/UI w wersji dostosowanej do każdej wielkości ekranu. Projekt aplikacji przesyłamy do wglądu, nanosimy poprawki i finalizujemy układ oraz wygląd Twojej aplikacji."
+            },
+            {
+                "title": "Programowanie",
+                "desc": "Przechodzimy do programowania i wdrażania aplikacji – tworzymy front-end oraz back-end oraz optymalizujemy projekt. Na tym etapie następuje także testowanie aplikacji mobilnej"
+            },
+            {
+                "title": "Odbiór i rozliczenie",
+                "desc": "Po zakończeniu prac prezentujemy gotowy produkt, wystawiamy fakturę końcową (pomniejszoną o zaliczkę) i przekazujemy dane dostępowe oraz poradnik użytkownika."
+            },
+            {
+                "title": "Wsparcie techniczne",
+                "desc": "Przez 12 miesięcy zapewniamy pomoc techniczną, drobne aktualizacje (do 3h/miesiąc) oraz kopie zapasowe. Jesteśmy do dyspozycji w razie potrzeby."
+            }
+        ],
+        "alts": [
+            "Tworzenie aplikacji moblinych, przykład strony przedstawiony na laptopie",
+            "Tworzenie aplikacji moblinych, przykład strony przedstawiony na telefonie"
+        ],
+        "ending": "Choć mamy określony proces, współpraca z nami to coś więcej niż realizacja punktów z listy. Pozostajemy w stałym kontakcie, doradzamy i podpowiadamy najlepsze rozwiązania – tak, abyś na żadnym etapie nie czuł się pozostawiony sam sobie."
+    },
+    "pricing": {
+        "pricingIntro": {
+            "title": "Jaki jest czas realizacji i ile kosztuje aplikacja mobilna?",
+            "content": "Orientacyjny koszt realizacji aplikacji mobilnej zależy przede wszystkim od jej złożoności, funkcjonalności oraz indywidualnych wymagań projektu. Ilość potrzebnego czasu zależy od funkcjonalności - budowa prostej aplikacji mobilnej to zwykle kilka tysięcy złotych, a czas realizacji wynosi średnio trzy do czterech tygodni. W przypadku bardziej rozbudowanych projektów, koszt może wynosić od kilkunastu do nawet kilkudziesięciu tysięcy złotych, a czas wykonania wydłuża się do kilkunastu tygodni w zależności od złożoności projektu. W cenę wliczamy nie tylko programowanie aplikacji mobilnej, ale także jej optymalizację pod kątem wydajności, pomoc w publikacji w Google Play i App Store, czy jej połączenie z dedykowaną stroną internetową. Dla bardziej wymagających klientów przygotowaliśmy specjalną ofertę, w której zapewniamy obsługę projektu poprzez doświadczonego fotografa - przyjeżdża on na miejsce z wytycznymi, robi potrzebne zdjęcia (portrety zespołu, budynki, produkty) i przekazuje je nam obrobione, gotowe do użycia w Twojej aplikacji mobilnej."
+        },
+        "cta": {
+            "title": "Skorzystaj z darmowej wyceny aplikacji mobilnej",
+            "content": "Zawsze jesteśmy gotowi, żeby stworzyć dla Ciebie idealny produkt. Zamów darmową wycenę swojego projektu, a my odezwiemy się w ciągu 24h lub w najbliższym dniu roboczym. Marzysz o swojej własnej aplikacji, ale jeszcze nie wiesz czego dokładnie potrzebujesz? Nie przejmuj się, doradzimy i przeprowadzimy Cię przez wszystkie etapy.",
+            "button": "Kliknij aby przejść do formularza wyceny",
+            "alt": "Zdjęcie laptopa z ofertą dla tworzenia aplikacji mobilnych"
+        }
+    },
+    "portfolio": {
+        "title": "Wcześniej zrealizowane projekty",
+        "alts": ["Zdjęcie telefonów z przykładowymi stronami internetowymi", "Element z portfolio projektowania stron internetowych", "Logo projektu strony internetowej"],
+        "content": "Zobacz nasze dotychczasowe realizacje i przekonaj się, jak wyglądają strony internetowe, które tworzymy.",
+        "button": "Przejdź do pełnego portfolio"
+    },
+    "cta": {
+        "title": "Skorzystaj z darmowej wyceny",
+        "content": "Jesteśmy gotowi, żeby stworzyć dla Ciebie Twoją własną stronę internetową. Wypełnij prosty formularz i zamów darmową wycenę swojego projektu. Odezwiemy się do Ciebie w ciągu 24h lub w najbliższym dniu roboczym. Jeśli jeszcze nie wiesz czego dokładnie potrzebujesz nie przejmuj się. Doradzimy i przeprowadzimy Cię przez cały proces. Odpowiemy na każde twoje pytanie.",
+        "button": "Zamów darmową wycenę",
+        "alt": "Zdjęcie przedstawiające lwa promującego tworzenie aplikacji mobilnych",
+        "form": {
+            "tag": "Twój projekt. Nasza pasja. Wspólny skuces.",
+            "title": "Chcesz dowiedzieć się ile będzie kosztował Twój projekt? Wypełnij formularz!",
+            "content": "Odezwiemy się do Ciebie w ciągu 24 godzin lub w kolejny dzień roboczy. Omówimy Twoje potrzeby, doradzimy i zaproponujemy cenę za projekt. Jeśli jednak nie chcesz wypełniać formularza, możesz skontaktować się z nami telefonicznie.",
+            "contactData": [
+                "Numery telefonu",
+                "Adres email",
+                "Godziny otwarcia"
+            ],
+            "close": "Zamknij",
+            "fields": [
+                "Imię i nazwisko",
+                "Email",
+                "Numer telefonu",
+                "Preferowane godziny kontaktu telefonicznego",
+                "Typ projektu",
+                "Krótki opis aplikacji"
+            ],
+            "condition": [
+                "Akceptuję <a href='/polityka-prywatnosci.pdf' target='_blank'>politykę prywatności</a> i wyrażam zgodę na <a href='/polityka-prywatnosci.pdf' target='_blank'>przetwarzanie danych osobowych</a>",
+                "Wyrażam zgodę na <a href='/zgoda-informacja-handlowa.pdf' target='_blank'>przetwarzanie moich danych</a> w celu otrzymania informacji handlowej"
+            ],
+            "button": "Wyślij zapytanie",
+            "errors": [
+                "",
+                "Imię i nazwisko jest wymagane",
+                "Nieprawidłowy adres email",
+                "Adres email jest wymagany",
+                "Numer telefonu jest wymagany",
+                "Nieprawidłowy numer telefonu",
+                "Krótki opis strony jest wymagany",
+                "Musisz zaakceptować politykę prywatności",
+                "Musisz wyrazić zgodę na otrzymywanie informacji handlowej",
+                "Wykryto bota",
+                "Nie udało się wysłać zapytania"
+            ],
+            "success": "Twoje zapytanie zostało wysłane pomyślnie!"
+        }
+    },
+    "faq": {
+        "title": "Odpowiedzi na najczęściej zadawane pytania dotyczące projektowania i tworzenia aplikacji mobilnych",
+        "content": "W tej sekcji znajdziesz odpowiedzi na najczęściej zadawane pytania dotyczące współpracy z naszą firmą - od etapu briefu, przez wybór technologii i narzędzi, aż po harmonogram realizacji, a także proces wsparcia po uruchomieniu strony czy aplikacji. Jeśli nie znalazłeś tu informacji, której szukasz skontaktuj się z nami, a odpowiemy na Twoje pytania w ciągu 24 godzin.",
+        "qna": [
+            {
+                "q": "Ile kosztuje i ile trwa wykonanie aplikacji mobilnej?",
+                "a": [
+                    "Koszt i czas są bezpośrednio zależne od zakresu funkcjonalnego (złożoności aplikacji) i integracji — prosta aplikacja z katalogiem i formularzem zwykle zamyka się w kilku tysiącach złotych i można ją zrealizować w ciągu 3–4 tygodni, rozwiązania średniej złożoności (logowanie, profile, powiadomienia, podłączenie API) wymagają zazwyczaj kilku–kilkunastu tygodni i kosztują rząd kilkunastu tysięcy zł, natomiast aplikacje z rozbudowanymi integracjami, systemami płatności, synchronizacją offline czy panelem administracyjnym mogą pochłonąć kilkanaście tygodni pracy i kosztować od kilkunastu do kilkudziesięciu tysięcy zł.",
+                    "Przy większych zamówieniach stosujemy model etapowy z zaliczką (standardowo 30%), a ostateczną wycenę i harmonogram podajemy po krótkim briefie — przygotowujemy darmową wycenę i odpisujemy zwykle w ciągu 24 godzin."
+                ]
+            },
+            {
+                "q": "Na jakie systemy i w jakich technologiach tworzycie aplikacje? - Platformy do tworzenia aplikacji.",
+                "a": [
+                    "Wybieramy narzędzia tak, aby osiągnąć kompromis pomiędzy szybkością wdrożenia, wydajnością i łatwością przyszłego rozwoju; najczęściej stosujemy React Native, który pozwala utrzymać jedną bazę kodu dla Androida i iOS bez istotnych strat w wydajności, a tam gdzie potrzebne są specyficzne funkcje sprzętowe lub wyjątkowa optymalizacja — łączymy rozwiązania cross-platform z natywnymi modułami. Przy projektowaniu backendu proponujemy sprawdzone podejścia (REST/GraphQL, bezpieczne mechanizmy autoryzacji) i plan skalowalności zgodnie z przewidywanym ruchem. Gdy podczas tworzenia aplikacji zachodzi potrzeba połączenia jej ze stroną internetową tworzoną w pakiecie korzystamy z Wordpress'a jako jednego backendu to obu platform."
+                ]
+            },
+            {
+                "q": "Co dokładnie dostanę po publikacji aplikacji mobilnej?",
+                "a": [
+                    "Po zakończeniu prac przekazujemy kompletny produkt gotowy do publikacji i utrzymania: finalne pliki instalacyjne (pakiety dla sklepów), dostęp do repozytorium z kodem źródłowym oraz instrukcjami uruchomienia, dokumentację techniczną i użytkownika, materiały graficzne niezbędne do publikacji w sklepach oraz podstawową konfigurację integracji (API, analityka, płatności). Dodatkowo dostaniesz przygotowane wzory zgód RODO i wskazówki dotyczące polityki prywatności oraz pakiet wsparcia — przez 12 miesięcy zapewniamy gwarancję i do 3 godzin miesięcznie na drobne poprawki; dla klientów potrzebujących stałego utrzymania i rozwoju aplikacji proponujemy rozszerzone pakiety wsparcia."
+                ]
+            },
+            {
+                "q": "Pomysł na aplikację mobilną - jak wygląda współpraca i czego od nas potrzebujecie na start?",
+                "a": [
+                    "Proces jest podzielony na etapy: krótkie spotkanie/brief, sporządzenie umowy i harmonogramu, projektowanie interfejsu i UX, iteracyjne wdrożenie funkcji, testy na rzeczywistych urządzeniach oraz finalny odbiór i przekazanie. Aby usprawnić prace, warto przygotować priorytety funkcjonalne (co jest niezbędne, a co może być etapowane), materiały brandowe (logo, teksty — jeżeli ich brakuje, pomagamy je przygotować) oraz dostęp do systemów, z którymi aplikacja ma się integrować.",
+                    "Na życzenie organizujemy też współpracę z doświadczonym fotografem: przyjeżdża na miejsce według wcześniej ustalonych wytycznych, robi zdjęcia produktowe i wizerunkowe, dostarcza obrobione pliki gotowe do użycia w aplikacji (z przekazaniem praw/licencji) — to przyspiesza finalizację designu i podnosi jakość materiałów wizualnych. Na każdym etapie dajemy możliwość akceptacji i zgłaszania uwag — celem jest przejrzystość i pełna kontrola klienta nad projektem."
+                ]
+            },
+            {
+                "q": "Czy pomagacie w publikacji aplikacji w App Store i Google Play?",
+                "a": [
+                    "ak — obsługujemy cały proces przygotowania i publikacji: tworzymy opisy, zrzuty ekranu w wymaganych rozmiarach, ikony i inne zasoby, weryfikujemy zgodność z wytycznymi sklepów oraz pomagamy skonfigurować konta deweloperskie; jeśli wolisz, możemy przeprowadzić publikację w Twoim imieniu, o ile udzielisz niezbędnych uprawnień. Ponieważ sklepy mają własne, czasami szczegółowe wymagania (np. dotyczące uprawnień, polityk prywatności czy testów płatności), przygotujemy listę rzeczy do wykonania po Twojej stronie, żeby przyspieszyć akceptację."
+                ]
+            },
+            {
+                "q": "Jakie są standardy bezpieczeństwa, zgodność z RODO i opcje utrzymania po wdrożeniu?",
+                "a": [
+                    "Bezpieczeństwo projektujemy od początku: stosujemy bezpieczne mechanizmy przechowywania i przesyłania danych, uwierzytelnianie i autoryzację oraz praktyki minimalizujące ryzyko podatności; przygotowujemy również ekrany zgód i dokumentację RODO oraz pomagamy w sporządzeniu umów powierzenia przetwarzania. Po wdrożeniu oferujemy standardowy okres gwarancyjny 12 miesięcy z podstawowym wsparciem oraz opcjonalne pakiety utrzymaniowe obejmujące monitoring, priorytetowe reakcje i regularne aktualizacje bezpieczeństwa — na życzenie dobierzemy zakres SLA do potrzeb Twojego biznesu."
+                ]
+            }
+        ]
+    },
+    "footer": {
+        "alt": "Logo spółki airtilion",
+        "area": {
+            "title": "Obszar działania",
+            "ending": "... i wiele więcej"
+        },
+        "docs": [
+            {
+                "name": "Polityka prywatności",
+                "link": "/polityka-prywatnosci.pdf"
+            },
+            {
+                "name": "Regulamin świadczenia usług drogą elektroniczną",
+                "link": "/regulamin-swiadczenia-uslug-droga-elektroniczna.pdf"
+            },
+            {
+                "name": "Zgoda na przesyłanie informacji handlowej",
+                "link": "/zgoda-informacja-handlowa.pdf"
+            }
+        ],
+        "companyInfo": "Airtilion Sp. z o.o. ul. Słoneczna 32/9, 33-100 Tarnów, wpisana do rejestru przedsiębiorców Krajowego rejestru Sądowego przez Sąd Rejonowy dla Krakowa-Śródmieścia w Krakowie, XII Wydział Gospodarczy Krajowego Rejestru Sądowego pod nr KRS 0001143482, kapitał zakładowy w kwocie 5 000,00 zł w całości opłacony, NIP: 8733299720"
+    }
+}

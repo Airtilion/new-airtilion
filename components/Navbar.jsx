@@ -132,7 +132,7 @@ export default function Navbar() {
       </div>
 
 
-      <div className={`flex items-center justify-between px-24 h-[120px] w-full fixed top-0 max-2xl:px-16 z-20 ${isScrolled && 'backdrop-blur-[10px] bg-[#00000040]'} max-lg:h-[90px] max-sm:px-6`}>
+      <div className={`navbar flex items-center justify-between px-24 h-[120px] w-full fixed top-0 max-2xl:px-16 z-20 ${isScrolled && 'backdrop-blur-[10px] bg-[#00000040]'} max-lg:h-[90px] max-sm:px-6`}>
         <Link href="/">
           <img src="/airtilion-logo.svg" width={230} height={60} alt="Logo firmy airtilion" className='opacity-0 translate-y-animation max-2xl:w-[200px] max-xl:w-[160px] max-lg:w-[200px]' />
         </Link>

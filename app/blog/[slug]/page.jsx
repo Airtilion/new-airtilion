@@ -13,6 +13,7 @@ import OtherPosts from '@components/blog-singlePost/OtherPosts';
 import Footer from '@components/Footer';
 import { getDictionary } from '@utils/getDictionary';
 import PortfolioCallToAction from '@components/singlePortfolio/PortfolioCallToAction';
+import SlideUpContact from '@components/SlideUpContact';
 
 
 export const revalidate = 60;
@@ -79,7 +80,7 @@ const page = async ({ params, searchParams }) => {
         <Route title={post.title.rendered} />
 
         <article className='relative z-10'>
-          <div className=' mt-[52px] w-[1240px] mx-auto xl:w-[1000px] lg:w-[90%]'>
+          <div className=' mt-[52px] w-[1240px] mx-auto max-xl:w-[1000px] max-lg:w-[90%]'>
             <Category name={category.name} />
           </div>
 
@@ -91,7 +92,7 @@ const page = async ({ params, searchParams }) => {
           <OtherPosts category={category.name} />
 
           <PortfolioCallToAction dict={dictionary.cta}/>
-
+          <SlideUpContact dict={dictionary.cta.form} lang={lang} />
         </article>
 
       </main>

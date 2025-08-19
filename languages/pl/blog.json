@@ -36,8 +36,8 @@
                 "Krótki opis strony internetowej"
             ],
             "condition": [
-                "Akceptuję <a href='#'>politykę prywatności</a> i wyrażam zgodę na <a href='#'>przetwarzanie danych osobowych</a>",
-                "Wyrażam zgodę na <a href='#'>przetwarzanie moich danych</a> w celu otrzymania informacji handlowej"
+                "Akceptuję <a href='/polityka-prywatnosci.pdf' target='_blank'>politykę prywatności</a> i wyrażam zgodę na <a href='/polityka-prywatnosci.pdf' target='_blank'>przetwarzanie danych osobowych</a>",
+                "Wyrażam zgodę na <a href='/zgoda-informacja-handlowa.pdf' target='_blank'>przetwarzanie moich danych</a> w celu otrzymania informacji handlowej"
             ],
             "button": "Wyślij zapytanie",
             "errors": [

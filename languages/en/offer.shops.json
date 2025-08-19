@@ -122,8 +122,8 @@
                 "Short website description"
             ],
             "condition": [
-                "I accept the <a href='/polityka-prywatnosci.pdf' target='_blank'>privacy policy</a> and consent to the <a href='/polityka-prywatnosci.pdf' target='_blank'>processing of personal data</a>",
-                "I agree to the <a href='/zgoda-informacja-handlowa.pdf' target='_blank'>processing of my data</a> for receiving commercial information"
+                "I accept the <a href='/privacy-policy.pdf' target='_blank'>privacy policy</a> and consent to the <a href='/privacy-policy.pdf' target='_blank'>processing of personal data</a>",
+                "I agree to the <a href='/contest-for-the-purpose-of-sending-requested-commercial-information.pdf' target='_blank'>processing of my data</a> for receiving commercial information"
             ],
             "button": "Send inquiry",
             "errors": [

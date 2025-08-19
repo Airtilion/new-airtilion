@@ -1,49 +1,130 @@
 {
-  "header": {
-    "title": "Portfolio",
-    "description": "We design and develop eye-catching, professional websites, online stores, and mobile applications from scratch. We use the latest technologies to deliver the best possible product.",
-    "alt": "Photo showing a phone"
-  },
-  "main": {
-    "title": "Every project tells a different story",
-    "content": "We don’t believe in ready-made templates. Every project that comes to our team is treated as a unique organism – with its own rhythm, needs, and challenges. That’s why we don’t start with code – we start with understanding. Only then do we design, build, and test. As a result, our work isn’t just a collection of features, but fully developed systems that truly support business growth. Our portfolio isn’t a product catalog – it’s a map of stories we’ve helped write through technology."
-  },
-  "project": {
-    "introduction": {
-      "title": "Project Description",
-      "alts": [
-        "Project logo",
-        "Image showing a phone with one of the section designs",
-        "Image showing a phone with one of the section designs",
-        "Image showing a laptop with one of the section designs",
-        "Image showing a laptop with one of the section designs"
-      ],
-      "button": [
-        "View full visualization",
-        "Click to see the full website visualization"
-      ]
-    }
-  },
-  "footer": {
-    "alt": "Airtilion company logo",
-    "area": {
-      "title": "Operating area",
-      "ending": "... and many more"
+    "header": {
+        "title": "Portfolio",
+        "description": "We create professional and eye-catching websites, online stores, and mobile apps from scratch. We use the latest technologies to deliver the best possible product.",
+        "alt": "Photo showing a phone"
     },
-    "docs": [
-      {
-        "name": "Privacy policy",
-        "link": "/privacy-policy.pdf"
-      },
-      {
-        "name": "Terms of electronic services",
-        "link": "/terms-and-conditions-for-the-provision-of-electronic-services.pdf"
-      },
-      {
-        "name": "Consent to receive commercial information",
-        "link": "/contest-for-the-purpose-of-sending-requested-commercial-information.pdf"
-      }
-    ],
-    "companyInfo": "Airtilion Sp. z o.o., ul. Słoneczna 32/9, 33-100 Tarnów, registered in the Register of Entrepreneurs of the National Court Register by the District Court for Kraków-Śródmieście in Kraków, 12th Commercial Division of the National Court Register under KRS no. 0001143482, share capital of PLN 5,000.00 fully paid, TAX ID (NIP): 8733299720"
-  }
+    "main": {
+        "title": "Every project is a story of its own",
+        "content": "We don’t believe in ready-made templates. Every project that comes to our team is treated as a unique organism—with its own rhythm, needs, and challenges. That’s why we don’t start with code, but with understanding. Only then do we design, build, and test. Thanks to this, our work is not just a collection of functionalities but complete, polished systems that truly support business growth. Our portfolio is not a product catalog—it’s a map of stories we’ve helped write with the power of technology."
+    },
+    "project": {
+        "introduction": {
+            "title": "Project description",
+            "alts": [
+                "Project logo",
+                "Photo showing a phone with one of the sections",
+                "Photo showing a phone with one of the sections",
+                "Photo showing a laptop with one of the sections",
+                "Photo showing a laptop with one of the sections"
+            ],
+            "button": [
+                "View full visualization",
+                "Click to see the full website visualization"
+            ],
+            "link": "Go directly to the website using the link:"
+        },
+        "brief": {
+            "title": "Scope of work agreed during the brief",
+            "alts": [
+                "Laptop photo with the website",
+                "Phone photo with the website"
+            ]
+        },
+        "technologies": {
+            "title": "Technologies used"
+        },
+        "steps": {
+            "title": "Project development process",
+            "alt": "Decorative blurred photo of a laptop with a professional website"
+        },
+        "achivements": {
+            "title": "What was achieved?",
+            "alt": "Image showing a phone"
+        },
+        "client": {
+            "alts": [
+                "alt1",
+                "alt2"
+            ]
+        },
+        "review": {
+            "title": "Client testimonial"
+        },
+        "sum": {
+            "title": "Project summary"
+        },
+        "cta": {
+            "title": "Get a free quote",
+            "content": "We are always ready to create the perfect product for you. Request a free quote for your project, and we’ll get back to you within 24 hours or the next business day. Dreaming of your own website but not sure what exactly you need yet? Don’t worry—we’ll advise you and guide you through every stage.",
+            "button": "Request a free quote",
+            "alt": "Photo of a lion promoting professional business websites"
+        }
+    },
+    "cta": {
+        "title": "Get a free quote",
+        "content": "We’re ready to build your very own website. Fill out a simple form and request a free project quote. We’ll get back to you within 24 hours or the next business day. Not sure what exactly you need yet? Don’t worry. We’ll advise you and guide you through the entire process. We’ll answer all your questions.",
+        "button": "Request a free quote",
+        "alt": "Photo of a lion promoting professional business websites",
+        "form": {
+            "tag": "Your project. Our passion. Shared success.",
+            "title": "Want to know how much your project will cost? Fill out the form!",
+            "content": "We’ll contact you within 24 hours or on the next business day. We’ll discuss your needs, provide advice, and offer a project price. If you don’t want to fill out the form, you can also contact us by phone.",
+            "contactData": [
+                "Phone numbers",
+                "Email address",
+                "Opening hours"
+            ],
+            "close": "Close",
+            "fields": [
+                "Full name",
+                "Email",
+                "Phone number",
+                "Preferred call times",
+                "Project type",
+                "Short description of the website"
+            ],
+            "condition": [
+                "I accept the <a href='/privacy-policy.pdf' target='_blank'>Privacy Policy</a> and consent to the <a href='/privacy-policy.pdf' target='_blank'>processing of personal data</a>",
+                "I consent to the <a href='/contest-for-the-purpose-of-sending-requested-commercial-information.pdf' target='_blank'>processing of my data</a> for the purpose of receiving commercial information"
+            ],
+            "button": "Send inquiry",
+            "errors": [
+                "",
+                "Full name is required",
+                "Invalid email address",
+                "Email address is required",
+                "Phone number is required",
+                "Invalid phone number",
+                "Short website description is required",
+                "You must accept the Privacy Policy",
+                "You must consent to receiving commercial information",
+                "Bot detected",
+                "Failed to send inquiry"
+            ],
+            "success": "Your inquiry has been successfully sent!"
+        }
+    },
+    "footer": {
+        "alt": "Airtilion company logo",
+        "area": {
+            "title": "Operating area",
+            "ending": "... and many more"
+        },
+        "docs": [
+            {
+                "name": "Privacy policy",
+                "link": "/privacy-policy.pdf"
+            },
+            {
+                "name": "Terms of electronic services",
+                "link": "/terms-and-conditions-for-the-provision-of-electronic-services.pdf"
+            },
+            {
+                "name": "Consent to receive commercial information",
+                "link": "/contest-for-the-purpose-of-sending-requested-commercial-information.pdf"
+            }
+        ],
+        "companyInfo": "Airtilion Sp. z o.o., ul. Słoneczna 32/9, 33-100 Tarnów, registered in the Register of Entrepreneurs of the National Court Register by the District Court for Kraków-Śródmieście in Kraków, 12th Commercial Division of the National Court Register under KRS no. 0001143482, share capital of PLN 5,000.00 fully paid, TAX ID (NIP): 8733299720"
+    }
 }

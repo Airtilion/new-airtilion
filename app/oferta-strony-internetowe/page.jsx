@@ -17,7 +17,7 @@ import laptopPhoto from '@assets/images/offer/pricing.webp'
 import coop1 from '@assets/images/offer/coop-1.webp'
 import coop2 from '@assets/images/offer/coop-2.webp'
 
-export const revalidate = 3600*24
+export const revalidate = 86400
 
 export const metadata = {
     title: "Projektowanie stron internetowych - innowacja i profesjonalizm | Airtilion",

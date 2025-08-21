@@ -17,7 +17,7 @@ import laptopPhoto from '@assets/images/offer/app-pricing.webp'
 import coop1 from '@assets/images/offer/app-coop-1.webp'
 import coop2 from '@assets/images/offer/app-coop-2.webp'
 
-export const revalidate = 3600*24
+export const revalidate = 86400
 
 export const metadata = {
     title: "Tworzenie aplikacji mobilnych - innowacja i profesjonalizm | Airtilion",

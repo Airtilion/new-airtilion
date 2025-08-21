@@ -84,8 +84,8 @@ const ContactForm = ({ text }) => {
 
       <input type="text" name="additional" className="hidden" value={data.additional} onChange={e => changeData(e, "additional")} />
 
-      <CustomCheckbox checkboxRef={chRef} id="rulebook1" text={text.condition[0]} />
-      <CustomCheckbox checkboxRef={ch2Ref} id="rulebook2" text={text.condition[1]} />
+      <CustomCheckbox checkboxRef={chRef} id="rulebook3" text={text.condition[0]} />
+      <CustomCheckbox checkboxRef={ch2Ref} id="rulebook4" text={text.condition[1]} />
 
       <button type="submit" className="primary-gradient h-[50px] rounded-[5px] mt-3 max-lg:text-[15px] max-sm:text-[14px] max-sm:h-[45px]">{text.button}</button>
     </form>

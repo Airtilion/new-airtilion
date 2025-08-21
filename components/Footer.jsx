@@ -57,8 +57,8 @@ const Footer = ({dict}) => {
           <p className='text-[16px] !text-white mb-4 max-md:text-center'>{dict.area?.title}</p>
           <div className='flex flex-wrap gap-2 max-md:justify-center'>
             {cities.map((city, idx) => (
-              <Link key={idx} href={city.link} className='px-4 py-0.5 border-[0.5px] border-[#AFABAB] rounded-full group'>
-                <p className='text-[14px] !text-[#AFABAB] max-lg:text-[12px]'>{city.name}</p>
+              <Link key={idx} href={city.link} className='px-4 py-0.5 border-[0.5px] border-[#AFABAB] rounded-full group hover:border-[#e28350] duration-500'>
+                <p className='text-[14px] !text-[#AFABAB] max-lg:text-[12px] group-hover:!text-[#e28350] duration-500'>{city.name}</p>
               </Link>
             ))}
             <p className='text-[14px] !text-[#AFABAB] px-4 py-0.5 border-[0.5px] border-[#AFABAB] rounded-full max-lg:text-[12px]'>{dict.area?.ending}</p>

@@ -12,8 +12,10 @@ const OfferElements = ({ dict }) => {
 
                 <div className='flex flex-wrap justify-center gap-2 mt-8'>
                     {dict.elements.map((el, idx) => (
-                        <div key={idx} className='border-1 border-[#DBDBDB] rounded-full px-4 py-2 hover:bg-[#e2835080] group max-md:w-full animation-bottom transition-all duration-1000 ease-in-out' style={{transitionDelay: `${idx * 100}ms`}}>
-                            <p className='text-[14px] group-hover:!text-white cursor-default max-md:text-center'>{el}</p>
+                        <div key={idx} style={{transitionDelay: `${idx * 100}ms`}} className='animation-bottom transition-all duration-1000 ease-in-out group max-md:w-ful'>
+                            <div  className='w-full h-full border-1 border-[#DBDBDB] rounded-full px-4 py-2 hover:bg-[#e2835080] group duration-500' >
+                                <p className='text-[14px] group-hover:!text-white cursor-default max-md:text-center duration-500'>{el}</p>
+                            </div>
                         </div>
                     ))}
                 </div>

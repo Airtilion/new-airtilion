@@ -24,7 +24,7 @@ const PortfolioElement = ({ item, lang }) => {
                 <div className='flex gap-8 relative z-[3] items-center max-sm:flex-col'>
                     <Image src={getLink(item.Logo.file)} width={300} height={300} alt="Logo projektu" className={isLogoHorizontal ? 'w-[120px]' : 'w-[80px]'}/>
                     <div>
-                        <h3 className='text-[25px] !font-light mb-4 max-2xl:text-[22px] max-sm:text-[18px] max-sm:mb-2'>{item.Name[lang]}</h3>
+                        <h3 className='text-[25px] !font-light mb-4 max-2xl:text-[22px] max-sm:text-[18px] max-sm:mb-2'>{item.Name}</h3>
                         <p className='line-clamp-3 max-2xl:text-[15px] max-sm:text-[14px]'>{item.Description[lang]}</p>
                     </div>
                 </div>

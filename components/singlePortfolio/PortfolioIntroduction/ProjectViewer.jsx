@@ -32,16 +32,18 @@ const ProjectViewer = ({ isVisible, isContactOpen, setIsContactOpen, vis, projec
                         </button>
                     </div>
 
-                    <div onClick={() => setOpen(prev => !prev)} className='z-[52] fixed left-[50%] translate-x-[-50%] bottom-8 bg-[#000000CC] backdrop-blur-sm py-4 px-6 rounded-[5px] flex gap-4 items-center cursor-pointer w-fit max-md:max-w-[350px] max-md:justify-between max-sm:w-[260px]'>
-                        <p className='!text-[#e28350] max-md:text-[14px]'>Wybrana strona: <br className='hidden max-md:block'/><span className='text-white'>{fixEncoding(vis[actualPhoto].file.slice(projectName.length + 15, -5))}</span></p>
-                        <Icon icon="weui:arrow-outlined" width={30} height={30} className={`text-white duration-500 ${open ? 'rotate-[90deg]' : 'rotate-[-90deg]'}`} />
+                    {vis.length > 1 && 
+                        <div onClick={() => setOpen(prev => !prev)} className='z-[52] fixed left-[50%] translate-x-[-50%] bottom-8 bg-[#000000CC] backdrop-blur-sm py-4 px-6 rounded-[5px] flex gap-4 items-center cursor-pointer w-fit max-md:max-w-[350px] max-md:justify-between max-sm:w-[260px]'>
+                            <p className='!text-[#e28350] max-md:text-[14px]'>Wybrana strona: <br className='hidden max-md:block'/><span className='text-white'>{fixEncoding(vis[actualPhoto].file.slice(projectName.length + 15, -5))}</span></p>
+                            <Icon icon="weui:arrow-outlined" width={30} height={30} className={`text-white duration-500 ${open ? 'rotate-[90deg]' : 'rotate-[-90deg]'}`} />
 
-                        <div className={`absolute left-0 w-full z-[-1] bg-[#000000f7] backdrop-blur-sm flex flex-col overflow-hidden rounded-[5px] transition-all duration-300 p-4 gap-2 ${open ? 'opacity-100 translate-y-[-128px]' : 'opacity-0 -translate-y-2 pointer-events-none'}`} style={{maxHeight: open ? vis.length*60+'px' : '0px'}}>
-                            {vis.map((v, idx) => (
-                                <p key={idx} onClick={e => { e.stopPropagation(); setActualPhoto(idx); setOpen(false) }} className={`text-right text-[18px] cursor-pointer duration-500 pointer-events-auto ${idx === actualPhoto && '!text-[#e28350] text-[20px]'}`}>{fixEncoding(v.file.slice(projectName.length + 15, -5))}</p>
-                            ))}
+                            <div className={`absolute left-0 w-full z-[-1] bg-[#000000f7] backdrop-blur-sm flex flex-col overflow-hidden rounded-[5px] transition-all duration-300 p-4 gap-2 ${open ? 'opacity-100 translate-y-[-128px]' : 'opacity-0 -translate-y-2 pointer-events-none'}`} style={{maxHeight: open ? vis.length*60+'px' : '0px'}}>
+                                {vis.map((v, idx) => (
+                                    <p key={idx} onClick={e => { e.stopPropagation(); setActualPhoto(idx); setOpen(false) }} className={`text-right text-[18px] cursor-pointer duration-500 pointer-events-auto ${idx === actualPhoto && '!text-[#e28350] text-[20px]'}`}>{fixEncoding(v.file.slice(projectName.length + 15, -5))}</p>
+                                ))}
+                            </div>
                         </div>
-                    </div>
+                    }
 
                     <div className={`fixed inset-0 h-full overflow-hidden z-[49] bg-[#00000080] ${isContactOpen ? 'slide-up' : 'slide-down'}`}>
                         <div className='w-[1700px] h-[1700px] rounded-full bg-[#e2835033] blur-[200px] absolute bottom-[-850px]' />

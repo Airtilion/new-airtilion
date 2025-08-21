@@ -28,7 +28,7 @@ const Introduction = ({dict = {}}) => {
 
       </article>
 
-        <p className='absolute top-[50%] translate-y-[-50%] w-full !text-[#E2835014] !font-black !text-[clamp(40px,17.7vw,340px)] blur-[20px] text-center max-lg:blur-[10px] max-sm:blur-[7px]'>AIRTILION</p>
+        <p className='select-none absolute top-[50%] translate-y-[-50%] w-full !text-[#E2835014] !font-black !text-[clamp(40px,17.7vw,340px)] blur-[20px] text-center max-lg:blur-[10px] max-sm:blur-[7px]'>AIRTILION</p>
     </section>
   )
 }

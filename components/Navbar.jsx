@@ -6,7 +6,7 @@ import { useEffect, useRef, useState } from 'react';
 
 import pl from '@languages/pl/main.json';
 import en from '@languages/en/main.json';
-import { usePathname, useSearchParams } from 'next/navigation';
+import { usePathname, useRouter, useSearchParams } from 'next/navigation';
 
 export default function Navbar() {
   const mobileMenuRef = useRef(null);
@@ -17,6 +17,7 @@ export default function Navbar() {
   const [mobileSubOpen, setMobileSubOpen] = useState(false)
   const closeTimeoutRef = useRef(null)
   const pathname = usePathname();
+  const router = useRouter();
 
 
   const searchParams = useSearchParams();
@@ -201,7 +202,7 @@ export default function Navbar() {
                 );
               }
               return (
-                <Link key={index} href={item.link} className='opacity-0 translate-y-animation text-center' style={{ animationDelay: 100 * index + 'ms' }}>
+                <Link key={index} href={item.link} onClick={(e) => {handleLinkClick(e, item.link); menuVisibilityHandle()}} className='opacity-0 translate-y-animation text-center' style={{ animationDelay: 100 * index + 'ms' }}>
                   {item.name}
                 </Link>
               );

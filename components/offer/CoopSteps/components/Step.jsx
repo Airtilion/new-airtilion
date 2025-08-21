@@ -4,7 +4,7 @@ const Step = ({ title, desc, def, number }) => {
   return (
     <div className='relative'>
       <div className={`flex gap-4 ${!def && 'flex-row-reverse'}`}>
-        <p className='text-[25px] !text-white max-xl:text-[20px] max-lg:text-[18px] max-sm:text-[16px]'>{title}</p>
+        <h3 className='text-[25px] !text-white max-xl:text-[20px] max-lg:text-[18px] max-sm:text-[16px]'>{title}</h3>
         <div className={`flex-1 flex items-center ${!def && 'flex-row-reverse'}`}>
           <div className='w-[10px] h-[10px] rounded-full bg-[#e28350]' />
           <div className={`w-full from-[#e28350] to-[#e2835000] h-[2px] ${def ? 'bg-linear-to-r' : 'bg-linear-to-l'}`} />

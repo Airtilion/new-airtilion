@@ -24,6 +24,15 @@ button {
   color: #E28350
 }
 
+.link-color{
+  color: #E28350;
+  transition-duration: 500ms;
+}
+
+.link-color:hover{
+  color: #7d642e;
+}
+
 /*----------- scrollbar -----------*/
 
 *::-webkit-scrollbar {

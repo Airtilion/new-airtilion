@@ -26,6 +26,13 @@ const bgPairs = [
   [offerBg7, offerBg8],
 ]
 
+const links = [
+  "/oferta-strony-internetowe",
+  "/oferta-sklepy-internetowe",
+  "/oferta-aplikacje-mobilne",
+  "/oferta-uslugi-dodatkowe",
+]
+
 const Offer = ({ dict }) => {
   const [activeIndex, setActiveIndex] = useState(0)
 
@@ -63,7 +70,7 @@ const Offer = ({ dict }) => {
         </div>
 
         <div className='w-fit self-end'>
-          <Link href="#" className='flex gap-2 items-center text-[16px] max-2xl:text-[15px] max-sm:text-[14px] group duration-500 hover:!text-[#E28350]'>
+          <Link href={links[activeIndex]} className='flex gap-2 items-center text-[16px] max-2xl:text-[15px] max-sm:text-[14px] group duration-500 hover:!text-[#E28350]'>
             Przeczytaj więcej o tej ofercie
             <Icon icon="stash:arrow-right-light" width={32} height={32} className='rotate-[-45deg] max-sm:w-[28px] max-sm:h-[28px] group-hover:rotate-0 duration-500' />
           </Link>

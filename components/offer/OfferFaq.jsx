@@ -7,7 +7,7 @@ import React, { useState } from 'react'
 
 const OfferFaq = ({ dict }) => {
     const [open, setOpen] = useState(0);
-    
+
     const handleOpen = (value) => setOpen(open === value ? -1 : value);
 
     return (
@@ -21,7 +21,10 @@ const OfferFaq = ({ dict }) => {
                 <div className='mt-12'>
                     {dict.qna.map((q, idx) => (
                         <Accordion open={open === idx} icon={<Icon id={idx} open={open} />} key={idx} className='my-4 transition-all duration-1000 ease-in-out animation-left' style={{ transitionDelay: idx * 200 + 'ms' }}>
-                            <AccordionHeader onClick={() => handleOpen(idx)} className="text-[18px] font-light max-2xl:text-[16px] max-sm:text-[14px] primary-gradient-modified rounded-[5px] pr-6 h-[60px] text-left max-sm:h-fit">{q.q}</AccordionHeader>
+                            <div className='primary-gradient-modified rounded-[5px] pr-6 h-[60px] cursor-pointer flex justify-between items-center' onClick={() => handleOpen(idx)}>
+                                <h3 className='text-[18px] font-light max-2xl:text-[16px] max-sm:text-[14px] text-left flex-1'>{q.q}</h3>
+                                <Icon id={idx} open={open} />
+                            </div>
                             <AccordionBody className="text-[16px] font-extralight mt-[15px] xxl:text-[20px] xl:text-[15px] lg:text-[13px]">
                                 {q.a.map((an, idx) => (
                                     <p key={idx} className='text-[16px] max-2xl:text-[15px] max-sm:text-[14px] mt-4'>{an}</p>
@@ -32,7 +35,7 @@ const OfferFaq = ({ dict }) => {
                 </div>
             </article>
 
-            <div className='absolute top-[40%] translate-y-[-50%] left-[-200px] w-[300px] h-[260px] bg-[#e2835080] blur-[90px] rounded-[100%] z-[-1]'/>
+            <div className='absolute top-[40%] translate-y-[-50%] left-[-200px] w-[300px] h-[260px] bg-[#e2835080] blur-[90px] rounded-[100%] z-[-1]' />
         </section>
     )
 }

@@ -12,11 +12,8 @@ export default function WebsiteSettings({ index }) {
 
   // Poprawiona logika pobierania języka
   const lang = searchParams.get('lang') === 'en' ? 'en' : 'pl';
-  console.log('WebsiteSettings: searchParams=', searchParams.toString());
-  console.log('WebsiteSettings: lang=', lang);
 
   const toggleLanguage = () => {
-    console.log('toggleLanguage: current lang=', lang, 'pathname=', pathname);
     const newLang = lang === 'en' ? 'pl' : 'en';
     const params = new URLSearchParams(searchParams);
     if (newLang === 'en') {
@@ -26,7 +23,6 @@ export default function WebsiteSettings({ index }) {
     }
     const newQuery = params.toString();
     const newUrl = newQuery ? `${pathname}?${newQuery}` : pathname;
-    console.log('toggleLanguage: newUrl=', newUrl);
     router.push(newUrl, undefined, { shallow: false });
   };
 
@@ -36,7 +32,7 @@ export default function WebsiteSettings({ index }) {
       style={{ animationDelay: ((Number(index) + 1) * 100) + 'ms' }}
     >
       <button
-        onClick={toggleTheme}
+        onClick={() => {alert('Ta opcja nie jest na razie dostępne.');}} // toggleTheme
         className="bg-[#00000040] rounded-full flex items-center gap-[8px] px-[8px] relative max-xl:px-[6px]"
       >
         <Icon icon="solar:moon-bold" width="20" height="20" className="text-white dark:text-[#E28350] z-[1] max-2xl:w-[16px]" />

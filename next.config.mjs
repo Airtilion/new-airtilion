@@ -68,28 +68,28 @@ const nextConfig = {
   async rewrites() {
     return [
       {
-        source: '/polityka-prywatnosci.pdf',
+        source: '/polityka-prywatnosci',
         destination: '/assets/files/polityka_prywatnosci_Airtilion.pdf',
       },
       {
-        source: '/regulamin-swiadczenia-uslug-droga-elektroniczna.pdf',
+        source: '/regulamin-swiadczenia-uslug-droga-elektroniczna',
         destination: '/assets/files/regulamin-swiadczenia-uslug-droga-elektroniczna.pdf',
       },
       {
-        source: '/zgoda-informacja-handlowa.pdf',
+        source: '/zgoda-informacja-handlowa',
         destination: '/assets/files/zgoda-informacja-handlowa.pdf',
       },
 
       {
-        source: '/privacy-policy.pdf',
+        source: '/privacy-policy',
         destination: '/assets/files/privacy-policy.pdf',
       },
       {
-        source: '/terms-and-conditions-for-the-provision-of-electronic-services.pdf',
+        source: '/terms-and-conditions-for-the-provision-of-electronic-services',
         destination: '/assets/files/terms-and-conditions-for-the-provision-of-electronic-services.pdf',
       },
       {
-        source: '/consent-to-receive-commercial-information.pdf',
+        source: '/consent-to-receive-commercial-information',
         destination: '/assets/files/consent-to-receive-commercial-information.pdf',
       },
     ]

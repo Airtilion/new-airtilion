@@ -61,7 +61,7 @@ const Latest = ({dict}) => {
 
 
     return (
-        <section id="blog-latest-section" className={`w-[1400px] mx-auto flex flex-col gap-8 z-[1] transition-all duration-1000 ease-in-out max-2xl:w-[1200px] max-xl:w-[960px] max-lg:w-full max-lg:px-[48px] max-sm:px-[16px] blog-latest-hidden`}>
+        <section id="blog-latest-section" className={`w-[1400px] mx-auto flex flex-col gap-32 z-[1] transition-all duration-1000 ease-in-out max-2xl:w-[1200px] max-xl:w-[960px] max-lg:w-full max-lg:px-[48px] max-sm:px-[16px] blog-latest-hidden`}>
             <IntersectionListener selector="#blog-latest-section" visibleClass="blog-latest-visible" hiddenClass="blog-latest-hidden" threshold="0.1" rootMargin='0px 0px -50px 0px'/>
             
             <div className='animation-left transition-all duration-1000 ease-in-out'>
@@ -72,8 +72,8 @@ const Latest = ({dict}) => {
 
                 {(category || phrase) && <div className='absolute left-0 top-[-64px] flex gap-[8px] items-center flex-wrap max-sm:relative'>
                     <p className='font-light text-[#ABABAB]'>Filtry:</p>
-                    {category && <p className='bg-[#EFD8A7] text-black px-[16px] py-[3px] rounded-[5px] sm:text-[12px]'>{category}</p>}
-                    {phrase && <p className='bg-[#EFD8A7] text-black px-[16px] py-[3px] rounded-[5px] sm:text-[12px]'>"{phrase}"</p>}
+                    {category && <p className='primary-gradient text-white px-[16px] py-[3px] rounded-[5px] max-sm:text-[12px]'>{category}</p>}
+                    {phrase && <p className='primary-gradient text-white px-[16px] py-[3px] rounded-[5px] max-sm:text-[12px]'>"{phrase}"</p>}
                     <button className='text-[#ABABAB] ml-[32px]' onClick={clearFilters}>Wyczyść filtry</button>
                 </div>}
 

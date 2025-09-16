@@ -28,7 +28,7 @@ const page = async ({ searchParams }) => {
             <main className='flex flex-col gap-[192px] mt-[192px] pb-32 overflow-hidden max-sm:mt-[128px] relative'>
                 <PortfolioList dict={dictionary.main} lang={lang}/>
                 <CallToAction dict={dictionary.cta}/>
-                <SlideUpContact dict={dictionary.cta.form}/>
+                <SlideUpContact dict={dictionary.cta.form} lang={lang} />
             </main>
             <Footer dict={dictionaryFooter}/>
             <div className='gradient-transparency-v absolute w-[800px] h-[calc(100%-550px)] bg-linear-to-r from-[#00000000] via-[#e283504D] to-[#00000000] z-[-3] top-0 left-[50%] translate-x-[-50%] max-lg:w-[500px] max-sm:w-[80%]'></div>

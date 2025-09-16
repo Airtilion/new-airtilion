@@ -10,7 +10,8 @@ const NewPricingSchema = new Schema(
     message: { type: String, required: true, trim: true, minlength: 1 },
     privacyConsent: { type: Boolean, required: true },
     marketingConsent: { type: Boolean, required: true },
-    createdAt: { type: Date, default: Date.now }
+    createdAt: { type: Date, default: Date.now },
+    approved: {type: Boolean, default: false},
   },
   { collection: 'new-pricing', versionKey: false }
 );

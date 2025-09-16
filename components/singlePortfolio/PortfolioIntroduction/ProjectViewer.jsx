@@ -13,6 +13,21 @@ const ProjectViewer = ({ isVisible, isContactOpen, setIsContactOpen, vis, projec
         return new TextDecoder('utf-8').decode(bytes).replace(/-/g, ' ');
     }
 
+    // const base = 42;
+    // const perItem = 32;
+    // const itemsCount = vis.length - 1;
+
+    // const translateY = (perItem * itemsCount) + base;
+
+    // console.log(itemsCount)
+    // console.log(translateY);
+
+    const base = 60;
+    const perItem = 16;
+    const itemsCount = vis.length -1;
+    const marginBottom = 11;
+    const translateY = (perItem * itemsCount) + base + marginBottom;
+
     return (
         <>
             {isVisible && (
@@ -21,7 +36,7 @@ const ProjectViewer = ({ isVisible, isContactOpen, setIsContactOpen, vis, projec
                     <div className={`contact-panel relative ${isContactOpen ? 'slide-up' : 'slide-down'}`}>
                         <div className='flex flex-col mt-[80px] gap-16 items-center w-[1240px] max-2xl:w-[960px] max-xl:w-[750px] max-lg:w-[90%] mx-auto max-sm:mt-32 max-sm:gap-8'>
                             <p className='text-[30px] max-2xl:text-[25px] max-sm:text-[20px] self-start'>Wizualizacja: {projectName}</p>
-                            <Image src={convertLink(vis[actualPhoto].file)} width={1240} height={1000} quality={100} placeholder='blur' blurDataURL={vis[actualPhoto].base64} className='h-auto w-full duration-500' alt="Jakaś wizualizacja" />
+                            <Image src={convertLink(vis[actualPhoto].file)} width={1240} height={1000} quality={100} placeholder='blur' blurDataURL={`data:image/webp;base64,${vis[actualPhoto].base64}`} className='h-auto w-full duration-500' alt="Jakaś wizualizacja" />
                         </div>
                     </div>
 
@@ -37,7 +52,7 @@ const ProjectViewer = ({ isVisible, isContactOpen, setIsContactOpen, vis, projec
                             <p className='!text-[#e28350] max-md:text-[14px]'>Wybrana strona: <br className='hidden max-md:block'/><span className='text-white'>{fixEncoding(vis[actualPhoto].file.slice(projectName.length + 15, -5))}</span></p>
                             <Icon icon="weui:arrow-outlined" width={30} height={30} className={`text-white duration-500 ${open ? 'rotate-[90deg]' : 'rotate-[-90deg]'}`} />
 
-                            <div className={`absolute left-0 w-full z-[-1] bg-[#000000f7] backdrop-blur-sm flex flex-col overflow-hidden rounded-[5px] transition-all duration-300 p-4 gap-2 ${open ? 'opacity-100 translate-y-[-128px]' : 'opacity-0 -translate-y-2 pointer-events-none'}`} style={{maxHeight: open ? vis.length*60+'px' : '0px'}}>
+                            <div className={`absolute left-0 w-full z-[-1] bg-[#000000f7] backdrop-blur-sm flex flex-col overflow-hidden rounded-[5px] transition-all duration-300 p-4 gap-2 ${open ? `opacity-100` : 'opacity-0 pointer-events-none'}`} style={{transform: open ? `translateY(-${translateY}px)` : 'translateY(-8px)' ,maxHeight: open ? vis.length*60+'px' : '0px'}}>
                                 {vis.map((v, idx) => (
                                     <p key={idx} onClick={e => { e.stopPropagation(); setActualPhoto(idx); setOpen(false) }} className={`text-right text-[18px] cursor-pointer duration-500 pointer-events-auto ${idx === actualPhoto && '!text-[#e28350] text-[20px]'}`}>{fixEncoding(v.file.slice(projectName.length + 15, -5))}</p>
                                 ))}

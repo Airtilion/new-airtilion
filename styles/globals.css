@@ -313,3 +313,31 @@ blockquote{
 @media only screen and (max-width: 350px){
   .blog-content h2{font-size: 22px;}
 }
+
+/* ---------- COOKIE TEMPLATE ---------- */
+.quadBeforeChecked::before {
+  content: "";
+  height: 20px;
+  width: 20px;
+  min-width: 20px;
+  border: 2px solid #0C0C0C;
+  background-color: #E28350;
+  opacity: 0.5;
+  transition-duration: 700ms;
+  margin-right: 10px;
+}
+
+.quadBefore::before {
+  content: "";
+  height: 20px;
+  width: 20px;
+  min-width: 20px;
+  border: 2px solid #E28350;
+  transition-duration: 700ms;
+  margin-right: 10px;
+}
+
+.cookies .peer:checked+label .quadBefore::before{
+  border-color: #0C0C0C;
+  background-color: #E28350;
+}

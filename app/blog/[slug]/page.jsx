@@ -91,7 +91,7 @@ const page = async ({ params, searchParams }) => {
           <Author authorName={post.acf.author} />
           <OtherPosts category={category.name} />
 
-          <PortfolioCallToAction dict={dictionary.cta}/>
+          <PortfolioCallToAction dict={dictionary.cta} mt={96} />
           <SlideUpContact dict={dictionary.cta.form} lang={lang} />
         </article>
 

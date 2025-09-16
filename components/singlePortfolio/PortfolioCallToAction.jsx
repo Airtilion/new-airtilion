@@ -8,7 +8,7 @@ import SlideUpContact from '@components/SlideUpContact'
 import IntersectionListener from '@components/IntersectionListener'
 import CustomContactToggle from '@components/CustomContactToggle'
 
-const PortfolioCallToAction = ({ dict }) => {
+const PortfolioCallToAction = ({ dict, mt = '0' }) => {
   const [isContactOpen, setIsContactOpen] = useState(false);
   const [isVisible, setIsVisible] = useState(false);
 
@@ -30,7 +30,7 @@ const PortfolioCallToAction = ({ dict }) => {
 
   return (
     <>
-      <section id="cta-section" className='w-[1240px] mx-auto max-2xl:w-[1180px] max-xl:w-[960px] max-lg:w-[90%] px-16 max-md:px-4 max-sm:py-8 relative flex flex-col justify-center items-center gap-8 min-h-[350px] overflow-hidden max-2xl:gap-6 element-hidden-opacity transition-all duration-1000 ease-in-out'>
+      <section id="cta-section" className='w-[1240px] mx-auto max-2xl:w-[1180px] max-xl:w-[960px] max-lg:w-[90%] px-16 max-md:px-4 max-sm:py-8 relative flex flex-col justify-center items-center gap-8 min-h-[350px] overflow-hidden max-2xl:gap-6 element-hidden-opacity transition-all duration-1000 ease-in-out' style={{marginTop: `${mt}px`}}>
 
       <IntersectionListener selector="#cta-section" visibleClass="element-visible-opacity" hiddenClass="element-hidden-opacity" threshold="0.1" rootMargin='0px 0px -50px 0px'/>
 

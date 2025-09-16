@@ -3,7 +3,7 @@ import Image from 'next/image'
 
 const ArticleIntro = ({ title, image_link, intro_text }) => {
     return (
-        <section className='blog-intro mt-[64px] w-[1240px] mx-auto flex gap-[32px] max-xl:w-[1000px] max-lg:w-[90%] max-lg:flex-col max-lg:items-center'>
+        <section className='blog-intro mt-[64px] w-[1240px] mx-auto flex items-center gap-[32px] max-xl:w-[1000px] max-lg:w-[90%] max-lg:flex-col max-lg:items-center'>
 
             <div className='flex-1 relative h-full'>
                 <Image src={image_link} alt={title.replace(/<[^>]+>/g, '').replace(/&#8211;/g, '-')} loading='eager' width="600" height="400" sizes={`(min-width: 1280px) 50vw, (min-width: 1024px) 484px, (min-width: 768px) 50vw, 100%`} className='rounded-[5px] object-cover' />

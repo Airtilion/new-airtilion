@@ -48,7 +48,7 @@ const ProjectViewer = ({ isVisible, isContactOpen, setIsContactOpen, vis, projec
                     </div>
 
                     {vis.length > 1 && 
-                        <div onClick={() => setOpen(prev => !prev)} className='z-[52] fixed left-[50%] translate-x-[-50%] bottom-8 bg-[#000000CC] backdrop-blur-sm py-4 px-6 rounded-[5px] flex gap-4 items-center cursor-pointer w-fit max-md:max-w-[350px] max-md:justify-between max-sm:w-[260px]'>
+                        <div onClick={() => setOpen(prev => !prev)} className='z-[52] fixed left-[50%] translate-x-[-50%] bottom-8 bg-[#000000CC] backdrop-blur-sm py-4 px-6 rounded-[5px] flex gap-4 items-center cursor-pointer w-fit max-md:w-[350px] max-md:justify-between max-sm:w-[260px]'>
                             <p className='!text-[#e28350] max-md:text-[14px]'>Wybrana strona: <br className='hidden max-md:block'/><span className='text-white'>{fixEncoding(vis[actualPhoto].file.slice(projectName.length + 15, -5))}</span></p>
                             <Icon icon="weui:arrow-outlined" width={30} height={30} className={`text-white duration-500 ${open ? 'rotate-[90deg]' : 'rotate-[-90deg]'}`} />
 

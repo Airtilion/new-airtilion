@@ -9,7 +9,7 @@ const nextConfig = {
         hostname: 'api.airtilion.com',
       }
     ],
-    domains: ['images.unsplash.com', 'lh3.googleusercontent.com'],
+    domains: ['images.unsplash.com', 'blog.airtilion.com'],
   },
   async redirects() {
     return [

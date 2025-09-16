@@ -14,9 +14,11 @@ import SlideUpContact from '@components/SlideUpContact'
 const page = async ({ searchParams }) => {
 
   const params = searchParams instanceof Promise ? await searchParams : searchParams;
-  const { lang } = await params
+  const { lang = 'pl' } = await params
   const file = await getDictionary(lang, 'blog');
   const dictionary = file || {};
+
+  console.log(lang);
 
   return (
     <>

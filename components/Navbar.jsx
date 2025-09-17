@@ -150,7 +150,7 @@ export default function Navbar() {
 
                     <div className='absolute bottom-[-350px] w-[400px] flex flex-col justify-center bg-[#000000ca]' style={{ display: sMenuVsible ? 'flex' : 'none' }} onMouseEnter={openSubMenu} onMouseLeave={scheduleCloseSubMenu} onFocus={openSubMenu} onBlur={scheduleCloseSubMenu}>
                       {dict.subItems.map((item, index) => (
-                        <Link key={index} href={item.link} onClick={(e) => handleLinkClick(e, item.link)} className='opacity-0 translate-y-animation duration-500 flex justify-between items-center gap-6 group px-6 py-3 hover:bg-linear-to-r hover:form-[#000000] hover:to-[#e28350]' style={{ animationDelay: 100 * (index-1) + 'ms' }}>
+                        <Link key={index} href={item.link} onClick={(e) => handleLinkClick(e, item.link)} className='opacity-0 translate-y-animation duration-500 flex justify-between items-center gap-6 group px-6 py-3 hover:bg-linear-to-r hover:form-[#000000] hover:to-[#e28350]' style={{ animationDelay: 100 * (index - 1) + 'ms' }}>
                           <div className='flex-1'>
                             <p className='!text-[#ffffff]'>{item.name}</p>
                             <p className='text-[12px]'>{item.desc}</p>
@@ -189,11 +189,13 @@ export default function Navbar() {
               if (item.link === '/oferta') {
                 return (
                   <div key={index} className='w-fit text-center'>
-                    <div className='flex gap-4 w-fit mx-auto translate-y-animation'>
-                      <button onClick={() => setMobileSubOpen(prev => !prev)} className='w-fit text-center'>{item.name}</button>
-                      <Icon icon="ep:arrow-down" width="20" height="20" className={`${mobileSubOpen && 'rotate-[180deg]'} duration-500`}/>
+                    <div className='w-fit mx-auto translate-y-animation'>
+                      <button onClick={() => setMobileSubOpen(prev => !prev)} className='w-fit text-center flex gap-4'>
+                        {item.name}
+                        <Icon icon="ep:arrow-down" width="20" height="20" className={`${mobileSubOpen && 'rotate-[180deg]'} duration-500`} />
+                      </button>
                     </div>
-                    <div className={`flex flex-col rounded-lg submenu-wrapper ${mobileSubOpen ? 'open mt-4' : ''}`}>
+                    <div className={`flex flex-col rounded-lg submenu-wrapper translate-y-animation ${mobileSubOpen ? 'open mt-4' : ''}`}>
                       {dict.subItems.map((sub, si) => (
                         <Link key={si} href={sub.link} onClick={(e) => { handleLinkClick(e, sub.link); menuVisibilityHandle(); }} className='py-3 text-[14px]'>{sub.name}</Link>
                       ))}
@@ -202,7 +204,7 @@ export default function Navbar() {
                 );
               }
               return (
-                <Link key={index} href={item.link} onClick={(e) => {handleLinkClick(e, item.link); menuVisibilityHandle()}} className='opacity-0 translate-y-animation text-center' style={{ animationDelay: 100 * index + 'ms' }}>
+                <Link key={index} href={item.link} onClick={(e) => { handleLinkClick(e, item.link); menuVisibilityHandle() }} className='opacity-0 translate-y-animation text-center' style={{ animationDelay: 100 * index + 'ms' }}>
                   {item.name}
                 </Link>
               );

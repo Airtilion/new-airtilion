@@ -18,8 +18,6 @@ const page = async ({ searchParams }) => {
   const file = await getDictionary(lang, 'blog');
   const dictionary = file || {};
 
-  console.log(lang);
-
   return (
     <>
 

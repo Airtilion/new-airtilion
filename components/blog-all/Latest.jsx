@@ -59,7 +59,6 @@ const Latest = ({dict}) => {
         getData();
     }, [phrase, page, category])
 
-
     return (
         <section id="blog-latest-section" className={`w-[1400px] mx-auto flex flex-col gap-32 z-[1] transition-all duration-1000 ease-in-out max-2xl:w-[1200px] max-xl:w-[960px] max-lg:w-full max-lg:px-[48px] max-sm:px-[16px] blog-latest-hidden`}>
             <IntersectionListener selector="#blog-latest-section" visibleClass="blog-latest-visible" hiddenClass="blog-latest-hidden" threshold="0.1" rootMargin='0px 0px -50px 0px'/>

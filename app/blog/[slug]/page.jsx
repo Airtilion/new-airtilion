@@ -49,7 +49,7 @@ export async function generateMetadata({ params }) {
 }
 
 const page = async ({ params, searchParams }) => {
-  const { slug } = params
+  const { slug } = await params
 
   const sParams = searchParams instanceof Promise ? await searchParams : searchParams;
   const { lang } = await sParams

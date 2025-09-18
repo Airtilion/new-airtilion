@@ -85,7 +85,7 @@ const page = async ({ params, searchParams }) => {
 
             <Header title={data.header.h1} content={data.header.content[0]} bg={data.img} buttonText={data.header.button} dark={true}/>
             
-            <main className='flex flex-col gap-[192px] overflow-hidden' >
+            <main className='flex flex-col gap-[192px] overflow-hidden max-lg:gap-[128px]' >
                 <CompaniesSlider />
                 <CityIntroduction dict={data.introduction} preHeading={data.header.content[1]}/>
                 <CityAdvantages dict={data.advantages} image={sectionImg}/>

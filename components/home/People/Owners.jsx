@@ -11,8 +11,8 @@ const Owners = ({ dict }) => {
   return (
     <section id='owners-section' className='w-full relative owners-hidden overflow-hidden'>
 
-      <IntersectionListener selector="#owners-section" visibleClass="owners-visible" hiddenClass="owners-hidden" threshold="0.2" rootMargin='0px 0px -100px 0px' />
-      <article className='w-[1240px] max-xl:w-[960px] py-16 max-lg:w-[90%] mx-auto  '>
+      <IntersectionListener selector="#owners-section" visibleClass="owners-visible" hiddenClass="owners-hidden" threshold="0" rootMargin='0px 0px -100px 0px' />
+      <article className='w-[1240px] max-xl:w-[960px] py-16 max-lg:w-[90%] mx-auto'>
 
         <div className='flex flex-col gap-4 animation-left transition-all duration-1000 ease-in-out'>
           <PreTitle title={dict.tag} />

@@ -13,7 +13,7 @@ const Faq = ({ dict }) => {
     return (
         <section id="faq-section" className='w-[1240px] mx-auto max-xl:w-[960px] max-lg:w-[90%] faq-hidden'>
 
-            <IntersectionListener selector="#faq-section" visibleClass="faq-visible" hiddenClass="faq-hidden" threshold="0.2" rootMargin='0px 0px -100px 0px' />
+            <IntersectionListener selector="#faq-section" visibleClass="faq-visible" hiddenClass="faq-hidden" threshold="0" rootMargin='0px 0px -100px 0px' />
 
             <h2 className='text-[30px] max-2xl:text-[25px] max-sm:text-[20px] heading-gradient-gray transition-all duration-1000 ease-in-out animation-left'>{dict.title}</h2>
             <p className='text-[16px] max-2xl:text-[15px] max-sm:text-[14px] mt-4 transition-all duration-1000 ease-in-out animation-left'>{dict.content}</p>

@@ -40,7 +40,7 @@ const page = async ({ searchParams }) => {
         <>
             <Header full={false} title={dictionary.header?.title || 'Default Title'} content={dictionary.header?.description || 'Default Content'} bg={offerBg} />
 
-            <main className='flex flex-col gap-[192px] mt-[192px] overflow-hidden max-sm:mt-[128px]'>
+            <main className='flex flex-col gap-[192px] mt-[192px] overflow-hidden max-lg:gap-[128px] max-sm:mt-[128px]'>
                 <OfferIntroduction dict={dictionary} />
                 <OfferElements dict={dictionary.websiteElements} />
                 <CoopSteps dict={dictionary.cooperation} img1={coop1} img2={coop2}/>

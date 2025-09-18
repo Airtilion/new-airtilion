@@ -43,7 +43,7 @@ const SliderCard = forwardRef(({ author, authorId, page, desc, icon, stars, lang
                     {Array.from({ length: 5 }).map((_, idx) => <Icon key={idx} icon="material-symbols:star" width={20} height={20} className='text-[#C07915]' />)}
                 </div>
             </div>
-            <div className='flex gap-4 px-8 mt-4 w-[400px] max-lg:w-[350px] max-md:w-[300px] max-md:h-[220px]'>
+            <div className='flex gap-4 px-8 mt-4 w-[400px] max-lg:w-[350px] max-md:w-[300px]'>
                 <div className='w-[40px] h-[40px] bg-white rounded-[5px] flex justify-center items-center overflow-hidden max-md:w-[30px] max-md:h-[30px]'>
                     <Image src={getLink(icon)} width={35} height={35} alt={`Ikona ${author}`} />
                 </div>

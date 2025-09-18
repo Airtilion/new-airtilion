@@ -11,7 +11,7 @@ const CityOffer = ({ dict }) => {
     return (
         <section id="city-offer-section" className='w-full relative py-8 overflow-hidden city-offer-hidden'>
 
-            <IntersectionListener selector="#city-offer-section" visibleClass="city-offer-visible" hiddenClass="city-offer-hidden" threshold="0.2" rootMargin='0px 0px -100px 0px' />
+            <IntersectionListener selector="#city-offer-section" visibleClass="city-offer-visible" hiddenClass="city-offer-hidden" threshold="0" rootMargin='0px 0px -100px 0px' />
 
             <article className='w-[1240px] max-2xl:w-[1180px] max-xl:w-[960px] max-lg:w-[90%] mx-auto'>
                 <h2 className='text-[30px] max-2xl:text-[25px] max-sm:text-[20px] heading-gradient-gray w-fit transition-all duration-1000 ease-in-out animation-bottom'>{dict.title}</h2>

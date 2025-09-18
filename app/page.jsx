@@ -32,7 +32,7 @@ export default async function Home({ searchParams }) {
   return (
     <>
         <Header title={dictionary.header?.title || 'Default Title'} content={dictionary.header?.content || 'Default Content'} bg={mainBg} buttonText={dictionary.header?.button || 'Default Button'}/>
-        <main className="flex flex-col gap-[192px] overflow-hidden">
+        <main className="flex flex-col gap-[192px] overflow-hidden max-lg:gap-[128px]">
           <CompaniesSlider />
           <Introduction dict={dictionary.introduction || {}} />
           <Portoflio dict={dictionary.portfolio || {}} lang={lang} data={projectsData}/>

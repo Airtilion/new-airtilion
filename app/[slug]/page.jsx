@@ -74,7 +74,6 @@ const page = async ({ params, searchParams }) => {
         data = module[citySlug];
     } catch (error) {
         notFound();
-        // console.log("XD")
     }
 
     const jsonLd = getCityJsonLd(data.city, slug)
@@ -96,7 +95,7 @@ const page = async ({ params, searchParams }) => {
                 <CityPortfolio dict={data.portfolio}/>
                 <CityFaq dict={data.faq}/>
 
-                <SlideUpContact dict={data.cta.form}/>
+                <SlideUpContact dict={data.cta.form} lang={lang}/>
             </main>
 
             <Footer dict={data.footer}/>

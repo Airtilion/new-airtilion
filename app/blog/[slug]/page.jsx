@@ -52,7 +52,7 @@ const page = async ({ params, searchParams }) => {
   const { slug } = await params
 
   const sParams = searchParams instanceof Promise ? await searchParams : searchParams;
-  const { lang } = await sParams
+  const { lang = 'pl' } = await sParams
   const file = await getDictionary(lang, 'blog');
   const dictionary = file || {};
 
@@ -71,6 +71,8 @@ const page = async ({ params, searchParams }) => {
   const filtredCategory = allCategories.filter(el => el.name !== 'Popularne' && el.name !== 'Polecane' && el.name !== 'Bez kategorii');
 
   const category = filtredCategory[0];
+
+  console.log(lang);
 
   return (
     <>

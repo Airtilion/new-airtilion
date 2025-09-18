@@ -31,8 +31,6 @@ const PortfolioList = ({ dict, lang }) => {
 
       const { items, hasMore: more } = await res.json();
 
-      console.log(items)
-
       setProjects(prev => [...prev, ...items]);
       setOffset(prev => prev + items.length);
       setHasMore(more);

@@ -38,7 +38,7 @@ const Offer = ({ dict }) => {
 
   return (
     <section id="offer-section" className='w-[1240px] mx-auto max-xl:w-[960px] max-lg:w-[90%] flex flex-col gap-12 offer-hidden'>
-      <IntersectionListener selector="#offer-section" visibleClass="offer-visible" hiddenClass="offer-hidden" threshold="0.2" rootMargin='0px 0px -100px 0px' />
+      <IntersectionListener selector="#offer-section" visibleClass="offer-visible" hiddenClass="offer-hidden" threshold="0" rootMargin='0px 0px -100px 0px' />
       <article className='relative h-[310px] p-12 pt-4 max-lg:h-auto max-sm:p-8 transition-all duration-1000 ease-in-out animation-top'>
         <div className='flex flex-col gap-4'>
           <PreTitle title={dict.tag} />

@@ -220,7 +220,13 @@
                     "linked": "https://www.linkedin.com/in/jakub-wadycki-906149275",
                     "facebook": "https://www.facebook.com/jakub.wadycki",
                     "desc": "Od wielu lat zajmuję się programowaniem, naukę zaczynałem od prostych aplikacji desktopowych. W późniejszym czasie tworzenie stron internetowych pochłonęło mnie na dobre i tak zostało do dziś. Postanowiłem założyć spółkę ponieważ wierzę, że dzięki ciężkiej pracy i proponowaniu klientom nowoczesnych technologii w połączeniu z analizą strategiczną firm uda się zmienić Internet na lepsze.",
-                    "alt": "Zdjęcia przedstawiające Jakuba Wadyckiego, współwłaściciela firmy tworzącej strony internetowe dla firm"
+                    "alt": "Zdjęcia przedstawiające Jakuba Wadyckiego, współwłaściciela firmy tworzącej strony internetowe dla firm",
+                    "aria": [
+                        "Kliknij, aby zadzwonić do Jakuba Wadyckiego",
+                        "Kliknij, aby wysłać email do Jakuba Wadyckiego",
+                        "Kliknij, aby przejść na profil LinkedIn Jakuba Wadyckiego",
+                        "Kliknij, aby przejść na profil Facebook Jakuba Wadyckiego"
+                    ]
                 },
                 {
                     "name": "Artur Plebańczyk",
@@ -230,7 +236,13 @@
                     "linked": "https://www.linkedin.com/in/artur-plebańczyk-10105728b",
                     "facebook": "https://www.facebook.com/artur.plebanczyk.88",
                     "desc": "To właśnie pasja do technologii i informatyki skierowała mnie na ścieżkę programowania. Od wielu lat rozwijam swoje umiejętności jako full stack developer. W mojej pracy szczególnie cenię sobie połączenie technologii z kreatywnymi pomysłami, co pozwala mi dostarczać nowoczesne i funkcjonalne rozwiązania. Moją misją jest rozwijanie branży stron i sklepów internetowych poprzez wdrażanie zaawansowanych technologii, które odpowiadają na potrzeby klientów i są przyszłością Internetu.",
-                    "alt": "Zdjęcia przedstawiające Artura Plebańczyka, współwłaściciela firmy tworzącej strony internetowe dla firm"
+                    "alt": "Zdjęcia przedstawiające Artura Plebańczyka, współwłaściciela firmy tworzącej strony internetowe dla firm",
+                    "aria": [
+                        "Zadzwoń do Artura Plebańczyka",
+                        "Napisz e-mail do Artura Plebańczyka",
+                        "Zobacz profil Artura Plebańczyka na LinkedIn",
+                        "Zobacz profil Artura Plebańczyka na Facebooku"
+                    ]
                 }
             ]
         },
@@ -273,7 +285,17 @@
                 ],
                 "success": "Twoja wiadomość została wysłana pomyślnie!"
             },
-            "media": "Znajdziesz nas również tutaj"
+            "media": "Znajdziesz nas również tutaj",
+            "socialsAria": [
+                "Odwiedź profil Airtilion na Facebooku",
+                "Odwiedź profil Airtilion na Instagramie",
+                "Odwiedź profil Airtilion na LinkedIn",
+                "Odwiedź profil Airtilion na X",
+                "Odwiedź profil Airtilion na Threads",
+                "Odwiedź profil Airtilion na Pinterest",
+                "Odwiedź kanał Airtilion na YouTube",
+                "Odwiedź profil Airtilion na TikToku"
+            ]
         },
         "faq": {
             "title": "Częste pytania dotyczące tworzenia stron internetowych",
@@ -347,6 +369,16 @@
                 "name": "Zgoda na przesyłanie informacji handlowej",
                 "link": "/zgoda-informacja-handlowa.pdf"
             }
+        ],
+        "socialsAria": [
+            "Odwiedź profil Airtilion na Facebooku",
+            "Odwiedź profil Airtilion na Instagramie",
+            "Odwiedź profil Airtilion na LinkedIn",
+            "Odwiedź profil Airtilion na X",
+            "Odwiedź profil Airtilion na Threads",
+            "Odwiedź profil Airtilion na Pinterest",
+            "Odwiedź kanał Airtilion na YouTube",
+            "Odwiedź profil Airtilion na TikToku"
         ],
         "companyInfo": "Airtilion Sp. z o.o. ul. Słoneczna 32/9, 33-100 Tarnów, wpisana do rejestru przedsiębiorców Krajowego rejestru Sądowego przez Sąd Rejonowy dla Krakowa-Śródmieścia w Krakowie, XII Wydział Gospodarczy Krajowego Rejestru Sądowego pod nr KRS 0001143482, kapitał zakładowy w kwocie 5 000,00 zł w całości opłacony, NIP: 8733299720"
     }

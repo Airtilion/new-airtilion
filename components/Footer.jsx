@@ -46,7 +46,7 @@ const Footer = ({dict}) => {
 
         <div className='flex gap-3 relative w-fit max-sm:gap-2 max-sm:flex-wrap max-sm:justify-center max-sm:w-[200px]'>
           {socials.map((social, idx) => (
-            <Link key={idx} href={social.link} target='_blank' className='w-[35px] h-[35px] border-[0.5px] border-[#8E8E8E] rounded-full flex justify-center items-center group duration-500 hover:border-[#E28350]'>
+            <Link key={idx} href={social.link} aria-label={dict.socialsAria[idx]} target='_blank' className='w-[35px] h-[35px] border-[0.5px] border-[#8E8E8E] rounded-full flex justify-center items-center group duration-500 hover:border-[#E28350]'>
               <Icon icon={social.icon} width={20} height={20} className='!text-[#8E8E8E] group-hover:scale-[0.9] duration-500 group-hover:!text-[#E28350]' />
             </Link>
           ))}

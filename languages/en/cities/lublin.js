@@ -240,6 +240,16 @@ export const lublin = {
                 link: "/contest-for-the-purpose-of-sending-requested-commercial-information.pdf"
             }
         ],
+        socialsAria: [
+            "Visit Airtilion's Facebook profile",
+            "Visit Airtilion's Instagram profile",
+            "Visit Airtilion's LinkedIn profile",
+            "Visit Airtilion's X profile",
+            "Visit Airtilion's Threads profile",
+            "Visit Airtilion's Pinterest profile",
+            "Visit Airtilion's YouTube channel",
+            "Visit Airtilion's TikTok profile"
+        ],
         companyInfo: "Airtilion Sp. z o.o., ul. Słoneczna 32/9, 33-100 Tarnów, registered in the Register of Entrepreneurs of the National Court Register by the District Court for Kraków-Śródmieście in Kraków, 12th Commercial Division of the National Court Register under KRS no. 0001143482, share capital of PLN 5,000.00 fully paid, TAX ID (NIP): 8733299720"
     }
 }

@@ -214,6 +214,16 @@ export const rzeszow = {
                 link: "/zgoda-informacja-handlowa.pdf"
             }
         ],
+        socialsAria: [
+            "Odwiedź profil Airtilion na Facebooku",
+            "Odwiedź profil Airtilion na Instagramie",
+            "Odwiedź profil Airtilion na LinkedIn",
+            "Odwiedź profil Airtilion na X",
+            "Odwiedź profil Airtilion na Threads",
+            "Odwiedź profil Airtilion na Pinterest",
+            "Odwiedź kanał Airtilion na YouTube",
+            "Odwiedź profil Airtilion na TikToku"
+        ],
         companyInfo: "Airtilion Sp. z o.o. ul. Słoneczna 32/9, 33-100 Tarnów, wpisana do rejestru przedsiębiorców Krajowego rejestru Sądowego przez Sąd Rejonowy dla Krakowa-Śródmieścia w Krakowie, XII Wydział Gospodarczy Krajowego Rejestru Sądowego pod nr KRS 0001143482, kapitał zakładowy w kwocie 5 000,00 zł w całości opłacony, NIP: 8733299720"
     }
 }

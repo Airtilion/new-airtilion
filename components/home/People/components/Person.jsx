@@ -16,16 +16,16 @@ const Person = ({ data, image, index }) => {
                         <p className='text-[14px] max-sm:text-[13px]'>{data.role}</p>
                     </div>
                     <div className='flex gap-1'>
-                        <a href={`tel:${data.phone}`}>
+                        <a href={`tel:${data.phone}`} aria-label={data.aria[0]}>
                             <Icon icon="mingcute:phone-fill" width="24" height="24" />
                         </a>
-                        <a href={`mailto:${data.email}`}>
+                        <a href={`mailto:${data.email}`} aria-label={data.aria[1]}>
                             <Icon icon="streamline:send-email-solid" width={24} height={24} />
                         </a>
-                        <a href={data.linked} target='_blank' rel='noopener noreferrer'>
+                        <a href={data.linked} aria-label={data.aria[2]} target='_blank' rel='noopener noreferrer'>
                             <Icon icon="mdi:linkedin" width={24} height={24} />
                         </a>
-                        <a href={data.facebook} target='_blank' rel='noopener noreferrer'>
+                        <a href={data.facebook} aria-label={data.aria[3]} target='_blank' rel='noopener noreferrer'>
                             <Icon icon="ic:baseline-facebook" width={24} height={24} />
                         </a>
                     </div>

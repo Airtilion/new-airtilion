@@ -220,7 +220,13 @@
           "linked": "https://www.linkedin.com/in/jakub-wadycki-906149275",
           "facebook": "https://www.facebook.com/jakub.wadycki",
           "desc": "I have been programming for many years - I started with simple desktop applications. Later, web development became my main focus and has remained so ever since. I decided to found the company because I believe that through hard work and offering clients modern technologies combined with strategic analysis we can make the web better.",
-          "alt": "Photos showing Jakub Wadycki, co-owner of a company that builds websites for businesses"
+          "alt": "Photos showing Jakub Wadycki, co-owner of a company that builds websites for businesses",
+          "aria": [
+            "Click to call Jakub Wadycki",
+            "Click to send an email to Jakub Wadycki",
+            "Click to view Jakub Wadycki's LinkedIn profile",
+            "Click to view Jakub Wadycki's Facebook profile"
+          ]
         },
         {
           "name": "Artur Plebańczyk",
@@ -230,7 +236,13 @@
           "linked": "https://www.linkedin.com/in/artur-plebańczyk-10105728b",
           "facebook": "https://www.facebook.com/artur.plebanczyk.88",
           "desc": "My passion for technology and computer science led me to programming. For many years I have been developing my skills as a full-stack developer. In my work I particularly value combining technology with creative ideas, which allows me to deliver modern and functional solutions. My mission is to grow the web and e-commerce sector by implementing advanced technologies that meet clients' needs and are the future of the Internet.",
-          "alt": "Photos showing Artur Plebańczyk, co-owner of a company that builds websites for businesses"
+          "alt": "Photos showing Artur Plebańczyk, co-owner of a company that builds websites for businesses",
+          "aria": [
+            "Call Artur Plebańczyk",
+            "Send an email to Artur Plebańczyk",
+            "View Artur Plebańczyk's LinkedIn profile",
+            "View Artur Plebańczyk's Facebook profile"
+          ]
         }
       ]
     },
@@ -273,7 +285,17 @@
         ],
         "success": "Your message has been sent successfully!"
       },
-      "media": "You can also find us here"
+      "media": "You can also find us here",
+      "socialsAria": [
+        "Visit Airtilion's Facebook profile",
+        "Visit Airtilion's Instagram profile",
+        "Visit Airtilion's LinkedIn profile",
+        "Visit Airtilion's X profile",
+        "Visit Airtilion's Threads profile",
+        "Visit Airtilion's Pinterest profile",
+        "Visit Airtilion's YouTube channel",
+        "Visit Airtilion's TikTok profile"
+      ]
     },
     "faq": {
       "title": "Frequently asked questions about website development",
@@ -347,6 +369,16 @@
         "name": "Consent to receive commercial information",
         "link": "/contest-for-the-purpose-of-sending-requested-commercial-information.pdf"
       }
+    ],
+    "socialsAria": [
+      "Visit Airtilion's Facebook profile",
+      "Visit Airtilion's Instagram profile",
+      "Visit Airtilion's LinkedIn profile",
+      "Visit Airtilion's X profile",
+      "Visit Airtilion's Threads profile",
+      "Visit Airtilion's Pinterest profile",
+      "Visit Airtilion's YouTube channel",
+      "Visit Airtilion's TikTok profile"
     ],
     "companyInfo": "Airtilion Sp. z o.o., ul. Słoneczna 32/9, 33-100 Tarnów, registered in the Register of Entrepreneurs of the National Court Register by the District Court for Kraków-Śródmieście in Kraków, 12th Commercial Division of the National Court Register under KRS no. 0001143482, share capital of PLN 5,000.00 fully paid, TAX ID (NIP): 8733299720"
   }

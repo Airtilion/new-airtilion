@@ -29,11 +29,6 @@ const ContactForm = ({ text }) => {
     if (!chRef.current.checked) return setCurrentError(7)
     if (!ch2Ref.current.checked) return setCurrentError(8)
 
-  
-
-    //wysyłanie
-    console.log({ name, email, phone, message, privacyConsent: chRef.current.checked, marketingConsent: ch2Ref.current.checked })
-
     try{
       const res = fetch('/api/contact/set', {
         method: "POST",

@@ -55,7 +55,7 @@ const Contact = ({ dict }) => {
 
       <article className='flex flex-col items-center gap-2 transition-all duration-1000 ease-in-out animation-bottom max-sm:gap-4'>
         <p className='!text-white max-lg:text-[15px] max-sm:text-[14px]'>{dict.media}</p>
-        <Socials/>
+        <Socials data={dict.socialsAria} />
       </article>
     </section>
   )

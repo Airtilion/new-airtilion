@@ -10,14 +10,14 @@ import { Icon } from '@iconify/react/dist/iconify'
 import AsideLoader from './AsideLoader'
 
 const socials = [
-    { icon: 'ic:baseline-facebook', link: 'https://www.facebook.com/profile.php?id=61571219580688' },
-    { icon: 'uil:linkedin', link: 'https://www.linkedin.com/company/airtilion/' },
-    { icon: 'mdi:instagram', link: 'https://www.instagram.com/airtilion/?utm_source=ig_web_button_share_sheet' },
-    { icon: 'simple-icons:threads', link: 'https://www.threads.net/@airtilion/replies' },
-    { icon: 'bi:twitter-x', link: 'https://x.com/airtilion' },
-    { icon: 'mdi:pinterest', link: 'https://pin.it/6HuC1cc8y' },
-    { icon: 'ic:baseline-tiktok', link: 'https://www.tiktok.com/@airtilion' },
-    { icon: 'mdi:youtube', link: 'https://www.youtube.com/@Airtilion' },
+    { icon: 'ic:baseline-facebook', link: 'https://www.facebook.com/profile.php?id=61571219580688', aria: "Odwiedź profil Airtilion na Facebooku" },
+    { icon: 'uil:linkedin', link: 'https://www.linkedin.com/company/airtilion/', aria: "Odwiedź profil Airtilion na LinkedIn" },
+    { icon: 'mdi:instagram', link: 'https://www.instagram.com/airtilion/?utm_source=ig_web_button_share_sheet', aria: "Odwiedź profil Airtilion na Instagramie" },
+    { icon: 'simple-icons:threads', link: 'https://www.threads.net/@airtilion/replies', aria: "Odwiedź profil Airtilion na Threads" },
+    { icon: 'bi:twitter-x', link: 'https://x.com/airtilion', aria: "Odwiedź profil Airtilion na X" },
+    { icon: 'mdi:pinterest', link: 'https://pin.it/6HuC1cc8y', aria: "Odwiedź profil Airtilion na Pinterest" },
+    { icon: 'ic:baseline-tiktok', link: 'https://www.tiktok.com/@airtilion', aria: "Odwiedź profil Airtilion na TikToku" },
+    { icon: 'mdi:youtube', link: 'https://www.youtube.com/@Airtilion', aria: "Odwiedź kanał Airtilion na YouTube" },
 ]
 
 const AsideSection = ({ phrase, setPhrase }) => {
@@ -114,7 +114,7 @@ const AsideSection = ({ phrase, setPhrase }) => {
 
                         <div className='flex flex-wrap gap-[8px] w-[150px]'>
                             {socials.map((icon, index) => (
-                                <Link key={index} href={icon.link} target='_blank'>
+                                <Link key={index} href={icon.link} target='_blank' aria-label={icon.aria}>
                                     <Icon icon={icon.icon} height={30} className='!text-[#e28350] !fill-[#e28350] hover:scale-110 duration-500' />
                                 </Link>
                             ))}

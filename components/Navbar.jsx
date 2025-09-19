@@ -177,7 +177,7 @@ export default function Navbar() {
             {dict.pricing}
           </button>
 
-          <WebsiteSettings index={dict.items?.length} />
+          <WebsiteSettings index={dict.items?.length} dict={dict.ariaButtons} />
         </div>
 
 

@@ -40,7 +40,11 @@
         "desc": "Site care and work within a monthly subscription."
       }
     ],
-    "pricing": "Request a quote"
+    "pricing": "Request a quote",
+    "ariaButtons": [
+      "Toggle site theme",
+      "Toggle language"
+    ]
   },
   "mainSite": {
     "header": {

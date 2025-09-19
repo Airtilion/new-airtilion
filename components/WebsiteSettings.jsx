@@ -4,7 +4,7 @@ import { useThemeContext } from '@context/ThemeContext';
 import { Icon } from '@iconify/react';
 import { usePathname, useRouter, useSearchParams } from 'next/navigation';
 
-export default function WebsiteSettings({ index }) {
+export default function WebsiteSettings({ index, dict }) {
   const { theme, toggleTheme } = useThemeContext();
   const searchParams = useSearchParams();
   const router = useRouter();
@@ -31,7 +31,7 @@ export default function WebsiteSettings({ index }) {
       className="bg-gradient-to-l from-[#000000] max-lg:from-[#542f1b] to-[#E28350] rounded-full flex gap-2 h-[50px] px-[12px] py-[8px] opacity-0 translate-y-animation max-2xl:h-[40px]"
       style={{ animationDelay: ((Number(index) + 1) * 100) + 'ms' }}
     >
-      <button
+      <button aria-label={dict?.[0]}
         onClick={() => {alert('Ta opcja nie jest na razie dostępne.');}} // toggleTheme
         className="bg-[#00000040] rounded-full flex items-center gap-[8px] px-[8px] relative max-xl:px-[6px]"
       >
@@ -43,7 +43,7 @@ export default function WebsiteSettings({ index }) {
           }`}
         />
       </button>
-      <button onClick={toggleLanguage}>
+      <button aria-label={dict?.[1]} onClick={toggleLanguage}>
         {lang === 'en' ? (
           <Icon icon="flag:pl-4x3" width="30" height="24" className="rounded-full max-2xl:w-[25px]" />
         ) : (

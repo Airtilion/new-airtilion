@@ -40,7 +40,11 @@
                 "desc": "Opieka nad stroną, prace w ramach miesięcznej subskrypcji."
             }
         ],
-        "pricing": "Zapytaj o wycenę"
+        "pricing": "Zapytaj o wycenę",
+        "ariaButtons": [
+            "Przełącz motyw strony",
+            "Przełącz język"
+        ]
     },
     "mainSite": {
         "header": {

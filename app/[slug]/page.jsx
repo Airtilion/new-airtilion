@@ -76,7 +76,7 @@ const page = async ({ params, searchParams }) => {
         notFound();
     }
 
-    const jsonLd = getCityJsonLd(data.city, slug)
+    const jsonLd = getCityJsonLd(data, slug)
 
     return (
         <>

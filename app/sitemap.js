@@ -14,8 +14,8 @@ export default async function sitemap() {
     { url: 'https://airtilion.com/blog', lastModified: new Date(), changeFrequency: 'weekly', priority: 0.6}
   ];
 
-  const areaPages = citiesList.map(citySlug => ({
-    url: `https://airtilion.com/strony-internetowe-${citySlug}`,
+  const areaPages = citiesList.map(city => ({
+    url: `https://airtilion.com/strony-internetowe-${city.slug}`,
     lastModified: new Date(),
     changeFrequency: 'monthly',
     priority: 0.7

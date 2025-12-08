@@ -23,7 +23,7 @@ import SlideUpContact from '@components/SlideUpContact'
 
 export async function generateStaticParams() {
     return citiesList.map((city) => ({
-        slug: `strony-internetowe-${city}`,
+        slug: `strony-internetowe-${city.slug}`,
     }))
 }
 
@@ -63,7 +63,9 @@ const page = async ({ params, searchParams }) => {
     const {lang = 'pl'} = await searchParams;
     const citySlug = slug.replace(/^strony-internetowe-/, '');
 
-    if (!citiesList.includes(citySlug)) {
+    const cityExsists = citiesList.some(city => city.slug === citySlug);
+
+    if (!cityExsists) {
         notFound();
     }
 

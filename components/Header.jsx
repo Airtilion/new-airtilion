@@ -2,7 +2,7 @@ import Image from 'next/image'
 import React from 'react'
 import CustomContactToggle from './CustomContactToggle'
 
-const Header = ({ full = true, title, content, bg, bgMd = null, buttonText, base = false, base64, dark = false }) => {
+const Header = ({ full = true, title, content, bg, buttonText, base = false, base64, dark = false }) => {
   return (
     <header className={`mx-24 px-16 py-8 mt-[120px] flex flex-col justify-end gap-32 ${full ? 'h-[calc(100vh-176px)] max-lg:h-[calc(100vh-146px)] max-sm:h-[calc(100vh-102px)]' : 'h-[570px]'} relative z-[1] max-2xl:gap-24 max-2xl:mx-16 max-xl:px-12 max-lg:mx-8 max-lg:px-8 max-lg:mt-[90px] max-sm:mx-0 max-sm:px-0 max-sm:pl-6 max-sm:gap-32 max-sm:ml-3`}>
       <div className='flex flex-col gap-4'>
@@ -21,7 +21,7 @@ const Header = ({ full = true, title, content, bg, bgMd = null, buttonText, base
       <div className={`absolute z-[-1] inset-0 bg-gradient-to-r rounded-[40px] dark:rounded-none ${full ? 'from-[#00000000] via-[#00000075] max-lg:via-[#000000aa] to-[#000000] to-[89%]' : 'from-[#00000087] via-[#00000087] to-[#000000] to-[89%]'} ${dark && '!from-[#000000b1] !via-[#000000b1] backdrop-blur-[4px]'}`}></div>
       {/* <Image src={bg} width={1736} height={860} quality={100} priority {...(base && base64 ? { placeholder: 'blur', blurDataURL: base64 } : {})} className={`absolute inset-0 z-[-2] rounded-[40px] h-full w-full object-cover opacity-animation max-sm:rounded-[20px] ${!full && 'object-top'}`} alt='Zdjęcie tła firmy tworzącej profesjonalne strony internetowe dla firm'/> */}
      
-      <Image src={bg} fill sizes='100vw' quality={100} fetchPriority="high" priority {...(base && base64 ? { placeholder: 'blur', blurDataURL: base64 } : {})} className={`absolute inset-0 z-[-2] rounded-[40px] object-cover opacity-animation max-sm:rounded-[20px] ${!full && 'object-top'}`} alt='Zdjęcie tła firmy tworzącej profesjonalne strony internetowe dla firm' />
+      <Image src={bg} fill sizes='100vw' quality={100} fetchPriority="high" priority className={`absolute inset-0 z-[-2] rounded-[40px] object-cover opacity-animation max-sm:rounded-[20px] ${!full && 'object-top'}`} alt='Zdjęcie tła firmy tworzącej profesjonalne strony internetowe dla firm' />
 
     </header>
   )

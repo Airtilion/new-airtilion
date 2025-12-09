@@ -14,7 +14,6 @@ import Owners from '@components/home/People/Owners';
 import Contact from '@components/home/Contact/Contact';
 import Faq from '@components/home/Faq/Faq';
 import mainBg from '@assets/images/main-header-image.webp';
-import mainBgMd from '@assets/images/main-header-image-md.webp';
 import SlideUpContact from '@components/SlideUpContact';
 import { getOpinions } from '@lib/opinions';
 import { getLatestProjects } from '@lib/mainProjects';
@@ -32,7 +31,7 @@ export default async function Home({ searchParams }) {
 
   return (
     <>
-        <Header title={dictionary.header?.title || 'Default Title'} content={dictionary.header?.content || 'Default Content'} bg={mainBg} bgMd={mainBgMd} buttonText={dictionary.header?.button || 'Default Button'}/>
+        <Header title={dictionary.header?.title || 'Default Title'} content={dictionary.header?.content || 'Default Content'} bg={mainBg} buttonText={dictionary.header?.button || 'Default Button'}/>
         <main className="flex flex-col gap-[192px] overflow-hidden max-lg:gap-[128px]">
           <CompaniesSlider />
           <Introduction dict={dictionary.introduction || {}} />

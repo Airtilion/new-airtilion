@@ -49,7 +49,7 @@ export default function PortfolioPageClient({ project, initialDictionary, apiUrl
     <>
       <Header title={project.Name} content={dictionary.header?.description ?? 'Default Content'} bg={getLink(project.Background?.file)} base={Boolean(project.Background?.base64)} base64={project.Background?.base64} dark={true} />
 
-      <main className="flex flex-col gap-[192px] mt-[192px] pb-32 overflow-hidden max-sm:mt-[128px] relative">
+      <main className="flex flex-col gap-[192px] pt-[192px] pb-32 overflow-hidden max-sm:pt-[128px] relative">
         <PortfolioIntroduction dict={dictionary.project.introduction} desc={t(project.Description)} logo={project.Logo?.file} screens={project.Screens} clientID={project.Client} visualization={project.Visualization} projectName={project.Name} link={project.Link} />
         
         <PortfolioBrief dict={dictionary.project.brief} brief={t(project.Brief)} screens={project.Screens} convertLink={getLink} />

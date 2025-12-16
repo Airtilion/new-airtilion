@@ -101,7 +101,7 @@ export default function RootLayout({ children }) {
           gtag('config', 'G-NGHDG87L2Y');
         `}
         </Script>
-        <Script id="meta-piksel" strategy="afterInteractive">
+        {/* <Script id="meta-piksel" strategy="afterInteractive">
           {`
           !function(f,b,e,v,n,t,s)
           {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
@@ -114,10 +114,10 @@ export default function RootLayout({ children }) {
           fbq('init', '23875045218747088');
           fbq('track', 'PageView');
         `}
-        </Script>
+        </Script> */}
         <Script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }} />
         <meta name="robots" content="noodp,noydir"></meta>
-        <meta name="facebook-domain-verification" content="5cj55zrwldt94i8ln6uexw6mt9ijgn" />
+        {/* <meta name="facebook-domain-verification" content="5cj55zrwldt94i8ln6uexw6mt9ijgn" /> */}
       </head>
 
       <body className={`${montserrat.className} antialiased dark:bg-[#000] dark:text-white relative`}>
@@ -133,9 +133,9 @@ export default function RootLayout({ children }) {
         </ThemeProvider>
         <CookiesTemplate/>
 
-        <noscript>
+        {/* <noscript>
           <img height="1" width="1" style={{ display: 'none' }} src="https://www.facebook.com/tr?id=23875045218747088&ev=PageView&noscript=1" />
-        </noscript>
+        </noscript> */}
       </body>
     </html>
   );

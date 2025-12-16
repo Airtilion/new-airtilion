@@ -203,15 +203,15 @@ export const wroclaw = {
         docs: [
             {
                 name: "Polityka prywatności",
-                link: "/polityka-prywatnosci.pdf"
+                link: "/polityka-prywatnosci"
             },
             {
                 name: "Regulamin świadczenia usług drogą elektroniczną",
-                link: "/regulamin-swiadczenia-uslug-droga-elektroniczna.pdf"
+                link: "/regulamin-swiadczenia-uslug-droga-elektroniczna"
             },
             {
                 name: "Zgoda na przesyłanie informacji handlowej",
-                link: "/zgoda-informacja-handlowa.pdf"
+                link: "/zgoda-informacja-handlowa"
             }
         ],
         socialsAria: [

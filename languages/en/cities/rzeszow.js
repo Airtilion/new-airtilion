@@ -229,15 +229,15 @@ export const rzeszow = {
         docs: [
             {
                 name: "Privacy policy",
-                link: "/privacy-policy.pdf"
+                link: "/privacy-policy"
             },
             {
                 name: "Terms of electronic services",
-                link: "/terms-and-conditions-for-the-provision-of-electronic-services.pdf"
+                link: "/terms-and-conditions-for-the-provision-of-electronic-services"
             },
             {
                 name: "Consent to receive commercial information",
-                link: "/contest-for-the-purpose-of-sending-requested-commercial-information.pdf"
+                link: "/contest-for-the-purpose-of-sending-requested-commercial-information"
             }
         ],
         socialsAria: [

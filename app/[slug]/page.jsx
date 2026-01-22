@@ -1,25 +1,10 @@
 import React from 'react'
-import Script from 'next/script'
 import { notFound } from 'next/navigation'
-
-import getCityJsonLd from '@utils/getCityJsonLd'
 import { citiesList } from '@data/citiesList'
-import Header from '@components/Header'
+import CityPageClient from '@components/CityPageClient'
 
-import CompaniesSlider from '@components/home/CompaniesSlider'
-import CityIntroduction from '@components/cities/CityIntroduction'
-
-import sectionImg from '@assets/images/cities/general/cityAdvantage.webp'
-import CityAdvantages from '@components/cities/CityAdvantages.jsx/CityAdvantages'
-import PortfolioCallToAction from '@components/singlePortfolio/PortfolioCallToAction'
-import CityTech from '@components/cities/CityTechs/CityTechs'
-import CityProduction from '@components/cities/CityProduction/CityProduction'
-import CityFaq from '@components/cities/CityFaq/CityFaq'
-import CityPortfolio from '@components/cities/CityPortfolio'
-import CityOffer from '@components/cities/CityOffer'
-import Footer from '@components/Footer'
-import SlideUpContact from '@components/SlideUpContact'
-
+export const dynamic = 'force-static';
+export const dynamicParams = true;
 
 export async function generateStaticParams() {
     return citiesList.map((city) => ({
@@ -27,21 +12,16 @@ export async function generateStaticParams() {
     }))
 }
 
-export async function generateMetadata({ params, searchParams }) {
+export async function generateMetadata({ params }) {
     const { slug } = await params;
-    const { lang = 'pl' } = await searchParams;
     const citySlug = slug.replace(/^strony-internetowe-/, '');
+    const lang = 'pl'; 
 
     try {
         const module = await import(`@languages/${lang}/cities/${citySlug}.js`);
         const data = module[citySlug];
 
-        if (!data) {
-            return {
-                title: 'Nie znaleziono strony',
-                description: 'Ta strona nie istnieje.',
-            };
-        }
+        if (!data) return { title: 'Not Found' };
 
         return {
             title: `${data.metaTitle} - Airtilion`,
@@ -51,58 +31,33 @@ export async function generateMetadata({ params, searchParams }) {
             }
         }
     } catch (error) {
-        return {
-            title: 'Nie znaleziono strony',
-            description: 'Ta strona nie istnieje.',
-        };
+        return { title: 'Not Found' };
     }
 }
 
-const page = async ({ params, searchParams }) => {
+const page = async ({ params }) => {
     const { slug } = await params;
-    const {lang = 'pl'} = await searchParams;
     const citySlug = slug.replace(/^strony-internetowe-/, '');
 
     const cityExsists = citiesList.some(city => city.slug === citySlug);
+    if (!cityExsists) notFound();
 
-    if (!cityExsists) {
-        notFound();
-    }
-
-    let data;
+    let initialData;
+    const lang = 'pl';
 
     try {
         const module = await import(`@languages/${lang}/cities/${citySlug}.js`);
-        data = module[citySlug];
+        initialData = module[citySlug];
     } catch (error) {
         notFound();
     }
 
-    const jsonLd = getCityJsonLd(data, slug)
-
     return (
-        <>
-            <Script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
-
-            <Header title={data.header.h1} content={data.header.content[0]} bg={data.img} buttonText={data.header.button} dark={true}/>
-            
-            <main className='flex flex-col gap-[192px] overflow-hidden max-lg:gap-[128px]' >
-                <CompaniesSlider />
-                <CityIntroduction dict={data.introduction} preHeading={data.header.content[1]}/>
-                <CityAdvantages dict={data.advantages} image={sectionImg}/>
-                <PortfolioCallToAction dict={data.cta}/>
-                <CityTech dict={data.technology}/>
-                <CityProduction dict={data.production}/>
-                <CityOffer dict={data.offer}/>
-                <CityPortfolio dict={data.portfolio}/>
-                <CityFaq dict={data.faq}/>
-
-                <SlideUpContact dict={data.cta.form} lang={lang}/>
-            </main>
-
-            <Footer dict={data.footer}/>
-
-        </>
+        <CityPageClient 
+            initialData={initialData} 
+            citySlug={citySlug} 
+            slug={slug} 
+        />
     )
 }
 

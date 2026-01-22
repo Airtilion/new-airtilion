@@ -200,7 +200,7 @@ export default function RootLayout({ children }) {
         </noscript>
 
         <ThemeProvider>
-          <Suspense fallback={<div>Loading...</div>}>
+          <Suspense fallback={null}>
             <Navbar />
           </Suspense>
           {children}

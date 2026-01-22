@@ -7,6 +7,7 @@ import { ThemeProvider } from '@context/ThemeContext';
 import { Suspense } from 'react';
 import CookiesTemplate from '@components/CookiesTemplate';
 import Script from 'next/script';
+import { citiesList } from '@data/citiesList';
 
 const montserrat = Montserrat({ subsets: ['latin'] });
 
@@ -29,7 +30,7 @@ export const metadata = {
     ]
   },
   alternates: {
-    canonical: 'https://airtilion.com/',
+    canonical: 'https://airtilion.com',
   },
   icons: [
     {
@@ -70,17 +71,90 @@ export const metadata = {
 }
 
 export default function RootLayout({ children }) {
+  const serviceArea = citiesList.map(city => ({ "@type": "Place", "name": city.name }));
 
   const structuredData = {
     "@context": "https://schema.org",
-    "@type": "WebSite",
-    "name": "Airtilion",
-    "alternateName": "Tworzenie stron internetowych | Airtilion",
-    "url": "https://airtilion.com/",
-    "inLanguage": "pl",
-    "contentLanguage": "pl-PL",
-    "description": "Tworzenie stron internetowych, sklepów online, projektów graficznych i aplikacji mobilnych. Skontaktuj się z nami, aby poznać naszą ofertę i rozwiązania dla Ciebie!"
-  };
+    "@graph": [
+      {
+        "@type": "Organization",
+        "@id": "https://airtilion.com/#organization",
+        "name": "Airtilion",
+        "url": "https://airtilion.com",
+        "logo": "https://airtilion.com/airtilion-logo.svg",
+        "sameAs": [
+          "https://www.linkedin.com/company/airtilion",
+          "https://www.facebook.com/airtilion",
+          "https://www.instagram.com/airtilion"
+        ],
+        "founder": [
+          {
+            "@type": "Person",
+            "@id": "https://airtilion.com/#founder-jakub",
+            "name": "Jakub Wadycki",
+            "sameAs": [
+              "https://www.linkedin.com/in/jakub-wadycki"
+            ]
+          },
+          {
+            "@type": "Person",
+            "@id": "https://airtilion.com/#founder-artur",
+            "name": "Artur Plebańczyk",
+          }
+        ],
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "telephone": "+48-720-177-174",
+          "contactType": "customer service",
+          "areaServed": "PL",
+          "availableLanguage": ["Polish", "English"]
+        },
+        "serviceArea": serviceArea,
+        "makesOffer": [
+          {
+            "@type": "Service",
+            "name": "Tworzenie stron internetowych",
+            "description": "Nowoczesne strony i aplikacje webowe oparte o Next.js, React i WordPress.",
+            "provider": { "@id": "https://airtilion.com/#organization" }
+          },
+          {
+            "@type": "Service",
+            "name": "Sklepy internetowe (e-commerce)",
+            "description": "Tworzymy szybkie, bezpieczne i responsywne sklepy internetowe - zoptymalizowane pod konwersje i SEO, z integracjami płatności i kurierów",
+            "provider": { "@id": "https://airtilion.com/#organization" }
+          },
+          {
+            "@type": "Service",
+            "name": "Optymalizacja i opieka techniczna",
+            "description": "Audyty wydajnościowe, optymalizacja Core Web Vitals oraz stałe wsparcie techniczne stron.",
+            "provider": { "@id": "https://airtilion.com/#organization" }
+          },
+          {
+            "@type": "Service",
+            "name": "Projekty graficzne (UI/UX)",
+            "description": "Projektowanie nowoczesnych interfejsów użytkownika.",
+            "provider": { "@id": "https://airtilion.com/#organization" }
+          }
+        ]
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://airtilion.com/#website",
+        "url": "https://airtilion.com",
+        "name": "Airtilion | Tworzenie stron internetowych",
+        "publisher": { "@id": "https://airtilion.com/#organization" }
+      },
+      {
+        "@type": "WebPage",
+        "@id": "https://airtilion.com/#webpage",
+        "url": "https://airtilion.com",
+        "name": "Tworzenie stron i sklepów internetowych | Airtilion",
+        "isPartOf": { "@id": "https://airtilion.com/#website" },
+        "about": { "@id": "https://airtilion.com/#organization" },
+        "dateModified": new Date().toISOString()
+      }
+    ]
+  }
 
   return (
     <html lang="pl" className="dark">
@@ -131,7 +205,7 @@ export default function RootLayout({ children }) {
           </Suspense>
           {children}
         </ThemeProvider>
-        <CookiesTemplate/>
+        <CookiesTemplate />
 
         {/* <noscript>
           <img height="1" width="1" style={{ display: 'none' }} src="https://www.facebook.com/tr?id=23875045218747088&ev=PageView&noscript=1" />

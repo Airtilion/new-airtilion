@@ -92,6 +92,7 @@ export default function RootLayout({ children }) {
             "@type": "Person",
             "@id": "https://airtilion.com/#founder-jakub",
             "name": "Jakub Wadycki",
+            "jobTitle": "Co-founder",
             "sameAs": [
               "https://www.linkedin.com/in/jakub-wadycki"
             ]
@@ -100,6 +101,7 @@ export default function RootLayout({ children }) {
             "@type": "Person",
             "@id": "https://airtilion.com/#founder-artur",
             "name": "Artur Plebańczyk",
+            "jobTitle": "Co-founder"
           }
         ],
         "contactPoint": {

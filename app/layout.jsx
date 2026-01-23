@@ -70,55 +70,6 @@ export const metadata = {
 }
 
 export default function RootLayout({ children }) {
-  const structuredData = {
-    "@context": "https://schema.org",
-    "@graph": [
-      {
-        "@type": "Organization",
-        "@id": "https://airtilion.com/#organization",
-        "name": "Airtilion",
-        "url": "https://airtilion.com",
-        "logo": "https://airtilion.com/airtilion-logo.svg",
-        "sameAs": [
-          "https://www.linkedin.com/company/airtilion",
-          "https://www.facebook.com/airtilion",
-          "https://www.instagram.com/airtilion"
-        ],
-        "founder": [
-          {
-            "@type": "Person",
-            "@id": "https://airtilion.com/#founder-jakub",
-            "name": "Jakub Wadycki",
-            "jobTitle": "Co-founder",
-            "sameAs": [
-              "https://www.linkedin.com/in/jakub-wadycki"
-            ]
-          },
-          {
-            "@type": "Person",
-            "@id": "https://airtilion.com/#founder-artur",
-            "name": "Artur Plebańczyk",
-            "jobTitle": "Co-founder"
-          }
-        ],
-        "contactPoint": {
-          "@type": "ContactPoint",
-          "telephone": "+48-720-177-174",
-          "contactType": "customer service",
-          "areaServed": "PL",
-          "availableLanguage": ["Polish", "English"]
-        },
-      },
-      {
-        "@type": "WebSite",
-        "@id": "https://airtilion.com/#website",
-        "url": "https://airtilion.com",
-        "name": "Airtilion | Tworzenie stron internetowych",
-        "publisher": { "@id": "https://airtilion.com/#organization" }
-      }
-    ]
-  }
-
   return (
     <html lang="pl" className="dark">
 
@@ -152,7 +103,6 @@ export default function RootLayout({ children }) {
           fbq('track', 'PageView');
         `}
         </Script> */}
-        <Script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }} />
         <meta name="robots" content="noodp,noydir"></meta>
         {/* <meta name="facebook-domain-verification" content="5cj55zrwldt94i8ln6uexw6mt9ijgn" /> */}
       </head>

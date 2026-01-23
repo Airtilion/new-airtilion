@@ -7,7 +7,6 @@ import { ThemeProvider } from '@context/ThemeContext';
 import { Suspense } from 'react';
 import CookiesTemplate from '@components/CookiesTemplate';
 import Script from 'next/script';
-import { citiesList } from '@data/citiesList';
 
 const montserrat = Montserrat({ subsets: ['latin'] });
 
@@ -71,8 +70,6 @@ export const metadata = {
 }
 
 export default function RootLayout({ children }) {
-  const serviceArea = citiesList.map(city => ({ "@type": "Place", "name": city.name }));
-
   const structuredData = {
     "@context": "https://schema.org",
     "@graph": [
@@ -111,33 +108,6 @@ export default function RootLayout({ children }) {
           "areaServed": "PL",
           "availableLanguage": ["Polish", "English"]
         },
-        "serviceArea": serviceArea,
-        "makesOffer": [
-          {
-            "@type": "Service",
-            "name": "Tworzenie stron internetowych",
-            "description": "Nowoczesne strony i aplikacje webowe oparte o Next.js, React i WordPress.",
-            "provider": { "@id": "https://airtilion.com/#organization" }
-          },
-          {
-            "@type": "Service",
-            "name": "Sklepy internetowe (e-commerce)",
-            "description": "Tworzymy szybkie, bezpieczne i responsywne sklepy internetowe - zoptymalizowane pod konwersje i SEO, z integracjami płatności i kurierów",
-            "provider": { "@id": "https://airtilion.com/#organization" }
-          },
-          {
-            "@type": "Service",
-            "name": "Optymalizacja i opieka techniczna",
-            "description": "Audyty wydajnościowe, optymalizacja Core Web Vitals oraz stałe wsparcie techniczne stron.",
-            "provider": { "@id": "https://airtilion.com/#organization" }
-          },
-          {
-            "@type": "Service",
-            "name": "Projekty graficzne (UI/UX)",
-            "description": "Projektowanie nowoczesnych interfejsów użytkownika.",
-            "provider": { "@id": "https://airtilion.com/#organization" }
-          }
-        ]
       },
       {
         "@type": "WebSite",
@@ -145,15 +115,6 @@ export default function RootLayout({ children }) {
         "url": "https://airtilion.com",
         "name": "Airtilion | Tworzenie stron internetowych",
         "publisher": { "@id": "https://airtilion.com/#organization" }
-      },
-      {
-        "@type": "WebPage",
-        "@id": "https://airtilion.com/#webpage",
-        "url": "https://airtilion.com",
-        "name": "Tworzenie stron i sklepów internetowych | Airtilion",
-        "isPartOf": { "@id": "https://airtilion.com/#website" },
-        "about": { "@id": "https://airtilion.com/#organization" },
-        "dateModified": new Date().toISOString()
       }
     ]
   }

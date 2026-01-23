@@ -10,8 +10,10 @@ import OrderInfo from '@components/offer/OrderInfo/OrderInfo';
 import OfferPortfolio from '@components/offer/Portfolio/OfferPortfolio';
 import OfferFaq from '@components/offer/OfferFaq';
 import OfferElements from '@components/offer/OfferElements';
-import { getLatestProjects } from '@lib/mainProjects';
 import SlideUpContact from '@components/SlideUpContact';
+import JsonLd from '@components/JsonLd';
+import { getLatestProjects } from '@lib/mainProjects';
+import { getPageSchema } from '@lib/schema';
 
 import laptopPhoto from '@assets/images/offer/other-pricing.webp'
 import coop1 from '@assets/images/offer/other-coop-1.webp'
@@ -36,6 +38,13 @@ const page = async ({ searchParams }) => {
 
     const projectsData = await getLatestProjects({ limit: 3, lang });
 
+    const schema = getPageSchema({
+        title: 'Administracja i obsługa strony internetowej',
+        description: 'Zapewniamy obsługę strony internetowej oraz jej administrację, a także usługi modernizacji witryny. Zamów darmową wycenę i konsultację.',
+        slug: 'https://airtilion.com/oferta-uslugi-dodatkowe',
+    })
+
+
     return (
         <>
             <Header full={false} title={dictionary.header?.title || 'Default Title'} content={dictionary.header?.description || 'Default Content'} bg={offerBg} />
@@ -43,13 +52,14 @@ const page = async ({ searchParams }) => {
             <main className='flex flex-col gap-[192px] mt-[192px] overflow-hidden max-lg:gap-[128px] max-sm:mt-[128px]'>
                 <OfferIntroduction dict={dictionary} />
                 <OfferElements dict={dictionary.websiteElements} />
-                <CoopSteps dict={dictionary.cooperation} img1={coop1} img2={coop2}/>
-                <OrderInfo dict={dictionary.pricing} bg={laptopPhoto}/>
-                <OfferPortfolio dict={dictionary.portfolio} data={projectsData}/>
+                <CoopSteps dict={dictionary.cooperation} img1={coop1} img2={coop2} />
+                <OrderInfo dict={dictionary.pricing} bg={laptopPhoto} />
+                <OfferPortfolio dict={dictionary.portfolio} data={projectsData} />
                 <OfferFaq dict={dictionary.faq} />
                 <SlideUpContact dict={dictionary.cta.form} lang={lang} />
             </main>
             <Footer dict={dictionaryFooter} />
+            <JsonLd data={schema} />
         </>
     )
 }

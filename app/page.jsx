@@ -17,6 +17,8 @@ import mainBg from '@assets/images/main-header-image.webp';
 import SlideUpContact from '@components/SlideUpContact';
 import { getOpinions } from '@lib/opinions';
 import { getLatestProjects } from '@lib/mainProjects';
+import JsonLd from '@components/JsonLd';
+import { getPageSchema } from '@lib/schema';
 
 export default async function Home({ searchParams }) {
 
@@ -29,23 +31,30 @@ export default async function Home({ searchParams }) {
   const opinionsData = await getOpinions();
   const projectsData = await getLatestProjects({ limit: 3, lang });
 
+  const schema = getPageSchema({
+    title: "Tworzenie stron internetowych",
+    description: "Tworzenie stron internetowych, sklepów online, projektów graficznych i aplikacji mobilnych. Skontaktuj się z nami, aby poznać naszą ofertę i rozwiązania dla Ciebie!",
+    slug: "https://airtilion.com"
+  })
+
   return (
     <>
-        <Header title={dictionary.header?.title || 'Default Title'} content={dictionary.header?.content || 'Default Content'} bg={mainBg} buttonText={dictionary.header?.button || 'Default Button'}/>
-        <main className="flex flex-col gap-[192px] overflow-hidden max-lg:gap-[128px]">
-          <CompaniesSlider />
-          <Introduction dict={dictionary.introduction || {}} />
-          <Portoflio dict={dictionary.portfolio || {}} lang={lang} data={projectsData}/>
-          <Information dict={dictionary.information || {}} />
-          <CallToAction lang={lang} dict={dictionary.cta || {}} />
-          <Offer dict={dictionary.offer || {}} />
-          <Opinions dict={dictionary.opinions || {}} lang={lang} data={opinionsData}/>
-          <Owners dict={dictionary.people || {}} />
-          <Contact dict={dictionary.contact || {}} />
-          <Faq dict={dictionary.faq || {}} />
-          <SlideUpContact dict={dictionary.cta.form} lang={lang}/>
-        </main>
-        <Footer dict={dictionaryFooter} />
+      <Header title={dictionary.header?.title || 'Default Title'} content={dictionary.header?.content || 'Default Content'} bg={mainBg} buttonText={dictionary.header?.button || 'Default Button'} />
+      <main className="flex flex-col gap-[192px] overflow-hidden max-lg:gap-[128px]">
+        <CompaniesSlider />
+        <Introduction dict={dictionary.introduction || {}} />
+        <Portoflio dict={dictionary.portfolio || {}} lang={lang} data={projectsData} />
+        <Information dict={dictionary.information || {}} />
+        <CallToAction lang={lang} dict={dictionary.cta || {}} />
+        <Offer dict={dictionary.offer || {}} />
+        <Opinions dict={dictionary.opinions || {}} lang={lang} data={opinionsData} />
+        <Owners dict={dictionary.people || {}} />
+        <Contact dict={dictionary.contact || {}} />
+        <Faq dict={dictionary.faq || {}} />
+        <SlideUpContact dict={dictionary.cta.form} lang={lang} />
+      </main>
+      <Footer dict={dictionaryFooter} />
+      <JsonLd data={schema} />
     </>
   );
 }

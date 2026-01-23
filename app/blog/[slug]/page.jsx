@@ -11,9 +11,11 @@ import Content from '@components/blog-singlePost/Content';
 import Author from '@components/blog-singlePost/Author';
 import OtherPosts from '@components/blog-singlePost/OtherPosts';
 
-import BlogBottomWrapper from '@components/blog-singlePost/BlogBottomWrapper'; 
+import BlogBottomWrapper from '@components/blog-singlePost/BlogBottomWrapper';
 
 import { getDictionary } from '@utils/getDictionary';
+import JsonLd from '@components/JsonLd';
+import { getBlogPostSchema } from '@lib/schema';
 
 export const dynamic = 'force-static';
 
@@ -34,7 +36,7 @@ export async function generateStaticParams() {
 export async function generateMetadata({ params }) {
   const { slug } = await params;
   const res = await fetch(`${BLOG_URL}/wp-json/wp/v2/posts?slug=${slug}&_fields=title,acf,slug`);
-  
+
   if (!res.ok) return {};
   const posts = await res.json()
   if (!posts || posts.length === 0) return {};
@@ -53,7 +55,7 @@ const page = async ({ params }) => {
   const { slug } = await params
 
   const lang = 'pl';
-  
+
   const file = await getDictionary(lang, 'blog');
   const dictionary = file || {};
 
@@ -66,6 +68,15 @@ const page = async ({ params }) => {
   const allCategories = post._embedded?.['wp:term']?.[0] ?? [];
   const filtredCategory = allCategories.filter(el => el.name !== 'Popularne' && el.name !== 'Polecane' && el.name !== 'Bez kategorii');
   const category = filtredCategory[0] || { name: 'Ogólne' };
+
+  const schema = getBlogPostSchema({
+    title: post.acf.meta_title,
+    description: post.acf.meta_desc,
+    slug: `https://airtilion.com/blog/${post.slug}`,
+    publishDate: post.date,
+    image: post.acf.image_link,
+    authorName: post.acf.author
+  })
 
   return (
     <>
@@ -91,7 +102,8 @@ const page = async ({ params }) => {
         </article>
 
       </main>
-      
+      <JsonLd data={schema} />
+
     </>
   )
 }

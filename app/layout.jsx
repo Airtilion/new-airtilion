@@ -5,7 +5,7 @@ import '@styles/slider.css';
 import Navbar from '@components/Navbar';
 import { ThemeProvider } from '@context/ThemeContext';
 import { Suspense } from 'react';
-import CookiesTemplate from '@components/CookiesTemplate';
+import CookiesTemplate from '@components/cookies/CookiesTemplate';
 import Script from 'next/script';
 
 const montserrat = Montserrat({ subsets: ['latin'] });
@@ -83,7 +83,9 @@ export default function RootLayout({ children }) {
 
           gtag('consent', 'default', {
           'ad_storage': 'denied',
-          'analytics_storage': 'denied'
+          'analytics_storage': 'denied',
+          'ad_user_data': 'denied',
+          'ad_personalization': 'denied'
           });
 
           gtag('config', 'G-NGHDG87L2Y');
@@ -103,7 +105,6 @@ export default function RootLayout({ children }) {
           fbq('track', 'PageView');
         `}
         </Script> */}
-        <meta name="robots" content="noodp,noydir"></meta>
         {/* <meta name="facebook-domain-verification" content="5cj55zrwldt94i8ln6uexw6mt9ijgn" /> */}
       </head>
 

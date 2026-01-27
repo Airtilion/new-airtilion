@@ -74,7 +74,7 @@ const CookiesTemplate = () => {
 
         <div className='mt-6 space-y-4'>
           <div className='flex items-center justify-between p-4 bg-[#e28350] rounded-xl'>
-            <div className='pr-4'>
+            <div className='pr-4 flex-1'>
               <p className='text-sm !font-medium !text-black'>Niezbędne (Zawsze włączone)</p>
               <p className='text-[14px] !text-black'>Umożliwiają podstawowe funkcje bezpieczeństwa i nawigacji.</p>
             </div>

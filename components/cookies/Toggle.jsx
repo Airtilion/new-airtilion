@@ -2,7 +2,7 @@ import React from 'react'
 
 const Toggle = ({ label, desc, active, onClick }) => (
     <div className='flex items-center justify-between p-4 border border-[#E28350B3] rounded-xl hover:border-[#E28350] transition-colors'>
-        <div className='pr-4'>
+        <div className='pr-4 flex-1'>
             <p className='text-sm !font-medium !text-white'>{label}</p>
             <p className='text-[14px] !text-white'>{desc}</p>
         </div>

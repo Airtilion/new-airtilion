@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { Suspense } from 'react'
 import { notFound } from 'next/navigation';
 
 import Route from '@components/blog-singlePost/Route';
@@ -97,7 +97,9 @@ const page = async ({ params }) => {
           <Author authorName={post.acf.author} />
           <OtherPosts category={category.name} />
 
-          <BlogBottomWrapper initialDictionary={dictionary} initialContactDict={dictionary.cta} />
+          <Suspense fallback={null}>
+            <BlogBottomWrapper initialDictionary={dictionary} initialContactDict={dictionary.cta} />
+          </Suspense>
 
         </article>
 

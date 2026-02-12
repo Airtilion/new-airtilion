@@ -17,8 +17,7 @@ import { getDictionary } from '@utils/getDictionary';
 import JsonLd from '@components/JsonLd';
 import { getBlogPostSchema } from '@lib/schema';
 
-// export const dynamic = 'force-static';
-export const revalidate = 3600;
+export const dynamic = 'force-static';
 
 const BLOG_URL = process.env.BLOG_URL;
 

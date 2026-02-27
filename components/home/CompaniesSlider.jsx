@@ -12,7 +12,7 @@ const logos = [
 ]
 const CompaniesSlider = () => {
     return (
-        <section id="companies-slider" className='w-[1400px] mx-auto overflow-hidden mt-[64px] relative transition-all duration-1000 ease-in-out element-hidden-opacity max-2xl:w-[1240px] max-xl:w-[960px] max-lg:w-[90%]'>
+        <section id="companies-slider" className='section-style overflow-hidden mt-[64px] relative transition-all duration-1000 ease-in-out element-hidden-opacity'>
 
             <IntersectionListener selector="#companies-slider" visibleClass="element-visible-opacity" hiddenClass="element-hidden-opacity" threshold="0.2" rootMargin='0px 0px -100px 0px'/>
 

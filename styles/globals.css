@@ -6,6 +6,20 @@
   --breakpoint-fold: 350px;
 }
 
+@layer components {
+  .flex-center {
+    @apply flex justify-center items-center;
+  }
+
+  .section-style {
+    @apply w-[1400px] mx-auto max-2xl:w-[1240px] max-xl:w-[960px] max-lg:w-[90%];
+  }
+
+  .text-paragraph {
+    @apply text-[16px] max-xl:text-[15px] max-sm:text-[14px];
+  }
+}
+
 body {
   line-height: 1.3;
   transition-duration: 500ms;
@@ -131,7 +145,6 @@ button {
 .radial-line{
   background: radial-gradient(circle, #E28350 0%, #E2835000 100%);
 }
-
 
 /* Panel kontaktowy (startuje poza ekranem) */
 .contact-panel {

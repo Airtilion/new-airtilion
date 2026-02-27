@@ -1,0 +1,89 @@
+{
+    "portfolio": {
+        "title": "Tworzenie stron internetowych - efekt powstały z doświadczenia",
+        "content": [
+            "Cały proces tworzenie strony internetowej oparty jest na wieloletnim doświadczeniu całego zespołu i nieustannym poszerzaniu horyzontów. Wierzymy, że każdy tworzony przez nas projekt strony internetowej przyczynia się do polepszenia życia wielu przeglądających Internet. Wszystko po to, żeby w końcu i Twoja własna strona www, sklep internetowy czy aplikacja mobilna umożliwiła Ci osiągnięcie wymarzonych celów.",
+            "Zrealizowaliśmy wiele zleceń, dzięki którym nasi klienci otrzymali produkt spełniający ich oczekiwania. Nasze portfolio online prezentuje i w szczegółowy sposób opisuje projekty dla naszych klientów. Idąc dalej znajdziesz informacje o kosztach, czasie realizacji oraz technologiach, których używamy. Na końcu znajdziesz również odpowiedzi na najczęściej zadawane pytania."
+        ],
+        "button": "Przejdź do pełnego portfolio",
+        "afterContent": "Każdy projekt strony internetowej to szyte na miarę rozwiązanie - niezależnie od tego, czy budujemy landing page, duży portal, czy rozbudowaną platformę dla startupu lub organizacji.",
+        "alt": "Rozmazane zdjęcie przedstawiające tworzoną stronę internetową firmy wyświetloną na laptopie jako placeholder",
+        "cta": "Zamów darmową wycenę"
+    },
+    "cta": {
+        "title": "Skorzystaj z darmowej wyceny",
+        "content": "Jesteśmy gotowi, żeby stworzyć dla Ciebie Twoją własną stronę internetową. Wypełnij prosty formularz i zamów darmową wycenę swojego projektu. Odezwiemy się do Ciebie w ciągu 24h lub w najbliższym dniu roboczym. Jeśli jeszcze nie wiesz czego dokładnie potrzebujesz nie przejmuj się. Doradzimy i przeprowadzimy Cię przez cały proces. Odpowiemy na każde twoje pytanie.",
+        "button": "Zamów darmową wycenę",
+        "alt": "Zdjęcie przedstawiające lwa promującego profesjonalne strony internetowe dla firm",
+        "form": {
+            "tag": "Twój projekt. Nasza pasja. Wspólny skuces.",
+            "title": "Chcesz dowiedzieć się ile będzie kosztował Twój projekt? Wypełnij formularz!",
+            "content": "Odezwiemy się do Ciebie w ciągu 24 godzin lub w kolejny dzień roboczy. Omówimy Twoje potrzeby, doradzimy i zaproponujemy cenę za projekt. Jeśli jednak nie chcesz wypełniać formularza, możesz skontaktować się z nami telefonicznie.",
+            "contactData": [
+                "Numery telefonu",
+                "Adres email",
+                "Godziny otwarcia"
+            ],
+            "close": "Zamknij",
+            "fields": [
+                "Imię i nazwisko",
+                "Email",
+                "Numer telefonu",
+                "Preferowane godziny kontaktu telefonicznego",
+                "Typ projektu",
+                "Krótki opis sklepu internetowego"
+            ],
+            "condition": [
+                "Akceptuję <a href='/polityka-prywatnosci.pdf' target='_blank'>politykę prywatności</a> i wyrażam zgodę na <a href='/polityka-prywatnosci.pdf' target='_blank'>przetwarzanie danych osobowych</a>",
+                "Wyrażam zgodę na <a href='/zgoda-informacja-handlowa.pdf' target='_blank'>przetwarzanie moich danych</a> w celu otrzymania informacji handlowej"
+            ],
+            "button": "Wyślij zapytanie",
+            "errors": [
+                "",
+                "Imię i nazwisko jest wymagane",
+                "Nieprawidłowy adres email",
+                "Adres email jest wymagany",
+                "Numer telefonu jest wymagany",
+                "Nieprawidłowy numer telefonu",
+                "Krótki opis strony jest wymagany",
+                "Musisz zaakceptować politykę prywatności",
+                "Musisz wyrazić zgodę na otrzymywanie informacji handlowej",
+                "Wykryto bota",
+                "Nie udało się wysłać zapytania"
+            ],
+            "success": "Twoje zapytanie zostało wysłane pomyślnie!"
+        }
+    },
+    "footer": {
+        "alt": "Logo spółki airtilion",
+        "area": {
+            "title": "Obszar działania",
+            "ending": "... i wiele więcej"
+        },
+        "docs": [
+            {
+                "name": "Polityka prywatności",
+                "link": "/polityka-prywatnosci"
+            },
+            {
+                "name": "Regulamin świadczenia usług drogą elektroniczną",
+                "link": "/regulamin-swiadczenia-uslug-droga-elektroniczna"
+            },
+            {
+                "name": "Zgoda na przesyłanie informacji handlowej",
+                "link": "/zgoda-informacja-handlowa"
+            }
+        ],
+        "socialsAria": [
+            "Odwiedź profil Airtilion na Facebooku",
+            "Odwiedź profil Airtilion na Instagramie",
+            "Odwiedź profil Airtilion na LinkedIn",
+            "Odwiedź profil Airtilion na X",
+            "Odwiedź profil Airtilion na Threads",
+            "Odwiedź profil Airtilion na Pinterest",
+            "Odwiedź kanał Airtilion na YouTube",
+            "Odwiedź profil Airtilion na TikToku"
+        ],
+        "companyInfo": "Airtilion Sp. z o.o. ul. Słoneczna 32/9, 33-100 Tarnów, wpisana do rejestru przedsiębiorców Krajowego rejestru Sądowego przez Sąd Rejonowy dla Krakowa-Śródmieścia w Krakowie, XII Wydział Gospodarczy Krajowego Rejestru Sądowego pod nr KRS 0001143482, kapitał zakładowy w kwocie 5 000,00 zł w całości opłacony, NIP: 8733299720"
+    }
+}

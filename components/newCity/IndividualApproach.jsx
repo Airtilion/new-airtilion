@@ -22,7 +22,7 @@ const advantages = [
 
 const IndividualApproach = () => {
     return (
-        <section id='portfolio-achivements-section' className='w-[1240px] relative mx-auto portfolio-achivements-hidden max-2xl:w-[1180px] max-xl:w-[960px] max-lg:w-[90%]'>
+        <section id='portfolio-achivements-section' className='mt-48 w-[1240px] relative mx-auto portfolio-achivements-hidden max-2xl:w-[1180px] max-xl:w-[960px] max-lg:w-[90%]'>
             <IntersectionListener selector="#portfolio-achivements-section" visibleClass="portfolio-achivements-visible" hiddenClass="portfolio-achivements-hidden" threshold="0.1" rootMargin='0px 0px -50px 0px' />
 
             <div className='flex gap-8 relative max-lg:flex-col-reverse'>

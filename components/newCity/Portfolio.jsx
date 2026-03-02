@@ -8,7 +8,7 @@ import PortfolioTile from '@components/home/Portfolio/components/PortfolioTile'
 
 const Portoflio = ({ dict, lang, data }) => {
     return (
-        <section className='w-full overflow-hidden relative pb-16'>
+        <section className='mt-48 w-full overflow-hidden relative pb-16'>
             <div id="portfolio-section" className='w-[1240px] mx-auto max-2xl:w-[1180px] max-xl:w-[960px] max-lg:w-[90%] relative z-10 portfolio-hidden'>
 
                 <IntersectionListener selector="#portfolio-section" visibleClass="portfolio-visible" hiddenClass="portfolio-hidden" threshold="0.1" rootMargin='0px 0px -50px 0px' />

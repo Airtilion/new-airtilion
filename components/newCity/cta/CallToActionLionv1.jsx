@@ -6,7 +6,7 @@ import Image from 'next/image'
 
 const CallToActionLionv1 = () => {
   return (
-    <section id="cta-section" className='section-style-small relative flex-center min-h-[300px] overflow-hidden element-hidden-opacity transition-all duration-1000 ease-in-out'>
+    <section id="cta-section" className='mt-48 section-style-small relative flex-center min-h-[300px] overflow-hidden element-hidden-opacity transition-all duration-1000 ease-in-out'>
       <IntersectionListener selector="#cta-section" visibleClass="element-visible-opacity" hiddenClass="element-hidden-opacity" threshold="0.1" rootMargin='0px 0px -50px 0px' />
 
       <div className='text-paragraph text-center p-8 max-sm:px-4'>

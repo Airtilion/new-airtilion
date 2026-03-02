@@ -10,6 +10,8 @@ import IndividualApproach from '@components/newCity/IndividualApproach';
 import Ecommerce from '@components/newCity/Ecommerce';
 import SlideUpContact from '@components/SlideUpContact';
 import Footer from '@components/Footer'
+import CallToActionShop from '@components/newCity/cta/CallToActionShop';
+import SEO from '@components/newCity/SEO';
 
 
 const page = async ({ searchParams }) => {
@@ -25,12 +27,14 @@ const page = async ({ searchParams }) => {
     return (
         <>
             <CityHeader />
-            <main className='mt-16 flex flex-col gap-48 !font-regular'>
+            <main className='mt-16 flex flex-col !font-regular'>
                 <CompaniesSlider />
                 <Portoflio dict={dictionary.portfolio || {}} lang={lang} data={projectsData} />
                 <CallToActionLionv1 />
                 <IndividualApproach />
                 <Ecommerce />
+                <CallToActionShop />
+                <SEO />
 
                 <SlideUpContact dict={dictionary.cta.form} lang={lang} />
             </main>

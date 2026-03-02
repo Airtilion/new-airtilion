@@ -14,7 +14,7 @@ const offer = [
 
 const Ecommerce = () => {
     return (
-        <section id="city-introduction-section" className='section-style-small flex flex-col gap-4 city-introduction-hidden'>
+        <section id="city-introduction-section" className='mt-48 section-style-small flex flex-col gap-4 city-introduction-hidden'>
 
             <IntersectionListener selector="#city-introduction-section" visibleClass="city-introduction-visible" hiddenClass="city-introduction-hidden" threshold="0.1" rootMargin='0px 0px -50px 0px' />
 

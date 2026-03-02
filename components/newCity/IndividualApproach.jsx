@@ -22,7 +22,7 @@ const advantages = [
 
 const IndividualApproach = () => {
     return (
-        <section id='portfolio-achivements-section' className='w-[1240px] mx-auto portfolio-achivements-hidden max-2xl:w-[1180px] max-xl:w-[960px] max-lg:w-[90%]'>
+        <section id='portfolio-achivements-section' className='w-[1240px] relative mx-auto portfolio-achivements-hidden max-2xl:w-[1180px] max-xl:w-[960px] max-lg:w-[90%]'>
             <IntersectionListener selector="#portfolio-achivements-section" visibleClass="portfolio-achivements-visible" hiddenClass="portfolio-achivements-hidden" threshold="0.1" rootMargin='0px 0px -50px 0px' />
 
             <div className='flex gap-8 relative max-lg:flex-col-reverse'>
@@ -37,7 +37,7 @@ const IndividualApproach = () => {
                     <p className='mt-4'>Rynek jest pełen ofert, od gotowców po wielkie korporacje. My wypełniamy lukę dla tych, którzy cenią współpracę z klientami opartą na partnerstwie. Tworzenie unikalnych stron internetowych to dla nas rzemiosło, w którym liczy się <span className='font-semibold'>dowożenie konkretnych wyników biznesowych</span>.</p>
 
                     <p className='text-[20px] mt-12 max-xl:text-[20px] max-sm:text-[18px]'>Co zyskujesz, wybierając nasze dedykowane rozwiązania?</p>
-                    
+
                     <ul className='mt-4 list-none space-y-4 absolute right-[16px] w-[786px] max-lg:relative max-lg:right-0 max-lg:w-full'>
                         {advantages.map((a, idx) => (
                             <li key={idx} className={`${idx % 2 === 0 ? 'bg-[#0D0D0D]' : 'bg-linear-to-r from-[#000000] to-[#e28350]'} px-8 py-6 rounded-[10px] animation-left transition-all duration-1000 ease-in-out`} style={{ transitionDelay: (idx + 1) * 100 + 'ms' }}>
@@ -58,6 +58,7 @@ const IndividualApproach = () => {
                 <div className='mt-4 h-[2px] w-[490px] mx-auto radial-line max-lg:w-[300px] max-sm:w-[80%]' />
             </div>
 
+            <div className='absolute left-[-20%] top-[50%] translate-y-[-50%] rounded-full bg-[#e2835080] blur-[200px] w-[700px] h-[500px] z-[-1] max-xl:w-[500px] max-lg:w-[400px] max-lg:h-[400px] max-lg:top-[20%] max-md:blur-[120px] max-sm:w-[250px]'></div>
         </section>
     )
 }

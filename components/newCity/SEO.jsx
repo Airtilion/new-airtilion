@@ -8,7 +8,7 @@ const elements = [
 
 const SEO = () => {
     return (
-        <section className='relative overflow-hidden py-48'>
+        <section className='mt-48 relative overflow-hidden py-48'>
             <div className='section-style-small text-paragraph text-center'>
                 <h2 className='mt-8 text-[30px] heading-gradient-gray max-2xl:text-[25px] max-sm:text-[20px]'>Optymalizacja techniczna zamiast pustych obietnic</h2>
                 <p className='mt-4'>Wielu klientów pyta o pozycjonowanie. Jako techniczni eksperci stawiamy sprawę jasno: nie jesteśmy agencją marketingową i nie oferujemy abonamentowego pozycjonowania (link buildingu, copywritingu). My <span className='font-semibold'>przygotowujemy solidny fundament.</span></p>

@@ -13,6 +13,7 @@ import Footer from '@components/Footer'
 import CallToActionShop from '@components/newCity/cta/CallToActionShop';
 import SEO from '@components/newCity/SEO';
 import Production from '@components/newCity/production/Production';
+import Technology from '@components/newCity/Technology';
 
 
 const page = async ({ searchParams }) => {
@@ -37,6 +38,7 @@ const page = async ({ searchParams }) => {
                 <CallToActionShop />
                 <SEO />
                 <Production />
+                <Technology />
 
                 <SlideUpContact dict={dictionary.cta.form} lang={lang} />
             </main>

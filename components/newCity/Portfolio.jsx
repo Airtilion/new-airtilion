@@ -13,7 +13,7 @@ const Portoflio = ({ dict, lang, data }) => {
 
                 <IntersectionListener selector="#portfolio-section" visibleClass="portfolio-visible" hiddenClass="portfolio-hidden" threshold="0.1" rootMargin='0px 0px -50px 0px' />
 
-                <h2 className='text-[30px] w-fit heading-gradient-gray-rev max-2xl:text-[25px] max-sm:text-[20px] animation-left transition-all duration-1000 ease-in-out'>Efekt powstały z wizji - nasze ostatnie projekty</h2>
+                <h2 className='text-[30px] w-fit heading-gradient-gray max-2xl:text-[25px] max-sm:text-[20px] animation-left transition-all duration-1000 ease-in-out'>Efekt powstały z wizji - nasze ostatnie projekty</h2>
                 <p className='mt-2 text-paragraph animation-left transition-all duration-1000 ease-in-out'>Sprawdź wybrane realizacje i zobacz w praktyce, jak łączymy kreatywne projektowanie stron z Twoim biznesem. Wiemy, że solidne przygotowanie strony internetowej to fundament pod Twój marketing, dlatego na każdym kroku dbamy o absolutnie wysoką jakość usług.</p>
 
                 <div className='mt-16 flex justify-between my-6 max-lg:flex-wrap max-lg:justify-center max-lg:gap-4'>

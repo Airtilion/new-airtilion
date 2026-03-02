@@ -15,6 +15,10 @@
     @apply w-[1400px] mx-auto max-2xl:w-[1240px] max-xl:w-[960px] max-lg:w-[90%];
   }
 
+  .section-style-small {
+    @apply w-[1240px] mx-auto max-xl:w-[960px] max-lg:w-[90%];
+  }
+
   .text-paragraph {
     @apply text-[16px] max-xl:text-[15px] max-sm:text-[14px];
   }

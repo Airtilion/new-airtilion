@@ -8,6 +8,7 @@ import Portoflio from '@components/newCity/Portfolio';
 import CallToActionLionv1 from '@components/newCity/cta/CallToActionLionv1';
 import SlideUpContact from '@components/SlideUpContact';
 import Footer from '@components/Footer'
+import IndividualApproach from '@components/newCity/IndividualApproach';
 
 
 const page = async ({ searchParams }) => {
@@ -27,6 +28,8 @@ const page = async ({ searchParams }) => {
                 <CompaniesSlider />
                 <Portoflio dict={dictionary.portfolio || {}} lang={lang} data={projectsData} />
                 <CallToActionLionv1 />
+
+                <IndividualApproach />
 
                 <SlideUpContact dict={dictionary.cta.form} lang={lang} />
             </main>

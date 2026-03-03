@@ -8,15 +8,16 @@ import Portoflio from '@components/newCity/Portfolio';
 import CallToActionLionv1 from '@components/newCity/cta/CallToActionLionv1';
 import IndividualApproach from '@components/newCity/IndividualApproach';
 import Ecommerce from '@components/newCity/Ecommerce';
-import SlideUpContact from '@components/SlideUpContact';
-import Footer from '@components/Footer'
 import CallToActionShop from '@components/newCity/cta/CallToActionShop';
 import SEO from '@components/newCity/SEO';
 import Production from '@components/newCity/production/Production';
 import Technology from '@components/newCity/Technology';
 import RWD from '@components/newCity/RWD';
-import Price from '@components/newCity/Price';
+import Price from '@components/newCity/price/Price';
 
+import SlideUpContact from '@components/SlideUpContact';
+import Footer from '@components/Footer'
+import Items from '@components/newCity/price/components/Items';
 
 const page = async ({ searchParams }) => {
     const params = searchParams instanceof Promise ? await searchParams : searchParams;
@@ -43,6 +44,7 @@ const page = async ({ searchParams }) => {
                 <Technology />
                 <RWD />
                 <Price />
+                <Items />
 
                 <SlideUpContact dict={dictionary.cta.form} lang={lang} />
             </main>

@@ -6,9 +6,9 @@ import { Icon } from '@iconify/react/dist/iconify'
 import Slider from './components/Slider'
 import IntersectionListener from '@components/IntersectionListener'
 
-const Opinions = ({ dict, lang, data }) => {
+const Opinions = ({ dict, lang, data, isMarginTop = false }) => {
   return (
-    <section id="opinion-section" className="w-full relative h-[500px] overflow-hidden max-lg:h-auto element-hidden-opacity transition-all duration-1000 ease-in-out">
+    <section id="opinion-section" className={`w-full relative h-[500px] overflow-hidden max-lg:h-auto element-hidden-opacity transition-all duration-1000 ease-in-out ${isMarginTop = true ? 'mt-48' : ''}`}>
       <IntersectionListener selector="#opinion-section" visibleClass="element-visible-opacity" hiddenClass="element-hidden-opacity" threshold="0.2" rootMargin='0px 0px -100px 0px'/>
 
       <article className="ml-auto w-[calc((100vw+1240px)/2)] max-w-full lg:max-w-[1600px] h-full flex items-center gap-24 max-xl:w-[calc((100vw+960px)/2)] max-xl:gap-16 max-lg:flex-col max-lg:items-start max-lg:w-[90%] max-lg:gap-8 max-sm:w-full">

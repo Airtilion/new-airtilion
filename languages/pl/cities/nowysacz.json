@@ -54,6 +54,46 @@
             "success": "Twoje zapytanie zostało wysłane pomyślnie!"
         }
     },
+    "opinions": {
+        "title": "Opinie klientów - zaufanie to podstawa",
+        "alt": "Telefon położony na pomarańoczowym stole przedstawiający apliakcję mobilną"
+    },
+    "faq": {
+        "title": "FAQ - Najczęściej zadawane pytania",
+        "content": "Jako specjaliści od stron internetowych, szanujemy Twój czas. Oto konkrety, o które pytają klienci z Nowego Sącza.",
+        "questions": [
+            {
+                "q": "Ile trwa budowa strony internetowej?",
+                "a": [
+                    "Szybki czas realizacji to nasz atut, ale nie kosztem jakości. Prosta wizytówka firmy powstaje zazwyczaj w <span class='font-semibold'>7-14 dni</span>. Rozbudowane sklepy internetowe czy dedykowane rozwiązania mogą zająć <span class='font-semibold'>od 3 do 6 tygodni</span>. Wszystko zależy od dostarczenia materiałów przez klienta."
+                ]
+            },
+            {
+                "q": "Czy strona będzie widoczna w Google?",
+                "a": [
+                    "Tak, zapewniamy poprawność pod kątem SEO na poziomie technicznym. Strona będzie zaindeksowana i widoczna. Jednak na wysokie pozycje na konkurencyjne frazy (np. ogólnopolskie) wpływa <span class='font-semibold'>marketing online</span> i długofalowe pozycjonowanie stron internetowych, czym zajmują się agencje marketingowe. My dajemy Ci <span class='font-semibold'>idealne narzędzie do startu.</span>"
+                ]
+            },
+            {
+                "q": "Co to jest 12-miesięczna gwarancja?",
+                "a": [
+                    "Każda realizacja strony internetowej objęta jest naszym wsparciem. Jeśli w ciągu roku od wdrożenia coś przestanie działać z winy technicznej (błąd kodu, konflikt wtyczek w wersji pierwotnej), <span class='font-semibold'>naprawiamy to bezpłatnie.</span> Oferujemy też płatne utrzymanie strony internetowej po okresie gwarancji."
+                ]
+            },
+            {
+                "q": "Czy muszę mieć własne teksty i zdjęcia?",
+                "a": [
+                    "Nie jest to konieczne na start. Możemy przygotować dla Ciebie podstawowe treści na stronę, które będą poprawne językowo i wypełnią strukturę strony. Jednak jeśli zależy Ci na wysokich wynikach w Google, rekomendujemy zamówienie usługi: profesjonalnych tekstów od copywritera. Taka osoba stworzy treści ściśle zoptymalizowane pod słowa kluczowe, co znacząco ułatwi późniejsze pozycjonowanie. Co do grafik – oferujemy dostęp do banków zdjęć, ale pamiętaj, że autentyczne zdjęcia Twojej firmy najlepiej budują wiarygodny wizerunek w sieci."
+                ]
+            },
+            {
+                "q": "Czy pomagacie w wyborze serwera i domeny?",
+                "a": [
+                    "Tak i co ważne - <span class='font-semibold'>chronimy Twój portfel.</span> Serwery wirtualne i domeny często kuszą ceną \"za 1 zł\" w pierwszym roku, by po 12 miesiącach zaskoczyć fakturą na kilkaset złotych. My pomagamy dobrać stabilne rozwiązanie o przejrzystych kosztach odnowienia, które <span class='font-semibold'>nie generuje ukrytych opłat w przyszłości.</span> Załatwiamy też formalności takie jak rejestracja domeny."
+                ]
+            }
+        ]
+    },
     "footer": {
         "alt": "Logo spółki airtilion",
         "area": {

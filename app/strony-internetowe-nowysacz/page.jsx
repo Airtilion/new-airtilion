@@ -1,6 +1,7 @@
 import React from 'react'
 import { getDictionary } from '@utils/getDictionary';
 import { getLatestProjects } from '@lib/mainProjects';
+import { getOpinions } from '@lib/opinions';
 
 import CityHeader from '@components/newCity/CityHeader'
 import CompaniesSlider from '@components/home/CompaniesSlider';
@@ -18,6 +19,9 @@ import Price from '@components/newCity/price/Price';
 import SlideUpContact from '@components/SlideUpContact';
 import Footer from '@components/Footer'
 import Items from '@components/newCity/price/components/Items';
+import CallToActionPhotoL from '@components/newCity/cta/CallToActionPhotoL';
+import Opinions from '@components/home/Opinions/Opinions';
+import Faq from '@components/home/Faq/Faq';
 
 const page = async ({ searchParams }) => {
     const params = searchParams instanceof Promise ? await searchParams : searchParams;
@@ -27,6 +31,7 @@ const page = async ({ searchParams }) => {
     const dictionaryFooter = file.footer || {};
 
     const projectsData = await getLatestProjects({ limit: 3, lang });
+    const opinionsData = await getOpinions();
 
 
     return (
@@ -45,6 +50,9 @@ const page = async ({ searchParams }) => {
                 <RWD />
                 <Price />
                 <Items />
+                <CallToActionPhotoL />
+                <Opinions dict={dictionary.opinions || {}} lang={lang} data={opinionsData} isMarginTop={true} />
+                <Faq dict={dictionary.faq || {}} isMarginTop={true} />
 
                 <SlideUpContact dict={dictionary.cta.form} lang={lang} />
             </main>

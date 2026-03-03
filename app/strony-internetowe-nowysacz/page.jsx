@@ -15,6 +15,7 @@ import SEO from '@components/newCity/SEO';
 import Production from '@components/newCity/production/Production';
 import Technology from '@components/newCity/Technology';
 import RWD from '@components/newCity/RWD';
+import Price from '@components/newCity/Price';
 
 
 const page = async ({ searchParams }) => {
@@ -41,6 +42,7 @@ const page = async ({ searchParams }) => {
                 <Production />
                 <Technology />
                 <RWD />
+                <Price />
 
                 <SlideUpContact dict={dictionary.cta.form} lang={lang} />
             </main>

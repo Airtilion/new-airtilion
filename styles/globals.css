@@ -358,3 +358,11 @@ blockquote{
   border-color: #0C0C0C;
   background-color: #E28350;
 }
+
+/* MASKA NA ZDJĘCIA */
+.gradient-blur {
+  backdrop-filter: blur(15px);
+  -webkit-backdrop-filter: blur(15px);
+
+  -webkit-mask-image: linear-gradient( to right, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0) 100%);
+}

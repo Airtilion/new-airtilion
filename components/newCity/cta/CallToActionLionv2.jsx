@@ -2,11 +2,13 @@ import React from 'react'
 import Image from 'next/image'
 
 import CustomContactToggle from '@components/CustomContactToggle'
+import IntersectionListener from '@components/IntersectionListener'
 import bg from '@assets/images/lion-cta.webp'
 
 const CallToActionLionv2 = () => {
     return (
-        <section className='mt-48 section-style relative text-paragraph'>
+        <section id='cta-lion-v2' className='mt-48 section-style relative text-paragraph element-hidden-left animation-left transition-all duration-1000 ease-in-out'>
+            <IntersectionListener selector="#cta-lion-v2" visibleClass="element-visible-left" hiddenClass="element-hidden-left" threshold="0.1" rootMargin='0px 0px -50px 0px' />
 
             <div className='w-[1240px] py-12 mx-auto text-center max-xl:w-[760px] max-lg:w-[90%]'>
                 <h2 className='text-[40px] heading-gradient-gray max-xl:text-[30px] max-sm:text-[25px]'>Tworzymy strony internetowe dla Twojego biznesu - <span className='block max-xl:inline'>Skontaktuj się z nami</span></h2>

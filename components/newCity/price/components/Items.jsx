@@ -1,5 +1,6 @@
 import React from 'react'
 import ListItem from './ListItem';
+import IntersectionListener from '@components/IntersectionListener';
 
 const elements = [
     {
@@ -66,21 +67,22 @@ const Items = () => {
     const rightColumn = elements.slice(midPoint);
 
     return (
-        <section className='mt-48 relative overflow-x-clip text-paragraph'>
-            
+        <section id='items-city' className='mt-48 relative overflow-x-clip text-paragraph items-city-hidden'>
+            <IntersectionListener selector="#items-city" visibleClass="items-city-visible" hiddenClass="items-city-hidden" threshold="0.1" rootMargin='0px 0px -50px 0px' />
+
             <div className="section-style-small">
-                <p className='text-[18px] text-center max-xl:text-[16px] max-sm:text-[14px]'>Nie stosujemy ukrytych kosztów. Nasze pakiety cenowe są przejrzyste. <span className="font-semibold">Co zawsze wchodzi w cenę każdego projektu?</span></p>
+                <p className='text-[18px] text-center animation-left transition-all duration-1000 ease-in-out max-xl:text-[16px] max-sm:text-[14px]'>Nie stosujemy ukrytych kosztów. Nasze pakiety cenowe są przejrzyste. <span className="font-semibold">Co zawsze wchodzi w cenę każdego projektu?</span></p>
 
                 <div className='mt-8 grid grid-cols-1 gap-x-16 lg:grid-cols-2'>
                     <ul className='list-none space-y-8'>
                         {leftColumn.map((el, idx) => (
-                            <ListItem key={`left-${idx}`} item={el} />
+                            <ListItem key={`left-${idx}`} item={el} idx={idx} />
                         ))}
                     </ul>
 
                     <ul className="list-none space-y-8 max-lg:mt-8">
                         {rightColumn.map((el, idx) => (
-                            <ListItem key={`right-${idx}`} item={el} />
+                            <ListItem key={`right-${idx}`} item={el} idx={idx} />
                         ))}
                     </ul>
                 </div>

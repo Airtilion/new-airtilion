@@ -27,16 +27,16 @@ const IndividualApproach = () => {
 
             <div className='flex gap-8 relative max-lg:flex-col-reverse'>
 
-                <div className='relative max-lg:mx-auto'>
+                <div className='relative animation-right transition-all duration-1000 ease-in-out max-lg:mx-auto'>
                     <Image src={mockup} width={500} height={600} alt='Responsywna strona internetowa Nowy Sącz wyświetlana na ekranie smartfona - projekt dla sklepu odzieżowego' quality={100} className='object-cover rounded-[10px] h-[600px] max-sm:w-full max-sm:h-full' />
                     <div className='w-[500px] h-[600px] rounded-[10px] absolute inset-0 bg-linear-to-r from-[#00000000] to-[#000000FF] max-sm:w-full max-sm:h-full' />
                 </div>
 
                 <div className='flex-1 text-paragraph'>
-                    <h2 className='text-[30px] heading-gradient-gray max-2xl:text-[25px] max-sm:text-[20px]'>Strony internetowe Nowy Sącz - indywidualne&nbsp;podejście do klienta</h2>
-                    <p className='mt-4'>Rynek jest pełen ofert, od gotowców po wielkie korporacje. My wypełniamy lukę dla tych, którzy cenią współpracę z klientami opartą na partnerstwie. Tworzenie unikalnych stron internetowych to dla nas rzemiosło, w którym liczy się <span className='font-semibold'>dowożenie konkretnych wyników biznesowych</span>.</p>
+                    <h2 className='text-[30px] heading-gradient-gray animation-left transition-all duration-1000 ease-in-out max-2xl:text-[25px] max-sm:text-[20px]'>Strony internetowe Nowy Sącz - indywidualne&nbsp;podejście do klienta</h2>
+                    <p className='mt-4 animation-left transition-all duration-1000 ease-in-out'>Rynek jest pełen ofert, od gotowców po wielkie korporacje. My wypełniamy lukę dla tych, którzy cenią współpracę z klientami opartą na partnerstwie. Tworzenie unikalnych stron internetowych to dla nas rzemiosło, w którym liczy się <span className='font-semibold'>dowożenie konkretnych wyników biznesowych</span>.</p>
 
-                    <p className='text-[20px] mt-12 max-xl:text-[20px] max-sm:text-[18px]'>Co zyskujesz, wybierając nasze dedykowane rozwiązania?</p>
+                    <p className='text-[20px] mt-12 animation-left transition-all duration-1000 ease-in-out max-xl:text-[20px] max-sm:text-[18px]'>Co zyskujesz, wybierając nasze dedykowane rozwiązania?</p>
 
                     <ul className='mt-4 list-none space-y-4 absolute right-[16px] w-[786px] max-lg:relative max-lg:right-0 max-lg:w-full'>
                         {advantages.map((a, idx) => (
@@ -53,7 +53,7 @@ const IndividualApproach = () => {
 
             </div>
 
-            <div className='mt-36 w-[750px] mx-auto relative max-lg:mt-16 max-lg:w-full'>
+            <div className='mt-36 w-[750px] mx-auto relative animation-left transition-all duration-1000 ease-in-out max-lg:mt-16 max-lg:w-full'>
                 <p className='text-paragraph text-center'><span className='font-semibold'>Zadowolenie klientów to dla nas priorytet</span>, ponieważ wiemy, że na lokalnym rynku zaufanie klientów i kompleksowa obsługa klienta budują najlepsze polecenia.</p>
                 <div className='mt-4 h-[2px] w-[490px] mx-auto radial-line max-lg:w-[300px] max-sm:w-[80%]' />
             </div>

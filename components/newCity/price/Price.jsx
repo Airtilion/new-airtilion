@@ -3,6 +3,7 @@ import Image from 'next/image'
 
 import priceF from '@assets/images/new-cities/price/price.webp'
 import priceS from '@assets/images/new-cities/price/price2.webp'
+import IntersectionListener from '@components/IntersectionListener'
 
 const elements = [
     "Responsywna strona internetowa z indywidualnym projektem graficznym.",
@@ -15,16 +16,17 @@ const elements = [
 
 const Price = () => {
     return (
-        <section className='mt-48 section-style-small text-paragraph'>
+        <section id='price-city' className='mt-48 section-style-small text-paragraph price-city-hidden'>
+            <IntersectionListener selector="#price-city" visibleClass="price-city-visible" hiddenClass="price-city-hidden" threshold="0.1" rootMargin='0px 0px -50px 0px' />
 
             <div className='flex-center gap-16 max-lg:flex-col'>
-                <div className='flex-1'>
+                <div className='flex-1 animation-left transition-all duration-1000 ease-in-out'>
                     <h2 className='text-[30px] heading-gradient-gray max-2xl:text-[25px] max-sm:text-[20px]'>Cennik stron internetowych i&nbsp;pakiety&nbsp;cenowe</h2>
                     <p className="mt-4">Ile kosztują profesjonalne strony www? Każdy biznes jest inny, dlatego unikamy sztywnych ram, które na siłę próbują wpasować klienta w szablon. Oferujemy <span className="font-semibold">indywidualną i darmową wycenę</span> skrojoną idealnie pod Twoje potrzeby i budżet.</p>
                     <p className="mt-4">Nie chcemy jednak zostawiać Cię z odpowiedzią „to zależy”. <span className="font-semibold">Aby dać Ci realny punkt odniesienia, poniżej przedstawiamy zakres przykładowego projektu.</span></p>
                 </div>
 
-                <div>
+                <div className='animation-right transition-all duration-1000 ease-in-out'>
                     <Image src={priceF} alt='Projekt strony internetowej dla firmy budowlanej wyświetlany na laptopie - strony internetowe Nowy Sącz realizacje' width={515} height={500} className='object-cover' />
                 </div>
             </div>
@@ -32,20 +34,20 @@ const Price = () => {
             <div className='mt-8 relative'>
 
                 <div className='w-full relative z-1 flex-center flex-col py-16'>
-                    
+
                     <ol className='list-none list-inside space-y-4 w-[720px] max-lg:w-[90%]'>
                         {elements.map((el, idx) => (
-                            <li key={idx} className='flex items-center gap-8 max-sm:gap-4'>
+                            <li key={idx} className='flex items-center gap-8 animation-left transition-all duration-1000 ease-in-out max-sm:gap-4' style={{ transitionDelay: (idx + 1) * 100 + 'ms' }}>
                                 <span className='text-[30px] w-[21px] text-[#404040] font-black max-xl:text-[25px] max-sm:text-[20px]'>{idx + 1}</span>
                                 <span className='text-[18px] flex-1 max-xl:text-[16px] max-sm:text-[14px]'>{el}</span>
                             </li>
                         ))}
                     </ol>
 
-                    <p className='mt-12 px-8 text-center'>Taka realizacja - stanowiąca solidny fundament Twojego biznesu w sieci - to inwestycja zaczynająca się od&nbsp;<span className='font-bold text-[30px] text-[#E28350] max-xl:text-[25px] max-sm:text-[22px]'>2999&nbsp;zł</span>&nbsp;netto.</p>
+                    <p className='mt-12 px-8 text-center animation-left transition-all duration-1000 ease-in-out'>Taka realizacja - stanowiąca solidny fundament Twojego biznesu w sieci - to inwestycja zaczynająca się od&nbsp;<span className='font-bold text-[30px] text-[#E28350] max-xl:text-[25px] max-sm:text-[22px]'>2999&nbsp;zł</span>&nbsp;netto.</p>
                 </div>
 
-                <div>
+                <div className='animation-opacity transition-all duration-1000 ease-in-out'>
                     <Image src={priceS} alt='' width={1240} height={585} className='object-cover rounded-b-[50px] w-full h-full absolute inset-0 -z-2' />
                     <div className='w-full h-full absolute -z-1 inset-0 bg-linear-to-t from-[#000000B3] to-[#000000FF] rounded-b-[50px]' />
                     <div className='w-full h-full absolute -z-3 inset-0 bg-linear-to-t from-[#E28350FF] to-[#000000] rounded-b-[50px] blur-[50px]' />

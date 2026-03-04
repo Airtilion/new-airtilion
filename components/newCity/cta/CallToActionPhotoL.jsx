@@ -2,10 +2,12 @@ import React from 'react'
 import Image from 'next/image'
 import CustomContactToggle from '@components/CustomContactToggle'
 import ctaImg from '@assets/images/new-cities/cta.webp'
+import IntersectionListener from '@components/IntersectionListener'
 
 const CallToActionPhotoL = () => {
     return (
-        <section className="mt-48 relative section-style-small overflow-hidden rounded-[10px] flex gap-16 max-lg:pb-16 max-lg:flex-col-reverse max-lg:items-center max-lg:overflow-visible">
+        <section id='cta-photo-l' className="mt-48 relative section-style-small overflow-hidden rounded-[10px] flex gap-16 element-hidden-opacity animation-opacity transition-all duration-1000 ease-in-out max-lg:pb-16 max-lg:flex-col-reverse max-lg:items-center max-lg:overflow-visible">
+            <IntersectionListener selector="#cta-photo-l" visibleClass="element-visible-opacity" hiddenClass="element-hidden-opacity" threshold="0.1" rootMargin='0px 0px -50px 0px' />
 
             <div className='relative z-1'>
                 <Image src={ctaImg} alt='Responsywne strony internetowe Nowy Sącz - widok mobilny witryny na ekranach smartfonów' width={450} height={300} className='object-cover max-xl:h-[350px] max-xl:w-[300px] max-lg:w-[450px] max-lg:h-[300px] max-lg:rounded-[10px]' />

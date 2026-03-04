@@ -26,7 +26,7 @@ const Technology = () => {
                 </div>
                 
                 <div className='text-paragraph'>
-                    <h2 className='text-[30px] heading-gradient-gray max-xl:text-[25px] max-sm:text-[20px]'>Budowa stron internetowych opartych o WordPress</h2>
+                    <h2 className='text-[30px] animation-right transition-all duration-1000 ease-in-out heading-gradient-gray max-xl:text-[25px] max-sm:text-[20px]'>Budowa stron internetowych opartych o WordPress</h2>
                     <p className='mt-4 animation-right transition-all duration-1000 ease-in-out'>Specjalizujemy się w systemie WordPress, jednak <span className='font-semibold'>nie idziemy na skróty</span>. Wdrażamy go wyłącznie na <span className='font-semibold'>dedykowanych szablonach</span>, co gwarantuje czysty kod i unikalny wygląd (zero ciężkich gotowców). WordPress to system, który umożliwia łatwe zarządzanie z CMS bez wiedzy programistycznej. Dzięki temu, po oddaniu projektu, administracja stronami internetowymi jest dla Ciebie prosta i przyjemna, a Ty otrzymujesz <span className='font-semibold'>intuicyjny interfejs, w którym samodzielnie zmienisz teksty czy zdjęcia</span>.</p>
                     <p className='mt-8 animation-right transition-all duration-1000 ease-in-out'>Z myślą o najbardziej wymagających projektach, oferujemy również superwydajne rozwiązania <span className='font-semibold'>Headless w oparciu o Next.js.</span> Stale śledzimy najnowsze trendy technologiczne, dlatego do naszych realizacji powoli wdrażamy także innowacyjny system zarządzania treścią <span className='font-semibold'>Keystatic</span>.</p>
                 </div>

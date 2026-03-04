@@ -26,7 +26,7 @@ const Ecommerce = () => {
                 <Image src={bg1} alt='' width={1240} height={160} className='absolute inset-0 z-[-2] w-full max-xl:h-[175px] max-lg:h-[160px] max-md:h-full object-cover object-bottom transition-all duration-1000 ease-in-out animation-opacity' />
             </div>
 
-            <div className='relative px-12 py-8 flex flex-col gap-2 justify-center w-full rounded-[10px] overflow-hidden max-sm:px-6'>
+            <div className='relative px-12 py-8 flex flex-col gap-2 justify-center w-full rounded-[10px] overflow-hidden animation-left transition-all duration-1000 ease-in-out max-sm:px-6' style={{ transitionDelay: '200ms'}}>
                 <p className='text-[20px] max-xl:text-[18px] max-sm:text-[16px]'>Oferujemy</p>
 
                 <ul className='mt-4 list-none list-inside pl-8 space-y-4 text-[#DBDBDB] max-sm:pl-4'>

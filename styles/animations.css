@@ -261,6 +261,9 @@
 .portfolio-achivements-hidden .animation-left{opacity: 0; transform: translateX(-50px)}
 .portfolio-achivements-visible .animation-left{opacity: 1; transform: translateX(0px)}
 
+.portfolio-achivements-hidden .animation-right{opacity: 0; transform: translateX(50px)}
+.portfolio-achivements-visible .animation-right{opacity: 1; transform: translateX(0px)}
+
 .portfolio-achivements-hidden .animation-opacity{opacity: 0;}
 .portfolio-achivements-visible .animation-opacity{opacity: 1;}
 
@@ -351,3 +354,41 @@
 
 .blog-latest-hidden .animation-right{opacity: 0; transform: translateX(50px)}
 .blog-latest-visible .animation-right{opacity: 1; transform: translateX(0px)}
+
+/*seo techniczne w city*/
+
+.technical-seo-hidden .animation-bottom{opacity: 0; transform: translateY(50px);}
+.technical-seo-visible .animation-bottom{opacity: 1; transform: translateY(0px);}
+
+/*rwd standard w city */
+
+.rwd-standard-hidden .animation-left{opacity: 0; transform: translateX(-50px)}
+.rwd-standard-visible .animation-left{opacity: 1; transform: translateX(0px)}
+
+.rwd-standard-hidden .animation-right{opacity: 0; transform: translateX(50px)}
+.rwd-standard-visible .animation-right{opacity: 1; transform: translateX(0px)}
+
+.rwd-standard-hidden .animation-opacity{opacity: 0;}
+.rwd-standard-visible .animation-opacity{opacity: 1;}
+
+/*price city */
+
+.price-city-hidden .animation-left{opacity: 0; transform: translateX(-50px)}
+.price-city-visible .animation-left{opacity: 1; transform: translateX(0px)}
+
+.price-city-hidden .animation-right{opacity: 0; transform: translateX(50px)}
+.price-city-visible .animation-right{opacity: 1; transform: translateX(0px)}
+
+.price-city-hidden .animation-opacity{opacity: 0;}
+.price-city-visible .animation-opacity{opacity: 1;}
+
+/*items city*/
+.items-city-hidden .animation-left{opacity: 0; transform: translateX(-50px)}
+.items-city-visible .animation-left{opacity: 1; transform: translateX(0px)}
+
+/*cta lion v2 */
+.cta-lion-v2-hidden .animation-left{opacity: 0; transform: translateX(-50px)}
+.cta-lion-v2-visible .animation-left{opacity: 1; transform: translateX(0px)}
+
+.cta-lion-v2-hidden .animation-opacity{opacity: 0;}
+.cta-lion-v2-visible .animation-opacity{opacity: 1;}

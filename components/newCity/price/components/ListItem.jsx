@@ -1,8 +1,8 @@
 import React from 'react'
 
-const ListItem = ({ item }) => {
+const ListItem = ({ item, idx }) => {
     return (
-        <li className='h-[80px] max-xl:h-[108px] max-lg:h-auto'>
+        <li className='h-[80px] animation-left transition-all duration-1000 ease-in-out max-xl:h-[108px] max-lg:h-auto' style={{ transitionDelay: (idx + 1) * 100 + 'ms' }}>
             <div className='flex gap-4'>
                 <span className='text-[23px] max-xl:text-[20px] max-sm:text-[18px]'>{item.title}</span>
                 <div className={`w-full flex-1 flex items-center flex-row-reverse max-sm:min-w-[20px]`}>

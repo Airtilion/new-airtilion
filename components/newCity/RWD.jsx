@@ -4,7 +4,7 @@ import bgF from '@assets/images/new-cities/rwd/rwd.webp'
 import bgS from '@assets/images/new-cities/rwd/rwd2.webp'
 import IntersectionListener from '@components/IntersectionListener'
 
-const RWD = () => {
+const RWD = ({ dict }) => {
     return (
         <section id='rwd-standard' className="mt-48 section-style-small relative flex justify-between rwd-standard-hidden max-lg:flex-col max-sm:items-center max-sm:gap-16">
             <IntersectionListener selector="#rwd-standard" visibleClass="rwd-standard-visible" hiddenClass="rwd-standard-hidden" threshold="0.1" rootMargin='0px 0px -50px 0px' />
@@ -15,8 +15,8 @@ const RWD = () => {
             </div>
 
             <div className='w-[740px] bg-black p-8 rounded-[20px] mx-auto z-1 absolute left-1/2 top-1/2 -translate-1/2 overflow-hidden animation-opacity transition-all duration-1000 ease-in-out max-xl:w-[650px] max-lg:w-[90%] max-sm:w-[95%]'>
-                <h2 className='text-[30px] max-2xl:text-[25px] max-sm:text-[20px] heading-gradient-gray'><span className='block'>Standaryzacja RWD</span> - responsywna strona internetowa dla firmy</h2>
-                <p className="mt-4 text-paragraph">W dzisiejszych czasach większość ruchu pochodzi z telefonów. Dlatego każda nasza realizacja to strona internetowa <span className='font-semibold'>przystosowana do urządzeń mobilnych</span>. Responsywne strony internetowe (RWD) to u nas <span className='font-semibold'>standard, a nie dodatkowo płatna opcja</span>. Gwarantujemy, że wygląd strony internetowej będzie idealny zarówno na smartfonie, tablecie, jak i na dużym monitorze.</p>
+                <h2 className='text-[30px] max-2xl:text-[25px] max-sm:text-[20px] heading-gradient-gray' dangerouslySetInnerHTML={{ __html: dict.title }} />
+                <p className="mt-4 text-paragraph" dangerouslySetInnerHTML={{ __html: dict.desc }} />
                 <div className='absolute -z-2 section-style-small h-[200px] top-1/2 left-1/2 -translate-1/2 bg-[#E283504D] rounded-full blur-[150px]' />
             </div>
 

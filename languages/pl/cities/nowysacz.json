@@ -1,58 +1,198 @@
 {
-    "portfolio": {
-        "title": "Tworzenie stron internetowych - efekt powstały z doświadczenia",
-        "content": [
-            "Cały proces tworzenie strony internetowej oparty jest na wieloletnim doświadczeniu całego zespołu i nieustannym poszerzaniu horyzontów. Wierzymy, że każdy tworzony przez nas projekt strony internetowej przyczynia się do polepszenia życia wielu przeglądających Internet. Wszystko po to, żeby w końcu i Twoja własna strona www, sklep internetowy czy aplikacja mobilna umożliwiła Ci osiągnięcie wymarzonych celów.",
-            "Zrealizowaliśmy wiele zleceń, dzięki którym nasi klienci otrzymali produkt spełniający ich oczekiwania. Nasze portfolio online prezentuje i w szczegółowy sposób opisuje projekty dla naszych klientów. Idąc dalej znajdziesz informacje o kosztach, czasie realizacji oraz technologiach, których używamy. Na końcu znajdziesz również odpowiedzi na najczęściej zadawane pytania."
+    "header": {
+        "h1": "Profesjonalne strony internetowe <span class='font-semibold'>Nowy Sącz</span> - Tworzymy&nbsp;Twój wizerunek w sieci",
+        "desc": [
+            "Projektujemy nowoczesne strony internetowe, które są nie tylko wizytówką, ale przede wszystkim <span class='font-semibold'>skutecznym narzędziem sprzedaży</span>. Stawiamy na techniczną perfekcję, szybkość działania i Twoje bezpieczeństwo w sieci.",
+            "Wycenimy Twój projekt w 24h całkowicie za darmo. Bez&nbsp;zobowiązań."
         ],
-        "button": "Przejdź do pełnego portfolio",
-        "afterContent": "Każdy projekt strony internetowej to szyte na miarę rozwiązanie - niezależnie od tego, czy budujemy landing page, duży portal, czy rozbudowaną platformę dla startupu lub organizacji.",
-        "alt": "Rozmazane zdjęcie przedstawiające tworzoną stronę internetową firmy wyświetloną na laptopie jako placeholder",
-        "cta": "Zamów darmową wycenę"
+        "buttonText": "Zamów darmową wycenę",
+        "cta": "Wolisz porozmawiać od razu? <span class='max-xl:block'>Zadzwoń <a href='tel:+48720177174' class='text-[#E28350] font-semibold'>+48 720 177 174</a> lub <a href='tel:+48511019652' class='text-[#E28350] font-semibold'>+48&nbsp;511&nbsp;019&nbsp;652</a></span>",
+        "alt": "Kolaż makiet z naszymi realizacjami - nowoczesne strony internetowe Nowy Sącz dla branży budowlanej i handlowej"
     },
-    "cta": {
-        "title": "Skorzystaj z darmowej wyceny",
-        "content": "Jesteśmy gotowi, żeby stworzyć dla Ciebie Twoją własną stronę internetową. Wypełnij prosty formularz i zamów darmową wycenę swojego projektu. Odezwiemy się do Ciebie w ciągu 24h lub w najbliższym dniu roboczym. Jeśli jeszcze nie wiesz czego dokładnie potrzebujesz nie przejmuj się. Doradzimy i przeprowadzimy Cię przez cały proces. Odpowiemy na każde twoje pytanie.",
-        "button": "Zamów darmową wycenę",
-        "alt": "Zdjęcie przedstawiające lwa promującego profesjonalne strony internetowe dla firm",
-        "form": {
-            "tag": "Twój projekt. Nasza pasja. Wspólny skuces.",
-            "title": "Chcesz dowiedzieć się ile będzie kosztował Twój projekt? Wypełnij formularz!",
-            "content": "Odezwiemy się do Ciebie w ciągu 24 godzin lub w kolejny dzień roboczy. Omówimy Twoje potrzeby, doradzimy i zaproponujemy cenę za projekt. Jeśli jednak nie chcesz wypełniać formularza, możesz skontaktować się z nami telefonicznie.",
-            "contactData": [
-                "Numery telefonu",
-                "Adres email",
-                "Godziny otwarcia"
-            ],
-            "close": "Zamknij",
-            "fields": [
-                "Imię i nazwisko",
-                "Email",
-                "Numer telefonu",
-                "Preferowane godziny kontaktu telefonicznego",
-                "Typ projektu",
-                "Krótki opis sklepu internetowego"
-            ],
-            "condition": [
-                "Akceptuję <a href='/polityka-prywatnosci.pdf' target='_blank'>politykę prywatności</a> i wyrażam zgodę na <a href='/polityka-prywatnosci.pdf' target='_blank'>przetwarzanie danych osobowych</a>",
-                "Wyrażam zgodę na <a href='/zgoda-informacja-handlowa.pdf' target='_blank'>przetwarzanie moich danych</a> w celu otrzymania informacji handlowej"
-            ],
-            "button": "Wyślij zapytanie",
-            "errors": [
-                "",
-                "Imię i nazwisko jest wymagane",
-                "Nieprawidłowy adres email",
-                "Adres email jest wymagany",
-                "Numer telefonu jest wymagany",
-                "Nieprawidłowy numer telefonu",
-                "Krótki opis strony jest wymagany",
-                "Musisz zaakceptować politykę prywatności",
-                "Musisz wyrazić zgodę na otrzymywanie informacji handlowej",
-                "Wykryto bota",
-                "Nie udało się wysłać zapytania"
-            ],
-            "success": "Twoje zapytanie zostało wysłane pomyślnie!"
-        }
+    "portfolio": {
+        "title": "Efekt powstały z wizji - nasze ostatnie projekty",
+        "desc": "Sprawdź wybrane realizacje i zobacz w praktyce, jak łączymy kreatywne projektowanie stron z Twoim biznesem. Wiemy, że solidne przygotowanie strony internetowej to fundament pod Twój marketing, dlatego na każdym kroku dbamy o absolutnie wysoką jakość usług.",
+        "button": "Przejdź do pełnego portfolio",
+        "reason": "Każdy projekt to <span class='font-semibold'>szyte na miarę rozwiązanie</span> - niezależnie od tego, czy budujemy landing&nbsp;page, duży portal, czy rozbudowaną platformę dla startupu lub organizacji."
+    },
+    "ctaLionV1": {
+        "title": "Twój biznes zasługuje na równie dobrą stronę",
+        "desc": [
+            "Gotowy na witrynę, która nie tylko świetnie wygląda, ale przede wszystkim <span class='font-semibold'>realnie wspiera sprzedaż i buduje zaufanie?</span>",
+            "Opowiedz nam o swoim pomyśle. Przygotujemy dla Ciebie <span class='font-semibold'>bezpłatną, niezobowiązującą wycenę</span> oraz konkretny plan działania."
+        ],
+        "buttonText": "Odbierz darmową wycenę projektu"
+    },
+    "individualApproach": {
+        "alt": "Responsywna strona internetowa Nowy Sącz wyświetlana na ekranie smartfona - projekt dla sklepu odzieżowego",
+        "title": "Strony internetowe Nowy Sącz - indywidualne&nbsp;podejście do klienta",
+        "desc": "Rynek jest pełen ofert, od gotowców po wielkie korporacje. My wypełniamy lukę dla tych, którzy cenią współpracę z klientami opartą na partnerstwie. Tworzenie unikalnych stron internetowych to dla nas rzemiosło, w którym liczy się <span class='font-semibold'>dowożenie konkretnych wyników biznesowych.</span>",
+        "q": "Co zyskujesz, wybierając nasze dedykowane rozwiązania?",
+        "list": [
+            {
+                "title": "Bezpośredni kontakt",
+                "desc": "Rozmawiasz z ekspertem, który <span class='font-semibold'>faktycznie zajmuje się Twoim projektem</span>. Żadnych głuchych telefonów do biura obsługi."
+            },
+            {
+                "title": "Unikalną stronę internetową",
+                "desc": "Odrzucamy powtarzalne szablony i kreatory stron internetowych. Każda realizacja to oryginalne projekty graficzne <span class='font-semibold'>dopasowane do Twojej branży</span> i tego, czego szukają Twoi potencjalni klienci."
+            },
+            {
+                "title": "Doświadczenie w branży",
+                "desc": "Posiadamy twardą wiedzę techniczną, która pozwala nam realizować nawet <span class='font-semibold'>najbardziej skomplikowane zlecenia</span> na strony internetowe, dbając o najwyższą jakość usług."
+            }
+        ],
+        "reason": "<span class='font-semibold'>Zadowolenie klientów to dla nas priorytet</span>, ponieważ wiemy, że na lokalnym rynku zaufanie klientów i kompleksowa obsługa klienta budują najlepsze polecenia."
+    },
+    "shop": {
+        "decor": "Z nami zyskujesz więcej niż tylko obecność w sieci",
+        "title": "Sklepy internetowe Nowy Sącz - zwiększ zyski z e-commerce",
+        "shortTxt": "Oferujemy",
+        "list": [
+            "Integracje z systemami płatności (BLIK, karty, szybkie przelewy).",
+            "Moduły wspierające zarządzanie magazynem i logistykę.",
+            "Wspieranie konwersji poprzez przejrzystą ścieżkę zakupową."
+        ],
+        "desc": "Dla nas sklepy internetowe to <span class='font-semibold'>maszyny do zarabiania pieniędzy</span>. Dbamy o to, aby klienci sklepu internetowego czuli się bezpiecznie i chętnie finalizowali transakcje. Zapewniamy również przeszkolenie z zakresu: obsługa techniczna sklepu internetowego."
+    },
+    "ctaShop": {
+        "title": "Gotowy na sklep sprzedający 24/7?",
+        "desc": "Nie trać więcej klientów przez przestarzały system zamówień lub skomplikowany koszyk. Zbudujemy dla Ciebie <span class='font-semibold whitespace-nowrap'>nowoczesną platformę e-commerce</span>, w pełni zintegrowaną z płatnościami i kurierami. Odbierz bezpłatną wycenę i dowiedz się, jak technologia może <span class='font-semibold'>zautomatyzować Twoją sprzedaż i zmaksymalizować zyski.</span>",
+        "textButton": "Zapytaj o wycenę sklepu internetowego"
+    },
+    "technicalSeo": {
+        "title": "Optymalizacja techniczna zamiast pustych obietnic",
+        "desc": [
+            "Wielu klientów pyta o pozycjonowanie. Jako techniczni eksperci stawiamy sprawę jasno: nie jesteśmy agencją marketingową i nie oferujemy abonamentowego pozycjonowania (link buildingu, copywritingu). My <span class='font-semibold'>przygotowujemy solidny fundament.</span>",
+            "Dzięki temu Twoja strona internetowa jest gotowa, by w każdej chwili zdecydować się na pozycjonowanie lub kampanie reklamowe, mając pewność, że <span class='font-semibold'>witryna nie wymaga drogich poprawek</span>. Skuteczne strony internetowe to takie, które technicznie nie blokują Twojego wzrostu."
+        ],
+        "subtittle": "Nasza optymalizacja SEO (Technical SEO) obejmuje:",
+        "list": [
+            "Poprawną strukturę nagłówków i metadanych",
+            "Przyjazną strukturę linków",
+            "Szybkość ładowania strony",
+            "Wdrożenie sitemap.xml oraz robots.txt",
+            "Dostosowanie do urządzeń mobilnych",
+            "Czysty kod, który lubi Google",
+            "Dane strukturalne",
+            "Zarządzanie duplikacją treści"
+        ]
+    },
+    "production": {
+        "title": "Kompleksowe tworzenie stron internetowych - Jak&nbsp;działamy?",
+        "desc": "Nasz proces to nie tylko programowanie. Tworzymy strony internetowe w oparciu o przemyślaną strategię. Każda strona internetowa stworzona przez nas przechodzi przez sprawdzony proces, gwarantujący <span class='font-semibold'>przewidywalne i mierzalne efekty.</span>",
+        "data": [
+            {
+                "title": "Analiza potrzeb Twojej firmy",
+                "desc": "Na początku poznajemy specyfikę Twojej działalności oraz cele biznesowe. Analizujemy rynek, aby zrozumieć, kim są Twoi potencjalni klienci i stworzyć skuteczną stronę internetową <span class='font-semibold'>idealnie dopasowaną do Twoich oczekiwań.</span>"
+            },
+            {
+                "title": "Identyfikacja wizualna",
+                "desc": "Projektujemy nowoczesny, responsywny i przyciągający uwagę layout. Stawiamy na estetyczny projekt, który <span class='font-semibold'>wyróżni się w sieci</span>. Każda identyfikacja wizualna to oryginalny projekt graficzny, powstający z myślą o przejrzystości i wygodzie użytkownika."
+            },
+            {
+                "title": "Programowanie",
+                "desc": "Wdrażamy stronę z użyciem najnowszych technologii, dbając o czysty kod. Priorytetem jest dla nas <span class='font-semibold'>szybkość działania na każdym urządzeniu</span>, bezpieczeństwo strony oraz poprawność pod kątem SEO."
+            },
+            {
+                "title": "Wdrożenie i aktualizacje",
+                "desc": "Publikujemy gotową witrynę i zapewniamy wsparcie techniczne po jej uruchomieniu. Nasze strony internetowe dostępne są dla użytkowników <span class='font-semibold'>bez zakłóceń</span>. Dbamy o to, abyś otrzymał produkt kompletny, wiedząc, że strona internetowa informacje przekazuje w sposób czytelny i szybki."
+            }
+        ]
+    },
+    "technology": {
+        "title": "Budowa stron internetowych opartych o WordPress",
+        "desc": [
+            "Specjalizujemy się w systemie WordPress, jednak <span class='font-semibold'>nie idziemy na skróty</span>. Wdrażamy go wyłącznie na <span class='font-semibold'>dedykowanych szablonach</span>, co gwarantuje czysty kod i unikalny wygląd (zero ciężkich gotowców). WordPress to system, który umożliwia łatwe zarządzanie z CMS bez wiedzy programistycznej. Dzięki temu, po oddaniu projektu, administracja stronami internetowymi jest dla Ciebie prosta i przyjemna, a Ty otrzymujesz <span class='font-semibold'>intuicyjny interfejs, w którym samodzielnie zmienisz teksty czy zdjęcia.</span>",
+            "Z myślą o najbardziej wymagających projektach, oferujemy również superwydajne rozwiązania <span class='font-semibold'>Headless w oparciu o Next.js.</span> Stale śledzimy najnowsze trendy technologiczne, dlatego do naszych realizacji powoli wdrażamy także innowacyjny system zarządzania treścią <span class='font-semibold'>Keystatic.</span>"
+        ]
+    },
+    "rwd": {
+        "title": "<span class='block'>Standaryzacja RWD -</span> responsywna strona internetowa dla firmy",
+        "desc": "W dzisiejszych czasach większość ruchu pochodzi z telefonów. Dlatego każda nasza realizacja to strona internetowa <span class='font-semibold'>przystosowana do urządzeń mobilnych</span>. Responsywne strony internetowe (RWD) to u nas <span class='font-semibold'>standard, a nie dodatkowo płatna opcja</span>. Gwarantujemy, że wygląd strony internetowej będzie idealny zarówno na smartfonie, tablecie, jak i na dużym monitorze."
+    },
+    "price": {
+        "title": "Cennik stron internetowych i&nbsp;pakiety&nbsp;cenowe",
+        "desc": [
+            "Ile kosztują profesjonalne strony www? Każdy biznes jest inny, dlatego unikamy sztywnych ram, które na siłę próbują wpasować klienta w szablon. Oferujemy <span class='font-semibold'>indywidualną i darmową wycenę</span> skrojoną idealnie pod Twoje potrzeby i budżet.",
+            "Nie chcemy jednak zostawiać Cię z odpowiedzią „to zależy”. <span class='font-semibold'>Aby dać Ci realny punkt odniesienia, poniżej przedstawiamy zakres przykładowego projektu.</span>"
+        ],
+        "list": [
+            "Responsywna strona internetowa z indywidualnym projektem graficznym.",
+            "Komplet podstawowych zakładek (np. Strona główna, O nas, Oferta, Blog, Kontakt).",
+            "Wdrożenie intuicyjnego panelu zarządzania (CMS).",
+            "Pełna optymalizacja techniczna SEO i wyśrubowana szybkość ładowania (Core Web Vitals).",
+            "Konfiguracja bezpieczeństwa, formularzy kontaktowych oraz analityki (certyfikat SSL, Cookie Consent Mode v2, RODO).",
+            "12 miesięcy gwarancji na niezawodne działanie witryny oraz 3 godziny wsparcia technicznego do wykorzystania (np. na dodatkowe szkolenie czy rozbudowę)."
+        ],
+        "price": "Taka realizacja - stanowiąca solidny fundament Twojego biznesu w sieci - to inwestycja zaczynająca się od&nbsp;<span class='font-bold text-[30px] text-[#E28350] max-xl:text-[25px] max-sm:text-[22px]'>2999&nbsp;zł</span>&nbsp;netto."
+    },
+    "items": {
+        "introTxt": "Nie stosujemy ukrytych kosztów. Nasze pakiety cenowe są przejrzyste. <span class='font-semibold'>Co zawsze wchodzi w cenę każdego projektu?</span>",
+        "elements": [
+            {
+                "title": "Strategia i analiza",
+                "desc": "Projekt poprzedzamy analizą Twojej branży i wymagań, aby strona realizowała cele biznesowe."
+            },
+            {
+                "title": "Indywidualny projekt graficzny",
+                "desc": "Tworzymy unikalny design (brak szablonów i kreatorów), który wyróżnia Twoją markę."
+            },
+            {
+                "title": "Dostosowanie do urządzeń mobilnych (RWD)",
+                "desc": "Gwarantujemy perfekcyjny wygląd na telefonach, tabletach i komputerach."
+            },
+            {
+                "title": "Technologie na miarę czasów",
+                "desc": "Stosujemy nowoczesne rozwiązania i czysty kod, zapewniając optymalizację wydajności (szybkość ładowania)."
+            },
+            {
+                "title": "System CMS (opcjonalnie)",
+                "desc": "Wdrażamy wygodny panel zarządzania (np. integracja z WordPress) oraz dedykowane wtyczki funkcjonalne."
+            },
+            {
+                "title": "Bezpieczeństwo strony internetowej",
+                "desc": "Wdrażamy certyfikat SSL oraz zabezpieczenia przed atakami."
+            },
+            {
+                "title": "Przygotowanie do SEO",
+                "desc": "Odpowiednia struktura nagłówków, meta tagów i linków pod wyszukiwarki."
+            },
+            {
+                "title": "Analityka ruchu",
+                "desc": "Pełna konfiguracja Google Analytics oraz Google Search Console."
+            },
+            {
+                "title": "Zgodność z prawem (RODO)",
+                "desc": "Przygotowanie kompletu dokumentów (Polityka Prywatności, klauzule) oraz wdrożenie systemu zarządzania zgodami na pliki cookies."
+            },
+            {
+                "title": "Infrastruktura",
+                "desc": "Pomoc w wyborze i rejestracja domeny (opcjonalnie) oraz konfiguracja serwera wirtualnego."
+            },
+            {
+                "title": "Wdrożenie na serwerze",
+                "desc": "Instalacja, konfiguracja poczty i finalne testy działania."
+            },
+            {
+                "title": "Szkolenie z obsługi",
+                "desc": "Uczymy, jak samodzielnie zarządzać stroną."
+            },
+            {
+                "title": "Pełne wsparcie techniczne",
+                "desc": "Pakiet aktualizacji i pomocy technicznej (do 3 godzin miesięcznie na start)."
+            },
+            {
+                "title": "12 miesięczna gwarancja",
+                "desc": "Zapewniamy bezpłatne naprawy ewentualnych błędów technicznych."
+            }
+        ]
+    },
+    "ctaPhone": {
+        "title": "Zastanawiasz się, które rozwiązanie <span class='block max-lg:inline'>będzie najlepsze dla Twojej firmy?</span>",
+        "desc": "Powyższe ramy to tylko punkt wyjścia. Zamiast dopasowywać swój biznes do gotowych pakietów, opowiedz nam o swoich celach. Doradzimy, jakie funkcje przyniosą Ci największą korzyść i przygotujemy <span class='font-semibold'>przejrzystą wycenę opartą na Twoich realnych potrzebach.</span>",
+        "buttonText": "Porozmawiajmy o Twoim projekcie",
+        "alt": "Responsywne strony internetowe Nowy Sącz - widok mobilny witryny na ekranach smartfonów"
     },
     "opinions": {
         "title": "Opinie klientów - zaufanie to podstawa",
@@ -94,6 +234,15 @@
             }
         ]
     },
+    "ctaLionV2": {
+        "title": "Tworzymy strony internetowe dla Twojego biznesu - <span class='block max-xl:inline'>Skontaktuj się z nami</span>",
+        "desc": [
+            "Strony internetowe Nowy Sącz to nasze główne hasło, ale obsługujemy klientów z całej Polski. Jeśli zależy Ci na zwiększeniu popularności firmy poprzez profesjonalny wizerunek i szukasz wykonawcy, który oferuje kompleksową obsługę klienta (ale bez zbędnego marketingu), zadzwoń lub napisz.",
+            "Dostosowanie strony internetowej do Twoich potrzeb zaczyna się od rozmowy."
+        ],
+        "buttonText": "Zamów darmową wycenę",
+        "cta": "Wolisz porozmawiać od razu? <span class='max-xl:block'>Zadzwoń <a href='tel:+48720177174' class='text-[#E28350] font-semibold'>+48 720 177 174</a> lub <a href='tel:+4851101965' class='text-[#E28350] font-semibold'>+48&nbsp;511&nbsp;019&nbsp;652</a></span>"
+    },
     "footer": {
         "alt": "Logo spółki airtilion",
         "area": {
@@ -125,5 +274,43 @@
             "Odwiedź profil Airtilion na TikToku"
         ],
         "companyInfo": "Airtilion Sp. z o.o. ul. Słoneczna 32/9, 33-100 Tarnów, wpisana do rejestru przedsiębiorców Krajowego rejestru Sądowego przez Sąd Rejonowy dla Krakowa-Śródmieścia w Krakowie, XII Wydział Gospodarczy Krajowego Rejestru Sądowego pod nr KRS 0001143482, kapitał zakładowy w kwocie 5 000,00 zł w całości opłacony, NIP: 8733299720"
+    },
+    "form": {
+        "tag": "Twój projekt. Nasza pasja. Wspólny skuces.",
+        "title": "Chcesz dowiedzieć się ile będzie kosztował Twój projekt? Wypełnij formularz!",
+        "content": "Odezwiemy się do Ciebie w ciągu 24 godzin lub w kolejny dzień roboczy. Omówimy Twoje potrzeby, doradzimy i zaproponujemy cenę za projekt. Jeśli jednak nie chcesz wypełniać formularza, możesz skontaktować się z nami telefonicznie.",
+        "contactData": [
+            "Numery telefonu",
+            "Adres email",
+            "Godziny otwarcia"
+        ],
+        "close": "Zamknij",
+        "fields": [
+            "Imię i nazwisko",
+            "Email",
+            "Numer telefonu",
+            "Preferowane godziny kontaktu telefonicznego",
+            "Typ projektu",
+            "Krótki opis sklepu internetowego"
+        ],
+        "condition": [
+            "Akceptuję <a href='/polityka-prywatnosci.pdf' target='_blank'>politykę prywatności</a> i wyrażam zgodę na <a href='/polityka-prywatnosci.pdf' target='_blank'>przetwarzanie danych osobowych</a>",
+            "Wyrażam zgodę na <a href='/zgoda-informacja-handlowa.pdf' target='_blank'>przetwarzanie moich danych</a> w celu otrzymania informacji handlowej"
+        ],
+        "button": "Wyślij zapytanie",
+        "errors": [
+            "",
+            "Imię i nazwisko jest wymagane",
+            "Nieprawidłowy adres email",
+            "Adres email jest wymagany",
+            "Numer telefonu jest wymagany",
+            "Nieprawidłowy numer telefonu",
+            "Krótki opis strony jest wymagany",
+            "Musisz zaakceptować politykę prywatności",
+            "Musisz wyrazić zgodę na otrzymywanie informacji handlowej",
+            "Wykryto bota",
+            "Nie udało się wysłać zapytania"
+        ],
+        "success": "Twoje zapytanie zostało wysłane pomyślnie!"
     }
 }

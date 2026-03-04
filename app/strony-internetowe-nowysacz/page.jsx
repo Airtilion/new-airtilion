@@ -53,25 +53,25 @@ const page = async ({ searchParams }) => {
 
     return (
         <>
-            <CityHeader />
+            <CityHeader dict={dictionary.header} />
             <main className='mt-16 flex flex-col !font-regular overflow-hidden'>
                 <CompaniesSlider />
                 <Portoflio dict={dictionary.portfolio || {}} lang={lang} data={projectsData} />
-                <CallToActionLionv1 />
-                <IndividualApproach />
-                <Ecommerce />
-                <CallToActionShop />
-                <SEO />
-                <Production />
-                <Technology />
-                <RWD />
-                <Price />
-                <Items />
-                <CallToActionPhotoL />
+                <CallToActionLionv1 dict={dictionary.ctaLionV1} />
+                <IndividualApproach dict={dictionary.individualApproach} />
+                <Ecommerce dict={dictionary.shop} />
+                <CallToActionShop dict={dictionary.ctaShop} />
+                <SEO dict={dictionary.technicalSeo} />
+                <Production dict={dictionary.production} />
+                <Technology dict={dictionary.technology} />
+                <RWD dict={dictionary.rwd} />
+                <Price dict={dictionary.price} />
+                <Items dict={dictionary.items} />
+                <CallToActionPhotoL dict={dictionary.ctaPhone} />
                 <Opinions dict={dictionary.opinions || {}} lang={lang} data={opinionsData} isMarginTop={true} />
                 <Faq dict={dictionary.faq || {}} isMarginTop={true} />
-                <CallToActionLionv2 />
-                <SlideUpContact dict={dictionary.cta.form} lang={lang} />
+                <CallToActionLionv2 dict={dictionary.ctaLionV2} />
+                <SlideUpContact dict={dictionary.form} lang={lang} />
             </main>
             <Footer dict={dictionaryFooter} />
             <JsonLd data={schema} />

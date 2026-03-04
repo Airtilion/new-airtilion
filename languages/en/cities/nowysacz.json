@@ -1,0 +1,316 @@
+{
+    "header": {
+        "h1": "Professional Websites <span class='font-semibold'>Nowy Sącz</span> - We Build Your&nbsp;Online Image",
+        "desc": [
+            "We design modern websites that are not just a showcase, but primarily an <span class='font-semibold'>effective sales tool</span>. We focus on technical perfection, speed, and your online security.",
+            "We will quote your project in 24h completely free of charge. No&nbsp;obligations."
+        ],
+        "buttonText": "Get a free quote",
+        "cta": "Prefer to talk right away? <span class='max-xl:block'>Call <a href='tel:+48720177174' class='text-[#E28350] font-semibold'>+48 720 177 174</a> or <a href='tel:+48511019652' class='text-[#E28350] font-semibold'>+48&nbsp;511&nbsp;019&nbsp;652</a></span>",
+        "alt": "Collage of mockups showing our projects - modern websites Nowy Sącz for construction and retail industries"
+    },
+    "portfolio": {
+        "title": "Results born from vision - our latest projects",
+        "desc": "Check out selected projects and see in practice how we combine creative web design with your business. We know that a solidly prepared website is the foundation for your marketing, which is why we ensure absolutely high service quality at every step.",
+        "button": "Go to full portfolio",
+        "reason": "Every project is a <span class='font-semibold'>tailor-made solution</span> - regardless of whether we are building a landing&nbsp;page, a large portal, or an extensive platform for a startup or organization."
+    },
+    "ctaLionV1": {
+        "title": "Your business deserves an equally good website",
+        "desc": [
+            "Ready for a site that not only looks great but primarily <span class='font-semibold'>really supports sales and builds trust?</span>",
+            "Tell us about your idea. We will prepare a <span class='font-semibold'>free, no-obligation quote</span> and a concrete action plan for you."
+        ],
+        "buttonText": "Get your free project quote"
+    },
+    "individualApproach": {
+        "alt": "Responsive website Nowy Sącz displayed on a smartphone screen - project for a clothing store",
+        "title": "Websites Nowy Sącz - individual&nbsp;approach to the client",
+        "desc": "The market is full of offers, from ready-made templates to large corporations. We fill the gap for those who value cooperation based on partnership. Creating unique websites is a craft for us, where <span class='font-semibold'>delivering concrete business results counts.</span>",
+        "q": "What do you gain by choosing our dedicated solutions?",
+        "list": [
+            {
+                "title": "Direct contact",
+                "desc": "You talk to an expert who is <span class='font-semibold'>actually working on your project</span>. No dead-end calls to a customer service office."
+            },
+            {
+                "title": "A unique website",
+                "desc": "We reject repetitive templates and website builders. Each implementation is an original graphic design <span class='font-semibold'>tailored to your industry</span> and what your potential customers are looking for."
+            },
+            {
+                "title": "Industry experience",
+                "desc": "We possess solid technical knowledge that allows us to execute even the <span class='font-semibold'>most complex orders</span> for websites, ensuring the highest quality of service."
+            }
+        ],
+        "reason": "<span class='font-semibold'>Client satisfaction is our priority</span>, because we know that in the local market, customer trust and comprehensive service build the best recommendations."
+    },
+    "shop": {
+        "decor": "With us, you gain more than just an online presence",
+        "title": "Online Stores Nowy Sącz - increase e-commerce profits",
+        "shortTxt": "We offer",
+        "list": [
+            "Integration with payment systems (BLIK, cards, quick transfers).",
+            "Modules supporting warehouse management and logistics.",
+            "Conversion support through a clear purchasing path."
+        ],
+        "desc": "For us, online stores are <span class='font-semibold'>money-making machines</span>. We ensure that store customers feel safe and are willing to finalize transactions. We also provide training in: technical operation of the online store."
+    },
+    "ctaShop": {
+        "title": "Ready for a store that sells 24/7?",
+        "desc": "Don't lose more customers due to an outdated ordering system or a complicated cart. We will build a <span class='font-semibold whitespace-nowrap'>modern e-commerce platform</span> for you, fully integrated with payments and couriers. Get a free quote and find out how technology can <span class='font-semibold'>automate your sales and maximize profits.</span>",
+        "textButton": "Ask for an online store quote"
+    },
+    "technicalSeo": {
+        "title": "Technical optimization instead of empty promises",
+        "desc": [
+            "Many clients ask about SEO (positioning). As technical experts, we make it clear: we are not a marketing agency and do not offer subscription-based positioning (link building, copywriting). We <span class='font-semibold'>prepare a solid foundation.</span>",
+            "Thanks to this, your website is ready to decide on positioning or advertising campaigns at any time, with the certainty that the <span class='font-semibold'>site does not require expensive fixes</span>. Effective websites are those that technically do not block your growth."
+        ],
+        "subtittle": "Our SEO optimization (Technical SEO) includes:",
+        "list": [
+            "Correct structure of headers and metadata",
+            "Friendly link structure",
+            "Page loading speed",
+            "Implementation of sitemap.xml and robots.txt",
+            "Mobile device adaptation",
+            "Clean code that Google loves",
+            "Structured data",
+            "Content duplication management"
+        ]
+    },
+    "production": {
+        "title": "Comprehensive web development - How&nbsp;do&nbsp;we work?",
+        "desc": "Our process is not just programming. We create websites based on a well-thought-out strategy. Every website created by us goes through a proven process, guaranteeing <span class='font-semibold'>predictable and measurable results.</span>",
+        "data": [
+            {
+                "title": "Analysis of your company's needs",
+                "desc": "At the beginning, we get to know the specifics of your business and business goals. We analyze the market to understand who your potential customers are and create an effective website <span class='font-semibold'>perfectly matched to your expectations.</span>"
+            },
+            {
+                "title": "Visual identity",
+                "desc": "We design a modern, responsive, and attention-grabbing layout. We focus on an aesthetic design that will <span class='font-semibold'>stand out online</span>. Every visual identity is an original graphic design, created with clarity and user comfort in mind."
+            },
+            {
+                "title": "Programming",
+                "desc": "We implement the site using the latest technologies, ensuring clean code. Our priority is <span class='font-semibold'>speed of operation on every device</span>, website security, and SEO correctness."
+            },
+            {
+                "title": "Deployment and updates",
+                "desc": "We publish the finished site and provide technical support after its launch. Our websites are available to users <span class='font-semibold'>without interruptions</span>. We ensure that you receive a complete product, knowing that the website conveys information in a clear and fast way."
+            }
+        ]
+    },
+    "technology": {
+        "title": "Building websites based on WordPress",
+        "desc": [
+            "We specialize in the WordPress system, but <span class='font-semibold'>we don't cut corners</span>. We implement it exclusively on <span class='font-semibold'>custom themes</span>, which guarantees clean code and a unique look (zero heavy ready-made templates). WordPress is a system that allows easy management via CMS without programming knowledge. Thanks to this, after the project is delivered, website administration is simple and pleasant for you, and you receive an <span class='font-semibold'>intuitive interface where you can change texts or photos yourself.</span>",
+            "With the most demanding projects in mind, we also offer super-efficient <span class='font-semibold'>Headless solutions based on Next.js.</span> We constantly follow the latest technological trends, which is why we are also slowly implementing the innovative content management system <span class='font-semibold'>Keystatic</span> into our projects."
+        ]
+    },
+    "rwd": {
+        "title": "<span class='block'>RWD Standardization -</span> responsive website for business",
+        "desc": "Nowadays, most traffic comes from phones. That is why every one of our projects is a website <span class='font-semibold'>adapted to mobile devices</span>. Responsive websites (RWD) are a <span class='font-semibold'>standard for us, not an extra paid option</span>. We guarantee that the website appearance will be perfect on a smartphone, tablet, as well as on a large monitor."
+    },
+    "price": {
+        "title": "Website pricing and&nbsp;price&nbsp;packages",
+        "desc": [
+            "How much do professional websites cost? Every business is different, so we avoid rigid frames that try to force the client into a template. We offer an <span class='font-semibold'>individual and free quote</span> tailored perfectly to your needs and budget.",
+            "However, we don't want to leave you with the answer \"it depends\". <span class='font-semibold'>To give you a real reference point, below we present the scope of a sample project.</span>"
+        ],
+        "list": [
+            "Responsive website with an individual graphic design.",
+            "Set of basic tabs (e.g., Home, About Us, Offer, Blog, Contact).",
+            "Implementation of an intuitive management panel (CMS).",
+            "Full technical SEO optimization and high loading speed (Core Web Vitals).",
+            "Configuration of security, contact forms, and analytics (SSL certificate, Cookie Consent Mode v2, GDPR).",
+            "12 months of warranty for reliable site operation and 3 hours of technical support to use (e.g., for additional training or expansion)."
+        ],
+        "price": "Such an implementation - constituting a solid foundation for your business online - is an investment starting from&nbsp;<span class='font-bold text-[30px] text-[#E28350] max-xl:text-[25px] max-sm:text-[22px]'>2999&nbsp;PLN</span>&nbsp;net."
+    },
+    "items": {
+        "introTxt": "We do not apply hidden costs. Our price packages are transparent. <span class='font-semibold'>What is always included in the price of every project?</span>",
+        "elements": [
+            {
+                "title": "Strategy and analysis",
+                "desc": "We precede the project with an analysis of your industry and requirements so that the website meets business goals."
+            },
+            {
+                "title": "Individual graphic design",
+                "desc": "We create a unique design (no templates or builders) that distinguishes your brand."
+            },
+            {
+                "title": "Mobile device adaptation (RWD)",
+                "desc": "We guarantee a perfect look on phones, tablets, and computers."
+            },
+            {
+                "title": "Modern technologies",
+                "desc": "We use modern solutions and clean code, ensuring performance optimization (loading speed)."
+            },
+            {
+                "title": "CMS System (optional)",
+                "desc": "We implement a convenient management panel (e.g., integration with WordPress) and dedicated functional plugins."
+            },
+            {
+                "title": "Website security",
+                "desc": "We implement an SSL certificate and protection against attacks."
+            },
+            {
+                "title": "Preparation for SEO",
+                "desc": "Appropriate structure of headers, meta tags, and links for search engines."
+            },
+            {
+                "title": "Traffic analytics",
+                "desc": "Full configuration of Google Analytics and Google Search Console."
+            },
+            {
+                "title": "Legal compliance (GDPR)",
+                "desc": "Preparation of a set of documents (Privacy Policy, clauses) and implementation of a cookie consent management system."
+            },
+            {
+                "title": "Infrastructure",
+                "desc": "Assistance in choosing and registering a domain (optional) and virtual server configuration."
+            },
+            {
+                "title": "Server deployment",
+                "desc": "Installation, email configuration, and final operation tests."
+            },
+            {
+                "title": "Operation training",
+                "desc": "We teach you how to manage the website yourself."
+            },
+            {
+                "title": "Full technical support",
+                "desc": "Update and technical support package (up to 3 hours per month to start)."
+            },
+            {
+                "title": "12-month warranty",
+                "desc": "We provide free repairs of potential technical errors."
+            }
+        ]
+    },
+    "ctaPhone": {
+        "title": "Wondering which solution <span class='block max-lg:inline'>will be best for your company?</span>",
+        "desc": "The above frames are just a starting point. Instead of fitting your business into ready-made packages, tell us about your goals. We will advise on which features will bring you the greatest benefit and prepare a <span class='font-semibold'>transparent quote based on your real needs.</span>",
+        "buttonText": "Let's talk about your project",
+        "alt": "Responsive websites Nowy Sącz - mobile view of the site on smartphone screens"
+    },
+    "opinions": {
+        "title": "Client opinions - trust is the foundation",
+        "alt": "Phone placed on an orange table showing a mobile application"
+    },
+    "faq": {
+        "title": "FAQ - Frequently Asked Questions",
+        "content": "As website specialists, we respect your time. Here are the specifics that clients from Nowy Sącz ask about.",
+        "questions": [
+            {
+                "q": "How long does it take to build a website?",
+                "a": [
+                    "Fast turnaround time is our asset, but not at the expense of quality. A simple company business card site is usually created in <span class='font-semibold'>7-14 days</span>. Extensive online stores or dedicated solutions may take <span class='font-semibold'>from 3 to 6 weeks</span>. Everything depends on the materials provided by the client."
+                ]
+            },
+            {
+                "q": "Will the website be visible in Google?",
+                "a": [
+                    "Yes, we ensure correctness in terms of SEO on a technical level. The page will be indexed and visible. However, high positions for competitive phrases (e.g., nationwide) are influenced by <span class='font-semibold'>online marketing</span> and long-term website positioning (SEO), which marketing agencies handle. We give you the <span class='font-semibold'>ideal tool to start.</span>"
+                ]
+            },
+            {
+                "q": "What is the 12-month warranty?",
+                "a": [
+                    "Every website implementation is covered by our support. If within a year of deployment something stops working due to a technical fault (code error, plugin conflict in the original version), <span class='font-semibold'>we fix it for free.</span> We also offer paid website maintenance after the warranty period."
+                ]
+            },
+            {
+                "q": "Do I need to have my own texts and photos?",
+                "a": [
+                    "It is not necessary at the start. We can prepare basic content for the site that will be linguistically correct and fill the site structure. However, if you care about high results in Google, we recommend ordering the service of professional texts from a copywriter. Such a person will create content strictly optimized for keywords, which will significantly facilitate later positioning. As for graphics – we offer access to stock photo banks, but remember that authentic photos of your company best build a credible image online."
+                ]
+            },
+            {
+                "q": "Do you help choose a server and domain?",
+                "a": [
+                    "Yes, and importantly - <span class='font-semibold'>we protect your wallet.</span> Virtual servers and domains often tempt with a price of \"1 PLN\" in the first year, only to surprise you after 12 months with an invoice for several hundred zlotys. We help select a stable solution with transparent renewal costs that <span class='font-semibold'>does not generate hidden fees in the future.</span> We also handle formalities such as domain registration."
+                ]
+            }
+        ]
+    },
+    "ctaLionV2": {
+        "title": "We create websites for your business - <span class='block max-xl:inline'>Contact us</span>",
+        "desc": [
+            "Websites Nowy Sącz is our main slogan, but we serve clients from all over Poland. If you care about increasing your company's popularity through a professional image and are looking for a contractor who offers comprehensive customer service (but without unnecessary marketing fluff), call or write.",
+            "Adapting a website to your needs starts with a conversation."
+        ],
+        "buttonText": "Order a free quote",
+        "cta": "Prefer to talk right away? <span class='max-xl:block'>Call <a href='tel:+48720177174' class='text-[#E28350] font-semibold'>+48 720 177 174</a> or <a href='tel:+4851101965' class='text-[#E28350] font-semibold'>+48&nbsp;511&nbsp;019&nbsp;652</a></span>"
+    },
+    "footer": {
+        "alt": "Logo of the airtilion company",
+        "area": {
+            "title": "Service area",
+            "ending": "... and much more"
+        },
+        "docs": [
+            {
+                "name": "Privacy Policy",
+                "link": "/polityka-prywatnosci"
+            },
+            {
+                "name": "Terms and Conditions of Electronic Services",
+                "link": "/regulamin-swiadczenia-uslug-droga-elektroniczna"
+            },
+            {
+                "name": "Consent to receive commercial information",
+                "link": "/zgoda-informacja-handlowa"
+            }
+        ],
+        "socialsAria": [
+            "Visit Airtilion profile on Facebook",
+            "Visit Airtilion profile on Instagram",
+            "Visit Airtilion profile on LinkedIn",
+            "Visit Airtilion profile on X",
+            "Visit Airtilion profile on Threads",
+            "Visit Airtilion profile on Pinterest",
+            "Visit Airtilion channel on YouTube",
+            "Visit Airtilion profile on TikTok"
+        ],
+        "companyInfo": "Airtilion Sp. z o.o. ul. Słoneczna 32/9, 33-100 Tarnów, entered into the Register of Entrepreneurs of the National Court Register by the District Court for Kraków-Śródmieście in Kraków, XII Commercial Division of the National Court Register under KRS no. 0001143482, share capital in the amount of 5 000.00 PLN fully paid up, NIP (VAT ID): 8733299720"
+    },
+    "form": {
+        "tag": "Your project. Our passion. Shared success.",
+        "title": "Want to find out how much your project will cost? Fill out the form!",
+        "content": "We will get back to you within 24 hours or on the next business day. We will discuss your needs, advise you, and propose a price for the project. However, if you do not want to fill out the form, you can contact us by phone.",
+        "contactData": [
+            "Phone numbers",
+            "Email address",
+            "Opening hours"
+        ],
+        "close": "Close",
+        "fields": [
+            "Full name",
+            "Email",
+            "Phone number",
+            "Preferred hours for phone contact",
+            "Project type",
+            "Short description of the online store/website"
+        ],
+        "condition": [
+            "I accept the <a href='/polityka-prywatnosci.pdf' target='_blank'>privacy policy</a> and consent to the <a href='/polityka-prywatnosci.pdf' target='_blank'>processing of personal data</a>",
+            "I consent to the <a href='/zgoda-informacja-handlowa.pdf' target='_blank'>processing of my data</a> for the purpose of receiving commercial information"
+        ],
+        "button": "Send inquiry",
+        "errors": [
+            "",
+            "Full name is required",
+            "Invalid email address",
+            "Email address is required",
+            "Phone number is required",
+            "Invalid phone number",
+            "Short description of the site is required",
+            "You must accept the privacy policy",
+            "You must consent to receiving commercial information",
+            "Bot detected",
+            "Failed to send inquiry"
+        ],
+        "success": "Your inquiry has been sent successfully!"
+    }
+}

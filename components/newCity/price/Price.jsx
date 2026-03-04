@@ -5,25 +5,16 @@ import priceF from '@assets/images/new-cities/price/price.webp'
 import priceS from '@assets/images/new-cities/price/price2.webp'
 import IntersectionListener from '@components/IntersectionListener'
 
-const elements = [
-    "Responsywna strona internetowa z indywidualnym projektem graficznym.",
-    "Komplet podstawowych zakładek (np. Strona główna, O nas, Oferta, Blog, Kontakt).",
-    "Wdrożenie intuicyjnego panelu zarządzania (CMS).",
-    "Pełna optymalizacja techniczna SEO i wyśrubowana szybkość ładowania (Core Web Vitals).",
-    "Konfiguracja bezpieczeństwa, formularzy kontaktowych oraz analityki (certyfikat SSL, Cookie Consent Mode v2, RODO).",
-    "12 miesięcy gwarancji na niezawodne działanie witryny oraz 3 godziny wsparcia technicznego do wykorzystania (np. na dodatkowe szkolenie czy rozbudowę)."
-]
-
-const Price = () => {
+const Price = ({ dict }) => {
     return (
         <section id='price-city' className='mt-48 section-style-small text-paragraph price-city-hidden'>
             <IntersectionListener selector="#price-city" visibleClass="price-city-visible" hiddenClass="price-city-hidden" threshold="0.1" rootMargin='0px 0px -50px 0px' />
 
             <div className='flex-center gap-16 max-lg:flex-col'>
                 <div className='flex-1 animation-left transition-all duration-1000 ease-in-out'>
-                    <h2 className='text-[30px] heading-gradient-gray max-2xl:text-[25px] max-sm:text-[20px]'>Cennik stron internetowych i&nbsp;pakiety&nbsp;cenowe</h2>
-                    <p className="mt-4">Ile kosztują profesjonalne strony www? Każdy biznes jest inny, dlatego unikamy sztywnych ram, które na siłę próbują wpasować klienta w szablon. Oferujemy <span className="font-semibold">indywidualną i darmową wycenę</span> skrojoną idealnie pod Twoje potrzeby i budżet.</p>
-                    <p className="mt-4">Nie chcemy jednak zostawiać Cię z odpowiedzią „to zależy”. <span className="font-semibold">Aby dać Ci realny punkt odniesienia, poniżej przedstawiamy zakres przykładowego projektu.</span></p>
+                    <h2 className='text-[30px] heading-gradient-gray max-2xl:text-[25px] max-sm:text-[20px]' dangerouslySetInnerHTML={{ __html: dict.title }} />
+                    <p className="mt-4" dangerouslySetInnerHTML={{ __html: dict.desc[0] }} />
+                    <p className="mt-4" dangerouslySetInnerHTML={{ __html: dict.desc[1] }} />
                 </div>
 
                 <div className='animation-right transition-all duration-1000 ease-in-out'>
@@ -36,7 +27,7 @@ const Price = () => {
                 <div className='w-full relative z-1 flex-center flex-col py-16'>
 
                     <ol className='list-none list-inside space-y-4 w-[720px] max-lg:w-[90%]'>
-                        {elements.map((el, idx) => (
+                        {dict.list.map((el, idx) => (
                             <li key={idx} className='flex items-center gap-8 animation-left transition-all duration-1000 ease-in-out max-sm:gap-4' style={{ transitionDelay: (idx + 1) * 100 + 'ms' }}>
                                 <span className='text-[30px] w-[21px] text-[#404040] font-black max-xl:text-[25px] max-sm:text-[20px]'>{idx + 1}</span>
                                 <span className='text-[18px] flex-1 max-xl:text-[16px] max-sm:text-[14px]'>{el}</span>
@@ -44,7 +35,7 @@ const Price = () => {
                         ))}
                     </ol>
 
-                    <p className='mt-12 px-8 text-center animation-left transition-all duration-1000 ease-in-out'>Taka realizacja - stanowiąca solidny fundament Twojego biznesu w sieci - to inwestycja zaczynająca się od&nbsp;<span className='font-bold text-[30px] text-[#E28350] max-xl:text-[25px] max-sm:text-[22px]'>2999&nbsp;zł</span>&nbsp;netto.</p>
+                    <p className='mt-12 px-8 text-center animation-left transition-all duration-1000 ease-in-out' dangerouslySetInnerHTML={{ __html: dict.price }} />
                 </div>
 
                 <div className='animation-opacity transition-all duration-1000 ease-in-out'>

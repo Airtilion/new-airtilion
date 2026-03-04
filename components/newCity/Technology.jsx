@@ -14,7 +14,7 @@ const techs = [
     { icon: 'mdi:wordpress', width: 30, height: 30 },
 ]
 
-const Technology = () => {
+const Technology = ({ dict }) => {
     return (
         <section id="websites-section" className='mt-48 relative section-style-small websites-hidden'>
             <IntersectionListener selector="#websites-section" visibleClass="websites-visible" hiddenClass="websites-hidden" threshold="0.1" rootMargin='0px 0px -50px 0px' />
@@ -24,15 +24,15 @@ const Technology = () => {
                     <p className='text-[60px] heading-gradient-gray max-xl:text-[45px] max-sm:text-[35px]'>NextJS&nbsp;<span className='text-[#999999] text-[40px] max-xl:text-[30px] max-sm:text-[20px]'>&</span></p>
                     <p className='text-[65px] heading-gradient-gray max-xl:text-[50px] max-sm:text-[40px]'>WordPress</p>
                 </div>
-                
+
                 <div className='text-paragraph'>
-                    <h2 className='text-[30px] animation-right transition-all duration-1000 ease-in-out heading-gradient-gray max-xl:text-[25px] max-sm:text-[20px]'>Budowa stron internetowych opartych o WordPress</h2>
-                    <p className='mt-4 animation-right transition-all duration-1000 ease-in-out'>Specjalizujemy się w systemie WordPress, jednak <span className='font-semibold'>nie idziemy na skróty</span>. Wdrażamy go wyłącznie na <span className='font-semibold'>dedykowanych szablonach</span>, co gwarantuje czysty kod i unikalny wygląd (zero ciężkich gotowców). WordPress to system, który umożliwia łatwe zarządzanie z CMS bez wiedzy programistycznej. Dzięki temu, po oddaniu projektu, administracja stronami internetowymi jest dla Ciebie prosta i przyjemna, a Ty otrzymujesz <span className='font-semibold'>intuicyjny interfejs, w którym samodzielnie zmienisz teksty czy zdjęcia</span>.</p>
-                    <p className='mt-8 animation-right transition-all duration-1000 ease-in-out'>Z myślą o najbardziej wymagających projektach, oferujemy również superwydajne rozwiązania <span className='font-semibold'>Headless w oparciu o Next.js.</span> Stale śledzimy najnowsze trendy technologiczne, dlatego do naszych realizacji powoli wdrażamy także innowacyjny system zarządzania treścią <span className='font-semibold'>Keystatic</span>.</p>
+                    <h2 className='text-[30px] animation-right transition-all duration-1000 ease-in-out heading-gradient-gray max-xl:text-[25px] max-sm:text-[20px]'>{dict.title}</h2>
+                    <p className='mt-4 animation-right transition-all duration-1000 ease-in-out' dangerouslySetInnerHTML={{ __html: dict.desc[0] }} />
+                    <p className='mt-8 animation-right transition-all duration-1000 ease-in-out' dangerouslySetInnerHTML={{ __html: dict.desc[1] }} />
                 </div>
 
             </div>
-            
+
             <div className='flex gap-10 justify-center items-center mt-16 animation-bottom transition-all duration-1000 ease-in-out max-sm:gap-6'>
                 {techs.map((t, idx) => <Icon key={idx} icon={t.icon} width={t.height} height={t.height} className='text-[#CFCFCF] max-sm:w-[30px]' />)}
             </div>

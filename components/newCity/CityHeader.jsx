@@ -13,7 +13,7 @@ const CityHeader = ({ dict }) => {
         <p className="mt-8" dangerouslySetInnerHTML={{ __html: dict.desc[0] }} />
         <p className="mt-16 !font-semibold max-xl:mt-12" dangerouslySetInnerHTML={{ __html: dict.desc[1] }} />
 
-        <CustomContactToggle text={dict.buttonText} classes='mt-4 w-[600px] h-[50px] rounded-full bg-gradient-to-r from-[#000000] to-[#E28350] max-2xl:w-[575px] max-xl:w-[500px] max-sm:w-[90%]' />
+        <CustomContactToggle text={dict.buttonText} classes='mt-4 w-[600px] h-[50px] rounded-full bg-gradient-to-r from-[#000000] to-[#E28350] duration-700 hover:scale-95 max-2xl:w-[575px] max-xl:w-[500px] max-sm:w-[90%]' />
 
         <p className="mt-16 max-xl:mt-12" dangerouslySetInnerHTML={{ __html: dict.cta }} />
       </div>

@@ -19,7 +19,7 @@ const CallToActionPhotoL = ({ dict }) => {
                 <p className='mt-4 text-[14px]' dangerouslySetInnerHTML={{ __html: dict.desc }} />
 
                 <div className='flex justify-end max-lg:justify-center'>
-                    <CustomContactToggle text={dict.buttonText} classes="mt-8 primary-gradient px-16 h-[45px] rounded-full max-sm:w-full max-sm:px-4 max-sm:h-[55px]" />
+                    <CustomContactToggle text={dict.buttonText} classes="mt-8 primary-gradient px-16 h-[45px] rounded-full duration-700 hover:scale-95 max-sm:w-full max-sm:px-4 max-sm:h-[55px]" />
                 </div>
 
             </div>

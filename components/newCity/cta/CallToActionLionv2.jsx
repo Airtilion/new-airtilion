@@ -15,7 +15,7 @@ const CallToActionLionv2 = ({ dict }) => {
                 <p className="mt-4">{dict.desc[0]}</p>
                 <p className="mt-8 font-semibold">{dict.desc[1]}</p>
 
-                <CustomContactToggle text={dict.buttonText} classes="mt-4 primary-gradient px-12 h-[50px] rounded-full max-sm:h-[45px] max-sm:w-full" />
+                <CustomContactToggle text={dict.buttonText} classes="mt-4 primary-gradient px-12 h-[50px] rounded-full duration-700 hover:scale-95 max-sm:h-[45px] max-sm:w-full" />
 
                 <p className="mt-8" dangerouslySetInnerHTML={{ __html: dict.cta }} />
             </div>

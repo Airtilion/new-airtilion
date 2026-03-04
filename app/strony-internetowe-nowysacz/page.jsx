@@ -22,6 +22,7 @@ import Items from '@components/newCity/price/components/Items';
 import CallToActionPhotoL from '@components/newCity/cta/CallToActionPhotoL';
 import Opinions from '@components/home/Opinions/Opinions';
 import Faq from '@components/home/Faq/Faq';
+import CallToActionLionv2 from '@components/newCity/cta/CallToActionLionv2';
 
 const page = async ({ searchParams }) => {
     const params = searchParams instanceof Promise ? await searchParams : searchParams;
@@ -53,7 +54,7 @@ const page = async ({ searchParams }) => {
                 <CallToActionPhotoL />
                 <Opinions dict={dictionary.opinions || {}} lang={lang} data={opinionsData} isMarginTop={true} />
                 <Faq dict={dictionary.faq || {}} isMarginTop={true} />
-
+                <CallToActionLionv2 />
                 <SlideUpContact dict={dictionary.cta.form} lang={lang} />
             </main>
             <Footer dict={dictionaryFooter} />

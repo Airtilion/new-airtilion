@@ -15,7 +15,7 @@ const CityHeader = () => {
 
         <CustomContactToggle text='Zamów darmową wycenę' classes='mt-4 w-[600px] h-[50px] rounded-full bg-gradient-to-r from-[#000000] to-[#E28350] max-2xl:w-[575px] max-xl:w-[500px] max-sm:w-[90%]' />
 
-        <p className="mt-16 max-xl:mt-12">Wolisz porozmawiać od razu? <span className='max-xl:block'>Zadzwoń <a href='tel:+48720177174' className='text-[#E28350] font-semibold'>+48 720 177 174</a> lub <a href="tel:+48511019652" className='text-[#E28350] font-semibold'>+48 511 019 652</a></span></p>
+        <p className="mt-16 max-xl:mt-12">Wolisz porozmawiać od razu? <span className='max-xl:block'>Zadzwoń <a href='tel:+48720177174' className='text-[#E28350] font-semibold'>+48 720 177 174</a> lub <a href="tel:+48511019652" className='text-[#E28350] font-semibold'>+48&nbsp;511&nbsp;019&nbsp;652</a></span></p>
       </div>
 
       <div className='w-[590px] max-2xl:w-[560px] max-xl:w-[364px] max-lg:w-[425px] max-sm:w-[90%]'>

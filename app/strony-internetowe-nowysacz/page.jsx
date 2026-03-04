@@ -54,7 +54,7 @@ const page = async ({ searchParams }) => {
     return (
         <>
             <CityHeader />
-            <main className='mt-16 flex flex-col !font-regular'>
+            <main className='mt-16 flex flex-col !font-regular overflow-hidden'>
                 <CompaniesSlider />
                 <Portoflio dict={dictionary.portfolio || {}} lang={lang} data={projectsData} />
                 <CallToActionLionv1 />

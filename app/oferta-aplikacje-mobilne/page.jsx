@@ -32,9 +32,13 @@ export const metadata = {
 const page = async ({ searchParams }) => {
     const params = searchParams instanceof Promise ? await searchParams : searchParams;
     const lang = params?.lang || 'pl';
-    const file = await getDictionary(lang, 'offer-apps');
-    const dictionary = file || {};
-    const dictionaryFooter = file.footer || {};
+    const [mainFile, footerFile] = await Promise.all([
+        getDictionary(lang, 'offer-apps'),
+        getDictionary(lang, 'layout/footer')
+    ]);
+
+    const dictionary = mainFile || {};
+    const dictionaryFooter = footerFile || {};
 
     const projectsData = await getLatestProjects({ limit: 3, lang });
 

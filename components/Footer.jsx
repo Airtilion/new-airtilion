@@ -1,6 +1,6 @@
-import { Icon } from '@iconify/react/dist/iconify'
-import Link from 'next/link'
 import React from 'react'
+import Link from 'next/link'
+import { Icon } from '@iconify/react/dist/iconify'
 
 const socials = [
   { icon: "ic:baseline-facebook", link: "https://www.facebook.com/airtilion" },

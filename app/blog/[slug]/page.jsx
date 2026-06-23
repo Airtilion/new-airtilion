@@ -56,8 +56,13 @@ const page = async ({ params }) => {
 
   const lang = 'pl';
 
-  const file = await getDictionary(lang, 'blog');
-  const dictionary = file || {};
+  const [mainFile, footerFile] = await Promise.all([
+    getDictionary(lang, 'blog'),
+    getDictionary(lang, 'layout/footer')
+  ]);
+
+  const dictionary = mainFile || {};
+  const dictionaryFooter = footerFile || {};
 
   const res = await fetch(`${BLOG_URL}/wp-json/wp/v2/posts?slug=${slug}&_embed`);
   if (!res.ok) notFound();
@@ -98,7 +103,7 @@ const page = async ({ params }) => {
           <OtherPosts category={category.name} />
 
           <Suspense fallback={null}>
-            <BlogBottomWrapper initialDictionary={dictionary} initialContactDict={dictionary.cta} />
+            <BlogBottomWrapper initialDictionary={dictionary} footerDictionary={dictionaryFooter} />
           </Suspense>
 
         </article>

@@ -1,0 +1,71 @@
+{
+    "ariaLabels": [
+        "Return to the Airtilion homepage",
+        "Airtilion social media",
+        "Services"
+    ],
+    "columns": [
+        {
+            "title": "Services",
+            "links": [
+                {
+                    "name": "Websites",
+                    "link": "/strony-internetowe"
+                },
+                {
+                    "name": "Online stores",
+                    "link": "/sklepy-internetowe"
+                },
+                {
+                    "name": "Website administration",
+                    "link": "/administracja-stron"
+                }
+            ]
+        },
+        {
+            "title": "Quick links",
+            "links": [
+                {
+                    "name": "Blog",
+                    "link": "/blog"
+                },
+                {
+                    "name": "Knowledge base",
+                    "link": "/wiedza"
+                },
+                {
+                    "name": "About us",
+                    "link": "/o-nas"
+                }
+            ]
+        },
+        {
+            "title": "Documents and policies",
+            "links": [
+                {
+                    "name": "Privacy policy",
+                    "link": "/polityka-prywatnosci"
+                },
+                {
+                    "name": "Terms of electronic services",
+                    "link": "/regulamin-swiadczenia-uslug-droga-elektroniczna"
+                },
+                {
+                    "name": "Consent to receive commercial information",
+                    "link": "/zgoda-informacja-handlowa"
+                }
+            ]
+        }
+    ],
+    "socialsAria": [
+        "Visit the Airtilion profile on Facebook",
+        "Visit the Airtilion profile on Instagram",
+        "Visit the Airtilion profile on LinkedIn",
+        "Visit the Airtilion profile on X",
+        "Visit the Airtilion profile on Threads",
+        "Visit the Airtilion profile on Pinterest",
+        "Visit the Airtilion channel on YouTube",
+        "Visit the Airtilion profile on TikTok"
+    ],
+    "companyInfo": "Airtilion Sp. z o.o., ul. Słoneczna 32/9, 33-100 Tarnów, entered into the Register of Entrepreneurs of the National Court Register kept by the District Court for Kraków-Śródmieście in Kraków, 12th Commercial Division of the National Court Register under KRS number 0001143482, share capital in the amount of PLN 5,000.00, fully paid-up, NIP (Tax ID): 8733299720"
+}

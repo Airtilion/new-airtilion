@@ -16,8 +16,13 @@ const page = async ({ searchParams }) => {
 
   const params = searchParams instanceof Promise ? await searchParams : searchParams;
   const { lang = 'pl' } = await params
-  const file = await getDictionary(lang, 'blog');
-  const dictionary = file || {};
+  const [mainFile, footerFile] = await Promise.all([
+    getDictionary(lang, 'blog'),
+    getDictionary(lang, 'layout/footer')
+  ]);
+
+  const dictionary = mainFile || {};
+  const dictionaryFooter = footerFile || {};
 
   const schema = getBlogListSchema({
     title: "Twoje źródło wiedzy o web designie i developmentcie",
@@ -38,7 +43,7 @@ const page = async ({ searchParams }) => {
       </main>
       <div className='gradient-transparency-v absolute w-[800px] h-[calc(100%-550px)] bg-linear-to-r from-[#00000000] via-[#e283504D] to-[#00000000] z-[-3] top-0 left-[50%] translate-x-[-50%] max-lg:w-[500px] max-sm:w-[80%]'></div>
 
-      <Footer dict={dictionary.footer} />
+      <Footer dict={dictionaryFooter} />
       <JsonLd data={schema} />
     </>
   )

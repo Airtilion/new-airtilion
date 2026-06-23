@@ -24,9 +24,14 @@ export default async function Home({ searchParams }) {
 
   const params = searchParams instanceof Promise ? await searchParams : searchParams;
   const lang = params?.lang || 'pl';
-  const file = await getDictionary(lang, 'main');
-  const dictionary = file.mainSite || {};
-  const dictionaryFooter = file.footer || {};
+  
+  const [mainFile, footerFile] = await Promise.all([
+    getDictionary(lang, 'main'),
+    getDictionary(lang, 'layout/footer')
+  ]);
+
+  const dictionary = mainFile.mainSite || {};
+  const dictionaryFooter = footerFile || {};
 
   const opinionsData = await getOpinions();
   const projectsData = await getLatestProjects({ limit: 3, lang });

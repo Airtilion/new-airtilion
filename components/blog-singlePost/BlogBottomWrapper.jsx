@@ -7,7 +7,7 @@ import PortfolioCallToAction from '@components/singlePortfolio/PortfolioCallToAc
 import SlideUpContact from '@components/SlideUpContact';
 import Footer from '@components/Footer';
 
-export default function BlogBottomWrapper({ initialDictionary }) {
+export default function BlogBottomWrapper({ initialDictionary, footerDictionary }) {
   const searchParams = useSearchParams();
   const langParam = searchParams.get('lang');
   const isEnglish = langParam === 'en';
@@ -19,11 +19,11 @@ export default function BlogBottomWrapper({ initialDictionary }) {
     const loadDictionary = async () => {
       if (isEnglish) {
         try {
-          
-          const module = await import(`@languages/en/blog.json`); 
-          
-          const newDict = module.default || module; 
-          
+
+          const module = await import(`@languages/en/blog.json`);
+
+          const newDict = module.default || module;
+
           setDictionary(newDict);
         } catch (error) {
           console.error("Nie udało się załadować angielskiego słownika dla bloga:", error);
@@ -40,7 +40,7 @@ export default function BlogBottomWrapper({ initialDictionary }) {
     <>
       <PortfolioCallToAction dict={dictionary.cta} mt={96} />
       <SlideUpContact dict={dictionary.cta.form} lang={currentLang} />
-      <Footer dict={dictionary.footer} />
+      <Footer dict={footerDictionary} />
     </>
   );
 }

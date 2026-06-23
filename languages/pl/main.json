@@ -355,23 +355,62 @@
         }
     },
     "footer": {
-        "alt": "Logo spółki airtilion",
-        "area": {
-            "title": "Obszar działania",
-            "ending": "... i wiele więcej"
-        },
-        "docs": [
+        "ariaLabels": [
+            "Wróć na stronę główną Airtilion",
+            "Media społecznościowe Airtilion",
+            "Oferta"
+        ],
+        "columns": [
             {
-                "name": "Polityka prywatności",
-                "link": "/polityka-prywatnosci"
+                "title": "Oferta",
+                "links": [
+                    {
+                        "name": "Strony internetowe",
+                        "link": "/strony-internetowe"
+                    },
+                    {
+                        "name": "Sklepy internetowe",
+                        "link": "/sklepy-internetowe"
+                    },
+                    {
+                        "name": "Administracja stron",
+                        "link": "/administracja-stron"
+                    }
+                ]
             },
             {
-                "name": "Regulamin świadczenia usług drogą elektroniczną",
-                "link": "/regulamin-swiadczenia-uslug-droga-elektroniczna"
+                "title": "Na skróty",
+                "links": [
+                    {
+                        "name": "Blog",
+                        "link": "/blog"
+                    },
+                    {
+                        "name": "Baza wiedzy",
+                        "link": "/wiedza"
+                    },
+                    {
+                        "name": "O nas",
+                        "link": "/o-nas"
+                    }
+                ]
             },
             {
-                "name": "Zgoda na przesyłanie informacji handlowej",
-                "link": "/zgoda-informacja-handlowa"
+                "title": "Dokumenty i polityki",
+                "links": [
+                    {
+                        "name": "Polityka prywatności",
+                        "link": "/polityka-prywatnosci"
+                    },
+                    {
+                        "name": "Regulamin świadczenia usług drogą elektroniczną",
+                        "link": "/regulamin-swiadczenia-uslug-droga-elektroniczna"
+                    },
+                    {
+                        "name": "Zgoda na przesyłanie informacji handlowej",
+                        "link": "/zgoda-informacja-handlowa"
+                    }
+                ]
             }
         ],
         "socialsAria": [

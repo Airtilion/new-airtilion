@@ -1,4 +1,3 @@
-import { Montserrat } from 'next/font/google';
 import '@styles/globals.css';
 import '@styles/animations.css';
 import '@styles/slider.css';
@@ -7,8 +6,23 @@ import { ThemeProvider } from '@context/ThemeContext';
 import { Suspense } from 'react';
 import CookiesTemplate from '@components/cookies/CookiesTemplate';
 import Script from 'next/script';
+import localFont from 'next/font/local';
 
-const montserrat = Montserrat({ subsets: ['latin'] });
+const centuryGothic = localFont({
+  src: [
+    {
+      path: '../fonts/centurygothic.woff2',
+      weight: '400',
+      style: 'normal',
+    },
+    {
+      path: '../fonts/centurygothic_bold.woff2',
+      weight: '700',
+      style: 'normal',
+    }
+  ],
+  display: 'swap',
+})
 
 export const metadata = {
   title: "Tworzenie stron internetowych | Airtilion",
@@ -108,7 +122,7 @@ export default function RootLayout({ children }) {
         {/* <meta name="facebook-domain-verification" content="5cj55zrwldt94i8ln6uexw6mt9ijgn" /> */}
       </head>
 
-      <body className={`${montserrat.className} antialiased dark:bg-[#000] dark:text-white relative`}>
+      <body className={`${centuryGothic.className} antialiased dark:bg-[#000] dark:text-white relative`}>
         <noscript>
           <iframe src="https://www.googletagmanager.com/gtag/js?id=G-NGHDG87L2Y" height="0" width="0" style={{ display: "none", visibility: "hidden" }}></iframe>
         </noscript>

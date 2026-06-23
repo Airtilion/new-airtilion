@@ -6,6 +6,11 @@
   --breakpoint-fold: 350px;
 }
 
+:root{
+  --primary-text-color: #DBDBDB;
+  --hover-text-color: #E28350;
+}
+
 @layer components {
   .flex-center {
     @apply flex justify-center items-center;

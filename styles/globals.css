@@ -27,6 +27,10 @@
   .text-paragraph {
     @apply text-[16px] max-xl:text-[15px] max-sm:text-[14px];
   }
+
+  .custom-hover-text {
+    @apply duration-300 hover:text-(--hover-text-color);
+  }
 }
 
 body {

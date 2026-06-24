@@ -42,7 +42,7 @@ const Footer = ({ dict }) => {
             <ul className='mt-8 space-y-2 max-md:mt-4'>
               {dict.columns[0].links.map((el, idx) => (
                 <li key={idx}>
-                  <Link href={el.link} className='text-[14px] duration-300 hover:text-[#E28350]'>{el.name}</Link>
+                  <Link href={el.link} className='text-[14px] custom-hover-text'>{el.name}</Link>
                 </li>
               ))}
             </ul>
@@ -55,7 +55,7 @@ const Footer = ({ dict }) => {
             <ul className="mt-8 space-y-2 max-md:mt-4">
               {dict.columns[1].links.map((el, idx) => (
                 <li key={idx}>
-                  <Link href={el.link} className='text-[14px] duration-300 hover:text-[#E28350]'>{el.name}</Link>
+                  <Link href={el.link} className='text-[14px] custom-hover-text'>{el.name}</Link>
                 </li>
               ))}
             </ul>
@@ -68,7 +68,7 @@ const Footer = ({ dict }) => {
             <ul className="mt-8 space-y-2 max-md:mt-4">
               {dict.columns[2].links.map((el, idx) => (
                 <li key={idx}>
-                  <Link href={el.link} rel='nofollow' className='text-[14px] duration-300 hover:text-[#E28350]'>{el.name}</Link>
+                  <Link href={el.link} rel='nofollow' className='text-[14px] custom-hover-text'>{el.name}</Link>
                 </li>
               ))}
             </ul>

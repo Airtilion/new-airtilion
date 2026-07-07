@@ -1,7 +1,9 @@
 ---
 metaTitle: "Adres URL - co to jest i jak działa?"
 metaDescription: "Dowiedz się czym jest adres URL, jak jest zbudowany i dlaczego jest ważny dla SEO."
-description: "Adres URL to unikalny identyfikator zasobu w internecie."
+title: "Czym jest adres URL?"
+description: "Adres URL to unikalny identyfikator zasobu w internecie1."
+date: "2026-08-21"
 ---
 
 ## Co to jest adres URL?

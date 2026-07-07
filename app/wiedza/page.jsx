@@ -36,7 +36,7 @@ const page = async (searchParams) => {
 
                 <KnowledgeBase index={index} />
 
-                <div className='fixed -z-1 section-style h-[200px] top-1/3 left-1/2 -translate-1/2 bg-[#E2835080] rounded-full blur-[150px]' />
+                <div className='fixed -z-1 pointer-events-none section-style h-[200px] top-1/3 left-1/2 -translate-1/2 bg-[#E2835080] rounded-full blur-[150px]' />
             </main>
             <Footer dict={dictionaryFooter} />
         </>

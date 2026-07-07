@@ -1,28 +1,44 @@
-import Breadcrumbs from '@components/layout/Breadcrumbs'
 import ReactMarkdown from 'react-markdown'
 
 const KnowledgeArticle = ({ article }) => {
+    const formatDate = (dateStr) => {
+        return new Date(dateStr).toLocaleDateString('pl-PL', {
+            day: 'numeric',
+            month: 'long',
+            year: 'numeric'
+        })
+    }
+
+    const getReadingTime = (content) => {
+        const words = content.trim().split(/\s+/).length;
+        const minutes = Math.ceil(words / 200)
+        return minutes
+    }
+
     return (
-        <article className="section-style">
-            {/* <Breadcrumbs /> */}
-            <h1 className="text-4xl font-bold mt-8 mb-4">{article.title}</h1>
+        <article className="section-style text-(--primary-text-color)">
+            <h1 className="mt-8 text-[40px]">{article.title}</h1>
             {article.description && (
-                <p className="text-lg mb-12 opacity-70">{article.description}</p>
+                <p className="mt-4 text-[20px]">{article.description}</p>
+            )}
+
+            {article.date && (
+                <p className="mt-8 text-[14px]">{formatDate(article.date)}· Czas czytania: {getReadingTime(article.content)} min</p>
             )}
 
             <ReactMarkdown
                 components={{
                     h2: ({ children }) => (
-                        <h2 className="text-2xl font-bold mt-12 mb-4">{children}</h2>
+                        <h2 className="text-[25px] font-bold mt-16 mb-4">{children}</h2>
                     ),
                     p: ({ children }) => (
                         <p className="mb-4 leading-relaxed">{children}</p>
                     ),
                     ul: ({ children }) => (
-                        <ul className="list-disc pl-6 mb-4 flex flex-col gap-2">{children}</ul>
+                        <ul className="list-disc pl-6 mb-4 space-y-2">{children}</ul>
                     ),
                     ol: ({ children }) => (
-                        <ol className="list-decimal pl-6 mb-4 flex flex-col gap-2">{children}</ol>
+                        <ol className="list-decimal pl-6 mb-4 space-y-2">{children}</ol>
                     ),
                     strong: ({ children }) => (
                         <strong className="font-bold">{children}</strong>

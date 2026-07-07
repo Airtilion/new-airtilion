@@ -4,6 +4,8 @@ import KnowledgeArticle from '@features/knowledge-base/components/KnowledgeArtic
 import Footer from '@components/Footer'
 import { getKnowledgeIndex } from '@features/knowledge-base/lib/knowledgeIndex'
 import { getKnowledgeArticle } from '@features/knowledge-base/lib/knowledgeArticle'
+import Breadcrumbs from '@components/layout/Breadcrumbs'
+import KnowledgeVote from '@features/knowledge-base/components/KnowledgeVote'
 
 export const dynamic = 'force-static'
 export const dynamicParams = true
@@ -23,7 +25,7 @@ export async function generateMetadata({ params }) {
             title: `${article.metaTitle} - Airtilion`,
             description: article.metaDescription,
             alternates: {
-                canonical: `https://airtilion.com/baza-wiedzy/${slug}`,
+                canonical: `https://airtilion.com/wiedza/${slug}`,
             },
         }
     } catch {
@@ -31,10 +33,18 @@ export async function generateMetadata({ params }) {
     }
 }
 
-export default async function KnowledgeArticlePage({ params, searchParams }) {
+const KnowledgeArticlePage = async ({ params, searchParams }) => {
     const { slug } = await params
     const sp = searchParams instanceof Promise ? await searchParams : searchParams
     const lang = sp?.lang || 'pl'
+
+    const [mainFile, footerFile] = await Promise.all([
+        getDictionary(lang, 'knowledge-base'),
+        getDictionary(lang, 'layout/footer'),
+    ]);
+
+    const dictionaryKnowledge = mainFile || {};
+    const dictionaryFooter = footerFile || {};
 
     let article
     try {
@@ -43,14 +53,21 @@ export default async function KnowledgeArticlePage({ params, searchParams }) {
         notFound()
     }
 
-    const footerFile = await getDictionary(lang, 'layout/footer')
-
     return (
         <>
-            <main>
+            <main className='relative'>
+                <div className='mt-48 section-style'>
+                    <Breadcrumbs dict={dictionaryKnowledge.breadcrumbs} />
+                </div>
+
                 <KnowledgeArticle article={article} />
+                <KnowledgeVote slug={article.slug} />
+
+                <div className='fixed -z-1 pointer-events-none section-style h-[200px] top-1/3 left-1/2 -translate-1/2 bg-[#E2835080] rounded-full blur-[150px]' />
             </main>
-            <Footer dict={footerFile} />
+            <Footer dict={dictionaryFooter} />
         </>
     )
 }
+
+export default KnowledgeArticlePage

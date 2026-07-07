@@ -3,26 +3,17 @@ import path from 'path'
 import { routes } from '@data/routes'
 
 export async function getKnowledgeIndex(lang = 'pl') {
-  const dir = path.join(process.cwd(), 'languages', lang, 'knowledge-base')
-  const files = await fs.readdir(dir)
+  const filePath = path.join(process.cwd(), 'languages', lang, 'knowledge-base', 'index.json')
+  const raw = await fs.readFile(filePath, 'utf8')
+  const entries = JSON.parse(raw)
 
-  const entries = await Promise.all(
-    files
-      .filter(f => f.endsWith('.json'))
-      .map(async (filename) => {
-        const slug = filename.replace('.json', '')
-        const raw = await fs.readFile(path.join(dir, filename), 'utf8')
-        const data = JSON.parse(raw)
-        return {
-          slug,
-          title: data.title,
-          letter: data.title.charAt(0).toUpperCase(),
-          href: routes.knowledgeBase.article(slug),
-        }
-      })
-  )
+  const withHref = entries.map(entry => ({
+    ...entry,
+    href: routes.knowledgeBase.article(entry.slug),
+    letter: entry.title.charAt(0).toUpperCase(),
+  }))
 
-  return entries.reduce((acc, entry) => {
+  return withHref.reduce((acc, entry) => {
     const { letter } = entry
     if (!acc[letter]) acc[letter] = []
     acc[letter].push(entry)

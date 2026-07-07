@@ -2,6 +2,7 @@
 
 import React, { useRef } from 'react'
 import Link from 'next/link';
+import { scrollToSection } from '@utils/scrollToSection';
 
 const ALPHABET = 'ABCDEFGHIJKLMNOPRSTUWXYZ'.split('')
 
@@ -10,7 +11,8 @@ const KnowledgeBase = ({ index }) => {
     const availableLetters = Object.keys(index);
 
     const scrollToLetter = (letter) => {
-        sectionRefs.current[letter]?.scrollIntoView({ behavior: 'smooth', block: 'start' })
+       const element = sectionRefs.current[letter];
+       scrollToSection(element, 140);
     }
 
     return (
@@ -40,10 +42,10 @@ const KnowledgeBase = ({ index }) => {
                 {availableLetters.map((letter) => (
                     <section key={letter} ref={(el) => (sectionRefs.current[letter] = el)} aria-labelledby={`heading-${letter}`}>
                         <h2 id={`heading-${letter}`} className="text-[35px] text-(--primary-text-color) font-bold mb-4">{letter}</h2>
-                        <ul className="flex flex-col gap-4">
+                        <ul className="flex gap-4 flex-wrap">
                             {index[letter].map((entry) => (
                                 <li key={entry.slug}>
-                                    <Link href={entry.href} className="border-2 border-(--primary-text-color) rounded-full py-1.5 px-4.5 text-(--primary-text-color) inline-flex duration-300 hover:text-(--hover-text-color) hover:border-(--hover-text-color)">
+                                    <Link href={entry.href} className="border-2 border-(--primary-text-color) rounded-full py-1.5 px-4.5 text-(--primary-text-color) inline-flex duration-300 hover:text-(--hover-text-color) hover:border-(--hover-text-color) max-sm:text-[15px]">
                                         {entry.title}
                                     </Link>
                                 </li>

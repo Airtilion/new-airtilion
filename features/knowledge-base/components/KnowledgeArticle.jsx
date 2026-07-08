@@ -16,7 +16,7 @@ const KnowledgeArticle = ({ article }) => {
     }
 
     return (
-        <article className="section-style text-(--primary-text-color)">
+        <article className="section-style-small text-(--primary-text-color)">
             <h1 className="mt-8 text-[40px]">{article.title}</h1>
             {article.description && (
                 <p className="mt-4 text-[20px]">{article.description}</p>

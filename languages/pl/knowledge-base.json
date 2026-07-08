@@ -12,11 +12,52 @@
     "voteSection": {
         "h3": "Czy ten artykuł był pomocny?",
         "short_text": "Twój feedback pomaga nam tworzyć lepsze i bardziej precyzyjne materiały.",
-        "buttons": ["TAK", "NIE"],
+        "buttons": [
+            "TAK",
+            "NIE"
+        ],
         "ariaLabels": [
             "Tak, artykuł był pomocny",
             "Nie, artykuł nie był pomocny"
         ],
         "thanks": "Dziękujemy za Twoją opinię!"
+    },
+    "form": {
+        "tag": "Twój projekt. Nasza pasja. Wspólny skuces.",
+        "title": "Chcesz dowiedzieć się ile będzie kosztował Twój projekt? Wypełnij formularz!",
+        "content": "Odezwiemy się do Ciebie w ciągu 24 godzin lub w kolejny dzień roboczy. Omówimy Twoje potrzeby, doradzimy i zaproponujemy cenę za projekt. Jeśli jednak nie chcesz wypełniać formularza, możesz skontaktować się z nami telefonicznie.",
+        "contactData": [
+            "Numery telefonu",
+            "Adres email",
+            "Godziny otwarcia"
+        ],
+        "close": "Zamknij",
+        "fields": [
+            "Imię i nazwisko",
+            "Email",
+            "Numer telefonu",
+            "Preferowane godziny kontaktu telefonicznego",
+            "Typ projektu",
+            "Krótki opis sklepu internetowego"
+        ],
+        "condition": [
+            "Akceptuję <a href='/polityka-prywatnosci.pdf' target='_blank'>politykę prywatności</a> i wyrażam zgodę na <a href='/polityka-prywatnosci.pdf' target='_blank'>przetwarzanie danych osobowych</a>",
+            "Wyrażam zgodę na <a href='/zgoda-informacja-handlowa.pdf' target='_blank'>przetwarzanie moich danych</a> w celu otrzymania informacji handlowej"
+        ],
+        "button": "Wyślij zapytanie",
+        "errors": [
+            "",
+            "Imię i nazwisko jest wymagane",
+            "Nieprawidłowy adres email",
+            "Adres email jest wymagany",
+            "Numer telefonu jest wymagany",
+            "Nieprawidłowy numer telefonu",
+            "Krótki opis strony jest wymagany",
+            "Musisz zaakceptować politykę prywatności",
+            "Musisz wyrazić zgodę na otrzymywanie informacji handlowej",
+            "Wykryto bota",
+            "Nie udało się wysłać zapytania"
+        ],
+        "success": "Twoje zapytanie zostało wysłane pomyślnie!"
     }
 }

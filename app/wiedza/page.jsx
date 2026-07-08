@@ -2,7 +2,7 @@ import React from 'react'
 import { getDictionary } from '@utils/getDictionary'
 import Breadcrumbs from '@components/layout/Breadcrumbs'
 import Footer from '@components/Footer'
-import HeroSection from '@features/knowledge-base/components/HeroSection'
+import KnowledgeHero from '@features/knowledge-base/components/KnowledgeHero'
 import { getKnowledgeIndex } from '@features/knowledge-base/lib/knowledgeIndex'
 import KnowledgeBase from '@features/knowledge-base/components/KnowledgeBase'
 
@@ -16,7 +16,7 @@ export const metadata = {
 const page = async (searchParams) => {
     const params = searchParams instanceof Promise ? await searchParams : searchParams;
     const lang = params?.lang || 'pl';
-    const [mainFile, footerFile, index] = await Promise.all([
+    const [mainFile, footerFile, { grouped }] = await Promise.all([
         getDictionary(lang, 'knowledge-base'),
         getDictionary(lang, 'layout/footer'),
         getKnowledgeIndex(lang)
@@ -32,9 +32,9 @@ const page = async (searchParams) => {
                     <Breadcrumbs dict={dictionary.breadcrumbs} />
                 </div>
 
-                <HeroSection dict={dictionary.heroSection} />
+                <KnowledgeHero dict={dictionary.heroSection} />
 
-                <KnowledgeBase index={index} />
+                <KnowledgeBase index={grouped} />
 
                 <div className='fixed -z-1 pointer-events-none section-style h-[200px] top-1/3 left-1/2 -translate-1/2 bg-[#E2835080] rounded-full blur-[150px]' />
             </main>

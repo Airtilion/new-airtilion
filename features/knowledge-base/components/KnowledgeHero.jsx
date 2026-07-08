@@ -1,6 +1,6 @@
 import React from 'react'
 
-const HeroSection = ({ dict }) => {
+const KnowledgeHero = ({ dict }) => {
     return (
         <section className='mt-8 section-style'>
             <h1 className='text-[40px] text-(--primary-text-color) max-xl:text-[35px] max-sm:text-[30px]'>{dict.h1}</h1>
@@ -9,4 +9,4 @@ const HeroSection = ({ dict }) => {
     )
 }
 
-export default HeroSection
+export default KnowledgeHero

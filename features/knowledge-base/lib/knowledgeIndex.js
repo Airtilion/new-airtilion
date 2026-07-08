@@ -13,10 +13,44 @@ export async function getKnowledgeIndex(lang = 'pl') {
     letter: entry.title.charAt(0).toUpperCase(),
   }))
 
-  return withHref.reduce((acc, entry) => {
+  const grouped = withHref.reduce((acc, entry) => {
     const { letter } = entry
     if (!acc[letter]) acc[letter] = []
     acc[letter].push(entry)
     return acc
   }, {})
+
+  return { grouped, entries: withHref }
+}
+
+export function getRelatedArticles(currentSlug, allEntries, limit = 6) {
+  const current = allEntries.find(e => e.slug === currentSlug)
+  if (!current) return []
+
+  const incomingLinks = {}
+  allEntries.forEach(entry => {
+    if (entry.slug === currentSlug) return
+    allEntries.forEach(other => {
+      if (other.slug === entry.slug) return
+      const sharedTags = entry.tags?.filter(t => other.tags?.includes(t)).length || 0
+      if (sharedTags > 0) {
+        incomingLinks[entry.slug] = (incomingLinks[entry.slug] || 0) + 1
+      }
+    })
+  })
+
+  return allEntries
+    .filter(e => e.slug !== currentSlug)
+    .map(entry => {
+      const sharedTags = entry.tags?.filter(t => current.tags?.includes(t)).length || 0
+      const popularity = incomingLinks[entry.slug] || 0
+      return {
+        ...entry,
+        score: sharedTags * 10 - popularity
+      }
+    })
+    .filter(e => e.score > 0)
+    .sort((a, b) => b.score - a.score)
+    .slice(0, limit)
+    .map(({ score, ...entry }) => entry)
 }

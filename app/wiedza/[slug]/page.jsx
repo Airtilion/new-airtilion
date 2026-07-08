@@ -2,19 +2,20 @@ import { getDictionary } from '@utils/getDictionary'
 import { notFound } from 'next/navigation'
 import KnowledgeArticle from '@features/knowledge-base/components/KnowledgeArticle'
 import Footer from '@components/Footer'
-import { getKnowledgeIndex } from '@features/knowledge-base/lib/knowledgeIndex'
+import { getKnowledgeIndex, getRelatedArticles } from '@features/knowledge-base/lib/knowledgeIndex'
 import { getKnowledgeArticle } from '@features/knowledge-base/lib/knowledgeArticle'
 import Breadcrumbs from '@components/layout/Breadcrumbs'
 import KnowledgeVote from '@features/knowledge-base/components/KnowledgeVote'
+import KnowledgeRelated from '@features/knowledge-base/components/KnowledgeRelated'
+import KnowledgeCTA from '@features/knowledge-base/components/KnowledgeCTA'
+import SlideUpContact from '@components/SlideUpContact'
 
 export const dynamic = 'force-static'
 export const dynamicParams = true
 
 export async function generateStaticParams() {
-    const index = await getKnowledgeIndex('pl')
-    return Object.values(index)
-        .flat()
-        .map((entry) => ({ slug: entry.slug }))
+    const { entries } = await getKnowledgeIndex('pl')
+    return entries.map((entry) => ({ slug: entry.slug }))
 }
 
 export async function generateMetadata({ params }) {
@@ -53,16 +54,22 @@ const KnowledgeArticlePage = async ({ params, searchParams }) => {
         notFound()
     }
 
+    const { entries } = await getKnowledgeIndex(lang);
+    const related = getRelatedArticles(slug, entries, 6);
+
     return (
         <>
             <main className='relative'>
-                <div className='mt-48 section-style'>
+                <div className='mt-48 section-style-small'>
                     <Breadcrumbs dict={dictionaryKnowledge.breadcrumbs} />
                 </div>
 
                 <KnowledgeArticle article={article} />
                 <KnowledgeVote slug={article.slug} dict={dictionaryKnowledge.voteSection} lang={lang} />
+                <KnowledgeRelated articles={related} lang={lang} />
+                <KnowledgeCTA />
 
+                <SlideUpContact dict={dictionaryKnowledge.form} lang={lang} />
                 <div className='fixed -z-1 pointer-events-none section-style h-[200px] top-1/3 left-1/2 -translate-1/2 bg-[#E2835080] rounded-full blur-[150px]' />
             </main>
             <Footer dict={dictionaryFooter} />

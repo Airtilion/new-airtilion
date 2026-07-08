@@ -76,7 +76,7 @@ const KnowledgeVote = ({ slug, lang, dict }) => {
                     <h3 className="text-[30px] max-lg:text-[25px] max-sm:text-[22px]">{dict.thanks}</h3>
                 )}
 
-                <div class="absolute w-[1000px] h-[500px] left-[-200px] top-[-200px] bg-[#E2835066] blur-[150px] rounded-full max-xl:w-[750px] max-lg:w-[600px] max-sm:w-[500px]" />
+                <div className="absolute w-[1000px] h-[500px] left-[-200px] top-[-200px] bg-[#E2835066] blur-[150px] rounded-full max-xl:w-[750px] max-lg:w-[600px] max-sm:w-[500px]" />
 
             </div>
 

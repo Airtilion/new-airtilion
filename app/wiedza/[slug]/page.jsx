@@ -61,7 +61,7 @@ const KnowledgeArticlePage = async ({ params, searchParams }) => {
                 </div>
 
                 <KnowledgeArticle article={article} />
-                <KnowledgeVote slug={article.slug} />
+                <KnowledgeVote slug={article.slug} dict={dictionaryKnowledge.voteSection} lang={lang} />
 
                 <div className='fixed -z-1 pointer-events-none section-style h-[200px] top-1/3 left-1/2 -translate-1/2 bg-[#E2835080] rounded-full blur-[150px]' />
             </main>

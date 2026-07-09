@@ -5,6 +5,8 @@ import Footer from '@components/Footer'
 import KnowledgeHero from '@features/knowledge-base/components/KnowledgeHero'
 import { getKnowledgeIndex } from '@features/knowledge-base/lib/knowledgeIndex'
 import KnowledgeBase from '@features/knowledge-base/components/KnowledgeBase'
+import KnowledgeCTA from '@features/knowledge-base/components/KnowledgeCTA'
+import SlideUpContact from '@components/SlideUpContact'
 
 export const metadata = {
     title: "Baza wiedzy | Airtilion",
@@ -35,6 +37,10 @@ const page = async (searchParams) => {
                 <KnowledgeHero dict={dictionary.heroSection} />
 
                 <KnowledgeBase index={grouped} />
+                
+                <KnowledgeCTA dict={dictionary.CTAsection} />
+
+                <SlideUpContact dict={dictionary.form} lang={lang} />
 
                 <div className='fixed -z-1 pointer-events-none section-style h-[200px] top-1/3 left-1/2 -translate-1/2 bg-[#E2835080] rounded-full blur-[150px]' />
             </main>

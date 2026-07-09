@@ -22,6 +22,10 @@
         ],
         "thanks": "Dziękujemy za Twoją opinię!"
     },
+    "CTAsection": {
+        "h2": "Koniec z teorią.<br /><span className='font-bold'>Porozmawiajmy</span> o wdrożeniu Twojego pomysłu.",
+        "button": "Napisz do nas"
+    },
     "form": {
         "tag": "Twój projekt. Nasza pasja. Wspólny skuces.",
         "title": "Chcesz dowiedzieć się ile będzie kosztował Twój projekt? Wypełnij formularz!",

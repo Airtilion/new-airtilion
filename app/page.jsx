@@ -2,7 +2,7 @@ export const revalidate = 86400;
 
 import { getDictionary } from '@utils/getDictionary';
 import Header from '@components/Header';
-import Footer from '@components/Footer';
+import Footer from '@components/layout/Footer';
 import CompaniesSlider from '@components/home/CompaniesSlider';
 import Introduction from '@components/home/Introduction';
 import Portoflio from '@components/home/Portfolio/Portoflio';

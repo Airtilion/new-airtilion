@@ -1,7 +1,7 @@
 import React from 'react'
 import { getDictionary } from '@utils/getDictionary'
 import Breadcrumbs from '@components/layout/Breadcrumbs'
-import Footer from '@components/Footer'
+import Footer from '@components/layout/Footer'
 import KnowledgeHero from '@features/knowledge-base/components/KnowledgeHero'
 import { getKnowledgeIndex } from '@features/knowledge-base/lib/knowledgeIndex'
 import KnowledgeBase from '@features/knowledge-base/components/KnowledgeBase'

@@ -1,4 +1,4 @@
-import Footer from '@components/Footer'
+import Footer from '@components/layout/Footer'
 import Header from '@components/Header'
 import React from 'react'
 import portfolioBg from '@assets/images/headers/baner-portfolio.webp'

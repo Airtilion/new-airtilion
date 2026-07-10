@@ -22,7 +22,7 @@ import Opinions from '@components/home/Opinions/Opinions';
 import Faq from '@components/home/Faq/Faq';
 import CallToActionLionv2 from '@components/newCity/cta/CallToActionLionv2';
 import SlideUpContact from '@components/SlideUpContact';
-import Footer from '@components/Footer'
+import Footer from '@components/layout/Footer'
 import JsonLd from '@components/JsonLd';
 
 export const metadata = {

@@ -14,7 +14,7 @@ import PortfolioReview from '@components/singlePortfolio/PortfolioReview';
 import PortfolioSum from '@components/singlePortfolio/PortfolioSum';
 import PortfolioCallToAction from '@components/singlePortfolio/PortfolioCallToAction';
 import SlideUpContact from '@components/SlideUpContact';
-import Footer from '@components/Footer';
+import Footer from '@components/layout/Footer';
 
 export default function PortfolioPageClient({ project, initialDictionary, footerDictionary, apiUrl }) {
   const searchParams = useSearchParams();

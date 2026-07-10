@@ -1,4 +1,4 @@
-import Footer from '@components/Footer';
+import Footer from '@components/layout/Footer';
 import Header from '@components/Header';
 import { getDictionary } from '@utils/getDictionary';
 import React from 'react'

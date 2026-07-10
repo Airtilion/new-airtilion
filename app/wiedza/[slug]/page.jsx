@@ -1,7 +1,7 @@
 import { getDictionary } from '@utils/getDictionary'
 import { notFound } from 'next/navigation'
 import KnowledgeArticle from '@features/knowledge-base/components/KnowledgeArticle'
-import Footer from '@components/Footer'
+import Footer from '@components/layout/Footer'
 import { getKnowledgeIndex, getRelatedArticles } from '@features/knowledge-base/lib/knowledgeIndex'
 import { getKnowledgeArticle } from '@features/knowledge-base/lib/knowledgeArticle'
 import Breadcrumbs from '@components/layout/Breadcrumbs'

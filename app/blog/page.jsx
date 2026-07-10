@@ -2,7 +2,7 @@
 import React from 'react'
 import Recomendations from '@components/blog-all/Recomendations'
 import Latest from '@components/blog-all/Latest'
-import Footer from '@components/Footer'
+import Footer from '@components/layout/Footer'
 import PortfolioCallToAction from '@components/singlePortfolio/PortfolioCallToAction'
 import { getDictionary } from '@utils/getDictionary'
 import Header from '@components/Header'

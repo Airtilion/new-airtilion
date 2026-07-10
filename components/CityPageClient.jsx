@@ -14,7 +14,7 @@ import CityProduction from '@components/cities/CityProduction/CityProduction';
 import CityFaq from '@components/cities/CityFaq/CityFaq';
 import CityPortfolio from '@components/cities/CityPortfolio';
 import CityOffer from '@components/cities/CityOffer';
-import Footer from '@components/Footer';
+import Footer from '@components/layout/Footer';
 import SlideUpContact from '@components/SlideUpContact';
 import JsonLd from '@components/JsonLd';
 import { getPageSchema } from '@lib/schema';

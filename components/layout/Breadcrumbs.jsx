@@ -5,21 +5,34 @@ import Link from 'next/link'
 import { usePathname } from 'next/navigation'
 import { Icon } from '@iconify/react/dist/iconify.cjs'
 
+const translations = {
+  pl: {
+    ariaNav: "Nawigacja okruszkowa",
+    ariaHome: "Powrót na stronę główną Airtilion"
+  },
+  en: {
+    ariaNav: "Breadcrumb navigation",
+    ariaHome: "Return to Airtilion homepage"
+  }
+};
+
 const labelMap = { 'wiedza': 'Baza wiedzy' }
 
 const capitalize = (str) => str.charAt(0).toUpperCase() + str.slice(1);
 
 const formatSegment = (segment) => labelMap[segment] ?? capitalize(segment.replace(/-/g, ' '))
 
-const Breadcrumbs = ({ dict }) => {
+const Breadcrumbs = ({ lang }) => {
   const pathname = usePathname();
   const segments = pathname.split('/').filter(Boolean);
 
+  const t = translations[lang] || translations.pl;
+
   return (
-    <nav aria-label={dict.ariaLabels[0]}>
+    <nav aria-label={t.ariaNav}>
       <ol className='flex items-center text-white'>
         <li>
-          <Link href='/' aria-label={dict.ariaLabels[1]} className='custom-hover-text'>
+          <Link href='/' aria-label={t.ariaHome} className='custom-hover-text'>
             <Icon icon='ph:house-bold' width={16} height={16} />
           </Link>
         </li>

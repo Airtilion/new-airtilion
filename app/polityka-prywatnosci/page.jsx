@@ -25,7 +25,7 @@ const page = async (searchParams) => {
                     <Breadcrumbs lang={lang} />
                 </div>
 
-                {lang === 'en' ? (
+                {lang === 'pl' ? (
                     <article aria-labelledby='privacy-heading' className='mt-8 space-y-16'>
                         <section className='space-y-4'>
                             <h1 id='privacy-heading' className='uppercase text-[30px] text-center font-bold max-sm:text-[25px]'>Polityka prywatności</h1>

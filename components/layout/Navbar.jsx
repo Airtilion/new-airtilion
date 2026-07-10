@@ -102,7 +102,7 @@ const Navbar = () => {
 
     return (
 
-        <header className={`opacity-0 translate-y-animation navbar flex items-center justify-between px-24 h-[120px] w-full fixed top-0 z-20 duration-300 ${isScrolled ? 'backdrop-blur-[10px] bg-[#00000040]' : ''} max-2xl:px-16 max-xl:px-8 max-lg:h-[90px] max-sm:px-6`}>
+        <header className={`opacity-0 translate-y-animation navbar flex items-center justify-between px-24 h-[120px] w-full fixed top-0 z-40 duration-300 ${isScrolled ? 'backdrop-blur-[10px] bg-[#00000040]' : ''} max-2xl:px-16 max-xl:px-8 max-lg:h-[90px] max-sm:px-6`}>
             <button
                 ref={menuButtonRef}
                 onClick={toogleMobileMenu}

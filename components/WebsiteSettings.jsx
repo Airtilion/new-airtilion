@@ -28,8 +28,7 @@ export default function WebsiteSettings({ index, dict }) {
 
   return (
     <div
-      className="bg-gradient-to-l from-[#000000] max-lg:from-[#542f1b] to-[#E28350] rounded-full flex gap-2 h-[50px] px-[12px] py-[8px] opacity-0 translate-y-animation max-2xl:h-[40px]"
-      style={{ animationDelay: ((Number(index) + 1) * 100) + 'ms' }}
+      className="bg-gradient-to-l from-[#000000] max-lg:from-[#542f1b] to-[#E28350] rounded-full flex gap-2 h-[50px] px-[12px] py-[8px] max-2xl:h-[40px]"
     >
       <button aria-label={dict?.[0]}
         onClick={() => {alert('Ta opcja nie jest na razie dostępne.');}} // toggleTheme

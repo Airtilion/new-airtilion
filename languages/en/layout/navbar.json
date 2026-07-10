@@ -1,0 +1,39 @@
+{
+    "items": [
+        { "name": "Oferta", "link": "/oferta" },
+        { "name": "Realizacje", "link": "/portfolio" },
+        { "name": "Blog", "link": "/blog" },
+        { "name": "Baza wiedzy", "link": "/wiedza" },
+        { "name": "Kontakt", "link": "/#kontakt" }
+    ],
+    "megaMenu": {
+        "groups": [
+            {
+                "title": "Strony internetowe",
+                "link": "/strony-internetowe",
+                "items": [
+                    { "name": "Strony oparte o WordPress", "link": "/strony-internetowe/wordpress" },
+                    { "name": "Landing Page", "link": "/strony-internetowe/landingpage"},
+                    { "name": "Strony z WCAG 2.1/2.2", "link": "/strony-internetowe/wcag"},
+                    { "name": "Strony z dedykowanym CMS", "link": "/strony-internetowe/cms"}
+                ]
+            },
+            {
+                "title": "Sklepy internetowe",
+                "link": "/sklepy-internetowe",
+                "items": [
+                    { "name": "WooCommerce", "link": "/sklepy-internetowe/woocommerce" },
+                    { "name": "Shoper", "link": "/sklepy-internetowe/shoper"},
+                    { "name": "Shopify", "link": "/sklepy-internetowe/shopify"}
+                ]
+            }
+        ]
+    },
+    "cta": "Darmowa wycena",
+    "ariaButtons": {
+        "theme": "Przełącz motyw strony",
+        "lang": "Przełącz język",
+        "menu": "Otwórz menu nawigacyjne",
+        "closeMenu": "Zamknij menu nawigacyjne"
+    }
+}

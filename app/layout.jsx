@@ -1,7 +1,8 @@
 import '@styles/globals.css';
 import '@styles/animations.css';
 import '@styles/slider.css';
-import Navbar from '@components/Navbar';
+import NavbarN from '@components/Navbar';
+import Navbar from '@components/layout/Navbar';
 import { ThemeProvider } from '@context/ThemeContext';
 import { Suspense } from 'react';
 import CookiesTemplate from '@components/cookies/CookiesTemplate';
@@ -129,6 +130,7 @@ export default function RootLayout({ children }) {
 
         <ThemeProvider>
           <Suspense fallback={null}>
+            {/* <NavbarN /> */}
             <Navbar />
           </Suspense>
           {children}

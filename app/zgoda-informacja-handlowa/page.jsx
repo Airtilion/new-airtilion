@@ -25,7 +25,7 @@ const page = async (searchParams) => {
                     <Breadcrumbs lang={lang} />
                 </div>
 
-                {lang === 'en' ? (
+                {lang === 'pl' ? (
                     <article aria-labelledby='commercial-info' className='mt-8 space-y-4'>
                         <h1 id='commercial-info' className='uppercase text-[30px] text-center font-bold max-sm:text-[25px]'>ZGODA NA POTRZEBY WYSYŁANIA ZAMÓWIONEJ INFORMACJI HANDLOWEJ</h1>
                         <p>Ja, niżej podpisany/a, wyrażam dobrowolnie zgodę na przetwarzanie moich danych osobowych przez Airtilion Sp. z o.o. z siedzibą w Tarnowie (ul. Słoneczna 32/9, 33-100 Tarnów, NIP: 8733299720) w celu przesłania mi informacji handlowej dotyczącej usług oferowanych przez Airtilion (w szczególności: ofert dot. tworzenia stron internetowych, sklepów e-commerce, aplikacji mobilnych, ofert abonamentowych i usług programistycznych).</p>

@@ -30,8 +30,8 @@ const page = async (searchParams) => {
     return (
         <>
             <main className='relative'>
-                <div className='mt-48 section-style'>
-                    <Breadcrumbs dict={dictionary.breadcrumbs} />
+                <div className='mt-48 section-style max-md:mt-36'>
+                    <Breadcrumbs />
                 </div>
 
                 <KnowledgeHero dict={dictionary.heroSection} />

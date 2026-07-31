@@ -60,8 +60,8 @@ const KnowledgeArticlePage = async ({ params, searchParams }) => {
     return (
         <>
             <main className='relative'>
-                <div className='mt-48 section-style-small'>
-                    <Breadcrumbs dict={dictionaryKnowledge.breadcrumbs} />
+                <div className='mt-48 section-style-small max-md:mt-36'>
+                    <Breadcrumbs />
                 </div>
 
                 <KnowledgeArticle article={article} />

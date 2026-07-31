@@ -16,7 +16,7 @@ import Faq from '@components/home/Faq/Faq';
 import mainBg from '@assets/images/main-header-image.webp';
 import SlideUpContact from '@components/SlideUpContact';
 import { getOpinions } from '@lib/opinions';
-import { getLatestProjects } from '@lib/mainProjects';
+import { getLatestProjects } from '@lib/projects';
 import JsonLd from '@components/JsonLd';
 import { getPageSchema } from '@lib/schema';
 

@@ -1,6 +1,6 @@
 import React from 'react'
 import { getDictionary } from '@utils/getDictionary';
-import { getLatestProjects } from '@lib/mainProjects';
+import { getLatestProjects } from '@lib/projects';
 import { getOpinions } from '@lib/opinions';
 import { getPageSchema } from '@lib/schema';
 

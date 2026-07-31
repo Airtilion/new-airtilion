@@ -1,0 +1,799 @@
+{
+    "hero": {
+        "title": "Tworzenie stron internetowych",
+        "subtitle": "Nowoczesne strony internetowe, szybkie i zoptymalizowane pod SEO, dla firm z całej Polski. Zobacz, co możemy dla Ciebie zaprojektować.",
+        "cta": "Darmowa wycena",
+        "ctaSecondary": "Zobacz realizacje"
+    },
+    "portfolio": {
+        "title": "Nasze najnowsze realizacje",
+        "desc": "Poniżej prezentujemy wybrane realizacje stron, które stworzyliśmy dla naszych klientów. Więcej szczegółów na temat każdej realizacji strony internetowej, w tym użytych technologii i efektów współpracy, znajdziesz w pełnym portfolio.",
+        "buttonText": "Zobacz szczegóły wdrożenia"
+    },
+    "whyWorthIt": {
+        "title": "Dlaczego warto zadbać o swoją stronę internetową?",
+        "intro": "Zdecydowana większość Twoich potencjalnych klientów najpierw sprawdza Cię w internecie. Dopiero potem decyduje się na kontakt. Jeśli Twoja strona nie buduje zaufania, ten kontakt po prostu nie nastąpi.",
+        "subintro": "Dobrze zaprojektowana strona internetowa daje Ci kilka konkretnych korzyści:",
+        "benefits": [
+            {
+                "title": "Buduje zaufanie od pierwszej sekundy",
+                "desc": "Profesjonalny design pokazuje, że traktujesz swój biznes poważnie.",
+                "icon": "ph:shield-check-light"
+            },
+            {
+                "title": "Pracuje na Ciebie 24 godziny na dobę",
+                "desc": "Klient może poznać Twoją ofertę o dowolnej porze, bez Twojego udziału.",
+                "icon": "ph:clock-light"
+            },
+            {
+                "title": "Zwiększa sprzedaż i liczbę zapytań",
+                "desc": "Dobrze zaprojektowana ścieżka użytkownika prowadzi go prosto do kontaktu lub zakupu.",
+                "icon": "ph:trend-up-light"
+            },
+            {
+                "title": "Poprawia widoczność w Google",
+                "desc": "Strona zoptymalizowana pod SEO trafia do klientów, którzy już szukają Twoich usług.",
+                "icon": "ph:magnifying-glass-light"
+            },
+            {
+                "title": "Wyróżnia Cię na tle konkurencji",
+                "desc": "Unikalny projekt graficzny sprawia, że zapadasz w pamięć.",
+                "icon": "ph:sparkle-light"
+            }
+        ]
+    },
+    "types": {
+        "title": "Rozwiązania dla stron, które dostarczamy",
+        "items": [
+            {
+                "title": "Strony wizytówkowe i one page",
+                "desc": "To idealne rozwiązanie dla małych firm i freelancerów, którzy chcą zaprezentować swoją ofertę w prosty i przejrzysty sposób. Skupiamy się na jasnym przekazie i mocnym wezwaniu do działania.",
+                "link": "/strony-internetowe/landing-page"
+            },
+            {
+                "title": "Dedykowane systemy webowe",
+                "desc": "Bezwzględna wydajność i architektura Headless. Szyjemy na miarę portale, systemy B2B i nieszablonowe aplikacje wymagające najwyższego poziomu personalizacji.",
+                "link": "/strony-internetowe/dedykowane"
+            },
+            {
+                "title": "Platformy unformacyjne i blogi",
+                "desc": "Serwisy zoptymalizowane pod publikację ogromnych ilości materiałów. Skonstruowane tak, aby dominować w organicznych wynikach wyszukiwania Google.",
+                "link": "/strony-internetowe/blogi"
+            },
+            {
+                "title": "Strony dostępne cyfrowo",
+                "desc": "Witryny projektowane zgodnie z rygorystycznymi normami prawnymi, w pełni dostępne dla osób ze szczególnymi potrzebami. Wymóg dla instytucji publicznych.",
+                "link": "/strony-internetowe/wcag"
+            }
+        ],
+        "cta": {
+            "h3": "Potrzebujesz bardziej rozbudowanego rozwiązania?",
+            "desc": "Oprócz wizytówek i dedykowanych stron WWW, wdrażamy również systemy e-commerce, nowatorskie narzędzia AI oraz wiele więcej.",
+            "button": "Poznaj pełny zakres naszych usług"
+        }
+    },
+    "industries": {
+        "title": "Strony www szyte na miarę Twojej branży",
+        "subtitle": "Twój biznes jest unikalny, dlatego nie używamy gotowców. Wybierz swoją branżę i sprawdź dedykowane rozwiązania.",
+        "cta": {
+            "h3": "Nie widzisz swojej branży? Spokojnie, to dla nas żaden problem.",
+            "desc": "Napisz do nas i opowiedz o swoim biznesie, a my przygotujemy rozwiązanie uszyte na miarę.",
+            "button": "Sprawdźmy, jak możemy pomóc"
+        },
+        "top": [
+            {
+                "title": "Dla Deweloperów",
+                "slug": "/dla-deweloperow",
+                "icon": "ph:buildings-bold"
+            },
+            {
+                "title": "Dla Gastronomii",
+                "slug": "/dla-gastronomii",
+                "icon": "ph:fork-knife-bold"
+            },
+            {
+                "title": "Dla Hoteli",
+                "slug": "/dla-hoteli",
+                "icon": "ph:bed-bold"
+            },
+            {
+                "title": "Dla Medycyny",
+                "slug": "/dla-gabinetow-stomatologicznych",
+                "icon": "ph:stethoscope-bold"
+            },
+            {
+                "title": "Dla Firm Budowlanych",
+                "slug": "/dla-firm-budowlanych",
+                "icon": "ph:crane-bold"
+            },
+            {
+                "title": "Dla Biur Nieruchomości",
+                "slug": "/dla-biur-nieruchomości",
+                "icon": "ph:house-bold"
+            }
+        ],
+        "expandButton": "Pokaż wszystkie obsługiwane branże",
+        "rest": [
+            {
+                "title": "Dla Architekta",
+                "slug": "/dla-architekta"
+            },
+            {
+                "title": "Dla Artystów",
+                "slug": "/dla-artystow"
+            },
+            {
+                "title": "Dla Salonów Masażu",
+                "slug": "/dla-salonow-masazu"
+            },
+            {
+                "title": "Dla Salonów Kosmetycznych",
+                "slug": "/dla-salonow-kosmetycznych"
+            },
+            {
+                "title": "Dla Firm Eventowych",
+                "slug": "/dla-firm-eventowych"
+            },
+            {
+                "title": "Dla Zakładów Pogrzebowych",
+                "slug": "/dla-zakladow-pogrzebowych"
+            },
+            {
+                "title": "Dla Przedszkoli i Żłobków",
+                "slug": "/dla-przedszkoli-i-zlobkow"
+            },
+            {
+                "title": "Dla Szkół",
+                "slug": "/dla-szkol"
+            },
+            {
+                "title": "Dla Firm Sprzątających",
+                "slug": "/dla-firm-sprzątających"
+            },
+            {
+                "title": "Dla Fizjoterapeutów",
+                "slug": "/dla-fizjoterapeutów"
+            },
+            {
+                "title": "Dla Fotografa",
+                "slug": "/dla-fotografa"
+            },
+            {
+                "title": "Dla Hydraulików",
+                "slug": "/dla-hydraulikow"
+            },
+            {
+                "title": "Dla Szkół Jazdy",
+                "slug": "/dla-szkol-jazdy"
+            },
+            {
+                "title": "Dla Parafii",
+                "slug": "/dla-parafii"
+            },
+            {
+                "title": "Dla Urzędów",
+                "slug": "/dla-urzedow"
+            },
+            {
+                "title": "Dla Biur Rachunkowych",
+                "slug": "/dla-biur-rachunkowych"
+            },
+            {
+                "title": "Dla Psychologów",
+                "slug": "/dla-psychologow"
+            },
+            {
+                "title": "Dla Car Detailing",
+                "slug": "/dla-car-detailing"
+            },
+            {
+                "title": "Dla Dealerów",
+                "slug": "/dla-dealerow"
+            },
+            {
+                "title": "Dla Warsztatu Samochodowego",
+                "slug": "/dla-warsztatu-samochodowego"
+            },
+            {
+                "title": "Dla NGO",
+                "slug": "/dla-ngo"
+            },
+            {
+                "title": "Dla Ogrodników",
+                "slug": "/dla-ogrodnikow"
+            },
+            {
+                "title": "Dla Notariuszy",
+                "slug": "/dla-notariuszy"
+            },
+            {
+                "title": "Dla Firm Produkcyjnych",
+                "slug": "/dla-firm-produkcyjnych"
+            },
+            {
+                "title": "Dla Stolarzy",
+                "slug": "/dla-stolarzy"
+            },
+            {
+                "title": "Dla Klubów Sportowych",
+                "slug": "/dla-klubow-sportowych"
+            },
+            {
+                "title": "Dla Szkół Tańca",
+                "slug": "/dla-szkol-tanca"
+            },
+            {
+                "title": "Dla Firm Transportowych",
+                "slug": "/dla-firm-transportowych"
+            },
+            {
+                "title": "Dla Biur Podróży",
+                "slug": "/dla-biur-podrozy"
+            },
+            {
+                "title": "Dla Agenta Ubezpieczeń",
+                "slug": "/dla-agenta-ubezpieczeń"
+            }
+        ]
+    },
+    "uxui": {
+        "title": "Projektowanie UX/UI: dlaczego to nie jest dodatek, tylko podstawa?",
+        "intro": "Wielu właścicieli firm traktuje wygląd strony jako sprawę estetyki. To duży błąd. Projektowanie UX/UI decyduje o tym, czy użytkownik zostanie na Twojej stronie, czy ją opuści w kilka sekund. Nasze podejście do projektowania stron zawsze opiera się na wcześniejszej analizie Twojej branży i klientów.",
+        "dilemma": {
+            "title": "Szablon czy dedykowany projekt?",
+            "desc": "Rozumiemy, że przy mniejszych budżetach optymalnym wyborem może być skorzystanie z gotowych, sprawdzonych szablonów, to szybkie i ekonomiczne rozwiązanie. Jeśli jednak zależy Ci na pełnej unikalności, budowaniu silnej marki i ścieżkach konwersji uszytych dokładnie pod Twojego klienta, dedykowany projekt graficzny od zera jest inwestycją, która szybko się zwraca."
+        },
+        "benefitsTitle": "Dobre UX/UI oznacza:",
+        "benefits": [
+            {
+                "title": "Intuicyjną nawigację",
+                "desc": "Użytkownik od razu wie, gdzie kliknąć, żeby znaleźć ofertę czy formularz kontaktowy.",
+                "icon": "ph:cursor-click-light"
+            },
+            {
+                "title": "Czytelną hierarchię treści",
+                "desc": "Najważniejsze informacje są widoczne od razu, bez przewijania całej strony.",
+                "icon": "ph:rows-light"
+            },
+            {
+                "title": "Spójność wizualną z Twoją marką",
+                "desc": "Kolory, czcionki i grafiki budują rozpoznawalność.",
+                "icon": "ph:swatches-light"
+            },
+            {
+                "title": "Responsywność na urządzeniach mobilnych",
+                "desc": "Obecnie większość klientów przegląda strony wyłącznie na telefonie.",
+                "icon": "ph:device-mobile-camera-light"
+            }
+        ],
+        "conclusion": "Każdy projekt graficzny konsultujemy z Tobą na bieżąco. Zależy nam, żeby finalny efekt odpowiadał Twoim oczekiwaniom, a nie naszym własnym gustom."
+    },
+    "speed": {
+        "title": "Dlaczego szybkość ładowania strony ma tak duże znaczenie?",
+        "paragraphs": [
+            "Wyobraź sobie, że klient klika w wynik wyszukiwania i czeka kilka sekund na załadowanie strony. Większość użytkowników po prostu wraca do Google i klika w konkurencję.",
+            "Szybkość ładowania to nie tylko wygoda użytkownika. To także jeden z czynników, które Google bierze pod uwagę przy ustalaniu pozycji w wynikach wyszukiwania. Wolna strona internetowa oznacza gorsze SEO, mniej odwiedzin i niższą sprzedaż.",
+            "Dlatego każdy projekt optymalizujemy pod kątem wydajności już na etapie programowania. Kompresujemy grafiki, ograniczamy zbędny kod i korzystamy z technologii, takich jak Next.js, które z założenia są szybkie."
+        ]
+    },
+    "security": {
+        "title": "Zapewniamy bezpieczeństwo i certyfikat SSL",
+        "paragraphs": [
+            "Bezpieczeństwo Twojej strony to bezpieczeństwo Twoich klientów. Każda strona www, którą tworzymy, otrzymuje certyfikat SSL. To on odpowiada za szyfrowane połączenie między przeglądarką a serwerem, które rozpoznasz po kłódce obok adresu.",
+            "Certyfikat SSL ma też ogromne znaczenie dla SEO. Google od lat premiuje strony działające na bezpiecznym połączeniu i obniża widoczność tych, które go nie mają.",
+            "Poza samym certyfikatem dbamy o regularne aktualizacje oprogramowania, silne zabezpieczenia panelu administracyjnego oraz pełną zgodność z dobrymi praktykami ochrony danych osobowych."
+        ]
+    },
+    "includes": {
+        "title": "Co zawiera każda strona internetowa, którą projektujemy?",
+        "info": [
+            "Powyższa lista to nasz absolutny standard techniczny i wizualny fundament, na którym budujemy profesjonalne strony internetowe. Traktujemy go jako punkt wyjścia.",
+            "Każdy projekt to jednak żywy organizm, który w razie potrzeb rozbudowujemy o dodatkowe, zaawansowane funkcjonalności dopasowane ściśle pod wymagania Twojego zlecenia."
+        ],
+        "items": [
+            {
+                "title": "Indywidualny UI/UX",
+                "desc": "Zawsze projektujemy od zera na podstawie analizy Twojej branży. Nie korzystamy z gotowych szablonów, ani kreatora stron. Każdy projekt strony internetowej powstaje od podstaw.",
+                "icon": "ph:bezier-curve-light"
+            },
+            {
+                "title": "Architektura RWD",
+                "desc": "Tworzymy responsywne strony, w pełni dostosowane do smartfonów, tabletów i szerokich ekranów. Dbamy o dokładne dostosowanie strony do każdego urządzenia, z którego korzystają Twoi klienci.",
+                "icon": "ph:devices-light"
+            },
+            {
+                "title": "Techniczne SEO",
+                "desc": "Poprawna struktura nagłówków, meta tagi i przyjazna struktura linków. Dbamy o pełną optymalizację strony pod kątem wyszukiwarek już na etapie kodowania.",
+                "icon": "ph:magnifying-glass-light"
+            },
+            {
+                "title": "Optymalizacja wydajności",
+                "desc": "Zoptymalizowany kod i nowoczesne formaty grafik zapewniające najwyższe wyniki Core Web Vitals.",
+                "icon": "ph:lightning-light"
+            },
+            {
+                "title": "Analityka internetowa",
+                "desc": "Wdrożenie Google Analytics 4 oraz podpięcie Google Search Console.",
+                "icon": "ph:chart-line-up-light"
+            },
+            {
+                "title": "RODO i Consent Mode",
+                "desc": "Poprawne wdrożenie polityki prywatności oraz systemu zarządzania zgodami na pliki cookies.",
+                "icon": "ph:shield-check-light"
+            },
+            {
+                "title": "Serwer i Certyfikat SSL",
+                "desc": "Pełna konfiguracja hostingu, podpięcie domeny oraz wdrożenie szyfrowania danych.",
+                "icon": "ph:hard-drives-light"
+            },
+            {
+                "title": "Zabezpieczenia",
+                "desc": "Wdrożenie ochrony przed atakami (np. brute-force) oraz blokada nieautoryzowanego dostępu do kluczowych plików systemowych witryny.",
+                "icon": "ph:lock-key-light"
+            },
+            {
+                "title": "Nowoczesny stack technologiczny",
+                "desc": "Korzystamy z najnowszych i najstabilniejszych technologii programistycznych na rynku.",
+                "icon": "ph:code-light"
+            },
+            {
+                "title": "Strategia biznesowa",
+                "desc": "Projekt oparty na dokładnej analizie Twojej branży, konkurencji oraz docelowego klienta.",
+                "icon": "ph:target-light"
+            },
+            {
+                "title": "Integracja z CMS",
+                "desc": "Wdrożenie intuicyjnego panelu (np. WordPress), pozwalającego na samodzielną edycję treści.",
+                "icon": "ph:kanban-light"
+            },
+            {
+                "title": "Dedykowane moduły",
+                "desc": "Autorskie wtyczki i rozwiązania programistyczne szyte na miarę specyfiki Twojej firmy.",
+                "icon": "ph:puzzle-piece-light"
+            },
+            {
+                "title": "Szkolenie z obsługi",
+                "desc": "Przeprowadzamy instruktaż i przekazujemy materiały, jak sprawnie zarządzać nową witryną.",
+                "icon": "ph:graduation-cap-light"
+            },
+            {
+                "title": "12-miesięczna gwarancja",
+                "desc": "Śpij spokojnie. Bierzemy pełną odpowiedzialność za stabilność i bezpieczeństwo wdrożenia.",
+                "icon": "ph:certificate-light"
+            }
+        ]
+    },
+    "benefits": {
+        "title": "Strona ma zarabiać, a nie tylko wyglądać",
+        "items": [
+            {
+                "title": "Zbuduj autorytet i zaufanie od pierwszej sekundy",
+                "desc": "Klienci oceniają firmę po jakości jej cyfrowej wizytówki w ułamkach sekund. Przemyślany design i UX sprawiają, że natychmiast pozycjonujesz się jako lider w swojej branży, zostawiając konkurencję w tyle."
+            },
+            {
+                "title": "Zautomatyzuj proces pozyskiwania leadów",
+                "desc": "Przestań odpowiadać na powtarzalne pytania. Tworzymy architekturę informacji, inteligentne formularze kontaktowe i ścieżki użytkownika, które samodzielnie kwalifikują klientów i skracają Twój cykl sprzedażowy."
+            },
+            {
+                "title": "Solidne fundamenty pod SEO",
+                "desc": "Zjawiskowy wygląd to tylko połowa sukcesu. Nasze strony są od podstaw zoptymalizowane pod kątem technicznym (Technical SEO). Szybkie ładowanie, czysty kod i poprawna hierarchia nagłówków tworzą idealną bazę, która ułatwia wyszukiwarkom indeksowanie witryny i wspiera Twoje przyszłe działania związane z pozycjonowaniem strony www."
+            }
+        ]
+    },
+    "pricing": {
+        "title": "Cennik: Ile kosztuje stworzenie strony internetowej?",
+        "subtitle": "Nie posiadamy sztywnego cennika, ponieważ każdy biznes wymaga innej strategii. Aby jednak dać Ci punkt odniesienia, przygotowaliśmy przykładową wycenę podstawowego projektu, od którego zaczynamy.",
+        "exampleProject": {
+            "name": "Strona dla małej firmy",
+            "price": "od 2 500 zł",
+            "desc": "Kompaktowa witryna prezentująca usługi Twojej firmy. Zoptymalizowana pod kątem szybkości i technicznie gotowa, by wspierać Cię w pozyskiwaniu pierwszych klientów z wyszukiwarki Google.",
+            "h4": "Co wchodzi w skład przykładowego projektu?",
+            "features": [
+                "Indywidualny projekt UI/UX",
+                "Architektura Mobile-First",
+                "Podstawowa optymalizacja SEO",
+                "Konfiguracja domeny i hostingu",
+                "Integracja z Google Analytics",
+                "Zgodność z RODO (polityka i cookies)",
+                "Zabezpieczenia i certyfikat SSL",
+                "Szkolenie z obsługi edycji treści"
+            ],
+            "cta": "Zapytaj o darmową wycenę"
+        }
+    },
+    "process": {
+        "title": "Jak wygląda proces tworzenia stron internetowych w Airtilion?",
+        "desc": "Budowa stron www przebiega u nas zawsze w kilku jasnych etapach. Dzięki temu wiesz dokładnie, na jakim etapie jesteśmy i czego możesz się spodziewać w kolejnym kroku.",
+        "steps": [
+            {
+                "number": "01",
+                "title": "Formalności",
+                "description": "Tworzymy wycenę, podpisujemy umowę oraz następuje wpłata zaliczki."
+            },
+            {
+                "number": "02",
+                "title": "Projektowanie",
+                "description": "Tworzymy makietę strony. Otrzymujesz ją od nas w formacie .pdf."
+            },
+            {
+                "number": "03",
+                "title": "Wdrożenie",
+                "description": "Przenosimy zatwierdzony projekt do kodu, budując w pełni responsywną i nowoczesną stronę internetową."
+            },
+            {
+                "number": "04",
+                "title": "Testy i optymalizacja",
+                "description": "Sprawdzamy działanie na wszystkich urządzeniach, testujemy funkcjonalności oraz optymalizujemy szybkość."
+            },
+            {
+                "number": "05",
+                "title": "Publikacja strony",
+                "description": "Konfigurujemy domenę, podpinamy hosting i oficjalnie uruchamiamy gotową stronę w sieci."
+            },
+            {
+                "number": "06",
+                "title": "Finalizacja zamówienia",
+                "description": "Przekazujemy dane dostępowe oraz szkolimy z obsługi."
+            }
+        ]
+    },
+    "coverage": {
+        "title": "Działamy lokalnie, projektujemy globalnie",
+        "subtitle": "Nasza główna siedziba to Tarnów, ale dzięki sprawdzonym procesom zdalnym z sukcesem wdrażamy projekty dla firm z każdego zakątka kraju. Wybierz region, aby zobaczyć dedykowaną ofertę.",
+        "regions": [
+            {
+                "name": "Dolnośląskie",
+                "slug": "/wroclaw",
+                "cities": [
+                    "/boleslawiec",
+                    "/dzierzoniow",
+                    "/glogow",
+                    "/jelenia-gora",
+                    "/klodzko",
+                    "/legnica",
+                    "/lubin",
+                    "/olesnica",
+                    "/olawa",
+                    "/swidnica",
+                    "/walbrzych",
+                    "/wroclaw",
+                    "/zgorzelec"
+                ]
+            },
+            {
+                "name": "Kujawsko-Pomorskie",
+                "slug": "/bydgoszcz",
+                "cities": [
+                    "/brodnica",
+                    "/bydgoszcz",
+                    "/grudziadz",
+                    "/inowroclaw",
+                    "/naklo-nad-notecia",
+                    "/torun",
+                    "/wloclawek"
+                ]
+            },
+            {
+                "name": "Lubelskie",
+                "slug": "/lublin",
+                "cities": [
+                    "/biala-podlaska",
+                    "/bilgoraj",
+                    "/chelm",
+                    "/lublin",
+                    "/pulawy",
+                    "/zamosc"
+                ]
+            },
+            {
+                "name": "Lubuskie",
+                "slug": "/lubuskie",
+                "cities": [
+                    "/gorzow-wielkopolski",
+                    "/swiebodzin",
+                    "/zielona-gora"
+                ]
+            },
+            {
+                "name": "Łódzkie",
+                "slug": "/lodzkie",
+                "cities": [
+                    "/belchatow",
+                    "/lodz",
+                    "/lowicz",
+                    "/ozorkow",
+                    "/pabianice",
+                    "/piotrkow-trybunalski",
+                    "/radomsko",
+                    "/sieradz",
+                    "/skierniewice",
+                    "/wielun",
+                    "/zdunska-wola",
+                    "/zgierz"
+                ]
+            },
+            {
+                "name": "Małopolskie",
+                "slug": "/malopolska",
+                "cities": [
+                    "/andrychow",
+                    "/bochnia",
+                    "/chrzanow",
+                    "/gorlice",
+                    "/krakow",
+                    "/limanowa",
+                    "/myslenice",
+                    "/nowy-sacz",
+                    "/nowy-targ",
+                    "/olkusz",
+                    "/oswiecim",
+                    "/skawina",
+                    "/sucha-beskidzka",
+                    "/tarnow",
+                    "/wadowice",
+                    "/wieliczka",
+                    "/zakopane"
+                ]
+            },
+            {
+                "name": "Mazowieckie",
+                "slug": "/mazowieckie",
+                "cities": [
+                    "/ciechanow",
+                    "/garwolin",
+                    "/grodzisk-mazowiecki",
+                    "/legionowo",
+                    "/lomianki",
+                    "/milanowek",
+                    "/minsk-mazowiecki",
+                    "/mlawa",
+                    "/ostroleka",
+                    "/otwock",
+                    "/piaseczno",
+                    "/plock",
+                    "/pruszkow",
+                    "/radom",
+                    "/siedlce",
+                    "/sochaczew",
+                    "/warszawa",
+                    "/wolomin",
+                    "/wyszkow",
+                    "/zuromin",
+                    "/zyrardow"
+                ]
+            },
+            {
+                "name": "Opolskie",
+                "slug": "/opole",
+                "cities": [
+                    "/brzeg",
+                    "/kluczbork",
+                    "/namyslow",
+                    "/nysa",
+                    "/opole"
+                ]
+            },
+            {
+                "name": "Podkarpackie",
+                "slug": "/rzeszow",
+                "cities": [
+                    "/jaroslaw",
+                    "/jaslo",
+                    "/krosno",
+                    "/mielec",
+                    "/rzeszow",
+                    "/sanok",
+                    "/tarnobrzeg"
+                ]
+            },
+            {
+                "name": "Podlaskie",
+                "slug": "/bialystok",
+                "cities": [
+                    "/bialystok",
+                    "/lomza",
+                    "/suwalki"
+                ]
+            },
+            {
+                "name": "Pomorskie",
+                "slug": "/pomorskie",
+                "cities": [
+                    "/chojnice",
+                    "/czluchow",
+                    "/gdansk",
+                    "/gdynia",
+                    "/kartuzy",
+                    "/koscierzyna",
+                    "/kwidzyn",
+                    "/lebork",
+                    "/malbork",
+                    "/reda",
+                    "/rumia",
+                    "/sopot",
+                    "/starogard-gdanski",
+                    "/tczew",
+                    "/trojmiasto",
+                    "/wejherowo"
+                ]
+            },
+            {
+                "name": "Śląskie",
+                "slug": "/slaskie",
+                "cities": [
+                    "/bedzin",
+                    "/bielsko-biala",
+                    "/bytom",
+                    "/chorzow",
+                    "/cieszyn",
+                    "/czechowice-dziedzice",
+                    "/czeladz",
+                    "/czestochowa",
+                    "/dabrowa-gornicza",
+                    "/gliwice",
+                    "/jastrzebie-zdroj",
+                    "/jaworzno",
+                    "/katowice",
+                    "/lubliniec",
+                    "/mikolow",
+                    "/myslowice",
+                    "/myszkow",
+                    "/piekary-slaskie",
+                    "/pszczyna",
+                    "/raciborz",
+                    "/ruda-slaska",
+                    "/rybnik",
+                    "/sosnowiec",
+                    "/tarnowskie-gory",
+                    "/tychy",
+                    "/wodzislaw-slaski",
+                    "/zabrze",
+                    "/zawiercie",
+                    "/zory",
+                    "/zywiec"
+                ]
+            },
+            {
+                "name": "Świętokrzyskie",
+                "slug": "/kielce",
+                "cities": [
+                    "/kielce",
+                    "/ostrowiec-swietokrzyski",
+                    "/sandomierz"
+                ]
+            },
+            {
+                "name": "Warmińsko-Mazurskie",
+                "slug": "/olsztyn",
+                "cities": [
+                    "/elblag",
+                    "/elk",
+                    "/gizycko",
+                    "/ilawa",
+                    "/nidzica",
+                    "/olsztyn"
+                ]
+            },
+            {
+                "name": "Wielkopolskie",
+                "slug": "/wielkopolskie",
+                "cities": [
+                    "/gniezno",
+                    "/jarocin",
+                    "/kalisz",
+                    "/kepno",
+                    "/konin",
+                    "/koscian",
+                    "/krotoszyn",
+                    "/leszno",
+                    "/lubon",
+                    "/mosina",
+                    "/nowy-tomysl",
+                    "/ostrow-wielkopolski",
+                    "/pila",
+                    "/poznan",
+                    "/rawicz",
+                    "/steszew",
+                    "/swarzedz",
+                    "/srem",
+                    "/sroda-wielkopolska",
+                    "/wrzesnia"
+                ]
+            },
+            {
+                "name": "Zachodniopomorskie",
+                "slug": "/szczecin",
+                "cities": [
+                    "/bialogard",
+                    "/kolobrzeg",
+                    "/koszalin",
+                    "/stargard",
+                    "/szczecin",
+                    "/walcz"
+                ]
+            }
+        ]
+    },
+    "faq": {
+        "title": "Najczęściej zadawane pytania",
+        "questions": [
+            {
+                "q": "Ile kosztuje strona internetowa dla małej firmy?",
+                "a": "Standardowa strona dla małej firmy kosztuje zwykle od 2 500 do 8 000 zł netto. Ostateczna cena zależy od liczby podstron, złożoności projektu i potrzebnych integracji. Dokładną wycenę otrzymasz po wypełnieniu naszego formularza."
+            },
+            {
+                "q": "Ile czasu zajmuje wykonanie strony internetowej?",
+                "a": "Czas realizacji zależy od wielkości i złożoności projektu. Strony wizytówkowe jesteśmy w stanie ukończyć w ciągu kilku dni roboczych. Bardziej rozbudowane serwisy tworzymy w ciągu kilku tygodni, a przy dużych projektach nawet kilku miesięcy. Po analizie Twoich potrzeb przedstawimy dokładny harmonogram."
+            },
+            {
+                "q": "Czy strona będzie widoczna w Google?",
+                "a": "Tak, każdy nasz projekt od samego początku optymalizujemy pod kątem wymagań wyszukiwarek (tak zwane Technical SEO). Dbamy o semantyczny kod, prawidłową strukturę nagłówków, odpowiednie meta tagi oraz logiczną architekturę informacji. Kładziemy też ogromny nacisk na szybkość ładowania i wydajność. Dzięki temu Twoja witryna ma solidne techniczne fundamenty, co ułatwia jej indeksowanie i stanowi idealną bazę do dalszego pozycjonowania."
+            },
+            {
+                "q": "Czy będę mógł samodzielnie zarządzać treścią na stronie po wdrożeniu?",
+                "a": "Tak, po zakończeniu projektu przekazujemy dane dostępowe oraz krótkie szkolenie z obsługi strony. Dzięki temu samodzielnie dodasz nowe treści czy zdjęcia bez znajomości kodu."
+            },
+            {
+                "q": "Nie mam jeszcze domeny ani hostingu, co powinienem zrobić?",
+                "a": "Nie musisz się tym martwić. Pomożemy Ci dobrać odpowiedniego dostawcę domeny i hostingu, dopasowanego do wielkości Twojego projektu i budżetu. Mamy doświadczenie z wieloma dostawcami dostępnymi na polskim rynku."
+            },
+            {
+                "q": "Jakie dodatkowe funkcje mogę zamówić na swoją stronę?",
+                "a": "Praktycznie dowolne. Tworzymy systemy rezerwacji, blogi, portfolio online, zaawansowane formularze, konfiguratory produktów, newslettery a nawet dedykowane panele administracyjne z systemem CRM. Opisz nam swój pomysł, a przygotujemy wycenę i plan działania."
+            },
+            {
+                "q": "Czy mogę zamówić stronę opartą na WordPressie?",
+                "a": "Tak, tworzymy również strony WordPress oparte o architekturę headless. Takie podejście łączy wygodę edycji treści, do której jesteś przyzwyczajony, z wydajnością nowoczesnych technologii frontendowych."
+            },
+            {
+                "q": "Jak wygląda wsparcie techniczne po uruchomieniu strony?",
+                "a": "Każdy projekt obejmuje roczną gwarancję z limitem do dwóch godzin miesięcznie na proste zmiany, bez dodatkowych opłat. Jeśli potrzebujesz większego zakresu wsparcia, oferujemy też płatną subskrypcję z indywidualnie ustaloną liczbą godzin lub rozliczeniem godzinowym."
+            },
+            {
+                "q": "Czy strona będzie działać dobrze na telefonie?",
+                "a": "Tak. Każda strona, którą tworzymy, jest w pełni responsywna. Oznacza to, że automatycznie dopasowuje się do ekranu telefonu, tabletu i komputera. Coraz więcej użytkowników przegląda strony wyłącznie na smartfonie, dlatego responsywność traktujemy jako obowiązkowy standard, a nie dodatkową opcję."
+            },
+            {
+                "q": "Co się stanie, jeśli po jakimś czasie zechcę rozbudować swoją stronę?",
+                "a": "Nowoczesne technologie, na których pracujemy, takie jak Next.js czy WordPress headless, ułatwiają dodawanie nowych funkcji w przyszłości. Jeśli Twoja firma się rozwija, możemy rozbudować stronę o nowe podstrony, sklep internetowy czy dodatkowe integracje, bez konieczności budowania jej od zera."
+            }
+        ]
+    },
+    "form": {
+        "title": "Chcesz dowiedzieć się ile będzie kosztował Twój projekt? Wypełnij formularz!",
+        "content": "Odezwiemy się do Ciebie w ciągu 24 godzin lub w kolejny dzień roboczy. Omówimy Twoje potrzeby, doradzimy i zaproponujemy cenę za projekt. Jeśli jednak nie chcesz wypełniać formularza, możesz skontaktować się z nami telefonicznie.",
+        "contactData": [
+            "Numery telefonu",
+            "Adres email",
+            "Godziny otwarcia"
+        ],
+        "close": "Zamknij",
+        "fields": [
+            "Imię i nazwisko",
+            "Email",
+            "Numer telefonu",
+            "Preferowane godziny kontaktu telefonicznego",
+            "Typ projektu",
+            "Krótki opis sklepu internetowego"
+        ],
+        "condition": [
+            "Akceptuję <a href='/polityka-prywatnosci.pdf' target='_blank'>politykę prywatności</a> i wyrażam zgodę na <a href='/polityka-prywatnosci.pdf' target='_blank'>przetwarzanie danych osobowych</a>",
+            "Wyrażam zgodę na <a href='/zgoda-informacja-handlowa.pdf' target='_blank'>przetwarzanie moich danych</a> w celu otrzymania informacji handlowej"
+        ],
+        "button": "Wyślij zapytanie",
+        "errors": [
+            "",
+            "Imię i nazwisko jest wymagane",
+            "Nieprawidłowy adres email",
+            "Adres email jest wymagany",
+            "Numer telefonu jest wymagany",
+            "Nieprawidłowy numer telefonu",
+            "Krótki opis strony jest wymagany",
+            "Musisz zaakceptować politykę prywatności",
+            "Musisz wyrazić zgodę na otrzymywanie informacji handlowej",
+            "Wykryto bota",
+            "Nie udało się wysłać zapytania"
+        ],
+        "success": "Twoje zapytanie zostało wysłane pomyślnie!"
+    }
+}

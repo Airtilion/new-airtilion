@@ -1,0 +1,188 @@
+{
+    "hero": {
+        "pretitle": "Airtilion - pełna oferta",
+        "title": "Projektujemy strony, sklepy i&nbsp;aplikacje, które rozwijają biznes.",
+        "subtitle": "Od prostych wizytówek po systemy z AI. Obsługujemy firmy z całej Polski.",
+        "cta": "Darmowa wycena",
+        "ctaSecondary": "Zobacz realizacje"
+    },
+    "mainServices": {
+        "title": "Wybierz usługę dopasowaną do Twoich potrzeb",
+        "items": [
+            {
+                "title": "Strony internetowe",
+                "desc": "Landing page, blogi, rozbudowane serwisy firmowe. Projektujemy z myślą o SEO, szybkości i dostępności WCAG.",
+                "cta": "Zobacz ofertę i branże",
+                "link": "/strony-internetowe",
+                "icon": "ph:monitor-bold"
+            },
+            {
+                "title": "Sklepy internetowe",
+                "desc": "WooCommerce, Shoper, Shopify - dobieramy platformę do Twojego modelu sprzedaży i budżetu.",
+                "cta": "Zacznij sprzedawać",
+                "link": "/sklepy-internetowe",
+                "icon": "ph:shopping-cart-bold"
+            },
+            {
+                "title": "Aplikacje internetowe",
+                "desc": "Dedykowane systemy, konfiguratury, platformy SaaS. Rozwiązania szyte na miarę Twojego procesu.",
+                "cta": "Sprawdź dedykowane systemy",
+                "link": "/aplikacje-internetowe",
+                "icon": "ph:code-bold"
+            }
+        ]
+    },
+    "supportServices": {
+        "title": "Masz już stronę? Zadbamy o nią",
+        "items": [
+            {
+                "title": "Administracja stron i sklepów",
+                "description": "Regularne aktualizacje, kopie zapasowe, monitoring i bieżące poprawki.",
+                "link": "/administracja-stron",
+                "icon": "ph:wrench-bold"
+            },
+            {
+                "title": "Usuwanie wirusów",
+                "description": "Szybka diagnostyka i czyszczenie zainfekowanych witryn. Przywrócimy bezpieczeństwo.",
+                "link": "/usuwanie-wirusow",
+                "icon": "ph:shield-check-bold"
+            },
+            {
+                "title": "Audyt dostępności WCAG",
+                "description": "Sprawdzimy zgodność Twojej strony z WCAG 2.1/2.2 i przygotujemy raport z rekomendacjami.",
+                "link": "/audyt-dostepnosci-cyfrowej",
+                "icon": "ph:eye-bold"
+            },
+            {
+                "title": "Optymalizacja szybkości",
+                "description": "PageSpeed, Core Web Vitals, lazy loading - przyspieszymy Twoją stronę i poprawimy pozycje w Google.",
+                "link": "/optymalizacja-strony",
+                "icon": "ph:rocket-bold"
+            }
+        ]
+    },
+    "innovations": {
+        "title": "Nowoczesne rozwiązania dla Twojego biznesu",
+        "subtitle": "Większość agencji kończy ofertę na stronach i sklepach. My idziemy dalej.",
+        "items": [
+            {
+                "title": "Chatboty AI",
+                "description": "Inteligentni asystenci obsługujący klientów 24/7. Integracja z Twoją ofertą, bazą wiedzy i CRM.",
+                "link": "/chatboty-ai",
+                "icon": "ph:robot-bold"
+            },
+            {
+                "title": "Konfiguratory 3D",
+                "description": "Pozwól klientom projektować produkt online - meble, okna, drzwi, odzież. Wizualizacja w czasie rzeczywistym.",
+                "link": "/konfiguratory-3d",
+                "icon": "ph:cube-bold"
+            }
+        ]
+    },
+    "industries": {
+        "title": "Rozumiemy, że każda branża ma inne potrzeby",
+        "subtitle": "Gabinet stomatologiczny potrzebuje innej strony niż firma budowlana. Tworzymy rozwiązania dopasowane do specyfiki Twojej działalności.",
+        "items": [
+            {
+                "name": "Architekt",
+                "link": "/strony-internetowe/dla-architekta",
+                "icon": "ph:compass-tool-bold"
+            },
+            {
+                "name": "Biura nieruchomości",
+                "link": "/strony-internetowe/dla-biur-nieruchomosci",
+                "icon": "ph:buildings-bold"
+            },
+            {
+                "name": "Przedszkola i żłobki",
+                "link": "/strony-internetowe/dla-przedszkoli-i-zlobkow",
+                "icon": "ph:baby-bold"
+            },
+            {
+                "name": "Biura podróży",
+                "link": "/strony-internetowe/dla-biur-podrozy",
+                "icon": "ph:airplane-bold"
+            },
+            {
+                "name": "NGO",
+                "link": "/strony-internetowe/dla-ngo",
+                "icon": "ph:handshake-bold"
+            }
+        ],
+        "cta": "Zobacz wszystkie rozwiązania branżowe",
+        "ctaLink": "/strony-internetowe"
+    },
+    "location": {
+        "title": "Działamy na terenie całej Polski",
+        "subtitle": "Od Bałtyku po Tatry. Prowadzimy projekty dla klientów z całego kraju, gwarantując bezproblemową komunikację i pełną transparentność działań.",
+        "cta": "Sprawdź gdzie działamy"
+    },
+    "process": {
+        "title": "Prosty proces od pomysłu do gotowej strony",
+        "steps": [
+            {
+                "number": "01",
+                "title": "Analiza i brief",
+                "description": "Poznajemy Twój biznes, cele i grupę docelową. Ustalamy zakres projektu i technologię."
+            },
+            {
+                "number": "02",
+                "title": "Projekt i kodowanie",
+                "description": "Tworzymy makiety, projekt graficzny i wdrażamy. Masz wgląd w każdy etap prac."
+            },
+            {
+                "number": "03",
+                "title": "Testy i poprawki",
+                "description": "Sprawdzamy działanie na wszystkich urządzeniach, szybkość i dostępność WCAG."
+            },
+            {
+                "number": "04",
+                "title": "Start i opieka",
+                "description": "Uruchamiamy stronę i pozostajemy do dyspozycji. Opcjonalna opieka abonamentowa."
+            }
+        ]
+    },
+    "contact": {
+        "title": "Napisz do nas - doradzimy",
+        "subtitle": "Zostaw wiadomość. Odpiszemy w ciągu 24 godzin i zaproponujemy najlepsze rozwiązanie dla Twojej firmy.",
+        "cta": "Porozmawiajmy o projekcie"
+    },
+    "form": {
+        "tag": "Twój projekt. Nasza pasja. Wspólny skuces.",
+        "title": "Chcesz dowiedzieć się ile będzie kosztował Twój projekt? Wypełnij formularz!",
+        "content": "Odezwiemy się do Ciebie w ciągu 24 godzin lub w kolejny dzień roboczy. Omówimy Twoje potrzeby, doradzimy i zaproponujemy cenę za projekt. Jeśli jednak nie chcesz wypełniać formularza, możesz skontaktować się z nami telefonicznie.",
+        "contactData": [
+            "Numery telefonu",
+            "Adres email",
+            "Godziny otwarcia"
+        ],
+        "close": "Zamknij",
+        "fields": [
+            "Imię i nazwisko",
+            "Email",
+            "Numer telefonu",
+            "Preferowane godziny kontaktu telefonicznego",
+            "Typ projektu",
+            "Krótki opis sklepu internetowego"
+        ],
+        "condition": [
+            "Akceptuję <a href='/polityka-prywatnosci.pdf' target='_blank'>politykę prywatności</a> i wyrażam zgodę na <a href='/polityka-prywatnosci.pdf' target='_blank'>przetwarzanie danych osobowych</a>",
+            "Wyrażam zgodę na <a href='/zgoda-informacja-handlowa.pdf' target='_blank'>przetwarzanie moich danych</a> w celu otrzymania informacji handlowej"
+        ],
+        "button": "Wyślij zapytanie",
+        "errors": [
+            "",
+            "Imię i nazwisko jest wymagane",
+            "Nieprawidłowy adres email",
+            "Adres email jest wymagany",
+            "Numer telefonu jest wymagany",
+            "Nieprawidłowy numer telefonu",
+            "Krótki opis strony jest wymagany",
+            "Musisz zaakceptować politykę prywatności",
+            "Musisz wyrazić zgodę na otrzymywanie informacji handlowej",
+            "Wykryto bota",
+            "Nie udało się wysłać zapytania"
+        ],
+        "success": "Twoje zapytanie zostało wysłane pomyślnie!"
+    }
+}

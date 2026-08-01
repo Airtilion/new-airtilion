@@ -13,6 +13,7 @@
     "whyWorthIt": {
         "title": "Dlaczego warto zadbać o swoją stronę internetową?",
         "intro": "Zdecydowana większość Twoich potencjalnych klientów najpierw sprawdza Cię w internecie. Dopiero potem decyduje się na kontakt. Jeśli Twoja strona nie buduje zaufania, ten kontakt po prostu nie nastąpi.",
+        "imgAlt": "Wizualizacja nowoczesnej strony internetowej na ekranie smartfona",
         "subintro": "Dobrze zaprojektowana strona internetowa daje Ci kilka konkretnych korzyści:",
         "benefits": [
             {
@@ -243,6 +244,7 @@
             "title": "Szablon czy dedykowany projekt?",
             "desc": "Rozumiemy, że przy mniejszych budżetach optymalnym wyborem może być skorzystanie z gotowych, sprawdzonych szablonów, to szybkie i ekonomiczne rozwiązanie. Jeśli jednak zależy Ci na pełnej unikalności, budowaniu silnej marki i ścieżkach konwersji uszytych dokładnie pod Twojego klienta, dedykowany projekt graficzny od zera jest inwestycją, która szybko się zwraca."
         },
+        "imgAlt": "Proces projektowania interfejsu użytkownika (UX/UI)",
         "benefitsTitle": "Dobre UX/UI oznacza:",
         "benefits": [
             {
@@ -274,15 +276,17 @@
             "Wyobraź sobie, że klient klika w wynik wyszukiwania i czeka kilka sekund na załadowanie strony. Większość użytkowników po prostu wraca do Google i klika w konkurencję.",
             "Szybkość ładowania to nie tylko wygoda użytkownika. To także jeden z czynników, które Google bierze pod uwagę przy ustalaniu pozycji w wynikach wyszukiwania. Wolna strona internetowa oznacza gorsze SEO, mniej odwiedzin i niższą sprzedaż.",
             "Dlatego każdy projekt optymalizujemy pod kątem wydajności już na etapie programowania. Kompresujemy grafiki, ograniczamy zbędny kod i korzystamy z technologii, takich jak Next.js, które z założenia są szybkie."
-        ]
+        ],
+        "imgAlt": "Raport Google PageSpeed z maksymalnym wynikiem 100 punktów dla szybkości i optymalizacji strony"
     },
     "security": {
-        "title": "Zapewniamy bezpieczeństwo i certyfikat SSL",
+        "title": "Zapewniamy bezpieczeństwo strony internetowej i certyfikat SSL",
         "paragraphs": [
-            "Bezpieczeństwo Twojej strony to bezpieczeństwo Twoich klientów. Każda strona www, którą tworzymy, otrzymuje certyfikat SSL. To on odpowiada za szyfrowane połączenie między przeglądarką a serwerem, które rozpoznasz po kłódce obok adresu.",
-            "Certyfikat SSL ma też ogromne znaczenie dla SEO. Google od lat premiuje strony działające na bezpiecznym połączeniu i obniża widoczność tych, które go nie mają.",
-            "Poza samym certyfikatem dbamy o regularne aktualizacje oprogramowania, silne zabezpieczenia panelu administracyjnego oraz pełną zgodność z dobrymi praktykami ochrony danych osobowych."
-        ]
+            "Bezpieczeństwo Twojej strony to bezpieczeństwo Twoich klientów. Każda strona www, którą tworzymy, otrzymuje certyfikat SSL. To on odpowiada za szyfrowane połączenie między przeglądarką a serwerem, które rozpoznasz po kłódce obok adresu strony.",
+            "Certyfikat SSL ma też znaczenie dla SEO. Google od lat premiuje strony działające na bezpiecznym połączeniu i obniża widoczność tych, które go nie mają.",
+            "Poza samym certyfikatem dbamy o regularne aktualizacje oprogramowania, silne zabezpieczenia panelu administracyjnego oraz zgodność z dobrymi praktykami ochrony danych osobowych."
+        ],
+        "imgAlt": "Bezpieczna strona internetowa z aktywnym certyfikatem SSL widoczna na ekranie laptopa"
     },
     "includes": {
         "title": "Co zawiera każda strona internetowa, którą projektujemy?",

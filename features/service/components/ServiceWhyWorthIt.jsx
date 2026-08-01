@@ -19,7 +19,7 @@ const ServiceWhyWorthIt = ({ dict }) => {
 
                     <div className='col-span-5 max-lg:col-span-1 max-lg:w-[400px] max-lg:mx-auto max-sm:w-full'>
                         <div className='sticky top-32'>
-                            <Image src={worth} alt="Wizualizacja nowoczesnej strony internetowej na ekranie smartfona" width={564} height={800} className="rounded-2xl object-cover" />
+                            <Image src={worth} alt={dict.imgAlt} width={564} height={800} className="rounded-2xl object-cover" />
                         </div>
                     </div>
 

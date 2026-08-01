@@ -23,7 +23,7 @@ const ServiceSpeed = ({ dict }) => {
 
                 <div className='sticky top-32 h-max'>
                     <div className='relative'>
-                        <Image src={speed} width={870} height={570} alt='Raport Google PageSpeed z maksymalnym wynikiem 100 punktów dla szybkości i optymalizacji strony' className='object-cover max-2xl:w-[670px] max-xl:w-[570px] max-lg:w-full' />
+                        <Image src={speed} width={870} height={570} alt={dict.imgAlt} className='object-cover max-2xl:w-[670px] max-xl:w-[570px] max-lg:w-full' />
                         <div className="absolute inset-0 bg-black/[0.05] rounded-2xl" />
                     </div>
                 </div>

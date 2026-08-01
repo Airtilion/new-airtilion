@@ -16,6 +16,7 @@ import ServiceBenefits from '@features/service/components/ServiceBenefits'
 import ServiceWhyWorthIt from '@features/service/components/ServiceWhyWorthIt'
 import ServiceUxUi from '@features/service/components/ServiceUxUi'
 import ServiceSpeed from '@features/service/components/ServiceSpeed'
+import ServiceSecurity from '@features/service/components/ServiceSecurity'
 
 
 export const metadata = {
@@ -52,6 +53,7 @@ const page = async ({ searchParams }) => {
                 <ServiceIndustries dict={dict.industries} />
                 <ServiceUxUi dict={dict.uxui} />
                 <ServiceSpeed dict={dict.speed} />
+                <ServiceSecurity dict={dict.security} />
                 <ServiceIncludes dict={dict.includes} />
                 <ServiceBenefits dict={dict.benefits} />
                 <ServicePricing dict={dict.pricing} />

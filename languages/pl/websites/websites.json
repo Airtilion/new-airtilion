@@ -437,6 +437,14 @@
             }
         ]
     },
+    "workflow": {
+        "title": "Jak wygląda nasza praca w praktyce?",
+        "paragraphs": [
+            "Weźmy przykładowy projekt: stronę dla lokalnej firmy usługowej, która do tej pory nie miała żadnej obecności w internecie. Zaczynamy od rozmowy o jej klientach i konkurencji w regionie.",
+            "Na tej podstawie projektujemy prostą i skuteczną strukturę: stronę główną z jasnym opisem oferty, podstronę z cennikiem lub czynnikami wpływającymi na cenę, sekcję z opiniami klientów oraz formularz kontaktowy. Całość kodujemy w next.js, dzięki czemu strona ładuje się błyskawicznie na telefonie i komputerze.",
+            "Po uruchomieniu konfigurujemy Google Analytics, Search Console oraz wizytówkę firmy w Google. Klient zyskuje nie tylko stronę internetową, ale kompletne narzędzie do pozyskiwania nowych klientów."
+        ]
+    },
     "benefits": {
         "title": "Strona ma zarabiać, a nie tylko wyglądać",
         "items": [

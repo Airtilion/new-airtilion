@@ -1,7 +1,6 @@
 import React from 'react'
-import { Icon } from '@iconify/react'
+import Image from 'next/image'
 import preparation from '@assets/images/websites/preparation.webp'
-import Image from '@node_modules/next/image'
 
 const ServicePreparation = ({ dict }) => {
     return (

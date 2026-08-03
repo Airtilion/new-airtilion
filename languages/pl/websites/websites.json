@@ -367,6 +367,76 @@
             }
         ]
     },
+    "preparation": {
+        "title": "Jak przygotować się do zamówienia strony internetowej?",
+        "intro": "Zanim zdecydujesz się na budowę własnej strony i wypełnisz formularz wyceny, warto poświęcić chwilę na kilka decyzji. Ułatwi to nam przygotowanie trafnej propozycji, a Tobie przyspieszy cały proces.",
+        "subintro": "Zastanów się nad kilkoma kwestiami:",
+        "imgAlt": "Notatnik z listą kontrolną pomagającą przygotować się do zamówienia nowej strony internetowej",
+        "questions": [
+            {
+                "title": "Do czego ma służyć strona?",
+                "desc": "Sprzedaż produktów, prezentacja oferty, a może prosta wizytówka firmy?",
+                "icon": "ph:target-light"
+            },
+            {
+                "title": "Jakie funkcje są dla Ciebie kluczowe?",
+                "desc": "Sklep internetowy, formularz kontaktowy, system rezerwacji czy panel do samodzielnej edycji treści?",
+                "icon": "ph:puzzle-piece-light"
+            },
+            {
+                "title": "Jakie materiały już posiadasz?",
+                "desc": "Logo, teksty, zdjęcia czy identyfikacja wizualna przyspieszą prace nad projektem graficznym.",
+                "icon": "ph:folder-open-light"
+            },
+            {
+                "title": "Jaki masz orientacyjny budżet i termin?",
+                "desc": "Nawet przybliżone widełki pomagają nam dobrać odpowiednie rozwiązania.",
+                "icon": "ph:wallet-light"
+            },
+            {
+                "title": "Czy masz już domenę i hosting?",
+                "desc": "Jeśli nie, pomożemy Ci je wybrać i skonfigurować.",
+                "icon": "ph:globe-light"
+            }
+        ],
+        "outro": "Jeśli nie masz jeszcze odpowiedzi na wszystkie te pytania, nie przejmuj się. Podczas pierwszej rozmowy wspólnie je ustalimy."
+    },
+    "process": {
+        "title": "Jak wygląda proces tworzenia stron internetowych w Airtilion?",
+        "desc": "Budowa stron www przebiega u nas zawsze w kilku jasnych etapach. Dzięki temu wiesz dokładnie, na jakim etapie jesteśmy i czego możesz się spodziewać w kolejnym kroku.",
+        "steps": [
+            {
+                "number": "01",
+                "title": "Formalności",
+                "description": "Tworzymy wycenę, podpisujemy umowę oraz następuje wpłata zaliczki."
+            },
+            {
+                "number": "02",
+                "title": "Projektowanie",
+                "description": "Tworzymy makietę strony. Otrzymujesz ją od nas w formacie .pdf."
+            },
+            {
+                "number": "03",
+                "title": "Wdrożenie",
+                "description": "Przenosimy zatwierdzony projekt do kodu, budując w pełni responsywną i nowoczesną stronę internetową."
+            },
+            {
+                "number": "04",
+                "title": "Testy i optymalizacja",
+                "description": "Sprawdzamy działanie na wszystkich urządzeniach, testujemy funkcjonalności oraz optymalizujemy szybkość."
+            },
+            {
+                "number": "05",
+                "title": "Publikacja strony",
+                "description": "Konfigurujemy domenę, podpinamy hosting i oficjalnie uruchamiamy gotową stronę w sieci."
+            },
+            {
+                "number": "06",
+                "title": "Finalizacja zamówienia",
+                "description": "Przekazujemy dane dostępowe oraz szkolimy z obsługi."
+            }
+        ]
+    },
     "benefits": {
         "title": "Strona ma zarabiać, a nie tylko wyglądać",
         "items": [
@@ -404,42 +474,6 @@
             ],
             "cta": "Zapytaj o darmową wycenę"
         }
-    },
-    "process": {
-        "title": "Jak wygląda proces tworzenia stron internetowych w Airtilion?",
-        "desc": "Budowa stron www przebiega u nas zawsze w kilku jasnych etapach. Dzięki temu wiesz dokładnie, na jakim etapie jesteśmy i czego możesz się spodziewać w kolejnym kroku.",
-        "steps": [
-            {
-                "number": "01",
-                "title": "Formalności",
-                "description": "Tworzymy wycenę, podpisujemy umowę oraz następuje wpłata zaliczki."
-            },
-            {
-                "number": "02",
-                "title": "Projektowanie",
-                "description": "Tworzymy makietę strony. Otrzymujesz ją od nas w formacie .pdf."
-            },
-            {
-                "number": "03",
-                "title": "Wdrożenie",
-                "description": "Przenosimy zatwierdzony projekt do kodu, budując w pełni responsywną i nowoczesną stronę internetową."
-            },
-            {
-                "number": "04",
-                "title": "Testy i optymalizacja",
-                "description": "Sprawdzamy działanie na wszystkich urządzeniach, testujemy funkcjonalności oraz optymalizujemy szybkość."
-            },
-            {
-                "number": "05",
-                "title": "Publikacja strony",
-                "description": "Konfigurujemy domenę, podpinamy hosting i oficjalnie uruchamiamy gotową stronę w sieci."
-            },
-            {
-                "number": "06",
-                "title": "Finalizacja zamówienia",
-                "description": "Przekazujemy dane dostępowe oraz szkolimy z obsługi."
-            }
-        ]
     },
     "coverage": {
         "title": "Działamy lokalnie, projektujemy globalnie",

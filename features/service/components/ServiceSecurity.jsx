@@ -10,7 +10,7 @@ const ServiceSecurity = ({ dict }) => {
                 <div className='relative w-max h-max max-sm:w-full max-sm:h-full'>
                     <Image src={ssl} alt={dict.imgAlt} width={600} height={500} className="object-cover rounded-2xl max-xl:w-[400px] max-lg:w-[600px] max-sm:w-full" />
 
-                    <div className="absolute rounded-2xl inset-0 bg-black/20 w-[750px] h-[500px] max-xl:w-[400px] max-xl:h-[317px] max-lg:w-[600px] max-lg:h-[476px] max-sm:w-full max-sm:h-full" />
+                    <div className="absolute rounded-2xl inset-0 bg-black/20 w-[600px] h-[476px] max-xl:w-[400px] max-xl:h-[317px] max-lg:w-[600px] max-lg:h-[476px] max-sm:w-full max-sm:h-full" />
                 </div>
 
                 <div className='flex-1'>

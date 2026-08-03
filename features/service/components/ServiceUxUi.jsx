@@ -13,7 +13,7 @@ const img = [cardNav, cardContent, cardVisual, cardRwd]
 const ServiceUxUi = ({ dict }) => {
     return (
         <section className='mt-32 py-32 relative overflow-hidden bg-black'>
-            <div className='section-style '>
+            <div className='section-style'>
 
 
                 <div className='relative z-1 grid grid-cols-12 gap-16 max-lg:grid-cols-1'>

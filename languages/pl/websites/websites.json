@@ -499,22 +499,22 @@
         "subintro": "Na koszty utrzymania strony internetowej składają się zazwyczaj cztery elementy:",
         "costs": [
             {
-                "title": "Hosting.",
+                "title": "Hosting",
                 "desc": "To miejsce, w którym fizycznie znajdują się pliki Twojej strony. Roczny koszt hostingu dla większości stron wizytówkowych i firmowych to zwykle od kilkuset do około tysiąca złotych, w zależności od wybranego dostawcy i wydajności serwera.",
-                "icon": "ph:server-light"
+                "icon": "ph:hard-drive-light"
             },
             {
-                "title": "Domena.",
+                "title": "Domena",
                 "desc": "Adres Twojej strony w internecie trzeba przedłużać co roku. To koszt rzędu kilkudziesięciu złotych rocznie za popularne końcówki, takie jak .pl.",
                 "icon": "ph:globe-light"
             },
             {
-                "title": "Certyfikat SSL.",
+                "title": "Certyfikat SSL",
                 "desc": "W większości nowoczesnych pakietów hostingowych certyfikat SSL jest już wliczony w cenę, dlatego nie generuje dodatkowego kosztu.",
                 "icon": "ph:lock-key-light"
             },
             {
-                "title": "Wsparcie techniczne.",
+                "title": "Wsparcie techniczne",
                 "desc": "To jedyny element, który zależy od Ciebie. Podstawowa opieka gwarancyjna (do dwóch godzin miesięcznie na proste zmiany) jest bezpłatna przez rok od uruchomienia strony. Jeśli potrzebujesz więcej, wybierasz płatną subskrypcję dopasowaną do swoich potrzeb.",
                 "icon": "ph:lifebuoy-light"
             }

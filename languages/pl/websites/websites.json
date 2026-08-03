@@ -445,23 +445,6 @@
             "Po uruchomieniu konfigurujemy Google Analytics, Search Console oraz wizytówkę firmy w Google. Klient zyskuje nie tylko stronę internetową, ale kompletne narzędzie do pozyskiwania nowych klientów."
         ]
     },
-    "benefits": {
-        "title": "Strona ma zarabiać, a nie tylko wyglądać",
-        "items": [
-            {
-                "title": "Zbuduj autorytet i zaufanie od pierwszej sekundy",
-                "desc": "Klienci oceniają firmę po jakości jej cyfrowej wizytówki w ułamkach sekund. Przemyślany design i UX sprawiają, że natychmiast pozycjonujesz się jako lider w swojej branży, zostawiając konkurencję w tyle."
-            },
-            {
-                "title": "Zautomatyzuj proces pozyskiwania leadów",
-                "desc": "Przestań odpowiadać na powtarzalne pytania. Tworzymy architekturę informacji, inteligentne formularze kontaktowe i ścieżki użytkownika, które samodzielnie kwalifikują klientów i skracają Twój cykl sprzedażowy."
-            },
-            {
-                "title": "Solidne fundamenty pod SEO",
-                "desc": "Zjawiskowy wygląd to tylko połowa sukcesu. Nasze strony są od podstaw zoptymalizowane pod kątem technicznym (Technical SEO). Szybkie ładowanie, czysty kod i poprawna hierarchia nagłówków tworzą idealną bazę, która ułatwia wyszukiwarkom indeksowanie witryny i wspiera Twoje przyszłe działania związane z pozycjonowaniem strony www."
-            }
-        ]
-    },
     "pricing": {
         "title": "Cennik: Ile kosztuje stworzenie strony internetowej?",
         "subtitle": "Nie posiadamy sztywnego cennika, ponieważ każdy biznes wymaga innej strategii. Aby jednak dać Ci punkt odniesienia, przygotowaliśmy przykładową wycenę podstawowego projektu, od którego zaczynamy.",
@@ -482,6 +465,93 @@
             ],
             "cta": "Zapytaj o darmową wycenę"
         }
+    },
+    "pricingFactors": {
+        "title": "Od czego zależy cena strony internetowej?",
+        "intro": "\"Ile kosztuje nowa strona internetowa?\" To pytanie, które słyszymy najczęściej, i rozumiemy dlaczego. Koszt tworzenia stron internetowych zależy od kilku czynników:",
+        "factors": [
+            {
+                "title": "Zakresu funkcjonalności",
+                "desc": "Prosta strona wizytówka kosztuje mniej niż rozbudowana strona internetowa z integracjami płatności.",
+                "icon": "ph:plugs-light"
+            },
+            {
+                "title": "Liczby podstron",
+                "desc": "Im więcej treści i zakładek, tym więcej pracy przy projektowaniu i programowaniu.",
+                "icon": "ph:files-light"
+            },
+            {
+                "title": "Indywidualnych funkcji",
+                "desc": "System rezerwacji, konfigurator produktu czy panel CRM zwiększają czas realizacji.",
+                "icon": "ph:code-light"
+            },
+            {
+                "title": "Zakresu dodatkowych usług",
+                "desc": "Zdjęcia stockowe, czy filmy lub zdjęcia z drona.",
+                "icon": "ph:camera-plus-light"
+            }
+        ],
+        "outro": "Orientacyjnie ceny wahają się od kilku tysięcy złotych za podstawowe strony internetowe (takie jak przykład w sekcji u góry), do kilkunastu lub kilkudziesięciu tysięcy złotych za duże i rozbudowane serwisy."
+    },
+    "maintenanceCosts": {
+        "title": "Jakie są koszty utrzymania strony internetowej?",
+        "intro": "Sam koszt stworzenia strony to tylko część wydatków, o których warto pomyśleć. Strona internetowa, podobnie jak biuro czy sklep stacjonarny, generuje też koszty bieżące. Dobra wiadomość jest taka, że przy nowoczesnej stronie te koszty są zwykle niskie i przewidywalne.",
+        "subintro": "Na koszty utrzymania strony internetowej składają się zazwyczaj cztery elementy:",
+        "costs": [
+            {
+                "title": "Hosting.",
+                "desc": "To miejsce, w którym fizycznie znajdują się pliki Twojej strony. Roczny koszt hostingu dla większości stron wizytówkowych i firmowych to zwykle od kilkuset do około tysiąca złotych, w zależności od wybranego dostawcy i wydajności serwera.",
+                "icon": "ph:server-light"
+            },
+            {
+                "title": "Domena.",
+                "desc": "Adres Twojej strony w internecie trzeba przedłużać co roku. To koszt rzędu kilkudziesięciu złotych rocznie za popularne końcówki, takie jak .pl.",
+                "icon": "ph:globe-light"
+            },
+            {
+                "title": "Certyfikat SSL.",
+                "desc": "W większości nowoczesnych pakietów hostingowych certyfikat SSL jest już wliczony w cenę, dlatego nie generuje dodatkowego kosztu.",
+                "icon": "ph:lock-key-light"
+            },
+            {
+                "title": "Wsparcie techniczne.",
+                "desc": "To jedyny element, który zależy od Ciebie. Podstawowa opieka gwarancyjna (do dwóch godzin miesięcznie na proste zmiany) jest bezpłatna przez rok od uruchomienia strony. Jeśli potrzebujesz więcej, wybierasz płatną subskrypcję dopasowaną do swoich potrzeb.",
+                "icon": "ph:lifebuoy-light"
+            }
+        ],
+        "faq": [
+            {
+                "title": "Co wpływa na wysokość kosztów utrzymania?",
+                "paragraphs": [
+                    "Wysokość rocznych kosztów zależy przede wszystkim od wielkości strony i liczby jej odwiedzin. Strona wizytówka potrzebuje mniej zasobów serwera niż rozbudowany sklep internetowy z tysiącami produktów i dużym ruchem.",
+                    "Znaczenie ma też to, czy strona wymaga stałej opieki merytorycznej. Firmy, które regularnie publikują nowe treści, aktualizują ofertę albo prowadzą kampanie marketingowe, częściej korzystają z płatnej subskrypcji wsparcia technicznego niż firmy z prostą, rzadko zmienianą wizytówką."
+                ]
+            },
+            {
+                "title": "Czy da się przewidzieć koszty z góry?",
+                "paragraphs": [
+                    "Tak. Dlatego już na etapie wyceny strony omawiamy z Tobą, jakiego hostingu potrzebujesz i jaki zakres wsparcia będzie dla Ciebie optymalny. Nie zostawiamy Cię z niespodziewanymi wydatkami po uruchomieniu projektu.",
+                    "Jeśli zależy Ci na jak najniższych kosztach utrzymania, pomożemy dobrać rozwiązanie dopasowane do Twojego budżetu, bez rezygnowania z bezpieczeństwa i wydajności strony."
+                ]
+            }
+        ]
+    },
+    "benefits": {
+        "title": "Strona ma zarabiać, a nie tylko wyglądać",
+        "items": [
+            {
+                "title": "Zbuduj autorytet i zaufanie od pierwszej sekundy",
+                "desc": "Klienci oceniają firmę po jakości jej cyfrowej wizytówki w ułamkach sekund. Przemyślany design i UX sprawiają, że natychmiast pozycjonujesz się jako lider w swojej branży, zostawiając konkurencję w tyle."
+            },
+            {
+                "title": "Zautomatyzuj proces pozyskiwania leadów",
+                "desc": "Przestań odpowiadać na powtarzalne pytania. Tworzymy architekturę informacji, inteligentne formularze kontaktowe i ścieżki użytkownika, które samodzielnie kwalifikują klientów i skracają Twój cykl sprzedażowy."
+            },
+            {
+                "title": "Solidne fundamenty pod SEO",
+                "desc": "Zjawiskowy wygląd to tylko połowa sukcesu. Nasze strony są od podstaw zoptymalizowane pod kątem technicznym (Technical SEO). Szybkie ładowanie, czysty kod i poprawna hierarchia nagłówków tworzą idealną bazę, która ułatwia wyszukiwarkom indeksowanie witryny i wspiera Twoje przyszłe działania związane z pozycjonowaniem strony www."
+            }
+        ]
     },
     "coverage": {
         "title": "Działamy lokalnie, projektujemy globalnie",

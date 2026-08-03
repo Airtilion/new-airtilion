@@ -8,7 +8,7 @@ import WhiteBtn from '@components/buttons/WhiteBtn'
 const ServicePricing = ({ dict }) => {
     const project = dict.exampleProject;
     return (
-        <section className='mt-32 py-32 relative'>
+        <section className='py-32 relative'>
 
             <div className='absolute inset-0 z-0 overflow-hidden'>
                 <Image src={bg} alt="" fill className='object-cover' sizes="100vw" />

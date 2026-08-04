@@ -41,12 +41,13 @@ const page = async ({ searchParams }) => {
     const sp = searchParams instanceof Promise ? await searchParams : searchParams
     const lang = sp?.lang || 'pl'
 
-    const [mainFile, footerFile] = await Promise.all([
+    const [mainFile, formFile, footerFile] = await Promise.all([
         getDictionary(lang, '/websites/websites'),
         getDictionary(lang, 'layout/footer'),
     ])
 
     const dict = mainFile || {}
+    const dictForm = formFile || {}
     const dictFooter = footerFile || {}
 
     return (
@@ -80,7 +81,7 @@ const page = async ({ searchParams }) => {
 
                 <OfferCTA dict={dict.contact} lang={lang} />
 
-                <SlideUpContact dict={dict.form} lang={lang} />
+                <SlideUpContact dict={dictForm} lang={lang} />
 
                 <div className='fixed -z-1 pointer-events-none section-style h-[200px] top-1/3 left-1/2 -translate-1/2 bg-[#E2835080] rounded-full blur-[150px]' />
             </main>

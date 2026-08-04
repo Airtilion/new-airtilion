@@ -16,13 +16,16 @@ const page = async ({ searchParams }) => {
 
   const params = searchParams instanceof Promise ? await searchParams : searchParams;
   const { lang = 'pl' } = await params
-  const [mainFile, footerFile] = await Promise.all([
+
+  const [mainFile, formFile, footerFile] = await Promise.all([
     getDictionary(lang, 'blog'),
+    getDictionary(lang, 'layout/form'),
     getDictionary(lang, 'layout/footer')
   ]);
 
   const dictionary = mainFile || {};
-  const dictionaryFooter = footerFile || {};
+  const dictForm = formFile || {};
+  const dictFooter = footerFile || {};
 
   const schema = getBlogListSchema({
     title: "Twoje źródło wiedzy o web designie i developmentcie",
@@ -39,11 +42,11 @@ const page = async ({ searchParams }) => {
         <Latest dict={dictionary.latest} />
 
         <PortfolioCallToAction dict={dictionary.cta} />
-        <SlideUpContact dict={dictionary.cta.form} lang={lang} />
+        <SlideUpContact dict={dictForm} lang={lang} />
       </main>
       <div className='gradient-transparency-v absolute w-[800px] h-[calc(100%-550px)] bg-linear-to-r from-[#00000000] via-[#e283504D] to-[#00000000] z-[-3] top-0 left-[50%] translate-x-[-50%] max-lg:w-[500px] max-sm:w-[80%]'></div>
 
-      <Footer dict={dictionaryFooter} />
+      <Footer dict={dictFooter} />
       <JsonLd data={schema} />
     </>
   )

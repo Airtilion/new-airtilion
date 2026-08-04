@@ -92,45 +92,7 @@
       "title": "Get a free quote",
       "content": "We're ready to create your website. Fill out a simple form and request a free project quote. We'll get back to you within 24 hours or on the next business day. If you're not sure what you need yet - don't worry. We'll advise you and guide you through the whole process. We'll answer every question.",
       "button": "Request a free quote",
-      "alt": "Photo showing a lion promoting professional websites for companies",
-      "form": {
-        "tag": "Your project. Our passion. Shared success.",
-        "title": "Want to know how much your project will cost? Fill out the form!",
-        "content": "We will contact you within 24 hours or on the next business day. We'll discuss your needs, advise you and propose a price for the project. If you don't want to fill out the form, you can contact us by phone.",
-        "contactData": [
-          "Phone numbers",
-          "Email address",
-          "Opening hours"
-        ],
-        "close": "Close",
-        "fields": [
-          "Full name",
-          "Email",
-          "Phone number",
-          "Preferred phone contact hours",
-          "Project type",
-          "Short description of the website"
-        ],
-        "condition": [
-          "I accept the <a href='/privacy-policy.pdf' target='_blank'>privacy policy</a> and consent to the <a href='/privacy-policy.pdf' target='_blank'>processing of personal data</a>",
-          "I consent to the <a href='/contest-for-the-purpose-of-sending-requested-commercial-information.pdf' target='_blank'>processing of my data</a> for the purpose of receiving commercial information"
-        ],
-        "button": "Send inquiry",
-        "errors": [
-          "",
-          "Full name is required",
-          "Invalid email address",
-          "Email address is required",
-          "Phone number is required",
-          "Invalid phone number",
-          "Short description of the website is required",
-          "You must accept the privacy policy",
-          "You must consent to receive commercial information",
-          "Bot detected",
-          "Failed to send inquiry"
-        ],
-        "success": "Your inquiry has been sent successfully!"
-      }
+      "alt": "Photo showing a lion promoting professional websites for companies"
     },
     "offer": {
       "tag": "Offer",

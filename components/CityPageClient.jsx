@@ -19,7 +19,7 @@ import SlideUpContact from '@components/SlideUpContact';
 import JsonLd from '@components/JsonLd';
 import { getPageSchema } from '@lib/schema';
 
-export default function CityPageClient({ initialData, citySlug, footerDict }) {
+export default function CityPageClient({ initialData, citySlug, formDict, footerDict }) {
     const searchParams = useSearchParams();
     const langParam = searchParams.get('lang');
     const isEnglish = langParam === 'en';
@@ -80,7 +80,7 @@ export default function CityPageClient({ initialData, citySlug, footerDict }) {
                 <CityPortfolio dict={data.portfolio} />
                 <CityFaq dict={data.faq} />
 
-                <SlideUpContact dict={data.cta.form} lang={isEnglish ? 'en' : 'pl'} />
+                <SlideUpContact dict={formDict} lang={isEnglish ? 'en' : 'pl'} />
             </main>
 
             <Footer dict={footerDict} />

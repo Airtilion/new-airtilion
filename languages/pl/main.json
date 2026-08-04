@@ -92,45 +92,7 @@
             "title": "Skorzystaj z darmowej wyceny",
             "content": "Jesteśmy gotowi, żeby stworzyć dla Ciebie Twoją własną stronę internetową. Wypełnij prosty formularz i zamów darmową wycenę swojego projektu. Odezwiemy się do Ciebie w ciągu 24h lub w najbliższym dniu roboczym. Jeśli jeszcze nie wiesz czego dokładnie potrzebujesz nie przejmuj się. Doradzimy i przeprowadzimy Cię przez cały proces. Odpowiemy na każde twoje pytanie.",
             "button": "Zamów darmową wycenę",
-            "alt": "Zdjęcie przedstawiające lwa promującego profesjonalne strony internetowe dla firm",
-            "form": {
-                "tag": "Twój projekt. Nasza pasja. Wspólny skuces.",
-                "title": "Chcesz dowiedzieć się ile będzie kosztował Twój projekt? Wypełnij formularz!",
-                "content": "Odezwiemy się do Ciebie w ciągu 24 godzin lub w kolejny dzień roboczy. Omówimy Twoje potrzeby, doradzimy i zaproponujemy cenę za projekt. Jeśli jednak nie chcesz wypełniać formularza, możesz skontaktować się z nami telefonicznie.",
-                "contactData": [
-                    "Numery telefonu",
-                    "Adres email",
-                    "Godziny otwarcia"
-                ],
-                "close": "Zamknij",
-                "fields": [
-                    "Imię i nazwisko",
-                    "Email",
-                    "Numer telefonu",
-                    "Preferowane godziny kontaktu telefonicznego",
-                    "Typ projektu",
-                    "Krótki opis strony internetowej"
-                ],
-                "condition": [
-                    "Akceptuję <a href='/polityka-prywatnosci.pdf' target='_blank'>politykę prywatności</a> i wyrażam zgodę na <a href='/polityka-prywatnosci.pdf' target='_blank'>przetwarzanie danych osobowych</a>",
-                    "Wyrażam zgodę na <a href='/zgoda-informacja-handlowa.pdf' target='_blank'>przetwarzanie moich danych</a> w celu otrzymania informacji handlowej"
-                ],
-                "button": "Wyślij zapytanie",
-                "errors": [
-                    "",
-                    "Imię i nazwisko jest wymagane",
-                    "Nieprawidłowy adres email",
-                    "Adres email jest wymagany",
-                    "Numer telefonu jest wymagany",
-                    "Nieprawidłowy numer telefonu",
-                    "Krótki opis strony jest wymagany",
-                    "Musisz zaakceptować politykę prywatności",
-                    "Musisz wyrazić zgodę na otrzymywanie informacji handlowej",
-                    "Wykryto bota",
-                    "Nie udało się wysłać zapytania"
-                ],
-                "success": "Twoje zapytanie zostało wysłane pomyślnie!"
-            }
+            "alt": "Zdjęcie przedstawiające lwa promującego profesjonalne strony internetowe dla firm"
         },
         "offer": {
             "tag": "Oferta",

@@ -18,13 +18,15 @@ export const metadata = {
 const page = async ({ searchParams }) => {
     const params = searchParams instanceof Promise ? await searchParams : searchParams;
     const lang = params?.lang || 'pl';
-    const [mainFile, footerFile] = await Promise.all([
+    const [mainFile, formFile, footerFile] = await Promise.all([
         getDictionary(lang, 'portfolio'),
+        getDictionary(lang, 'layout/form'),
         getDictionary(lang, 'layout/footer')
     ]);
 
     const dictionary = mainFile || {};
-    const dictionaryFooter = footerFile || {};
+    const dictForm = formFile || {}
+    const dictFooter = footerFile || {};
 
     return (
         <>
@@ -32,9 +34,9 @@ const page = async ({ searchParams }) => {
             <main className='flex flex-col gap-[192px] mt-[192px] pb-32 overflow-hidden max-sm:mt-[128px] relative'>
                 <PortfolioList dict={dictionary.main} lang={lang} />
                 <CallToAction dict={dictionary.cta} />
-                <SlideUpContact dict={dictionary.cta.form} lang={lang} />
+                <SlideUpContact dict={dictForm} lang={lang} />
             </main>
-            <Footer dict={dictionaryFooter} />
+            <Footer dict={dictFooter} />
             <div className='gradient-transparency-v absolute w-[800px] h-[calc(100%-550px)] bg-linear-to-r from-[#00000000] via-[#e283504D] to-[#00000000] z-[-3] top-0 left-[50%] translate-x-[-50%] max-lg:w-[500px] max-sm:w-[80%]'></div>
         </>
     )

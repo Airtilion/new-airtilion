@@ -61,13 +61,15 @@ export default async function Page({ params }) {
 
   const lang = 'pl';
 
-  const [mainFile, footerFile] = await Promise.all([
+  const [mainFile, formFile, footerFile] = await Promise.all([
     getDictionary(lang, 'portfolio'),
+    getDictionary(lang, 'layout/form'),
     getDictionary(lang, 'layout/footer')
   ]);
 
   const dictionary = mainFile || {};
-  const dictionaryFooter = footerFile || {};
+  const dictForm = formFile || {}
+  const dictFooter = footerFile || {};
 
   let project;
   try {
@@ -84,7 +86,8 @@ export default async function Page({ params }) {
     <PortfolioPageClient
       project={project}
       initialDictionary={dictionary}
-      footerDictionary={dictionaryFooter}
+      formDictionary={dictForm}
+      footerDictionary={dictFooter}
       apiUrl={process.env.NEXT_PUBLIC_API_URL}
     />
   );

@@ -104,45 +104,7 @@
         "title": "Get a free quote",
         "content": "We’re ready to create your own website. Fill out the simple form and request a free quote for your project. We’ll get back to you within 24 hours or the next business day. Not sure what exactly you need? Don’t worry – we’ll guide you through the whole process and answer all your questions.",
         "button": "Request a free quote",
-        "alt": "Lion image promoting professional business websites",
-        "form": {
-            "tag": "Your project. Our passion. Shared success.",
-            "title": "Want to know how much your project will cost? Fill out the form!",
-            "content": "We’ll get back to you within 24 hours or the next business day. We’ll discuss your needs, advise you, and provide a project estimate. If you don’t want to fill out the form, you can also reach us by phone.",
-            "contactData": [
-                "Phone numbers",
-                "Email address",
-                "Business hours"
-            ],
-            "close": "Close",
-            "fields": [
-                "Full name",
-                "Email",
-                "Phone number",
-                "Preferred contact hours",
-                "Project type",
-                "Brief description of the project"
-            ],
-            "condition": [
-                "I accept the <a href='/privacy-policy.pdf' target='_blank'>privacy policy</a> and agree to the <a href='/privacy-policy.pdf' target='_blank'>processing of personal data</a>",
-                "I agree to the <a href='/contest-for-the-purpose-of-sending-requested-commercial-information.pdf' target='_blank'>processing of my data</a> in order to receive commercial information"
-            ],
-            "button": "Send request",
-            "errors": [
-                "",
-                "Full name is required",
-                "Invalid email address",
-                "Email is required",
-                "Phone number is required",
-                "Invalid phone number",
-                "Short description required",
-                "You must accept the privacy policy",
-                "You must consent to receiving commercial information",
-                "Bot detected",
-                "Failed to send request"
-            ],
-            "success": "Your request has been successfully sent!"
-        }
+        "alt": "Lion image promoting professional business websites"
     },
     "faq": {
         "title": "Frequently Asked Questions about Website Maintenance",

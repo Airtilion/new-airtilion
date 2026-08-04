@@ -102,45 +102,7 @@
         "title": "Get a Free Quote",
         "content": "We are ready to create your own website for you. Fill out a simple form and request a free quote for your project. We’ll get back to you within 24h or the next business day. Not sure what exactly you need yet? Don’t worry – we’ll advise you, guide you through the entire process, and answer all your questions.",
         "button": "Request a Free Quote",
-        "alt": "Image of a lion promoting professional websites for businesses",
-        "form": {
-            "tag": "Your project. Our passion. Shared success.",
-            "title": "Want to know how much your project will cost? Fill out the form!",
-            "content": "We will get back to you within 24 hours or the next business day. We’ll discuss your needs, advise you, and propose a project price. If you don’t want to fill out the form, you can contact us by phone instead.",
-            "contactData": [
-                "Phone numbers",
-                "Email address",
-                "Opening hours"
-            ],
-            "close": "Close",
-            "fields": [
-                "Full name",
-                "Email",
-                "Phone number",
-                "Preferred call time",
-                "Project type",
-                "Short shop description"
-            ],
-            "condition": [
-                "I accept the <a href='/privacy-policy.pdf' target='_blank'>privacy policy</a> and consent to the <a href='/privacy-policy.pdf' target='_blank'>processing of personal data</a>",
-                "I agree to the <a href='/contest-for-the-purpose-of-sending-requested-commercial-information.pdf' target='_blank'>processing of my data</a> for receiving commercial information"
-            ],
-            "button": "Send inquiry",
-            "errors": [
-                "",
-                "Full name is required",
-                "Invalid email address",
-                "Email address is required",
-                "Phone number is required",
-                "Invalid phone number",
-                "Short description is required",
-                "You must accept the privacy policy",
-                "You must consent to receive commercial information",
-                "Bot detected",
-                "Failed to send inquiry"
-            ],
-            "success": "Your inquiry has been successfully sent!"
-        }
+        "alt": "Image of a lion promoting professional websites for businesses"
     },
     "faq": {
         "title": "Answers to the Most Frequently Asked Questions About Online Store Design and Development",

@@ -3,6 +3,7 @@ import Link from 'next/link'
 import { getDictionary } from '@utils/getDictionary'
 import Footer from '@components/layout/Footer'
 import Breadcrumbs from '@components/layout/Breadcrumbs'
+import SlideUpContact from '@components/SlideUpContact'
 
 export const metadata = {
     title: "Polityka prywatności | Airtilion",
@@ -15,9 +16,13 @@ const page = async (searchParams) => {
     const params = searchParams instanceof Promise ? await searchParams : searchParams;
     const lang = params?.lang || 'pl';
 
-    const footerFile = await getDictionary(lang, 'layout/footer');
+    const [formFile, footerFile] = await Promise.all([
+        getDictionary(lang, 'layout/form'),
+        getDictionary(lang, 'layout/footer'),
+    ])
 
-    const dictionaryFooter = footerFile || {};
+    const dictForm = formFile || {}
+    const dictFooter = footerFile || {};
     return (
         <>
             <main className='relative section-style-small text-(--primary-text-color) max-lg:text-[15px] max-sm:text-[14px]'>
@@ -406,9 +411,10 @@ const page = async (searchParams) => {
                     </article>
                 )}
                 <div className='fixed -z-1 pointer-events-none section-style h-[200px] top-1/3 left-1/2 -translate-1/2 bg-[#E2835080] rounded-full blur-[150px]' />
+                <SlideUpContact dict={dictForm} lang={lang} />
             </main>
 
-            <Footer dict={dictionaryFooter} />
+            <Footer dict={dictFooter} />
         </>
     )
 }

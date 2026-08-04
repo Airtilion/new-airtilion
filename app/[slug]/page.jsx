@@ -53,14 +53,21 @@ const page = async ({ params }) => {
         notFound();
     }
 
-    const footerFile = await getDictionary(lang, 'layout/footer');
+    const [formFile, footerFile] = await Promise.all([
+        getDictionary(lang, 'layout/form'),
+        getDictionary(lang, 'layout/footer'),
+    ])
+
+    const dictForm = formFile || {}
+    const dictFooter = footerFile || {}
 
     return (
         <CityPageClient
             initialData={initialData}
             citySlug={citySlug}
             slug={slug}
-            footerDict={footerFile}
+            formDict={dictForm}
+            footerDict={dictFooter}
         />
     )
 }

@@ -65,44 +65,6 @@
         "title": "Get a free quote",
         "content": "We’re ready to build your very own website. Fill out a simple form and request a free project quote. We’ll get back to you within 24 hours or the next business day. Not sure what exactly you need yet? Don’t worry. We’ll advise you and guide you through the entire process. We’ll answer all your questions.",
         "button": "Request a free quote",
-        "alt": "Photo of a lion promoting professional business websites",
-        "form": {
-            "tag": "Your project. Our passion. Shared success.",
-            "title": "Want to know how much your project will cost? Fill out the form!",
-            "content": "We’ll contact you within 24 hours or on the next business day. We’ll discuss your needs, provide advice, and offer a project price. If you don’t want to fill out the form, you can also contact us by phone.",
-            "contactData": [
-                "Phone numbers",
-                "Email address",
-                "Opening hours"
-            ],
-            "close": "Close",
-            "fields": [
-                "Full name",
-                "Email",
-                "Phone number",
-                "Preferred call times",
-                "Project type",
-                "Short description of the website"
-            ],
-            "condition": [
-                "I accept the <a href='/privacy-policy.pdf' target='_blank'>Privacy Policy</a> and consent to the <a href='/privacy-policy.pdf' target='_blank'>processing of personal data</a>",
-                "I consent to the <a href='/contest-for-the-purpose-of-sending-requested-commercial-information.pdf' target='_blank'>processing of my data</a> for the purpose of receiving commercial information"
-            ],
-            "button": "Send inquiry",
-            "errors": [
-                "",
-                "Full name is required",
-                "Invalid email address",
-                "Email address is required",
-                "Phone number is required",
-                "Invalid phone number",
-                "Short website description is required",
-                "You must accept the Privacy Policy",
-                "You must consent to receiving commercial information",
-                "Bot detected",
-                "Failed to send inquiry"
-            ],
-            "success": "Your inquiry has been successfully sent!"
-        }
+        "alt": "Photo of a lion promoting professional business websites"
     }
 }

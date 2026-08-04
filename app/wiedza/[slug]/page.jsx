@@ -39,13 +39,15 @@ const KnowledgeArticlePage = async ({ params, searchParams }) => {
     const sp = searchParams instanceof Promise ? await searchParams : searchParams
     const lang = sp?.lang || 'pl'
 
-    const [mainFile, footerFile] = await Promise.all([
+    const [mainFile, formFile, footerFile] = await Promise.all([
         getDictionary(lang, 'knowledge-base'),
+        getDictionary(lang, 'layout/form'),
         getDictionary(lang, 'layout/footer'),
     ]);
 
     const dictionaryKnowledge = mainFile || {};
-    const dictionaryFooter = footerFile || {};
+    const dictForm = formFile || {}
+    const dictFooter = footerFile || {};
 
     let article
     try {
@@ -69,10 +71,10 @@ const KnowledgeArticlePage = async ({ params, searchParams }) => {
                 <KnowledgeRelated articles={related} lang={lang} />
                 <KnowledgeCTA dict={dictionaryKnowledge.CTAsection} />
 
-                <SlideUpContact dict={dictionaryKnowledge.form} lang={lang} />
+                <SlideUpContact dict={dictForm} lang={lang} />
                 <div className='fixed -z-1 pointer-events-none section-style h-[200px] top-1/3 left-1/2 -translate-1/2 bg-[#E2835080] rounded-full blur-[150px]' />
             </main>
-            <Footer dict={dictionaryFooter} />
+            <Footer dict={dictFooter} />
         </>
     )
 }

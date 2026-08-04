@@ -1,4 +1,4 @@
-import React, { Suspense } from 'react'
+import React from 'react'
 import { notFound } from 'next/navigation';
 
 import Route from '@components/blog-singlePost/Route';
@@ -11,11 +11,12 @@ import Content from '@components/blog-singlePost/Content';
 import Author from '@components/blog-singlePost/Author';
 import OtherPosts from '@components/blog-singlePost/OtherPosts';
 
-import BlogBottomWrapper from '@components/blog-singlePost/BlogBottomWrapper';
-
 import { getDictionary } from '@utils/getDictionary';
 import JsonLd from '@components/JsonLd';
 import { getBlogPostSchema } from '@lib/schema';
+import PortfolioCallToAction from '@components/singlePortfolio/PortfolioCallToAction';
+import SlideUpContact from '@components/SlideUpContact';
+import Footer from '@components/layout/Footer';
 
 export const revalidate = 3600;
 
@@ -56,13 +57,15 @@ const page = async ({ params }) => {
 
   const lang = 'pl';
 
-  const [mainFile, footerFile] = await Promise.all([
+  const [mainFile, formFile, footerFile] = await Promise.all([
     getDictionary(lang, 'blog'),
+    getDictionary(lang, 'layout/form'),
     getDictionary(lang, 'layout/footer')
   ]);
 
   const dictionary = mainFile || {};
-  const dictionaryFooter = footerFile || {};
+  const dictForm = formFile || {};
+  const dictFooter = footerFile || {};
 
   const res = await fetch(`${BLOG_URL}/wp-json/wp/v2/posts?slug=${slug}&_embed`);
   if (!res.ok) notFound();
@@ -102,13 +105,12 @@ const page = async ({ params }) => {
           <Author authorName={post.acf.author} />
           <OtherPosts category={category.name} />
 
-          <Suspense fallback={null}>
-            <BlogBottomWrapper initialDictionary={dictionary} footerDictionary={dictionaryFooter} />
-          </Suspense>
-
+          <PortfolioCallToAction dict={dictionary.cta} mt={96} />
         </article>
-
+        <SlideUpContact dict={dictForm} lang={lang} />
       </main>
+
+      <Footer dict={dictFooter} />
       <JsonLd data={schema} />
 
     </>

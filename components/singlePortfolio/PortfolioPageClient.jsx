@@ -16,7 +16,7 @@ import PortfolioCallToAction from '@components/singlePortfolio/PortfolioCallToAc
 import SlideUpContact from '@components/SlideUpContact';
 import Footer from '@components/layout/Footer';
 
-export default function PortfolioPageClient({ project, initialDictionary, footerDictionary, apiUrl }) {
+export default function PortfolioPageClient({ project, initialDictionary, formDictionary, footerDictionary, apiUrl }) {
   const searchParams = useSearchParams();
   const langParam = searchParams.get('lang');
   const isEnglish = langParam === 'en';
@@ -70,7 +70,7 @@ export default function PortfolioPageClient({ project, initialDictionary, footer
 
         <PortfolioCallToAction dict={dictionary.project.cta} />
 
-        <SlideUpContact dict={dictionary.cta?.form ?? {}} lang={lang} />
+        <SlideUpContact dict={formDictionary} lang={lang} />
 
         <div className="gradient-transparency-v absolute w-[800px] h-[calc(100%-550px)] bg-linear-to-r from-[#00000000] via-[#e283504D] to-[#00000000] z-[-3] top-0 left-[50%] translate-x-[-50%] max-lg:w-[500px] max-sm:w-[80%]"></div>
       </main>

@@ -24,13 +24,15 @@ export default async function Home({ searchParams }) {
 
   const params = searchParams instanceof Promise ? await searchParams : searchParams;
   const lang = params?.lang || 'pl';
-  
-  const [mainFile, footerFile] = await Promise.all([
+
+  const [mainFile, formFile, footerFile] = await Promise.all([
     getDictionary(lang, 'main'),
+    getDictionary(lang, 'layout/form'),
     getDictionary(lang, 'layout/footer')
   ]);
 
   const dictionary = mainFile.mainSite || {};
+  const dictForm = formFile || {}
   const dictionaryFooter = footerFile || {};
 
   const opinionsData = await getOpinions();
@@ -56,7 +58,7 @@ export default async function Home({ searchParams }) {
         <Owners dict={dictionary.people || {}} />
         <Contact dict={dictionary.contact || {}} />
         <Faq dict={dictionary.faq || {}} />
-        <SlideUpContact dict={dictionary.cta.form} lang={lang} />
+        <SlideUpContact dict={dictForm} lang={lang} />
       </main>
       <Footer dict={dictionaryFooter} />
       <JsonLd data={schema} />

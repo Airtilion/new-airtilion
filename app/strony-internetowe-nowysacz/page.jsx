@@ -36,13 +36,15 @@ export const metadata = {
 const page = async ({ searchParams }) => {
     const params = searchParams instanceof Promise ? await searchParams : searchParams;
     const lang = params?.lang || 'pl';
-    const [mainFile, footerFile] = await Promise.all([
+    const [mainFile, formFile, footerFile] = await Promise.all([
         getDictionary(lang, 'cities/nowysacz'),
+        getDictionary(lang, 'layout/form'),
         getDictionary(lang, 'layout/footer')
     ]);
 
     const dictionary = mainFile || {};
-    const dictionaryFooter = footerFile || {};
+    const dictForm = formFile || {}
+    const dictFooter = footerFile || {};
 
     const projectsData = await getLatestProjects({ limit: 3, lang });
     const opinionsData = await getOpinions();
@@ -75,9 +77,9 @@ const page = async ({ searchParams }) => {
                 <Opinions dict={dictionary.opinions || {}} lang={lang} data={opinionsData} isMarginTop={true} />
                 <Faq dict={dictionary.faq || {}} isMarginTop={true} />
                 <CallToActionLionv2 dict={dictionary.ctaLionV2} />
-                <SlideUpContact dict={dictionary.form} lang={lang} />
+                <SlideUpContact dict={dictForm} lang={lang} />
             </main>
-            <Footer dict={dictionaryFooter} />
+            <Footer dict={dictFooter} />
             <JsonLd data={schema} />
         </>
     )

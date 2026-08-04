@@ -26,6 +26,7 @@ import ServicePricingFactors from '@features/service/components/ServicePricingFa
 import ServiceMaintenanceCosts from '@features/service/components/ServiceMaintenanceCosts'
 import ServiceExtraCare from '@features/service/components/ServiceExtraCare'
 import ServiceTechSupport from '@features/service/components/ServiceTechSupport'
+import ServiceWhyUs from '@features/service/components/ServiceWhyUs'
 
 
 export const metadata = {
@@ -74,6 +75,7 @@ const page = async ({ searchParams }) => {
                 <ServiceTechSupport dict={dict.techSupport} />
                 <ServiceExtraCare dict={dict.extraCare} />
                 <ServiceCoverage dict={dict.coverage} />
+                <ServiceWhyUs dict={dict.whyUs} />
                 <ServiceFaq dict={dict.faq} />
 
                 <OfferCTA dict={dict.contact} lang={lang} />

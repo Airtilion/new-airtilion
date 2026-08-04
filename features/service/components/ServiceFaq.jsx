@@ -6,7 +6,7 @@ const ServiceFaq = ({ dict }) => {
     const [openIdx, setOpenIdx] = useState(null)
 
     return (
-        <section className='py-24'>
+        <section className='mt-32'>
             <div className='section-style'>
                 <h2 className='title'>{dict.title}</h2>
 

@@ -43,6 +43,23 @@
             }
         ]
     },
+    "benefits": {
+        "title": "Strona ma zarabiać, a nie tylko wyglądać",
+        "items": [
+            {
+                "title": "Zbuduj autorytet i zaufanie od pierwszej sekundy",
+                "desc": "Klienci oceniają firmę po jakości jej cyfrowej wizytówki w ułamkach sekund. Przemyślany design i UX sprawiają, że natychmiast pozycjonujesz się jako lider w swojej branży, zostawiając konkurencję w tyle."
+            },
+            {
+                "title": "Zautomatyzuj proces pozyskiwania leadów",
+                "desc": "Przestań odpowiadać na powtarzalne pytania. Tworzymy architekturę informacji, inteligentne formularze kontaktowe i ścieżki użytkownika, które samodzielnie kwalifikują klientów i skracają Twój cykl sprzedażowy."
+            },
+            {
+                "title": "Solidne fundamenty pod SEO",
+                "desc": "Zjawiskowy wygląd to tylko połowa sukcesu. Nasze strony są od podstaw zoptymalizowane pod kątem technicznym (Technical SEO). Szybkie ładowanie, czysty kod i poprawna hierarchia nagłówków tworzą idealną bazę, która ułatwia wyszukiwarkom indeksowanie witryny i wspiera Twoje przyszłe działania związane z pozycjonowaniem strony www."
+            }
+        ]
+    },
     "types": {
         "title": "Rozwiązania dla stron, które dostarczamy",
         "items": [
@@ -536,22 +553,45 @@
             }
         ]
     },
-    "benefits": {
-        "title": "Strona ma zarabiać, a nie tylko wyglądać",
-        "items": [
+    "techSupport": {
+        "title": "Wsparcie techniczne po wdrożeniu strony",
+        "intro": "Wdrożenie strony to nie koniec naszej współpracy. Oferujemy dwa rodzaje wsparcia technicznego.",
+        "types": [
             {
-                "title": "Zbuduj autorytet i zaufanie od pierwszej sekundy",
-                "desc": "Klienci oceniają firmę po jakości jej cyfrowej wizytówki w ułamkach sekund. Przemyślany design i UX sprawiają, że natychmiast pozycjonujesz się jako lider w swojej branży, zostawiając konkurencję w tyle."
+                "desc": "Pierwsze to gwarancja dołączona do każdego projektu. Przez rok od uruchomienia strony możesz zlecić nam do dwóch godzin miesięcznie prostych zmian, na przykład aktualizację tekstu czy dodanie nowej pozycji do oferty. Ta usługa jest bezpłatna.",
+                "icon": "ph:certificate-light"
             },
             {
-                "title": "Zautomatyzuj proces pozyskiwania leadów",
-                "desc": "Przestań odpowiadać na powtarzalne pytania. Tworzymy architekturę informacji, inteligentne formularze kontaktowe i ścieżki użytkownika, które samodzielnie kwalifikują klientów i skracają Twój cykl sprzedażowy."
-            },
-            {
-                "title": "Solidne fundamenty pod SEO",
-                "desc": "Zjawiskowy wygląd to tylko połowa sukcesu. Nasze strony są od podstaw zoptymalizowane pod kątem technicznym (Technical SEO). Szybkie ładowanie, czysty kod i poprawna hierarchia nagłówków tworzą idealną bazę, która ułatwia wyszukiwarkom indeksowanie witryny i wspiera Twoje przyszłe działania związane z pozycjonowaniem strony www."
+                "desc": "Drugie to płatna subskrypcja wsparcia technicznego. Wspólnie ustalamy liczbę godzin w miesiącu i koszt takiej opieki. Możliwe jest też rozliczenie godzinowe bez miesięcznego limitu.",
+                "icon": "ph:clock-user-light"
             }
-        ]
+        ],
+        "outro": "Dzięki temu Twoja strona internetowa zawsze pozostaje aktualna, bezpieczna i zgodna z najnowszymi wymaganiami wyszukiwarek."
+    },
+    "extraCare": {
+        "title": "Usługi dodatkowe? Opieka nad stroną internetową",
+        "intro": "Nie masz czasu zajmować się swoją stroną internetową? Możesz zlecić to Nam. Strona internetowa, podobnie jak samochód, wymaga regularnej opieki. Aktualizacje oprogramowania, kopie zapasowe czy drobne poprawki treści to elementy, o które warto dbać systematycznie.",
+        "subintro": "W ramach usług dodatkowych oferujemy:",
+        "services": [
+            {
+                "desc": "Bieżącą administrację strony, czyli aktualizacje, monitoring i kopie zapasowe.",
+                "icon": "ph:wrench-light"
+            },
+            {
+                "desc": "Modernizację istniejących witryn, jeśli Twoja obecna strona jest przestarzała technologicznie lub wizualnie.",
+                "icon": "ph:magic-wand-light"
+            },
+            {
+                "desc": "Rozwój funkcjonalności, gdy Twoja firma rośnie i potrzebujesz nowych narzędzi na stronie.",
+                "icon": "ph:trend-up-light"
+            },
+            {
+                "desc": "Wsparcie w kampaniach marketingowych, na przykład przygotowanie landing page pod konkretną promocję.",
+                "icon": "ph:megaphone-light"
+            }
+        ],
+        "outro": "Dzięki stałej opiece Twoja strona internetowa zawsze działa sprawnie i jest gotowa na kolejny etap rozwoju Twojej firmy.",
+        "cta": "Bezpłatna wycena"
     },
     "coverage": {
         "title": "Działamy lokalnie, projektujemy globalnie",
@@ -874,6 +914,11 @@
                 "a": "Nowoczesne technologie, na których pracujemy, takie jak Next.js czy WordPress headless, ułatwiają dodawanie nowych funkcji w przyszłości. Jeśli Twoja firma się rozwija, możemy rozbudować stronę o nowe podstrony, sklep internetowy czy dodatkowe integracje, bez konieczności budowania jej od zera."
             }
         ]
+    },
+    "contact": {
+        "title": "Napisz do nas - doradzimy",
+        "subtitle": "Zostaw wiadomość. Odpiszemy w ciągu 24 godzin i zaproponujemy najlepsze rozwiązanie dla Twojej firmy.",
+        "cta": "Porozmawiajmy o projekcie"
     },
     "form": {
         "title": "Chcesz dowiedzieć się ile będzie kosztował Twój projekt? Wypełnij formularz!",

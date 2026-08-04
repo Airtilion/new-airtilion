@@ -1,8 +1,11 @@
 import React from 'react'
+import { getDictionary } from '@utils/getDictionary'
+
 import Breadcrumbs from '@components/layout/Breadcrumbs'
 import Footer from '@components/layout/Footer'
+import OfferCTA from '@features/offer/components/OfferCTA'
 import SlideUpContact from '@components/SlideUpContact'
-import { getDictionary } from '@utils/getDictionary'
+
 import ServiceHero from '@features/service/components/ServiceHero'
 import ServicePortfolio from '@features/service/components/ServicePortfolio'
 import ServiceIndustries from '@features/service/components/ServiceIndustries'
@@ -21,6 +24,8 @@ import ServicePreparation from '@features/service/components/ServicePreparation'
 import ServiceWorkflow from '@features/service/components/ServiceWorkflow'
 import ServicePricingFactors from '@features/service/components/ServicePricingFactors'
 import ServiceMaintenanceCosts from '@features/service/components/ServiceMaintenanceCosts'
+import ServiceExtraCare from '@features/service/components/ServiceExtraCare'
+import ServiceTechSupport from '@features/service/components/ServiceTechSupport'
 
 
 export const metadata = {
@@ -53,6 +58,7 @@ const page = async ({ searchParams }) => {
                 <ServiceHero dict={dict.hero} />
                 <ServicePortfolio dict={dict.portfolio} />
                 <ServiceWhyWorthIt dict={dict.whyWorthIt} />
+                <ServiceBenefits dict={dict.benefits} />
                 <ServiceTypes dict={dict.types} />
                 <ServiceIndustries dict={dict.industries} />
                 <ServiceUxUi dict={dict.uxui} />
@@ -65,9 +71,12 @@ const page = async ({ searchParams }) => {
                 <ServicePricing dict={dict.pricing} />
                 <ServicePricingFactors dict={dict.pricingFactors} />
                 <ServiceMaintenanceCosts dict={dict.maintenanceCosts} />
-                <ServiceBenefits dict={dict.benefits} />
+                {/* <ServiceTechSupport dict={dict.techSupport} /> */}
+                <ServiceExtraCare dict={dict.extraCare} />
                 <ServiceCoverage dict={dict.coverage} />
                 <ServiceFaq dict={dict.faq} />
+
+                <OfferCTA dict={dict.contact} lang={lang} />
 
                 <SlideUpContact dict={dict.form} lang={lang} />
 

@@ -8,7 +8,7 @@ import OfferSupportServices from '@features/offer/components/OfferSupportService
 import OfferInnovations from '@features/offer/components/OfferInnovations'
 import OfferIndustries from '@features/offer/components/OfferIndustries'
 import OfferProcess from '@features/offer/components/OfferProcess'
-import OfferContact from '@features/offer/components/OfferContact'
+import OfferCTA from '@features/offer/components/OfferCTA'
 import SlideUpContact from '@components/SlideUpContact'
 import OfferCoverage from '@features/offer/components/OfferCoverage'
 
@@ -47,7 +47,7 @@ const page = async ({ searchParams }) => {
                 <OfferCoverage dict={dict.location} />
                 <OfferProcess dict={dict.process} />
 
-                <OfferContact dict={dict.contact} lang={lang} />
+                <OfferCTA dict={dict.contact} lang={lang} />
 
                 <SlideUpContact dict={dict.form} lang={lang} />
 

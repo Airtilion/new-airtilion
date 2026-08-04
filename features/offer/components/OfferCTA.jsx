@@ -5,7 +5,7 @@ import { Icon } from '@iconify/react'
 
 const OfferCTA = ({ dict }) => {
     return (
-        <section className='mt-[128px] mb-[128px]'>
+        <section className='my-32'>
             <div className='section-style'>
 
                 <div className='border border-white/20 p-24 relative overflow-hidden rounded-2xl max-xl:px-8 max-lg:p-16 max-sm:px-8'>

@@ -71,7 +71,7 @@ const page = async ({ searchParams }) => {
                 <ServicePricing dict={dict.pricing} />
                 <ServicePricingFactors dict={dict.pricingFactors} />
                 <ServiceMaintenanceCosts dict={dict.maintenanceCosts} />
-                {/* <ServiceTechSupport dict={dict.techSupport} /> */}
+                <ServiceTechSupport dict={dict.techSupport} />
                 <ServiceExtraCare dict={dict.extraCare} />
                 <ServiceCoverage dict={dict.coverage} />
                 <ServiceFaq dict={dict.faq} />

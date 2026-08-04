@@ -556,15 +556,9 @@
     "techSupport": {
         "title": "Wsparcie techniczne po wdrożeniu strony",
         "intro": "Wdrożenie strony to nie koniec naszej współpracy. Oferujemy dwa rodzaje wsparcia technicznego.",
-        "types": [
-            {
-                "desc": "Pierwsze to gwarancja dołączona do każdego projektu. Przez rok od uruchomienia strony możesz zlecić nam do dwóch godzin miesięcznie prostych zmian, na przykład aktualizację tekstu czy dodanie nowej pozycji do oferty. Ta usługa jest bezpłatna.",
-                "icon": "ph:certificate-light"
-            },
-            {
-                "desc": "Drugie to płatna subskrypcja wsparcia technicznego. Wspólnie ustalamy liczbę godzin w miesiącu i koszt takiej opieki. Możliwe jest też rozliczenie godzinowe bez miesięcznego limitu.",
-                "icon": "ph:clock-user-light"
-            }
+        "paragraphs": [
+            "Pierwsze to gwarancja dołączona do każdego projektu. Przez rok od uruchomienia strony możesz zlecić nam do dwóch godzin miesięcznie prostych zmian, na przykład aktualizację tekstu czy dodanie nowej pozycji do oferty. Ta usługa jest bezpłatna.",
+            "Drugie to płatna subskrypcja wsparcia technicznego. Wspólnie ustalamy liczbę godzin w miesiącu i koszt takiej opieki. Możliwe jest też rozliczenie godzinowe bez miesięcznego limitu."
         ],
         "outro": "Dzięki temu Twoja strona internetowa zawsze pozostaje aktualna, bezpieczna i zgodna z najnowszymi wymaganiami wyszukiwarek."
     },

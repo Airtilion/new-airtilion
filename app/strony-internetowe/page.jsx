@@ -30,8 +30,8 @@ import ServiceWhyUs from '@features/service/components/ServiceWhyUs'
 
 
 export const metadata = {
-    title: 'Strony internetowe | Airtilion',
-    description: 'Projektujemy strony, sklepy i aplikacje internetowe dla firm z całej Polski.',
+    title: 'Projektowanie i tworzenie stron internetowych - Airtilion',
+    description: 'Sprawdź ofertę naszą ofertę tworzenia stron www. Oferujemy projektowanie, optymalizację SEO i responsywny CMS. Zobacz cennik i zamów wycenę!',
     alternates: {
         canonical: 'https://airtilion.com/strony-internetowe',
     },
@@ -43,7 +43,8 @@ const page = async ({ searchParams }) => {
 
     const [mainFile, formFile, footerFile] = await Promise.all([
         getDictionary(lang, '/websites/websites'),
-        getDictionary(lang, 'layout/footer'),
+        getDictionary(lang, '/layout/form'),
+        getDictionary(lang, '/layout/footer'),
     ])
 
     const dict = mainFile || {}

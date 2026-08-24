@@ -1,0 +1,84 @@
+{
+    "hero": {
+        "title": "Tworzenie sklepów internetowych",
+        "subtitle": "Nowoczesne sklepy internetowe, szybkie i zoptymalizowane pod SEO, dla firm z całej Polski. Zobacz, co możemy dla Ciebie zaprojektować.",
+        "cta": "Darmowa wycena",
+        "ctaSecondary": "Zobacz realizacje"
+    },
+    "portfolio": {
+        "title": "Nasze najnowsze realizacje",
+        "desc": "Poniżej prezentujemy wybrane realizacje, które stworzyliśmy dla naszych klientów. Więcej szczegółów na temat każdej realizacji, w tym użytych platform i efektów współpracy, znajdziesz w pełnym portfolio.",
+        "buttonText": "Zobacz szczegóły wdrożenia"
+    },
+    "whyWorthIt": {
+        "title": "Dlaczego warto zainwestować w sklep internetowy?",
+        "intro": "Coraz więcej klientów kupuje online, nawet w branżach, które kiedyś kojarzyły się wyłącznie ze sprzedażą stacjonarną. Dobry sklep internetowy pozwala Ci dotrzeć do nich bez ograniczeń godzinowych i geograficznych. Nowoczesny sklep internetowy to dziś standard, nie dodatek do biznesu.",
+        "imgAlt": "Wizualizacja nowoczesnego sklepu internetowego na ekranie smartfona",
+        "subintro": "Dobrze zaprojektowany sklep internetowy daje Ci kilka konkretnych korzyści:",
+        "benefits": [
+            {
+                "title": "Sprzedaje 24 godziny na dobę",
+                "desc": "Klient może złożyć zamówienie o dowolnej porze, bez udziału Twojego zespołu.",
+                "icon": "ph:clock-light"
+            },
+            {
+                "title": "Buduje zaufanie od pierwszej wizyty",
+                "desc": "Czytelna karta produktu i przejrzysty koszyk zwiększają szansę na finalizację zamówienia.",
+                "icon": "ph:shield-check-light"
+            },
+            {
+                "title": "Skaluje się razem z Twoim biznesem",
+                "desc": "Dobrze zaprojektowana architektura obsłuży zarówno kilkadziesiąt, jak i kilkadziesiąt tysięcy produktów.",
+                "icon": "ph:trend-up-light"
+            },
+            {
+                "title": "Poprawia widoczność w Google",
+                "desc": "Sklep zoptymalizowany pod SEO trafia do klientów, którzy już szukają Twoich produktów.",
+                "icon": "ph:magnifying-glass-light"
+            },
+            {
+                "title": "Ogranicza porzucone koszyki",
+                "desc": "Prosty proces zakupowy i wiele metod płatności zmniejszają liczbę niedokończonych transakcji.",
+                "icon": "ph:shopping-cart-light"
+            }
+        ]
+    },
+    "platforms": {
+        "title": "Na jakich platformach tworzymy sklepy internetowe?",
+        "desc": "Wybór platformy zależy od wielkości Twojej oferty, budżetu i planów rozwoju. Najczęściej pracujemy na trzech sprawdzonych systemach:",
+        "items": [
+            {
+                "title": "WooCommerce",
+                "desc": [
+                    "WooCommerce to wtyczka do WordPressa, która zamienia stronę w pełnoprawny sklep internetowy. To dobry wybór, jeśli zależy Ci na prostej edycji treści, pełnej kontroli nad kodem i niższych kosztach wdrożenia.",
+                    "WooCommerce sprawdza się w sklepach z kilkudziesięcioma lub kilkuset produktami. Duża społeczność i mnóstwo gotowych integracji ułatwiają rozbudowę sklepu w przyszłości. To też jedyna z trzech platform, którą możemy w pełni połączyć z architekturą headless."
+                ],
+                "icon": "simple-icons:woocommerce",
+                "link": "/sklepy-internetowe/woocommerce"
+            },
+            {
+                "title": "Shopify",
+                "desc": [
+                    "Shopify to gotowa platforma e-commerce w modelu SaaS, czyli oprogramowanie utrzymywane i aktualizowane przez dostawcę. Płacisz miesięczny abonament, a w zamian dostajesz stabilność, szybkość działania i wygodną obsługę bez konieczności martwienia się o hosting.",
+                    "Shopify świetnie sprawdza się w sklepach, które planują szybki rozwój i sprzedaż na kilku rynkach jednocześnie. Wbudowana obsługa wielu walut i języków ułatwia wejście na zagraniczne rynki bez dodatkowych integracji."
+                ],
+                "icon": "simple-icons:shopify",
+                "link": "/sklepy-internetowe/shopify"
+            },
+            {
+                "title": "Shoper",
+                "desc": [
+                    "Shoper to polska platforma e-commerce, również w modelu SaaS, popularna wśród mniejszych i średnich sklepów działających głównie na rynku krajowym. Doceniana za prostotę obsługi i polskojęzyczne wsparcie techniczne.",
+                    "Shoper to dobry wybór, jeśli zależy Ci na szybkim starcie, przewidywalnych kosztach miesięcznych i integracjach z polskimi firmami kurierskimi oraz systemami księgowymi."
+                ],
+                "icon": "ph:storefront-light",
+                "link": "/sklepy-internetowe/shoper"
+            }
+        ]
+    },
+    "contact": {
+        "title": "Napisz do nas - doradzimy",
+        "subtitle": "Zostaw wiadomość. Odpiszemy w ciągu 24 godzin i zaproponujemy najlepsze rozwiązanie dla Twojej firmy.",
+        "cta": "Porozmawiajmy o projekcie"
+    }
+}

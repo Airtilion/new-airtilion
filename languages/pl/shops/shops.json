@@ -74,7 +74,53 @@
                 "icon": "ph:storefront-light",
                 "link": "/sklepy-internetowe/shoper"
             }
-        ]
+        ],
+        "h3": "Które rozwiązanie wybrać?",
+        "headers": [
+            "Kryterium",
+            "WooCommerce",
+            "Shopify",
+            "Shoper"
+        ],
+        "rows": [
+            {
+                "criterion": "Model",
+                "woo": "Self hosted",
+                "shopify": "SaaS, abonament",
+                "shoper": "SaaS, abonament"
+            },
+            {
+                "criterion": "Koszt startowy",
+                "woo": "Niższy",
+                "shopify": "Średni",
+                "shoper": "Niższy"
+            },
+            {
+                "criterion": "Koszty miesięczne",
+                "woo": "Tylko hosting",
+                "shopify": "Stały abonament",
+                "shoper": "Stały abonament"
+            },
+            {
+                "criterion": "Elastyczność kodu",
+                "woo": "Bardzo wysoka",
+                "shopify": "Ograniczona",
+                "shoper": "Ograniczona"
+            },
+            {
+                "criterion": "Sprzedaż zagraniczna",
+                "woo": "Wymaga integracji",
+                "shopify": "Wbudowana",
+                "shoper": "Wymaga integracji"
+            },
+            {
+                "criterion": "Najlepsze dla",
+                "woo": "Sklepów z indywidualnymi potrzebami",
+                "shopify": "Sklepów planujących szybki rozwój i eksport",
+                "shoper": "Mniejszych sklepów na rynku polskim"
+            }
+        ],
+        "outro": "Jeśli nie wiesz, które rozwiązanie pasuje do Twojego biznesu, podpowiemy Ci podczas pierwszej rozmowy. Dobierzemy platformę na podstawie Twoich realnych potrzeb, a nie naszych preferencji."
     },
     "contact": {
         "title": "Napisz do nas - doradzimy",

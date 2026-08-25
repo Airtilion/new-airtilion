@@ -1,76 +1,41 @@
 import React from 'react'
 import Link from 'next/link'
-
-// Funkcja do ładowania dojebanych zdjęć (podmienisz na swoje w przyszłości)
-const getPlatformImage = (title) => {
-    const t = title.toLowerCase();
-    // Przykładowe zdjęcia z Unsplash – wysoka jakość, mroczny/premium klimat
-    if (t.includes('woo')) return 'https://images.unsplash.com/photo-1661956602116-aa6865609028?q=80&w=1664&auto=format&fit=crop';
-    if (t.includes('shopi')) return 'https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?q=80&w=1600&auto=format&fit=crop';
-    return 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=1600&auto=format&fit=crop';
-}
+import { Icon } from '@iconify/react'
 
 const ServicePlatforms = ({ dict, lang, baseUrl = "https://airtilion.com" }) => {
     return (
-        <section className='mt-32 max-md:mt-24'>
+        <section className='mt-32'>
             <div className='section-style'>
 
-                {/* Potężny, czysty nagłówek */}
-                <div className='max-w-4xl mb-32 max-md:mb-20'>
-                    <h2 className='text-[56px] leading-[1.1] font-bold text-white tracking-tight max-lg:text-[48px] max-md:text-[40px]'>
-                        {dict.title}
-                    </h2>
-                    <p className='mt-8 text-[20px] leading-relaxed text-white/70 max-lg:text-[18px] max-w-3xl'>
+                <div className='max-w-3xl mx-auto text-center max-md:max-w-none'>
+                    <h2 className='title'>{dict.title}</h2>
+                    <p className='mt-6 text-[18px] leading-relaxed max-lg:text-[16px]'>
                         {dict.desc}{' '}
-                        <Link href='/sklepy-internetowe/woocommerce' className='text-white hover:text-[#e28350] transition-colors'>WooCommerce</Link>,{' '}
-                        <Link href='/sklepy-internetowe/shopify' className='text-white hover:text-[#e28350] transition-colors'>Shopify</Link>{' '}
+                        <Link href='/sklepy-internetowe/woocommerce' className='text-white font-semibold hover:text-[#e28350] transition-colors'>WooCommerce</Link>,{' '}
+                        <Link href='/sklepy-internetowe/shopify' className='text-white font-semibold hover:text-[#e28350] transition-colors'>Shopify</Link>{' '}
                         {lang === 'en' ? 'and' : 'i'}&nbsp;
-                        <Link href='/sklepy-internetowe/shoper' className='text-white hover:text-[#e28350] transition-colors'>Shoper</Link>.
+                        <Link href='/sklepy-internetowe/shoper' className='text-white font-semibold hover:text-[#e28350] transition-colors'>Shoper</Link>.
                     </p>
                 </div>
 
-                {/* Układ Magazynowy - Wielkie zdjęcia i czysty tekst */}
-                <div className='flex flex-col gap-32 max-md:gap-24'>
+                <div className='mt-20 flex flex-col border-t border-white/10 rounded-t-2xl'>
                     {dict.items.map((item, idx) => (
-                        <div 
-                            key={idx} 
-                            // lg:even:flex-row-reverse robi robotę - parzyste elementy zamieniają się stronami
-                            className='group flex flex-col lg:flex-row lg:even:flex-row-reverse items-center gap-16 max-xl:gap-12'
-                        >
-                            {/* Sekcja Zdjęcia (50% szerokości) */}
-                            <Link 
-                                href={`${baseUrl}${item.link}`}
-                                className='w-full lg:w-1/2 overflow-hidden rounded-[2rem] aspect-[4/3] block'
-                            >
-                                <img 
-                                    src={getPlatformImage(item.title)} 
-                                    alt={item.title} 
-                                    className='w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-[1.5s] ease-out opacity-80 group-hover:opacity-100'
-                                />
-                            </Link>
+                        <Link key={idx} href={`${baseUrl}${item.link}`} className={`group flex items-center justify-between px-8 py-12 border-b border-white/10 hover:bg-white/[0.02] transition-colors duration-300 gap-12 ${idx === 0 ? 'rounded-t-2xl' : ''} ${idx === 2 ? 'rounded-b-2xl' : ''} max-lg:flex-col max-lg:py-10 max-lg:gap-6 max-sm:px-6`}>
 
-                            {/* Sekcja Tekstu (50% szerokości) */}
-                            <div className='w-full lg:w-1/2 flex flex-col justify-center'>
-                                <h3 className='text-[48px] font-bold text-white mb-8 tracking-tight max-lg:text-[40px] max-md:text-[32px]'>
-                                    {item.title}
-                                </h3>
-                                
-                                <div className='flex flex-col gap-6 text-[18px] leading-relaxed text-white/70 max-md:text-[16px]'>
-                                    {item.desc.map((paragraph, pIdx) => (
-                                        <p key={pIdx}>{paragraph}</p>
-                                    ))}
-                                </div>
-
-                                <div className='mt-12'>
-                                    <Link 
-                                        href={`${baseUrl}${item.link}`}
-                                        className='inline-block text-[16px] font-medium uppercase tracking-widest text-white border-b-2 border-[#e28350] pb-2 hover:text-[#e28350] transition-colors duration-300'
-                                    >
-                                        Dowiedz się więcej
-                                    </Link>
-                                </div>
+                            <div className='w-[35%] shrink-0 max-lg:w-full'>
+                                <h3 className='text-[36px] font-medium text-white tracking-tight group-hover:text-[#e28350] transition-colors duration-300 max-lg:text-[32px] max-md:text-[28px]'>{item.title}</h3>
                             </div>
-                        </div>
+
+                            <div className='w-[50%] flex flex-col gap-4 text-[16px] leading-relaxed max-lg:w-full max-lg:text-[15px]'>
+                                {item.desc.map((paragraph, pIdx) => (
+                                    <p key={pIdx}>{paragraph}</p>
+                                ))}
+                            </div>
+
+                            <div aria-hidden='true' className='shrink-0 flex justify-end w-[10%] max-lg:ml-auto max-lg:mt-4'>
+                                <Icon icon='ph:arrow-up-right-light' className='text-white/40 w-8 h-8 group-hover:text-[#e28350] group-hover:translate-x-1 group-hover:-translate-y-1 transition-all duration-300' />
+                            </div>
+                        </Link>
                     ))}
                 </div>
 

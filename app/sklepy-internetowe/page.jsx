@@ -3,13 +3,17 @@ import { getDictionary } from '@utils/getDictionary'
 
 import Breadcrumbs from '@components/layout/Breadcrumbs'
 import Footer from '@components/layout/Footer'
-import OfferCTA from '@features/offer/components/OfferCTA'
 import SlideUpContact from '@components/SlideUpContact'
 
-import ServiceHero from '@features/service/components/ServiceHero'
-import ServicePortfolio from '@features/service/components/ServicePortfolio'
-import ServiceWhyWorthIt from '@features/service/components/ServiceWhyWorthIt'
-import ServicePlatforms from '@features/service/components/ServicePlatforms'
+import PageHero from '@components/blocks/PageHero'
+import PortfolioGrid from '@components/blocks/PortfolioGrid'
+import StickyImageBenefitsList from '@components/blocks/StickyImageBenefitsList'
+import CornerFrameCta from '@components/blocks/cta/CornerFrameCta'
+
+import ShopPlatforms from '@app/sklepy-internetowe/_components/ShopPlatforms'
+
+import worth from '@assets/images/websites/worth-it.webp'
+import ShopHeadlessArchitecture from './_components/ShopHeadlessArchitecture'
 
 export const metadata = {
     title: 'Projektowanie i tworzenie sklepów internetowych - Airtilion',
@@ -40,12 +44,13 @@ const page = async ({ searchParams }) => {
                     <Breadcrumbs />
                 </div>
 
-                <ServiceHero dict={dict.hero} />
-                <ServicePortfolio dict={dict.portfolio} />
-                <ServiceWhyWorthIt dict={dict.whyWorthIt} />
-                <ServicePlatforms dict={dict.platforms} lang={lang} />
+                <PageHero dict={dict.hero} />
+                <PortfolioGrid dict={dict.portfolio} />
+                <StickyImageBenefitsList dict={dict.whyWorthIt} image={worth} />
+                <ShopPlatforms dict={dict.platforms} lang={lang} />
+                <ShopHeadlessArchitecture dict={dict.headless} />
 
-                <OfferCTA dict={dict.contact} lang={lang} />
+                <CornerFrameCta dict={dict.contact} lang={lang} />
 
                 <SlideUpContact dict={dictForm} lang={lang} />
 

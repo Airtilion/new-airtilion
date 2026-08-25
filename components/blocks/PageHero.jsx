@@ -2,12 +2,23 @@
 import React from 'react'
 import { Icon } from '@iconify/react'
 
-const ServiceHero = ({ dict }) => {
+const TITLE_SIZE_TIERS = [
+    { maxLength: 45, className: 'text-[96px] max-2xl:text-[80px] max-lg:text-[65px] max-md:text-[56px] max-sm:text-[45px]' },
+    { maxLength: 75, className: 'text-[76px] max-2xl:text-[64px] max-lg:text-[52px] max-md:text-[44px] max-sm:text-[36px]' },
+    { maxLength: Infinity, className: 'text-[60px] max-2xl:text-[52px] max-lg:text-[42px] max-md:text-[36px] max-sm:text-[30px]' },
+]
+
+const getTitleSizeClass = (title = '') => {
+    const length = title.length
+    return (TITLE_SIZE_TIERS.find(tier => length <= tier.maxLength) ?? TITLE_SIZE_TIERS.at(-1)).className
+}
+
+const PageHero = ({ dict }) => {
     return (
         <section className='section-style mt-24 max-sm:mt-16'>
             <div className='max-w-4xl'>
 
-                <h1 className='text-[96px] font-medium leading-[1] tracking-tighter text-white max-2xl:text-[80px] max-lg:text-[65px] max-md:text-[56px] max-sm:text-[45px]'>{dict.title}</h1>
+                <h1 className={`leading-[1] tracking-tighter text-white ${getTitleSizeClass(dict.title)}`}>{dict.title}</h1>
 
                 <p className='mt-10 text-[20px] max-w-2xl leading-relaxed max-lg:text-[18px] max-sm:text-[16px]'>{dict.subtitle}</p>
 
@@ -29,4 +40,4 @@ const ServiceHero = ({ dict }) => {
     )
 }
 
-export default ServiceHero
+export default PageHero

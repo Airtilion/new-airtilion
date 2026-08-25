@@ -3,7 +3,7 @@
 import React from 'react'
 import { Icon } from '@iconify/react'
 
-const OfferCTA = ({ dict }) => {
+const CornerFrameCta= ({ dict }) => {
     return (
         <section className='my-32'>
             <div className='section-style'>
@@ -16,7 +16,7 @@ const OfferCTA = ({ dict }) => {
                     <div className='flex gap-16 items-end relative z-10 max-xl:items-center max-xl:gap-8 max-lg:justify-between max-lg:items-start max-lg:flex-col'>
 
                         <div className='flex-1 max-lg:text-center max-lg:mx-auto'>
-                            <h2 className='text-[80px] font-medium leading-[0.95] tracking-tighter max-w-3xl max-2xl:text-[70px] max-lg:text-[50px] max-lg:max-w-none max-md:text-[48px] max-sm:text-[40px]'>{dict.title}</h2>
+                            <h2 className='text-[80px] leading-[0.95] tracking-tighter max-w-3xl max-2xl:text-[70px] max-lg:text-[50px] max-lg:max-w-none max-md:text-[48px] max-sm:text-[40px]'>{dict.title}</h2>
                             <p className='mt-8 text-[18px] text-white/50 leading-relaxed max-w-xl max-lg:max-w-md max-lg:text-[16px] max-lg:mx-auto max-sm:text-[15px]'>{dict.subtitle}</p>
                         </div>
 
@@ -35,11 +35,11 @@ const OfferCTA = ({ dict }) => {
                         </div>
                     </div>
 
-                    <div className='absolute -bottom-16 -right-8 text-[160px] md:text-[240px] leading-none font-medium text-white/[0.02] pointer-events-none select-none tracking-tighter max-md:-bottom-8' aria-hidden='true'>GO.</div>
+                    <div className='absolute -bottom-16 -right-8 text-[160px] md:text-[240px] leading-none text-white/[0.02] pointer-events-none select-none tracking-tighter max-md:-bottom-8' aria-hidden='true'>GO.</div>
                 </div>
             </div>
         </section>
     )
 }
 
-export default OfferCTA
+export default CornerFrameCta

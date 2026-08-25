@@ -2,7 +2,7 @@ import React from 'react'
 import Link from 'next/link'
 import { Icon } from '@iconify/react'
 
-const ServicePlatforms = ({ dict, lang, baseUrl = "https://airtilion.com" }) => {
+const ShopPlatforms = ({ dict, lang, baseUrl = "https://airtilion.com" }) => {
     return (
         <section className='mt-32'>
             <div className='section-style'>
@@ -12,10 +12,10 @@ const ServicePlatforms = ({ dict, lang, baseUrl = "https://airtilion.com" }) => 
                         <h2 className='title'>{dict.title}</h2>
                         <p className='mt-6 text-[18px] leading-relaxed max-lg:text-[16px]'>
                             {dict.desc}{' '}
-                            <Link href='/sklepy-internetowe/woocommerce' className='text-white font-semibold hover:text-[#e28350] transition-colors'>WooCommerce</Link>,{' '}
-                            <Link href='/sklepy-internetowe/shopify' className='text-white font-semibold hover:text-[#e28350] transition-colors'>Shopify</Link>{' '}
+                            <Link href='/sklepy-internetowe/woocommerce' className='text-white font-bold hover:text-[#e28350] transition-colors'>WooCommerce</Link>,{' '}
+                            <Link href='/sklepy-internetowe/shopify' className='text-white font-bold hover:text-[#e28350] transition-colors'>Shopify</Link>{' '}
                             {lang === 'en' ? 'and' : 'i'}&nbsp;
-                            <Link href='/sklepy-internetowe/shoper' className='text-white font-semibold hover:text-[#e28350] transition-colors'>Shoper</Link>.
+                            <Link href='/sklepy-internetowe/shoper' className='text-white font-bold hover:text-[#e28350] transition-colors'>Shoper</Link>.
                         </p>
                     </div>
 
@@ -24,7 +24,7 @@ const ServicePlatforms = ({ dict, lang, baseUrl = "https://airtilion.com" }) => 
                             <Link key={idx} href={`${baseUrl}${item.link}`} className={`group flex items-center justify-between px-8 py-12 border-b border-white/10 hover:bg-white/[0.02] transition-colors duration-300 gap-12 ${idx === 0 ? 'rounded-t-2xl' : ''} ${idx === 2 ? 'rounded-b-2xl' : ''} max-lg:flex-col max-lg:py-10 max-lg:gap-6 max-sm:px-6`}>
 
                                 <div className='w-[35%] shrink-0 max-lg:w-full'>
-                                    <h3 className='text-[36px] font-medium text-white tracking-tight group-hover:text-[#e28350] transition-colors duration-300 max-lg:text-[32px] max-md:text-[28px]'>{item.title}</h3>
+                                    <h3 className='text-[36px] text-white tracking-tight group-hover:text-[#e28350] transition-colors duration-300 max-lg:text-[32px] max-md:text-[28px]'>{item.title}</h3>
                                 </div>
 
                                 <div className='w-[50%] flex flex-col gap-4 text-[16px] leading-relaxed max-lg:w-full max-lg:text-[15px]'>
@@ -42,7 +42,7 @@ const ServicePlatforms = ({ dict, lang, baseUrl = "https://airtilion.com" }) => 
                 </div>
 
                 <div className='mt-24'>
-                    <h3 className='text-[36px] text-center font-medium text-white tracking-tight group-hover:text-[#e28350] transition-colors duration-300 max-lg:text-[32px] max-md:text-[28px]'>{dict.h3}</h3>
+                    <h3 className='text-[36px] text-center text-white tracking-tight group-hover:text-[#e28350] transition-colors duration-300 max-lg:text-[32px] max-md:text-[28px]'>{dict.h3}</h3>
 
                     <div className='mt-12 w-full overflow-x-auto rounded-2xl border border-white/10 [scrollbar-width:thin] [&::-webkit-scrollbar]:h-1.5 [&::-webkit-scrollbar-track]:bg-transparent [&::-webkit-scrollbar-thumb]:bg-white/10 [&::-webkit-scrollbar-thumb]:rounded-full hover:[&::-webkit-scrollbar-thumb]:bg-white/20'>
                         <table className='w-full text-left min-w-[900px]'>
@@ -73,4 +73,4 @@ const ServicePlatforms = ({ dict, lang, baseUrl = "https://airtilion.com" }) => 
     )
 }
 
-export default ServicePlatforms
+export default ShopPlatforms

@@ -122,6 +122,22 @@
         ],
         "outro": "Jeśli nie wiesz, które rozwiązanie pasuje do Twojego biznesu, podpowiemy Ci podczas pierwszej rozmowy. Dobierzemy platformę na podstawie Twoich realnych potrzeb, a nie naszych preferencji."
     },
+    "workflow": {
+        "title": "Architektura headless: nasze podejście do wydajności sklepu",
+        "paragraphs": [
+            "Weźmy przykładowy projekt: stronę dla lokalnej firmy usługowej, która do tej pory nie miała żadnej obecności w internecie. Zaczynamy od rozmowy o jej klientach i konkurencji w regionie.",
+            "Na tej podstawie projektujemy prostą i skuteczną strukturę: stronę główną z jasnym opisem oferty, podstronę z cennikiem lub czynnikami wpływającymi na cenę, sekcję z opiniami klientów oraz formularz kontaktowy. Całość kodujemy w next.js, dzięki czemu strona ładuje się błyskawicznie na telefonie i komputerze.",
+            "Po uruchomieniu konfigurujemy Google Analytics, Search Console oraz wizytówkę firmy w Google. Klient zyskuje nie tylko stronę internetową, ale kompletne narzędzie do pozyskiwania nowych klientów."
+        ]
+    },
+    "headless": {
+        "title": "Architektura headless - nasze podejście do wydajności sklepu",
+        "intro": "Klasyczny sklep na WooCommerce działa dobrze, ale przy dużym ruchu i rozbudowanej ofercie może zwalniać. Dlatego przy bardziej wymagających projektach proponujemy architekturę headless.",
+        "solution": "W takim rozwiązaniu frontend sklepu budujemy w Next.js, czyli w dużym skrócie, technologii zapewniającej błyskawiczne ładowanie stron. WooCommerce pozostaje w tle i odpowiada za zarządzanie produktami, zamówieniami i magazynem.",
+        "benefits": "Dzięki temu zyskujesz to, co najlepsze z obu światów: znany i wygodny panel do zarządzania sklepem oraz absolutną wydajność nowoczesnych technologii frontendowych.",
+        "note": "Shopify i Shoper to gotowe platformy SaaS, zoptymalizowane pod wydajność już przez samego dostawcę, dlatego przy tych rozwiązaniach headless zwykle nie jest potrzebny.",
+        "altImg": "Ekran laptopa wyświetlający nowoczesny sklep internetowy, stanowiący przykład wydajnego frontendu w architekturze headless"
+    },
     "contact": {
         "title": "Napisz do nas - doradzimy",
         "subtitle": "Zostaw wiadomość. Odpiszemy w ciągu 24 godzin i zaproponujemy najlepsze rozwiązanie dla Twojej firmy.",

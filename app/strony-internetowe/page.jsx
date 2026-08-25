@@ -3,11 +3,13 @@ import { getDictionary } from '@utils/getDictionary'
 
 import Breadcrumbs from '@components/layout/Breadcrumbs'
 import Footer from '@components/layout/Footer'
-import OfferCTA from '@features/offer/components/OfferCTA'
 import SlideUpContact from '@components/SlideUpContact'
 
-import ServiceHero from '@features/service/components/ServiceHero'
-import ServicePortfolio from '@features/service/components/ServicePortfolio'
+import PageHero from '@components/blocks/PageHero'
+import PortfolioGrid from '@components/blocks/PortfolioGrid'
+import StickyImageBenefitsList from '@components/blocks/StickyImageBenefitsList'
+import CornerFrameCta from '@components/blocks/cta/CornerFrameCta'
+
 import ServiceIndustries from '@features/service/components/ServiceIndustries'
 import ServiceProcess from '@features/service/components/ServiceProcess'
 import ServiceCoverage from '@features/service/components/ServiceCoverage'
@@ -16,7 +18,6 @@ import ServiceIncludes from '@features/service/components/ServiceIncludes'
 import ServiceTypes from '@features/service/components/ServiceTypes'
 import ServicePricing from '@features/service/components/ServicePricing'
 import ServiceBenefits from '@features/service/components/ServiceBenefits'
-import ServiceWhyWorthIt from '@features/service/components/ServiceWhyWorthIt'
 import ServiceUxUi from '@features/service/components/ServiceUxUi'
 import ServiceSpeed from '@features/service/components/ServiceSpeed'
 import ServiceSecurity from '@features/service/components/ServiceSecurity'
@@ -28,6 +29,7 @@ import ServiceExtraCare from '@features/service/components/ServiceExtraCare'
 import ServiceTechSupport from '@features/service/components/ServiceTechSupport'
 import ServiceWhyUs from '@features/service/components/ServiceWhyUs'
 
+import worth from '@assets/images/websites/worth-it.webp'
 
 export const metadata = {
     title: 'Projektowanie i tworzenie stron internetowych - Airtilion',
@@ -58,9 +60,9 @@ const page = async ({ searchParams }) => {
                     <Breadcrumbs />
                 </div>
 
-                <ServiceHero dict={dict.hero} />
-                <ServicePortfolio dict={dict.portfolio} />
-                <ServiceWhyWorthIt dict={dict.whyWorthIt} />
+                <PageHero dict={dict.hero} />
+                <PortfolioGrid dict={dict.portfolio} />
+                <StickyImageBenefitsList dict={dict.whyWorthIt} image={worth} />
                 <ServiceBenefits dict={dict.benefits} />
                 <ServiceTypes dict={dict.types} />
                 <ServiceIndustries dict={dict.industries} />
@@ -80,7 +82,7 @@ const page = async ({ searchParams }) => {
                 <ServiceWhyUs dict={dict.whyUs} />
                 <ServiceFaq dict={dict.faq} />
 
-                <OfferCTA dict={dict.contact} lang={lang} />
+                <CornerFrameCta dict={dict.contact} lang={lang} />
 
                 <SlideUpContact dict={dictForm} lang={lang} />
 

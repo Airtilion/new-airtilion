@@ -2,15 +2,16 @@ import React from 'react'
 import Breadcrumbs from '@components/layout/Breadcrumbs'
 import Footer from '@components/layout/Footer'
 import { getDictionary } from '@utils/getDictionary'
-import OfferHero from '@features/offer/components/OfferHero'
 import OfferMainServices from '@features/offer/components/OfferMainServices'
 import OfferSupportServices from '@features/offer/components/OfferSupportServices'
 import OfferInnovations from '@features/offer/components/OfferInnovations'
 import OfferIndustries from '@features/offer/components/OfferIndustries'
 import OfferProcess from '@features/offer/components/OfferProcess'
-import OfferCTA from '@features/offer/components/OfferCTA'
 import SlideUpContact from '@components/SlideUpContact'
 import OfferCoverage from '@features/offer/components/OfferCoverage'
+
+import PageHero from '@components/blocks/PageHero'
+import CornerFrameCta from '@components/blocks/cta/CornerFrameCta'
 
 export const metadata = {
     title: 'Oferta - strony, sklepy i aplikacje internetowe | Airtilion',
@@ -41,7 +42,7 @@ const page = async ({ searchParams }) => {
                     <Breadcrumbs />
                 </div>
 
-                <OfferHero dict={dict.hero} />
+                <PageHero dict={dict.hero} />
                 <OfferMainServices dict={dict.mainServices} />
                 <OfferSupportServices dict={dict.supportServices} />
                 <OfferInnovations dict={dict.innovations} />
@@ -49,7 +50,7 @@ const page = async ({ searchParams }) => {
                 <OfferCoverage dict={dict.location} />
                 <OfferProcess dict={dict.process} />
 
-                <OfferCTA dict={dict.contact} lang={lang} />
+                <CornerFrameCta dict={dict.contact} lang={lang} />
 
                 <SlideUpContact dict={dictForm} lang={lang} />
 

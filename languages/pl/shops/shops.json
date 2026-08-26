@@ -138,6 +138,63 @@
         "note": "Shopify i Shoper to gotowe platformy SaaS, zoptymalizowane pod wydajność już przez samego dostawcę, dlatego przy tych rozwiązaniach headless zwykle nie jest potrzebny.",
         "altImg": "Ekran laptopa wyświetlający nowoczesny sklep internetowy, stanowiący przykład wydajnego frontendu w architekturze headless"
     },
+    "productCard": {
+        "title": "Rozbudowana karta produktu",
+        "paragraphs": [
+            "Karta produktu to jedno z najważniejszych miejsc w całym sklepie. To właśnie tutaj klient podejmuje decyzję o zakupie.",
+            "Dobra karta produktu odpowiada na pytania klienta, zanim jeszcze je zada. Pokazuje najważniejsze informacje: cenę, dostępność, czas dostawy i realne zdjęcia produktu.",
+            "Dbamy też o elementy budujące zaufanie: opinie innych klientów, jasną politykę zwrotów i informacje o gwarancji. Im mniej wątpliwości ma klient, tym większa szansa, że doda produkt do koszyka."
+        ],
+        "groupLabel": "Kluczowe informacje",
+        "items": [
+            {
+                "icon": "ph:tag-bold",
+                "title": "Cena",
+                "desc": "Widoczna od razu, bez dodatkowych kosztów ukrytych w dalszej części ścieżki zakupowej."
+            },
+            {
+                "icon": "ph:package-bold",
+                "title": "Dostępność",
+                "desc": "Klient od razu wie, czy produkt jest na stanie."
+            },
+            {
+                "icon": "ph:truck-bold",
+                "title": "Czas dostawy",
+                "desc": "Jasno podany termin realizacji zamówienia."
+            },
+            {
+                "icon": "ph:image-bold",
+                "title": "Realne zdjęcia",
+                "desc": "Prawdziwe fotografie produktu, nie tylko wizualizacje."
+            }
+        ]
+    },
+    "cartCheckout": {
+        "title": "Koszyk i finalizacja zamówienia bez tarcia",
+        "paragraphs": [
+            "Wielu klientów rezygnuje z zakupu właśnie na etapie koszyka. Zbyt długi formularz, ukryte koszty dostawy albo konieczność zakładania konta to najczęstsze powody porzuconych koszyków.",
+            "Projektujemy proces zakupowy tak, żeby był jak najkrótszy. Umożliwiamy zakup bez rejestracji, pokazujemy koszty dostawy od razu i ograniczamy liczbę pól w formularzu do niezbędnego minimum.",
+            "Każdy dodatkowy krok w koszyku to potencjalna okazja, żeby klient zrezygnował. Dlatego eliminujemy zbędne tarcie na każdym etapie finalizacji zamówienia."
+        ],
+        "groupLabel": "Bez zbędnych przeszkód",
+        "items": [
+            {
+                "icon": "ph:user-circle-bold",
+                "title": "Zakupy bez rejestracji",
+                "desc": "Klient może sfinalizować zamówienie bez zakładania konta."
+            },
+            {
+                "icon": "ph:truck-bold",
+                "title": "Koszty dostawy od razu",
+                "desc": "Pełny koszt widoczny na wczesnym etapie, bez niespodzianek przy płatności."
+            },
+            {
+                "icon": "ph:list-checks-bold",
+                "title": "Minimum pól w formularzu",
+                "desc": "Tylko dane niezbędne do zrealizowania zamówienia."
+            }
+        ]
+    },
     "contact": {
         "title": "Napisz do nas - doradzimy",
         "subtitle": "Zostaw wiadomość. Odpiszemy w ciągu 24 godzin i zaproponujemy najlepsze rozwiązanie dla Twojej firmy.",

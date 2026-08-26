@@ -9,6 +9,7 @@ import PageHero from '@components/blocks/PageHero'
 import PortfolioGrid from '@components/blocks/PortfolioGrid'
 import StickyImageBenefitsList from '@components/blocks/StickyImageBenefitsList'
 import CornerFrameCta from '@components/blocks/cta/CornerFrameCta'
+import ContentWithSidebarBox from '@components/blocks/ContentWithSidebarBox'
 
 import ShopPlatforms from '@app/sklepy-internetowe/_components/ShopPlatforms'
 
@@ -49,6 +50,8 @@ const page = async ({ searchParams }) => {
                 <StickyImageBenefitsList dict={dict.whyWorthIt} image={worth} />
                 <ShopPlatforms dict={dict.platforms} lang={lang} />
                 <ShopHeadlessArchitecture dict={dict.headless} />
+                <ContentWithSidebarBox dict={dict.productCard} />
+                <ContentWithSidebarBox dict={dict.cartCheckout} reverse={true} />
 
                 <CornerFrameCta dict={dict.contact} lang={lang} />
 

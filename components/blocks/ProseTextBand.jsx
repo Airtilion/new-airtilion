@@ -1,6 +1,6 @@
 import React from 'react'
 
-const ServiceWorkflow = ({ dict }) => {
+const ProseTextBand = ({ dict }) => {
     return (
         <section className='mt-32 py-32 bg-black relative overflow-hidden'>
             <div className='section-style'>
@@ -21,4 +21,4 @@ const ServiceWorkflow = ({ dict }) => {
     )
 }
 
-export default ServiceWorkflow
+export default ProseTextBand

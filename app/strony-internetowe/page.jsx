@@ -12,6 +12,7 @@ import CornerFrameCta from '@components/blocks/cta/CornerFrameCta'
 import FeaturesGrid from '@components/blocks/FeaturesGrid'
 import ListWithSideImage from '@components/blocks/ListWithSideImage'
 import StepsGrid from '@components/blocks/StepsGrid'
+import ProseTextBand from '@components/blocks/ProseTextBand'
 
 import ServiceIndustries from '@features/service/components/ServiceIndustries'
 import ServiceCoverage from '@features/service/components/ServiceCoverage'
@@ -22,7 +23,6 @@ import ServiceBenefits from '@features/service/components/ServiceBenefits'
 import ServiceUxUi from '@features/service/components/ServiceUxUi'
 import ServiceSpeed from '@features/service/components/ServiceSpeed'
 import ServiceSecurity from '@features/service/components/ServiceSecurity'
-import ServiceWorkflow from '@features/service/components/ServiceWorkflow'
 import ServicePricingFactors from '@features/service/components/ServicePricingFactors'
 import ServiceMaintenanceCosts from '@features/service/components/ServiceMaintenanceCosts'
 import ServiceExtraCare from '@features/service/components/ServiceExtraCare'
@@ -73,7 +73,7 @@ const page = async ({ searchParams }) => {
                 <FeaturesGrid dict={dict.includes} />
                 <ListWithSideImage dict={dict.preparation} img={preparation} />
                 <StepsGrid dict={dict.process} />
-                <ServiceWorkflow dict={dict.workflow} />
+                <ProseTextBand dict={dict.workflow} />
                 <ServicePricing dict={dict.pricing} />
                 <ServicePricingFactors dict={dict.pricingFactors} />
                 <ServiceMaintenanceCosts dict={dict.maintenanceCosts} />

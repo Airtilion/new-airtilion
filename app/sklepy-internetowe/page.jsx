@@ -22,6 +22,7 @@ import integrations from '@assets/images/shops/integrations.webp'
 import ShopHeadlessArchitecture from './_components/ShopHeadlessArchitecture'
 import ShopSeo from './_components/ShopSeo'
 import StepsGrid from '@components/blocks/StepsGrid'
+import ProseTextBand from '@components/blocks/ProseTextBand'
 
 export const metadata = {
     title: 'Projektowanie i tworzenie sklepów internetowych - Airtilion',
@@ -64,6 +65,7 @@ const page = async ({ searchParams }) => {
                 <NumberedRowStack dict={dict.safe} />
                 <ShopSeo dict={dict.seo} />
                 <StepsGrid dict={dict.process} columns={3} />
+                <ProseTextBand dict={dict.workflow} />
 
                 <CornerFrameCta dict={dict.contact} lang={lang} />
 

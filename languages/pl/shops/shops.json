@@ -122,14 +122,6 @@
         ],
         "outro": "Jeśli nie wiesz, które rozwiązanie pasuje do Twojego biznesu, podpowiemy Ci podczas pierwszej rozmowy. Dobierzemy platformę na podstawie Twoich realnych potrzeb, a nie naszych preferencji."
     },
-    "workflow": {
-        "title": "Architektura headless: nasze podejście do wydajności sklepu",
-        "paragraphs": [
-            "Weźmy przykładowy projekt: stronę dla lokalnej firmy usługowej, która do tej pory nie miała żadnej obecności w internecie. Zaczynamy od rozmowy o jej klientach i konkurencji w regionie.",
-            "Na tej podstawie projektujemy prostą i skuteczną strukturę: stronę główną z jasnym opisem oferty, podstronę z cennikiem lub czynnikami wpływającymi na cenę, sekcję z opiniami klientów oraz formularz kontaktowy. Całość kodujemy w next.js, dzięki czemu strona ładuje się błyskawicznie na telefonie i komputerze.",
-            "Po uruchomieniu konfigurujemy Google Analytics, Search Console oraz wizytówkę firmy w Google. Klient zyskuje nie tylko stronę internetową, ale kompletne narzędzie do pozyskiwania nowych klientów."
-        ]
-    },
     "headless": {
         "title": "Architektura headless - nasze podejście do wydajności sklepu",
         "intro": "Klasyczny sklep na WooCommerce działa dobrze, ale przy dużym ruchu i rozbudowanej ofercie może zwalniać. Dlatego przy bardziej wymagających projektach proponujemy architekturę headless.",
@@ -386,6 +378,15 @@
                 "title": "Publikacja i finalizacja",
                 "desc": "Konfigurujemy domenę, certyfikat SSL i podpinamy hosting oraz oficjalnie uruchamiamy sklep w sieci i przekazujemy Ci dane dostępowe."
             }
+        ]
+    },
+    "workflow": {
+        "title": "Jak wygląda nasza praca w praktyce?",
+        "paragraphs": [
+            "Weźmy przykładowy projekt: lokalną markę odzieżową, która do tej pory sprzedawała wyłącznie stacjonarnie. Zaczynamy od rozmowy o jej asortymencie, klientach i planach na najbliższy rok.",
+            "Na tej podstawie ustalamy, że najlepszym wyborem będzie WooCommerce, bo sklep ma na start około stu produktów, a właścicielka chce samodzielnie dodawać nowe kolekcje. Projektujemy prostą, przejrzystą kartę produktu z wyraźnymi zdjęciami i tabelą rozmiarów.",
+            "Integrujemy płatności online, wysyłkę przez wybraną firmę kurierską oraz podstawową optymalizację SEO pod frazy związane z asortymentem marki. Po trzech miesiącach sklep zaczyna generować pierwsze stabilne zamówienia z Google, bez dodatkowych kampanii reklamowych.",
+            "Gdy sprzedaż rośnie, a katalog produktów się rozbudowuje, wspólnie planujemy migrację frontendu na architekturę headless. Dzięki temu sklep zachowuje wygodę zarządzania w WooCommerce, a jednocześnie zyskuje wydajność potrzebną przy większym ruchu."
         ]
     },
     "contact": {

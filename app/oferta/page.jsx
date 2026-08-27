@@ -6,12 +6,12 @@ import OfferMainServices from '@features/offer/components/OfferMainServices'
 import OfferSupportServices from '@features/offer/components/OfferSupportServices'
 import OfferInnovations from '@features/offer/components/OfferInnovations'
 import OfferIndustries from '@features/offer/components/OfferIndustries'
-import OfferProcess from '@features/offer/components/OfferProcess'
 import SlideUpContact from '@components/SlideUpContact'
 import OfferCoverage from '@features/offer/components/OfferCoverage'
 
 import PageHero from '@components/blocks/PageHero'
 import CornerFrameCta from '@components/blocks/cta/CornerFrameCta'
+import StepsGrid from '@components/blocks/StepsGrid'
 
 export const metadata = {
     title: 'Oferta - strony, sklepy i aplikacje internetowe | Airtilion',
@@ -48,7 +48,7 @@ const page = async ({ searchParams }) => {
                 <OfferInnovations dict={dict.innovations} />
                 <OfferIndustries dict={dict.industries} />
                 <OfferCoverage dict={dict.location} />
-                <OfferProcess dict={dict.process} />
+                <StepsGrid dict={dict.process} columns={4} />
 
                 <CornerFrameCta dict={dict.contact} lang={lang} />
 

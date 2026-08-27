@@ -425,32 +425,32 @@
             {
                 "number": "01",
                 "title": "Formalności",
-                "description": "Tworzymy wycenę, podpisujemy umowę oraz następuje wpłata zaliczki."
+                "desc": "Tworzymy wycenę, podpisujemy umowę oraz następuje wpłata zaliczki."
             },
             {
                 "number": "02",
                 "title": "Projektowanie",
-                "description": "Tworzymy makietę strony. Otrzymujesz ją od nas w formacie .pdf."
+                "desc": "Tworzymy makietę strony. Otrzymujesz ją od nas w formacie .pdf."
             },
             {
                 "number": "03",
                 "title": "Wdrożenie",
-                "description": "Przenosimy zatwierdzony projekt do kodu, budując w pełni responsywną i nowoczesną stronę internetową."
+                "desc": "Przenosimy zatwierdzony projekt do kodu, budując w pełni responsywną i nowoczesną stronę internetową."
             },
             {
                 "number": "04",
                 "title": "Testy i optymalizacja",
-                "description": "Sprawdzamy działanie na wszystkich urządzeniach, testujemy funkcjonalności oraz optymalizujemy szybkość."
+                "desc": "Sprawdzamy działanie na wszystkich urządzeniach, testujemy funkcjonalności oraz optymalizujemy szybkość."
             },
             {
                 "number": "05",
                 "title": "Publikacja strony",
-                "description": "Konfigurujemy domenę, podpinamy hosting i oficjalnie uruchamiamy gotową stronę w sieci."
+                "desc": "Konfigurujemy domenę, podpinamy hosting i oficjalnie uruchamiamy gotową stronę w sieci."
             },
             {
                 "number": "06",
                 "title": "Finalizacja zamówienia",
-                "description": "Przekazujemy dane dostępowe oraz szkolimy z obsługi."
+                "desc": "Przekazujemy dane dostępowe oraz szkolimy z obsługi."
             }
         ]
     },

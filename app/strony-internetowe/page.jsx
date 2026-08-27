@@ -11,9 +11,9 @@ import StickyImageBenefitsList from '@components/blocks/StickyImageBenefitsList'
 import CornerFrameCta from '@components/blocks/cta/CornerFrameCta'
 import FeaturesGrid from '@components/blocks/FeaturesGrid'
 import ListWithSideImage from '@components/blocks/ListWithSideImage'
+import StepsGrid from '@components/blocks/StepsGrid'
 
 import ServiceIndustries from '@features/service/components/ServiceIndustries'
-import ServiceProcess from '@features/service/components/ServiceProcess'
 import ServiceCoverage from '@features/service/components/ServiceCoverage'
 import ServiceFaq from '@features/service/components/ServiceFaq'
 import ServiceTypes from '@features/service/components/ServiceTypes'
@@ -72,7 +72,7 @@ const page = async ({ searchParams }) => {
                 <ServiceSecurity dict={dict.security} />
                 <FeaturesGrid dict={dict.includes} />
                 <ListWithSideImage dict={dict.preparation} img={preparation} />
-                <ServiceProcess dict={dict.process} />
+                <StepsGrid dict={dict.process} />
                 <ServiceWorkflow dict={dict.workflow} />
                 <ServicePricing dict={dict.pricing} />
                 <ServicePricingFactors dict={dict.pricingFactors} />

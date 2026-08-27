@@ -128,22 +128,22 @@
             {
                 "number": "01",
                 "title": "Analiza i brief",
-                "description": "Poznajemy Twój biznes, cele i grupę docelową. Ustalamy zakres projektu i technologię."
+                "desc": "Poznajemy Twój biznes, cele i grupę docelową. Ustalamy zakres projektu i technologię."
             },
             {
                 "number": "02",
                 "title": "Projekt i kodowanie",
-                "description": "Tworzymy makiety, projekt graficzny i wdrażamy. Masz wgląd w każdy etap prac."
+                "desc": "Tworzymy makiety, projekt graficzny i wdrażamy. Masz wgląd w każdy etap prac."
             },
             {
                 "number": "03",
                 "title": "Testy i poprawki",
-                "description": "Sprawdzamy działanie na wszystkich urządzeniach, szybkość i dostępność WCAG."
+                "desc": "Sprawdzamy działanie na wszystkich urządzeniach, szybkość i dostępność WCAG."
             },
             {
                 "number": "04",
                 "title": "Start i opieka",
-                "description": "Uruchamiamy stronę i pozostajemy do dyspozycji. Opcjonalna opieka abonamentowa."
+                "desc": "Uruchamiamy stronę i pozostajemy do dyspozycji. Opcjonalna opieka abonamentowa."
             }
         ]
     },

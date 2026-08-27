@@ -334,6 +334,60 @@
             }
         ]
     },
+    "seo": {
+        "title": "Pozycjonowanie i optymalizacja SEO Twojego nowego sklepu",
+        "lead": "Zjawiskowy wygląd sklepu to tylko połowa sukcesu. Jeśli klienci nie znajdą Cię w Google, nie zrobią u Ciebie zakupów.",
+        "includedLabel": "Techniczna optymalizacja SEO od samego startu",
+        "includedTags": [
+            "Przyjazna struktura adresów URL",
+            "Opisy meta",
+            "Szybkość ładowania",
+            "Architektura kategorii i filtrów",
+            "Poprawna struktura nagłówków",
+            "Sitemap.xml i robots.txt",
+            "Dostosowanie do urządzeń mobilnych",
+            "Dane strukturalne"
+        ],
+        "includedNote": "Dbamy o to, bo Google bierze te czynniki pod uwagę przy ustalaniu pozycji w wynikach wyszukiwania. Zwracamy też uwagę na strukturę kategorii i filtrów - dobrze zaplanowana architektura informacji ułatwia Google zrozumienie Twojej oferty, a klientom szybkie znalezienie tego, czego szukają.",
+        "outsourcedLabel": "Czego nie robimy we własnym zakresie",
+        "outsourcedNote": "Samo pozycjonowanie sklepu po jego uruchomieniu to już osobna, specjalistyczna usługa, wymagająca ciągłej pracy analitycznej. Nie prowadzimy kampanii SEO we własnym zakresie, ale współpracujemy ze sprawdzonymi partnerami, którzy się tym zajmują na co dzień. Jeśli chcesz, polecimy Ci agencję dopasowaną do Twojej branży."
+    },
+    "process": {
+        "title": "Jak wygląda proces tworzenia sklepu internetowego w Airtilion?",
+        "desc": "Każdy projekt sklepu internetowego prowadzimy w jasnych, zaplanowanych etapach. Dzięki temu wiesz dokładnie, co dzieje się na każdym etapie współpracy.",
+        "steps": [
+            {
+                "number": "01",
+                "title": "Formalności",
+                "desc": "Podczas wstępnej rozmowy poznajemy zarys Twojego biznesu i na tej podstawie przygotowujemy wycenę. Po jej akceptacji podpisujemy umowę i pobieramy zaliczkę."
+            },
+            {
+                "number": "02",
+                "title": "Strategia i analiza modelu sprzedaży",
+                "desc": "Wchodzimy w szczegóły: ustalamy, czy sprzedajesz w modelu prostym, doradczym czy premium, i jak ten wybór wpłynie na strukturę sklepu."
+            },
+            {
+                "number": "03",
+                "title": "Projektowanie",
+                "desc": "Projektujemy ścieżkę użytkownika od strony głównej aż po finalizację zamówienia, ze szczególną uwagą na kartę produktu."
+            },
+            {
+                "number": "04",
+                "title": "Wdrożenie i integracje",
+                "desc": "Kodujemy sklep na wybranej platformie i podpinamy płatności, dostawę oraz pozostałe niezbędne integracje."
+            },
+            {
+                "number": "05",
+                "title": "Testy i optymalizacja",
+                "desc": "Sprawdzamy cały proces zakupowy na telefonach, tabletach i komputerach oraz optymalizujemy szybkość działania."
+            },
+            {
+                "number": "06",
+                "title": "Publikacja i finalizacja",
+                "desc": "Konfigurujemy domenę, certyfikat SSL i podpinamy hosting oraz oficjalnie uruchamiamy sklep w sieci i przekazujemy Ci dane dostępowe."
+            }
+        ]
+    },
     "contact": {
         "title": "Napisz do nas - doradzimy",
         "subtitle": "Zostaw wiadomość. Odpiszemy w ciągu 24 godzin i zaproponujemy najlepsze rozwiązanie dla Twojej firmy.",

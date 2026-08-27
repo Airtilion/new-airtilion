@@ -20,6 +20,8 @@ import worth from '@assets/images/websites/worth-it.webp'
 import integrations from '@assets/images/shops/integrations.webp'
 
 import ShopHeadlessArchitecture from './_components/ShopHeadlessArchitecture'
+import ShopSeo from './_components/ShopSeo'
+import StepsGrid from '@components/blocks/StepsGrid'
 
 export const metadata = {
     title: 'Projektowanie i tworzenie sklepów internetowych - Airtilion',
@@ -60,6 +62,8 @@ const page = async ({ searchParams }) => {
                 <ListWithSideImage dict={dict.integrations} img={integrations} />
                 <FeaturesGrid dict={dict.includes} />
                 <NumberedRowStack dict={dict.safe} />
+                <ShopSeo dict={dict.seo} />
+                <StepsGrid dict={dict.process} columns={3} />
 
                 <CornerFrameCta dict={dict.contact} lang={lang} />
 

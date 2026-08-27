@@ -2,7 +2,7 @@ import React from 'react'
 import Image from 'next/image'
 import { Icon } from '@iconify/react'
 
-const StickyImageBenefitsList = ({ dict, image }) => {
+const StickyImageBenefitsList = ({ dict, img }) => {
     return (
         <section className='mt-32 py-32 relative bg-black'>
             <div className='section-style'>
@@ -17,7 +17,7 @@ const StickyImageBenefitsList = ({ dict, image }) => {
 
                     <div className='col-span-5 max-lg:col-span-1 max-lg:w-[400px] max-lg:mx-auto max-sm:w-full'>
                         <div className='sticky top-32'>
-                            <Image src={image} alt={dict.imgAlt} width={564} height={800} className="rounded-2xl object-cover" />
+                            <Image src={img} alt={dict.imgAlt} width={564} height={800} className="rounded-2xl object-cover" />
                         </div>
                     </div>
 

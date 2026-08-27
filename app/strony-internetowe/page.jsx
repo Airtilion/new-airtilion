@@ -9,19 +9,19 @@ import PageHero from '@components/blocks/PageHero'
 import PortfolioGrid from '@components/blocks/PortfolioGrid'
 import StickyImageBenefitsList from '@components/blocks/StickyImageBenefitsList'
 import CornerFrameCta from '@components/blocks/cta/CornerFrameCta'
+import FeaturesGrid from '@components/blocks/FeaturesGrid'
+import ListWithSideImage from '@components/blocks/ListWithSideImage'
 
 import ServiceIndustries from '@features/service/components/ServiceIndustries'
 import ServiceProcess from '@features/service/components/ServiceProcess'
 import ServiceCoverage from '@features/service/components/ServiceCoverage'
 import ServiceFaq from '@features/service/components/ServiceFaq'
-import ServiceIncludes from '@features/service/components/ServiceIncludes'
 import ServiceTypes from '@features/service/components/ServiceTypes'
 import ServicePricing from '@features/service/components/ServicePricing'
 import ServiceBenefits from '@features/service/components/ServiceBenefits'
 import ServiceUxUi from '@features/service/components/ServiceUxUi'
 import ServiceSpeed from '@features/service/components/ServiceSpeed'
 import ServiceSecurity from '@features/service/components/ServiceSecurity'
-import ServicePreparation from '@features/service/components/ServicePreparation'
 import ServiceWorkflow from '@features/service/components/ServiceWorkflow'
 import ServicePricingFactors from '@features/service/components/ServicePricingFactors'
 import ServiceMaintenanceCosts from '@features/service/components/ServiceMaintenanceCosts'
@@ -30,6 +30,7 @@ import ServiceTechSupport from '@features/service/components/ServiceTechSupport'
 import ServiceWhyUs from '@features/service/components/ServiceWhyUs'
 
 import worth from '@assets/images/websites/worth-it.webp'
+import preparation from '@assets/images/websites/preparation.webp'
 
 export const metadata = {
     title: 'Projektowanie i tworzenie stron internetowych - Airtilion',
@@ -62,15 +63,15 @@ const page = async ({ searchParams }) => {
 
                 <PageHero dict={dict.hero} />
                 <PortfolioGrid dict={dict.portfolio} />
-                <StickyImageBenefitsList dict={dict.whyWorthIt} image={worth} />
+                <StickyImageBenefitsList dict={dict.whyWorthIt} img={worth} />
                 <ServiceBenefits dict={dict.benefits} />
                 <ServiceTypes dict={dict.types} />
                 <ServiceIndustries dict={dict.industries} />
                 <ServiceUxUi dict={dict.uxui} />
                 <ServiceSpeed dict={dict.speed} />
                 <ServiceSecurity dict={dict.security} />
-                <ServiceIncludes dict={dict.includes} />
-                <ServicePreparation dict={dict.preparation} />
+                <FeaturesGrid dict={dict.includes} />
+                <ListWithSideImage dict={dict.preparation} img={preparation} />
                 <ServiceProcess dict={dict.process} />
                 <ServiceWorkflow dict={dict.workflow} />
                 <ServicePricing dict={dict.pricing} />

@@ -1,7 +1,7 @@
 import React from 'react'
 import { Icon } from '@iconify/react'
 
-const ServiceIncludes = ({ dict }) => {
+const FeaturesGrid = ({ dict }) => {
   return (
     <section className='mt-32 '>
       <div className='section-style'>
@@ -15,7 +15,7 @@ const ServiceIncludes = ({ dict }) => {
                 <Icon icon={feature.icon} width={28} height={28} className='text-white/30 group-hover:text-[#e28350] transition-colors duration-300' />
               </div>
               <div>
-                <h3 className='text-[18px] font-medium group-hover:text-[#e28350] transition-colors duration-300'>{feature.title}</h3>
+                <h3 className='text-[18px] group-hover:text-[#e28350] transition-colors duration-300'>{feature.title}</h3>
                 <p className='mt-2 text-[15px] leading-relaxed'>{feature.desc}</p>
               </div>
             </div>
@@ -32,4 +32,4 @@ const ServiceIncludes = ({ dict }) => {
   )
 }
 
-export default ServiceIncludes
+export default FeaturesGrid

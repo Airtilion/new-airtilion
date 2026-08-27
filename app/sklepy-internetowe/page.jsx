@@ -10,10 +10,14 @@ import PortfolioGrid from '@components/blocks/PortfolioGrid'
 import StickyImageBenefitsList from '@components/blocks/StickyImageBenefitsList'
 import CornerFrameCta from '@components/blocks/cta/CornerFrameCta'
 import ContentWithSidebarBox from '@components/blocks/ContentWithSidebarBox'
+import FeaturesGrid from '@components/blocks/FeaturesGrid'
+import ListWithSideImage from '@components/blocks/ListWithSideImage'
 
 import ShopPlatforms from '@app/sklepy-internetowe/_components/ShopPlatforms'
 
 import worth from '@assets/images/websites/worth-it.webp'
+import integrations from '@assets/images/shops/integrations.webp'
+
 import ShopHeadlessArchitecture from './_components/ShopHeadlessArchitecture'
 
 export const metadata = {
@@ -47,11 +51,13 @@ const page = async ({ searchParams }) => {
 
                 <PageHero dict={dict.hero} />
                 <PortfolioGrid dict={dict.portfolio} />
-                <StickyImageBenefitsList dict={dict.whyWorthIt} image={worth} />
+                <StickyImageBenefitsList dict={dict.whyWorthIt} img={worth} />
                 <ShopPlatforms dict={dict.platforms} lang={lang} />
                 <ShopHeadlessArchitecture dict={dict.headless} />
                 <ContentWithSidebarBox dict={dict.productCard} />
-                <ContentWithSidebarBox dict={dict.cartCheckout} reverse={true} />
+                <ContentWithSidebarBox dict={dict.cartCheckout} reverse />
+                <ListWithSideImage dict={dict.integrations} img={integrations} />
+                <FeaturesGrid dict={dict.includes} />
 
                 <CornerFrameCta dict={dict.contact} lang={lang} />
 

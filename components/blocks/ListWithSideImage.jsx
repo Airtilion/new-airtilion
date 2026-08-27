@@ -1,8 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
-import preparation from '@assets/images/websites/preparation.webp'
 
-const ServicePreparation = ({ dict }) => {
+const ListWithSideImage = ({ dict, img }) => {
     return (
         <section className='mt-32 py-32 bg-black relative overflow-hidden'>
             <div className='section-style relative z-1'>
@@ -17,7 +16,7 @@ const ServicePreparation = ({ dict }) => {
                     <div>
                         <p className='text-[18px] leading-relaxed max-sm:text-[16px]'>{dict.subintro}</p>
                         <ul className='mt-6 flex-1 flex flex-col gap-6 pl-4 list-disc list-inside max-lg:pl-0'>
-                            {dict.questions.map((item, idx) => (
+                            {dict.items.map((item, idx) => (
                                 <li key={idx} className='group flex gap-4'>
                                     <span className='w-2 h-2 rounded-full bg-[#e28350] mt-2.5 shrink-0 group-hover:scale-125 transition-transform duration-300' />
                                     <div>
@@ -31,7 +30,7 @@ const ServicePreparation = ({ dict }) => {
 
 
                     <div className='relative rounded-2xl overflow-hidden h-max max-lg:mx-auto'>
-                        <Image src={preparation} width={600} height={500} alt={dict.imgAlt} className='object-cover' />
+                        <Image src={img} width={600} height={500} alt={dict.imgAlt} className='object-cover' />
                         <div className="absolute inset-0 bg-black/[0.05]" />
                     </div>
                 </div>
@@ -47,4 +46,4 @@ const ServicePreparation = ({ dict }) => {
     )
 }
 
-export default ServicePreparation
+export default ListWithSideImage

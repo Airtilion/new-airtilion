@@ -389,7 +389,7 @@
         "intro": "Zanim zdecydujesz się na budowę własnej strony i wypełnisz formularz wyceny, warto poświęcić chwilę na kilka decyzji. Ułatwi to nam przygotowanie trafnej propozycji, a Tobie przyspieszy cały proces.",
         "subintro": "Zastanów się nad kilkoma kwestiami:",
         "imgAlt": "Notatnik z listą kontrolną pomagającą przygotować się do zamówienia nowej strony internetowej",
-        "questions": [
+        "items": [
             {
                 "title": "Do czego ma służyć strona?",
                 "desc": "Sprzedaż produktów, prezentacja oferty, a może prosta wizytówka firmy?",

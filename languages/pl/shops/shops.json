@@ -195,6 +195,114 @@
             }
         ]
     },
+    "integrations": {
+        "title": "Jakie integracje zapewniamy w sklepie internetowym?",
+        "intro": "Sklep internetowy to nie tylko witryna z produktami. To cały ekosystem narzędzi, które muszą ze sobą współpracować.",
+        "subintro": "W ramach realizacji projektu podpinamy:",
+        "imgAlt": "Panel integracji sklepu internetowego - płatności, kurierzy, magazyn, marketing",
+        "items": [
+            {
+                "title": "Systemy płatności online",
+                "desc": "Integrujemy szybkie przelewy, płatności kartą, BLIK oraz raty, dopasowane do Twojej branży i skali sprzedaży."
+            },
+            {
+                "title": "Integracje z firmami kurierskimi",
+                "desc": "Automatycznie generujesz etykiety wysyłkowe i śledzisz przesyłki, bez ręcznego wprowadzania danych do systemu."
+            },
+            {
+                "title": "Systemy magazynowe",
+                "desc": "Stany magazynowe aktualizują się w czasie rzeczywistym, dzięki czemu klient nigdy nie zamówi produktu, którego nie masz na stanie."
+            },
+            {
+                "title": "Narzędzia marketingowe",
+                "desc": "Google Analytics, Google Tag Manager oraz integracje z systemami mailingowymi dają Ci pełny obraz ruchu i zachowań klientów."
+            },
+            {
+                "title": "Porównywarki cen i platformy sprzedażowe",
+                "desc": "Jeśli chcesz sprzedawać również poza własnym sklepem, podepniemy Twoją ofertę do popularnych porównywarek i platform."
+            }
+        ],
+        "outro": "Powyższa lista to tylko najczęściej wybierane integracje, nie zamknięty katalog. Jeśli Twój biznes wymaga czegoś nietypowego, na przykład integracji z systemem ERP czy własną hurtownią, również to zrealizujemy. Każdą integrację dopasowujemy indywidualnie do Twojej branży i skali sprzedaży. Nie proponujemy rozwiązań, których nie potrzebujesz."
+    },
+    "includes": {
+        "title": "Co zawiera każdy sklep internetowy, który projektujemy?",
+        "info": [
+            "Powyższa lista to nasz absolutny standard, techniczny i wizualny fundament, na którym budujemy profesjonalne sklepy internetowe. Traktujemy go jako punkt wyjścia.",
+            "Każdy projekt to jednak żywy organizm, który w razie potrzeb rozbudowujemy o dodatkowe moduły i zaawansowane funkcjonalności dopasowane ściśle pod wymagania Twojego zlecenia."
+        ],
+        "items": [
+            {
+                "title": "Indywidualny projekt UI/UX",
+                "desc": "Zawsze projektujemy sklep internetowy od zera na podstawie analizy Twojej oferty i klientów. Nie korzystamy z przypadkowych, gotowych motywów.",
+                "icon": "ph:bezier-curve-light"
+            },
+            {
+                "title": "Integracja płatności online",
+                "desc": "Podpinamy wybranego operatora płatności, np. szybkie przelewy, płatność kartą czy BLIK, w cenie podstawowego wdrożenia.",
+                "icon": "ph:credit-card-light"
+            },
+            {
+                "title": "Integracja z firmą kurierską",
+                "desc": "Konfigurujemy podstawową metodę dostawy, żeby klient mógł od razu złożyć zamówienie po uruchomieniu sklepu.",
+                "icon": "ph:truck-light"
+            },
+            {
+                "title": "Panel do zarządzania sklepem",
+                "desc": "Niezależnie od wybranej platformy, dostajesz wygodny panel, w którym samodzielnie dodasz produkty, zmienisz ceny i opisy.",
+                "icon": "ph:storefront-light"
+            },
+            {
+                "title": "Techniczne SEO",
+                "desc": "Poprawna struktura adresów URL, meta tagi i przyjazna struktura kategorii. Dbamy o pełną optymalizację sklepu pod kątem wyszukiwarek już na etapie wdrożenia.",
+                "icon": "ph:magnifying-glass-light"
+            },
+            {
+                "title": "Optymalizacja wydajności",
+                "desc": "Zoptymalizowany kod i nowoczesne formaty grafik zapewniające najwyższe wyniki Core Web Vitals, nawet przy rozbudowanym katalogu produktów.",
+                "icon": "ph:lightning-light"
+            },
+            {
+                "title": "Analityka internetowa",
+                "desc": "Wdrożenie Google Analytics 4 oraz podpięcie Google Tag Managera.",
+                "icon": "ph:chart-line-up-light"
+            },
+            {
+                "title": "RODO i Consent Mode",
+                "desc": "Poprawne wdrożenie polityki prywatności oraz systemu zarządzania zgodami na pliki cookies.",
+                "icon": "ph:shield-check-light"
+            },
+            {
+                "title": "Serwer i certyfikat SSL",
+                "desc": "Pełna konfiguracja hostingu, podpięcie domeny oraz wdrożenie szyfrowania danych.",
+                "icon": "ph:hard-drives-light"
+            },
+            {
+                "title": "Zabezpieczenia",
+                "desc": "Wdrożenie ochrony przed atakami oraz blokada nieautoryzowanego dostępu do kluczowych plików systemowych sklepu.",
+                "icon": "ph:lock-key-light"
+            },
+            {
+                "title": "Nowoczesny stack technologiczny",
+                "desc": "Korzystamy z najnowszych i najstabilniejszych technologii programistycznych na rynku.",
+                "icon": "ph:code-light"
+            },
+            {
+                "title": "Strategia sprzedażowa",
+                "desc": "Projekt oparty na dokładnej analizie Twojego modelu sprzedaży, konkurencji oraz docelowego klienta.",
+                "icon": "ph:target-light"
+            },
+            {
+                "title": "Szkolenie z obsługi",
+                "desc": "Przeprowadzamy instruktaż i przekazujemy materiały, jak sprawnie dodawać produkty i zarządzać zamówieniami.",
+                "icon": "ph:graduation-cap-light"
+            },
+            {
+                "title": "12-miesięczna gwarancja",
+                "desc": "Możesz spać spokojnie. Przez rok od uruchomienia bierzemy pełną odpowiedzialność za stabilność i bezpieczeństwo wdrożenia.",
+                "icon": "ph:certificate-light"
+            }
+        ]
+    },
     "contact": {
         "title": "Napisz do nas - doradzimy",
         "subtitle": "Zostaw wiadomość. Odpiszemy w ciągu 24 godzin i zaproponujemy najlepsze rozwiązanie dla Twojej firmy.",

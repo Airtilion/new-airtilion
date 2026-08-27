@@ -303,6 +303,37 @@
             }
         ]
     },
+    "safe": {
+        "title": "Jak zabezpieczamy Twój sklep i dane klientów?",
+        "intro": "Klienci powierzają Twojemu sklepowi swoje dane osobowe i informacje o płatnościach. Podchodzimy do tego poważnie na kilku poziomach, nie tylko przez sam certyfikat SSL.",
+        "items": [
+            {
+                "icon": "ph:credit-card-bold",
+                "title": "Bezpieczne płatności",
+                "desc": "Nigdy nie przechowujemy numerów kart płatniczych na serwerze sklepu. Płatności obsługują certyfikowani operatorzy, tacy jak Przelewy24 czy PayU, którzy sami spełniają rygorystyczną normę PCI DSS. Dzięki temu wrażliwe dane karty w ogóle nie trafiają na nasze serwery."
+            },
+            {
+                "icon": "ph:lock-key-bold",
+                "title": "Zabezpieczony panel administracyjny",
+                "desc": "Logowanie dwuskładnikowe oraz limit prób logowania utrudniają przejęcie konta metodą brute force. Monitorujemy też podejrzaną aktywność, na przykład nietypową liczbę prób logowania z jednego adresu IP."
+            },
+            {
+                "icon": "ph:robot-bold",
+                "title": "Ochrona przed botami",
+                "desc": "Przy sklepach z ograniczoną dostępnością produktów, na przykład limitowanych kolekcjach, wdrażamy dodatkową ochronę przed botami, które próbują automatycznie wykupić towar w ułamku sekundy."
+            },
+            {
+                "icon": "ph:arrows-clockwise-bold",
+                "title": "Aktualizacje i kopie zapasowe",
+                "desc": "Regularnie aktualizujemy oprogramowanie sklepu i jego wtyczki, żeby eliminować znane luki bezpieczeństwa, zanim ktoś zdąży je wykorzystać. Wykonujemy też automatyczne kopie zapasowe, dzięki którym w razie awarii możemy szybko przywrócić działanie sklepu."
+            },
+            {
+                "icon": "ph:scales-bold",
+                "title": "Zgodność z RODO",
+                "desc": "Dane klientów przechowujemy zgodnie z RODO, a zasady ich przetwarzania opisujemy w przejrzystej polityce prywatności."
+            }
+        ]
+    },
     "contact": {
         "title": "Napisz do nas - doradzimy",
         "subtitle": "Zostaw wiadomość. Odpiszemy w ciągu 24 godzin i zaproponujemy najlepsze rozwiązanie dla Twojej firmy.",

@@ -12,6 +12,7 @@ import CornerFrameCta from '@components/blocks/cta/CornerFrameCta'
 import ContentWithSidebarBox from '@components/blocks/ContentWithSidebarBox'
 import FeaturesGrid from '@components/blocks/FeaturesGrid'
 import ListWithSideImage from '@components/blocks/ListWithSideImage'
+import NumberedRowStack from '@components/blocks/NumberedRowStack'
 
 import ShopPlatforms from '@app/sklepy-internetowe/_components/ShopPlatforms'
 
@@ -58,6 +59,7 @@ const page = async ({ searchParams }) => {
                 <ContentWithSidebarBox dict={dict.cartCheckout} reverse />
                 <ListWithSideImage dict={dict.integrations} img={integrations} />
                 <FeaturesGrid dict={dict.includes} />
+                <NumberedRowStack dict={dict.safe} />
 
                 <CornerFrameCta dict={dict.contact} lang={lang} />
 

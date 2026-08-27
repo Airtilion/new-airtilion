@@ -18,7 +18,7 @@ const PageHero = ({ dict }) => {
         <section className='section-style mt-24 max-sm:mt-16'>
             <div className='max-w-4xl'>
 
-                <h1 className={`leading-[1] tracking-tighter text-white ${getTitleSizeClass(dict.title)}`}>{dict.title}</h1>
+                <h1 className={`leading-[1] tracking-tighter text-white break-words ${getTitleSizeClass(dict.title)}`}>{dict.title}</h1>
 
                 <p className='mt-10 text-[20px] max-w-2xl leading-relaxed max-lg:text-[18px] max-sm:text-[16px]'>{dict.subtitle}</p>
 

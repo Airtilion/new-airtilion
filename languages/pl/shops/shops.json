@@ -494,6 +494,29 @@
         "outro": "Dzięki stałej opiece Twój sklep internetowy zawsze działa sprawnie i jest gotowy na kolejny etap rozwoju Twojej firmy.",
         "cta": "Bezpłatna wycena"
     },
+    "marketing": {
+        "title": "Marketing i rozwój sklepu po uruchomieniu",
+        "paragraphs": [
+            "Sam sklep internetowy to dopiero początek drogi. Żeby sprzedaż rosła, warto systematycznie pracować nad jego widocznością i konwersją.",
+            "Sami nie prowadzimy kampanii reklamowych ani pozycjonowania SEO, bo to osobna specjalizacja, wymagająca ciągłej pracy analitycznej. Zamiast udawać, że robimy wszystko, współpracujemy ze sprawdzonymi partnerami, którzy zajmują się tym na co dzień."
+        ],
+        "listLabel": "Możemy Cię skierować do zaufanych specjalistów w zakresie:",
+        "items": [
+            {
+                "title": "Kampanii Google Ads i Meta Ads",
+                "desc": "które przyciągają nowych klientów już od pierwszego dnia działania sklepu."
+            },
+            {
+                "title": "Pozycjonowania SEO",
+                "desc": "czyli długoterminowej pracy nad widocznością sklepu w organicznych wynikach Google."
+            },
+            {
+                "title": "Optymalizacji konwersji",
+                "desc": "czyli analizy zachowań użytkowników, która pomaga zwiększyć liczbę finalizowanych zamówień."
+            }
+        ],
+        "outro": "Od strony technicznej przygotujemy Twój sklep tak, żeby taka współpraca była możliwa od pierwszego dnia. Integrujemy narzędzia analityczne, systemy mailingowe i programy lojalnościowe, więc Twój partner marketingowy dostaje gotowe fundamenty do pracy, zamiast zaczynać od zera."
+    },
     "contact": {
         "title": "Napisz do nas - doradzimy",
         "subtitle": "Zostaw wiadomość. Odpiszemy w ciągu 24 godzin i zaproponujemy najlepsze rozwiązanie dla Twojej firmy.",

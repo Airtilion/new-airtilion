@@ -13,6 +13,7 @@ import FeaturesGrid from '@components/blocks/FeaturesGrid'
 import ListWithSideImage from '@components/blocks/ListWithSideImage'
 import StepsGrid from '@components/blocks/StepsGrid'
 import ProseTextBand from '@components/blocks/ProseTextBand'
+import IconRowListWithFaqGrid from '@components/blocks/IconRowListWithFaqGrid'
 
 import PriceEstimedCard from '@app/strony-internetowe/_components/PriceEstimedCard'
 import ServiceIndustries from '@features/service/components/ServiceIndustries'
@@ -24,7 +25,6 @@ import ServiceUxUi from '@features/service/components/ServiceUxUi'
 import ServiceSpeed from '@features/service/components/ServiceSpeed'
 import ServiceSecurity from '@features/service/components/ServiceSecurity'
 import ServicePricingFactors from '@features/service/components/ServicePricingFactors'
-import ServiceMaintenanceCosts from '@features/service/components/ServiceMaintenanceCosts'
 import ServiceExtraCare from '@features/service/components/ServiceExtraCare'
 import ServiceTechSupport from '@features/service/components/ServiceTechSupport'
 import ServiceWhyUs from '@features/service/components/ServiceWhyUs'
@@ -76,7 +76,7 @@ const page = async ({ searchParams }) => {
                 <ProseTextBand dict={dict.workflow} />
                 <PriceEstimedCard dict={dict.pricing} />
                 <ServicePricingFactors dict={dict.pricingFactors} />
-                <ServiceMaintenanceCosts dict={dict.maintenanceCosts} />
+                <IconRowListWithFaqGrid dict={dict.maintenanceCosts} />
                 <ServiceTechSupport dict={dict.techSupport} />
                 <ServiceExtraCare dict={dict.extraCare} />
                 <ServiceCoverage dict={dict.coverage} />

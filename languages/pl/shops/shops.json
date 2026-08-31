@@ -420,6 +420,54 @@
         ],
         "outdesc": "Orientacyjnie koszt prostego sklepu na WooCommerce lub Shoper zaczyna się od kilku tysięcy złotych netto. Wdrożenie na Shopify lub rozbudowany sklep w architekturze headless, z wieloma integracjami, może kosztować kilkanaście lub kilkadziesiąt tysięcy złotych."
     },
+    "maintenanceCosts": {
+        "title": "Jakie są koszty utrzymania sklepu internetowego?",
+        "intro": "Uruchomienie sklepu to dopiero początek. Podobnie jak przy stronie internetowej, sklep generuje też koszty bieżące, o których warto pomyśleć z wyprzedzeniem.",
+        "subintro": "Na koszty utrzymania sklepu internetowego składają się zazwyczaj:",
+        "costs": [
+            {
+                "title": "Hosting",
+                "desc": "Dotyczy sklepów na WooCommerce. Sklepy internetowe zwykle potrzebują wydajniejszego serwera niż zwykła strona firmowa, ze względu na większy ruch i liczbę operacji na bazie danych. Roczny koszt to zwykle od kilkuset do kilku tysięcy złotych.",
+                "icon": "ph:hard-drive-light"
+            },
+            {
+                "title": "Abonament platformy",
+                "desc": "Dotyczy Shopify i Shoper. To stały miesięczny koszt korzystania z platformy, który zależy od wybranego planu i liczby zamówień.",
+                "icon": "ph:credit-card-light"
+            },
+            {
+                "title": "Domena",
+                "desc": "Standardowy koszt przedłużenia domeny to kilkadziesiąt złotych rocznie, niezależnie od wybranej platformy.",
+                "icon": "ph:globe-light"
+            },
+            {
+                "title": "Prowizje płatności online",
+                "desc": "Operatorzy płatności pobierają zwykle niewielki procent od każdej transakcji.",
+                "icon": "ph:percent-light"
+            },
+            {
+                "title": "Aktualizacje i wsparcie techniczne",
+                "desc": "Sklepy na WooCommerce wymagają regularnych aktualizacji ze względów bezpieczeństwa. Shopify i Shoper aktualizuje za Ciebie dostawca platformy.",
+                "icon": "ph:arrows-clockwise-light"
+            }
+        ],
+        "faq": [
+            {
+                "title": "Co dodatkowo wpływa na koszty utrzymania?",
+                "paragraphs": [
+                    "Im więcej masz zamówień, tym więcej zasobów serwera potrzebujesz. Sklepy z dużym ruchem w okresach wyprzedażowych, takich jak Black Friday, powinny mieć zapas wydajności na te szczyty.",
+                    "Znaczenie ma też liczba integracji. Każdy dodatkowy system, na przykład automatyczne fakturowanie czy program lojalnościowy, może wiązać się z dodatkową opłatą abonamentową u zewnętrznego dostawcy."
+                ]
+            },
+            {
+                "title": "Czy da się przewidzieć koszty z góry?",
+                "paragraphs": [
+                    "Podczas wyceny projektu zawsze przedstawiamy Ci pełny obraz kosztów, także tych po uruchomieniu sklepu. Nie zostawiamy Cię z niespodziankami.",
+                    "Jeśli zależy Ci na jak najniższych kosztach utrzymania, pomożemy dobrać rozwiązanie dopasowane do Twojego budżetu, bez rezygnowania z bezpieczeństwa i wydajności sklepu."
+                ]
+            }
+        ]
+    },
     "contact": {
         "title": "Napisz do nas - doradzimy",
         "subtitle": "Zostaw wiadomość. Odpiszemy w ciągu 24 godzin i zaproponujemy najlepsze rozwiązanie dla Twojej firmy.",

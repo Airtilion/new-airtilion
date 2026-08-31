@@ -25,6 +25,7 @@ import ShopSeo from './_components/ShopSeo'
 import StepsGrid from '@components/blocks/StepsGrid'
 import ProseTextBand from '@components/blocks/ProseTextBand'
 import ShopPrice from './_components/ShopPrice'
+import IconRowListWithFaqGrid from '@components/blocks/IconRowListWithFaqGrid'
 
 export const metadata = {
     title: 'Projektowanie i tworzenie sklepów internetowych - Airtilion',
@@ -69,6 +70,7 @@ const page = async ({ searchParams }) => {
                 <StepsGrid dict={dict.process} columns={3} />
                 <ProseTextBand dict={dict.workflow} />
                 <ShopPrice dict={dict.pricing} />
+                <IconRowListWithFaqGrid dict={dict.maintenanceCosts} withTopMargin={false} titleColSpan={3} />
 
                 <CornerFrameCta dict={dict.contact} lang={lang} />
 

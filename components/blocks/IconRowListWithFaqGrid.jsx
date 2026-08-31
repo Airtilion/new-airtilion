@@ -1,9 +1,26 @@
 import React from 'react'
 import { Icon } from '@iconify/react'
 
-const ServiceMaintenanceCosts = ({ dict }) => {
+const TITLE_COL_SPAN_CLASS = {
+    2: 'col-span-2',
+    3: 'col-span-3',
+    4: 'col-span-4',
+    5: 'col-span-5',
+}
+
+const DESC_COL_SPAN_CLASS = {
+    9: 'col-span-9',
+    8: 'col-span-8',
+    7: 'col-span-7',
+    6: 'col-span-6',
+}
+
+const getTitleColSpanClass = (titleColSpan) => TITLE_COL_SPAN_CLASS[titleColSpan] ?? TITLE_COL_SPAN_CLASS[2]
+const getDescColSpanClass = (titleColSpan) => DESC_COL_SPAN_CLASS[11 - titleColSpan] ?? DESC_COL_SPAN_CLASS[9]
+
+const IconRowListWithFaqGrid = ({ dict, withTopMargin = true, titleColSpan = 2 }) => {
     return (
-        <section className='mt-32 py-32 overflow-hidden bg-black relative'>
+        <section className={`${withTopMargin ? 'mt-32' : ''} py-32 overflow-hidden bg-black relative`}>
             <div className='section-style relative z-1'>
 
                 <div className='max-w-4xl'>
@@ -18,8 +35,8 @@ const ServiceMaintenanceCosts = ({ dict }) => {
                             <div aria-hidden='true' className='col-span-1 shrink-0 w-14 h-14 bg-white/5 flex-center duration-300 group-hover:bg-(--primary-text-color)'>
                                 <Icon icon={cost.icon} width={32} height={32} className="text-(--hover-text-color) group-hover:text-black group-hover:scale-110 transition-transform duration-300" />
                             </div>
-                            <h3 className='col-span-2 text-[20px] max-md:col-span-3 max-sm:text-[18px]'>{cost.title}</h3>
-                            <p className='col-span-9 text-[15px] leading-relaxed max-md:col-span-4'>{cost.desc}</p>
+                            <h3 className={`${getTitleColSpanClass(titleColSpan)} col-span-2 text-[20px] max-md:col-span-3 max-sm:text-[18px]`}>{cost.title}</h3>
+                            <p className={`${getDescColSpanClass(titleColSpan)} text-[15px] leading-relaxed max-md:col-span-4`}>{cost.desc}</p>
                         </div>
                     ))}
                 </div>
@@ -43,4 +60,4 @@ const ServiceMaintenanceCosts = ({ dict }) => {
     )
 }
 
-export default ServiceMaintenanceCosts
+export default IconRowListWithFaqGrid

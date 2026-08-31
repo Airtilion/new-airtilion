@@ -468,6 +468,32 @@
             }
         ]
     },
+    "extraCare": {
+        "title": "Usługi dodatkowe: opieka nad sklepem internetowym",
+        "intro": "Prowadzenie sklepu internetowego to codzienna praca: nowe produkty, zmiany cen, sezonowe promocje. Nie zawsze masz na to czas albo osobę w zespole, która się tym zajmie.",
+        "subintro": "W ramach opieki nad sklepem internetowym możemy przejąć od Ciebie:",
+        "services": [
+            {
+                "desc": "Dodawanie i edycję produktów, w tym opisy, zdjęcia, ceny i warianty.",
+                "icon": "ph:package-light"
+            },
+            {
+                "desc": "Aktualizacje platformy i wtyczek, żeby sklep działał stabilnie i bezpiecznie.",
+                "icon": "ph:arrows-clockwise-light"
+            },
+            {
+                "desc": "Monitoring działania sklepu, w tym czasu ładowania strony i poprawności procesu zamówienia.",
+                "icon": "ph:gauge-light"
+            },
+            {
+                "desc": "Drobne zmiany funkcjonalne, na przykład nowe banery, sekcje promocyjne czy modyfikacje formularzy.",
+                "icon": "ph:sliders-light"
+            }
+        ],
+        "note": "Dla sklepów, które nie mogą pozwolić sobie na przestój, oferujemy też umowę SLA, z gwarantowanym czasem reakcji na zgłoszenie. Zakres i koszt takiej umowy ustalamy indywidualnie, w zależności od skali Twojego sklepu i wymaganego czasu reakcji.",
+        "outro": "Dzięki stałej opiece Twój sklep internetowy zawsze działa sprawnie i jest gotowy na kolejny etap rozwoju Twojej firmy.",
+        "cta": "Bezpłatna wycena"
+    },
     "contact": {
         "title": "Napisz do nas - doradzimy",
         "subtitle": "Zostaw wiadomość. Odpiszemy w ciągu 24 godzin i zaproponujemy najlepsze rozwiązanie dla Twojej firmy.",

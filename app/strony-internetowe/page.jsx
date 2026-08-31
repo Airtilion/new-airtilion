@@ -25,12 +25,12 @@ import ServiceUxUi from '@features/service/components/ServiceUxUi'
 import ServiceSpeed from '@features/service/components/ServiceSpeed'
 import ServiceSecurity from '@features/service/components/ServiceSecurity'
 import ServicePricingFactors from '@features/service/components/ServicePricingFactors'
-import ServiceExtraCare from '@features/service/components/ServiceExtraCare'
 import ServiceTechSupport from '@features/service/components/ServiceTechSupport'
 import ServiceWhyUs from '@features/service/components/ServiceWhyUs'
 
 import worth from '@assets/images/websites/worth-it.webp'
 import preparation from '@assets/images/websites/preparation.webp'
+import IconGridWithCta from '@components/blocks/IconGridWithCta'
 
 export const metadata = {
     title: 'Projektowanie i tworzenie stron internetowych - Airtilion',
@@ -78,7 +78,7 @@ const page = async ({ searchParams }) => {
                 <ServicePricingFactors dict={dict.pricingFactors} />
                 <IconRowListWithFaqGrid dict={dict.maintenanceCosts} />
                 <ServiceTechSupport dict={dict.techSupport} />
-                <ServiceExtraCare dict={dict.extraCare} />
+                <IconGridWithCta dict={dict.extraCare} />
                 <ServiceCoverage dict={dict.coverage} />
                 <ServiceWhyUs dict={dict.whyUs} />
                 <ServiceFaq dict={dict.faq} />

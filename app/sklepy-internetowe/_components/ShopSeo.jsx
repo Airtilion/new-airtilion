@@ -21,7 +21,7 @@ const ShopSeo = ({ dict }) => {
                     <p className='mt-6 text-[16px] leading-relaxed max-sm:text-[15px]'>{dict.includedNote}</p>
                 </div>
 
-                <div className='mt-12 p-8 rounded-2xl border border-dashed border-white/20'>
+                <div className='mt-12 p-8 rounded-2xl border border-dashed border-white/20 duration-300 hover:border-solid hover:bg-white/[0.02]'>
                     <p className='text-[13px] uppercase tracking-widest text-white/40'>{dict.outsourcedLabel}</p>
                     <p className='mt-3 text-[15px] leading-relaxed'>{dict.outsourcedNote}</p>
                 </div>

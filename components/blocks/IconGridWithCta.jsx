@@ -2,7 +2,19 @@ import React from 'react'
 import { Icon } from '@iconify/react'
 import WhiteBtn from '@components/buttons/WhiteBtn'
 
-const ServiceExtraCare = ({ dict }) => {
+const getRowBorderClass = (idx, total) => {
+    const isRightColumn = idx % 2 === 1
+    const rowIndex = Math.floor(idx / 2)
+    const totalRows = Math.ceil(total / 2)
+    const isLastRow = rowIndex === totalRows - 1
+
+    const borderRight = isRightColumn ? '' : 'border-r max-lg:border-r-0'
+    const borderBottom = isLastRow ? '' : 'border-b'
+
+    return `${borderRight} ${borderBottom}`.trim()
+}
+
+const IconGridWithCta = ({ dict }) => {
     return (
         <section className='mt-32'>
             <div className='section-style'>
@@ -15,7 +27,7 @@ const ServiceExtraCare = ({ dict }) => {
 
                 <div className='mt-12 grid grid-cols-2 auto-rows-fr max-lg:grid-cols-1 max-lg:mt-8'>
                     {dict.services.map((item, idx) => (
-                        <div key={idx} className={`col-span-1 h-full flex flex-col justify-center group p-8 border-white/10 ${idx === 0 ? 'border-b border-r max-lg:border-r-0' : ''} ${idx === 1 ? 'border-b' : ''}  ${idx === 2 ? 'border-r max-lg:border-r-0' : ''} hover:bg-white/[0.02] duration-300 max-lg:border-b max-lg:p-6`}>
+                        <div key={idx} className={`col-span-1 h-full flex flex-col justify-center group p-8 border-white/10 ${getRowBorderClass(idx, dict.services.length)} hover:bg-white/[0.02] duration-300 max-lg:border-b max-lg:p-6`}>
                             <div aria-hidden='true' className='w-12 h-12 rounded-full bg-white/5 flex-center shrink-0 group-hover:bg-(--primary-text-color) transition-all duration-500'>
                                 <Icon icon={item.icon} width={24} height={24} className="text-(--primary-text-color) group-hover:text-black transition-colors duration-500" />
                             </div>
@@ -23,6 +35,12 @@ const ServiceExtraCare = ({ dict }) => {
                         </div>
                     ))}
                 </div>
+
+                {dict.note && (
+                    <div className='mt-16 p-8 rounded-2xl border border-dashed border-white/20 duration-300 hover:border-solid hover:bg-white/[0.02] max-lg:mt-12'>
+                        <p className='text-[18px] leading-relaxed max-lg:text-[16px] max-sm:text-[15px]'>{dict.note}</p>
+                    </div>
+                )}
 
                 <div className='mt-16 mx-auto text-center flex flex-col max-w-2xl max-md:max-w-none'>
                     <p className='mb-8 text-[22px] leading-relaxed max-xl:text-[20px] max-lg:text-[18px] max-sm:text-[16px]'>{dict.outro}</p>
@@ -34,4 +52,4 @@ const ServiceExtraCare = ({ dict }) => {
     )
 }
 
-export default ServiceExtraCare
+export default IconGridWithCta

@@ -389,6 +389,37 @@
             "Gdy sprzedaż rośnie, a katalog produktów się rozbudowuje, wspólnie planujemy migrację frontendu na architekturę headless. Dzięki temu sklep zachowuje wygodę zarządzania w WooCommerce, a jednocześnie zyskuje wydajność potrzebną przy większym ruchu."
         ]
     },
+    "pricing": {
+        "title": "Cennik: Ile kosztuje stworzenie sklepu internetowego?",
+        "subtitle": "Koszt budowy sklepu internetowego zależy od kilku czynników. Nie stosujemy sztywnego cennika, bo każdy projekt e-commerce ma inną specyfikę.",
+        "ctaHeading": "Podaj nam szczegóły swojego sklepu, a przygotujemy wycenę dopasowaną do Twoich potrzeb.",
+        "cta": "Zapytaj o bezpłatną wycenę",
+        "ctaNote": "Odezwiemy się w ciągu 24 godzin z konkretną propozycją dopasowaną do Twojego projektu.",
+        "factorsLabel": "Na cenę wpływa przede wszystkim",
+        "factors": [
+            {
+                "title": "Wybrana platforma",
+                "desc": "WooCommerce i Shoper zwykle oznaczają niższy koszt startowy niż Shopify czy rozwiązanie headless."
+            },
+            {
+                "title": "Liczba produktów i kategorii",
+                "desc": "Im większy i bardziej rozbudowany katalog, tym więcej pracy przy strukturze sklepu."
+            },
+            {
+                "title": "Zakres integracji",
+                "desc": "Każda dodatkowa integracja płatności, kuriera czy systemu magazynowego wydłuża czas realizacji."
+            },
+            {
+                "title": "Indywidualne funkcje",
+                "desc": "Konfigurator produktu, program lojalnościowy czy sprzedaż wielojęzyczna zwiększają zakres prac."
+            },
+            {
+                "title": "Projekt graficzny",
+                "desc": "Dedykowany design od podstaw kosztuje więcej niż wdrożenie na sprawdzonym szablonie."
+            }
+        ],
+        "outdesc": "Orientacyjnie koszt prostego sklepu na WooCommerce lub Shoper zaczyna się od kilku tysięcy złotych netto. Wdrożenie na Shopify lub rozbudowany sklep w architekturze headless, z wieloma integracjami, może kosztować kilkanaście lub kilkadziesiąt tysięcy złotych."
+    },
     "contact": {
         "title": "Napisz do nas - doradzimy",
         "subtitle": "Zostaw wiadomość. Odpiszemy w ciągu 24 godzin i zaproponujemy najlepsze rozwiązanie dla Twojej firmy.",

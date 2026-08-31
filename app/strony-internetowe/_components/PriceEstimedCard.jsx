@@ -5,7 +5,7 @@ import { Icon } from '@iconify/react'
 import bg from '@assets/images/websites/bg-pricing.webp'
 import WhiteBtn from '@components/buttons/WhiteBtn'
 
-const ServicePricing = ({ dict }) => {
+const PriceEstimedCard = ({ dict }) => {
     const project = dict.exampleProject;
     return (
         <section className='py-32 relative'>
@@ -62,4 +62,4 @@ const ServicePricing = ({ dict }) => {
     )
 }
 
-export default ServicePricing
+export default PriceEstimedCard

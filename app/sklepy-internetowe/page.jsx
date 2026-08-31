@@ -18,11 +18,13 @@ import ShopPlatforms from '@app/sklepy-internetowe/_components/ShopPlatforms'
 
 import worth from '@assets/images/websites/worth-it.webp'
 import integrations from '@assets/images/shops/integrations.webp'
+import pricing from '@assets/images/websites/bg-pricing.webp'
 
 import ShopHeadlessArchitecture from './_components/ShopHeadlessArchitecture'
 import ShopSeo from './_components/ShopSeo'
 import StepsGrid from '@components/blocks/StepsGrid'
 import ProseTextBand from '@components/blocks/ProseTextBand'
+import ShopPrice from './_components/ShopPrice'
 
 export const metadata = {
     title: 'Projektowanie i tworzenie sklepów internetowych - Airtilion',
@@ -66,6 +68,7 @@ const page = async ({ searchParams }) => {
                 <ShopSeo dict={dict.seo} />
                 <StepsGrid dict={dict.process} columns={3} />
                 <ProseTextBand dict={dict.workflow} />
+                <ShopPrice dict={dict.pricing} />
 
                 <CornerFrameCta dict={dict.contact} lang={lang} />
 

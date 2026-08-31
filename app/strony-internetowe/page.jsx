@@ -14,11 +14,11 @@ import ListWithSideImage from '@components/blocks/ListWithSideImage'
 import StepsGrid from '@components/blocks/StepsGrid'
 import ProseTextBand from '@components/blocks/ProseTextBand'
 
+import PriceEstimedCard from '@app/strony-internetowe/_components/PriceEstimedCard'
 import ServiceIndustries from '@features/service/components/ServiceIndustries'
 import ServiceCoverage from '@features/service/components/ServiceCoverage'
 import ServiceFaq from '@features/service/components/ServiceFaq'
 import ServiceTypes from '@features/service/components/ServiceTypes'
-import ServicePricing from '@features/service/components/ServicePricing'
 import ServiceBenefits from '@features/service/components/ServiceBenefits'
 import ServiceUxUi from '@features/service/components/ServiceUxUi'
 import ServiceSpeed from '@features/service/components/ServiceSpeed'
@@ -74,7 +74,7 @@ const page = async ({ searchParams }) => {
                 <ListWithSideImage dict={dict.preparation} img={preparation} />
                 <StepsGrid dict={dict.process} />
                 <ProseTextBand dict={dict.workflow} />
-                <ServicePricing dict={dict.pricing} />
+                <PriceEstimedCard dict={dict.pricing} />
                 <ServicePricingFactors dict={dict.pricingFactors} />
                 <ServiceMaintenanceCosts dict={dict.maintenanceCosts} />
                 <ServiceTechSupport dict={dict.techSupport} />

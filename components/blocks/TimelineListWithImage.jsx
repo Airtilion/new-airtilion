@@ -2,12 +2,16 @@ import React from 'react'
 import Image from 'next/image'
 import whyUs from '@assets/images/websites/why-us.webp'
 
-const ServiceWhyUs = ({ dict }) => {
+const TITLE_MAX_WIDTH_CLASS = { xl: 'max-w-xl', '2xl': 'max-w-2xl' }
+
+const getTitleMaxWidthClass = (titleMaxWidth) => TITLE_MAX_WIDTH_CLASS[titleMaxWidth] ?? TITLE_MAX_WIDTH_CLASS.xl
+
+const TimelineListWithImage = ({ dict, titleMaxWidth = 'xl' }) => {
     return (
         <section className='mt-32 py-32 bg-black relative overflow-hidden'>
             <div className='section-style relative z-1'>
 
-                <div className='max-w-xl max-md:max-w-none'>
+                <div className={`${getTitleMaxWidthClass(titleMaxWidth)} max-md:max-w-none`}>
                     <h2 className='title'>{dict.title}</h2>
                     <p className='mt-6 text-[18px] leading-relaxed max-sm:text-[16px]'>{dict.intro}</p>
                 </div>
@@ -40,4 +44,4 @@ const ServiceWhyUs = ({ dict }) => {
     )
 }
 
-export default ServiceWhyUs
+export default TimelineListWithImage

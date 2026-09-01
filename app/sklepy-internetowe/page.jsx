@@ -13,20 +13,22 @@ import ContentWithSidebarBox from '@components/blocks/ContentWithSidebarBox'
 import FeaturesGrid from '@components/blocks/FeaturesGrid'
 import ListWithSideImage from '@components/blocks/ListWithSideImage'
 import NumberedRowStack from '@components/blocks/NumberedRowStack'
+import TimelineListWithImage from '@components/blocks/TimelineListWithImage'
+import IconGridWithCta from '@components/blocks/IconGridWithCta'
+import StepsGrid from '@components/blocks/StepsGrid'
+import ProseTextBand from '@components/blocks/ProseTextBand'
+import IconRowListWithFaqGrid from '@components/blocks/IconRowListWithFaqGrid'
 
 import ShopPlatforms from '@app/sklepy-internetowe/_components/ShopPlatforms'
+import ShopHeadlessArchitecture from '@app/sklepy-internetowe/_components/ShopHeadlessArchitecture'
+import ShopSeo from '@app/sklepy-internetowe/_components/ShopSeo'
+import ShopPrice from '@app/sklepy-internetowe/_components/ShopPrice'
+import ShopMarketing from '@app/sklepy-internetowe/_components/ShopMarketing'
 
 import worth from '@assets/images/websites/worth-it.webp'
 import integrations from '@assets/images/shops/integrations.webp'
+import AccordionGrid from '@components/blocks/AccordionGrid'
 
-import ShopHeadlessArchitecture from './_components/ShopHeadlessArchitecture'
-import ShopSeo from './_components/ShopSeo'
-import StepsGrid from '@components/blocks/StepsGrid'
-import ProseTextBand from '@components/blocks/ProseTextBand'
-import ShopPrice from './_components/ShopPrice'
-import IconRowListWithFaqGrid from '@components/blocks/IconRowListWithFaqGrid'
-import IconGridWithCta from '@components/blocks/IconGridWithCta'
-import ShopMarketing from './_components/ShopMarketing'
 
 export const metadata = {
     title: 'Projektowanie i tworzenie sklepów internetowych - Airtilion',
@@ -74,6 +76,8 @@ const page = async ({ searchParams }) => {
                 <IconRowListWithFaqGrid dict={dict.maintenanceCosts} withTopMargin={false} titleColSpan={3} />
                 <IconGridWithCta dict={dict.extraCare} />
                 <ShopMarketing dict={dict.marketing} />
+                <TimelineListWithImage dict={dict.whyUs} titleMaxWidth='2xl' />
+                <AccordionGrid dict={dict.coverage} baseUrl='https://airtilion.com/sklepy-internetowe' />
 
                 <CornerFrameCta dict={dict.contact} lang={lang} />
 

@@ -517,6 +517,310 @@
         ],
         "outro": "Od strony technicznej przygotujemy Twój sklep tak, żeby taka współpraca była możliwa od pierwszego dnia. Integrujemy narzędzia analityczne, systemy mailingowe i programy lojalnościowe, więc Twój partner marketingowy dostaje gotowe fundamenty do pracy, zamiast zaczynać od zera."
     },
+    "whyUs": {
+        "title": "Dlaczego warto wybrać Airtilion do budowy sklepu internetowego?",
+        "intro": "Na rynku znajdziesz wiele firm oferujących tworzenie sklepów internetowych. Oto, co realnie wyróżnia naszą agencję.",
+        "imgAlt": "Lew oświetlony punktowym światłem w ciemności, symbolizujący bezkompromisową jakość i unikalność sklepów internetowych Airtilion",
+        "reasons": [
+            {
+                "title": "Dobieramy platformę do Twojego biznesu, nie na odwrót.",
+                "desc": "Nie sprzedajemy Ci jednego, uniwersalnego rozwiązania. Analizujemy Twój model sprzedaży i proponujemy system, który mu odpowiada."
+            },
+            {
+                "title": "Stawiamy na wydajność.",
+                "desc": "Dzięki architekturze headless i Next.js Twój sklep ładuje się szybko, nawet przy dużym ruchu i rozbudowanym katalogu produktów."
+            },
+            {
+                "title": "Doradzamy na każdym etapie.",
+                "desc": "Nie musisz znać się na technologiach. Wyjaśniamy każdą decyzję prostym językiem."
+            },
+            {
+                "title": "Jesteśmy dostępni w całej Polsce.",
+                "desc": "Działamy w 100% online, więc niezależnie od tego, gdzie prowadzisz firmę, możemy Ci pomóc."
+            },
+            {
+                "title": "Odpowiadamy szybko.",
+                "desc": "Standardowo odzywamy się do Ciebie w ciągu 24 godzin lub najbliższego dnia roboczego."
+            }
+        ]
+    },
+    "coverage": {
+        "title": "Działamy lokalnie, projektujemy globalnie",
+        "subtitle": "Nasza główna siedziba to Tarnów, ale dzięki sprawdzonym procesom zdalnym z sukcesem wdrażamy projekty dla firm z każdego zakątka kraju. Wybierz region, aby zobaczyć dedykowaną ofertę.",
+        "regions": [
+            {
+                "name": "Dolnośląskie",
+                "slug": "/wroclaw",
+                "cities": [
+                    "/boleslawiec",
+                    "/dzierzoniow",
+                    "/glogow",
+                    "/jelenia-gora",
+                    "/klodzko",
+                    "/legnica",
+                    "/lubin",
+                    "/olesnica",
+                    "/olawa",
+                    "/swidnica",
+                    "/walbrzych",
+                    "/wroclaw",
+                    "/zgorzelec"
+                ]
+            },
+            {
+                "name": "Kujawsko-Pomorskie",
+                "slug": "/bydgoszcz",
+                "cities": [
+                    "/brodnica",
+                    "/bydgoszcz",
+                    "/grudziadz",
+                    "/inowroclaw",
+                    "/naklo-nad-notecia",
+                    "/torun",
+                    "/wloclawek"
+                ]
+            },
+            {
+                "name": "Lubelskie",
+                "slug": "/lublin",
+                "cities": [
+                    "/biala-podlaska",
+                    "/bilgoraj",
+                    "/chelm",
+                    "/lublin",
+                    "/pulawy",
+                    "/zamosc"
+                ]
+            },
+            {
+                "name": "Lubuskie",
+                "slug": "/lubuskie",
+                "cities": [
+                    "/gorzow-wielkopolski",
+                    "/swiebodzin",
+                    "/zielona-gora"
+                ]
+            },
+            {
+                "name": "Łódzkie",
+                "slug": "/lodzkie",
+                "cities": [
+                    "/belchatow",
+                    "/lodz",
+                    "/lowicz",
+                    "/ozorkow",
+                    "/pabianice",
+                    "/piotrkow-trybunalski",
+                    "/radomsko",
+                    "/sieradz",
+                    "/skierniewice",
+                    "/wielun",
+                    "/zdunska-wola",
+                    "/zgierz"
+                ]
+            },
+            {
+                "name": "Małopolskie",
+                "slug": "/malopolska",
+                "cities": [
+                    "/andrychow",
+                    "/bochnia",
+                    "/chrzanow",
+                    "/gorlice",
+                    "/krakow",
+                    "/limanowa",
+                    "/myslenice",
+                    "/nowy-sacz",
+                    "/nowy-targ",
+                    "/olkusz",
+                    "/oswiecim",
+                    "/skawina",
+                    "/sucha-beskidzka",
+                    "/tarnow",
+                    "/wadowice",
+                    "/wieliczka",
+                    "/zakopane"
+                ]
+            },
+            {
+                "name": "Mazowieckie",
+                "slug": "/mazowieckie",
+                "cities": [
+                    "/ciechanow",
+                    "/garwolin",
+                    "/grodzisk-mazowiecki",
+                    "/legionowo",
+                    "/lomianki",
+                    "/milanowek",
+                    "/minsk-mazowiecki",
+                    "/mlawa",
+                    "/ostroleka",
+                    "/otwock",
+                    "/piaseczno",
+                    "/plock",
+                    "/pruszkow",
+                    "/radom",
+                    "/siedlce",
+                    "/sochaczew",
+                    "/warszawa",
+                    "/wolomin",
+                    "/wyszkow",
+                    "/zuromin",
+                    "/zyrardow"
+                ]
+            },
+            {
+                "name": "Opolskie",
+                "slug": "/opole",
+                "cities": [
+                    "/brzeg",
+                    "/kluczbork",
+                    "/namyslow",
+                    "/nysa",
+                    "/opole"
+                ]
+            },
+            {
+                "name": "Podkarpackie",
+                "slug": "/rzeszow",
+                "cities": [
+                    "/jaroslaw",
+                    "/jaslo",
+                    "/krosno",
+                    "/mielec",
+                    "/rzeszow",
+                    "/sanok",
+                    "/tarnobrzeg"
+                ]
+            },
+            {
+                "name": "Podlaskie",
+                "slug": "/bialystok",
+                "cities": [
+                    "/bialystok",
+                    "/lomza",
+                    "/suwalki"
+                ]
+            },
+            {
+                "name": "Pomorskie",
+                "slug": "/pomorskie",
+                "cities": [
+                    "/chojnice",
+                    "/czluchow",
+                    "/gdansk",
+                    "/gdynia",
+                    "/kartuzy",
+                    "/koscierzyna",
+                    "/kwidzyn",
+                    "/lebork",
+                    "/malbork",
+                    "/reda",
+                    "/rumia",
+                    "/sopot",
+                    "/starogard-gdanski",
+                    "/tczew",
+                    "/trojmiasto",
+                    "/wejherowo"
+                ]
+            },
+            {
+                "name": "Śląskie",
+                "slug": "/slaskie",
+                "cities": [
+                    "/bedzin",
+                    "/bielsko-biala",
+                    "/bytom",
+                    "/chorzow",
+                    "/cieszyn",
+                    "/czechowice-dziedzice",
+                    "/czeladz",
+                    "/czestochowa",
+                    "/dabrowa-gornicza",
+                    "/gliwice",
+                    "/jastrzebie-zdroj",
+                    "/jaworzno",
+                    "/katowice",
+                    "/lubliniec",
+                    "/mikolow",
+                    "/myslowice",
+                    "/myszkow",
+                    "/piekary-slaskie",
+                    "/pszczyna",
+                    "/raciborz",
+                    "/ruda-slaska",
+                    "/rybnik",
+                    "/sosnowiec",
+                    "/tarnowskie-gory",
+                    "/tychy",
+                    "/wodzislaw-slaski",
+                    "/zabrze",
+                    "/zawiercie",
+                    "/zory",
+                    "/zywiec"
+                ]
+            },
+            {
+                "name": "Świętokrzyskie",
+                "slug": "/kielce",
+                "cities": [
+                    "/kielce",
+                    "/ostrowiec-swietokrzyski",
+                    "/sandomierz"
+                ]
+            },
+            {
+                "name": "Warmińsko-Mazurskie",
+                "slug": "/olsztyn",
+                "cities": [
+                    "/elblag",
+                    "/elk",
+                    "/gizycko",
+                    "/ilawa",
+                    "/nidzica",
+                    "/olsztyn"
+                ]
+            },
+            {
+                "name": "Wielkopolskie",
+                "slug": "/wielkopolskie",
+                "cities": [
+                    "/gniezno",
+                    "/jarocin",
+                    "/kalisz",
+                    "/kepno",
+                    "/konin",
+                    "/koscian",
+                    "/krotoszyn",
+                    "/leszno",
+                    "/lubon",
+                    "/mosina",
+                    "/nowy-tomysl",
+                    "/ostrow-wielkopolski",
+                    "/pila",
+                    "/poznan",
+                    "/rawicz",
+                    "/steszew",
+                    "/swarzedz",
+                    "/srem",
+                    "/sroda-wielkopolska",
+                    "/wrzesnia"
+                ]
+            },
+            {
+                "name": "Zachodniopomorskie",
+                "slug": "/szczecin",
+                "cities": [
+                    "/bialogard",
+                    "/kolobrzeg",
+                    "/koszalin",
+                    "/stargard",
+                    "/szczecin",
+                    "/walcz"
+                ]
+            }
+        ]
+    },
     "contact": {
         "title": "Napisz do nas - doradzimy",
         "subtitle": "Zostaw wiadomość. Odpiszemy w ciągu 24 godzin i zaproponujemy najlepsze rozwiązanie dla Twojej firmy.",

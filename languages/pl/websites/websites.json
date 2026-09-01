@@ -871,28 +871,23 @@
         "reasons": [
             {
                 "title": "Projektujemy od podstaw, bez szablonów.",
-                "desc": "Twoja strona będzie unikalna, nie kopią setek innych witryn w Twojej branży. Tworzymy profesjonalne strony dopasowane do Twojej marki, bez kompromisów w jakości kodu i designu.",
-                "icon": "ph:paint-brush-broad-light"
+                "desc": "Twoja strona będzie unikalna, nie kopią setek innych witryn w Twojej branży. Tworzymy profesjonalne strony dopasowane do Twojej marki, bez kompromisów w jakości kodu i designu."
             },
             {
                 "title": "Stawiamy na nowoczesne technologie.",
-                "desc": "Next.js, React i WordPress headless to fundamenty, które dają Ci szybkość, bezpieczeństwo i wygodę.",
-                "icon": "ph:cpu-light"
+                "desc": "Next.js, React i WordPress headless to fundamenty, które dają Ci szybkość, bezpieczeństwo i wygodę."
             },
             {
                 "title": "Doradzamy na każdym etapie.",
-                "desc": "Nie musisz znać się na technologiach ani marketingu. Wyjaśniamy każdą decyzję prostym językiem.",
-                "icon": "ph:chats-circle-light"
+                "desc": "Nie musisz znać się na technologiach ani marketingu. Wyjaśniamy każdą decyzję prostym językiem."
             },
             {
                 "title": "Jesteśmy dostępni w całej Polsce.",
-                "desc": "Działamy w 100% online, więc niezależnie czy prowadzisz firmę w Warszawie, Krakowie, Gdańsku czy w mniejszej miejscowości, możemy Ci pomóc. Dla wymagających projektów oferujemy też dojazd fotografa do Twojej siedziby.",
-                "icon": "ph:map-pin-line-light"
+                "desc": "Działamy w 100% online, więc niezależnie czy prowadzisz firmę w Warszawie, Krakowie, Gdańsku czy w mniejszej miejscowości, możemy Ci pomóc. Dla wymagających projektów oferujemy też dojazd fotografa do Twojej siedziby."
             },
             {
                 "title": "Odpowiadamy szybko.",
-                "desc": "Standardowo odzywamy się do Ciebie w ciągu 24 godzin lub najbliższego dnia roboczego.",
-                "icon": "ph:lightning-light"
+                "desc": "Standardowo odzywamy się do Ciebie w ciągu 24 godzin lub najbliższego dnia roboczego."
             }
         ]
     },

@@ -14,10 +14,11 @@ import ListWithSideImage from '@components/blocks/ListWithSideImage'
 import StepsGrid from '@components/blocks/StepsGrid'
 import ProseTextBand from '@components/blocks/ProseTextBand'
 import IconRowListWithFaqGrid from '@components/blocks/IconRowListWithFaqGrid'
+import TimelineListWithImage from '@components/blocks/TimelineListWithImage'
+import AccordionGrid from '@components/blocks/AccordionGrid'
 
 import PriceEstimedCard from '@app/strony-internetowe/_components/PriceEstimedCard'
 import ServiceIndustries from '@features/service/components/ServiceIndustries'
-import ServiceCoverage from '@features/service/components/ServiceCoverage'
 import ServiceFaq from '@features/service/components/ServiceFaq'
 import ServiceTypes from '@features/service/components/ServiceTypes'
 import ServiceBenefits from '@features/service/components/ServiceBenefits'
@@ -26,7 +27,6 @@ import ServiceSpeed from '@features/service/components/ServiceSpeed'
 import ServiceSecurity from '@features/service/components/ServiceSecurity'
 import ServicePricingFactors from '@features/service/components/ServicePricingFactors'
 import ServiceTechSupport from '@features/service/components/ServiceTechSupport'
-import ServiceWhyUs from '@features/service/components/ServiceWhyUs'
 
 import worth from '@assets/images/websites/worth-it.webp'
 import preparation from '@assets/images/websites/preparation.webp'
@@ -79,8 +79,8 @@ const page = async ({ searchParams }) => {
                 <IconRowListWithFaqGrid dict={dict.maintenanceCosts} />
                 <ServiceTechSupport dict={dict.techSupport} />
                 <IconGridWithCta dict={dict.extraCare} />
-                <ServiceCoverage dict={dict.coverage} />
-                <ServiceWhyUs dict={dict.whyUs} />
+                <AccordionGrid dict={dict.coverage} baseUrl='https://airtilion.com/strony-internetowe' />
+                <TimelineListWithImage dict={dict.whyUs} />
                 <ServiceFaq dict={dict.faq} />
 
                 <CornerFrameCta dict={dict.contact} lang={lang} />

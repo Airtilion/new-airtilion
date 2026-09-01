@@ -821,6 +821,68 @@
             }
         ]
     },
+    "faq": {
+        "title": "Najczęściej zadawane pytania (FAQ)",
+        "questions": [
+            {
+                "q": "Ile kosztuje stworzenie sklepu internetowego?",
+                "a": "Prosty sklep na WooCommerce lub Shoper zaczyna się od kilku tysięcy złotych netto. Wdrożenie na Shopify lub rozbudowany sklep w architekturze headless kosztuje kilkanaście lub kilkadziesiąt tysięcy złotych, w zależności od liczby produktów i integracji. Dokładną wycenę przygotujemy po analizie Twoich potrzeb."
+            },
+            {
+                "q": "Ile czasu zajmuje stworzenie sklepu internetowego?",
+                "a": "Prosty sklep na WooCommerce lub Shoper jesteśmy w stanie uruchomić w ciągu kilku tygodni, bo nie trzeba konfigurować hostingu od zera. Rozbudowane projekty na Shopify lub w architekturze headless, z wieloma integracjami i indywidualnym designem, trwają zwykle od kilku do kilkunastu tygodni. Po pierwszej rozmowie przedstawimy dokładny harmonogram."
+            },
+            {
+                "q": "Którą platformę wybrać: WooCommerce, Shopify czy Shoper?",
+                "a": [
+                    "To zależy od wielkości Twojej oferty i planów rozwoju. ",
+                    {
+                        "text": "WooCommerce",
+                        "href": "https://airtilion.com/sklepy-internetowe/woocommerce"
+                    },
+                    " sprawdza się, gdy zależy Ci na pełnej kontroli nad kodem i niższych kosztach miesięcznych. ",
+                    {
+                        "text": "Shopify",
+                        "href": "https://airtilion.com/sklepy-internetowe/shopify"
+                    },
+                    " polecamy przy planach szybkiego rozwoju i sprzedaży zagranicznej. ",
+                    {
+                        "text": "Shoper",
+                        "href": "https://airtilion.com/sklepy-internetowe/shoper"
+                    },
+                    " to dobry wybór dla mniejszych sklepów działających głównie w Polsce. Podczas pierwszej rozmowy pomożemy Ci wybrać właściwe rozwiązanie."
+                ]
+            },
+            {
+                "q": "Czy sklep będzie widoczny w Google?",
+                "a": "Tak. Każdy sklep, który tworzymy, otrzymuje podstawową optymalizację SEO już na starcie, w tym poprawną strukturę adresów URL, meta opisy i optymalizację szybkości ładowania. To solidna baza pod dalsze pozycjonowanie."
+            },
+            {
+                "q": "Jakie metody płatności mogę zaoferować klientom?",
+                "a": "Integrujemy najpopularniejsze metody płatności online, w tym szybkie przelewy, płatności kartą, BLIK oraz raty. Dobierzemy operatora płatności dopasowanego do Twojej branży i skali sprzedaży."
+            },
+            {
+                "q": "Czy mogę sprzedawać za granicą?",
+                "a": "Tak. Shopify ma wbudowaną obsługę wielu walut i języków, dlatego to platforma, którą najczęściej polecamy przy planach ekspansji zagranicznej. WooCommerce i Shoper również obsłużą sprzedaż za granicą, ale wymaga to dodatkowych integracji."
+            },
+            {
+                "q": "Co się stanie, jeśli mój sklep zacznie się szybko rozwijać?",
+                "a": "Projektujemy sklepy z myślą o rozwoju. Jeśli Twoja oferta rośnie, możemy rozbudować sklep o nowe kategorie, integracje czy nawet przenieść go na architekturę headless, żeby zapewnić wyższą wydajność."
+            },
+            {
+                "q": "Czy sklep będzie dobrze działał na telefonie?",
+                "a": "Tak. Każdy sklep, który budujemy, jest w pełni responsywny i dostosowany do smartfonów, tabletów i komputerów. Coraz więcej klientów robi zakupy właśnie na telefonie, dlatego traktujemy to jako obowiązkowy standard."
+            },
+            {
+                "q": "Jak wygląda wsparcie techniczne po uruchomieniu sklepu?",
+                "a": "Oferujemy zarówno gwarancję na drobne poprawki po wdrożeniu, jak i płatną subskrypcję stałej opieki technicznej. Wspólnie ustalamy zakres wsparcia dopasowany do potrzeb Twojego sklepu."
+            },
+            {
+                "q": "Czy pomożecie mi przenieść istniejący sklep na nową platformę?",
+                "a": "Tak. Migrujemy sklepy internetowe między platformami, na przykład ze starego, wolno działającego systemu na WooCommerce, Shopify lub Shoper. Podczas migracji dbamy o przeniesienie produktów, zamówień i historii klientów, a także o zachowanie pozycji w Google poprzez poprawne przekierowania adresów URL."
+            }
+        ]
+    },
     "contact": {
         "title": "Napisz do nas - doradzimy",
         "subtitle": "Zostaw wiadomość. Odpiszemy w ciągu 24 godzin i zaproponujemy najlepsze rozwiązanie dla Twojej firmy.",

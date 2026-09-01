@@ -28,6 +28,7 @@ import ShopMarketing from '@app/sklepy-internetowe/_components/ShopMarketing'
 import worth from '@assets/images/websites/worth-it.webp'
 import integrations from '@assets/images/shops/integrations.webp'
 import AccordionGrid from '@components/blocks/AccordionGrid'
+import FaqAccrodionGrid from '@components/blocks/FaqAccrodionGrid'
 
 
 export const metadata = {
@@ -78,6 +79,7 @@ const page = async ({ searchParams }) => {
                 <ShopMarketing dict={dict.marketing} />
                 <TimelineListWithImage dict={dict.whyUs} titleMaxWidth='2xl' />
                 <AccordionGrid dict={dict.coverage} baseUrl='https://airtilion.com/sklepy-internetowe' />
+                <FaqAccrodionGrid dict={dict.faq} />
 
                 <CornerFrameCta dict={dict.contact} lang={lang} />
 

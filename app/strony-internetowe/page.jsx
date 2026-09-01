@@ -16,10 +16,11 @@ import ProseTextBand from '@components/blocks/ProseTextBand'
 import IconRowListWithFaqGrid from '@components/blocks/IconRowListWithFaqGrid'
 import TimelineListWithImage from '@components/blocks/TimelineListWithImage'
 import AccordionGrid from '@components/blocks/AccordionGrid'
+import IconGridWithCta from '@components/blocks/IconGridWithCta'
+import FaqAccrodionGrid from '@components/blocks/FaqAccrodionGrid'
 
 import PriceEstimedCard from '@app/strony-internetowe/_components/PriceEstimedCard'
 import ServiceIndustries from '@features/service/components/ServiceIndustries'
-import ServiceFaq from '@features/service/components/ServiceFaq'
 import ServiceTypes from '@features/service/components/ServiceTypes'
 import ServiceBenefits from '@features/service/components/ServiceBenefits'
 import ServiceUxUi from '@features/service/components/ServiceUxUi'
@@ -30,7 +31,6 @@ import ServiceTechSupport from '@features/service/components/ServiceTechSupport'
 
 import worth from '@assets/images/websites/worth-it.webp'
 import preparation from '@assets/images/websites/preparation.webp'
-import IconGridWithCta from '@components/blocks/IconGridWithCta'
 
 export const metadata = {
     title: 'Projektowanie i tworzenie stron internetowych - Airtilion',
@@ -81,7 +81,7 @@ const page = async ({ searchParams }) => {
                 <IconGridWithCta dict={dict.extraCare} />
                 <AccordionGrid dict={dict.coverage} baseUrl='https://airtilion.com/strony-internetowe' />
                 <TimelineListWithImage dict={dict.whyUs} />
-                <ServiceFaq dict={dict.faq} />
+                <FaqAccrodionGrid dict={dict.faq} />
 
                 <CornerFrameCta dict={dict.contact} lang={lang} />
 

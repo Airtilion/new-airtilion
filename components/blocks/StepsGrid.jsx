@@ -1,10 +1,19 @@
 import React from 'react'
 import { Icon } from '@iconify/react/dist/iconify'
 
-const GRID_COLS_CLASS = { 2: 'grid-cols-2', 3: 'grid-cols-3', 4: 'grid-cols-4'}
-const CORNER_UTILITY = { tl: 'rounded-tl-2xl', tr: 'rounded-tr-2xl', bl: 'rounded-bl-2xl', br: 'rounded-br-2xl', }
-const CORNER_RESET = { tl: 'rounded-tl-none', tr: 'rounded-tr-none', bl: 'rounded-bl-none', br: 'rounded-br-none' }
+const GRID_COLS_CLASS = { 2: 'grid-cols-2', 3: 'grid-cols-3', 4: 'grid-cols-4' }
 const ALL_CORNERS = ['tl', 'tr', 'bl', 'br']
+
+const CORNER_CLASS = {
+    base: { tl: 'rounded-tl-2xl', tr: 'rounded-tr-2xl', bl: 'rounded-bl-2xl', br: 'rounded-br-2xl' },
+    lg: { tl: 'max-lg:rounded-tl-2xl', tr: 'max-lg:rounded-tr-2xl', bl: 'max-lg:rounded-bl-2xl', br: 'max-lg:rounded-br-2xl' },
+    md: { tl: 'max-md:rounded-tl-2xl', tr: 'max-md:rounded-tr-2xl', bl: 'max-md:rounded-bl-2xl', br: 'max-md:rounded-br-2xl' },
+}
+
+const CORNER_RESET_CLASS = {
+    lg: { tl: 'max-lg:rounded-tl-none', tr: 'max-lg:rounded-tr-none', bl: 'max-lg:rounded-bl-none', br: 'max-lg:rounded-br-none' },
+    md: { tl: 'max-md:rounded-tl-none', tr: 'max-md:rounded-tr-none', bl: 'max-md:rounded-bl-none', br: 'max-md:rounded-br-none' },
+}
 
 const cornersForColumns = (idx, total, columns) => {
     const lastRowSize = total % columns === 0 ? columns : total % columns
@@ -29,9 +38,9 @@ const getCardCornerClasses = (idx, total, columns) => {
 
     const classes = []
     ALL_CORNERS.forEach((corner) => {
-        if (desktop.has(corner)) classes.push(CORNER_UTILITY[corner])
-        classes.push(tablet.has(corner) ? `max-lg:${CORNER_UTILITY[corner]}` : `max-lg:${CORNER_RESET[corner]}`)
-        classes.push(mobile.has(corner) ? `max-md:${CORNER_UTILITY[corner]}` : `max-md:${CORNER_RESET[corner]}`)
+        if (desktop.has(corner)) classes.push(CORNER_CLASS.base[corner])
+        classes.push(tablet.has(corner) ? CORNER_CLASS.lg[corner] : CORNER_RESET_CLASS.lg[corner])
+        classes.push(mobile.has(corner) ? CORNER_CLASS.md[corner] : CORNER_RESET_CLASS.md[corner])
     })
     return classes.join(' ')
 }
@@ -62,7 +71,7 @@ const StepsGrid = ({ dict, columns = 3 }) => {
                             </div>
 
                             <div className='mt-12 max-sm:mt-8'>
-                                <h3 className='text-[22px] font-medium group-hover:text-(--hover-text-color) transition-colors duration-300 max-sm:text-[20px]'>{step.title}</h3>
+                                <h3 className='text-[22px] group-hover:text-(--hover-text-color) transition-colors duration-300 max-sm:text-[20px]'>{step.title}</h3>
                                 <p className='mt-4 text-[15px] leading-relaxed'>{step.desc}</p>
                             </div>
 

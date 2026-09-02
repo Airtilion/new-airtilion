@@ -1,0 +1,77 @@
+{
+    "hero": {
+        "title": "Administracja stron internetowych",
+        "subtitle": "Administracja i opieka nad stronami internetowymi - kopie zapasowe, aktualizacje, bezpieczeństwo i zmiany treści na Twojej witrynie.",
+        "cta": "Darmowy audyt",
+        "ctaSecondary": "Zobacz pakiety"
+    },
+    "risks": {
+        "title": "Czym grozi brak administracji strony internetowej?",
+        "paragraphs": [
+            "Wiele firm zaczyna myśleć o administracji dopiero wtedy, gdy strona już przestała działać. Koszt takiej sytuacji jest zwykle dużo wyższy niż koszt regularnej opieki."
+        ],
+        "imgAlt": "Ilustracja przedstawiająca komunikat błędu 500 Internal Server Error jako przykład awarii wynikającej z braku administracji strony internetowej.",
+        "listLabel": "Zaniedbana strona internetowa naraża Cię na kilka realnych ryzyk:",
+        "items": [
+            {
+                "title": "Włamanie i infekcję złośliwym oprogramowaniem",
+                "desc": "Nieaktualne wtyczki i motywy to najczęstsza droga wejścia dla hakerów."
+            },
+            {
+                "title": "Wyciek danych klientów",
+                "desc": "Zaniedbane zabezpieczenia mogą kosztować Cię nie tylko pieniądze, ale i reputację."
+            },
+            {
+                "title": "Nagły przestój strony",
+                "desc": "Bez monitoringu dowiadujesz się o awarii strony dopiero, gdy zadzwoni do Ciebie klient, a zakłócenia funkcjonowania strony potrafią trwać godzinami, zanim ktokolwiek to zauważy."
+            },
+            {
+                "title": "Spadek pozycji w Google",
+                "desc": "Wyszukiwarka obniża widoczność stron, które długo są niedostępne albo działają wolno."
+            },
+            {
+                "title": "Utratę wszystkich danych",
+                "desc": "Bez kopii zapasowej awaria serwera może oznaczać utratę lat pracy nad treścią i produktami."
+            }
+        ],
+        "outro": "Koszt jednej takiej sytuacji, licząc czas na naprawę, utracone zamówienia i nadszarpnięte zaufanie klientów, zwykle znacznie przewyższa roczny koszt regularnej administracji."
+    },
+    "whyWorthIt": {
+        "title": "Dlaczego warto zadbać o administrację strony internetowej?",
+        "intro": "Profesjonalna administracja stron internetowych chroni Cię przed najczęstszymi zagrożeniami, zanim zdążą wyrządzić realne szkody. Strona internetowa to dziś często pierwszy punkt kontaktu klienta z Twoją firmą. Jeśli przestanie działać, wolno się ładuje albo zostanie zhakowana, tracisz nie tylko klientów, ale i zaufanie, które budowałeś latami.",
+        "imgAlt": "Wizualizacja nowoczesnego sklepu internetowego na ekranie smartfona",
+        "subintro": "Regularna administracja daje Ci kilka konkretnych korzyści, które realnie wpływają na to, jak działa Twoja firma w internecie:",
+        "benefits": [
+            {
+                "title": "Chroni przed atakami i wirusami",
+                "desc": "Regularne aktualizacje i monitoring zamykają luki, zanim ktoś je wykorzysta.",
+                "icon": "ph:clock-light"
+            },
+            {
+                "title": "Zapobiega utracie danych",
+                "desc": "Kopie zapasowe pozwalają odtworzyć stronę w kilka minut, nie w kilka dni.",
+                "icon": "ph:shield-check-light"
+            },
+            {
+                "title": "Utrzymuje wysoką pozycję w Google",
+                "desc": "Wolna albo niedziałająca strona traci widoczność w wynikach wyszukiwania.",
+                "icon": "ph:trend-up-light"
+            },
+            {
+                "title": "Oszczędza Twój czas",
+                "desc": "Nie musisz samodzielnie pilnować aktualizacji wtyczek, motywów i systemu CMS.",
+                "icon": "ph:magnifying-glass-light"
+            },
+            {
+                "title": "Daje Ci spokój",
+                "desc": "Wiesz, że w razie problemu masz kogoś, kto zareaguje, zamiast szukać pomocy w panice.",
+                "icon": "ph:shopping-cart-light"
+            }
+        ]
+    },
+    "contact": {
+        "title": "Napisz do nas - doradzimy",
+        "subtitle": "Zostaw wiadomość. Odpiszemy w ciągu 24 godzin i zaproponujemy najlepsze rozwiązanie dla Twojej firmy.",
+        "cta": "Porozmawiajmy o projekcie"
+    }
+}

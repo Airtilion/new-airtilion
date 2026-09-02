@@ -18,18 +18,18 @@ import IconGridWithCta from '@components/blocks/IconGridWithCta'
 import StepsGrid from '@components/blocks/StepsGrid'
 import ProseTextBand from '@components/blocks/ProseTextBand'
 import IconRowListWithFaqGrid from '@components/blocks/IconRowListWithFaqGrid'
+import AccordionGrid from '@components/blocks/AccordionGrid'
+import FaqAccrodionGrid from '@components/blocks/FaqAccrodionGrid'
+import ProseChecklistWithImage from '@components/blocks/ProseChecklistWithImage'
 
 import ShopPlatforms from '@app/sklepy-internetowe/_components/ShopPlatforms'
 import ShopHeadlessArchitecture from '@app/sklepy-internetowe/_components/ShopHeadlessArchitecture'
 import ShopSeo from '@app/sklepy-internetowe/_components/ShopSeo'
 import ShopPrice from '@app/sklepy-internetowe/_components/ShopPrice'
-import ShopMarketing from '@app/sklepy-internetowe/_components/ShopMarketing'
 
 import worth from '@assets/images/websites/worth-it.webp'
 import integrations from '@assets/images/shops/integrations.webp'
-import AccordionGrid from '@components/blocks/AccordionGrid'
-import FaqAccrodionGrid from '@components/blocks/FaqAccrodionGrid'
-
+import marketing from '@assets/images/shops/marketing.webp'
 
 export const metadata = {
     title: 'Projektowanie i tworzenie sklepów internetowych - Airtilion',
@@ -76,7 +76,7 @@ const page = async ({ searchParams }) => {
                 <ShopPrice dict={dict.pricing} />
                 <IconRowListWithFaqGrid dict={dict.maintenanceCosts} withTopMargin={false} titleColSpan={3} />
                 <IconGridWithCta dict={dict.extraCare} />
-                <ShopMarketing dict={dict.marketing} />
+                <ProseChecklistWithImage dict={dict.marketing} img={marketing} />
                 <TimelineListWithImage dict={dict.whyUs} titleMaxWidth='2xl' />
                 <AccordionGrid dict={dict.coverage} baseUrl='https://airtilion.com/sklepy-internetowe' />
                 <FaqAccrodionGrid dict={dict.faq} />

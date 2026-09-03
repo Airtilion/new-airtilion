@@ -16,6 +16,7 @@ import worth from '@assets/images/websites/worth-it.webp'
 import VersusCards from './_components/AdministrationVersusCards'
 import NumberedRowStack from '@components/blocks/NumberedRowStack'
 import AdministrationTechnologies from './_components/AdministrationTechnologies'
+import AdministrationAlertBanner from './_components/AdministrationAlertBanner'
 
 export const metadata = {
     title: 'Administracja stron internetowych - Airtilion',
@@ -52,6 +53,7 @@ const page = async ({ searchParams }) => {
                 <VersusCards dict={dict.hostingVsAdmin} />
                 <NumberedRowStack dict={dict.scope} />
                 <AdministrationTechnologies dict={dict.technologies} />
+                <AdministrationAlertBanner dict={dict.emergencyFix} />
 
                 <CornerFrameCta dict={dict.contact} lang={lang} />
 

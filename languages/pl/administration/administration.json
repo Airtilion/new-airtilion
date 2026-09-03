@@ -173,6 +173,12 @@
             "buttonLabel": "Napisz do nas"
         }
     },
+    "emergencyFix": {
+        "title": "Moja strona już ma problem: zhakowana lub zainfekowana witryna",
+        "intro": "Jeśli trafiłeś tutaj, bo Twoja strona już przestała działać albo pokazuje dziwne treści, nie czekaj z tym dłużej. Im szybciej zareagujesz, tym mniejsze ryzyko, że Google oznaczy Twoją stronę jako niebezpieczną dla odwiedzających.",
+        "desc": "Oferujemy jednorazowe usunięcie infekcji i przywrócenie działania strony, niezależnie od tego, czy wcześniej byliśmy jej administratorem. Po takiej interwencji możesz zdecydować, czy chcesz kontynuować z nami stałą opiekę, czy tylko jednorazowo naprawić problem.",
+        "cta": "Potrzebuję pilnej pomocy"
+    },
     "contact": {
         "title": "Napisz do nas - doradzimy",
         "subtitle": "Zostaw wiadomość. Odpiszemy w ciągu 24 godzin i zaproponujemy najlepsze rozwiązanie dla Twojej firmy.",

@@ -69,6 +69,24 @@
             }
         ]
     },
+    "hostingVsAdmin": {
+        "title": "Administracja a hosting: czym się różnią?",
+        "intro": "Wielu właścicieli stron myli te dwie usługi, a to prowadzi do fałszywego poczucia bezpieczeństwa. Warto rozróżnić je już na starcie.",
+        "left": {
+            "label": "Hosting",
+            "icon": "ph:hard-drive-light",
+            "desc": "To tylko miejsce, w którym fizycznie znajdują się pliki Twojej strony. Firma hostingowa odpowiada za działanie serwera, ale nie za to, co dzieje się na Twojej stronie: nie aktualizuje wtyczek, nie sprawdza, czy motyw ma lukę bezpieczeństwa, i nie monitoruje, czy ktoś nie próbuje się włamać."
+        },
+        "right": {
+            "label": "Administracja strony",
+            "icon": "ph:shield-check-light",
+            "desc": "To usługa, która dba o samą stronę: jej oprogramowanie, treść i bezpieczeństwo. Możesz mieć najlepszy hosting na rynku i wciąż paść ofiarą ataku, jeśli nikt nie pilnuje aktualizacji Twojego CMS."
+        },
+        "paragraphs": [
+            "Prowadzenie strony internetowej wymaga więc dwóch rzeczy naraz: miejsca na serwerze i kogoś, kto zajmie się bieżącym administrowaniem stroną internetową. Obsługa strony internetowej to coś więcej niż szybki serwer, to stała uwaga poświęcona jej bezpieczeństwu.",
+            "Dlatego traktujemy hosting i administrację jako dwie osobne, uzupełniające się usługi. Możemy pomóc Ci w wyborze odpowiedniego hostingu, ale sama administracja dotyczy tego, co dzieje się na poziomie Twojej strony."
+        ]
+    },
     "contact": {
         "title": "Napisz do nas - doradzimy",
         "subtitle": "Zostaw wiadomość. Odpiszemy w ciągu 24 godzin i zaproponujemy najlepsze rozwiązanie dla Twojej firmy.",

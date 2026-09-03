@@ -35,7 +35,7 @@ const IconRowListWithFaqGrid = ({ dict, withTopMargin = true, titleColSpan = 2 }
                             <div aria-hidden='true' className='col-span-1 shrink-0 w-14 h-14 bg-white/5 flex-center duration-300 group-hover:bg-(--primary-text-color)'>
                                 <Icon icon={cost.icon} width={32} height={32} className="text-(--hover-text-color) group-hover:text-black group-hover:scale-110 transition-transform duration-300" />
                             </div>
-                            <h3 className={`${getTitleColSpanClass(titleColSpan)} col-span-2 text-[20px] max-md:col-span-3 max-sm:text-[18px]`}>{cost.title}</h3>
+                            <h3 className={`${getTitleColSpanClass(titleColSpan)} text-[20px] max-md:col-span-3 max-sm:text-[18px]`}>{cost.title}</h3>
                             <p className={`${getDescColSpanClass(titleColSpan)} text-[15px] leading-relaxed max-md:col-span-4`}>{cost.desc}</p>
                         </div>
                     ))}

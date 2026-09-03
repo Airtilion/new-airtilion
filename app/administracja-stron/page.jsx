@@ -13,6 +13,7 @@ import StickyImageBenefitsList from '@components/blocks/StickyImageBenefitsList'
 
 import internal from '@assets/images/administration/internal.webp'
 import worth from '@assets/images/websites/worth-it.webp'
+import VersusCards from './_components/VersusCards'
 
 export const metadata = {
     title: 'Administracja stron internetowych - Airtilion',
@@ -46,6 +47,7 @@ const page = async ({ searchParams }) => {
                 <PageHero dict={dict.hero} />
                 <ProseChecklistWithImage dict={dict.risks} img={internal} />
                 <StickyImageBenefitsList dict={dict.whyWorthIt} img={worth} />
+                <VersusCards dict={dict.hostingVsAdmin} />
 
                 <CornerFrameCta dict={dict.contact} lang={lang} />
 

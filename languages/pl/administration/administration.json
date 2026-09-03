@@ -87,6 +87,92 @@
             "Dlatego traktujemy hosting i administrację jako dwie osobne, uzupełniające się usługi. Możemy pomóc Ci w wyborze odpowiedniego hostingu, ale sama administracja dotyczy tego, co dzieje się na poziomie Twojej strony."
         ]
     },
+    "scope": {
+        "title": "Na czym polega opieka nad stroną internetową? Zakres usług",
+        "intro": "Nasza usługa administracji stron obejmuje wszystko, czego potrzebuje Twoja witryna, żeby działać bez przestojów. To nie jedna czynność, tylko zestaw regularnych działań, które razem utrzymują ją w dobrej kondycji.",
+        "items": [
+            {
+                "title": "Kopie zapasowe",
+                "desc": "Wykonujemy regularne, automatyczne kopie zapasowe całej strony, przechowywane poza głównym serwerem. Proces tworzenia kopii zapasowych automatyzujemy, żeby nic nie umknęło ludzkiej pamięci. W razie awarii przywracamy działanie w kilka minut.",
+                "icon": "ph:database-light"
+            },
+            {
+                "title": "Aktualizacje CMS, wtyczek i motywów",
+                "desc": "Aktualizujemy system, wtyczki i motyw graficzny na bieżąco, testując każdą zmianę, żeby nic nie przestało działać po aktualizacji. Nie musisz pamiętać, żeby samemu aktualizować oprogramowanie co tydzień, robimy to za Ciebie.",
+                "icon": "ph:arrows-clockwise-light"
+            },
+            {
+                "title": "Monitorowanie bezpieczeństwa",
+                "desc": "Skanujemy stronę pod kątem złośliwego oprogramowania i podejrzanej aktywności, zanim zdąży wyrządzić szkody.",
+                "icon": "ph:magnifying-glass-light"
+            },
+            {
+                "title": "Certyfikat SSL i szyfrowanie",
+                "desc": "Dbamy o ważność certyfikatu SSL i poprawną konfigurację szyfrowanego połączenia między przeglądarką a serwerem.",
+                "icon": "ph:lock-key-light"
+            },
+            {
+                "title": "Monitoring dostępności strony",
+                "desc": "Sprawdzamy działanie Twojej strony przez całą dobę. Jeśli coś przestanie działać, wiemy o tym, zanim zauważą to Twoi klienci.",
+                "icon": "ph:pulse-light"
+            },
+            {
+                "title": "Optymalizacja wydajności",
+                "desc": "Regularnie sprawdzamy szybkość ładowania strony, wielkość obrazów i strukturę baz danych, usuwając to, co ją spowalnia.",
+                "icon": "ph:gauge-light"
+            },
+            {
+                "title": "Drobne zmiany treści",
+                "desc": "Aktualizujemy teksty, zdjęcia i oferty na Twojej stronie, bez konieczności zatrudniania własnego programisty.",
+                "icon": "ph:pencil-simple-light"
+            },
+            {
+                "title": "Raportowanie działań",
+                "desc": "Co miesiąc dostajesz krótki raport z tego, co zrobiliśmy i czy pojawiły się jakieś zagrożenia.",
+                "icon": "ph:chart-bar-light"
+            }
+        ],
+        "outro": "Zakres usług zawsze dopasowujemy do konkretnej strony. Dotyczy to zarówno prostych wizytówek, jak i rozbudowanych serwisów internetowych z dużym ruchem. Nie musisz umieć samodzielnie administrować stroną, robimy to za Ciebie."
+    },
+    "technologies": {
+        "title": "Administrujemy stronami zbudowanymi w różnych technologiach",
+        "intro": "Większość firm oferujących administrację stron internetowych obsługuje wyłącznie WordPressa. My idziemy o krok dalej i zajmujemy się też stronami opartymi na nowoczesnych technologiach frontendowych.",
+        "imgAlt": "",
+        "sections": [
+            {
+                "heading": "WordPress",
+                "paragraphs": [
+                    "WordPress to wciąż najpopularniejszy system CMS na świecie, ale też najczęstszy cel ataków, właśnie ze względu na swoją popularność. Dlatego stała administracja WordPress to dla wielu firm nie luksus, tylko konieczność.",
+                    "Nasza usługa administracji stron WordPress obejmuje aktualizację rdzenia systemu WordPress, wtyczek i motywów, a także zabezpieczenie instalacji przed najczęstszymi typami ataków. Zajmujemy się też administracją stron WordPress opartych na WooCommerce, jeśli prowadzisz na nich sklep internetowy.",
+                    "Opieka nad stroną WordPress różni się nieco od opieki nad stronami headless, głównie ze względu na sposób zarządzania wtyczkami i motywami.",
+                    "Jeśli Twoja firma korzysta z tego systemu, sprawdź pełen zakres naszych działań na dedykowanej podstronie:"
+                ],
+                "links": [
+                    {
+                        "text": "Administracja stron internetowych WordPress",
+                        "href": "https://airtilion.com/administracja-stron/wordpress"
+                    }
+                ]
+            },
+            {
+                "heading": "Dlaczego WordPress wymaga szczególnej opieki?",
+                "paragraphs": [
+                    "WordPress napędza ponad jedną trzecią wszystkich stron internetowych na świecie. To ogromna zaleta, bo oznacza mnóstwo dostępnych wtyczek i wsparcia, ale też wada: hakerzy chętnie szukają luk właśnie w tym systemie, bo skala potencjalnych ofiar jest ogromna.",
+                    "Dodatkowym ryzykiem są same wtyczki. Każda z nich to osobny kawałek kodu, który może zawierać błędy albo zostać porzucony przez twórcę. Nieaktualizowana wtyczka to jedna z najczęstszych dróg włamania na stronę internetową opartą na systemie WordPress. Dlatego regularna administracja WordPressa polega nie tylko na klikaniu przycisku \"aktualizuj\", ale też na sprawdzaniu, czy dana wtyczka jest wciąż rozwijana i bezpieczna."
+                ]
+            },
+            {
+                "heading": "Strony na Next.js i React (headless)",
+                "paragraphs": [
+                    "Jeśli Twoja strona została zbudowana w nowoczesnej architekturze headless, na przykład w Next.js z WordPressem jako zapleczem treści, również przejmiemy nad nią opiekę. Tego typu strony wymagają nieco innego podejścia niż klasyczny WordPress, ale zasady bezpieczeństwa i regularnych aktualizacji obowiązują tak samo."
+                ]
+            }
+        ],
+        "cta": {
+            "text": "Nie widzisz tutaj swojej technologii? Napisz do nas, spróbujemy Ci pomóc.",
+            "buttonLabel": "Napisz do nas"
+        }
+    },
     "contact": {
         "title": "Napisz do nas - doradzimy",
         "subtitle": "Zostaw wiadomość. Odpiszemy w ciągu 24 godzin i zaproponujemy najlepsze rozwiązanie dla Twojej firmy.",

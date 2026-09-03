@@ -17,6 +17,8 @@ import VersusCards from './_components/AdministrationVersusCards'
 import NumberedRowStack from '@components/blocks/NumberedRowStack'
 import AdministrationTechnologies from './_components/AdministrationTechnologies'
 import AdministrationAlertBanner from './_components/AdministrationAlertBanner'
+import ContentWithSidebarBox from '@components/blocks/ContentWithSidebarBox'
+import IconGridWithHighlightNote from '@components/blocks/IconGridWithHighlightNote'
 
 export const metadata = {
     title: 'Administracja stron internetowych - Airtilion',
@@ -54,6 +56,8 @@ const page = async ({ searchParams }) => {
                 <NumberedRowStack dict={dict.scope} />
                 <AdministrationTechnologies dict={dict.technologies} />
                 <AdministrationAlertBanner dict={dict.emergencyFix} />
+                <ContentWithSidebarBox dict={dict.performance} />
+                <IconGridWithHighlightNote dict={dict.workflow} dark={true} />
 
                 <CornerFrameCta dict={dict.contact} lang={lang} />
 

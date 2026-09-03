@@ -508,6 +508,7 @@
                 "icon": "ph:camera-plus-light"
             }
         ],
+        "outroIcon": "ph:wallet-light",
         "outro": "Orientacyjnie ceny wahają się od kilku tysięcy złotych za podstawowe strony internetowe (takie jak przykład w sekcji u góry), do kilkunastu lub kilkudziesięciu tysięcy złotych za duże i rozbudowane serwisy."
     },
     "maintenanceCosts": {

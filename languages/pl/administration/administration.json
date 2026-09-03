@@ -179,6 +179,60 @@
         "desc": "Oferujemy jednorazowe usunięcie infekcji i przywrócenie działania strony, niezależnie od tego, czy wcześniej byliśmy jej administratorem. Po takiej interwencji możesz zdecydować, czy chcesz kontynuować z nami stałą opiekę, czy tylko jednorazowo naprawić problem.",
         "cta": "Potrzebuję pilnej pomocy"
     },
+    "performance": {
+        "title": "Optymalizacja wydajności w ramach stałej opieki",
+        "paragraphs": [
+            "Szybkość ładowania strony ma znaczenie nie tylko dla wygody użytkowników, ale też dla pozycji w Google. Wolna strona traci zarówno klientów, jak i widoczność w wyszukiwarce.",
+            "W ramach administracji regularnie sprawdzamy, co spowalnia Twoją stronę. Zapoznaj się z trzema obszaram, którym poświęcamy najwięcej uwagi.",
+            "Dodatkowo dbamy o techniczne aspekty SEO, takie jak szybkość ładowania czy dostępność strony, bo mają one bezpośredni wpływ na pozycję w wyszukiwarce. Samym pozycjonowaniem stron się jednak nie zajmujemy, to osobna specjalizacja, dlatego przy takich potrzebach polecamy sprawdzonych partnerów."
+        ],
+        "groupLabel": "Co regularnie sprawdzamy",
+        "items": [
+            {
+                "icon": "clarity:image-gallery-line",
+                "title": "Kompresja grafik",
+                "desc": "Zbyt duże, nieskompresowane zdjęcia to jeden z najczęstszych powodów wolnego ładowania. Kompresujemy je bez utraty jakości."
+            },
+            {
+                "icon": "carbon:data-base",
+                "title": "Porządki w bazie danych",
+                "desc": "Czyścimy bazę z nagromadzonych, niepotrzebnych wpisów, które spowalniają działanie strony."
+            },
+            {
+                "icon": "wordpress:plugins",
+                "title": "Audyt wtyczek",
+                "desc": "Sprawdzamy, czy wszystkie zainstalowane wtyczki są rzeczywiście używane, i usuwamy zbędne."
+            }
+        ]
+    },
+    "workflow": {
+        "title": "Jak wygląda nasza praca w praktyce?",
+        "intro": "Weźmy przykładowy przypadek: firma zgłasza się do nas, bo jej strona na WordPressie zaczęła się wolno ładować, a właściciel dostał od hostingu ostrzeżenie o podejrzanym ruchu. Zaczynamy od audytu i szybko znajdujemy przyczynę.",
+        "factors": [
+            {
+                "icon": "ph:magnifying-glass-light",
+                "title": "7 nieaktualizowanych wtyczek",
+                "desc": "W tym jedna, która nie była rozwijana od trzech lat."
+            },
+            {
+                "icon": "ph:bug-light",
+                "title": "Ukryty złośliwy skrypt",
+                "desc": "Fragment kodu w plikach motywu wysyłał dane do zewnętrznego serwera."
+            },
+            {
+                "icon": "ph:lock-open-light",
+                "title": "Domyślne ścieżki WordPressa bez żadnych ograniczeń",
+                "desc": "Standardowe adresy logowania, takie jak wp-login.php czy wp-admin, były dostępne dla każdego bez żadnych dodatkowych zabezpieczeń, co ułatwiało próby przejęcia konta administratora."
+            },
+            {
+                "icon": "ph:cloud-slash-light",
+                "title": "Brak jakichkolwiek kopii zapasowych",
+                "desc": "Wcześniej nikt nie zajmował się stroną na bieżąco, więc w razie awarii firma straciłaby wszystko."
+            }
+        ],
+        "outroIcon": "ph:shield-check-light",
+        "outro": "Usuwamy złośliwy kod i zamykamy lukę, przez którą się tam dostał. Tego samego dnia wykonujemy pierwszą kopię zapasową strony i uruchamiamy automatyczne kopie na przyszłość, żeby taka sytuacja się nie powtórzyła. Od tego momentu strona trafia pod naszą stałą opiekę, a firma co miesiąc dostaje krótki raport."
+    },
     "contact": {
         "title": "Napisz do nas - doradzimy",
         "subtitle": "Zostaw wiadomość. Odpiszemy w ciągu 24 godzin i zaproponujemy najlepsze rozwiązanie dla Twojej firmy.",

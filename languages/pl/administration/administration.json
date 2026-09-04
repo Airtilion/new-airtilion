@@ -233,6 +233,88 @@
         "outroIcon": "ph:shield-check-light",
         "outro": "Usuwamy złośliwy kod i zamykamy lukę, przez którą się tam dostał. Tego samego dnia wykonujemy pierwszą kopię zapasową strony i uruchamiamy automatyczne kopie na przyszłość, żeby taka sytuacja się nie powtórzyła. Od tego momentu strona trafia pod naszą stałą opiekę, a firma co miesiąc dostaje krótki raport."
     },
+    "packages": {
+        "title": "Pakiety i cennik: ile kosztuje administracja strony internetowej?",
+        "intro": "Nie mamy jednego sztywnego cennika, bo zakres opieki zależy od wielkości strony, liczby odwiedzin i tego, jak często zmienia się jej treść. Poniżej znajdziesz orientacyjne pakiety, od których zwykle zaczynamy rozmowę.",
+        "tiers": [
+            {
+                "name": "Pakiet Podstawowy",
+                "price": "od 199 zł",
+                "priceUnit": "/ mies.",
+                "desc": "Dla wizytówek i mniejszych stron firmowych, które rzadko się zmieniają.",
+                "features": [
+                    "Aktualizacje CMS, wtyczek i motywu (do 2x w miesiącu)",
+                    "Regularne kopie zapasowe",
+                    "Podstawowy monitoring bezpieczeństwa",
+                    "Monitoring dostępności strony",
+                    "Comiesięczny raport z wykonanych prac",
+                    "Obsługa zgłoszeń mailowo",
+                    "SLA: czas reakcji do 8h roboczych"
+                ],
+                "excluded": "Nie obejmuje prac programistycznych, graficznych ani wprowadzania nowych treści.",
+                "cta": {
+                    "label": "Zamów pakiet",
+                    "href": "/wycena"
+                }
+            },
+            {
+                "name": "Pakiet Standard",
+                "price": "od 349 zł",
+                "priceUnit": "/ mies.",
+                "desc": "Dla stron firmowych i blogów z regularnie publikowaną treścią.",
+                "features": [
+                    "Wszystko z Pakietu Podstawowego",
+                    "Drobne zmiany treści (do 2h miesięcznie)",
+                    "Regularne skanowanie strony pod kątem złośliwego oprogramowania",
+                    "Ochrona przed próbami złamania hasła do panelu",
+                    "Zapora sieciowa (firewall)",
+                    "Obsługa zgłoszeń mailowo i telefonicznie",
+                    "SLA: czas reakcji do 4h roboczych"
+                ],
+                "cta": {
+                    "label": "Zamów pakiet",
+                    "href": "/wycena"
+                }
+            },
+            {
+                "name": "Pakiet Premium",
+                "price": "indywidualnie",
+                "priceUnit": "",
+                "desc": "Dla sklepów internetowych i rozbudowanych serwisów z dużym ruchem.",
+                "features": [
+                    "Wszystko z Pakietu Standard",
+                    "Zmiany treści",
+                    "Środowisko testowe do wdrażania zmian bez ryzyka dla strony produkcyjnej",
+                    "Stała optymalizacja wydajności",
+                    "Dedykowany opiekun techniczny",
+                    "SLA: czas reakcji ustalany indywidualnie"
+                ],
+                "cta": {
+                    "label": "Zapytaj o pakiet",
+                    "href": "/wycena"
+                }
+            }
+        ],
+        "hourlyRates": {
+            "title": "Potrzebujesz więcej niż oferuje pakiet?",
+            "intro": "Jeśli przekroczysz miesięczny limit godzin albo potrzebujesz jednorazowej, większej zmiany, rozliczamy dodatkową pracę godzinowo.",
+            "rates": [
+                {
+                    "label": "Edycja treści (teksty, zdjęcia, drobne zmiany)",
+                    "price": "od 70 zł / godz."
+                },
+                {
+                    "label": "Zmiany front-end (układ, style, drobne funkcje)",
+                    "price": "od 90 zł / godz."
+                },
+                {
+                    "label": "Prace programistyczne back-end",
+                    "price": "od 120 zł / godz."
+                }
+            ]
+        },
+        "note": "Powyższe pakiety i stawki mają charakter poglądowy i nie stanowią oferty handlowej w rozumieniu Kodeksu cywilnego. Każda strona ma inne potrzeby, dlatego dokładny zakres i cenę ustalamy indywidualnie po krótkim audycie."
+    },
     "contact": {
         "title": "Napisz do nas - doradzimy",
         "subtitle": "Zostaw wiadomość. Odpiszemy w ciągu 24 godzin i zaproponujemy najlepsze rozwiązanie dla Twojej firmy.",

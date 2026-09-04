@@ -315,6 +315,15 @@
         },
         "note": "Powyższe pakiety i stawki mają charakter poglądowy i nie stanowią oferty handlowej w rozumieniu Kodeksu cywilnego. Każda strona ma inne potrzeby, dlatego dokładny zakres i cenę ustalamy indywidualnie po krótkim audycie."
     },
+    "safe": {
+        "title": "Jak zabezpieczamy Twoją stronę przed atakami?","imgAlt": "Zabezpieczenie strony internetowej przed atakami",
+        "paragraphs": [
+            "Dbanie o bezpieczeństwo strony internetowej to nie jednorazowa czynność, tylko proces. Podchodzimy do tego na kilku poziomach jednocześnie.",
+            "Regularnie aktualizujemy rdzeń systemu, wtyczki i motywy, bo to najczęstsza droga, którą hakerzy dostają się na stronę. Każdą aktualizację testujemy najpierw na kopii strony, żeby nie zepsuć jej działania.",
+            "Wdrażamy dodatkowe zabezpieczenia panelu administracyjnego, w tym limit prób logowania i dwuskładnikowe uwierzytelnianie, co znacznie utrudnia przejęcie konta metodą brute force.",
+            "Skanujemy stronę pod kątem złośliwego oprogramowania i monitorujemy podejrzaną aktywność, na przykład nietypowy ruch z jednego adresu IP. Kopie zapasowe przechowujemy poza głównym serwerem, żeby awaria hostingu nie oznaczała utraty danych."
+        ]
+    },
     "contact": {
         "title": "Napisz do nas - doradzimy",
         "subtitle": "Zostaw wiadomość. Odpiszemy w ciągu 24 godzin i zaproponujemy najlepsze rozwiązanie dla Twojej firmy.",

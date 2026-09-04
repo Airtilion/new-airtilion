@@ -2,7 +2,7 @@ import React from 'react'
 import Image from 'next/image'
 import ssl from '@assets/images/websites/ssl.webp'
 
-const ServiceSecurity = ({ dict }) => {
+const ProseWithSideImage = ({ dict }) => {
     return (
         <section className='mt-32 py-32 relative overflow-hidden bg-black'>
             <div className='section-style flex items-center gap-16 max-lg:flex-col-reverse'>
@@ -30,4 +30,4 @@ const ServiceSecurity = ({ dict }) => {
     )
 }
 
-export default ServiceSecurity
+export default ProseWithSideImage

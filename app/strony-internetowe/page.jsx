@@ -19,6 +19,7 @@ import AccordionGrid from '@components/blocks/AccordionGrid'
 import IconGridWithCta from '@components/blocks/IconGridWithCta'
 import FaqAccrodionGrid from '@components/blocks/FaqAccrodionGrid'
 import IconGridWithHighlightNote from '@components/blocks/IconGridWithHighlightNote'
+import ProseWithSideImage from '@components/blocks/ProseWithSideImage'
 
 import PriceEstimedCard from '@app/strony-internetowe/_components/PriceEstimedCard'
 import ServiceIndustries from '@features/service/components/ServiceIndustries'
@@ -26,7 +27,6 @@ import ServiceTypes from '@features/service/components/ServiceTypes'
 import ServiceBenefits from '@features/service/components/ServiceBenefits'
 import ServiceUxUi from '@features/service/components/ServiceUxUi'
 import ServiceSpeed from '@features/service/components/ServiceSpeed'
-import ServiceSecurity from '@features/service/components/ServiceSecurity'
 import ServiceTechSupport from '@features/service/components/ServiceTechSupport'
 
 import worth from '@assets/images/websites/worth-it.webp'
@@ -69,7 +69,7 @@ const page = async ({ searchParams }) => {
                 <ServiceIndustries dict={dict.industries} />
                 <ServiceUxUi dict={dict.uxui} />
                 <ServiceSpeed dict={dict.speed} />
-                <ServiceSecurity dict={dict.security} />
+                <ProseWithSideImage dict={dict.security} />
                 <FeaturesGrid dict={dict.includes} />
                 <ListWithSideImage dict={dict.preparation} img={preparation} />
                 <StepsGrid dict={dict.process} />

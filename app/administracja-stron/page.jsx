@@ -20,6 +20,7 @@ import AdministrationAlertBanner from './_components/AdministrationAlertBanner'
 import ContentWithSidebarBox from '@components/blocks/ContentWithSidebarBox'
 import IconGridWithHighlightNote from '@components/blocks/IconGridWithHighlightNote'
 import AdministrationPackages from './_components/AdministrationPackages'
+import ProseWithSideImage from '@components/blocks/ProseWithSideImage'
 
 export const metadata = {
     title: 'Administracja stron internetowych - Airtilion',
@@ -60,6 +61,7 @@ const page = async ({ searchParams }) => {
                 <ContentWithSidebarBox dict={dict.performance} />
                 <IconGridWithHighlightNote dict={dict.workflow} dark={true} />
                 <AdministrationPackages dict={dict.packages} />
+                <ProseWithSideImage dict={dict.safe} />
 
                 <CornerFrameCta dict={dict.contact} lang={lang} />
 

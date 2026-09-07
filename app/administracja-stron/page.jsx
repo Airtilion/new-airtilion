@@ -62,6 +62,7 @@ const page = async ({ searchParams }) => {
                 <IconGridWithHighlightNote dict={dict.workflow} dark={true} />
                 <AdministrationPackages dict={dict.packages} />
                 <ProseWithSideImage dict={dict.safe} />
+                <ContentWithSidebarBox dict={dict.raport} reverse={true} />
 
                 <CornerFrameCta dict={dict.contact} lang={lang} />
 

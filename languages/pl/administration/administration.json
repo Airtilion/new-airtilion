@@ -414,6 +414,29 @@
             }
         ]
     },
+    "whoNeeds": {
+        "title": "Kto właściwie potrzebuje administracji strony internetowej?",
+        "lead": "Odpowiedź brzmi: każda firma, dla której strona internetowa ma jakiekolwiek znaczenie biznesowe. Nie musisz prowadzić dużego sklepu internetowego, żeby administracja miała sens.",
+        "body": "Jeśli Twoja strona generuje zapytania ofertowe, sprzedaje produkty, buduje wizerunek firmy albo po prostu jest wizytówką, którą klienci sprawdzają przed kontaktem, jej przestój albo włamanie kosztuje Cię realne pieniądze. Im więcej firma zależy od swojej obecności online, tym bardziej opłaca się mieć kogoś, kto tej stronie pilnuje pleców.",
+        "audiences": [
+            {
+                "icon": "ph:shopping-cart-simple-light",
+                "title": "Firmy sprzedające online",
+                "desc": "Każda minuta przestoju to bezpośrednia strata sprzedaży, dlatego stała opieka ma tu największy sens."
+            },
+            {
+                "icon": "ph:chart-line-up-light",
+                "title": "Strony z dużym ruchem",
+                "desc": "Im więcej odwiedzin, tym większe ryzyko ataku i tym bardziej kosztowna awaria."
+            },
+            {
+                "icon": "ph:users-light",
+                "title": "Firmy bez zespołu technicznego",
+                "desc": "Gdy nikt w firmie nie ogarnia WordPressa, drobna aktualizacja nie powinna spędzać snu z powiek."
+            }
+        ],
+        "outro": "Szczególnie polecamy stałą administrację firmom, dla których strona jest bezpośrednim źródłem przychodu, oraz tym, które nie mają w zespole nikogo z wiedzą techniczną."
+    },
     "contact": {
         "title": "Napisz do nas - doradzimy",
         "subtitle": "Zostaw wiadomość. Odpiszemy w ciągu 24 godzin i zaproponujemy najlepsze rozwiązanie dla Twojej firmy.",

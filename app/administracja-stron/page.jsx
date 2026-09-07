@@ -23,6 +23,7 @@ import AdministrationPackages from './_components/AdministrationPackages'
 import ProseWithSideImage from '@components/blocks/ProseWithSideImage'
 import StepsGrid from '@components/blocks/StepsGrid'
 import AdministrationPreparation from './_components/AdministrationPreparation'
+import AdministrationNeeds from './_components/AdministrationNeeds'
 
 export const metadata = {
     title: 'Administracja stron internetowych - Airtilion',
@@ -67,6 +68,7 @@ const page = async ({ searchParams }) => {
                 <ContentWithSidebarBox dict={dict.raport} reverse={true} />
                 <StepsGrid dict={dict.process} />
                 <AdministrationPreparation dict={dict.prepare} />
+                <AdministrationNeeds dict={dict.whoNeeds} />
 
                 <CornerFrameCta dict={dict.contact} lang={lang} />
 

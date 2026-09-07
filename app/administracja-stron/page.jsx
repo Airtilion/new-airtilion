@@ -21,6 +21,7 @@ import ContentWithSidebarBox from '@components/blocks/ContentWithSidebarBox'
 import IconGridWithHighlightNote from '@components/blocks/IconGridWithHighlightNote'
 import AdministrationPackages from './_components/AdministrationPackages'
 import ProseWithSideImage from '@components/blocks/ProseWithSideImage'
+import StepsGrid from '@components/blocks/StepsGrid'
 
 export const metadata = {
     title: 'Administracja stron internetowych - Airtilion',
@@ -63,6 +64,7 @@ const page = async ({ searchParams }) => {
                 <AdministrationPackages dict={dict.packages} />
                 <ProseWithSideImage dict={dict.safe} />
                 <ContentWithSidebarBox dict={dict.raport} reverse={true} />
+                <StepsGrid dict={dict.process} />
 
                 <CornerFrameCta dict={dict.contact} lang={lang} />
 

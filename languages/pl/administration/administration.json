@@ -355,6 +355,42 @@
             }
         ]
     },
+    "process": {
+        "title": "Jak wygląda proces przejęcia opieki nad Twoją stroną?",
+        "desc": "Przejęcie administracji nowej strony robimy w kilku jasnych krokach, żeby nic nie umknęło naszej uwadze.",
+        "steps": [
+            {
+                "number": "01",
+                "title": "Wstępny audyt strony",
+                "desc": "Sprawdzamy to, co widać z zewnątrz: szybkość ładowania, oczywiste luki i ogólny stan techniczny strony. Na tej podstawie przygotowujemy wstępną wycenę."
+            },
+            {
+                "number": "02",
+                "title": "Wycena i umowa",
+                "desc": "Na podstawie wstępnego audytu przygotowujemy wycenę dopasowaną do widocznego stanu strony i podpisujemy umowę."
+            },
+            {
+                "number": "03",
+                "title": "Przejęcie dostępów",
+                "desc": "Ustalamy bezpieczny sposób, w jaki przekażesz nam dostęp do panelu administracyjnego, hostingu i domeny."
+            },
+            {
+                "number": "04",
+                "title": "Pełny audyt techniczny",
+                "desc": "Dopiero z pełnym dostępem sprawdzamy dokładnie stronę: wszystkie wtyczki, motyw i realne luki bezpieczeństwa, których nie widać z zewnątrz."
+            },
+            {
+                "number": "05",
+                "title": "Pierwsze prace porządkowe",
+                "desc": "Aktualizujemy wszystko, co wymaga aktualizacji, i usuwamy zbędne wtyczki oraz nieużywane pliki, które mogą stanowić zagrożenie."
+            },
+            {
+                "number": "06",
+                "title": "Stała opieka i raportowanie",
+                "desc": "Od tego momentu Twoja strona jest pod naszą regularną kontrolą, zgodnie z wybranym pakietem. Co miesiąc dostajesz raport z wykonanych prac."
+            }
+        ]
+    },
     "contact": {
         "title": "Napisz do nas - doradzimy",
         "subtitle": "Zostaw wiadomość. Odpiszemy w ciągu 24 godzin i zaproponujemy najlepsze rozwiązanie dla Twojej firmy.",

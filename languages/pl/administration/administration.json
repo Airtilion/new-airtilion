@@ -391,6 +391,29 @@
             }
         ]
     },
+    "prepare": {
+        "title": "Jak przygotować się do przekazania nam opieki nad stroną?",
+        "intro": "Zanim zaczniemy współpracę, warto zebrać kilka informacji. Ułatwi to nam szybkie przeprowadzenie audytu i przygotowanie trafnej wyceny.",
+        "note": "Jeśli nie masz części tych informacji, nie przejmuj się. Podczas audytu sami sprawdzimy, co da się ustalić, a resztę uzupełnimy wspólnie na pierwszej rozmowie.",
+        "items": [
+            {
+                "title": "Dane dostępowe",
+                "desc": "Login i hasło do panelu administracyjnego strony (np. WordPress)."
+            },
+            {
+                "title": "Dane hostingowe",
+                "desc": "Informacje o dostawcy hostingu i sposobie logowania."
+            },
+            {
+                "title": "Częstotliwość zmian",
+                "desc": "Krótki opis tego, jak często zmieniasz treść na stronie."
+            },
+            {
+                "title": "Historia bezpieczeństwa",
+                "desc": "Informacja, czy strona wcześniej miała problemy z bezpieczeństwem."
+            }
+        ]
+    },
     "contact": {
         "title": "Napisz do nas - doradzimy",
         "subtitle": "Zostaw wiadomość. Odpiszemy w ciągu 24 godzin i zaproponujemy najlepsze rozwiązanie dla Twojej firmy.",

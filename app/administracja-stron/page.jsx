@@ -13,7 +13,7 @@ import StickyImageBenefitsList from '@components/blocks/StickyImageBenefitsList'
 
 import internal from '@assets/images/administration/internal.webp'
 import worth from '@assets/images/websites/worth-it.webp'
-import VersusCards from './_components/AdministrationVersusCards'
+import AdministrationVersusCards from './_components/AdministrationVersusCards'
 import NumberedRowStack from '@components/blocks/NumberedRowStack'
 import AdministrationTechnologies from './_components/AdministrationTechnologies'
 import AdministrationAlertBanner from './_components/AdministrationAlertBanner'
@@ -22,6 +22,7 @@ import IconGridWithHighlightNote from '@components/blocks/IconGridWithHighlightN
 import AdministrationPackages from './_components/AdministrationPackages'
 import ProseWithSideImage from '@components/blocks/ProseWithSideImage'
 import StepsGrid from '@components/blocks/StepsGrid'
+import AdministrationPreparation from './_components/AdministrationPreparation'
 
 export const metadata = {
     title: 'Administracja stron internetowych - Airtilion',
@@ -55,7 +56,7 @@ const page = async ({ searchParams }) => {
                 <PageHero dict={dict.hero} />
                 <ProseChecklistWithImage dict={dict.risks} img={internal} />
                 <StickyImageBenefitsList dict={dict.whyWorthIt} img={worth} />
-                <VersusCards dict={dict.hostingVsAdmin} />
+                <AdministrationVersusCards dict={dict.hostingVsAdmin} />
                 <NumberedRowStack dict={dict.scope} />
                 <AdministrationTechnologies dict={dict.technologies} />
                 <AdministrationAlertBanner dict={dict.emergencyFix} />
@@ -65,6 +66,7 @@ const page = async ({ searchParams }) => {
                 <ProseWithSideImage dict={dict.safe} />
                 <ContentWithSidebarBox dict={dict.raport} reverse={true} />
                 <StepsGrid dict={dict.process} />
+                <AdministrationPreparation dict={dict.prepare} />
 
                 <CornerFrameCta dict={dict.contact} lang={lang} />
 

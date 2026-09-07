@@ -1,12 +1,13 @@
 import React from 'react'
 import Image from 'next/image'
 import whyUs from '@assets/images/websites/why-us.webp'
+import InlineCta from '@components/ui/InlineCta'
 
 const TITLE_MAX_WIDTH_CLASS = { xl: 'max-w-xl', '2xl': 'max-w-2xl' }
 
 const getTitleMaxWidthClass = (titleMaxWidth) => TITLE_MAX_WIDTH_CLASS[titleMaxWidth] ?? TITLE_MAX_WIDTH_CLASS.xl
 
-const TimelineListWithImage = ({ dict, titleMaxWidth = 'xl' }) => {
+const TimelineListWithImage = ({ dict, titleMaxWidth = 'xl', cta = false }) => {
     return (
         <section className='mt-32 py-32 bg-black relative overflow-hidden'>
             <div className='section-style relative z-1'>
@@ -35,6 +36,8 @@ const TimelineListWithImage = ({ dict, titleMaxWidth = 'xl' }) => {
                         <Image src={whyUs} width={500} height={750} alt={dict.imgAlt} unoptimized className='object-cover rounded-2xl max-xl:w-[400px] max-md:w-full' />
                     </div>
                 </div>
+
+                {cta && <InlineCta dict={dict.cta} />}
 
             </div>
 

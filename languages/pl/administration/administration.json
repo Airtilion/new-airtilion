@@ -233,6 +233,12 @@
         "outroIcon": "ph:shield-check-light",
         "outro": "Usuwamy złośliwy kod i zamykamy lukę, przez którą się tam dostał. Tego samego dnia wykonujemy pierwszą kopię zapasową strony i uruchamiamy automatyczne kopie na przyszłość, żeby taka sytuacja się nie powtórzyła. Od tego momentu strona trafia pod naszą stałą opiekę, a firma co miesiąc dostaje krótki raport."
     },
+    "websitesCta": {
+        "h3": "Potrzebujesz też nowej strony?",
+        "desc": "Jeśli szukasz partnera do tworzenia stron internetowych od zera, a nie tylko opieki nad istniejącą witryną, sprawdź naszą pełną ofertę.",
+        "button": "Zobacz ofertę tworzenia stron",
+        "href": "/strony-internetowe"
+    },
     "packages": {
         "title": "Pakiety i cennik: ile kosztuje administracja strony internetowej?",
         "intro": "Nie mamy jednego sztywnego cennika, bo zakres opieki zależy od wielkości strony, liczby odwiedzin i tego, jak często zmienia się jej treść. Poniżej znajdziesz orientacyjne pakiety, od których zwykle zaczynamy rozmowę.",
@@ -436,6 +442,99 @@
             }
         ],
         "outro": "Szczególnie polecamy stałą administrację firmom, dla których strona jest bezpośrednim źródłem przychodu, oraz tym, które nie mają w zespole nikogo z wiedzą techniczną."
+    },
+    "whyUs": {
+        "title": "Dlaczego warto wybrać Airtilion do administracji strony internetowej?",
+        "intro": "Na rynku znajdziesz wiele firm oferujących administrację stron internetowych. Oto, co realnie wyróżnia naszą agencję.",
+        "imgAlt": "Lew oświetlony punktowym światłem w ciemności, symbolizujący czujność i nieprzerwaną opiekę nad stronami internetowymi Airtilion",
+        "reasons": [
+            {
+                "title": "Obsługujemy więcej niż tylko WordPressa.",
+                "desc": "Zajmujemy się też stronami zbudowanymi w nowoczesnych technologiach frontendowych, jak Next.js i React. Nasze wsparcie techniczne obejmuje więc zdecydowanie szerszy zakres niż u typowej firmy specjalizującej się wyłącznie w jednym systemie."
+            },
+            {
+                "title": "Dobieramy zakres opieki do Twoich realnych potrzeb.",
+                "desc": "Nie sprzedajemy Ci pakietu większego, niż potrzebuje Twoja strona."
+            },
+            {
+                "title": "Reagujemy szybko.",
+                "desc": "Standardowo odzywamy się do Ciebie w ciągu 24 godzin lub najbliższego dnia roboczego, a w pilnych sytuacjach reagujemy priorytetowo."
+            },
+            {
+                "title": "Nie wymagamy długoterminowych zobowiązań.",
+                "desc": "Możesz zrezygnować z usługi, jeśli przestanie Ci odpowiadać."
+            },
+            {
+                "title": "Jesteśmy dostępni w całej Polsce.",
+                "desc": "Działamy w 100% online, więc niezależnie od tego, gdzie prowadzisz firmę, możemy zaopiekować się Twoją stroną."
+            }
+        ],
+        "cta": {
+            "h3": "Potrzebujesz też nowej strony?",
+            "desc": "Jeśli szukasz partnera do tworzenia stron internetowych od zera, a nie tylko opieki nad istniejącą witryną, sprawdź naszą pełną ofertę.",
+            "button": "Zobacz ofertę tworzenia stron",
+            "href": "/strony-internetowe"
+        }
+    },
+    "faq": {
+        "title": "Najczęściej zadawane pytania (FAQ)",
+        "questions": [
+            {
+                "q": "Ile kosztuje administracja strony internetowej?",
+                "a": "Koszt zależy od wielkości strony, platformy i zakresu opieki. Proste strony wizytówkowe kosztują mniej niż rozbudowane sklepy internetowe z dużym ruchem. Orientacyjne widełki cenowe dla poszczególnych pakietów znajdziesz w sekcji z cennikiem powyżej - pamiętaj jednak, że dokładną wycenę przygotujemy zawsze indywidualnie, po krótkim audycie Twojej strony."
+            },
+            {
+                "q": "Czy administrujecie strony, których nie stworzyliście?",
+                "a": "Tak. Przejmujemy opiekę nad stronami zbudowanymi przez inne firmy, niezależnie od użytej platformy. Zaczynamy zawsze od audytu, żeby poznać stan techniczny strony, zanim zaproponujemy zakres współpracy."
+            },
+            {
+                "q": "Jak często wykonujecie aktualizacje i kopie zapasowe?",
+                "a": "Częstotliwość zależy od wybranego pakietu i tego, jak często zmienia się Twoja strona. Kopie zapasowe zwykle wykonujemy co najmniej raz w miesiącu, a aktualizacje stron internetowych, którymi się opiekujemy, wdrażamy na bieżąco, gdy tylko się pojawią."
+            },
+            {
+                "q": "Czy muszę podpisywać długoterminową umowę?",
+                "a": "Nie wymagamy długich zobowiązań. Możesz zrezygnować z usługi z zachowaniem krótkiego okresu wypowiedzenia, jeśli z jakiegoś powodu przestanie Ci ona odpowiadać."
+            },
+            {
+                "q": "Co się stanie, jeśli moja strona zostanie zhakowana mimo opieki?",
+                "a": "W ramach stałej administracji reagujemy priorytetowo na każdy incydent bezpieczeństwa, bez dodatkowych kosztów za samą interwencję. Naszym celem jest jak najszybsze przywrócenie działania strony i usunięcie przyczyny problemu."
+            },
+            {
+                "q": "Czy oferujecie administrację sklepów internetowych?",
+                "a": [
+                    "Tak, oferujemy ",
+                    {
+                        "text": "administrację sklepów internetowych",
+                        "href": "/sklepy-internetowe/administracja"
+                    },
+                    " - sklepy na WooCommerce, Shopify czy Shoper wymagają zazwyczaj intensywniejszej opieki technicznej niż zwykła strona, dlatego pełen zakres naszych działań i szczegóły pakietów wsparcia opisaliśmy dokładnie na dedykowanej stronie dla tej usługi."
+                ]
+            },
+            {
+                "q": "Jak długo czekam na reakcję w razie awarii?",
+                "a": "Czas reakcji zależy od wybranego pakietu. W pakietach z umową SLA gwarantujemy konkretny czas reakcji, ustalony indywidualnie w zależności od skali Twojej strony."
+            },
+            {
+                "q": "Czy dostanę dostęp do informacji o tym, co robicie na mojej stronie?",
+                "a": "Tak. W ramach stałej opieki wysyłamy comiesięczny raport z wykonanych działań, w tym aktualizacji, kopii zapasowych i ewentualnych zagrożeń, które wykryliśmy."
+            },
+            {
+                "q": "Czy mogę zamówić tylko jednorazową administrację, bez stałej umowy?",
+                "a": "Tak, na przykład w przypadku pilnego usunięcia infekcji ze strony. Wiele firm po takiej jednorazowej interwencji decyduje się jednak na stałą opiekę, żeby uniknąć powtórki tej samej sytuacji."
+            },
+            {
+                "q": "Czy administracja obejmuje też rozwój strony o nowe funkcje?",
+                "a": "Podstawowa administracja skupia się na bezpieczeństwie, aktualizacjach i stabilności. Jeśli chcesz rozbudować stronę o nowe funkcje, wyceniamy to jako osobny projekt, ale zawsze możemy to zrobić w ramach tej samej, ciągłej współpracy."
+            },
+            {
+                "q": "Czym różni się administracja od hostingu, który już opłacam?",
+                "a": "Hosting to tylko miejsce na serwerze, gdzie znajdują się pliki Twojej strony. Administracja to opieka nad samą stroną: aktualizacje, bezpieczeństwo i kopie zapasowe. Możesz mieć opłacony dobry hosting i wciąż potrzebować administracji, bo to dwie różne usługi."
+            },
+            {
+                "q": "Czy mogę zmienić pakiet w trakcie współpracy?",
+                "a": "Tak. Jeśli Twoja strona się rozwija albo zaczyna generować więcej ruchu, możemy w każdej chwili przejść na wyższy pakiet z szerszym zakresem opieki i krótszym czasem reakcji."
+            }
+        ]
     },
     "contact": {
         "title": "Napisz do nas - doradzimy",

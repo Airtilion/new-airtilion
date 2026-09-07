@@ -4,6 +4,7 @@ import React, { useState } from 'react'
 import Link from 'next/link'
 import { Icon } from '@iconify/react'
 import WhiteBtn from '@components/buttons/WhiteBtn'
+import InlineCta from '@components/ui/InlineCta'
 
 const ServiceIndustries = ({ dict, baseUrl = "https://airtilion.com/strony-internetowe" }) => {
     const [isExpanded, setIsExpanded] = useState(false)
@@ -46,11 +47,8 @@ const ServiceIndustries = ({ dict, baseUrl = "https://airtilion.com/strony-inter
                     </ul>
                 </div>
 
-                <div className='mt-16 leading-relaxed mx-auto text-center'>
-                    <h3 className='text-[25px] font-medium text-white max-lg:text-[23px]'>{dict.cta.h3}</h3>
-                    <p className='mt-2 mb-8 text-[18px] max-lg:text-[16px]'>{dict.cta.desc}</p>
-                    <WhiteBtn>{dict.cta.button}</WhiteBtn>
-                </div>
+                <InlineCta dict={dict.cta} />
+
             </div>
         </section>
     )

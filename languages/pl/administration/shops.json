@@ -1,0 +1,69 @@
+{
+    "hero": {
+        "title": "Administracja sklepów internetowych",
+        "subtitle": "Administracja i opieka nad sklepami internetowymi: kopie zapasowe, aktualizacje, bezpieczeństwo i zmiany treści na Twojej witrynie.",
+        "cta": "Darmowy audyt",
+        "ctaSecondary": "Zobacz pakiety"
+    },
+    "why": {
+        "title": "Dlaczego stała obsługa sklepu internetowego jest niezbędna?",
+        "intro": "Na zwykłej stronie awaria oznacza stracone zapytania ofertowe. W sklepie internetowym każda godzina przestoju to policzalna, utracona sprzedaż, którą łatwo przeliczyć na złotówki. Regularna administracja sklepu internetowego daje Ci kilka konkretnych korzyści:",
+        "items": [
+            {
+                "icon": "ph:shield-check-light",
+                "title": "Chroni przed atakami i wyciekiem danych klientów",
+                "desc": "Sklep przetwarza więcej wrażliwych informacji niż zwykła strona, dlatego jest częstszym celem ataków."
+            },
+            {
+                "icon": "ph:package-light",
+                "title": "Zapobiega utracie zamówień podczas awarii",
+                "desc": "Kopie zapasowe i monitoring pozwalają szybko przywrócić działanie sklepu."
+            },
+            {
+                "icon": "ph:chart-line-up-light",
+                "title": "Przygotowuje sklep na skoki ruchu",
+                "desc": "Sezonowe promocje potrafią zwiększyć ruch nawet dziesięciokrotnie, a nieprzygotowany serwer tego nie wytrzyma."
+            },
+            {
+                "icon": "ph:magnifying-glass-light",
+                "title": "Utrzymuje wysoką pozycję w Google",
+                "desc": "Wolny albo niedostępny sklep traci widoczność w wynikach wyszukiwania."
+            },
+            {
+                "icon": "ph:clock-light",
+                "title": "Oszczędza Twój czas",
+                "desc": "Nie musisz samodzielnie pilnować aktualizacji wtyczek, motywu i platformy sprzedażowej."
+            }
+        ]
+    },
+    "differences": {
+        "title": "Czym różni się administracja sklepu od administracji zwykłej strony?",
+        "paragraphs": [
+            "Wielu właścicieli sklepów zakłada, że opieka nad sklepem internetowym to to samo, co opieka nad zwykłą stroną. To błąd, który potrafi drogo kosztować.",
+            "Dlatego administracja sklepów internetowych wymaga innego podejścia do priorytetów niż administracja zwykłej strony."
+        ],
+        "groupLabel": "Kluczowe różnice",
+        "items": [
+            {
+                "icon": "ph:puzzle-piece-light",
+                "title": "Więcej ruchomych elementów",
+                "desc": "Płatności online, integracje z kurierami, stany magazynowe i dane kart płatniczych klientów. Każdy z tych elementów to osobny punkt, który może zawieść albo zostać zaatakowany."
+            },
+            {
+                "icon": "ph:trend-up-light",
+                "title": "Nierówny ruch",
+                "desc": "Sezonowe promocje, np. Black Friday, potrafią zwiększyć ruch nawet o 300-1000% względem zwykłego dnia. Bez wcześniejszego przygotowania kończy się to zawieszonym serwerem w najgorszym możliwym momencie."
+            },
+            {
+                "icon": "ph:currency-circle-dollar-light",
+                "title": "Rosnący koszt przestoju",
+                "desc": "Godzinna awaria w zwykły wtorek to strata kilku zamówień. Ta sama awaria podczas Black Friday może oznaczać stratę porównywalną z przychodem z całego tygodnia."
+            }
+        ]
+    },
+    "contact": {
+        "title": "Napisz do nas - doradzimy",
+        "subtitle": "Zostaw wiadomość. Odpiszemy w ciągu 24 godzin i zaproponujemy najlepsze rozwiązanie dla Twojej firmy.",
+        "cta": "Porozmawiajmy o projekcie"
+    }
+}

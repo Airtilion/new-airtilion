@@ -32,7 +32,7 @@
                 "link": "/administracja-stron",
                 "items": [
                     { "name": "Administracja WordPress", "link": "/administracja-stron/wordpress"},
-                    { "name": "Administracja sklepów", "link": "/administracja-sklepów"}
+                    { "name": "Administracja sklepów", "link": "/administracja-sklepow"}
                 ]
             },
             {

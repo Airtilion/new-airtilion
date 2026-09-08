@@ -6,27 +6,27 @@ import Footer from '@components/layout/Footer'
 import SlideUpContact from '@components/SlideUpContact'
 
 import CornerFrameCta from '@components/blocks/cta/CornerFrameCta'
-
 import PageHero from '@components/blocks/PageHero'
 import ProseChecklistWithImage from '@components/blocks/ProseChecklistWithImage'
 import StickyImageBenefitsList from '@components/blocks/StickyImageBenefitsList'
+import NumberedRowStack from '@components/blocks/NumberedRowStack'
+import ContentWithSidebarBox from '@components/blocks/ContentWithSidebarBox'
+import IconGridWithHighlightNote from '@components/blocks/IconGridWithHighlightNote'
+import ProseWithSideImage from '@components/blocks/ProseWithSideImage'
+import StepsGrid from '@components/blocks/StepsGrid'
+import TimelineListWithImage from '@components/blocks/TimelineListWithImage'
+import FaqAccrodionGrid from '@components/blocks/FaqAccrodionGrid'
+
+import AdministrationVersusCards from './_components/AdministrationVersusCards'
+import AdministrationTechnologies from './_components/AdministrationTechnologies'
+import AdministrationAlertBanner from './_components/AdministrationAlertBanner'
+import AdministrationPackages from './_components/AdministrationPackages'
+import AdministrationPreparation from './_components/AdministrationPreparation'
+import AdministrationNeeds from './_components/AdministrationNeeds'
+import AdministrationWebsitesCta from './_components/AdministrationWebsitesCta'
 
 import internal from '@assets/images/administration/internal.webp'
 import worth from '@assets/images/websites/worth-it.webp'
-import AdministrationVersusCards from './_components/AdministrationVersusCards'
-import NumberedRowStack from '@components/blocks/NumberedRowStack'
-import AdministrationTechnologies from './_components/AdministrationTechnologies'
-import AdministrationAlertBanner from './_components/AdministrationAlertBanner'
-import ContentWithSidebarBox from '@components/blocks/ContentWithSidebarBox'
-import IconGridWithHighlightNote from '@components/blocks/IconGridWithHighlightNote'
-import AdministrationPackages from './_components/AdministrationPackages'
-import ProseWithSideImage from '@components/blocks/ProseWithSideImage'
-import StepsGrid from '@components/blocks/StepsGrid'
-import AdministrationPreparation from './_components/AdministrationPreparation'
-import AdministrationNeeds from './_components/AdministrationNeeds'
-import TimelineListWithImage from '@components/blocks/TimelineListWithImage'
-import FaqAccrodionGrid from '@components/blocks/FaqAccrodionGrid'
-import AdministrationWebsitesCta from './_components/AdministrationWebsitesCta'
 
 export const metadata = {
     title: 'Administracja stron internetowych - Airtilion',
@@ -41,7 +41,7 @@ const page = async ({ searchParams }) => {
     const lang = sp?.lang || 'pl'
 
     const [mainFile, formFile, footerFile] = await Promise.all([
-        getDictionary(lang, '/administration/administration'),
+        getDictionary(lang, '/administration/websites'),
         getDictionary(lang, '/layout/form'),
         getDictionary(lang, '/layout/footer'),
     ])

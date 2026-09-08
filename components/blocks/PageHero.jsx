@@ -3,7 +3,7 @@ import React from 'react'
 import { Icon } from '@iconify/react'
 
 const TITLE_SIZE_TIERS = [
-    { maxLength: 45, className: 'text-[96px] max-2xl:text-[80px] max-lg:text-[65px] max-md:text-[56px] max-sm:text-[45px]' },
+    { maxLength: 34, className: 'text-[96px] max-2xl:text-[80px] max-lg:text-[65px] max-md:text-[56px] max-sm:text-[45px]' },
     { maxLength: 75, className: 'text-[76px] max-2xl:text-[64px] max-lg:text-[52px] max-md:text-[44px] max-sm:text-[36px]' },
     { maxLength: Infinity, className: 'text-[60px] max-2xl:text-[52px] max-lg:text-[42px] max-md:text-[36px] max-sm:text-[30px]' },
 ]

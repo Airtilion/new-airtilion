@@ -13,7 +13,7 @@ const renderTitleWithBreak = (title) => {
     )
 }
 
-const AdministrationAlertBanner = ({ dict }) => {
+const CornerFrameCtaOneButton = ({ dict }) => {
     return (
         <section className='my-32'>
             <div className='section-style'>
@@ -28,8 +28,9 @@ const AdministrationAlertBanner = ({ dict }) => {
 
                         <div className='mt-12 flex gap-16 items-end justify-between max-lg:flex-col max-lg:items-start max-lg:gap-12'>
                             <div className='flex-1 max-w-xl text-[16px] leading-relaxed max-lg:text-center max-lg:mx-auto max-sm:text-[15px]'>
-                                <p>{dict.intro}</p>
-                                <p className='mt-4'>{dict.desc}</p>
+                                {dict.paragraphs.map((paragraph, idx) => (
+                                    <p key={idx} className={idx > 0 ? 'mt-4' : ''}>{paragraph}</p>
+                                ))}
                             </div>
 
                             <div className='w-max max-lg:w-auto max-lg:mx-auto'>
@@ -38,11 +39,11 @@ const AdministrationAlertBanner = ({ dict }) => {
                         </div>
                     </div>
 
-                    <div className='absolute -bottom-16 right-8 text-[160px] md:text-[240px] leading-none text-white/[0.02] pointer-events-none select-none tracking-tighter max-md:-bottom-8 max-sm:right-0 max-sm:text-[130px]' aria-hidden='true'>HELP</div>
+                    <div className='absolute -bottom-16 right-8 text-[160px] md:text-[240px] leading-none text-white/[0.02] pointer-events-none select-none tracking-tighter max-md:-bottom-8 max-sm:right-0 max-sm:text-[130px]' aria-hidden='true'>{dict.bgWord}</div>
                 </div>
             </div>
         </section>
     )
 }
 
-export default AdministrationAlertBanner
+export default CornerFrameCtaOneButton

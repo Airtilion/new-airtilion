@@ -2,9 +2,9 @@ import React from 'react'
 import Image from 'next/image'
 import ssl from '@assets/images/websites/ssl.webp'
 
-const ProseWithSideImage = ({ dict }) => {
+const ProseWithSideImage = ({ dict, dark = true }) => {
     return (
-        <section className='mt-32 py-32 relative overflow-hidden bg-black'>
+        <section className={`mt-32 ${dark ? 'py-32 relative overflow-hidden bg-black' : ''}`}>
             <div className='section-style flex items-center gap-16 max-lg:flex-col-reverse'>
 
                 <div className='relative w-max h-max max-sm:w-full max-sm:h-full'>
@@ -25,7 +25,9 @@ const ProseWithSideImage = ({ dict }) => {
 
             </div>
 
-            <div className='w-[1100px] h-[1100px] rounded-full bg-[#e2835033] blur-[200px] absolute bottom-[-550px] left-1/2 -translate-x-1/2 pointer-events-none' aria-hidden="true" />
+            {dark && (
+                <div className='w-[1100px] h-[1100px] rounded-full bg-[#e2835033] blur-[200px] absolute bottom-[-550px] left-1/2 -translate-x-1/2 pointer-events-none' aria-hidden="true" />
+            )}
         </section>
     )
 }

@@ -16,12 +16,12 @@ import ProseWithSideImage from '@components/blocks/ProseWithSideImage'
 import StepsGrid from '@components/blocks/StepsGrid'
 import TimelineListWithImage from '@components/blocks/TimelineListWithImage'
 import FaqAccrodionGrid from '@components/blocks/FaqAccrodionGrid'
-import VersusCards from '../../components/blocks/VersusCards'
-import StickyIntroChecklist from '../../components/blocks/StickyIntroChecklist'
+import VersusCards from '@components/blocks/VersusCards'
+import StickyIntroChecklist from '@components/blocks/StickyIntroChecklist'
+import CornerFrameCtaOneButton from '@components/blocks/cta/CornerFrameCtaOneButton'
+import Packages from '@components/blocks/Packages'
 
 import AdministrationTechnologies from './_components/AdministrationTechnologies'
-import AdministrationAlertBanner from './_components/AdministrationAlertBanner'
-import AdministrationPackages from './_components/AdministrationPackages'
 import AdministrationNeeds from './_components/AdministrationNeeds'
 import AdministrationWebsitesCta from './_components/AdministrationWebsitesCta'
 
@@ -63,11 +63,11 @@ const page = async ({ searchParams }) => {
                 <VersusCards dict={dict.hostingVsAdmin} />
                 <NumberedRowStack dict={dict.scope} />
                 <AdministrationTechnologies dict={dict.technologies} />
-                <AdministrationAlertBanner dict={dict.emergencyFix} />
+                <CornerFrameCtaOneButton dict={dict.emergencyFix} />
                 <ContentWithSidebarBox dict={dict.performance} />
                 <IconGridWithHighlightNote dict={dict.workflow} dark={true} />
                 <AdministrationWebsitesCta dict={dict.websitesCta} />
-                <AdministrationPackages dict={dict.packages} />
+                <Packages dict={dict.packages} />
                 <ProseWithSideImage dict={dict.safe} />
                 <ContentWithSidebarBox dict={dict.raport} reverse={true} />
                 <StepsGrid dict={dict.process} />

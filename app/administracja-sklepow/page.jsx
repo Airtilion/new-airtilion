@@ -11,6 +11,10 @@ import ContentWithSidebarBox from '@components/blocks/ContentWithSidebarBox'
 import VersusCards from '@components/blocks/VersusCards'
 import StickyIntroChecklist from '@components/blocks/StickyIntroChecklist'
 import LinkRowListWithTable from '@components/blocks/LinkRowListWithTable'
+import CornerFrameCtaOneButton from '@components/blocks/cta/CornerFrameCtaOneButton'
+import IconGridWithHighlightNote from '@components/blocks/IconGridWithHighlightNote'
+import ProseWithSideImage from '@components/blocks/ProseWithSideImage'
+import Packages from '@components/blocks/Packages'
 
 export const metadata = {
     title: 'Administracja stron internetowych - Airtilion',
@@ -47,7 +51,10 @@ const page = async ({ searchParams }) => {
                 <VersusCards dict={dict.hostingVsAdmin} />
                 <StickyIntroChecklist dict={dict.consistsOf} />
                 <LinkRowListWithTable dict={dict.platforms} />
-             
+                <CornerFrameCtaOneButton dict={dict.accidentCta} />
+                <IconGridWithHighlightNote dict={dict.peakSeason} dark />
+                <ProseWithSideImage dict={dict.ourWork} dark={false} />
+                <Packages dict={dict.packages} />
 
                 <CornerFrameCta dict={dict.contact} lang={lang} />
 

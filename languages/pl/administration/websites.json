@@ -175,9 +175,12 @@
     },
     "emergencyFix": {
         "title": "Moja strona już ma problem: zhakowana lub zainfekowana witryna",
-        "intro": "Jeśli trafiłeś tutaj, bo Twoja strona już przestała działać albo pokazuje dziwne treści, nie czekaj z tym dłużej. Im szybciej zareagujesz, tym mniejsze ryzyko, że Google oznaczy Twoją stronę jako niebezpieczną dla odwiedzających.",
-        "desc": "Oferujemy jednorazowe usunięcie infekcji i przywrócenie działania strony, niezależnie od tego, czy wcześniej byliśmy jej administratorem. Po takiej interwencji możesz zdecydować, czy chcesz kontynuować z nami stałą opiekę, czy tylko jednorazowo naprawić problem.",
-        "cta": "Potrzebuję pilnej pomocy"
+        "paragraphs": [
+            "Jeśli trafiłeś tutaj, bo Twoja strona już przestała działać albo pokazuje dziwne treści, nie czekaj z tym dłużej. Im szybciej zareagujesz, tym mniejsze ryzyko, że Google oznaczy Twoją stronę jako niebezpieczną dla odwiedzających.",
+            "Oferujemy jednorazowe usunięcie infekcji i przywrócenie działania strony, niezależnie od tego, czy wcześniej byliśmy jej administratorem. Po takiej interwencji możesz zdecydować, czy chcesz kontynuować z nami stałą opiekę, czy tylko jednorazowo naprawić problem."
+        ],
+        "cta": "Potrzebuję pilnej pomocy",
+        "bgWord": "HELP"
     },
     "performance": {
         "title": "Optymalizacja wydajności w ramach stałej opieki",
@@ -258,10 +261,7 @@
                     "SLA: czas reakcji do 8h roboczych"
                 ],
                 "excluded": "Nie obejmuje prac programistycznych, graficznych ani wprowadzania nowych treści.",
-                "cta": {
-                    "label": "Zamów pakiet",
-                    "href": "/wycena"
-                }
+                "cta": "Zamów pakiet"
             },
             {
                 "name": "Pakiet Standard",
@@ -277,10 +277,7 @@
                     "Obsługa zgłoszeń mailowo i telefonicznie",
                     "SLA: czas reakcji do 4h roboczych"
                 ],
-                "cta": {
-                    "label": "Zamów pakiet",
-                    "href": "/wycena"
-                }
+                "cta": "Zamów pakiet"
             },
             {
                 "name": "Pakiet Premium",
@@ -295,10 +292,7 @@
                     "Dedykowany opiekun techniczny",
                     "SLA: czas reakcji ustalany indywidualnie"
                 ],
-                "cta": {
-                    "label": "Zapytaj o pakiet",
-                    "href": "/wycena"
-                }
+                "cta": "Zapytaj o pakiet"
             }
         ],
         "hourlyRates": {

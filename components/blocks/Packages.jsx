@@ -2,7 +2,7 @@ import React from 'react'
 import WhiteBtn from '@components/buttons/WhiteBtn'
 import { Icon } from '@iconify/react/dist/iconify'
 
-const AdministrationPackages = ({ dict }) => {
+const Packages = ({ dict }) => {
     return (
         <section className='mt-32'>
             <div className='section-style'>
@@ -32,7 +32,7 @@ const AdministrationPackages = ({ dict }) => {
                             </ul>
 
                             <div className='mt-8 max-lg:ml-auto max-sm:mx-auto'>
-                                <WhiteBtn>{tier.cta.label}</WhiteBtn>
+                                <WhiteBtn>{tier.cta}</WhiteBtn>
                             </div>
                         </div>
                     ))}
@@ -45,4 +45,4 @@ const AdministrationPackages = ({ dict }) => {
     )
 }
 
-export default AdministrationPackages
+export default Packages

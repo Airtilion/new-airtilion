@@ -152,6 +152,106 @@
             }
         ]
     },
+    "accidentCta": {
+        "title": "Twój sklep nie przyjmuje zamówień? Reagujemy natychmiast",
+        "paragraphs": [
+            "Jeśli trafiłeś tutaj, bo koszyk przestał działać, płatności przez PayU czy Przelewy24 nie przechodzą, albo klienci zgłaszają błędy przy finalizacji zamówienia, każda minuta kosztuje Cię realną sprzedaż. Nie czekaj, aż ktoś to zauważy i napisze do Ciebie z reklamacją.",
+            "Oferujemy jednorazową, pilną naprawę awarii koszyka i bramek płatności, niezależnie od tego, czy wcześniej byliśmy administratorem Twojego sklepu. Sprawdzamy integrację z operatorem płatności, konflikt wtyczek po ostatniej aktualizacji oraz błędy w samym procesie składania zamówienia, i usuwamy przyczynę problemu, nie tylko jego objaw.",
+            "Po takiej interwencji możesz zdecydować, czy chcesz kontynuować z nami stałą opiekę, czy tylko jednorazowo naprawić awarię."
+        ],
+        "cta": "Zgłoś awarię koszyka lub płatności",
+        "bgWord": "HELP"
+    },
+    "peakSeason": {
+        "title": "Przygotowanie sklepu na sezonowe szczyty ruchu",
+        "intro": "Black Friday, Cyber Monday czy okres przedświąteczny to momenty, w których Twój sklep zarabia najwięcej, ale też najłatwiej może zawieść. Badania branżowe pokazują, że ruch w takich okresach potrafi wzrosnąć nawet dziesięciokrotnie w stosunku do zwykłego dnia. Zanim nadejdzie sezon wyprzedażowy, sprawdzamy kilka kluczowych elementów.",
+        "factors": [
+            {
+                "icon": "ph:gauge-light",
+                "title": "Test obciążeniowy",
+                "desc": "Sprawdzamy, jak sklep zachowuje się pod zwiększonym obciążeniem, symulując ruch znacznie większy niż zwykle."
+            },
+            {
+                "icon": "ph:database-light",
+                "title": "Zapytania do bazy danych",
+                "desc": "Sprawdzamy zapytania do bazy danych, bo to właśnie one najczęściej przeciążają serwer przy dużym ruchu."
+            },
+            {
+                "icon": "ph:image-light",
+                "title": "Kompresja i buforowanie",
+                "desc": "Kompresujemy zdjęcia produktów i wdrażamy mechanizmy buforowania, które odciążają serwer przy powtarzających się żądaniach."
+            },
+            {
+                "icon": "ph:credit-card-light",
+                "title": "Test procesu płatności",
+                "desc": "Osobno testujemy sam proces płatności, bo to tam klienci najczęściej rezygnują z zakupu, jeśli coś działa wolno albo zawodzi pod obciążeniem."
+            }
+        ],
+        "outroIcon": "ph:trend-up-light",
+        "outro": "Dzięki takiemu przygotowaniu Twój sklep ma szansę wykorzystać cały potencjał sezonu wyprzedażowego, zamiast tracić zamówienia przez zawieszony serwer w najgorszym możliwym momencie."
+    },
+    "ourWork": {
+        "title": "Jak wygląda nasza praca w praktyce?",
+        "imgAlt": "Optymalizacja wydajności sklepu internetowego przed sezonowym szczytem ruchu",
+        "paragraphs": [
+            "Weźmy przykładowy przypadek: sklep z rękodziełem zgłasza się do nas tydzień przed planowaną wyprzedażą, bo poprzedni Black Friday zakończył się awarią w szczycie ruchu. Zaczynamy od audytu wydajności.",
+            "Znajdujemy nieoptymalne zapytania do bazy danych, które karta produktu wykonywała przy każdym wejściu, co przy dużym ruchu mocno obciążało serwer. Zdjęcia produktów w pełnej rozdzielczości dodatkowo spowalniały ładowanie strony na telefonach. Nikt też wcześniej nie sprawdził, jak bramka płatności zachowa się przy wielu jednoczesnych transakcjach.",
+            "Optymalizujemy zapytania do bazy danych, kompresujemy zdjęcia i przeprowadzamy test obciążeniowy symulujący zwiększony ruch. Sklep przechodzi kolejną wyprzedaż bez żadnego przestoju, a od tego momentu zostaje pod naszą stałą opieką."
+        ]
+    },
+    "packages": {
+        "title": "Pakiety i cennik: ile kosztuje administracja sklepu internetowego?",
+        "intro": "Nie mamy jednego sztywnego cennika, bo zakres opieki zależy przede wszystkim od wielkości sklepu, liczby zamówień i tego, jak często zmienia się jego oferta. Poniżej znajdziesz orientacyjne pakiety, od których zwykle zaczynamy rozmowę.",
+        "tiers": [
+            {
+                "name": "Pakiet dla małego sklepu",
+                "price": "od 299 zł",
+                "priceUnit": "/ mies.",
+                "desc": "Dla sklepów z niewielkim katalogiem produktów i umiarkowanym ruchem.",
+                "features": [
+                    "Aktualizacje platformy (WooCommerce, Shopify, Shoper) i wtyczek do 2x w miesiącu",
+                    "Regularne kopie zapasowe",
+                    "Podstawowy monitoring bezpieczeństwa i dostępności",
+                    "Obsługa zgłoszeń mailowo",
+                    "Czas reakcji do 8 godzin roboczych"
+                ],
+                "note": "Pakiet nie obejmuje prac programistycznych, graficznych ani dodawania nowych treści i produktów. Takie zmiany rozliczamy osobno, godzinowo.",
+                "cta": "Zamów pakiet"
+            },
+            {
+                "name": "Pakiet dla dużego sklepu",
+                "price": "od 799 zł",
+                "priceUnit": "/ mies.",
+                "desc": "Dla sklepów z rozbudowanym katalogiem i regularnym napływem zamówień.",
+                "features": [
+                    "Wszystko z pakietu dla małego sklepu",
+                    "Aktualizacje platformy i wtyczek do 4x w miesiącu",
+                    "Monitoring procesu płatności i finalizacji zamówienia",
+                    "Regularne skanowanie pod kątem złośliwego oprogramowania",
+                    "Sprawdzenie gotowości sklepu przed większymi promocjami",
+                    "Dodawanie produktów i drobne zmiany treści do 2 godzin miesięcznie",
+                    "Obsługa zgłoszeń mailowo i telefonicznie",
+                    "Czas reakcji do 4 godzin roboczych"
+                ],
+                "cta": "Zamów pakiet"
+            },
+            {
+                "name": "Pakiet dedykowany",
+                "price": "Wycena indywidualna",
+                "priceUnit": "",
+                "desc": "Dla sklepów z dużym ruchem, rozbudowanymi integracjami lub architekturą headless.",
+                "features": [
+                    "Rozwiązania dopasowane dokładnie do specyfiki Twojego sklepu, ustalane indywidualnie, a nie ze sztywnej listy",
+                    "Wszystko z pakietu dla dużego sklepu",
+                    "Testy obciążeniowe przed sezonem wyprzedażowym",
+                    "Stała optymalizacja wydajności",
+                    "Priorytetowy czas reakcji w ramach indywidualnie ustalonej umowy SLA"
+                ],
+                "cta": "Zapytaj o pakiet"
+            }
+        ],
+        "note": "Powyższe pakiety mają charakter poglądowy i nie stanowią oferty handlowej w rozumieniu Kodeksu cywilnego. Każdy sklep ma inne potrzeby, dlatego dokładny zakres i cenę ustalamy indywidualnie po krótkim audycie."
+    },
     "contact": {
         "title": "Napisz do nas - doradzimy",
         "subtitle": "Zostaw wiadomość. Odpiszemy w ciągu 24 godzin i zaproponujemy najlepsze rozwiązanie dla Twojej firmy.",

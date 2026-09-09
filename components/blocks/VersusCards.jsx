@@ -1,7 +1,7 @@
 import React from 'react'
 import { Icon } from '@iconify/react'
 
-const AdministrationVersusCards = ({ dict }) => {
+const VersusCards = ({ dict }) => {
     return (
         <section className='mt-32'>
             <div className='section-style'>
@@ -46,4 +46,4 @@ const AdministrationVersusCards = ({ dict }) => {
     )
 }
 
-export default AdministrationVersusCards
+export default VersusCards

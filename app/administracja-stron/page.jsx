@@ -16,8 +16,8 @@ import ProseWithSideImage from '@components/blocks/ProseWithSideImage'
 import StepsGrid from '@components/blocks/StepsGrid'
 import TimelineListWithImage from '@components/blocks/TimelineListWithImage'
 import FaqAccrodionGrid from '@components/blocks/FaqAccrodionGrid'
+import VersusCards from '../../components/blocks/VersusCards'
 
-import AdministrationVersusCards from './_components/AdministrationVersusCards'
 import AdministrationTechnologies from './_components/AdministrationTechnologies'
 import AdministrationAlertBanner from './_components/AdministrationAlertBanner'
 import AdministrationPackages from './_components/AdministrationPackages'
@@ -60,7 +60,7 @@ const page = async ({ searchParams }) => {
                 <PageHero dict={dict.hero} />
                 <ProseChecklistWithImage dict={dict.risks} img={internal} />
                 <StickyImageBenefitsList dict={dict.whyWorthIt} img={worth} />
-                <AdministrationVersusCards dict={dict.hostingVsAdmin} />
+                <VersusCards dict={dict.hostingVsAdmin} />
                 <NumberedRowStack dict={dict.scope} />
                 <AdministrationTechnologies dict={dict.technologies} />
                 <AdministrationAlertBanner dict={dict.emergencyFix} />

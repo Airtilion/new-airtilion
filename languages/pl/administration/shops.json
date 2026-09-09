@@ -61,6 +61,23 @@
             }
         ]
     },
+    "hostingVsAdmin": {
+        "title": "Administracja a hosting: czym się różnią?",
+        "intro": "Wielu właścicieli sklepów myli te dwie usługi, co prowadzi do fałszywego poczucia bezpieczeństwa. Warto rozróżnić je już na starcie.",
+        "left": {
+            "label": "Hosting",
+            "icon": "ph:hard-drive-light",
+            "desc": "To miejsce, w którym fizycznie znajdują się pliki Twojego sklepu i baza danych. Firma hostingowa odpowiada za działanie serwera, ale nie za to, co dzieje się na samym sklepie: nie aktualizuje WooCommerce, nie sprawdza luk bezpieczeństwa we wtyczkach i nie testuje, czy checkout wytrzyma zwiększony ruch."
+        },
+        "right": {
+            "label": "Administracja",
+            "icon": "ph:shield-check-light",
+            "desc": "To usługa, która dba o sam sklep - jego oprogramowanie, integracje i bezpieczeństwo transakcji. Możesz mieć najlepszy hosting na rynku i wciąż stracić zamówienia podczas wyprzedaży, jeśli nikt wcześniej nie sprawdził, czy sklep wytrzyma większy ruch."
+        },
+        "paragraphs": [
+            "Traktujemy hosting i administrację jako dwie osobne, uzupełniające się usługi. Możemy pomóc Ci w wyborze odpowiedniego hostingu, ale sama administracja dotyczy tego, co dzieje się na poziomie samego sklepu."
+        ]
+    },
     "contact": {
         "title": "Napisz do nas - doradzimy",
         "subtitle": "Zostaw wiadomość. Odpiszemy w ciągu 24 godzin i zaproponujemy najlepsze rozwiązanie dla Twojej firmy.",

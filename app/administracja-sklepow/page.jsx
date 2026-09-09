@@ -8,6 +8,7 @@ import PageHero from '@components/blocks/PageHero'
 import CornerFrameCta from '@components/blocks/cta/CornerFrameCta'
 import NumberedRowStack from '@components/blocks/NumberedRowStack'
 import ContentWithSidebarBox from '@components/blocks/ContentWithSidebarBox'
+import VersusCards from '@components/blocks/VersusCards'
 
 export const metadata = {
     title: 'Administracja stron internetowych - Airtilion',
@@ -41,6 +42,7 @@ const page = async ({ searchParams }) => {
                 <PageHero dict={dict.hero} />
                 <NumberedRowStack dict={dict.why} />
                 <ContentWithSidebarBox dict={dict.differences} />
+                <VersusCards dict={dict.hostingVsAdmin} />
              
 
                 <CornerFrameCta dict={dict.contact} lang={lang} />

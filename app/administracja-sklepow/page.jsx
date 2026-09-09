@@ -9,6 +9,8 @@ import CornerFrameCta from '@components/blocks/cta/CornerFrameCta'
 import NumberedRowStack from '@components/blocks/NumberedRowStack'
 import ContentWithSidebarBox from '@components/blocks/ContentWithSidebarBox'
 import VersusCards from '@components/blocks/VersusCards'
+import StickyIntroChecklist from '@components/blocks/StickyIntroChecklist'
+import LinkRowListWithTable from '@components/blocks/LinkRowListWithTable'
 
 export const metadata = {
     title: 'Administracja stron internetowych - Airtilion',
@@ -43,6 +45,8 @@ const page = async ({ searchParams }) => {
                 <NumberedRowStack dict={dict.why} />
                 <ContentWithSidebarBox dict={dict.differences} />
                 <VersusCards dict={dict.hostingVsAdmin} />
+                <StickyIntroChecklist dict={dict.consistsOf} />
+                <LinkRowListWithTable dict={dict.platforms} />
              
 
                 <CornerFrameCta dict={dict.contact} lang={lang} />

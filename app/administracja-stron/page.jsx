@@ -17,11 +17,11 @@ import StepsGrid from '@components/blocks/StepsGrid'
 import TimelineListWithImage from '@components/blocks/TimelineListWithImage'
 import FaqAccrodionGrid from '@components/blocks/FaqAccrodionGrid'
 import VersusCards from '../../components/blocks/VersusCards'
+import StickyIntroChecklist from '../../components/blocks/StickyIntroChecklist'
 
 import AdministrationTechnologies from './_components/AdministrationTechnologies'
 import AdministrationAlertBanner from './_components/AdministrationAlertBanner'
 import AdministrationPackages from './_components/AdministrationPackages'
-import AdministrationPreparation from './_components/AdministrationPreparation'
 import AdministrationNeeds from './_components/AdministrationNeeds'
 import AdministrationWebsitesCta from './_components/AdministrationWebsitesCta'
 
@@ -71,7 +71,7 @@ const page = async ({ searchParams }) => {
                 <ProseWithSideImage dict={dict.safe} />
                 <ContentWithSidebarBox dict={dict.raport} reverse={true} />
                 <StepsGrid dict={dict.process} />
-                <AdministrationPreparation dict={dict.prepare} />
+                <StickyIntroChecklist dict={dict.prepare} />
                 <AdministrationNeeds dict={dict.whoNeeds} />
                 <TimelineListWithImage dict={dict.whyUs} titleMaxWidth = '2xl' cta={true} />
                 <FaqAccrodionGrid dict={dict.faq} />

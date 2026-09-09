@@ -78,6 +78,80 @@
             "Traktujemy hosting i administrację jako dwie osobne, uzupełniające się usługi. Możemy pomóc Ci w wyborze odpowiedniego hostingu, ale sama administracja dotyczy tego, co dzieje się na poziomie samego sklepu."
         ]
     },
+    "consistsOf": {
+        "title": "Na czym polega opieka nad sklepem internetowym? Zakres usług",
+        "intro": "Administracja sklepów internetowych to nie jedna czynność, tylko zestaw regularnych działań, które razem utrzymują sklep w dobrej kondycji.",
+        "note": "Zakres usług zawsze dopasowujemy do konkretnego sklepu. Mały sklep z kilkudziesięcioma produktami potrzebuje mniej pracy niż rozbudowana platforma z tysiącami zamówień miesięcznie. Nie musisz umieć samodzielnie administrować sklepem ani znać się na kodzie, na którym działa Twoja witryna sprzedażowa. Robimy to za Ciebie.",
+        "items": [
+            {
+                "title": "Kopie zapasowe",
+                "desc": "Wykonujemy regularne, automatyczne kopie zapasowe całego sklepu, razem z bazą zamówień i produktów, przechowywane poza głównym serwerem. Backup wykonujemy co najmniej raz na tydzień. W razie awarii przywracamy działanie w kilka minut."
+            },
+            {
+                "title": "Aktualizacje platformy i wtyczek",
+                "desc": "Aktualizujemy WooCommerce, wtyczki płatności i wysyłki oraz motyw graficzny, testując każdą zmianę przed wdrożeniem na sklepie produkcyjnym, żeby aktualizacja nie zepsuła działania koszyka czy płatności. Nie musisz sam wdrażać kolejnych aktualizacji ani pamiętać o nich, robimy to za Ciebie na bieżąco."
+            },
+            {
+                "title": "Monitorowanie bezpieczeństwa",
+                "desc": "Skanujemy sklep pod kątem złośliwego oprogramowania i monitorujemy podejrzaną aktywność w panelu administracyjnym, zanim zdąży wyrządzić szkody."
+            },
+            {
+                "title": "Monitoring dostępności i procesu zakupowego",
+                "desc": "Sprawdzamy nie tylko to, czy sklep w ogóle działa, ale czy cały proces zamówienia, od dodania produktu do koszyka po finalizację płatności, przebiega bez błędów. Dbamy też o UX procesu zakupowego i poprawne funkcjonowanie każdego elementu sklepu, od karty produktu po stronę potwierdzenia zamówienia."
+            },
+            {
+                "title": "Dodawanie produktów i drobne zmiany",
+                "desc": "W wybranych pakietach zajmujemy się też dodawaniem nowych produktów, wprowadzaniem drobnych zmian funkcjonalnych oraz aktualizacją treści w sklepie."
+            },
+            {
+                "title": "Certyfikat SSL i szyfrowanie",
+                "desc": "Dbamy o ważność certyfikatu SSL i poprawną konfigurację szyfrowanego połączenia między przeglądarką klienta a serwerem."
+            },
+            {
+                "title": "Optymalizacja wydajności",
+                "desc": "Regularnie sprawdzamy szybkość ładowania kart produktów i kategorii, kompresujemy zdjęcia i czyścimy bazę danych z niepotrzebnych wpisów."
+            },
+            {
+                "title": "Przygotowanie na sezonowe szczyty ruchu",
+                "desc": "Przed większymi promocjami sprawdzamy, czy sklep i serwer wytrzymają zwiększony ruch, zamiast czekać, aż coś się posypie w najgorszym możliwym momencie."
+            },
+            {
+                "title": "Raportowanie działań",
+                "desc": "Co miesiąc dostajesz krótki raport z tego, co zrobiliśmy i czy pojawiły się jakieś zagrożenia."
+            }
+        ]
+    },
+    "platforms": {
+        "title": "Administrujemy sklepami na różnych platformach",
+        "desc": "Większość firm oferujących administrację sklepów internetowych obsługuje wyłącznie jedną platformę. My zajmujemy się trzema najpopularniejszymi systemami, więc niezależnie od tego, na czym działa Twój sklep, możemy przejąć nad nim opiekę.",
+        "items": [
+            {
+                "title": "WooCommerce",
+                "desc": [
+                    "WooCommerce to wtyczka do WordPressa, która zamienia stronę w pełnoprawny sklep internetowy. To najczęściej spotykana platforma wśród naszych klientów, ze względu na elastyczność i niskie koszty utrzymania.",
+                    "Administracja sklepu WooCommerce wymaga szczególnej uwagi, bo składa się z wielu elementów: rdzenia WordPressa, samego WooCommerce i dodatkowych wtyczek do płatności czy wysyłki. Każdy z nich trzeba aktualizować osobno, zachowując zgodność między nimi. W przeciwieństwie do Shopify czy Shoper to Ty odpowiadasz za hosting swojej witryny i aktualizacje rdzenia, a nie sam dostawca platformy."
+                ],
+                "icon": "simple-icons:woocommerce",
+                "link": "/sklepy-internetowe/woocommerce"
+            },
+            {
+                "title": "Shopify",
+                "desc": [
+                    "Shopify to platforma w modelu SaaS, w której płacisz stały miesięczny abonament, a dostawca sam odpowiada za aktualizacje rdzenia systemu i infrastrukturę serwerową. Administracja sklepu Shopify skupia się głównie na konfiguracji, integracjach i optymalizacji, a nie na aktualizacjach bezpieczeństwa, o które dba sam Shopify."
+                ],
+                "icon": "simple-icons:shopify",
+                "link": "/sklepy-internetowe/shopify"
+            },
+            {
+                "title": "Shoper",
+                "desc": [
+                    "Shoper to polska platforma e-commerce, podobnie jak Shopify działająca w modelu abonamentowym. Opieka nad sklepem na Shoperze obejmuje głównie konfigurację integracji, optymalizację treści i monitorowanie działania sklepu."
+                ],
+                "link": "/sklepy-internetowe/shoper",
+                "icon": "ph:storefront-light"
+            }
+        ]
+    },
     "contact": {
         "title": "Napisz do nas - doradzimy",
         "subtitle": "Zostaw wiadomość. Odpiszemy w ciągu 24 godzin i zaproponujemy najlepsze rozwiązanie dla Twojej firmy.",

@@ -21,8 +21,8 @@ import IconRowListWithFaqGrid from '@components/blocks/IconRowListWithFaqGrid'
 import AccordionGrid from '@components/blocks/AccordionGrid'
 import FaqAccrodionGrid from '@components/blocks/FaqAccrodionGrid'
 import ProseChecklistWithImage from '@components/blocks/ProseChecklistWithImage'
+import LinkRowListWithTable from '@components/blocks/LinkRowListWithTable'
 
-import ShopPlatforms from '@app/sklepy-internetowe/_components/ShopPlatforms'
 import ShopHeadlessArchitecture from '@app/sklepy-internetowe/_components/ShopHeadlessArchitecture'
 import ShopSeo from '@app/sklepy-internetowe/_components/ShopSeo'
 import ShopPrice from '@app/sklepy-internetowe/_components/ShopPrice'
@@ -63,7 +63,7 @@ const page = async ({ searchParams }) => {
                 <PageHero dict={dict.hero} />
                 <PortfolioGrid dict={dict.portfolio} />
                 <StickyImageBenefitsList dict={dict.whyWorthIt} img={worth} />
-                <ShopPlatforms dict={dict.platforms} lang={lang} />
+                <LinkRowListWithTable dict={dict.platforms} lang={lang} />
                 <ShopHeadlessArchitecture dict={dict.headless} />
                 <ContentWithSidebarBox dict={dict.productCard} />
                 <ContentWithSidebarBox dict={dict.cartCheckout} reverse />

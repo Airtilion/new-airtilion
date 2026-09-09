@@ -1,12 +1,12 @@
 import React from 'react'
 import { Icon } from '@iconify/react'
 
-const AdministrationPreparation = ({ dict }) => {
+const StickyIntroChecklist = ({ dict }) => {
     return (
-        <section className='mt-32 py-32 relative overflow-hidden bg-black'>
+        <section className='mt-32 py-32 relative bg-black'>
             <div className='section-style relative z-1 grid grid-cols-12 gap-16 max-lg:grid-cols-1'>
 
-                <div className='col-span-5 max-xl:col-span-6 max-lg:relative max-lg:top-auto max-lg:col-span-full'>
+                <div className='col-span-5 sticky top-32 self-start max-xl:col-span-6 max-lg:relative max-lg:top-auto max-lg:col-span-full'>
                     <h2 className='title'>{dict.title}</h2>
                     <p className='mt-6 text-[16px] leading-relaxed max-sm:text-[15px]'>{dict.intro}</p>
 
@@ -31,9 +31,11 @@ const AdministrationPreparation = ({ dict }) => {
 
             </div>
 
-            <div className='w-[1100px] h-[1100px] rounded-full bg-[#e2835033] blur-[200px] absolute bottom-[-550px] left-1/2 -translate-x-1/2 pointer-events-none' aria-hidden='true' />
+            <div aria-hidden='true' className='absolute inset-0 overflow-hidden pointer-events-none'>
+                <div className='w-[1100px] h-[1100px] rounded-full bg-[#e2835033] blur-[200px] absolute bottom-[-550px] left-1/2 -translate-x-1/2' />
+            </div>
         </section>
     )
 }
 
-export default AdministrationPreparation
+export default StickyIntroChecklist

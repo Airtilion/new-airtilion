@@ -45,7 +45,24 @@
     },
     "platforms": {
         "title": "Na jakich platformach tworzymy sklepy internetowe?",
-        "desc": "Wybór platformy zależy od wielkości Twojej oferty, budżetu i planów rozwoju. Najczęściej pracujemy na trzech sprawdzonych systemach:",
+        "desc": [
+            "Wybór platformy zależy od wielkości Twojej oferty, budżetu i planów rozwoju. Najczęściej pracujemy na trzech sprawdzonych systemach: ",
+            {
+                "text": "WooCommerce",
+                "href": "/sklepy-internetowe/woocommerce"
+            },
+            ", ",
+            {
+                "text": "Shopify",
+                "href": "/sklepy-internetowe/shopify"
+            },
+            ", ",
+            {
+                "text": "Shoper",
+                "href": "/sklepy-internetowe/shoper"
+            },
+            "."
+        ],
         "items": [
             {
                 "title": "WooCommerce",

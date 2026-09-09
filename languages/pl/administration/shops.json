@@ -252,6 +252,38 @@
         ],
         "note": "Powyższe pakiety mają charakter poglądowy i nie stanowią oferty handlowej w rozumieniu Kodeksu cywilnego. Każdy sklep ma inne potrzeby, dlatego dokładny zakres i cenę ustalamy indywidualnie po krótkim audycie."
     },
+    "safe": {
+        "title": "Jak zabezpieczamy Twój sklep i dane klientów?",
+        "intro": "Sklep internetowy przetwarza dane osobowe i informacje o płatnościach, dlatego podchodzimy do bezpieczeństwa na kilku poziomach jednocześnie, nie tylko przez sam certyfikat SSL.",
+        "imgAlt": "Zabezpieczenie sklepu internetowego i danych klientów",
+        "items": [
+            {
+                "span": 4,
+                "icon": "ph:credit-card-light",
+                "title": "Bezpieczne płatności",
+                "desc": "Nigdy nie przechowujemy numerów kart płatniczych na serwerze sklepu. Płatności obsługują certyfikowani operatorzy, tacy jak Przelewy24 czy PayU, spełniający normę PCI DSS."
+            },
+            {
+                "span": 2,
+                "icon": "ph:lock-key-light",
+                "title": "Panel admina",
+                "desc": "Dwuskładnikowe logowanie i limit prób logowania utrudniają przejęcie konta."
+            },
+            {
+                "span": 3,
+                "icon": "ph:arrows-clockwise-light",
+                "title": "Regularne aktualizacje",
+                "desc": "Aktualizujemy oprogramowanie sklepu i wtyczki, eliminując znane luki bezpieczeństwa."
+            },
+            {
+                "span": 3,
+                "icon": "ph:cloud-check-light",
+                "title": "Kopie zapasowe poza serwerem",
+                "desc": "Awaria hostingu nie oznacza utraty danych o zamówieniach i klientach."
+            }
+        ],
+        "outro": "Monitorujemy też podejrzaną aktywność, na przykład nietypową liczbę prób logowania z jednego adresu IP, więc reagujemy, zanim ktoś zdąży wyrządzić szkodę. Dzięki temu poziom bezpieczeństwa Twojego sklepu nie opiera się na jednym zabezpieczeniu, tylko na kilku niezależnych warstwach ochrony działających jednocześnie."
+    },
     "contact": {
         "title": "Napisz do nas - doradzimy",
         "subtitle": "Zostaw wiadomość. Odpiszemy w ciągu 24 godzin i zaproponujemy najlepsze rozwiązanie dla Twojej firmy.",

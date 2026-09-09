@@ -15,6 +15,9 @@ import CornerFrameCtaOneButton from '@components/blocks/cta/CornerFrameCtaOneBut
 import IconGridWithHighlightNote from '@components/blocks/IconGridWithHighlightNote'
 import ProseWithSideImage from '@components/blocks/ProseWithSideImage'
 import Packages from '@components/blocks/Packages'
+import FullImageWithFloatingCard from '@components/blocks/FullImageWithFloatingCard'
+
+import worth from '@assets/images/websites/worth-it.webp'
 
 export const metadata = {
     title: 'Administracja stron internetowych - Airtilion',
@@ -55,6 +58,7 @@ const page = async ({ searchParams }) => {
                 <IconGridWithHighlightNote dict={dict.peakSeason} dark />
                 <ProseWithSideImage dict={dict.ourWork} dark={false} />
                 <Packages dict={dict.packages} />
+                <FullImageWithFloatingCard dict={dict.safe} img={worth} />
 
                 <CornerFrameCta dict={dict.contact} lang={lang} />
 

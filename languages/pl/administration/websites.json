@@ -418,7 +418,7 @@
         "title": "Kto właściwie potrzebuje administracji strony internetowej?",
         "lead": "Odpowiedź brzmi: każda firma, dla której strona internetowa ma jakiekolwiek znaczenie biznesowe. Nie musisz prowadzić dużego sklepu internetowego, żeby administracja miała sens.",
         "body": "Jeśli Twoja strona generuje zapytania ofertowe, sprzedaje produkty, buduje wizerunek firmy albo po prostu jest wizytówką, którą klienci sprawdzają przed kontaktem, jej przestój albo włamanie kosztuje Cię realne pieniądze. Im więcej firma zależy od swojej obecności online, tym bardziej opłaca się mieć kogoś, kto tej stronie pilnuje pleców.",
-        "audiences": [
+        "items": [
             {
                 "icon": "ph:shopping-cart-simple-light",
                 "title": "Firmy sprzedające online",

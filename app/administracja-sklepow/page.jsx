@@ -19,6 +19,12 @@ import FullImageWithFloatingCard from '@components/blocks/FullImageWithFloatingC
 
 import worth from '@assets/images/websites/worth-it.webp'
 import IconRowListWithFaqGrid from '@components/blocks/IconRowListWithFaqGrid'
+import ProseChecklistWithImage from '@components/blocks/ProseChecklistWithImage'
+import IconGridWithCentredOutro from '@components/blocks/IconGridWithCentredOutro'
+import StepsGrid from '@components/blocks/StepsGrid'
+import ProseTextBand from '@components/blocks/ProseTextBand'
+import TimelineListWithImage from '@components/blocks/TimelineListWithImage'
+import FaqAccrodionGrid from '@components/blocks/FaqAccrodionGrid'
 
 export const metadata = {
     title: 'Administracja stron internetowych - Airtilion',
@@ -61,6 +67,13 @@ const page = async ({ searchParams }) => {
                 <Packages dict={dict.packages} />
                 <FullImageWithFloatingCard dict={dict.safe} img={worth} />
                 <IconRowListWithFaqGrid dict={dict.whoHandles} />
+                <ProseChecklistWithImage dict={dict.raport} img={worth} />
+                <IconGridWithCentredOutro dict={dict.prepare} columns={2} />
+                <StepsGrid dict={dict.process} />
+                <ProseTextBand dict={dict.marketing} />
+                <ProseWithSideImage dict={dict.whoNeeds} dark={false} reverse={true} />
+                <TimelineListWithImage dict={dict.whyUs} titleMaxWidth = '2xl' cta={true} />
+                <FaqAccrodionGrid dict={dict.faq} />
 
                 <CornerFrameCta dict={dict.contact} lang={lang} />
 

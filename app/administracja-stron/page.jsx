@@ -20,9 +20,9 @@ import VersusCards from '@components/blocks/VersusCards'
 import StickyIntroChecklist from '@components/blocks/StickyIntroChecklist'
 import CornerFrameCtaOneButton from '@components/blocks/cta/CornerFrameCtaOneButton'
 import Packages from '@components/blocks/Packages'
+import IconGridWithCentredOutro from '@components/blocks/IconGridWithCentredOutro'
 
 import AdministrationTechnologies from './_components/AdministrationTechnologies'
-import AdministrationNeeds from './_components/AdministrationNeeds'
 import AdministrationWebsitesCta from './_components/AdministrationWebsitesCta'
 
 import internal from '@assets/images/administration/internal.webp'
@@ -72,7 +72,7 @@ const page = async ({ searchParams }) => {
                 <ContentWithSidebarBox dict={dict.raport} reverse={true} />
                 <StepsGrid dict={dict.process} />
                 <StickyIntroChecklist dict={dict.prepare} />
-                <AdministrationNeeds dict={dict.whoNeeds} />
+                <IconGridWithCentredOutro dict={dict.whoNeeds} />
                 <TimelineListWithImage dict={dict.whyUs} titleMaxWidth = '2xl' cta={true} />
                 <FaqAccrodionGrid dict={dict.faq} />
 

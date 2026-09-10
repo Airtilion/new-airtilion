@@ -26,7 +26,7 @@ const IconRowListWithFaqGrid = ({ dict, withTopMargin = true, titleColSpan = 2 }
                 <div className='max-w-4xl'>
                     <h2 className='title'>{dict.title}</h2>
                     <p className='mt-8 text-[18px] leading-relaxed max-md:text-[16px]'>{dict.intro}</p>
-                    <p className='mt-6 text-[18px] max-md:text-[16px]'>{dict.subintro}</p>
+                    {dict.subintro && (<p className='mt-6 text-[18px] max-md:text-[16px]'>{dict.subintro}</p>)}
                 </div>
 
                 <div className='mt-16 flex flex-col border-t border-white/10'>

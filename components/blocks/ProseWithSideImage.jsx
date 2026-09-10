@@ -2,10 +2,10 @@ import React from 'react'
 import Image from 'next/image'
 import ssl from '@assets/images/websites/ssl.webp'
 
-const ProseWithSideImage = ({ dict, dark = true }) => {
+const ProseWithSideImage = ({ dict, dark = true, reverse = false }) => {
     return (
         <section className={`mt-32 ${dark ? 'py-32 relative overflow-hidden bg-black' : ''}`}>
-            <div className='section-style flex items-center gap-16 max-lg:flex-col-reverse'>
+            <div className={`section-style flex items-center gap-16 ${reverse ? 'flex-row-reverse' : ''} max-lg:flex-col-reverse`}>
 
                 <div className='relative w-max h-max max-sm:w-full max-sm:h-full'>
                     <Image src={ssl} alt={dict.imgAlt} width={600} height={500} className="object-cover rounded-2xl max-xl:w-[400px] max-lg:w-[600px] max-sm:w-full" />

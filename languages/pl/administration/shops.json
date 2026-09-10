@@ -310,6 +310,183 @@
             }
         ]
     },
+    "raport": {
+        "title": "Co dokładnie znajdziesz w comiesięcznym raporcie?",
+        "imgAlt": "Przykładowy raport miesięczny z administracji sklepu internetowego",
+        "paragraphs": [
+            "Wielu naszych klientów na początku pyta, skąd będą wiedzieć, że w ogóle coś robimy przy ich sklepie. Odpowiedź jest prosta: co miesiąc wysyłamy krótki, czytelny raport."
+        ],
+        "listLabel": "Raport pokazuje:",
+        "items": [
+            {
+                "title": "Wykonane aktualizacje",
+                "desc": "pełna lista zmian wprowadzonych w danym miesiącu."
+            },
+            {
+                "title": "Próby ataku",
+                "desc": "informacja, czy wykryliśmy jakiekolwiek próby naruszenia bezpieczeństwa sklepu."
+            },
+            {
+                "title": "Dostępność i wydajność",
+                "desc": "jak wyglądała dostępność sklepu i czas ładowania w danym miesiącu."
+            },
+            {
+                "title": "Rekomendacje",
+                "desc": "sugestie z naszej strony, na przykład optymalizacja przed zbliżającą się promocją."
+            }
+        ],
+        "outro": "Dzięki temu zawsze wiesz, że Twój sklep jest pod kontrolą, nawet jeśli na co dzień o tym nie myślisz."
+    },
+    "prepare": {
+        "title": "Jak przygotować się do przekazania nam opieki nad sklepem?",
+        "lead": "Zanim zaczniemy współpracę, warto zebrać kilka informacji. Ułatwi to nam szybkie przeprowadzenie audytu i przygotowanie trafnej wyceny.",
+        "body": "Poniżej znajdziesz, co dokładnie warto przygotować przed startem współpracy.",
+        "items": [
+            {
+                "icon": "ph:key-light",
+                "title": "Dane dostępowe",
+                "desc": "Login i hasło do panelu administracyjnego sklepu."
+            },
+            {
+                "icon": "ph:hard-drives-light",
+                "title": "Hosting lub platforma SaaS",
+                "desc": "Informacja o dostawcy hostingu lub wybranej platformie SaaS."
+            },
+            {
+                "icon": "ph:chart-line-up-light",
+                "title": "Charakterystyka ruchu",
+                "desc": "Krótki opis tego, jak wygląda ruch w Twoim sklepie w ciągu roku, w tym planowane kampanie promocyjne."
+            },
+            {
+                "icon": "ph:warning-circle-light",
+                "title": "Historia problemów",
+                "desc": "Informacja, czy sklep wcześniej miał problemy z wydajnością albo bezpieczeństwem."
+            }
+        ],
+        "outro": "Jeśli nie masz części tych informacji, nie przejmuj się. Podczas audytu sami sprawdzimy, co da się ustalić, a resztę uzupełnimy wspólnie na pierwszej rozmowie."
+    },
+    "process": {
+        "title": "Jak wygląda proces przejęcia opieki nad Twoim sklepem?",
+        "desc": "Przejęcie administracji nowego sklepu robimy w kilku jasnych krokach, żeby nic nie umknęło naszej uwadze.",
+        "steps": [
+            {
+                "number": "01",
+                "title": "Wstępny audyt",
+                "desc": "Sprawdzamy to, co widać z zewnątrz, bez dostępu do panelu: szybkość ładowania, wybraną platformę i ogólny stan techniczny sklepu. Na tej podstawie przygotowujemy wstępną wycenę."
+            },
+            {
+                "number": "02",
+                "title": "Wycena i umowa",
+                "desc": "Na podstawie wstępnego audytu przygotowujemy wycenę dopasowaną do widocznego stanu sklepu i podpisujemy umowę."
+            },
+            {
+                "number": "03",
+                "title": "Bezpieczne przekazanie dostępów",
+                "desc": "Ustalamy bezpieczny sposób, w jaki przekażesz nam dostęp do panelu administracyjnego, hostingu lub platformy sprzedażowej."
+            },
+            {
+                "number": "04",
+                "title": "Pełny audyt techniczny",
+                "desc": "Dopiero z pełnym dostępem sprawdzamy sklep dokładnie: wersję platformy, wtyczki, integracje płatności i realne luki bezpieczeństwa, których nie widać z zewnątrz."
+            },
+            {
+                "number": "05",
+                "title": "Pierwsze prace porządkowe",
+                "desc": "Aktualizujemy wszystko, co wymaga aktualizacji, usuwamy zbędne wtyczki i przeprowadzamy pierwszy test wydajności sklepu."
+            },
+            {
+                "number": "06",
+                "title": "Stała opieka i raportowanie",
+                "desc": "Od tego momentu Twój sklep jest pod naszą regularną kontrolą, zgodnie z wybranym pakietem. Co miesiąc dostajesz raport z wykonanych prac."
+            }
+        ]
+    },
+    "marketing": {
+        "title": "Rozwój sklepu po stronie marketingu",
+        "paragraphs": [
+            "Administracja sklepu internetowego dba o jego techniczną kondycję i poprawne funkcjonowanie, ale nie obejmuje kampanii reklamowych ani pozycjonowania. To osobna specjalizacja, wymagająca ciągłej pracy analitycznej.",
+            "Jeśli szukasz wsparcia w zakresie kampanii Google Ads, Meta Ads, optymalizacji SEO czy content marketingu, możemy skierować Cię do sprawdzonych partnerów, którzy zajmują się tym na co dzień. Dotyczy to też budowy landing page pod konkretną promocję czy działań marketingowych zwiększających widoczność w wynikach wyszukiwarki Google.",
+            "Sklep internetowy to narzędzie sprzedaży samo w sobie, ale bez ruchu z wyszukiwarki czy kampanii nie wykorzysta pełnego potencjału. Skuteczne działania marketingowe to osobna, specjalistyczna wiedza, której nie oferujemy w ramach administracji, dlatego zawsze polecamy w tym celu sprawdzonych partnerów. Od strony technicznej przygotujemy Twój sklep tak, żeby taka współpraca z partnerem marketingowym była możliwa od pierwszego dnia."
+        ]
+    },
+    "whoNeeds": {
+        "title": "Kto właściwie potrzebuje administracji sklepu internetowego?",
+        "imgAlt": "Optymalizacja wydajności sklepu internetowego przed sezonowym szczytem ruchu",
+        "paragraphs": [
+            "Odpowiedź brzmi: każdy sklep, dla którego przestój oznacza realną stratę pieniędzy, a nie tylko niedogodność. Nie musisz prowadzić dużej platformy z tysiącami produktów, żeby administracja miała sens.",
+            "Szczególnie polecamy stałą opiekę sklepom, które planują większe kampanie promocyjne, sklepom z rosnącą liczbą zamówień oraz właścicielom, którzy nie mają w zespole nikogo z wiedzą techniczną i nie chcą, żeby drobna aktualizacja wtyczki spędzała im sen z powiek. Twój własny sklep internetowy zasługuje na taką samą opiekę, niezależnie od tego, na jakiej platformie działa i jak dawno go uruchomiłeś. Dla większych sklepów oferujemy też rozwiązania dedykowane. Wiedza i doświadczenie zdobyte przy setkach podobnych audytów pozwalają nam szybko znaleźć realne źródło problemu, zamiast zgadywać."
+        ]
+    },
+    "whyUs": {
+        "title": "Dlaczego warto wybrać Airtilion do administracji sklepu internetowego?",
+        "intro": "Na rynku znajdziesz wiele firm oferujących administrację sklepów internetowych. Oto, co realnie wyróżnia naszą firmę.",
+        "imgAlt": "Lew oświetlony punktowym światłem w ciemności, symbolizujący czujność i nieprzerwaną opiekę nad stronami internetowymi Airtilion",
+        "reasons": [
+            {
+                "title": "Obsługujemy trzy najpopularniejsze platformy e-commerce, nie tylko jedną.",
+                "desc": "Niezależnie od tego, czy Twój sklep działa na WooCommerce, Shopify czy Shoperze, możemy przejąć nad nim opiekę dzięki specjalistycznej wiedzy o każdej z tych platform."
+            },
+            {
+                "title": "Przygotowujemy sklepy na sezonowe szczyty ruchu.",
+                "desc": "Testy obciążeniowe i optymalizacja przed Black Friday to coś, czego wiele firm zajmujących się wyłącznie zwykłymi stronami po prostu nie robi."
+            },
+            {
+                "title": "Dobieramy zakres wsparcia do Twoich realnych potrzeb.",
+                "desc": "Nie sprzedajemy Ci pakietu większego, niż potrzebuje Twój sklep, a w razie potrzeby zawsze możesz przejść na pakiet dedykowany z szerszym zakresem opieki."
+            },
+            {
+                "title": "Reagujemy szybko.",
+                "desc": "Standardowo odzywamy się do Ciebie w ciągu 24 godzin lub najbliższego dnia roboczego, a w pilnych sytuacjach reagujemy priorytetowo."
+            },
+            {
+                "title": "Jesteśmy dostępni w całej Polsce.",
+                "desc": "Działamy w 100% online, więc niezależnie od tego, gdzie prowadzisz firmę, możemy zaopiekować się Twoim sklepem."
+            }
+        ],
+        "cta": {
+            "h3": "Potrzebujesz też nowego sklepu internetowego?",
+            "desc": "Jeśli szukasz partnera do tworzenia sklepu internetowego od zera, a nie tylko opieki nad istniejącym sklepem, sprawdź naszą pełną ofertę.",
+            "button": "Zobacz ofertę tworzenia sklepów",
+            "href": "/sklepy-internetowe"
+        }
+    },
+    "faq": {
+        "title": "Najczęściej zadawane pytania (FAQ)",
+        "questions": [
+            {
+                "q": "Czy administrujecie sklepy, których nie budowaliście?",
+                "a": "Tak. Przejmujemy opiekę nad sklepami zbudowanymi przez inne firmy, niezależnie od użytej platformy. Zaczynamy zawsze od audytu, żeby poznać stan techniczny sklepu, zanim zaproponujemy zakres współpracy."
+            },
+            {
+                "q": "Z jakim wyprzedzeniem powinienem zgłosić się przed Black Friday?",
+                "a": "Im wcześniej, tym lepiej, najlepiej co najmniej trzy do czterech tygodni wcześniej. Testy obciążeniowe i optymalizacja wymagają czasu, a w ostatnim tygodniu przed samą wyprzedażą wolimy już tylko pilnować, żeby nic nie zaskoczyło Cię w trakcie."
+            },
+            {
+                "q": "Czy muszę podpisywać długoterminową umowę?",
+                "a": "Nie wymagamy długich zobowiązań. Możesz zrezygnować z usługi z zachowaniem krótkiego okresu wypowiedzenia, jeśli z jakiegoś powodu przestanie Ci ona odpowiadać."
+            },
+            {
+                "q": "Co się stanie z moim sklepem, jeśli zrezygnuję z waszej opieki?",
+                "a": "Przekazujemy Ci pełny dostęp do panelu, hostingu i wszystkich kont, z których korzystaliśmy w Twoim imieniu. Sklep zostaje Twój, razem z historią wykonanych prac z raportów."
+            },
+            {
+                "q": "Co się stanie, jeśli mój sklep zostanie zhakowany mimo opieki?",
+                "a": "W ramach stałej administracji reagujemy priorytetowo na każdy incydent bezpieczeństwa, bez dodatkowych kosztów za samą interwencję. Naszym celem jest jak najszybsze przywrócenie działania sklepu i usunięcie przyczyny problemu."
+            },
+            {
+                "q": "Co jeśli pełny audyt ujawni poważniejszy problem, którego nie było w wycenie?",
+                "a": "Informujemy Cię o tym przed podjęciem dalszych prac i wspólnie ustalamy, czy warto rozszerzyć zakres, zamiast po prostu doliczyć koszty bez uprzedzenia."
+            },
+            {
+                "q": "Czy wolny sklep internetowy naprawdę traci pozycję w wyszukiwarce?",
+                "a": "Tak. Google bierze pod uwagę szybkość ładowania strony przy ustalaniu pozycji w wynikach wyszukiwania. Wolny sklep online traci więc nie tylko klientów, którzy nie doczekają się załadowania strony, ale też widoczność w wyszukiwarce Google w dłuższej perspektywie."
+            },
+            {
+                "q": "Czy mogę zamówić tylko jednorazowy audyt, bez stałej umowy?",
+                "a": "Tak, na przykład przed planowaną kampanią promocyjną. Wiele sklepów po takim audycie decyduje się jednak na stałą opiekę, żeby nie sprawdzać stanu technicznego wyłącznie raz w roku."
+            }
+        ]
+    },
     "contact": {
         "title": "Napisz do nas - doradzimy",
         "subtitle": "Zostaw wiadomość. Odpiszemy w ciągu 24 godzin i zaproponujemy najlepsze rozwiązanie dla Twojej firmy.",

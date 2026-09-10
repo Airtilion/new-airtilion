@@ -18,6 +18,7 @@ import Packages from '@components/blocks/Packages'
 import FullImageWithFloatingCard from '@components/blocks/FullImageWithFloatingCard'
 
 import worth from '@assets/images/websites/worth-it.webp'
+import IconRowListWithFaqGrid from '@components/blocks/IconRowListWithFaqGrid'
 
 export const metadata = {
     title: 'Administracja stron internetowych - Airtilion',
@@ -59,6 +60,7 @@ const page = async ({ searchParams }) => {
                 <ProseWithSideImage dict={dict.ourWork} dark={false} />
                 <Packages dict={dict.packages} />
                 <FullImageWithFloatingCard dict={dict.safe} img={worth} />
+                <IconRowListWithFaqGrid dict={dict.whoHandles} />
 
                 <CornerFrameCta dict={dict.contact} lang={lang} />
 

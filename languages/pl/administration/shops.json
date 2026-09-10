@@ -284,6 +284,32 @@
         ],
         "outro": "Monitorujemy też podejrzaną aktywność, na przykład nietypową liczbę prób logowania z jednego adresu IP, więc reagujemy, zanim ktoś zdąży wyrządzić szkodę. Dzięki temu poziom bezpieczeństwa Twojego sklepu nie opiera się na jednym zabezpieczeniu, tylko na kilku niezależnych warstwach ochrony działających jednocześnie."
     },
+    "whoHandles": {
+        "title": "Kto zajmuje się administracją Twojego sklepu?",
+        "intro": "Za każdym sklepem, którym się opiekujemy, stoi konkretna osoba z zespołu, nie anonimowy skrypt, który raz na jakiś czas klika \"aktualizuj\". Administrowanie sklepem internetowym wymaga specjalistycznej wiedzy o konkretnej platformie, nie tylko ogólnej znajomości informatyki.",
+        "costs": [
+            {
+                "icon": "ph:users-three-light",
+                "title": "Zespół zna Twoją platformę",
+                "desc": "Mamy wiedzę i doświadczenie w pracy z WooCommerce, Shopify i Shoperem, więc wiemy, czego szukać przy audycie i jak reagować, gdy coś zaczyna działać nieprawidłowo."
+            },
+            {
+                "icon": "ph:chat-circle-light",
+                "title": "Bezpośredni kontakt",
+                "desc": "W razie problemu wiesz, do kogo napisać, zamiast czekać w kolejce w ogólnym dziale wsparcia."
+            },
+            {
+                "icon": "ph:clock-light",
+                "title": "Gwarantowany czas reakcji",
+                "desc": "W pakietach z umową SLA gwarantujemy konkretny czas szybkiej reakcji."
+            },
+            {
+                "icon": "ph:user-focus-light",
+                "title": "Zawsze ta sama osoba",
+                "desc": "Nie trafiasz do przypadkowego pracownika działu wsparcia. Nasz zespół jest mały z założenia, więc rozmawiasz zawsze z kimś, kto zna historię Twojego sklepu, niezależnie od wybranego pakietu."
+            }
+        ]
+    },
     "contact": {
         "title": "Napisz do nas - doradzimy",
         "subtitle": "Zostaw wiadomość. Odpiszemy w ciągu 24 godzin i zaproponujemy najlepsze rozwiązanie dla Twojej firmy.",

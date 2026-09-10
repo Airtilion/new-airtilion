@@ -41,17 +41,19 @@ const IconRowListWithFaqGrid = ({ dict, withTopMargin = true, titleColSpan = 2 }
                     ))}
                 </div>
 
-                <div className='mt-8 grid grid-cols-2 gap-16 pt-16 max-lg:grid-cols-1'>
-                    {dict.faq.map((item, idx) => (
-                        <div key={idx} className='flex flex-col gap-6'>
-                            <h3 className='text-[28px] max-lg:text-[24px] tracking-tight max-sm:text-[22px]'>{item.title}</h3>
+                {dict.faq && (
+                    <div className='mt-8 grid grid-cols-2 gap-16 pt-16 max-lg:grid-cols-1'>
+                        {dict.faq.map((item, idx) => (
+                            <div key={idx} className='flex flex-col gap-6'>
+                                <h3 className='text-[28px] max-lg:text-[24px] tracking-tight max-sm:text-[22px]'>{item.title}</h3>
 
-                            {item.paragraphs.map((p, pIdx) => (
-                                <p key={pIdx} className='mt-2 text-[16px] leading-relaxed max-sm:text-[15px]'>{p}</p>
-                            ))}
-                        </div>
-                    ))}
-                </div>
+                                {item.paragraphs.map((p, pIdx) => (
+                                    <p key={pIdx} className='mt-2 text-[16px] leading-relaxed max-sm:text-[15px]'>{p}</p>
+                                ))}
+                            </div>
+                        ))}
+                    </div>
+                )}
 
             </div>
 
